@@ -1,0 +1,333 @@
+[
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "Find the inverses of the matrices in this Exercise \\[\\begin{bmatrix}8 & 6 \\5 & 4\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find the vector $\\mathbf{x}$ determined by the given coordinate vector $\\left[ \\mathbf{x} \right]_B$ and the given basis $B$. \begin{enumerate}  \\item   Let the basis $B = \\left\\{   \begin{bmatrix}  1 \\  1  \\end{bmatrix},  \\begin{bmatrix}  2 \\  -1  \\end{bmatrix}  \right\\}$, and the coordinate vector $\\left[ \\mathbf{x} \right]_B =   \begin{bmatrix}  3 \\  2  \\end{bmatrix}$. Find the vector $\\mathbf{x}$.\\end{enumerate}."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let A and D be defined as follows:\\[A = \\begin{bmatrix}1 & 1 & 1 \\1 & 2 & 3 \\1 & 4 & 5\\end{bmatrix},\\quad D = \begin{bmatrix}2 & 0 & 0 \\0 & 3 & 0 \\0 & 0 & 5\\end{bmatrix}\\]Compute AD and DA."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \\begin{bmatrix} 2 & 5 \\-3 & 1\\end{bmatrix},\\quad B = \begin{bmatrix}4 & -5 \\3 & k\\end{bmatrix}\\]What value(s) of k, if any, will make AB = BA?"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \\begin{bmatrix}3 & -6 \\-1 & 2\\end{bmatrix}\\]Construct a \\( 2 \\times 2 \\) matrix \\( B \\) such that \\( AB \\) is the zero matrix. Use two different nonzero columns for \\( B \\)."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\( r_1, \\dots, r_p \\) be vectors in \\( \\mathbb{R}^n \\), and let \\( Q \\) be an \\( m \times n \\) matrix. Write the matrix \\[\\left[ Q r_1 \\; Q r_2 \\; \\dots \\; Q r_p \right]\\]as a product of two matrices (neither of which is an identity matrix)."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Construct a \\( 4 \times 3 \\) matrix with rank 1."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In the Exercise, find a basis for the subspace spanned by the given vectors. What is the dimension of the subspace?\\[\\mathbf{v}_1 = \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \\end{bmatrix}, \\quad \\mathbf{v}_2 = \begin{bmatrix} -3 \\ 9 \\ -6 \\ 12 \\end{bmatrix}, \\quad \\mathbf{v}_3 = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v}_4 = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Display a matrix $A$ and an echelon form of $A$. Find bases for $\text{Col } A$ and $\text{Nul } A$, and then state the dimensions of these subspaces.\\[ \\quad A = \\begin{bmatrix}1 & -3 & 2 & -4 \\-3 & 9 & -1 & 5 \\2 & -6 & 4 & -3 \\-4 & 12 & 2 & 7 \\\\end{bmatrix}, \\quad\\]\\[\\text{Echelon form of } A = \\begin{bmatrix}1 & -3 & 2 & -4 \\0 & 0 & 5 & -7 \\0 & 0 & 0 & 5 \\0 & 0 & 0 & 0 \\\\end{bmatrix}\\]."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/1_matrix algebra/img_1.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_2.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_3.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_4.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_5.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_6.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_7.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_8.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_9.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_10.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "Find the inverses of the matrices in this Exercise \\[\\begin{bmatrix}8 & 6 \\5 & 4\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find the vector $\\mathbf{x}$ determined by the given coordinate vector $\\left[ \\mathbf{x} \right]_B$ and the given basis $B$. \begin{enumerate}  \\item   Let the basis $B = \\left\\{   \begin{bmatrix}  1 \\  1  \\end{bmatrix},  \\begin{bmatrix}  2 \\  -1  \\end{bmatrix}  \right\\}$, and the coordinate vector $\\left[ \\mathbf{x} \right]_B =   \begin{bmatrix}  3 \\  2  \\end{bmatrix}$. Find the vector $\\mathbf{x}$.\\end{enumerate}."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let A and D be defined as follows:\\[A = \\begin{bmatrix}1 & 1 & 1 \\1 & 2 & 3 \\1 & 4 & 5\\end{bmatrix},\\quad D = \begin{bmatrix}2 & 0 & 0 \\0 & 3 & 0 \\0 & 0 & 5\\end{bmatrix}\\]Compute AD and DA."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix} 2 & 5 \\-3 & 1\\end{bmatrix},\\quad B = \begin{bmatrix}4 & -5 \\3 & k\\end{bmatrix}\\]What value(s) of k, if any, will make AB = BA?"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}3 & -6 \\-1 & 2\\end{bmatrix}\\]Construct a \\( 2 \\times 2 \\) matrix \\( B \\) such that \\( AB \\) is the zero matrix. Use two different nonzero columns for \\( B \\)."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\( r_1, \\dots, r_p \\) be vectors in \\( \\mathbb{R}^n \\), and let \\( Q \\) be an \\( m \times n \\) matrix. Write the matrix \\[\\left[ Q r_1 \\; Q r_2 \\; \\dots \\; Q r_p \right]\\]as a product of two matrices (neither of which is an identity matrix)."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Construct a \\( 4 \times 3 \\) matrix with rank 1."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In the Exercise, find a basis for the subspace spanned by the given vectors. What is the dimension of the subspace?\\[\\mathbf{v}_1 = \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \\end{bmatrix}, \\quad \\mathbf{v}_2 = \begin{bmatrix} -3 \\ 9 \\ -6 \\ 12 \\end{bmatrix}, \\quad \\mathbf{v}_3 = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v}_4 = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Display a matrix $A$ and an echelon form of $A$. Find bases for $\text{Col } A$ and $\text{Nul } A$, and then state the dimensions of these subspaces.\\[ \\quad A = \\begin{bmatrix}1 & -3 & 2 & -4 \\-3 & 9 & -1 & 5 \\2 & -6 & 4 & -3 \\-4 & 12 & 2 & 7 \\\\end{bmatrix}, \\quad\\]\\[\\text{Echelon form of } A = \\begin{bmatrix}1 & -3 & 2 & -4 \\0 & 0 & 5 & -7 \\0 & 0 & 0 & 5 \\0 & 0 & 0 & 0 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_1.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_2.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_3.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_4.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_5.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_6.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_7.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_8.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_9.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_10.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "Find the inverses of the matrices in this Exercise \\[\\begin{bmatrix}8 & 6 \\5 & 4\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find the vector $\\mathbf{x}$ determined by the given coordinate vector $\\left[ \\mathbf{x} \right]_B$ and the given basis $B$. \begin{enumerate}  \\item   Let the basis $B = \\left\\{   \begin{bmatrix}  1 \\  1  \\end{bmatrix},  \\begin{bmatrix}  2 \\  -1  \\end{bmatrix}  \right\\}$, and the coordinate vector $\\left[ \\mathbf{x} \right]_B =   \begin{bmatrix}  3 \\  2  \\end{bmatrix}$. Find the vector $\\mathbf{x}$.\\end{enumerate}."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let A and D be defined as follows:\\[A = \\begin{bmatrix}1 & 1 & 1 \\1 & 2 & 3 \\1 & 4 & 5\\end{bmatrix},\\quad D = \begin{bmatrix}2 & 0 & 0 \\0 & 3 & 0 \\0 & 0 & 5\\end{bmatrix}\\]Compute AD and DA."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix} 2 & 5 \\-3 & 1\\end{bmatrix},\\quad B = \begin{bmatrix}4 & -5 \\3 & k\\end{bmatrix}\\]What value(s) of k, if any, will make AB = BA?"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}3 & -6 \\-1 & 2\\end{bmatrix}\\]Construct a \\( 2 \\times 2 \\) matrix \\( B \\) such that \\( AB \\) is the zero matrix. Use two different nonzero columns for \\( B \\)."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\( r_1, \\dots, r_p \\) be vectors in \\( \\mathbb{R}^n \\), and let \\( Q \\) be an \\( m \times n \\) matrix. Write the matrix \\[\\left[ Q r_1 \\; Q r_2 \\; \\dots \\; Q r_p \right]\\]as a product of two matrices (neither of which is an identity matrix)."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Construct a \\( 4 \times 3 \\) matrix with rank 1."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In the Exercise, find a basis for the subspace spanned by the given vectors. What is the dimension of the subspace?\\[\\mathbf{v}_1 = \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \\end{bmatrix}, \\quad \\mathbf{v}_2 = \begin{bmatrix} -3 \\ 9 \\ -6 \\ 12 \\end{bmatrix}, \\quad \\mathbf{v}_3 = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v}_4 = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Display a matrix $A$ and an echelon form of $A$. Find bases for $\text{Col } A$ and $\text{Nul } A$, and then state the dimensions of these subspaces.\\[ \\quad A = \\begin{bmatrix}1 & -3 & 2 & -4 \\-3 & 9 & -1 & 5 \\2 & -6 & 4 & -3 \\-4 & 12 & 2 & 7 \\\\end{bmatrix}, \\quad\\]\\[\\text{Echelon form of } A = \\begin{bmatrix}1 & -3 & 2 & -4 \\0 & 0 & 5 & -7 \\0 & 0 & 0 & 5 \\0 & 0 & 0 & 0 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_1.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_2.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_3.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_4.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_5.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_6.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_7.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_8.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_9.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_10.png"
+    }  
+  ]
+  

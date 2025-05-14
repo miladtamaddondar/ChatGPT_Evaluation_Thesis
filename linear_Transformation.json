@@ -1,0 +1,8 @@
+[
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "Find the inverses of the matrices in this Exercise \\[\\begin{bmatrix}8 & 6 \\5 & 4\\end{bmatrix}\\]."
+    }
+  ]
+  

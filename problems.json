@@ -1,0 +1,168 @@
+[
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "text",
+    "content": "In this exercise, with \\( T \\) defined by \\( T(\\mathbf{x}) = A\\mathbf{x} \\), find a vector \\( \\mathbf{x} \\) whose image under \\( T \\) is \\( \\mathbf{b} \\), and determine whether \\( \\mathbf{x} \\) is unique.\\[\textbf{3. } A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5\\end{bmatrix}, \\quad \\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3\\end{bmatrix}\\]."
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "text",
+    "content": "In this exercise, assume that \\( T \\) is a linear transformation. Find the standard matrix of \\( T \\). \\\\( T : \\mathbb{R}^2 \\to \\mathbb{R}^2 \\) rotates points (about the origin) through \\( \\frac{3\\pi}{2} \\) radians (counterclockwise)."
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "text",
+    "content": "Determine the dimensions of \\( \\text{Nul } A \\) and \\( \\text{Col } A \\) for the matrices shown in this exercise\\[A = \\begin{bmatrix}1 & 3 & -4 & 2 & -1 & 6 \\0 & 0 & 1 & -3 & 7 & 0 \\0 & 0 & 0 & 1 & 4 & -3 \\0 & 0 & 0 & 0 & 0 & 0\\end{bmatrix}\\]."
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "text",
+    "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "text",
+    "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2,\\ 2 + t - 5t^2,\\ 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_1.png"
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_2.png"
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_3.png"
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_4.png"
+  },
+  {
+    "type": "LogiCoT",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_5.png"
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "text",
+    "content": "In this exercise, with \\( T \\) defined by \\( T(\\mathbf{x}) = A\\mathbf{x} \\), find a vector \\( \\mathbf{x} \\) whose image under \\( T \\) is \\( \\mathbf{b} \\), and determine whether \\( \\mathbf{x} \\) is unique.\\[\textbf{3. } A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5\\end{bmatrix}, \\quad \\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3\\end{bmatrix}\\]."
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "text",
+    "content": "In this exercise, assume that \\( T \\) is a linear transformation. Find the standard matrix of \\( T \\). \\\\( T : \\mathbb{R}^2 \\to \\mathbb{R}^2 \\) rotates points (about the origin) through \\( \\frac{3\\pi}{2} \\) radians (counterclockwise)."
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "text",
+    "content": "Determine the dimensions of \\( \\text{Nul } A \\) and \\( \\text{Col } A \\) for the matrices shown in this exercise\\[A = \\begin{bmatrix}1 & 3 & -4 & 2 & -1 & 6 \\0 & 0 & 1 & -3 & 7 & 0 \\0 & 0 & 0 & 1 & 4 & -3 \\0 & 0 & 0 & 0 & 0 & 0\\end{bmatrix}\\]."
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "text",
+    "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "text",
+    "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2,\\ 2 + t - 5t^2,\\ 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_1.png"
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_2.png"
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_3.png"
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_4.png"
+  },
+  {
+    "type": "Persona",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_5.png"
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "text",
+    "content": "In this exercise, with \\( T \\) defined by \\( T(\\mathbf{x}) = A\\mathbf{x} \\), find a vector \\( \\mathbf{x} \\) whose image under \\( T \\) is \\( \\mathbf{b} \\), and determine whether \\( \\mathbf{x} \\) is unique.\\[\textbf{3. } A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5\\end{bmatrix}, \\quad \\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3\\end{bmatrix}\\]."
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "text",
+    "content": "In this exercise, assume that \\( T \\) is a linear transformation. Find the standard matrix of \\( T \\). \\\\( T : \\mathbb{R}^2 \\to \\mathbb{R}^2 \\) rotates points (about the origin) through \\( \\frac{3\\pi}{2} \\) radians (counterclockwise)."
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "text",
+    "content": "Determine the dimensions of \\( \\text{Nul } A \\) and \\( \\text{Col } A \\) for the matrices shown in this exercise\\[A = \\begin{bmatrix}1 & 3 & -4 & 2 & -1 & 6 \\0 & 0 & 1 & -3 & 7 & 0 \\0 & 0 & 0 & 1 & 4 & -3 \\0 & 0 & 0 & 0 & 0 & 0\\end{bmatrix}\\]."
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "text",
+    "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "text",
+    "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2,\\ 2 + t - 5t^2,\\ 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_1.png"
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_2.png"
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_3.png"
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_4.png"
+  },
+  {
+    "type": "Chain-of-Table",
+    "prompt_input_type": "image",
+    "content": "Solve the linear algebra problem in this image",
+    "image": "images/question_5.png"
+  }
+  
+]

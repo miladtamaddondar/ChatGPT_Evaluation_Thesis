@@ -1,168 +1,1653 @@
 [
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "text",
-    "content": "In this exercise, with \\( T \\) defined by \\( T(\\mathbf{x}) = A\\mathbf{x} \\), find a vector \\( \\mathbf{x} \\) whose image under \\( T \\) is \\( \\mathbf{b} \\), and determine whether \\( \\mathbf{x} \\) is unique.\\[\textbf{3. } A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5\\end{bmatrix}, \\quad \\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3\\end{bmatrix}\\]."
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "text",
-    "content": "In this exercise, assume that \\( T \\) is a linear transformation. Find the standard matrix of \\( T \\). \\\\( T : \\mathbb{R}^2 \\to \\mathbb{R}^2 \\) rotates points (about the origin) through \\( \\frac{3\\pi}{2} \\) radians (counterclockwise)."
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "text",
-    "content": "Determine the dimensions of \\( \\text{Nul } A \\) and \\( \\text{Col } A \\) for the matrices shown in this exercise\\[A = \\begin{bmatrix}1 & 3 & -4 & 2 & -1 & 6 \\0 & 0 & 1 & -3 & 7 & 0 \\0 & 0 & 0 & 1 & 4 & -3 \\0 & 0 & 0 & 0 & 0 & 0\\end{bmatrix}\\]."
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "text",
-    "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "text",
-    "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2,\\ 2 + t - 5t^2,\\ 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_1.png"
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_2.png"
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_3.png"
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_4.png"
-  },
-  {
-    "type": "LogiCoT",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_5.png"
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "text",
-    "content": "In this exercise, with \\( T \\) defined by \\( T(\\mathbf{x}) = A\\mathbf{x} \\), find a vector \\( \\mathbf{x} \\) whose image under \\( T \\) is \\( \\mathbf{b} \\), and determine whether \\( \\mathbf{x} \\) is unique.\\[\textbf{3. } A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5\\end{bmatrix}, \\quad \\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3\\end{bmatrix}\\]."
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "text",
-    "content": "In this exercise, assume that \\( T \\) is a linear transformation. Find the standard matrix of \\( T \\). \\\\( T : \\mathbb{R}^2 \\to \\mathbb{R}^2 \\) rotates points (about the origin) through \\( \\frac{3\\pi}{2} \\) radians (counterclockwise)."
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "text",
-    "content": "Determine the dimensions of \\( \\text{Nul } A \\) and \\( \\text{Col } A \\) for the matrices shown in this exercise\\[A = \\begin{bmatrix}1 & 3 & -4 & 2 & -1 & 6 \\0 & 0 & 1 & -3 & 7 & 0 \\0 & 0 & 0 & 1 & 4 & -3 \\0 & 0 & 0 & 0 & 0 & 0\\end{bmatrix}\\]."
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "text",
-    "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "text",
-    "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2,\\ 2 + t - 5t^2,\\ 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_1.png"
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_2.png"
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_3.png"
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_4.png"
-  },
-  {
-    "type": "Persona",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_5.png"
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "text",
-    "content": "In this exercise, with \\( T \\) defined by \\( T(\\mathbf{x}) = A\\mathbf{x} \\), find a vector \\( \\mathbf{x} \\) whose image under \\( T \\) is \\( \\mathbf{b} \\), and determine whether \\( \\mathbf{x} \\) is unique.\\[\textbf{3. } A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5\\end{bmatrix}, \\quad \\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3\\end{bmatrix}\\]."
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "text",
-    "content": "In this exercise, assume that \\( T \\) is a linear transformation. Find the standard matrix of \\( T \\). \\\\( T : \\mathbb{R}^2 \\to \\mathbb{R}^2 \\) rotates points (about the origin) through \\( \\frac{3\\pi}{2} \\) radians (counterclockwise)."
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "text",
-    "content": "Determine the dimensions of \\( \\text{Nul } A \\) and \\( \\text{Col } A \\) for the matrices shown in this exercise\\[A = \\begin{bmatrix}1 & 3 & -4 & 2 & -1 & 6 \\0 & 0 & 1 & -3 & 7 & 0 \\0 & 0 & 0 & 1 & 4 & -3 \\0 & 0 & 0 & 0 & 0 & 0\\end{bmatrix}\\]."
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "text",
-    "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "text",
-    "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2,\\ 2 + t - 5t^2,\\ 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_1.png"
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_2.png"
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_3.png"
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_4.png"
-  },
-  {
-    "type": "Chain-of-Table",
-    "prompt_input_type": "image",
-    "content": "Solve the linear algebra problem in this image",
-    "image": "images/question_5.png"
-  }
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "Find the inverses of the matrices in this Exercise \\[\\begin{bmatrix}8 & 6 \\5 & 4\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find the vector $\\mathbf{x}$ determined by the given coordinate vector $\\left[ \\mathbf{x} \right]_B$ and the given basis $B$. \begin{enumerate}  \\item   Let the basis $B = \\left\\{   \begin{bmatrix}  1 \\  1  \\end{bmatrix},  \\begin{bmatrix}  2 \\  -1  \\end{bmatrix}  \right\\}$, and the coordinate vector $\\left[ \\mathbf{x} \right]_B =   \begin{bmatrix}  3 \\  2  \\end{bmatrix}$. Find the vector $\\mathbf{x}$.\\end{enumerate}."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let A and D be defined as follows:\\[A = \\begin{bmatrix}1 & 1 & 1 \\1 & 2 & 3 \\1 & 4 & 5\\end{bmatrix},\\quad D = \begin{bmatrix}2 & 0 & 0 \\0 & 3 & 0 \\0 & 0 & 5\\end{bmatrix}\\]Compute AD and DA."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \\begin{bmatrix} 2 & 5 \\-3 & 1\\end{bmatrix},\\quad B = \begin{bmatrix}4 & -5 \\3 & k\\end{bmatrix}\\]What value(s) of k, if any, will make AB = BA?"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \\begin{bmatrix}3 & -6 \\-1 & 2\\end{bmatrix}\\]Construct a \\( 2 \\times 2 \\) matrix \\( B \\) such that \\( AB \\) is the zero matrix. Use two different nonzero columns for \\( B \\)."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\( r_1, \\dots, r_p \\) be vectors in \\( \\mathbb{R}^n \\), and let \\( Q \\) be an \\( m \times n \\) matrix. Write the matrix \\[\\left[ Q r_1 \\; Q r_2 \\; \\dots \\; Q r_p \right]\\]as a product of two matrices (neither of which is an identity matrix)."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Construct a \\( 4 \times 3 \\) matrix with rank 1."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In the Exercise, find a basis for the subspace spanned by the given vectors. What is the dimension of the subspace?\\[\\mathbf{v}_1 = \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \\end{bmatrix}, \\quad \\mathbf{v}_2 = \begin{bmatrix} -3 \\ 9 \\ -6 \\ 12 \\end{bmatrix}, \\quad \\mathbf{v}_3 = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v}_4 = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Display a matrix $A$ and an echelon form of $A$. Find bases for $\text{Col } A$ and $\text{Nul } A$, and then state the dimensions of these subspaces.\\[ \\quad A = \\begin{bmatrix}1 & -3 & 2 & -4 \\-3 & 9 & -1 & 5 \\2 & -6 & 4 & -3 \\-4 & 12 & 2 & 7 \\\\end{bmatrix}, \\quad\\]\\[\\text{Echelon form of } A = \\begin{bmatrix}1 & -3 & 2 & -4 \\0 & 0 & 5 & -7 \\0 & 0 & 0 & 5 \\0 & 0 & 0 & 0 \\\\end{bmatrix}\\]."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/1_matrix algebra/img_1.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_2.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_3.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_4.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_5.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_6.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_7.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_8.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_9.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_10.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "Find the inverses of the matrices in this Exercise \\[\\begin{bmatrix}8 & 6 \\5 & 4\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find the vector $\\mathbf{x}$ determined by the given coordinate vector $\\left[ \\mathbf{x} \right]_B$ and the given basis $B$. \begin{enumerate}  \\item   Let the basis $B = \\left\\{   \begin{bmatrix}  1 \\  1  \\end{bmatrix},  \\begin{bmatrix}  2 \\  -1  \\end{bmatrix}  \right\\}$, and the coordinate vector $\\left[ \\mathbf{x} \right]_B =   \begin{bmatrix}  3 \\  2  \\end{bmatrix}$. Find the vector $\\mathbf{x}$.\\end{enumerate}."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let A and D be defined as follows:\\[A = \\begin{bmatrix}1 & 1 & 1 \\1 & 2 & 3 \\1 & 4 & 5\\end{bmatrix},\\quad D = \begin{bmatrix}2 & 0 & 0 \\0 & 3 & 0 \\0 & 0 & 5\\end{bmatrix}\\]Compute AD and DA."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix} 2 & 5 \\-3 & 1\\end{bmatrix},\\quad B = \begin{bmatrix}4 & -5 \\3 & k\\end{bmatrix}\\]What value(s) of k, if any, will make AB = BA?"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}3 & -6 \\-1 & 2\\end{bmatrix}\\]Construct a \\( 2 \\times 2 \\) matrix \\( B \\) such that \\( AB \\) is the zero matrix. Use two different nonzero columns for \\( B \\)."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\( r_1, \\dots, r_p \\) be vectors in \\( \\mathbb{R}^n \\), and let \\( Q \\) be an \\( m \times n \\) matrix. Write the matrix \\[\\left[ Q r_1 \\; Q r_2 \\; \\dots \\; Q r_p \right]\\]as a product of two matrices (neither of which is an identity matrix)."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Construct a \\( 4 \times 3 \\) matrix with rank 1."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In the Exercise, find a basis for the subspace spanned by the given vectors. What is the dimension of the subspace?\\[\\mathbf{v}_1 = \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \\end{bmatrix}, \\quad \\mathbf{v}_2 = \begin{bmatrix} -3 \\ 9 \\ -6 \\ 12 \\end{bmatrix}, \\quad \\mathbf{v}_3 = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v}_4 = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Display a matrix $A$ and an echelon form of $A$. Find bases for $\text{Col } A$ and $\text{Nul } A$, and then state the dimensions of these subspaces.\\[ \\quad A = \\begin{bmatrix}1 & -3 & 2 & -4 \\-3 & 9 & -1 & 5 \\2 & -6 & 4 & -3 \\-4 & 12 & 2 & 7 \\\\end{bmatrix}, \\quad\\]\\[\\text{Echelon form of } A = \\begin{bmatrix}1 & -3 & 2 & -4 \\0 & 0 & 5 & -7 \\0 & 0 & 0 & 5 \\0 & 0 & 0 & 0 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_1.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_2.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_3.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_4.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_5.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_6.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_7.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_8.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_9.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_10.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "Find the inverses of the matrices in this Exercise \\[\\begin{bmatrix}8 & 6 \\5 & 4\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find the vector $\\mathbf{x}$ determined by the given coordinate vector $\\left[ \\mathbf{x} \right]_B$ and the given basis $B$. \begin{enumerate}  \\item   Let the basis $B = \\left\\{   \begin{bmatrix}  1 \\  1  \\end{bmatrix},  \\begin{bmatrix}  2 \\  -1  \\end{bmatrix}  \right\\}$, and the coordinate vector $\\left[ \\mathbf{x} \right]_B =   \begin{bmatrix}  3 \\  2  \\end{bmatrix}$. Find the vector $\\mathbf{x}$.\\end{enumerate}."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Find an LU factorization of the matrix\\[\\begin{bmatrix}6 & 9 \\4 & 5\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let A and D be defined as follows:\\[A = \\begin{bmatrix}1 & 1 & 1 \\1 & 2 & 3 \\1 & 4 & 5\\end{bmatrix},\\quad D = \begin{bmatrix}2 & 0 & 0 \\0 & 3 & 0 \\0 & 0 & 5\\end{bmatrix}\\]Compute AD and DA."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix} 2 & 5 \\-3 & 1\\end{bmatrix},\\quad B = \begin{bmatrix}4 & -5 \\3 & k\\end{bmatrix}\\]What value(s) of k, if any, will make AB = BA?"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}3 & -6 \\-1 & 2\\end{bmatrix}\\]Construct a \\( 2 \\times 2 \\) matrix \\( B \\) such that \\( AB \\) is the zero matrix. Use two different nonzero columns for \\( B \\)."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\( r_1, \\dots, r_p \\) be vectors in \\( \\mathbb{R}^n \\), and let \\( Q \\) be an \\( m \times n \\) matrix. Write the matrix \\[\\left[ Q r_1 \\; Q r_2 \\; \\dots \\; Q r_p \right]\\]as a product of two matrices (neither of which is an identity matrix)."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Construct a \\( 4 \times 3 \\) matrix with rank 1."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In the Exercise, find a basis for the subspace spanned by the given vectors. What is the dimension of the subspace?\\[\\mathbf{v}_1 = \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \\end{bmatrix}, \\quad \\mathbf{v}_2 = \begin{bmatrix} -3 \\ 9 \\ -6 \\ 12 \\end{bmatrix}, \\quad \\mathbf{v}_3 = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v}_4 = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Display a matrix $A$ and an echelon form of $A$. Find bases for $\text{Col } A$ and $\text{Nul } A$, and then state the dimensions of these subspaces.\\[ \\quad A = \\begin{bmatrix}1 & -3 & 2 & -4 \\-3 & 9 & -1 & 5 \\2 & -6 & 4 & -3 \\-4 & 12 & 2 & 7 \\\\end{bmatrix}, \\quad\\]\\[\\text{Echelon form of } A = \\begin{bmatrix}1 & -3 & 2 & -4 \\0 & 0 & 5 & -7 \\0 & 0 & 0 & 5 \\0 & 0 & 0 & 0 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/1_matrix algebra/img_1.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_2.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_3.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_4.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_5.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_6.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_7.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_8.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_9.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/1_matrix algebra/img_10.png"
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "Find the eigenvalues of the matrices in this exercise.\\[ \\quad \\begin{bmatrix}0 & 0 & 0 \\0 & 2 & 5 \\0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Find the characteristic polynomial and the eigenvalues of the matrix in:\\[\\begin{bmatrix}2 & 1 \\-1 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find a basis for the eigenspace corresponding to each listed eigenvalue.\\[A = \\begin{bmatrix}3 & 0 & 2 & 0 \\1 & 3 & 1 & 0 \\0 & 1 & 1 & 0 \\0 & 0 & 0 & 4 \\\\end{bmatrix}, \\quad \\lambda = 4\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "It can be shown that the algebraic multiplicity of an eigenvalue is always greater than or equal to the dimension of the eigenspace corresponding to $\\lambda$. Find $h$ in the matrix $A$ below such that the eigenspace for $\\lambda=5$ is two-dimensional:\\[A = \\begin{bmatrix}5 & -2 & 6 & -1 \\0 & 3 & h & 0 \\0 & 0 & 5 & 4 \\0 & 0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "find an invertible matrix $P$ and a matrix $C$ of the form $\\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$ such that the given matrix has the form $A = PCP^{-1}$. \\A= $\begin{pmatrix} 1 & -2 \\ 1 & 3 \\end{pmatrix}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Assume the mapping $T \\colon \\mathbb{P}_2 \to \\mathbb{P}_2$ defined by\\[T(a_0 + a_1t + a_2t^2) = 3a_0 + (5a_0 - 2a_1)t + (4a_1 + a_2)t^2\\]is linear. Find the matrix representation of $T$ relative to the basis $\\mathcal{B} = \\{1, t, t^2\\}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": " Define $T \\colon \\mathbb{P}_2 \to \\mathbb{R}^3$ by\\[T(p) = \begin{bmatrix}p(-1) \\p(0) \\p(1) \\\\end{bmatrix}.\\]a. Find the image under $T$ of $p(t) = 5 + 3t$. \\b. Find the matrix for $T$ relative to the basis $\\{1, t, t^2\\}$ for$\\mathbb{P}_2$ and the standard basis for $\\mathbb{R}^3$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$. Find a basis $\\mathcal{B}$ for $\\mathbb{R}^2$ with the property that $[T]_{\\mathcal{B}}$ is diagonal.\\[\\quad A = \begin{bmatrix}0 & 1 \\-3 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \begin{bmatrix}1 & 1 \\-1 & 3 \\\\end{bmatrix}\\quad \\text{and} \\quad \\mathcal{B} = \\{\\mathbf{b}_1, \\mathbf{b}_2\\}, \\quad \\text{for} \\quad \\mathbf{b}_1 = \\begin{bmatrix} 1 \\ 1 \\end{bmatrix}, \\mathbf{b}_2 = \\begin{bmatrix} 5 \\ 4 \\end{bmatrix}.\\]Define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$.Find the $\\mathcal{B}$-matrix for $T$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \\begin{bmatrix}0.6 & 0.3 \\0.4 & 0.7 \\\\end{bmatrix}, \\quad\\mathbf{v}_1 = \\begin{bmatrix}3/7 \\4/7 \\\\end{bmatrix}, \\quad\\mathbf{x}_0 = \begin{bmatrix}0.5 \\0.5 \\\\end{bmatrix}.\\][Note: $A$ is the stochastic matrix] a. Find a basis for $\\mathbb{R}^2$ consisting of $\\mathbf{v}_1$ and another eigenvector $\\mathbf{v}_2$ of $A$."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/2_eigenvalues and eigenvectors/img_11.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_12.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_13.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_14.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_15.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_16.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_17.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_18.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_19.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_20.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "Find the eigenvalues of the matrices in this exercise.\\[ \\quad \\begin{bmatrix}0 & 0 & 0 \\0 & 2 & 5 \\0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Find the characteristic polynomial and the eigenvalues of the matrix in:\\[\\begin{bmatrix}2 & 1 \\-1 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the eigenspace corresponding to each listed eigenvalue.\\[A = \\begin{bmatrix}3 & 0 & 2 & 0 \\1 & 3 & 1 & 0 \\0 & 1 & 1 & 0 \\0 & 0 & 0 & 4 \\\\end{bmatrix}, \\quad \\lambda = 4\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "It can be shown that the algebraic multiplicity of an eigenvalue is always greater than or equal to the dimension of the eigenspace corresponding to $\\lambda$. Find $h$ in the matrix $A$ below such that the eigenspace for $\\lambda=5$ is two-dimensional:\\[A = \\begin{bmatrix}5 & -2 & 6 & -1 \\0 & 3 & h & 0 \\0 & 0 & 5 & 4 \\0 & 0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "find an invertible matrix $P$ and a matrix $C$ of the form $\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$ such that the given matrix has the form $A = PCP^{-1}$. \\A= $\begin{pmatrix} 1 & -2 \\ 1 & 3 \\end{pmatrix}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Assume the mapping $T \\colon \\mathbb{P}_2 \to \\mathbb{P}_2$ defined by\\[T(a_0 + a_1t + a_2t^2) = 3a_0 + (5a_0 - 2a_1)t + (4a_1 + a_2)t^2\\]is linear. Find the matrix representation of $T$ relative to the basis $\\mathcal{B} = \\{1, t, t^2\\}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": " Define $T \\colon \\mathbb{P}_2 \to \\mathbb{R}^3$ by\\[T(p) = \begin{bmatrix}p(-1) \\p(0) \\p(1) \\\\end{bmatrix}.\\]a. Find the image under $T$ of $p(t) = 5 + 3t$. \\b. Find the matrix for $T$ relative to the basis $\\{1, t, t^2\\}$ for$\\mathbb{P}_2$ and the standard basis for $\\mathbb{R}^3$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$. Find a basis $\\mathcal{B}$ for $\\mathbb{R}^2$ with the property that $[T]_{\\mathcal{B}}$ is diagonal.\\[\\quad A = \begin{bmatrix}0 & 1 \\-3 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \begin{bmatrix}1 & 1 \\-1 & 3 \\\\end{bmatrix}\\quad \\text{and} \\quad \\mathcal{B} = \\{\\mathbf{b}_1, \\mathbf{b}_2\\}, \\quad \\text{for} \\quad \\mathbf{b}_1 = \\begin{bmatrix} 1 \\ 1 \\end{bmatrix}, \\mathbf{b}_2 = \\begin{bmatrix} 5 \\ 4 \\end{bmatrix}.\\]Define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$.Find the $\\mathcal{B}$-matrix for $T$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}0.6 & 0.3 \\0.4 & 0.7 \\\\end{bmatrix}, \\quad\\mathbf{v}_1 = \\begin{bmatrix}3/7 \\4/7 \\\\end{bmatrix}, \\quad\\mathbf{x}_0 = \begin{bmatrix}0.5 \\0.5 \\\\end{bmatrix}.\\][Note: $A$ is the stochastic matrix] a. Find a basis for $\\mathbb{R}^2$ consisting of $\\mathbf{v}_1$ and another eigenvector $\\mathbf{v}_2$ of $A$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_11.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_12.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_13.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_14.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_15.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_16.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_17.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_18.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_19.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_20.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "Find the eigenvalues of the matrices in this exercise.\\[ \\quad \\begin{bmatrix}0 & 0 & 0 \\0 & 2 & 5 \\0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Find the characteristic polynomial and the eigenvalues of the matrix in:\\[\\begin{bmatrix}2 & 1 \\-1 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the eigenspace corresponding to each listed eigenvalue.\\[A = \\begin{bmatrix}3 & 0 & 2 & 0 \\1 & 3 & 1 & 0 \\0 & 1 & 1 & 0 \\0 & 0 & 0 & 4 \\\\end{bmatrix}, \\quad \\lambda = 4\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "It can be shown that the algebraic multiplicity of an eigenvalue is always greater than or equal to the dimension of the eigenspace corresponding to $\\lambda$. Find $h$ in the matrix $A$ below such that the eigenspace for $\\lambda=5$ is two-dimensional:\\[A = \\begin{bmatrix}5 & -2 & 6 & -1 \\0 & 3 & h & 0 \\0 & 0 & 5 & 4 \\0 & 0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "find an invertible matrix $P$ and a matrix $C$ of the form $\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$ such that the given matrix has the form $A = PCP^{-1}$. \\A= $\begin{pmatrix} 1 & -2 \\ 1 & 3 \\end{pmatrix}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Assume the mapping $T \\colon \\mathbb{P}_2 \to \\mathbb{P}_2$ defined by\\[T(a_0 + a_1t + a_2t^2) = 3a_0 + (5a_0 - 2a_1)t + (4a_1 + a_2)t^2\\]is linear. Find the matrix representation of $T$ relative to the basis $\\mathcal{B} = \\{1, t, t^2\\}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": " Define $T \\colon \\mathbb{P}_2 \to \\mathbb{R}^3$ by\\[T(p) = \begin{bmatrix}p(-1) \\p(0) \\p(1) \\\\end{bmatrix}.\\]a. Find the image under $T$ of $p(t) = 5 + 3t$. \\b. Find the matrix for $T$ relative to the basis $\\{1, t, t^2\\}$ for$\\mathbb{P}_2$ and the standard basis for $\\mathbb{R}^3$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$. Find a basis $\\mathcal{B}$ for $\\mathbb{R}^2$ with the property that $[T]_{\\mathcal{B}}$ is diagonal.\\[\\quad A = \begin{bmatrix}0 & 1 \\-3 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \begin{bmatrix}1 & 1 \\-1 & 3 \\\\end{bmatrix}\\quad \\text{and} \\quad \\mathcal{B} = \\{\\mathbf{b}_1, \\mathbf{b}_2\\}, \\quad \\text{for} \\quad \\mathbf{b}_1 = \\begin{bmatrix} 1 \\ 1 \\end{bmatrix}, \\mathbf{b}_2 = \\begin{bmatrix} 5 \\ 4 \\end{bmatrix}.\\]Define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$.Find the $\\mathcal{B}$-matrix for $T$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}0.6 & 0.3 \\0.4 & 0.7 \\\\end{bmatrix}, \\quad\\mathbf{v}_1 = \\begin{bmatrix}3/7 \\4/7 \\\\end{bmatrix}, \\quad\\mathbf{x}_0 = \begin{bmatrix}0.5 \\0.5 \\\\end{bmatrix}.\\][Note: $A$ is the stochastic matrix] a. Find a basis for $\\mathbb{R}^2$ consisting of $\\mathbf{v}_1$ and another eigenvector $\\mathbf{v}_2$ of $A$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_11.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_12.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_13.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_14.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_15.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_16.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_17.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_18.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_19.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_20.png"
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "In this exercise, with $T$ defined by $T(\\mathbf{x}) = A\\mathbf{x}$, find a vector $\\mathbf{x}$ whose image under $T$ is $\\mathbf{b}$, and determine whether $\\mathbf{x}$ is unique.\\[\\quad A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5 \\\\end{bmatrix}, \\quad\\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, assume that $T$ is a linear transformation. Find the standard matrix of $T$. \\T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2 \\text{ rotates points (about the origin)} \\\\text{through } \\frac{3\\pi}{2} \\text{ radians (counterclockwise).}"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps\\[\\mathbf{u} = \\begin{bmatrix} 5 \\ 2 \\end{bmatrix} \\text{ into } \\begin{bmatrix} 2 \\ 1 \\end{bmatrix}\\]and maps\\[\\mathbf{v} = \\begin{bmatrix} 1 \\ 3 \\end{bmatrix} \\text{ into } \\begin{bmatrix} -1 \\ 3 \\end{bmatrix}.\\]Use the fact that $T$ is linear to find the images under $T$ of $3\\mathbf{u}$, $2\\mathbf{v}$, and $3\\mathbf{u} + 2\\mathbf{v}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "For this exercise, find all $\\mathbf{x}$ in $\\mathbb{R}^4$ that are mapped into the zero vector by the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ for the given matrix $A$.\\[\\quad A = \\begin{bmatrix}1 & -4 & 7 & -5 \\0 & 1 & -4 & 3 \\2 & -6 & 6 & -4 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "fill in the missing entries of the matrix, assuming that the equation holds for all values of the variables.\\[\\quad \\begin{bmatrix}\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\end{bmatrix}\\begin{bmatrix}x_1 \\x_2 \\x_3 \\\\end{bmatrix}= \\begin{bmatrix}3x_1 - 2x_3 \\4x_1 \\x_1 - x_2 + x_3 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, show that $T$ is a linear transformation by finding a matrix that implements the mapping. Note that $x_1, x_2, \\dots$ are not vectors but are entries in vectors.\\[\\quad T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[\\mathbf{e}_1 = \\begin{bmatrix} 1 \\ 0 \\end{bmatrix}, \\quad \\mathbf{e}_2 = \begin{bmatrix} 0 \\ 1 \\end{bmatrix}, \\quad \\mathbf{y}_1 = \\begin{bmatrix} 2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{y}_2 = \begin{bmatrix} -1 \\ 6 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{e}_1$ into $\\mathbf{y}_1$ and maps $\\mathbf{e}_2$ into $\\mathbf{y}_2$. Find the images of \\[\\begin{bmatrix} 5 \\ -3 \\end{bmatrix} \\quad \\text{and} \\quad \\begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}.\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[\\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}, \\quad \\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{x}$ into $x_1\\mathbf{v}_1 + x_2\\mathbf{v}_2$. Find a matrix $A$ such that $T(\\mathbf{x})$ is $A\\mathbf{x}$ for each $\\mathbf{x}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (3, 8)$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": " Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^3$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (-1, 4, 9)$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_21.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_22.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_23.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_24.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_25.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_26.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_27.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_28.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_29.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_30.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "In this exercise, with $T$ defined by $T(\\mathbf{x}) = A\\mathbf{x}$, find a vector $\\mathbf{x}$ whose image under $T$ is $\\mathbf{b}$, and determine whether $\\mathbf{x}$ is unique.\\[\\quad A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5 \\\\end{bmatrix}, \\quad\\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, assume that $T$ is a linear transformation. Find the standard matrix of $T$. \\T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2 \\text{ rotates points (about the origin)} \\\\text{through } \\frac{3\\pi}{2} \\text{ radians (counterclockwise).}"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps\\[\\mathbf{u} = \\begin{bmatrix} 5 \\ 2 \\end{bmatrix} \\text{ into } \\begin{bmatrix} 2 \\ 1 \\end{bmatrix}\\]and maps\\[\\mathbf{v} = \\begin{bmatrix} 1 \\ 3 \\end{bmatrix} \\text{ into } \\begin{bmatrix} -1 \\ 3 \\end{bmatrix}.\\]Use the fact that $T$ is linear to find the images under $T$ of $3\\mathbf{u}$, $2\\mathbf{v}$, and $3\\mathbf{u} + 2\\mathbf{v}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "For this exercise, find all $\\mathbf{x}$ in $\\mathbb{R}^4$ that are mapped into the zero vector by the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ for the given matrix $A$.\\[\\quad A = \\begin{bmatrix}1 & -4 & 7 & -5 \\0 & 1 & -4 & 3 \\2 & -6 & 6 & -4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "fill in the missing entries of the matrix, assuming that the equation holds for all values of the variables.\\[\\quad \\begin{bmatrix}\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\end{bmatrix}\\begin{bmatrix}x_1 \\x_2 \\x_3 \\\\end{bmatrix}= \\begin{bmatrix}3x_1 - 2x_3 \\4x_1 \\x_1 - x_2 + x_3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, show that $T$ is a linear transformation by finding a matrix that implements the mapping. Note that $x_1, x_2, \\dots$ are not vectors but are entries in vectors.\\[\\quad T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{e}_1 = \\begin{bmatrix} 1 \\ 0 \\end{bmatrix}, \\quad \\mathbf{e}_2 = \begin{bmatrix} 0 \\ 1 \\end{bmatrix}, \\quad \\mathbf{y}_1 = \\begin{bmatrix} 2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{y}_2 = \begin{bmatrix} -1 \\ 6 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{e}_1$ into $\\mathbf{y}_1$ and maps $\\mathbf{e}_2$ into $\\mathbf{y}_2$. Find the images of \\[\\begin{bmatrix} 5 \\ -3 \\end{bmatrix} \\quad \\text{and} \\quad \\begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}.\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}, \\quad \\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{x}$ into $x_1\\mathbf{v}_1 + x_2\\mathbf{v}_2$. Find a matrix $A$ such that $T(\\mathbf{x})$ is $A\\mathbf{x}$ for each $\\mathbf{x}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (3, 8)$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": " Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^3$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (-1, 4, 9)$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_21.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_22.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_23.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_24.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_25.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_26.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_27.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_28.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_29.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_30.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "In this exercise, with $T$ defined by $T(\\mathbf{x}) = A\\mathbf{x}$, find a vector $\\mathbf{x}$ whose image under $T$ is $\\mathbf{b}$, and determine whether $\\mathbf{x}$ is unique.\\[\\quad A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5 \\\\end{bmatrix}, \\quad\\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, assume that $T$ is a linear transformation. Find the standard matrix of $T$. \\T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2 \\text{ rotates points (about the origin)} \\\\text{through } \\frac{3\\pi}{2} \\text{ radians (counterclockwise).}"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps\\[\\mathbf{u} = \\begin{bmatrix} 5 \\ 2 \\end{bmatrix} \\text{ into } \\begin{bmatrix} 2 \\ 1 \\end{bmatrix}\\]and maps\\[\\mathbf{v} = \\begin{bmatrix} 1 \\ 3 \\end{bmatrix} \\text{ into } \\begin{bmatrix} -1 \\ 3 \\end{bmatrix}.\\]Use the fact that $T$ is linear to find the images under $T$ of $3\\mathbf{u}$, $2\\mathbf{v}$, and $3\\mathbf{u} + 2\\mathbf{v}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "For this exercise, find all $\\mathbf{x}$ in $\\mathbb{R}^4$ that are mapped into the zero vector by the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ for the given matrix $A$.\\[\\quad A = \\begin{bmatrix}1 & -4 & 7 & -5 \\0 & 1 & -4 & 3 \\2 & -6 & 6 & -4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "fill in the missing entries of the matrix, assuming that the equation holds for all values of the variables.\\[\\quad \\begin{bmatrix}\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\end{bmatrix}\\begin{bmatrix}x_1 \\x_2 \\x_3 \\\\end{bmatrix}= \\begin{bmatrix}3x_1 - 2x_3 \\4x_1 \\x_1 - x_2 + x_3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, show that $T$ is a linear transformation by finding a matrix that implements the mapping. Note that $x_1, x_2, \\dots$ are not vectors but are entries in vectors.\\[\\quad T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{e}_1 = \\begin{bmatrix} 1 \\ 0 \\end{bmatrix}, \\quad \\mathbf{e}_2 = \begin{bmatrix} 0 \\ 1 \\end{bmatrix}, \\quad \\mathbf{y}_1 = \\begin{bmatrix} 2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{y}_2 = \begin{bmatrix} -1 \\ 6 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{e}_1$ into $\\mathbf{y}_1$ and maps $\\mathbf{e}_2$ into $\\mathbf{y}_2$. Find the images of \\[\\begin{bmatrix} 5 \\ -3 \\end{bmatrix} \\quad \\text{and} \\quad \\begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}.\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}, \\quad \\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{x}$ into $x_1\\mathbf{v}_1 + x_2\\mathbf{v}_2$. Find a matrix $A$ such that $T(\\mathbf{x})$ is $A\\mathbf{x}$ for each $\\mathbf{x}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (3, 8)$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": " Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^3$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (-1, 4, 9)$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_21.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_22.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_23.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_24.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_25.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_26.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_27.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_28.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_29.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_30.png"
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "let $W$ be the set of all vectors of the form shown, where $a$, $b$, and $c$ represent arbitrary real numbers. In each case, either find a set $S$ of vectors that spans $W$ or give an example to show that $W$ is not a vector space. \\[ \\quad \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Determine if $\\mathbf{w} = \begin{bmatrix} 1 \\ 3 \\ -4 \\ \\end{bmatrix}$ is in $\text{Nul }A$, where \\[ A = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \\ \\end{bmatrix}. \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "For the matrix in this exercise, (a) find $k$ such that $\text{Nul }A$ is a subspace of $\\mathbb{R}^k$, and (b) find $k$ such that $\text{Col }A$ is a subspace of $\\mathbb{R}^k$. \\[ \\quad A = \begin{bmatrix} 2 & -6 \\ -1 & 3 \\ -4 & 12 \\ 3 & -9 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find a basis for the space spanned by the given vectors $\\mathbf{v}_1, \\dots, \\mathbf{v}_5$. \\[ \\quad \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \\ \\end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \\ \\end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \\ \\end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \\ \\end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "The set $\\mathcal{B} = \\{1+t^2, t+t^2, 1+2t+t^2\\}$ is a basis for $\\mathbb{P}_2$. Find the coordinate vector of $p(t) = 1 + 4t + 7t^2$ relative to $\\mathcal{B}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Determine the dimensions of $\text{Nul }A$ and $\text{Col }A$ for the matrices shown in this exercise. \\[ \\quad A = \begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $p_1(t) = 1 + t^2$, $p_2(t) = t - 3t^2$, $p_3(t) = 1 + t - 3t^2$. Consider the basis $\\mathcal{B} = \\{p_1, p_2, p_3\\}$ for $\\mathbb{P}_2$. Find $q$ in $\\mathbb{P}_2$, given that \\[ [q]_{\\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \\ \\end{bmatrix}. \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "The first four Hermite polynomials are $1$, $2t$, $-2 + 4t^2$, and $-12t + 8t^3$. These polynomials arise naturally in the study of certain important differential equations in mathematical physics. \\ \newline Let $\\mathcal{B}$ be the basis of $\\mathbb{P}_3$ consisting of the Hermite polynomials mentioned above, and let $p(t) = 7 - 12t - 8t^2 + 12t^3$. Find the coordinate vector of $p$ relative to $\\mathcal{B}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $\\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\end{bmatrix}$. Find $\\mathbf{v}$ in $\\mathbb{R}^3$ such that \\[ \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \\ \\end{bmatrix} = \\mathbf{u}\\mathbf{v}^T. \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/4_vector space/img_31.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_32.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_33.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_34.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_35.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_36.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_37.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_38.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_39.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_40.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "let $W$ be the set of all vectors of the form shown, where $a$, $b$, and $c$ represent arbitrary real numbers. In each case, either find a set $S$ of vectors that spans $W$ or give an example to show that $W$ is not a vector space. \\[ \\quad \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Determine if $\\mathbf{w} = \begin{bmatrix} 1 \\ 3 \\ -4 \\ \\end{bmatrix}$ is in $\text{Nul }A$, where \\[ A = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "For the matrix in this exercise, (a) find $k$ such that $\text{Nul }A$ is a subspace of $\\mathbb{R}^k$, and (b) find $k$ such that $\text{Col }A$ is a subspace of $\\mathbb{R}^k$. \\[ \\quad A = \begin{bmatrix} 2 & -6 \\ -1 & 3 \\ -4 & 12 \\ 3 & -9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the space spanned by the given vectors $\\mathbf{v}_1, \\dots, \\mathbf{v}_5$. \\[ \\quad \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \\ \\end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \\ \\end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \\ \\end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \\ \\end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "The set $\\mathcal{B} = \\{1+t^2, t+t^2, 1+2t+t^2\\}$ is a basis for $\\mathbb{P}_2$. Find the coordinate vector of $p(t) = 1 + 4t + 7t^2$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Determine the dimensions of $\text{Nul }A$ and $\text{Col }A$ for the matrices shown in this exercise. \\[ \\quad A = \begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $p_1(t) = 1 + t^2$, $p_2(t) = t - 3t^2$, $p_3(t) = 1 + t - 3t^2$. Consider the basis $\\mathcal{B} = \\{p_1, p_2, p_3\\}$ for $\\mathbb{P}_2$. Find $q$ in $\\mathbb{P}_2$, given that \\[ [q]_{\\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "The first four Hermite polynomials are $1$, $2t$, $-2 + 4t^2$, and $-12t + 8t^3$. These polynomials arise naturally in the study of certain important differential equations in mathematical physics. \\ \newline Let $\\mathcal{B}$ be the basis of $\\mathbb{P}_3$ consisting of the Hermite polynomials mentioned above, and let $p(t) = 7 - 12t - 8t^2 + 12t^3$. Find the coordinate vector of $p$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\end{bmatrix}$. Find $\\mathbf{v}$ in $\\mathbb{R}^3$ such that \\[ \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \\ \\end{bmatrix} = \\mathbf{u}\\mathbf{v}^T. \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_31.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_32.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_33.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_34.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_35.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_36.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_37.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_38.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_39.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_40.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "let $W$ be the set of all vectors of the form shown, where $a$, $b$, and $c$ represent arbitrary real numbers. In each case, either find a set $S$ of vectors that spans $W$ or give an example to show that $W$ is not a vector space. \\[ \\quad \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Determine if $\\mathbf{w} = \begin{bmatrix} 1 \\ 3 \\ -4 \\ \\end{bmatrix}$ is in $\text{Nul }A$, where \\[ A = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "For the matrix in this exercise, (a) find $k$ such that $\text{Nul }A$ is a subspace of $\\mathbb{R}^k$, and (b) find $k$ such that $\text{Col }A$ is a subspace of $\\mathbb{R}^k$. \\[ \\quad A = \begin{bmatrix} 2 & -6 \\ -1 & 3 \\ -4 & 12 \\ 3 & -9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the space spanned by the given vectors $\\mathbf{v}_1, \\dots, \\mathbf{v}_5$. \\[ \\quad \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \\ \\end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \\ \\end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \\ \\end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \\ \\end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "The set $\\mathcal{B} = \\{1+t^2, t+t^2, 1+2t+t^2\\}$ is a basis for $\\mathbb{P}_2$. Find the coordinate vector of $p(t) = 1 + 4t + 7t^2$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Determine the dimensions of $\text{Nul }A$ and $\text{Col }A$ for the matrices shown in this exercise. \\[ \\quad A = \begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $p_1(t) = 1 + t^2$, $p_2(t) = t - 3t^2$, $p_3(t) = 1 + t - 3t^2$. Consider the basis $\\mathcal{B} = \\{p_1, p_2, p_3\\}$ for $\\mathbb{P}_2$. Find $q$ in $\\mathbb{P}_2$, given that \\[ [q]_{\\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "The first four Hermite polynomials are $1$, $2t$, $-2 + 4t^2$, and $-12t + 8t^3$. These polynomials arise naturally in the study of certain important differential equations in mathematical physics. \\ \newline Let $\\mathcal{B}$ be the basis of $\\mathbb{P}_3$ consisting of the Hermite polynomials mentioned above, and let $p(t) = 7 - 12t - 8t^2 + 12t^3$. Find the coordinate vector of $p$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\end{bmatrix}$. Find $\\mathbf{v}$ in $\\mathbb{R}^3$ such that \\[ \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \\ \\end{bmatrix} = \\mathbf{u}\\mathbf{v}^T. \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_31.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_32.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_33.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_34.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_35.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_36.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_37.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_38.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_39.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_40.png"
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "Compute the quantities in this exercise using the vectors \\[ \\mathbf{u} = \begin{bmatrix} -1 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v} = \begin{bmatrix} 4 \\ 6 \\end{bmatrix}, \\quad \\mathbf{w} = \begin{bmatrix} 3 \\ -1 \\ -5 \\end{bmatrix}, \\quad \\mathbf{x} = \begin{bmatrix} 6 \\ -2 \\ 3 \\end{bmatrix}. \\] a. $\\left(\\dfrac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}}\right) \\mathbf{v}$ b. $\\left(\\dfrac{\\mathbf{x} \\cdot \\mathbf{w}}{\\mathbf{x} \\cdot \\mathbf{x}}\right) \\mathbf{x}$"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "let $W$ be the subspace spanned by the $\\mathbf{u}$'s, and write $\\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$. \\[ \\quad \\mathbf{y} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_3 = \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[ \\mathbf{y} = \begin{bmatrix} 4 \\ 8 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 2/3 \\ 1/3 \\ 2/3 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \\ \\end{bmatrix}, \\] and $W = \text{Span}\\{\\mathbf{u}_1, \\mathbf{u}_2\\}$. a. Let $U = [\\mathbf{u}_1 \\ \\mathbf{u}_2]$. Compute $U^TU$ and $UU^T$. b. Compute $\text{proj}_W \\mathbf{y}$ and $(UU^T)\\mathbf{y}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Find an orthogonal basis for the column space of the matrix \\[ \begin{bmatrix} 1 & 2 & 5 \\ -1 & 1 & -4 \\ -1 & 4 & -3 \\ 1 & -4 & 7 \\ 1 & 2 & 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $\\mathbf{u} = \begin{bmatrix} 2 \\ -5 \\ -1 \\ \\end{bmatrix}$ and $\\mathbf{v} = \begin{bmatrix} -7 \\ -4 \\ 6 \\ \\end{bmatrix}$. Compute and compare $\\mathbf{u} \\cdot \\mathbf{v}$, $\\|\\mathbf{u}\\|^2$, $\\|\\mathbf{v}\\|^2$, and $\\|\\mathbf{u} + \\mathbf{v}\\|^2$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, describe all least-squares solutions of the equation $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find (a) the orthogonal projection of $\\mathbf{b}$ onto $\text{Col }A$ and (b) a least-squares solution of $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 4 \\ -2 \\ -3 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[ \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} 5 \\ -1 \\ 2 \\ \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{u}_3 = \begin{bmatrix} 0 \\ 0 \\ 1 \\ \\end{bmatrix}. \\] Note that $\\mathbf{u}_1$ and $\\mathbf{u}_2$ are orthogonal but that $\\mathbf{u}_3$ is not orthogonal to $\\mathbf{u}_1$ or $\\mathbf{u}_2$. It can be shown that $\\mathbf{u}_3$ is not in the subspace $W$ spanned by $\\mathbf{u}_1$ and $\\mathbf{u}_2$. Use this fact to construct a nonzero vector $\\mathbf{v}$ in $\\mathbb{R}^3$ that is orthogonal to $\\mathbf{u}_1$ and $\\mathbf{u}_2$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, the columns of $Q$ were obtained by applying the Gram--Schmidt process to the columns of $A$. Find an upper triangular matrix $R$ such that $A = QR$. Check your work. \\[ \\quad A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \\ \\end{bmatrix}, \\quad Q = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $\\mathbb{P}_3$ have the inner product given by evaluation at $-3$, $-1$, $1$, and $3$. Let $p_0(t) = 1$, $p_1(t) = t$, and $p_2(t) = t^2$. a. Compute the orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$. b. Find a polynomial $q$ that is orthogonal to $p_0$ and $p_1$, such that $\\{p_0, p_1, q\\}$ is an orthogonal basis for $\text{Span}\\{p_0, p_1, p_2\\}$. Scale the polynomial $q$ so that its vector of values at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/5_orthogonality/img_41.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_42.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_43.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_44.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_45.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_46.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_47.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_48.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_49.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_50.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "Compute the quantities in this exercise using the vectors \\[ \\mathbf{u} = \begin{bmatrix} -1 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v} = \begin{bmatrix} 4 \\ 6 \\end{bmatrix}, \\quad \\mathbf{w} = \begin{bmatrix} 3 \\ -1 \\ -5 \\end{bmatrix}, \\quad \\mathbf{x} = \begin{bmatrix} 6 \\ -2 \\ 3 \\end{bmatrix}. \\] a. $\\left(\\dfrac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}}\right) \\mathbf{v}$ b. $\\left(\\dfrac{\\mathbf{x} \\cdot \\mathbf{w}}{\\mathbf{x} \\cdot \\mathbf{x}}\right) \\mathbf{x}$"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "let $W$ be the subspace spanned by the $\\mathbf{u}$'s, and write $\\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$. \\[ \\quad \\mathbf{y} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_3 = \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{y} = \begin{bmatrix} 4 \\ 8 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 2/3 \\ 1/3 \\ 2/3 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \\ \\end{bmatrix}, \\] and $W = \text{Span}\\{\\mathbf{u}_1, \\mathbf{u}_2\\}$. a. Let $U = [\\mathbf{u}_1 \\ \\mathbf{u}_2]$. Compute $U^TU$ and $UU^T$. b. Compute $\text{proj}_W \\mathbf{y}$ and $(UU^T)\\mathbf{y}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Find an orthogonal basis for the column space of the matrix \\[ \begin{bmatrix} 1 & 2 & 5 \\ -1 & 1 & -4 \\ -1 & 4 & -3 \\ 1 & -4 & 7 \\ 1 & 2 & 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 2 \\ -5 \\ -1 \\ \\end{bmatrix}$ and $\\mathbf{v} = \begin{bmatrix} -7 \\ -4 \\ 6 \\ \\end{bmatrix}$. Compute and compare $\\mathbf{u} \\cdot \\mathbf{v}$, $\\|\\mathbf{u}\\|^2$, $\\|\\mathbf{v}\\|^2$, and $\\|\\mathbf{u} + \\mathbf{v}\\|^2$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, describe all least-squares solutions of the equation $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find (a) the orthogonal projection of $\\mathbf{b}$ onto $\text{Col }A$ and (b) a least-squares solution of $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 4 \\ -2 \\ -3 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} 5 \\ -1 \\ 2 \\ \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{u}_3 = \begin{bmatrix} 0 \\ 0 \\ 1 \\ \\end{bmatrix}. \\] Note that $\\mathbf{u}_1$ and $\\mathbf{u}_2$ are orthogonal but that $\\mathbf{u}_3$ is not orthogonal to $\\mathbf{u}_1$ or $\\mathbf{u}_2$. It can be shown that $\\mathbf{u}_3$ is not in the subspace $W$ spanned by $\\mathbf{u}_1$ and $\\mathbf{u}_2$. Use this fact to construct a nonzero vector $\\mathbf{v}$ in $\\mathbb{R}^3$ that is orthogonal to $\\mathbf{u}_1$ and $\\mathbf{u}_2$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, the columns of $Q$ were obtained by applying the Gram--Schmidt process to the columns of $A$. Find an upper triangular matrix $R$ such that $A = QR$. Check your work. \\[ \\quad A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \\ \\end{bmatrix}, \\quad Q = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbb{P}_3$ have the inner product given by evaluation at $-3$, $-1$, $1$, and $3$. Let $p_0(t) = 1$, $p_1(t) = t$, and $p_2(t) = t^2$. a. Compute the orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$. b. Find a polynomial $q$ that is orthogonal to $p_0$ and $p_1$, such that $\\{p_0, p_1, q\\}$ is an orthogonal basis for $\text{Span}\\{p_0, p_1, p_2\\}$. Scale the polynomial $q$ so that its vector of values at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_41.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_42.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_43.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_44.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_45.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_46.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_47.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_48.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_49.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_50.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "Compute the quantities in this exercise using the vectors \\[ \\mathbf{u} = \begin{bmatrix} -1 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v} = \begin{bmatrix} 4 \\ 6 \\end{bmatrix}, \\quad \\mathbf{w} = \begin{bmatrix} 3 \\ -1 \\ -5 \\end{bmatrix}, \\quad \\mathbf{x} = \begin{bmatrix} 6 \\ -2 \\ 3 \\end{bmatrix}. \\] a. $\\left(\\dfrac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}}\right) \\mathbf{v}$ b. $\\left(\\dfrac{\\mathbf{x} \\cdot \\mathbf{w}}{\\mathbf{x} \\cdot \\mathbf{x}}\right) \\mathbf{x}$"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "let $W$ be the subspace spanned by the $\\mathbf{u}$'s, and write $\\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$. \\[ \\quad \\mathbf{y} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_3 = \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{y} = \begin{bmatrix} 4 \\ 8 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 2/3 \\ 1/3 \\ 2/3 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \\ \\end{bmatrix}, \\] and $W = \text{Span}\\{\\mathbf{u}_1, \\mathbf{u}_2\\}$. a. Let $U = [\\mathbf{u}_1 \\ \\mathbf{u}_2]$. Compute $U^TU$ and $UU^T$. b. Compute $\text{proj}_W \\mathbf{y}$ and $(UU^T)\\mathbf{y}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Find an orthogonal basis for the column space of the matrix \\[ \begin{bmatrix} 1 & 2 & 5 \\ -1 & 1 & -4 \\ -1 & 4 & -3 \\ 1 & -4 & 7 \\ 1 & 2 & 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 2 \\ -5 \\ -1 \\ \\end{bmatrix}$ and $\\mathbf{v} = \begin{bmatrix} -7 \\ -4 \\ 6 \\ \\end{bmatrix}$. Compute and compare $\\mathbf{u} \\cdot \\mathbf{v}$, $\\|\\mathbf{u}\\|^2$, $\\|\\mathbf{v}\\|^2$, and $\\|\\mathbf{u} + \\mathbf{v}\\|^2$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, describe all least-squares solutions of the equation $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find (a) the orthogonal projection of $\\mathbf{b}$ onto $\text{Col }A$ and (b) a least-squares solution of $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 4 \\ -2 \\ -3 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} 5 \\ -1 \\ 2 \\ \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{u}_3 = \begin{bmatrix} 0 \\ 0 \\ 1 \\ \\end{bmatrix}. \\] Note that $\\mathbf{u}_1$ and $\\mathbf{u}_2$ are orthogonal but that $\\mathbf{u}_3$ is not orthogonal to $\\mathbf{u}_1$ or $\\mathbf{u}_2$. It can be shown that $\\mathbf{u}_3$ is not in the subspace $W$ spanned by $\\mathbf{u}_1$ and $\\mathbf{u}_2$. Use this fact to construct a nonzero vector $\\mathbf{v}$ in $\\mathbb{R}^3$ that is orthogonal to $\\mathbf{u}_1$ and $\\mathbf{u}_2$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, the columns of $Q$ were obtained by applying the Gram--Schmidt process to the columns of $A$. Find an upper triangular matrix $R$ such that $A = QR$. Check your work. \\[ \\quad A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \\ \\end{bmatrix}, \\quad Q = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbb{P}_3$ have the inner product given by evaluation at $-3$, $-1$, $1$, and $3$. Let $p_0(t) = 1$, $p_1(t) = t$, and $p_2(t) = t^2$. a. Compute the orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$. b. Find a polynomial $q$ that is orthogonal to $p_0$ and $p_1$, such that $\\{p_0, p_1, q\\}$ is an orthogonal basis for $\text{Span}\\{p_0, p_1, p_2\\}$. Scale the polynomial $q$ so that its vector of values at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_41.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_42.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_43.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_44.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_45.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_46.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_47.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_48.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_49.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_50.png"
+    }
+  ]
   
-]

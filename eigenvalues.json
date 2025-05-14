@@ -1,0 +1,333 @@
+[
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "Find the eigenvalues of the matrices in this exercise.\\[ \\quad \\begin{bmatrix}0 & 0 & 0 \\0 & 2 & 5 \\0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Find the characteristic polynomial and the eigenvalues of the matrix in:\\[\\begin{bmatrix}2 & 1 \\-1 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find a basis for the eigenspace corresponding to each listed eigenvalue.\\[A = \\begin{bmatrix}3 & 0 & 2 & 0 \\1 & 3 & 1 & 0 \\0 & 1 & 1 & 0 \\0 & 0 & 0 & 4 \\\\end{bmatrix}, \\quad \\lambda = 4\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "It can be shown that the algebraic multiplicity of an eigenvalue is always greater than or equal to the dimension of the eigenspace corresponding to $\\lambda$. Find $h$ in the matrix $A$ below such that the eigenspace for $\\lambda=5$ is two-dimensional:\\[A = \\begin{bmatrix}5 & -2 & 6 & -1 \\0 & 3 & h & 0 \\0 & 0 & 5 & 4 \\0 & 0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, use Example 6 to list the eigenvalues of $A$. In each case, the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ is the composition of a rotation and a scaling. Give the angle $\\varphi$ of the rotation, where $-\\pi < \\varphi \\leq \\pi$, and give the scale factor $r$.\\[\\quad A = \begin{bmatrix}\\sqrt{3} & -1 \\1 & \\sqrt{3} \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Assume the mapping $T \\colon \\mathbb{P}_2 \to \\mathbb{P}_2$ defined by\\[T(a_0 + a_1t + a_2t^2) = 3a_0 + (5a_0 - 2a_1)t + (4a_1 + a_2)t^2\\]is linear. Find the matrix representation of $T$ relative to the basis $\\mathcal{B} = \\{1, t, t^2\\}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": " Define $T \\colon \\mathbb{P}_2 \to \\mathbb{R}^3$ by\\[T(p) = \begin{bmatrix}p(-1) \\p(0) \\p(1) \\\\end{bmatrix}.\\]a. Find the image under $T$ of $p(t) = 5 + 3t$. \\b. Find the matrix for $T$ relative to the basis $\\{1, t, t^2\\}$ for$\\mathbb{P}_2$ and the standard basis for $\\mathbb{R}^3$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$. Find a basis $\\mathcal{B}$ for $\\mathbb{R}^2$ with the property that $[T]_{\\mathcal{B}}$ is diagonal.\\[\\quad A = \begin{bmatrix}0 & 1 \\-3 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \begin{bmatrix}1 & 1 \\-1 & 3 \\\\end{bmatrix}\\quad \\text{and} \\quad \\mathcal{B} = \\{\\mathbf{b}_1, \\mathbf{b}_2\\}, \\quad \\text{for} \\quad \\mathbf{b}_1 = \\begin{bmatrix} 1 \\ 1 \\end{bmatrix}, \\mathbf{b}_2 = \\begin{bmatrix} 5 \\ 4 \\end{bmatrix}.\\]Define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$.Find the $\\mathcal{B}$-matrix for $T$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[A = \\begin{bmatrix}0.6 & 0.3 \\0.4 & 0.7 \\\\end{bmatrix}, \\quad\\mathbf{v}_1 = \\begin{bmatrix}3/7 \\4/7 \\\\end{bmatrix}, \\quad\\mathbf{x}_0 = \begin{bmatrix}0.5 \\0.5 \\\\end{bmatrix}.\\][Note: $A$ is the stochastic matrix] a. Find a basis for $\\mathbb{R}^2$ consisting of $\\mathbf{v}_1$ and another eigenvector $\\mathbf{v}_2$ of $A$."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/2_eigenvalues and eigenvectors/img_11.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_12.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_13.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_14.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_15.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_16.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_17.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_18.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_19.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_20.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "Find the eigenvalues of the matrices in this exercise.\\[ \\quad \\begin{bmatrix}0 & 0 & 0 \\0 & 2 & 5 \\0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Find the characteristic polynomial and the eigenvalues of the matrix in:\\[\\begin{bmatrix}2 & 1 \\-1 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the eigenspace corresponding to each listed eigenvalue.\\[A = \\begin{bmatrix}3 & 0 & 2 & 0 \\1 & 3 & 1 & 0 \\0 & 1 & 1 & 0 \\0 & 0 & 0 & 4 \\\\end{bmatrix}, \\quad \\lambda = 4\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "It can be shown that the algebraic multiplicity of an eigenvalue is always greater than or equal to the dimension of the eigenspace corresponding to $\\lambda$. Find $h$ in the matrix $A$ below such that the eigenspace for $\\lambda=5$ is two-dimensional:\\[A = \\begin{bmatrix}5 & -2 & 6 & -1 \\0 & 3 & h & 0 \\0 & 0 & 5 & 4 \\0 & 0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, use Example 6 to list the eigenvalues of $A$. In each case, the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ is the composition of a rotation and a scaling. Give the angle $\\varphi$ of the rotation, where $-\\pi < \\varphi \\leq \\pi$, and give the scale factor $r$.\\[\\quad A = \begin{bmatrix}\\sqrt{3} & -1 \\1 & \\sqrt{3} \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Assume the mapping $T \\colon \\mathbb{P}_2 \to \\mathbb{P}_2$ defined by\\[T(a_0 + a_1t + a_2t^2) = 3a_0 + (5a_0 - 2a_1)t + (4a_1 + a_2)t^2\\]is linear. Find the matrix representation of $T$ relative to the basis $\\mathcal{B} = \\{1, t, t^2\\}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": " Define $T \\colon \\mathbb{P}_2 \to \\mathbb{R}^3$ by\\[T(p) = \begin{bmatrix}p(-1) \\p(0) \\p(1) \\\\end{bmatrix}.\\]a. Find the image under $T$ of $p(t) = 5 + 3t$. \\b. Find the matrix for $T$ relative to the basis $\\{1, t, t^2\\}$ for$\\mathbb{P}_2$ and the standard basis for $\\mathbb{R}^3$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$. Find a basis $\\mathcal{B}$ for $\\mathbb{R}^2$ with the property that $[T]_{\\mathcal{B}}$ is diagonal.\\[\\quad A = \begin{bmatrix}0 & 1 \\-3 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \begin{bmatrix}1 & 1 \\-1 & 3 \\\\end{bmatrix}\\quad \\text{and} \\quad \\mathcal{B} = \\{\\mathbf{b}_1, \\mathbf{b}_2\\}, \\quad \\text{for} \\quad \\mathbf{b}_1 = \\begin{bmatrix} 1 \\ 1 \\end{bmatrix}, \\mathbf{b}_2 = \\begin{bmatrix} 5 \\ 4 \\end{bmatrix}.\\]Define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$.Find the $\\mathcal{B}$-matrix for $T$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}0.6 & 0.3 \\0.4 & 0.7 \\\\end{bmatrix}, \\quad\\mathbf{v}_1 = \\begin{bmatrix}3/7 \\4/7 \\\\end{bmatrix}, \\quad\\mathbf{x}_0 = \begin{bmatrix}0.5 \\0.5 \\\\end{bmatrix}.\\][Note: $A$ is the stochastic matrix] a. Find a basis for $\\mathbb{R}^2$ consisting of $\\mathbf{v}_1$ and another eigenvector $\\mathbf{v}_2$ of $A$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_11.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_12.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_13.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_14.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_15.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_16.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_17.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_18.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_19.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_20.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "Find the eigenvalues of the matrices in this exercise.\\[ \\quad \\begin{bmatrix}0 & 0 & 0 \\0 & 2 & 5 \\0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Find the characteristic polynomial and the eigenvalues of the matrix in:\\[\\begin{bmatrix}2 & 1 \\-1 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the eigenspace corresponding to each listed eigenvalue.\\[A = \\begin{bmatrix}3 & 0 & 2 & 0 \\1 & 3 & 1 & 0 \\0 & 1 & 1 & 0 \\0 & 0 & 0 & 4 \\\\end{bmatrix}, \\quad \\lambda = 4\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "It can be shown that the algebraic multiplicity of an eigenvalue is always greater than or equal to the dimension of the eigenspace corresponding to $\\lambda$. Find $h$ in the matrix $A$ below such that the eigenspace for $\\lambda=5$ is two-dimensional:\\[A = \\begin{bmatrix}5 & -2 & 6 & -1 \\0 & 3 & h & 0 \\0 & 0 & 5 & 4 \\0 & 0 & 0 & 1 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, use Example 6 to list the eigenvalues of $A$. In each case, the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ is the composition of a rotation and a scaling. Give the angle $\\varphi$ of the rotation, where $-\\pi < \\varphi \\leq \\pi$, and give the scale factor $r$.\\[\\quad A = \begin{bmatrix}\\sqrt{3} & -1 \\1 & \\sqrt{3} \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Assume the mapping $T \\colon \\mathbb{P}_2 \to \\mathbb{P}_2$ defined by\\[T(a_0 + a_1t + a_2t^2) = 3a_0 + (5a_0 - 2a_1)t + (4a_1 + a_2)t^2\\]is linear. Find the matrix representation of $T$ relative to the basis $\\mathcal{B} = \\{1, t, t^2\\}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": " Define $T \\colon \\mathbb{P}_2 \to \\mathbb{R}^3$ by\\[T(p) = \begin{bmatrix}p(-1) \\p(0) \\p(1) \\\\end{bmatrix}.\\]a. Find the image under $T$ of $p(t) = 5 + 3t$. \\b. Find the matrix for $T$ relative to the basis $\\{1, t, t^2\\}$ for$\\mathbb{P}_2$ and the standard basis for $\\mathbb{R}^3$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$. Find a basis $\\mathcal{B}$ for $\\mathbb{R}^2$ with the property that $[T]_{\\mathcal{B}}$ is diagonal.\\[\\quad A = \begin{bmatrix}0 & 1 \\-3 & 4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \begin{bmatrix}1 & 1 \\-1 & 3 \\\\end{bmatrix}\\quad \\text{and} \\quad \\mathcal{B} = \\{\\mathbf{b}_1, \\mathbf{b}_2\\}, \\quad \\text{for} \\quad \\mathbf{b}_1 = \\begin{bmatrix} 1 \\ 1 \\end{bmatrix}, \\mathbf{b}_2 = \\begin{bmatrix} 5 \\ 4 \\end{bmatrix}.\\]Define $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ by $T(\\mathbf{x}) = A\\mathbf{x}$.Find the $\\mathcal{B}$-matrix for $T$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[A = \\begin{bmatrix}0.6 & 0.3 \\0.4 & 0.7 \\\\end{bmatrix}, \\quad\\mathbf{v}_1 = \\begin{bmatrix}3/7 \\4/7 \\\\end{bmatrix}, \\quad\\mathbf{x}_0 = \begin{bmatrix}0.5 \\0.5 \\\\end{bmatrix}.\\][Note: $A$ is the stochastic matrix] a. Find a basis for $\\mathbb{R}^2$ consisting of $\\mathbf{v}_1$ and another eigenvector $\\mathbf{v}_2$ of $A$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/2_eigenvalues and eigenvectors/img_11.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_12.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_13.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_14.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_15.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_16.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_17.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_18.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_19.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/2_eigenvalues and eigenvectors/img_20.png"
+    }
+  ]
+  

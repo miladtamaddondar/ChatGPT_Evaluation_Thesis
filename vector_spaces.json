@@ -1,0 +1,333 @@
+[
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "let $W$ be the set of all vectors of the form shown, where $a$, $b$, and $c$ represent arbitrary real numbers. In each case, either find a set $S$ of vectors that spans $W$ or give an example to show that $W$ is not a vector space. \\[ \\quad \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Determine if $\\mathbf{w} = \begin{bmatrix} 1 \\ 3 \\ -4 \\ \\end{bmatrix}$ is in $\text{Nul }A$, where \\[ A = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \\ \\end{bmatrix}. \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "For the matrix in this exercise, (a) find $k$ such that $\text{Nul }A$ is a subspace of $\\mathbb{R}^k$, and (b) find $k$ such that $\text{Col }A$ is a subspace of $\\mathbb{R}^k$. \\[ \\quad A = \begin{bmatrix} 2 & -6 \\ -1 & 3 \\ -4 & 12 \\ 3 & -9 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find a basis for the space spanned by the given vectors $\\mathbf{v}_1, \\dots, \\mathbf{v}_5$. \\[ \\quad \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \\ \\end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \\ \\end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \\ \\end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \\ \\end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "The set $\\mathcal{B} = \\{1+t^2, t+t^2, 1+2t+t^2\\}$ is a basis for $\\mathbb{P}_2$. Find the coordinate vector of $p(t) = 1 + 4t + 7t^2$ relative to $\\mathcal{B}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Determine the dimensions of $\text{Nul }A$ and $\text{Col }A$ for the matrices shown in this exercise. \\[ \\quad A = \begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $p_1(t) = 1 + t^2$, $p_2(t) = t - 3t^2$, $p_3(t) = 1 + t - 3t^2$. Consider the basis $\\mathcal{B} = \\{p_1, p_2, p_3\\}$ for $\\mathbb{P}_2$. Find $q$ in $\\mathbb{P}_2$, given that \\[ [q]_{\\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \\ \\end{bmatrix}. \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "The first four Hermite polynomials are $1$, $2t$, $-2 + 4t^2$, and $-12t + 8t^3$. These polynomials arise naturally in the study of certain important differential equations in mathematical physics. \\ \newline Let $\\mathcal{B}$ be the basis of $\\mathbb{P}_3$ consisting of the Hermite polynomials mentioned above, and let $p(t) = 7 - 12t - 8t^2 + 12t^3$. Find the coordinate vector of $p$ relative to $\\mathcal{B}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $\\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\end{bmatrix}$. Find $\\mathbf{v}$ in $\\mathbb{R}^3$ such that \\[ \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \\ \\end{bmatrix} = \\mathbf{u}\\mathbf{v}^T. \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/4_vector space/img_31.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_32.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_33.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_34.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_35.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_36.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_37.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_38.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_39.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_40.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "let $W$ be the set of all vectors of the form shown, where $a$, $b$, and $c$ represent arbitrary real numbers. In each case, either find a set $S$ of vectors that spans $W$ or give an example to show that $W$ is not a vector space. \\[ \\quad \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Determine if $\\mathbf{w} = \begin{bmatrix} 1 \\ 3 \\ -4 \\ \\end{bmatrix}$ is in $\text{Nul }A$, where \\[ A = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "For the matrix in this exercise, (a) find $k$ such that $\text{Nul }A$ is a subspace of $\\mathbb{R}^k$, and (b) find $k$ such that $\text{Col }A$ is a subspace of $\\mathbb{R}^k$. \\[ \\quad A = \begin{bmatrix} 2 & -6 \\ -1 & 3 \\ -4 & 12 \\ 3 & -9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the space spanned by the given vectors $\\mathbf{v}_1, \\dots, \\mathbf{v}_5$. \\[ \\quad \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \\ \\end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \\ \\end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \\ \\end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \\ \\end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "The set $\\mathcal{B} = \\{1+t^2, t+t^2, 1+2t+t^2\\}$ is a basis for $\\mathbb{P}_2$. Find the coordinate vector of $p(t) = 1 + 4t + 7t^2$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Determine the dimensions of $\text{Nul }A$ and $\text{Col }A$ for the matrices shown in this exercise. \\[ \\quad A = \begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $p_1(t) = 1 + t^2$, $p_2(t) = t - 3t^2$, $p_3(t) = 1 + t - 3t^2$. Consider the basis $\\mathcal{B} = \\{p_1, p_2, p_3\\}$ for $\\mathbb{P}_2$. Find $q$ in $\\mathbb{P}_2$, given that \\[ [q]_{\\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "The first four Hermite polynomials are $1$, $2t$, $-2 + 4t^2$, and $-12t + 8t^3$. These polynomials arise naturally in the study of certain important differential equations in mathematical physics. \\ \newline Let $\\mathcal{B}$ be the basis of $\\mathbb{P}_3$ consisting of the Hermite polynomials mentioned above, and let $p(t) = 7 - 12t - 8t^2 + 12t^3$. Find the coordinate vector of $p$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\end{bmatrix}$. Find $\\mathbf{v}$ in $\\mathbb{R}^3$ such that \\[ \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \\ \\end{bmatrix} = \\mathbf{u}\\mathbf{v}^T. \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_31.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_32.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_33.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_34.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_35.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_36.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_37.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_38.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_39.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_40.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "let $W$ be the set of all vectors of the form shown, where $a$, $b$, and $c$ represent arbitrary real numbers. In each case, either find a set $S$ of vectors that spans $W$ or give an example to show that $W$ is not a vector space. \\[ \\quad \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Determine if $\\mathbf{w} = \begin{bmatrix} 1 \\ 3 \\ -4 \\ \\end{bmatrix}$ is in $\text{Nul }A$, where \\[ A = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "For the matrix in this exercise, (a) find $k$ such that $\text{Nul }A$ is a subspace of $\\mathbb{R}^k$, and (b) find $k$ such that $\text{Col }A$ is a subspace of $\\mathbb{R}^k$. \\[ \\quad A = \begin{bmatrix} 2 & -6 \\ -1 & 3 \\ -4 & 12 \\ 3 & -9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find a basis for the space spanned by the given vectors $\\mathbf{v}_1, \\dots, \\mathbf{v}_5$. \\[ \\quad \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \\ \\end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \\ \\end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \\ \\end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \\ \\end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "The set $\\mathcal{B} = \\{1+t^2, t+t^2, 1+2t+t^2\\}$ is a basis for $\\mathbb{P}_2$. Find the coordinate vector of $p(t) = 1 + 4t + 7t^2$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Determine the dimensions of $\text{Nul }A$ and $\text{Col }A$ for the matrices shown in this exercise. \\[ \\quad A = \begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $p_1(t) = 1 + t^2$, $p_2(t) = t - 3t^2$, $p_3(t) = 1 + t - 3t^2$. Consider the basis $\\mathcal{B} = \\{p_1, p_2, p_3\\}$ for $\\mathbb{P}_2$. Find $q$ in $\\mathbb{P}_2$, given that \\[ [q]_{\\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \\ \\end{bmatrix}. \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "The first four Hermite polynomials are $1$, $2t$, $-2 + 4t^2$, and $-12t + 8t^3$. These polynomials arise naturally in the study of certain important differential equations in mathematical physics. \\ \newline Let $\\mathcal{B}$ be the basis of $\\mathbb{P}_3$ consisting of the Hermite polynomials mentioned above, and let $p(t) = 7 - 12t - 8t^2 + 12t^3$. Find the coordinate vector of $p$ relative to $\\mathcal{B}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\end{bmatrix}$. Find $\\mathbf{v}$ in $\\mathbb{R}^3$ such that \\[ \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \\ \\end{bmatrix} = \\mathbf{u}\\mathbf{v}^T. \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In $\\mathbb{P}_2$, find the change-of-coordinates matrix from the basis $\\mathcal{B} = \\{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\\}$ to the standard basis. Then write $t^2$ as a linear combination of the polynomials in $\\mathcal{B}$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/4_vector space/img_31.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_32.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_33.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_34.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_35.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_36.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_37.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_38.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_39.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/4_vector space/img_40.png"
+    }
+  ]
+  

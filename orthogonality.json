@@ -1,0 +1,333 @@
+[
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "Compute the quantities in this exercise using the vectors \\[ \\mathbf{u} = \begin{bmatrix} -1 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v} = \begin{bmatrix} 4 \\ 6 \\end{bmatrix}, \\quad \\mathbf{w} = \begin{bmatrix} 3 \\ -1 \\ -5 \\end{bmatrix}, \\quad \\mathbf{x} = \begin{bmatrix} 6 \\ -2 \\ 3 \\end{bmatrix}. \\] a. $\\left(\\dfrac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}}\right) \\mathbf{v}$ b. $\\left(\\dfrac{\\mathbf{x} \\cdot \\mathbf{w}}{\\mathbf{x} \\cdot \\mathbf{x}}\right) \\mathbf{x}$"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "let $W$ be the subspace spanned by the $\\mathbf{u}$'s, and write $\\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$. \\[ \\quad \\mathbf{y} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_3 = \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[ \\mathbf{y} = \begin{bmatrix} 4 \\ 8 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 2/3 \\ 1/3 \\ 2/3 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \\ \\end{bmatrix}, \\] and $W = \text{Span}\\{\\mathbf{u}_1, \\mathbf{u}_2\\}$. a. Let $U = [\\mathbf{u}_1 \\ \\mathbf{u}_2]$. Compute $U^TU$ and $UU^T$. b. Compute $\text{proj}_W \\mathbf{y}$ and $(UU^T)\\mathbf{y}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Find an orthogonal basis for the column space of the matrix \\[ \begin{bmatrix} 1 & 2 & 5 \\ -1 & 1 & -4 \\ -1 & 4 & -3 \\ 1 & -4 & 7 \\ 1 & 2 & 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $\\mathbf{u} = \begin{bmatrix} 2 \\ -5 \\ -1 \\ \\end{bmatrix}$ and $\\mathbf{v} = \begin{bmatrix} -7 \\ -4 \\ 6 \\ \\end{bmatrix}$. Compute and compare $\\mathbf{u} \\cdot \\mathbf{v}$, $\\|\\mathbf{u}\\|^2$, $\\|\\mathbf{v}\\|^2$, and $\\|\\mathbf{u} + \\mathbf{v}\\|^2$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, describe all least-squares solutions of the equation $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, find (a) the orthogonal projection of $\\mathbf{b}$ onto $\text{Col }A$ and (b) a least-squares solution of $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 4 \\ -2 \\ -3 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[ \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} 5 \\ -1 \\ 2 \\ \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{u}_3 = \begin{bmatrix} 0 \\ 0 \\ 1 \\ \\end{bmatrix}. \\] Note that $\\mathbf{u}_1$ and $\\mathbf{u}_2$ are orthogonal but that $\\mathbf{u}_3$ is not orthogonal to $\\mathbf{u}_1$ or $\\mathbf{u}_2$. It can be shown that $\\mathbf{u}_3$ is not in the subspace $W$ spanned by $\\mathbf{u}_1$ and $\\mathbf{u}_2$. Use this fact to construct a nonzero vector $\\mathbf{v}$ in $\\mathbb{R}^3$ that is orthogonal to $\\mathbf{u}_1$ and $\\mathbf{u}_2$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, the columns of $Q$ were obtained by applying the Gram--Schmidt process to the columns of $A$. Find an upper triangular matrix $R$ such that $A = QR$. Check your work. \\[ \\quad A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \\ \\end{bmatrix}, \\quad Q = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \\ \\end{bmatrix} \\]"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $\\mathbb{P}_3$ have the inner product given by evaluation at $-3$, $-1$, $1$, and $3$. Let $p_0(t) = 1$, $p_1(t) = t$, and $p_2(t) = t^2$. a. Compute the orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$. b. Find a polynomial $q$ that is orthogonal to $p_0$ and $p_1$, such that $\\{p_0, p_1, q\\}$ is an orthogonal basis for $\text{Span}\\{p_0, p_1, p_2\\}$. Scale the polynomial $q$ so that its vector of values at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$."
+    },
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "image",
+      "content": "Solve the linear algebra problem in this image",
+      "image": "image/5_orthogonality/img_41.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_42.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_43.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_44.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_45.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_46.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_47.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_48.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_49.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_50.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "Compute the quantities in this exercise using the vectors \\[ \\mathbf{u} = \begin{bmatrix} -1 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v} = \begin{bmatrix} 4 \\ 6 \\end{bmatrix}, \\quad \\mathbf{w} = \begin{bmatrix} 3 \\ -1 \\ -5 \\end{bmatrix}, \\quad \\mathbf{x} = \begin{bmatrix} 6 \\ -2 \\ 3 \\end{bmatrix}. \\] a. $\\left(\\dfrac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}}\right) \\mathbf{v}$ b. $\\left(\\dfrac{\\mathbf{x} \\cdot \\mathbf{w}}{\\mathbf{x} \\cdot \\mathbf{x}}\right) \\mathbf{x}$"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "let $W$ be the subspace spanned by the $\\mathbf{u}$'s, and write $\\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$. \\[ \\quad \\mathbf{y} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_3 = \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{y} = \begin{bmatrix} 4 \\ 8 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 2/3 \\ 1/3 \\ 2/3 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \\ \\end{bmatrix}, \\] and $W = \text{Span}\\{\\mathbf{u}_1, \\mathbf{u}_2\\}$. a. Let $U = [\\mathbf{u}_1 \\ \\mathbf{u}_2]$. Compute $U^TU$ and $UU^T$. b. Compute $\text{proj}_W \\mathbf{y}$ and $(UU^T)\\mathbf{y}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Find an orthogonal basis for the column space of the matrix \\[ \begin{bmatrix} 1 & 2 & 5 \\ -1 & 1 & -4 \\ -1 & 4 & -3 \\ 1 & -4 & 7 \\ 1 & 2 & 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 2 \\ -5 \\ -1 \\ \\end{bmatrix}$ and $\\mathbf{v} = \begin{bmatrix} -7 \\ -4 \\ 6 \\ \\end{bmatrix}$. Compute and compare $\\mathbf{u} \\cdot \\mathbf{v}$, $\\|\\mathbf{u}\\|^2$, $\\|\\mathbf{v}\\|^2$, and $\\|\\mathbf{u} + \\mathbf{v}\\|^2$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, describe all least-squares solutions of the equation $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find (a) the orthogonal projection of $\\mathbf{b}$ onto $\text{Col }A$ and (b) a least-squares solution of $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 4 \\ -2 \\ -3 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} 5 \\ -1 \\ 2 \\ \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{u}_3 = \begin{bmatrix} 0 \\ 0 \\ 1 \\ \\end{bmatrix}. \\] Note that $\\mathbf{u}_1$ and $\\mathbf{u}_2$ are orthogonal but that $\\mathbf{u}_3$ is not orthogonal to $\\mathbf{u}_1$ or $\\mathbf{u}_2$. It can be shown that $\\mathbf{u}_3$ is not in the subspace $W$ spanned by $\\mathbf{u}_1$ and $\\mathbf{u}_2$. Use this fact to construct a nonzero vector $\\mathbf{v}$ in $\\mathbb{R}^3$ that is orthogonal to $\\mathbf{u}_1$ and $\\mathbf{u}_2$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, the columns of $Q$ were obtained by applying the Gram--Schmidt process to the columns of $A$. Find an upper triangular matrix $R$ such that $A = QR$. Check your work. \\[ \\quad A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \\ \\end{bmatrix}, \\quad Q = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbb{P}_3$ have the inner product given by evaluation at $-3$, $-1$, $1$, and $3$. Let $p_0(t) = 1$, $p_1(t) = t$, and $p_2(t) = t^2$. a. Compute the orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$. b. Find a polynomial $q$ that is orthogonal to $p_0$ and $p_1$, such that $\\{p_0, p_1, q\\}$ is an orthogonal basis for $\text{Span}\\{p_0, p_1, p_2\\}$. Scale the polynomial $q$ so that its vector of values at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_41.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_42.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_43.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_44.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_45.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_46.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_47.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_48.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_49.png"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_50.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "Compute the quantities in this exercise using the vectors \\[ \\mathbf{u} = \begin{bmatrix} -1 \\ 2 \\end{bmatrix}, \\quad \\mathbf{v} = \begin{bmatrix} 4 \\ 6 \\end{bmatrix}, \\quad \\mathbf{w} = \begin{bmatrix} 3 \\ -1 \\ -5 \\end{bmatrix}, \\quad \\mathbf{x} = \begin{bmatrix} 6 \\ -2 \\ 3 \\end{bmatrix}. \\] a. $\\left(\\dfrac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}}\right) \\mathbf{v}$ b. $\\left(\\dfrac{\\mathbf{x} \\cdot \\mathbf{w}}{\\mathbf{x} \\cdot \\mathbf{x}}\right) \\mathbf{x}$"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "let $W$ be the subspace spanned by the $\\mathbf{u}$'s, and write $\\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$. \\[ \\quad \\mathbf{y} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_3 = \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{y} = \begin{bmatrix} 4 \\ 8 \\ 1 \\ \\end{bmatrix}, \\quad \\mathbf{u}_1 = \begin{bmatrix} 2/3 \\ 1/3 \\ 2/3 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \\ \\end{bmatrix}, \\] and $W = \text{Span}\\{\\mathbf{u}_1, \\mathbf{u}_2\\}$. a. Let $U = [\\mathbf{u}_1 \\ \\mathbf{u}_2]$. Compute $U^TU$ and $UU^T$. b. Compute $\text{proj}_W \\mathbf{y}$ and $(UU^T)\\mathbf{y}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Find an orthogonal basis for the column space of the matrix \\[ \begin{bmatrix} 1 & 2 & 5 \\ -1 & 1 & -4 \\ -1 & 4 & -3 \\ 1 & -4 & 7 \\ 1 & 2 & 1 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbf{u} = \begin{bmatrix} 2 \\ -5 \\ -1 \\ \\end{bmatrix}$ and $\\mathbf{v} = \begin{bmatrix} -7 \\ -4 \\ 6 \\ \\end{bmatrix}$. Compute and compare $\\mathbf{u} \\cdot \\mathbf{v}$, $\\|\\mathbf{u}\\|^2$, $\\|\\mathbf{v}\\|^2$, and $\\|\\mathbf{u} + \\mathbf{v}\\|^2$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, describe all least-squares solutions of the equation $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, find (a) the orthogonal projection of $\\mathbf{b}$ onto $\text{Col }A$ and (b) a least-squares solution of $A\\mathbf{x} = \\mathbf{b}$. \\[ \\quad A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \\ \\end{bmatrix}, \\quad \\mathbf{b} = \begin{bmatrix} 4 \\ -2 \\ -3 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[ \\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ -2 \\ \\end{bmatrix}, \\quad \\mathbf{u}_2 = \begin{bmatrix} 5 \\ -1 \\ 2 \\ \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{u}_3 = \begin{bmatrix} 0 \\ 0 \\ 1 \\ \\end{bmatrix}. \\] Note that $\\mathbf{u}_1$ and $\\mathbf{u}_2$ are orthogonal but that $\\mathbf{u}_3$ is not orthogonal to $\\mathbf{u}_1$ or $\\mathbf{u}_2$. It can be shown that $\\mathbf{u}_3$ is not in the subspace $W$ spanned by $\\mathbf{u}_1$ and $\\mathbf{u}_2$. Use this fact to construct a nonzero vector $\\mathbf{v}$ in $\\mathbb{R}^3$ that is orthogonal to $\\mathbf{u}_1$ and $\\mathbf{u}_2$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, the columns of $Q$ were obtained by applying the Gram--Schmidt process to the columns of $A$. Find an upper triangular matrix $R$ such that $A = QR$. Check your work. \\[ \\quad A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \\ \\end{bmatrix}, \\quad Q = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \\ \\end{bmatrix} \\]"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $\\mathbb{P}_3$ have the inner product given by evaluation at $-3$, $-1$, $1$, and $3$. Let $p_0(t) = 1$, $p_1(t) = t$, and $p_2(t) = t^2$. a. Compute the orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$. b. Find a polynomial $q$ that is orthogonal to $p_0$ and $p_1$, such that $\\{p_0, p_1, q\\}$ is an orthogonal basis for $\text{Span}\\{p_0, p_1, p_2\\}$. Scale the polynomial $q$ so that its vector of values at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/5_orthogonality/img_41.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_42.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_43.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_44.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_45.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_46.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_47.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_48.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_49.png"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "image",
+          "content": "Solve the linear algebra problem in this image",
+          "image": "image/5_orthogonality/img_50.png"
+    }
+  ]
+  

@@ -22,7 +22,7 @@
     {
         "type": "LogiCoT",
         "prompt_input_type": "text",
-        "content": "In this exercise, use Example 6 to list the eigenvalues of $A$. In each case, the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ is the composition of a rotation and a scaling. Give the angle $\\varphi$ of the rotation, where $-\\pi < \\varphi \\leq \\pi$, and give the scale factor $r$.\\[\\quad A = \begin{bmatrix}\\sqrt{3} & -1 \\1 & \\sqrt{3} \\\\end{bmatrix}\\]."
+        "content": "find an invertible matrix $P$ and a matrix $C$ of the form $\\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$ such that the given matrix has the form $A = PCP^{-1}$. \\A= $\begin{pmatrix} 1 & -2 \\ 1 & 3 \\end{pmatrix}$."
     },
     {
         "type": "LogiCoT",
@@ -132,7 +132,7 @@
     {
           "type": "Persona",
           "prompt_input_type": "text",
-          "content": "In this exercise, use Example 6 to list the eigenvalues of $A$. In each case, the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ is the composition of a rotation and a scaling. Give the angle $\\varphi$ of the rotation, where $-\\pi < \\varphi \\leq \\pi$, and give the scale factor $r$.\\[\\quad A = \begin{bmatrix}\\sqrt{3} & -1 \\1 & \\sqrt{3} \\\\end{bmatrix}\\]."
+          "content": "find an invertible matrix $P$ and a matrix $C$ of the form $\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$ such that the given matrix has the form $A = PCP^{-1}$. \\A= $\begin{pmatrix} 1 & -2 \\ 1 & 3 \\end{pmatrix}$."
     },
     {
           "type": "Persona",
@@ -242,7 +242,7 @@
     {
           "type": "Chain-of-Table",
           "prompt_input_type": "text",
-          "content": "In this exercise, use Example 6 to list the eigenvalues of $A$. In each case, the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ is the composition of a rotation and a scaling. Give the angle $\\varphi$ of the rotation, where $-\\pi < \\varphi \\leq \\pi$, and give the scale factor $r$.\\[\\quad A = \begin{bmatrix}\\sqrt{3} & -1 \\1 & \\sqrt{3} \\\\end{bmatrix}\\]."
+          "content": "find an invertible matrix $P$ and a matrix $C$ of the form $\begin{pmatrix} a & b \\ -b & a \\end{pmatrix}$ such that the given matrix has the form $A = PCP^{-1}$. \\A= $\begin{pmatrix} 1 & -2 \\ 1 & 3 \\end{pmatrix}$."
     },
     {
           "type": "Chain-of-Table",

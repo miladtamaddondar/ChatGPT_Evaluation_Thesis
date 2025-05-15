@@ -1,0 +1,333 @@
+[
+    {
+      "type": "LogiCoT",
+      "prompt_input_type": "text",
+      "content": "In this exercise, with $T$ defined by $T(\\mathbf{x}) = A\\mathbf{x}$, find a vector $\\mathbf{x}$ whose image under $T$ is $\\mathbf{b}$, and determine whether $\\mathbf{x}$ is unique.\\[\\quad A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5 \\\\end{bmatrix}, \\quad\\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, assume that $T$ is a linear transformation. Find the standard matrix of $T$. \\T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2 \\text{ rotates points (about the origin)} \\\\text{through } \\frac{3\\pi}{2} \\text{ radians (counterclockwise).}"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps\\[\\mathbf{u} = \\begin{bmatrix} 5 \\ 2 \\end{bmatrix} \\text{ into } \\begin{bmatrix} 2 \\ 1 \\end{bmatrix}\\]and maps\\[\\mathbf{v} = \\begin{bmatrix} 1 \\ 3 \\end{bmatrix} \\text{ into } \\begin{bmatrix} -1 \\ 3 \\end{bmatrix}.\\]Use the fact that $T$ is linear to find the images under $T$ of $3\\mathbf{u}$, $2\\mathbf{v}$, and $3\\mathbf{u} + 2\\mathbf{v}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "For this exercise, find all $\\mathbf{x}$ in $\\mathbb{R}^4$ that are mapped into the zero vector by the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ for the given matrix $A$.\\[\\quad A = \\begin{bmatrix}1 & -4 & 7 & -5 \\0 & 1 & -4 & 3 \\2 & -6 & 6 & -4 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "fill in the missing entries of the matrix, assuming that the equation holds for all values of the variables.\\[\\quad \\begin{bmatrix}\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\end{bmatrix}\\begin{bmatrix}x_1 \\x_2 \\x_3 \\\\end{bmatrix}= \\begin{bmatrix}3x_1 - 2x_3 \\4x_1 \\x_1 - x_2 + x_3 \\\\end{bmatrix}\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "In this exercise, show that $T$ is a linear transformation by finding a matrix that implements the mapping. Note that $x_1, x_2, \\dots$ are not vectors but are entries in vectors.\\[\\quad T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[\\mathbf{e}_1 = \\begin{bmatrix} 1 \\ 0 \\end{bmatrix}, \\quad \\mathbf{e}_2 = \begin{bmatrix} 0 \\ 1 \\end{bmatrix}, \\quad \\mathbf{y}_1 = \\begin{bmatrix} 2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{y}_2 = \begin{bmatrix} -1 \\ 6 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{e}_1$ into $\\mathbf{y}_1$ and maps $\\mathbf{e}_2$ into $\\mathbf{y}_2$. Find the images of \\[\\begin{bmatrix} 5 \\ -3 \\end{bmatrix} \\quad \\text{and} \\quad \\begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}.\\]."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let \\[\\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}, \\quad \\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{x}$ into $x_1\\mathbf{v}_1 + x_2\\mathbf{v}_2$. Find a matrix $A$ such that $T(\\mathbf{x})$ is $A\\mathbf{x}$ for each $\\mathbf{x}$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (3, 8)$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "text",
+        "content": " Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^3$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (-1, 4, 9)$."
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_21.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_22.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_23.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_24.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_25.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_26.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_27.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_28.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_29.png"
+    },
+    {
+        "type": "LogiCoT",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_30.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "text",
+        "content": "In this exercise, with $T$ defined by $T(\\mathbf{x}) = A\\mathbf{x}$, find a vector $\\mathbf{x}$ whose image under $T$ is $\\mathbf{b}$, and determine whether $\\mathbf{x}$ is unique.\\[\\quad A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5 \\\\end{bmatrix}, \\quad\\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, assume that $T$ is a linear transformation. Find the standard matrix of $T$. \\T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2 \\text{ rotates points (about the origin)} \\\\text{through } \\frac{3\\pi}{2} \\text{ radians (counterclockwise).}"
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps\\[\\mathbf{u} = \\begin{bmatrix} 5 \\ 2 \\end{bmatrix} \\text{ into } \\begin{bmatrix} 2 \\ 1 \\end{bmatrix}\\]and maps\\[\\mathbf{v} = \\begin{bmatrix} 1 \\ 3 \\end{bmatrix} \\text{ into } \\begin{bmatrix} -1 \\ 3 \\end{bmatrix}.\\]Use the fact that $T$ is linear to find the images under $T$ of $3\\mathbf{u}$, $2\\mathbf{v}$, and $3\\mathbf{u} + 2\\mathbf{v}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "For this exercise, find all $\\mathbf{x}$ in $\\mathbb{R}^4$ that are mapped into the zero vector by the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ for the given matrix $A$.\\[\\quad A = \\begin{bmatrix}1 & -4 & 7 & -5 \\0 & 1 & -4 & 3 \\2 & -6 & 6 & -4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "fill in the missing entries of the matrix, assuming that the equation holds for all values of the variables.\\[\\quad \\begin{bmatrix}\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\end{bmatrix}\\begin{bmatrix}x_1 \\x_2 \\x_3 \\\\end{bmatrix}= \\begin{bmatrix}3x_1 - 2x_3 \\4x_1 \\x_1 - x_2 + x_3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "In this exercise, show that $T$ is a linear transformation by finding a matrix that implements the mapping. Note that $x_1, x_2, \\dots$ are not vectors but are entries in vectors.\\[\\quad T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{e}_1 = \\begin{bmatrix} 1 \\ 0 \\end{bmatrix}, \\quad \\mathbf{e}_2 = \begin{bmatrix} 0 \\ 1 \\end{bmatrix}, \\quad \\mathbf{y}_1 = \\begin{bmatrix} 2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{y}_2 = \begin{bmatrix} -1 \\ 6 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{e}_1$ into $\\mathbf{y}_1$ and maps $\\mathbf{e}_2$ into $\\mathbf{y}_2$. Find the images of \\[\\begin{bmatrix} 5 \\ -3 \\end{bmatrix} \\quad \\text{and} \\quad \\begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}.\\]."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}, \\quad \\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{x}$ into $x_1\\mathbf{v}_1 + x_2\\mathbf{v}_2$. Find a matrix $A$ such that $T(\\mathbf{x})$ is $A\\mathbf{x}$ for each $\\mathbf{x}$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (3, 8)$."
+    },
+    {
+          "type": "Persona",
+          "prompt_input_type": "text",
+          "content": " Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^3$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (-1, 4, 9)$."
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_21.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_22.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_23.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_24.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_25.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_26.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_27.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_28.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_29.png"
+    },
+    {
+        "type": "Persona",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_30.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "text",
+        "content": "In this exercise, with $T$ defined by $T(\\mathbf{x}) = A\\mathbf{x}$, find a vector $\\mathbf{x}$ whose image under $T$ is $\\mathbf{b}$, and determine whether $\\mathbf{x}$ is unique.\\[\\quad A = \\begin{bmatrix}1 & 0 & -2 \\-2 & 1 & 6 \\3 & -2 & -5 \\\\end{bmatrix}, \\quad\\mathbf{b} = \\begin{bmatrix}-1 \\7 \\-3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, assume that $T$ is a linear transformation. Find the standard matrix of $T$. \\T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2 \\text{ rotates points (about the origin)} \\\\text{through } \\frac{3\\pi}{2} \\text{ radians (counterclockwise).}"
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps\\[\\mathbf{u} = \\begin{bmatrix} 5 \\ 2 \\end{bmatrix} \\text{ into } \\begin{bmatrix} 2 \\ 1 \\end{bmatrix}\\]and maps\\[\\mathbf{v} = \\begin{bmatrix} 1 \\ 3 \\end{bmatrix} \\text{ into } \\begin{bmatrix} -1 \\ 3 \\end{bmatrix}.\\]Use the fact that $T$ is linear to find the images under $T$ of $3\\mathbf{u}$, $2\\mathbf{v}$, and $3\\mathbf{u} + 2\\mathbf{v}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "For this exercise, find all $\\mathbf{x}$ in $\\mathbb{R}^4$ that are mapped into the zero vector by the transformation $\\mathbf{x} \\mapsto A\\mathbf{x}$ for the given matrix $A$.\\[\\quad A = \\begin{bmatrix}1 & -4 & 7 & -5 \\0 & 1 & -4 & 3 \\2 & -6 & 6 & -4 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "fill in the missing entries of the matrix, assuming that the equation holds for all values of the variables.\\[\\quad \\begin{bmatrix}\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\bullet & \\bullet & \\bullet \\\\end{bmatrix}\\begin{bmatrix}x_1 \\x_2 \\x_3 \\\\end{bmatrix}= \\begin{bmatrix}3x_1 - 2x_3 \\4x_1 \\x_1 - x_2 + x_3 \\\\end{bmatrix}\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "In this exercise, show that $T$ is a linear transformation by finding a matrix that implements the mapping. Note that $x_1, x_2, \\dots$ are not vectors but are entries in vectors.\\[\\quad T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{e}_1 = \\begin{bmatrix} 1 \\ 0 \\end{bmatrix}, \\quad \\mathbf{e}_2 = \begin{bmatrix} 0 \\ 1 \\end{bmatrix}, \\quad \\mathbf{y}_1 = \\begin{bmatrix} 2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{y}_2 = \begin{bmatrix} -1 \\ 6 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{e}_1$ into $\\mathbf{y}_1$ and maps $\\mathbf{e}_2$ into $\\mathbf{y}_2$. Find the images of \\[\\begin{bmatrix} 5 \\ -3 \\end{bmatrix} \\quad \\text{and} \\quad \\begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}.\\]."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let \\[\\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\end{bmatrix}, \\quad \\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \\end{bmatrix}, \\quad \text{and} \\quad \\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \\end{bmatrix},\\]and let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation that maps $\\mathbf{x}$ into $x_1\\mathbf{v}_1 + x_2\\mathbf{v}_2$. Find a matrix $A$ such that $T(\\mathbf{x})$ is $A\\mathbf{x}$ for each $\\mathbf{x}$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": "Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (3, 8)$."
+    },
+    {
+          "type": "Chain-of-Table",
+          "prompt_input_type": "text",
+          "content": " Let $T \\colon \\mathbb{R}^2 \\to \\mathbb{R}^3$ be a linear transformation such that\\[T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2).\\]Find $\\mathbf{x}$ such that $T(\\mathbf{x}) = (-1, 4, 9)$."
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_21.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_22.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_23.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_24.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_25.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_26.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_27.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_28.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_29.png"
+    },
+    {
+        "type": "Chain-of-Table",
+        "prompt_input_type": "image",
+        "content": "Solve the linear algebra problem in this image",
+        "image": "image/3_linear transformation/img_30.png"
+    }
+  ]
+  

@@ -1,0 +1,28 @@
+1. Find the eigenspace for \(\lambda = 5\) by solving \((A - 5I)\vec{x} = 0\): \(A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\).
+2. The eigenspace dimension is the nullity of \(A - 5I\); for it to be 2, the rank must be \(4 - 2 = 2\).
+3. Row reduce \(A - 5I\): The last two rows are \([0\ 0\ 0\ 4]\) and \([0\ 0\ 0\ -4]\), which are linearly dependent, so only one contributes to the rank.
+4. The first two rows are \([0\ -2\ 6\ -1]\) and \([0\ -2\ h\ 0]\); subtract row 1 from row 2 to get row 2: \([0\ 0\ h-6\ 1]\).
+5. Now, the matrix is \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & 0 & h-6 & 1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0\end{bmatrix}\).
+6. The nonzero rows are: row 1, row 2 (if \(h \neq 6\) or 1), row 3; for rank 2, one of these must be zero, so set \(h-6 = 0\) and \(1 = 0\) (impossible), so only \(h-6 = 0\), i.e., \(h = 6\).
+7. Verify: If \(h = 6\), row 2 becomes \([0\ 0\ 0\ 1]\), so the nonzero rows are row 1, row 2, row 3; but row 2 and row 3 are linearly independent, so rank is 3, not 2.
+8. Instead, for rank 2, both row 2 and row 3 must be zero: \(h-6 = 0\) and the coefficient of \(x_4\) in row 2 must be zero, so \(h-6 = 0\) and \(1 = 0\) (contradiction), so check if row 2 can be a linear combination of row 3.
+9. Row 2 is \([0\ 0\ h-6\ 1]\), row 3 is \([0\ 0\ 0\ 4]\); for row 2 to be a multiple of row 3, \(h-6 = 0\) and \(1 = 4k\) for some \(k\), but then \(k = 1/4\), so \(1 = 4 \times 1/4 = 1\), which is possible.
+10. Therefore, set \(h-6 = 0\), so \(h = 6\); now row 2 is \([0\ 0\ 0\ 1]\), which is not a multiple of row 3, but row 3 is independent, so the rank is 3.
+11. To reduce the rank to 2, both row 2 and row 3 must be zero: \(h-6 = 0\) and \(1 = 0\) (impossible); alternatively, the first two rows must be linearly dependent.
+12. The first two rows are \([0\ -2\ 6\ -1]\) and \([0\ -2\ h\ 0]\); set the second row as a multiple of the first: \([0\ -2\ h\ 0] = k[0\ -2\ 6\ -1]\).
+13. Equate components: \(-2 = k(-2)\) gives \(k = 1\); then \(h = 6\), \(0 = -1\), which is impossible.
+14. Therefore, the only way for the rank to be 2 is for the third and fourth rows to be zero: \(4 = 0\) and \(-4 = 0\), which is not possible.
+15. Re-examine: The only way for the nullity to be 2 is for the third and fourth columns to be linearly dependent, i.e., the third and fourth columns of \(A - 5I\) must be linearly dependent.
+16. Alternatively, compute the geometric multiplicity directly: The algebraic multiplicity of \(\lambda = 5\) is the number of times 5 appears as a root of the characteristic polynomial.
+17. Compute the characteristic polynomial: \(\det(A - \lambda I) = 0\).
+18. \(A - \lambda I = \begin{bmatrix}5-\lambda & -2 & 6 & -1 \\ 0 & 3-\lambda & h & 0 \\ 0 & 0 & 5-\lambda & 4 \\ 0 & 0 & 0 & 1-\lambda\end{bmatrix}\).
+19. The determinant is \((5-\lambda) \cdot (3-\lambda) \cdot (5-\lambda) \cdot (1-\lambda)\).
+20. For \(\lambda = 5\), the algebraic multiplicity is 2.
+21. For the geometric multiplicity to be 2, the nullity of \(A - 5I\) must be 2.
+22. Substitute \(\lambda = 5\) into \(A - 5I\): \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\).
+23. The last two rows are linearly dependent, so only one contributes to the rank.
+24. The first two rows: Subtract row 1 from row 2 to get row 2: \([0\ 0\ h-6\ 1]\).
+25. For the rank to be 2, row 2 must be a multiple of row 3: \([0\ 0\ h-6\ 1] = k[0\ 0\ 0\ 4]\).
+26. This gives \(h-6 = 0\) and \(1 = 4k\), so \(k = 1/4\), which is possible.
+27. Therefore, for \(h = 6\), the rank is 2, so the nullity is 2.
+28. Final answer: \(h = 6\).

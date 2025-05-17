@@ -1,0 +1,11 @@
+1. To find the image of $p(t) = 5 + 3t$ under $T$, we evaluate $p$ at $-1$, $0$, and $1$: $T(p) = \begin{bmatrix} p(-1) \\ p(0) \\ p(1) \end{bmatrix}$.
+2. Compute $p(-1) = 5 + 3(-1) = 2$; this follows from direct substitution and evaluation.
+3. Compute $p(0) = 5 + 3(0) = 5$; this is correct by evaluating at $t=0$.
+4. Compute $p(1) = 5 + 3(1) = 8$; this is correct by evaluating at $t=1$.
+5. Thus, $T(p) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix}$; this vector is in $\mathbb{R}^3$ as expected.
+6. To find the matrix for $T$ relative to the basis $\{1, t, t^2\}$ for $\mathbb{P}_2$ and the standard basis for $\mathbb{R}^3$, we apply $T$ to each basis vector.
+7. For $p_1(t) = 1$, $T(1) = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}$ since $1$ evaluated at any $t$ is $1$.
+8. For $p_2(t) = t$, $T(t) = \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix}$ since $t$ evaluated at $-1$, $0$, $1$ gives $-1$, $0$, $1$.
+9. For $p_3(t) = t^2$, $T(t^2) = \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}$ since $t^2$ evaluated at $-1$, $0$, $1$ gives $1$, $0$, $1$.
+10. The matrix for $T$ is formed by placing these vectors as columns: $A = \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix}$; this follows from the definition of the matrix representation of a linear transformation.
+11. Final answers: (a) $T(5 + 3t) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix}$; (b) The matrix for $T$ is $A = \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix}$.

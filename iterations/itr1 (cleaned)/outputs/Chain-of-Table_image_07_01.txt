@@ -1,0 +1,4 @@
+1. Recognize that \( Qr_1, Qr_2, \ldots, Qr_p \) are each the result of multiplying \( Q \) (an \( m \times n \) matrix) by each vector \( r_i \) (each \( n \times 1 \)). 
+2. Notice that stacking the vectors \( r_1, \ldots, r_p \) as columns gives an \( n \times p \) matrix \( R = [r_1\ r_2\ \ldots\ r_p] \). 
+3. The matrix \( [Qr_1\ Qr_2\ \ldots\ Qr_p] \) is then the result of multiplying \( Q \) by \( R \), i.e., \( Q[r_1\ r_2\ \ldots\ r_p] = [Qr_1\ Qr_2\ \ldots\ Qr_p] \). 
+4. Therefore, the answer is: \( [Qr_1\ Qr_2\ \ldots\ Qr_p] = Q \begin{bmatrix} r_1 & r_2 & \cdots & r_p \end{bmatrix} \).

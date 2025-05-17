@@ -1,0 +1,2 @@
+1. Notice that each column \( Q r_i \) is the result of multiplying \( Q \) by the vector \( r_i \), so the matrix \([Q r_1 \ Q r_2 \ \ldots \ Q r_p]\) is the result of multiplying \( Q \) by the matrix whose columns are \( r_1, \ldots, r_p \): \([Q r_1 \ Q r_2 \ \ldots \ Q r_p] = Q [r_1 \ r_2 \ \ldots \ r_p]\).
+2. Therefore, the matrix can be written as the product of two matrices: \( Q [r_1 \ r_2 \ \ldots \ r_p] \).

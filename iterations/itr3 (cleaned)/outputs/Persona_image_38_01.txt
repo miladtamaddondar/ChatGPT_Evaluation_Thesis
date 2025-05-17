@@ -1,0 +1,10 @@
+1. The basis \(\mathcal{B}\) for \(\mathbb{P}_3\) is given as \(\{1, 2t, -2 + 4t^2, -12t + 8t^3\}\). 
+2. We want to express \(p(t) = 7 - 12t - 8t^2 + 12t^3\) as a linear combination of the basis elements, i.e., find scalars \(a, b, c, d\) such that \(p(t) = a \cdot 1 + b \cdot 2t + c(-2 + 4t^2) + d(-12t + 8t^3)\). 
+3. Expanding the linear combination gives \(p(t) = a + 2b t + (-2c + 4c t^2) + (-12d t + 8d t^3)\). 
+4. Collecting like terms: \(p(t) = a - 2c + (2b - 12d)t + 4c t^2 + 8d t^3\). 
+5. Set this equal to \(7 - 12t - 8t^2 + 12t^3\) and equate coefficients: constant: \(a - 2c = 7\), \(t\): \(2b - 12d = -12\), \(t^2\): \(4c = -8\), \(t^3\): \(8d = 12\). 
+6. Solve \(4c = -8 \implies c = -2\). 
+7. Solve \(8d = 12 \implies d = \frac{3}{2}\). 
+8. Substitute \(c = -2\) into \(a - 2c = 7\): \(a - 2(-2) = 7 \implies a + 4 = 7 \implies a = 3\). 
+9. Substitute \(d = \frac{3}{2}\) into \(2b - 12d = -12\): \(2b - 12 \cdot \frac{3}{2} = -12 \implies 2b - 18 = -12 \implies 2b = 6 \implies b = 3\). 
+10. Therefore, the coordinate vector of \(p\) relative to \(\mathcal{B}\) is \(\begin{bmatrix} 3 \\ 3 \\ -2 \\ \frac{3}{2} \end{bmatrix}\).

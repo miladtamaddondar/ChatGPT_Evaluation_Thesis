@@ -1,0 +1,8 @@
+1. We are given \( A = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \) and need to find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \) and the columns of \( B \) are nonzero and different.  
+2. Let \( B = \begin{bmatrix} \mathbf{b}_1 & \mathbf{b}_2 \end{bmatrix} \), where \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \) are \( 2 \times 1 \) vectors; \( AB = 0 \) means \( A\mathbf{b}_1 = 0 \) and \( A\mathbf{b}_2 = 0 \).  
+3. To find \( \mathbf{b}_1 \), solve \( A\mathbf{b}_1 = 0 \): let \( \mathbf{b}_1 = \begin{bmatrix} x \\ y \end{bmatrix} \), so \( \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 3x - 6y \\ -x + 2y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \).  
+4. The equations are \( 3x - 6y = 0 \) and \( -x + 2y = 0 \); both equations are equivalent, so \( x = 2y \).  
+5. Choose \( y = 1 \), then \( x = 2 \), so \( \mathbf{b}_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix} \); verify: \( 3(2) - 6(1) = 0 \) and \( -2 + 2(1) = 0 \), so this is correct.  
+6. To get a different nonzero column, pick another scalar multiple: let \( y = -1 \), then \( x = -2 \), so \( \mathbf{b}_2 = \begin{bmatrix} -2 \\ -1 \end{bmatrix} \); verify: \( 3(-2) - 6(-1) = -6 + 6 = 0 \) and \( -(-2) + 2(-1) = 2 - 2 = 0 \), so this is correct.  
+7. Thus, \( B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns in the null space of \( A \).  
+8. Final answer: \( B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} \) satisfies \( AB = 0 \) with two different nonzero columns.

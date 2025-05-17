@@ -1,0 +1,6 @@
+1. Start with a \( 4 \times 3 \) zero matrix, which has rank 0: \(\begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}\).
+2. Replace the first row with nonzero entries to increase the rank to 1: \(\begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}\).
+3. Add a nonzero multiple of the first row to the second row, which does not increase the rank: \(\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}\).
+4. Add another nonzero multiple of the first row to the third row, still keeping the rank 1: \(\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 0 & 0 & 0 \end{bmatrix}\).
+5. Add yet another nonzero multiple of the first row to the fourth row, maintaining rank 1: \(\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix}\).
+6. The final matrix \(\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix}\) has rank 1 because all rows are scalar multiples of the first row.

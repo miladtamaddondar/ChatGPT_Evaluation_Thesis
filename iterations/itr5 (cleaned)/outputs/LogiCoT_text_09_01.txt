@@ -1,0 +1,12 @@
+1. Write the vectors as columns of a matrix: \( A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix} \).  
+2. Use row reduction to find the rank (number of linearly independent columns), which gives the dimension of the subspace: start with the first column as a pivot.  
+3. Notice that \(\mathbf{v}_2 = -3\mathbf{v}_1\), so \(\mathbf{v}_2\) is linearly dependent on \(\mathbf{v}_1\).  
+4. Subtract \(2 \times\) row 1 from row 3: \(2 - 2 \times 1 = 0\), \(-6 - 2 \times -3 = 0\), \(4 - 2 \times 2 = 0\), \(-3 - 2 \times -4 = 5\), so row 3 becomes \([0\ 0\ 0\ 5]\).  
+5. Subtract \(-4 \times\) row 1 from row 4: \(-4 - (-4 \times 1) = 0\), \(12 - (-4 \times -3) = 0\), \(2 - (-4 \times 2) = 10\), \(7 - (-4 \times -4) = -9\), so row 4 becomes \([0\ 0\ 10\ -9]\).  
+6. Now, the matrix is \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 10 & -9 \end{bmatrix}\); swap row 3 and row 4 for easier elimination.  
+7. Divide row 3 (now \([0\ 0\ 10\ -9]\)) by 10 to get a leading 1: \([0\ 0\ 1\ -0.9]\).  
+8. Eliminate the entry in row 4, column 3: row 4 is \([0\ 0\ 0\ 5]\), which already has 0 in column 3, so no change is needed.  
+9. Divide row 4 by 5 to get \([0\ 0\ 0\ 1]\).  
+10. The row-reduced matrix now has three nonzero rows, indicating three linearly independent vectors.  
+11. Thus, a basis for the subspace is \(\{\mathbf{v}_1, \mathbf{v}_3, \mathbf{v}_4\}\), since these correspond to the pivot columns.  
+12. The dimension of the subspace is 3, since there are 3 linearly independent vectors.

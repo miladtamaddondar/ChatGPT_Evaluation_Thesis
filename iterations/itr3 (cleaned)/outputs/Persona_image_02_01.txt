@@ -1,0 +1,5 @@
+1. To find the vector $\mathbf{x}$ in the standard basis, we use the formula $\mathbf{x} = [\mathbf{x}]_B^1 \mathbf{b}_1 + [\mathbf{x}]_B^2 \mathbf{b}_2$, where $[\mathbf{x}]_B = \begin{bmatrix} 3 \\ 2 \end{bmatrix}$ and $B = \left\{ \begin{bmatrix} 1 \\ 1 \\ 3 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 1 \end{bmatrix} \right\}$. 
+2. Substitute the values: $\mathbf{x} = 3 \begin{bmatrix} 1 \\ 1 \\ 3 \end{bmatrix} + 2 \begin{bmatrix} 2 \\ -1 \\ 1 \end{bmatrix}$. 
+3. Compute the scalar multiplications: $3 \begin{bmatrix} 1 \\ 1 \\ 3 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \\ 9 \end{bmatrix}$ and $2 \begin{bmatrix} 2 \\ -1 \\ 1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \\ 2 \end{bmatrix}$. 
+4. Add the two resulting vectors: $\begin{bmatrix} 3 \\ 3 \\ 9 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \\ 2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \\ 11 \end{bmatrix}$. 
+5. The final answer is $\mathbf{x} = \begin{bmatrix} 7 \\ 1 \\ 11 \end{bmatrix}$.

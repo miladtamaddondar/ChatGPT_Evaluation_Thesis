@@ -1,0 +1,2 @@
+1. The equation $\begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \end{bmatrix} = \mathbf{u}\mathbf{v}^T$ expands to $\begin{bmatrix} 1 \\ 2 \end{bmatrix} \begin{bmatrix} v_1 & v_2 & v_3 \end{bmatrix} = \begin{bmatrix} v_1 & v_2 & v_3 \\ 2v_1 & 2v_2 & 2v_3 \end{bmatrix}$, so we set up the system $\begin{bmatrix} v_1 & v_2 & v_3 \\ 2v_1 & 2v_2 & 2v_3 \end{bmatrix} = \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \end{bmatrix}$, which gives the equations $v_1 = 1$, $v_2 = -3$, $v_3 = 4$.
+2. Thus, the solution is $\mathbf{v} = \begin{bmatrix} 1 \\ -3 \\ 4 \end{bmatrix}$.

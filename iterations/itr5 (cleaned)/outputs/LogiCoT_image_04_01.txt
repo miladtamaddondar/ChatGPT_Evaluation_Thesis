@@ -1,0 +1,11 @@
+1. To compute \( AD \), multiply each column of \( A \) by the corresponding diagonal entry of \( D \): \( AD = \begin{bmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 4 & 5 \end{bmatrix} \begin{bmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 5 \end{bmatrix} \).  
+2. The first column of \( AD \) is \( 2 \) times the first column of \( A \): \( \begin{bmatrix} 2 \\ 2 \\ 2 \end{bmatrix} \).  
+3. The second column of \( AD \) is \( 3 \) times the second column of \( A \): \( \begin{bmatrix} 3 \\ 6 \\ 12 \end{bmatrix} \).  
+4. The third column of \( AD \) is \( 5 \) times the third column of \( A \): \( \begin{bmatrix} 5 \\ 15 \\ 25 \end{bmatrix} \).  
+5. Combine the columns to get \( AD = \begin{bmatrix} 2 & 3 & 5 \\ 2 & 6 & 15 \\ 2 & 12 & 25 \end{bmatrix} \).  
+6. To compute \( DA \), multiply each row of \( A \) by the corresponding diagonal entry of \( D \): \( DA = \begin{bmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 5 \end{bmatrix} \begin{bmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 4 & 5 \end{bmatrix} \).  
+7. The first row of \( DA \) is \( 2 \) times the first row of \( A \): \( \begin{bmatrix} 2 & 2 & 2 \end{bmatrix} \).  
+8. The second row of \( DA \) is \( 3 \) times the second row of \( A \): \( \begin{bmatrix} 3 & 6 & 9 \end{bmatrix} \).  
+9. The third row of \( DA \) is \( 5 \) times the third row of \( A \): \( \begin{bmatrix} 5 & 20 & 25 \end{bmatrix} \).  
+10. Combine the rows to get \( DA = \begin{bmatrix} 2 & 2 & 2 \\ 3 & 6 & 9 \\ 5 & 20 & 25 \end{bmatrix} \).  
+11. Final answer: \( AD = \begin{bmatrix} 2 & 3 & 5 \\ 2 & 6 & 15 \\ 2 & 12 & 25 \end{bmatrix} \), \( DA = \begin{bmatrix} 2 & 2 & 2 \\ 3 & 6 & 9 \\ 5 & 20 & 25 \end{bmatrix} \).

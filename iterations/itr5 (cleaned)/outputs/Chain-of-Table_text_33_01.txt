@@ -1,0 +1,2 @@
+1. The matrix $A$ has 2 columns and 4 rows, so $\text{Nul }A$ is a subspace of $\mathbb{R}^2$ and $\text{Col }A$ is a subspace of $\mathbb{R}^4$. 
+2. Final answer: (a) $k=2$ for $\text{Nul }A$; (b) $k=4$ for $\text{Col }A$.

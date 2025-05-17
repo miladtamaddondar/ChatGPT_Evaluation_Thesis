@@ -1,0 +1,4 @@
+1. The matrix \([Qr_1 \ Qr_2 \ \ldots \ Qr_p]\) consists of the vectors \(Qr_1, Qr_2, \ldots, Qr_p\) as columns, where each \(Qr_j\) is the result of multiplying \(Q\) by \(r_j\); this follows from the definition of matrix multiplication.  
+2. We can write the matrix \([r_1 \ r_2 \ \ldots \ r_p]\) as an \(n \times p\) matrix whose columns are the vectors \(r_1, \ldots, r_p\); this is the standard way to assemble vectors into a matrix.  
+3. The product \(Q[r_1 \ r_2 \ \ldots \ r_p]\) gives an \(m \times p\) matrix whose \(j\)-th column is \(Q r_j\), since matrix multiplication distributes over columns; this uses the property that \(Q\) applied to each column of a matrix is the same as multiplying \(Q\) by the whole matrix.  
+4. Therefore, \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q [r_1 \ r_2 \ \ldots \ r_p]\), expressing the original matrix as a product of two matrices, neither of which is the identity matrix.

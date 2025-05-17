@@ -1,0 +1,8 @@
+1. To show $T$ is a linear transformation, we need to find a matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ for all $\mathbf{x} = (x_1, x_2, x_3, x_4)^T$; this is possible if $T$ is linear, as matrix multiplication is a linear operation.
+2. Let's write $T(\mathbf{x})$ in terms of $x_1, x_2, x_3, x_4$: $T(\mathbf{x}) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)^T$; each component is a linear combination of the $x_i$'s, confirming linearity.
+3. The first output is always $0$, so the first row of $A$ must be $(0, 0, 0, 0)$; this is because $0 = 0x_1 + 0x_2 + 0x_3 + 0x_4$.
+4. The second output is $x_1 + x_2$, so the second row of $A$ must be $(1, 1, 0, 0)$; this is because $x_1 + x_2 = 1x_1 + 1x_2 + 0x_3 + 0x_4$.
+5. The third output is $x_2 + x_3$, so the third row of $A$ must be $(0, 1, 1, 0)$; this is because $x_2 + x_3 = 0x_1 + 1x_2 + 1x_3 + 0x_4$.
+6. The fourth output is $x_3 + x_4$, so the fourth row of $A$ must be $(0, 0, 1, 1)$; this is because $x_3 + x_4 = 0x_1 + 0x_2 + 1x_3 + 1x_4$.
+7. Therefore, the matrix $A$ implementing $T$ is $\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$, since $A\mathbf{x}$ produces exactly the components of $T(\mathbf{x})$ for any $\mathbf{x}$.
+8. Final answer: $T$ is a linear transformation and is implemented by the matrix $\boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}}$.

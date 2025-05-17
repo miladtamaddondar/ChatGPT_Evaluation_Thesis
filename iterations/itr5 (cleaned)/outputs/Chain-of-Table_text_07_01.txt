@@ -1,0 +1,3 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are each \( m \times 1 \) column vectors, so the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) is \( m \times p \).  
+2. Note that \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\), since multiplying \( Q \) by the matrix whose columns are \( r_1, \dots, r_p \) produces the matrix whose columns are \( Q r_1, \dots, Q r_p \).  
+3. Thus, the answer is: \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \begin{bmatrix} r_1 & r_2 & \dots & r_p \end{bmatrix}\).

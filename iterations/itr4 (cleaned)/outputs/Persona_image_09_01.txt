@@ -1,0 +1,6 @@
+1. To find a basis for the subspace spanned by the vectors, we place the vectors as columns in a matrix: \( A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix} \).  
+2. We perform row reduction to row echelon form to determine linear independence: Subtract \(-3\) times row 1 from row 2, \(-2\) times row 1 from row 3, and \(4\) times row 1 from row 4 to get \( \begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & -6 & 23 \end{bmatrix} \).  
+3. Next, add \(6/5\) times row 3 to row 4 to eliminate the \(-6\) in row 4, column 3: \( \begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 17 \end{bmatrix} \).  
+4. Now, the matrix is in row echelon form and we see there are 4 leading entries (pivots), so all four vectors are linearly independent.  
+5. Therefore, a basis for the subspace is \( \left\{ \mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3, \mathbf{v}_4 \right\} \).  
+6. The dimension of the subspace is \(4\).

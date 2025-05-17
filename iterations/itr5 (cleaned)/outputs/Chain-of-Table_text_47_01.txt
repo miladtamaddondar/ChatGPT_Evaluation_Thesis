@@ -1,0 +1,8 @@
+1. Compute $A^TA$ and $A^T\mathbf{b}$ to set up the normal equations: $A^TA = \begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} = \begin{bmatrix} 14 & 7 \\ 7 & 42 \end{bmatrix}$, $A^T\mathbf{b} = \begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 4 \\ -2 \\ -3 \end{bmatrix} = \begin{bmatrix} 4 - 6 + 6 \\ 20 - 2 - 12 \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \end{bmatrix}$.
+2. Write the augmented matrix for the normal equations: $\left[\begin{array}{cc|c} 14 & 7 & 4 \\ 7 & 42 & 6 \end{array}\right]$.
+3. Row 2 minus $\frac{7}{14}$ times Row 1: $\left[\begin{array}{cc|c} 14 & 7 & 4 \\ 0 & 39.5 & 4 \end{array}\right]$.
+4. Row 2 divided by $39.5$: $\left[\begin{array}{cc|c} 14 & 7 & 4 \\ 0 & 1 & \frac{4}{39.5} \end{array}\right]$.
+5. Row 1 minus $7$ times Row 2: $\left[\begin{array}{cc|c} 14 & 0 & 4 - 7 \cdot \frac{4}{39.5} \\ 0 & 1 & \frac{4}{39.5} \end{array}\right]$.
+6. Row 1 divided by $14$: $\left[\begin{array}{cc|c} 1 & 0 & \frac{4 - 7 \cdot \frac{4}{39.5}}{14} \\ 0 & 1 & \frac{4}{39.5} \end{array}\right]$.
+7. The least-squares solution is $\mathbf{x} = \begin{bmatrix} \frac{4 - 7 \cdot \frac{4}{39.5}}{14} \\ \frac{4}{39.5} \end{bmatrix} = \begin{bmatrix} \frac{126}{553} \\ \frac{8}{79} \end{bmatrix}$.
+8. The orthogonal projection is $A\mathbf{x} = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} \begin{bmatrix} \frac{126}{553} \\ \frac{8}{79} \end{bmatrix} = \begin{bmatrix} \frac{166}{79} \\ \frac{398}{553} \\ \frac{110}{79} \end{bmatrix}$.

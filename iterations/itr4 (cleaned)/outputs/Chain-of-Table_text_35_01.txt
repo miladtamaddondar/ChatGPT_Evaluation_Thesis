@@ -1,0 +1,7 @@
+1. Set up the equation $c_1(1+t^2) + c_2(t+t^2) + c_3(1+2t+t^2) = 1 + 4t + 7t^2$ and write the corresponding augmented matrix: $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 1 & 1 & 1 & 7 \end{array}\right]$.
+2. Subtract row 1 from row 3 to eliminate $c_1$ in row 3: $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 1 & 0 & 6 \end{array}\right]$.
+3. Subtract row 2 from row 3 to eliminate $c_2$ in row 3: $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & -2 & 2 \end{array}\right]$.
+4. Divide row 3 by $-2$ to solve for $c_3$: $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & 1 & -1 \end{array}\right]$.
+5. Subtract $2$ times row 3 from row 2 to eliminate $c_3$ in row 2: $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 0 & 6 \\ 0 & 0 & 1 & -1 \end{array}\right]$.
+6. Subtract row 3 from row 1 to eliminate $c_3$ in row 1: $\left[\begin{array}{ccc|c} 1 & 0 & 0 & 2 \\ 0 & 1 & 0 & 6 \\ 0 & 0 & 1 & -1 \end{array}\right]$.
+7. The coordinate vector of $p(t)$ relative to $\mathcal{B}$ is $\begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix}$.

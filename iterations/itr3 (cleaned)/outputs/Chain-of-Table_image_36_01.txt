@@ -1,0 +1,6 @@
+1. The matrix \( A \) is already in row echelon form, so we can directly count the pivots (leading 1's) to determine the rank.  
+2. There are 3 nonzero rows, so the rank of \( A \) is 3.  
+3. The number of columns in \( A \) is 6.  
+4. The dimension of \(\text{Col }A\) (the column space) is the rank, so \(\dim(\text{Col }A) = 3\).  
+5. The dimension of \(\text{Nul }A\) (the null space) is the number of columns minus the rank, so \(\dim(\text{Nul }A) = 6 - 3 = 3\).  
+6. Final answer: \(\boxed{\dim(\text{Col }A) = 3, \ \dim(\text{Nul }A) = 3}\).

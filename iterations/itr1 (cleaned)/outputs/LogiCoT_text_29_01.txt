@@ -1,0 +1,7 @@
+1. Write the equation for $T(\mathbf{x}) = (3, 8)$ as a system: Let $\mathbf{x} = (x_1, x_2)$, so $T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8)$ gives the system $\begin{cases} x_1 + x_2 = 3 \\ 4x_1 + 5x_2 = 8 \end{cases}$.
+2. Verify the system is consistent: The coefficient matrix $\begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix}$ has determinant $1 \cdot 5 - 1 \cdot 4 = 1$, which is nonzero, so the system has a unique solution.
+3. Solve the first equation for $x_1$: $x_1 = 3 - x_2$.
+4. Substitute $x_1$ into the second equation: $4(3 - x_2) + 5x_2 = 8$.
+5. Simplify and solve for $x_2$: $12 - 4x_2 + 5x_2 = 8 \implies 12 + x_2 = 8 \implies x_2 = 8 - 12 = -4$.
+6. Substitute $x_2 = -4$ into $x_1 = 3 - x_2$: $x_1 = 3 - (-4) = 7$.
+7. State the solution: The vector $\mathbf{x} = (7, -4)$ satisfies $T(\mathbf{x}) = (3, 8)$.

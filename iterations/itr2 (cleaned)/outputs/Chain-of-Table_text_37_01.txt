@@ -1,0 +1,5 @@
+1. Write $q$ as a linear combination: $q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3$.
+2. Substitute the polynomials: $q = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)$.
+3. Distribute coefficients: $q = (-1) + (-1)t^2 + t - 3t^2 + 2 \cdot 1 + 2t - 6t^2$.
+4. Combine like terms: $q = (-1 + 2) + (1 + 2)t + (-1 - 3 - 6)t^2$.
+5. Simplify: $q = 1 + 3t - 10t^2$.

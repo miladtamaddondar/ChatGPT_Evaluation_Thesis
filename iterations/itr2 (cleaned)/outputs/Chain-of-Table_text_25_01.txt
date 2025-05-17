@@ -1,0 +1,5 @@
+1. Write the matrix equation as \(\begin{bmatrix}a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix}3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix}\).
+2. Expand the left side: \(\begin{bmatrix} a_{11}x_1 + a_{12}x_2 + a_{13}x_3 \\ a_{21}x_1 + a_{22}x_2 + a_{23}x_3 \\ a_{31}x_1 + a_{32}x_2 + a_{33}x_3 \end{bmatrix} = \begin{bmatrix}3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix}\).
+3. Equate coefficients for \(x_1, x_2, x_3\) in each row: Row 1: \(a_{11} = 3\), \(a_{12} = 0\), \(a_{13} = -2\); Row 2: \(a_{21} = 4\), \(a_{22} = 0\), \(a_{23} = 0\); Row 3: \(a_{31} = 1\), \(a_{32} = -1\), \(a_{33} = 1\).
+4. Fill in the matrix: \(\begin{bmatrix}3 & 0 & -2 \\ 4 & 0 & 0 \\ 1 & -1 & 1 \end{bmatrix}\).
+5. Final answer: The missing entries are \(\boxed{\begin{bmatrix}3 & 0 & -2 \\ 4 & 0 & 0 \\ 1 & -1 & 1 \end{bmatrix}}\).

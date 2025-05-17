@@ -1,0 +1,28 @@
+1. Find a basis for $W$ by checking if $\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}$ are linearly independent by forming the matrix $U = \begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix}$ and row reducing it.  
+2. Row reduce $U$: Subtract row 1 from row 2, row 3, and row 4 to get $\begin{bmatrix} 1 & -1 & -1 \\ 0 & 4 & 1 \\ 0 & 1 & 1 \\ 0 & -3 & 2 \end{bmatrix}$.  
+3. Divide row 2 by 4 to get a leading 1: $\begin{bmatrix} 1 & -1 & -1 \\ 0 & 1 & 1/4 \\ 0 & 1 & 1 \\ 0 & -3 & 2 \end{bmatrix}$.  
+4. Subtract row 2 from row 3 and add 3 times row 2 to row 4: $\begin{bmatrix} 1 & -1 & -1 \\ 0 & 1 & 1/4 \\ 0 & 0 & 3/4 \\ 0 & 0 & 11/4 \end{bmatrix}$.  
+5. Divide row 3 by $3/4$ and row 4 by $11/4$ to get leading 1s: $\begin{bmatrix} 1 & -1 & -1 \\ 0 & 1 & 1/4 \\ 0 & 0 & 1 \\ 0 & 0 & 1 \end{bmatrix}$.  
+6. Subtract row 3 from row 4: $\begin{bmatrix} 1 & -1 & -1 \\ 0 & 1 & 1/4 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{bmatrix}$, so the rank is 3 and the set $\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}$ is linearly independent and forms a basis for $W$.  
+7. The orthogonal projection of $\mathbf{y}$ onto $W$ is $\mathbf{y}_W = U(U^T U)^{-1} U^T \mathbf{y}$, where $U$ is the $4 \times 3$ matrix with columns $\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3$.  
+8. Compute $U^T U = \begin{bmatrix} 1 & 1 & 0 & 1 \\ -1 & 3 & 1 & -2 \\ -1 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix} = \begin{bmatrix} 3 & 0 & 1 \\ 0 & 15 & 4 \\ 1 & 4 & 3 \end{bmatrix}$.  
+9. Compute $U^T \mathbf{y} = \begin{bmatrix} 1 & 1 & 0 & 1 \\ -1 & 3 & 1 & -2 \\ -1 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} = \begin{bmatrix} 4 + 3 + 0 - 1 \\ -4 + 9 + 3 + 2 \\ -4 + 0 + 3 - 1 \end{bmatrix} = \begin{bmatrix} 6 \\ 10 \\ -2 \end{bmatrix}$.  
+10. Solve $(U^T U) \mathbf{c} = U^T \mathbf{y}$ for $\mathbf{c}$: $\begin{bmatrix} 3 & 0 & 1 \\ 0 & 15 & 4 \\ 1 & 4 & 3 \end{bmatrix} \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix} = \begin{bmatrix} 6 \\ 10 \\ -2 \end{bmatrix}$.  
+11. Write the system: $3c_1 + c_3 = 6$, $15c_2 + 4c_3 = 10$, $c_1 + 4c_2 + 3c_3 = -2$.  
+12. From the first equation, $c_3 = 6 - 3c_1$; from the second, $15c_2 + 4c_3 = 10 \implies 15c_2 + 4(6-3c_1) = 10 \implies 15c_2 - 12c_1 = 10 - 24 \implies 15c_2 - 12c_1 = -14 \implies 15c_2 = -14 + 12c_1 \implies c_2 = \frac{-14 + 12c_1}{15}$.  
+13. Substitute $c_2$ and $c_3$ into the third equation: $c_1 + 4c_2 + 3c_3 = -2 \implies c_1 + 4\left(\frac{-14 + 12c_1}{15}\right) + 3(6 - 3c_1) = -2$.  
+14. Simplify: $c_1 + \frac{-56 + 48c_1}{15} + 18 - 9c_1 = -2 \implies (c_1 - 9c_1) + \frac{48c_1}{15} + 18 + \frac{-56}{15} = -2$.  
+15. Combine like terms: $-8c_1 + \frac{48c_1}{15} + 18 - \frac{56}{15} = -2$.  
+16. Express $-8c_1 + \frac{48c_1}{15} = \frac{-120c_1 + 48c_1}{15} = \frac{-72c_1}{15}$, so the equation is $\frac{-72c_1}{15} + 18 - \frac{56}{15} = -2$.  
+17. Move constants to one side: $\frac{-72c_1}{15} = -2 - 18 + \frac{56}{15} = -20 + \frac{56}{15} = \frac{-300 + 56}{15} = \frac{-244}{15}$.  
+18. Thus, $-72c_1 = -244 \implies c_1 = \frac{244}{72} = \frac{61}{18}$.  
+19. Substitute $c_1$ into $c_2 = \frac{-14 + 12c_1}{15} = \frac{-14 + 12 \cdot \frac{61}{18}}{15} = \frac{-14 + \frac{732}{18}}{15} = \frac{-14 + 40.6667}{15} = \frac{26.6667}{15} = \frac{8}{4.5} = \frac{16}{9}$.  
+20. Substitute $c_1$ into $c_3 = 6 - 3c_1 = 6 - 3 \cdot \frac{61}{18} = 6 - \frac{183}{18} = 6 - 10.1667 = -4.1667 = -\frac{25}{6}$.  
+21. The projection is $\mathbf{y}_W = c_1 \mathbf{u}_1 + c_2 \mathbf{u}_2 + c_3 \mathbf{u}_3 = \frac{61}{18} \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \end{bmatrix} + \frac{16}{9} \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \end{bmatrix} + \left(-\frac{25}{6}\right) \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \end{bmatrix}$.  
+22. Compute each component: First entry: $\frac{61}{18} \cdot 1 + \frac{16}{9} \cdot (-1) + \left(-\frac{25}{6}\right) \cdot (-1) = \frac{61}{18} - \frac{16}{9} + \frac{25}{6} = \frac{61}{18} - \frac{32}{18} + \frac{75}{18} = \frac{61 - 32 + 75}{18} = \frac{104}{18} = \frac{52}{9}$.  
+23. Second entry: $\frac{61}{18} \cdot 1 + \frac{16}{9} \cdot 3 + \left(-\frac{25}{6}\right) \cdot 0 = \frac{61}{18} + \frac{48}{9} = \frac{61}{18} + \frac{96}{18} = \frac{157}{18}$.  
+24. Third entry: $\frac{61}{18} \cdot 0 + \frac{16}{9} \cdot 1 + \left(-\frac{25}{6}\right) \cdot 1 = 0 + \frac{16}{9} - \frac{25}{6} = \frac{32}{18} - \frac{75}{18} = -\frac{43}{18}$.  
+25. Fourth entry: $\frac{61}{18} \cdot 1 + \frac{16}{9} \cdot (-2) + \left(-\frac{25}{6}\right) \cdot 1 = \frac{61}{18} - \frac{32}{9} - \frac{25}{6} = \frac{61}{18} - \frac{64}{18} - \frac{75}{18} = \frac{61 - 64 - 75}{18} = \frac{-78}{18} = -\frac{13}{3}$.  
+26. Therefore, $\mathbf{y}_W = \begin{bmatrix} \frac{52}{9} \\ \frac{157}{18} \\ -\frac{43}{18} \\ -\frac{13}{3} \end{bmatrix}$.  
+27. The orthogonal component is $\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} - \begin{bmatrix} \frac{52}{9} \\ \frac{157}{18} \\ -\frac{43}{18} \\ -\frac{13}{3} \end{bmatrix} = \begin{bmatrix} 4 - \frac{52}{9} \\ 3 - \frac{157}{18} \\ 3 + \frac{43}{18} \\ -1 + \frac{13}{3} \end{bmatrix} = \begin{bmatrix} \frac{36 - 52}{9} \\ \frac{54 - 157}{18} \\ \frac{54 + 43}{18} \\ \frac{-3 + 13}{3} \end{bmatrix} = \begin{bmatrix} -\frac{16}{9} \\ -\frac{103}{18} \\ \frac{97}{18} \\ \frac{10}{3} \end{bmatrix}$.  
+28. Therefore, the answer is $\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp = \begin{bmatrix} \frac{52}{9} \\ \frac{157}{18} \\ -\frac{43}{18} \\ -\frac{13}{3} \end{bmatrix} + \begin{bmatrix} -\frac{16}{9} \\ -\frac{103}{18} \\ \frac{97}{18} \\ \frac{10}{3} \end{bmatrix}$, where the first vector is in $W$ and the second is orthogonal to $W$.

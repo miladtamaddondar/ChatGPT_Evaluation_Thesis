@@ -1,0 +1,9 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first form \( A - 5I \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).  
+2. The dimension of the eigenspace is the nullity of \( A - 5I \), so we need \(\text{nullity}(A-5I) = 2\); by the rank-nullity theorem, \(\text{rank}(A-5I) = 2\) since the matrix is \(4 \times 4\).  
+3. To find the rank, row reduce \( A - 5I \): The last two rows are \([0\ 0\ 0\ 4]\) and \([0\ 0\ 0\ -4]\), which are linearly dependent, so only one contributes to the rank.  
+4. The first two rows are \([0\ -2\ 6\ -1]\) and \([0\ -2\ h\ 0]\); subtract the second row from the first: \([0\ 0\ 6-h\ -1]\).  
+5. Now the matrix is \(\begin{bmatrix} 0 & -2 & h & 0 \\ 0 & 0 & 6-h & -1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}\); the third row is independent unless \(4 = 0\), which is false, so it contributes to the rank.  
+6. For the rank to be 2, the second and third rows must be linearly dependent, so set \(6-h = 0\) and \(-1 = 0\); but \(-1 = 0\) is impossible, so instead, the first two rows must be linearly dependent.  
+7. The first two rows are linearly dependent if \(h = 6\); substituting \(h = 6\), the second row becomes \([0\ 0\ 0\ -1]\), and the third row is \([0\ 0\ 0\ 4]\), which are linearly dependent.  
+8. Thus, for \(h = 6\), the rank is 2 and the nullity is 2, so the eigenspace for \(\lambda = 5\) is two-dimensional.  
+9. Final answer: \( h = 6 \) ensures the eigenspace for \( \lambda = 5 \) is two-dimensional.

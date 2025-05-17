@@ -1,0 +1,8 @@
+**a. Let \( U = [u_1\ u_2] \). Compute \( U^T U \) and \( U U^T \).**
+1. Write \( U \): \( U = \begin{bmatrix} \frac{2}{3} & -\frac{2}{3} \\ \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{1}{3} \end{bmatrix} \).
+2. Compute \( U^T U \): \( U^T U = \begin{bmatrix} \frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{bmatrix} \begin{bmatrix} \frac{2}{3} & -\frac{2}{3} \\ \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{1}{3} \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \).
+3. Compute \( U U^T \): \( U U^T = \begin{bmatrix} \frac{2}{3} & -\frac{2}{3} \\ \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{1}{3} \end{bmatrix} \begin{bmatrix} \frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{bmatrix} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} \).
+**b. Compute \( \mathrm{proj}_W y \) and \( (U U^T) y \).**
+4. Compute \( \mathrm{proj}_W y = U (U^T U)^{-1} U^T y \): Since \( U^T U = I \), \( (U^T U)^{-1} = I \), so \( \mathrm{proj}_W y = U U^T y \).
+5. Compute \( U U^T y \): \( U U^T y = I y = y = \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} \).
+6. Final Answers: \( U^T U = I \), \( U U^T = I \), \( \mathrm{proj}_W y = y = \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} \), \( (U U^T) y = \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} \).

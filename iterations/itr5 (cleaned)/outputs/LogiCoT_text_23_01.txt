@@ -1,0 +1,4 @@
+1. Since $T$ is linear, $T(3\mathbf{u}) = 3T(\mathbf{u})$; thus $T(3\mathbf{u}) = 3\begin{bmatrix}2 \\ 1\end{bmatrix} = \begin{bmatrix}6 \\ 3\end{bmatrix}$, which follows from the property $T(c\mathbf{x}) = cT(\mathbf{x})$ for any scalar $c$.
+2. Similarly, $T(2\mathbf{v}) = 2T(\mathbf{v}) = 2\begin{bmatrix}-1 \\ 3\end{bmatrix} = \begin{bmatrix}-2 \\ 6\end{bmatrix}$, using the same linearity property.
+3. By linearity, $T(3\mathbf{u} + 2\mathbf{v}) = 3T(\mathbf{u}) + 2T(\mathbf{v}) = 3\begin{bmatrix}2 \\ 1\end{bmatrix} + 2\begin{bmatrix}-1 \\ 3\end{bmatrix} = \begin{bmatrix}6 \\ 3\end{bmatrix} + \begin{bmatrix}-2 \\ 6\end{bmatrix} = \begin{bmatrix}4 \\ 9\end{bmatrix}$, which uses $T(\mathbf{x}+\mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})$.
+4. Final answers: $T(3\mathbf{u}) = \begin{bmatrix}6 \\ 3\end{bmatrix}$, $T(2\mathbf{v}) = \begin{bmatrix}-2 \\ 6\end{bmatrix}$, $T(3\mathbf{u} + 2\mathbf{v}) = \begin{bmatrix}4 \\ 9\end{bmatrix}$.

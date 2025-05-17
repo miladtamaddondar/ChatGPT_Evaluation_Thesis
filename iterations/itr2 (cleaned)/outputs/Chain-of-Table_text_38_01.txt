@@ -1,0 +1,10 @@
+1. Set up the equation $a_1(1) + a_2(2t) + a_3(-2 + 4t^2) + a_4(-12t + 8t^3) = 7 - 12t - 8t^2 + 12t^3$ and expand: $a_1 + 2a_2 t + a_3(-2) + a_3(4t^2) + a_4(-12t) + a_4(8t^3) = 7 - 12t - 8t^2 + 12t^3$.
+2. Collect like terms: $(a_1 - 2a_3) + (2a_2 - 12a_4)t + 4a_3 t^2 + 8a_4 t^3 = 7 - 12t - 8t^2 + 12t^3$.
+3. Set up the system by equating coefficients: $a_1 - 2a_3 = 7$, $2a_2 - 12a_4 = -12$, $4a_3 = -8$, $8a_4 = 12$.
+4. Write the augmented matrix:\[\begin{bmatrix}1 & 0 & -2 & 0 & | & 7 \\0 & 2 & 0 & -12 & | & -12 \\0 & 0 & 4 & 0 & | & -8 \\0 & 0 & 0 & 8 & | & 12 \\\end{bmatrix}\]
+5. Row 3: $R_3 \rightarrow \frac{1}{4}R_3$:\[\begin{bmatrix}1 & 0 & -2 & 0 & | & 7 \\0 & 2 & 0 & -12 & | & -12 \\0 & 0 & 1 & 0 & | & -2 \\0 & 0 & 0 & 8 & | & 12 \\\end{bmatrix}\]
+6. Row 4: $R_4 \rightarrow \frac{1}{8}R_4$:\[\begin{bmatrix}1 & 0 & -2 & 0 & | & 7 \\0 & 2 & 0 & -12 & | & -12 \\0 & 0 & 1 & 0 & | & -2 \\0 & 0 & 0 & 1 & | & \frac{3}{2} \\\end{bmatrix}\]
+7. Row 2: $R_2 \rightarrow R_2 + 12R_4$:\[\begin{bmatrix}1 & 0 & -2 & 0 & | & 7 \\0 & 2 & 0 & 0 & | & 6 \\0 & 0 & 1 & 0 & | & -2 \\0 & 0 & 0 & 1 & | & \frac{3}{2} \\\end{bmatrix}\]
+8. Row 2: $R_2 \rightarrow \frac{1}{2}R_2$:\[\begin{bmatrix}1 & 0 & -2 & 0 & | & 7 \\0 & 1 & 0 & 0 & | & 3 \\0 & 0 & 1 & 0 & | & -2 \\0 & 0 & 0 & 1 & | & \frac{3}{2} \\\end{bmatrix}\]
+9. Row 1: $R_1 \rightarrow R_1 + 2R_3$:\[\begin{bmatrix}1 & 0 & 0 & 0 & | & 3 \\0 & 1 & 0 & 0 & | & 3 \\0 & 0 & 1 & 0 & | & -2 \\0 & 0 & 0 & 1 & | & \frac{3}{2} \\\end{bmatrix}\]
+10. The coordinate vector of $p$ relative to $\mathcal{B}$ is $\boxed{\begin{bmatrix} 3 \\ 3 \\ -2 \\ \frac{3}{2} \end{bmatrix}}$.

@@ -1,0 +1,10 @@
+1. To find the value of \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first set up the equation \( (A - 5I)\vec{x} = 0 \). 
+2. Compute \( A - 5I \): \[ A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \]. 
+3. The eigenspace dimension is the nullity of \( A - 5I \), so we row reduce \( A - 5I \) and find the value of \( h \) that makes the nullity 2. 
+4. Notice the last two rows are multiples: Row 3 is \( [0,0,0,4] \), Row 4 is \( [0,0,0,-4] \), so Row 4 can be replaced by Row 3 times \(-1\), making Row 4 a zero row after row reduction. 
+5. After replacing Row 4 with Row 4 + Row 3, the matrix becomes \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}\). 
+6. The rank is at most 3, so for nullity 2 (since the matrix is 4x4), the rank must be 2, meaning one more row must become linearly dependent. 
+7. Subtract Row 1 from Row 2 (since their first entries are both zero), focus on the submatrix \(\begin{bmatrix} -2 & 6 & -1 \\ -2 & h & 0 \end{bmatrix}\). 
+8. For the first two rows to be linearly dependent, the determinant of the 2x2 matrix formed by columns 2 and 3 must be zero: \(\begin{vmatrix} -2 & 6 \\ -2 & h \end{vmatrix} = (-2)h - (-2)6 = -2h + 12\). 
+9. Set \(-2h + 12 = 0\) to ensure linear dependence, so \( h = 6 \). 
+10. Therefore, the value of \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional is \( \boxed{6} \).

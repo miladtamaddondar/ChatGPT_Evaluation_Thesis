@@ -1,0 +1,17 @@
+1. To write $\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$, set $\mathbf{y} = \mathbf{w} + \mathbf{z}$ where $\mathbf{w} \in W$ and $\mathbf{z} \perp W$, and let $\mathbf{w} = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3$ so $\mathbf{y} = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3 + \mathbf{z}$.
+2. Since $\mathbf{z} \perp W$, require $\mathbf{z} \perp \mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3$, so $\mathbf{u}_i^T \mathbf{z} = 0$ for $i=1,2,3$.
+3. Substitute $\mathbf{z} = \mathbf{y} - (a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3)$ and set up the orthogonality conditions: $\mathbf{u}_i^T (\mathbf{y} - (a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3)) = 0$ for $i=1,2,3$.
+4. This gives the normal equations: $\mathbf{u}_i^T\mathbf{y} = a_1\mathbf{u}_i^T\mathbf{u}_1 + a_2\mathbf{u}_i^T\mathbf{u}_2 + a_3\mathbf{u}_i^T\mathbf{u}_3$ for $i=1,2,3$.
+5. Compute the Gram matrix $G = [\mathbf{u}_i^T\mathbf{u}_j]$ and the vector $b = [\mathbf{u}_i^T\mathbf{y}]$:\[G = \begin{bmatrix}\mathbf{u}_1^T\mathbf{u}_1 & \mathbf{u}_1^T\mathbf{u}_2 & \mathbf{u}_1^T\mathbf{u}_3 \\\mathbf{u}_2^T\mathbf{u}_1 & \mathbf{u}_2^T\mathbf{u}_2 & \mathbf{u}_2^T\mathbf{u}_3 \\\mathbf{u}_3^T\mathbf{u}_1 & \mathbf{u}_3^T\mathbf{u}_2 & \mathbf{u}_3^T\mathbf{u}_3\end{bmatrix}\]\[b = \begin{bmatrix}\mathbf{u}_1^T\mathbf{y} \\\mathbf{u}_2^T\mathbf{y} \\\mathbf{u}_3^T\mathbf{y}\end{bmatrix}\]
+6. Compute dot products: $\mathbf{u}_1^T\mathbf{u}_1 = 1^2 + 1^2 + 0^2 + 1^2 = 3$, $\mathbf{u}_1^T\mathbf{u}_2 = 1(-1) + 1(3) + 0(1) + 1(-2) = -1 + 3 + 0 - 2 = 0$, $\mathbf{u}_1^T\mathbf{u}_3 = 1(-1) + 1(0) + 0(1) + 1(1) = -1 + 0 + 0 + 1 = 0$.
+7. $\mathbf{u}_2^T\mathbf{u}_2 = (-1)^2 + 3^2 + 1^2 + (-2)^2 = 1 + 9 + 1 + 4 = 15$, $\mathbf{u}_2^T\mathbf{u}_3 = (-1)(-1) + 3(0) + 1(1) + (-2)(1) = 1 + 0 + 1 - 2 = 0$.
+8. $\mathbf{u}_3^T\mathbf{u}_3 = (-1)^2 + 0^2 + 1^2 + 1^2 = 1 + 0 + 1 + 1 = 3$.
+9. Compute $\mathbf{u}_1^T\mathbf{y} = 1(4) + 1(3) + 0(3) + 1(-1) = 4 + 3 + 0 - 1 = 6$, $\mathbf{u}_2^T\mathbf{y} = -1(4) + 3(3) + 1(3) + (-2)(-1) = -4 + 9 + 3 + 2 = 10$, $\mathbf{u}_3^T\mathbf{y} = -1(4) + 0(3) + 1(3) + 1(-1) = -4 + 0 + 3 - 1 = -2$.
+10. The normal equations become:\[\begin{bmatrix}3 & 0 & 0 \\0 & 15 & 0 \\0 & 0 & 3\end{bmatrix}\begin{bmatrix}a_1 \\ a_2 \\ a_3\end{bmatrix}=\begin{bmatrix}6 \\ 10 \\ -2\end{bmatrix}\]
+11. Solve for $a_1, a_2, a_3$: $a_1 = 6/3 = 2$, $a_2 = 10/15 = 2/3$, $a_3 = -2/3$.
+12. The projection $\mathbf{w} = 2\mathbf{u}_1 + \frac{2}{3}\mathbf{u}_2 - \frac{2}{3}\mathbf{u}_3$.
+13. Compute $\mathbf{w} = 2\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + \frac{2}{3}\begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} - \frac{2}{3}\begin{bmatrix}-1\\0\\1\\1\end{bmatrix} = \begin{bmatrix}2\\2\\0\\2\end{bmatrix} + \begin{bmatrix}-2/3\\2\\2/3\\-4/3\end{bmatrix} + \begin{bmatrix}2/3\\0\\-2/3\\-2/3\end{bmatrix}$.
+14. Add the vectors: $\begin{bmatrix}2 - 2/3 + 2/3 \\ 2 + 2 + 0 \\ 0 + 2/3 - 2/3 \\ 2 - 4/3 - 2/3\end{bmatrix} = \begin{bmatrix}2\\4\\0\\2 - 2 = 0\end{bmatrix}$.
+15. So $\mathbf{w} = \begin{bmatrix}2\\4\\0\\0\end{bmatrix}$.
+16. The orthogonal component is $\mathbf{z} = \mathbf{y} - \mathbf{w} = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}2\\4\\0\\0\end{bmatrix} = \begin{bmatrix}2\\-1\\3\\-1\end{bmatrix}$.
+17. Final answer: $\boxed{\mathbf{y} = \begin{bmatrix}2\\4\\0\\0\end{bmatrix} + \begin{bmatrix}2\\-1\\3\\-1\end{bmatrix}}$ where the first vector is in $W$ and the second is orthogonal to $W$.

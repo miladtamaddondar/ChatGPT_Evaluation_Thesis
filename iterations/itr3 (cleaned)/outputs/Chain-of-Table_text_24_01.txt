@@ -1,0 +1,8 @@
+1. Write the augmented matrix for the homogeneous system $A\mathbf{x} = \mathbf{0}$: $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0\end{bmatrix}$.
+2. Eliminate the $2$ in row 3, column 1 using $R_3 \to R_3 - 2R_1$: $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0\end{bmatrix}$.
+3. Eliminate the $2$ in row 3, column 2 using $R_3 \to R_3 - 2R_2$: $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0\end{bmatrix}$.
+4. Write the system from the row-reduced matrix: $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$.
+5. Express $x_2$ in terms of $x_3$ and $x_4$: $x_2 = 4x_3 - 3x_4$.
+6. Substitute $x_2$ into the first equation: $x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0 \implies x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0$.
+7. Simplify and solve for $x_1$: $x_1 - 9x_3 + 7x_4 = 0 \implies x_1 = 9x_3 - 7x_4$.
+8. Write the general solution: $\mathbf{x} = \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}9x_3 - 7x_4 \\ 4x_3 - 3x_4 \\ x_3 \\ x_4\end{bmatrix} = x_3\begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + x_4\begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}$, where $x_3, x_4 \in \mathbb{R}$.

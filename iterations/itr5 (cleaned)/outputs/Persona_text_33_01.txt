@@ -1,0 +1,5 @@
+1. The matrix \(A\) has 4 rows and 2 columns, so \(A\) is a \(4 \times 2\) matrix.
+2. The null space \(\text{Nul }A\) consists of all vectors \(x \in \mathbb{R}^2\) such that \(Ax = 0\), so \(\text{Nul }A\) is a subspace of \(\mathbb{R}^2\).
+3. Therefore, for part (a), \(k = 2\).
+4. The column space \(\text{Col }A\) is the span of the columns of \(A\), which are vectors in \(\mathbb{R}^4\), so \(\text{Col }A\) is a subspace of \(\mathbb{R}^4\).
+5. Therefore, for part (b), \(k = 4\).

@@ -1,0 +1,5 @@
+1. Since $T$ is linear, $T(3\mathbf{u}) = 3T(\mathbf{u}) = 3\begin{bmatrix} 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 6 \\ 3 \end{bmatrix}$; this follows from the property $T(c\mathbf{x}) = cT(\mathbf{x})$ for any scalar $c$.
+2. Similarly, $T(2\mathbf{v}) = 2T(\mathbf{v}) = 2\begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} -2 \\ 6 \end{bmatrix}$; this uses the same linearity property.
+3. Using additivity and homogeneity, $T(3\mathbf{u} + 2\mathbf{v}) = T(3\mathbf{u}) + T(2\mathbf{v}) = \begin{bmatrix} 6 \\ 3 \end{bmatrix} + \begin{bmatrix} -2 \\ 6 \end{bmatrix} = \begin{bmatrix} 4 \\ 9 \end{bmatrix}$; this follows from $T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})$.
+4. Verification: The calculations in steps 1 and 2 use the scalar multiplication property of linear maps, and step 3 uses both additivity and homogeneity, which are defining properties of linear transformations, so all steps are correct.
+5. Final answers: $T(3\mathbf{u}) = \begin{bmatrix} 6 \\ 3 \end{bmatrix}$, $T(2\mathbf{v}) = \begin{bmatrix} -2 \\ 6 \end{bmatrix}$, $T(3\mathbf{u} + 2\mathbf{v}) = \begin{bmatrix} 4 \\ 9 \end{bmatrix}$.

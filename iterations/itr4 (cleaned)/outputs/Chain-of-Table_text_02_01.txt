@@ -1,0 +1,4 @@
+1. Write the equation $\mathbf{x} = c_1 \begin{bmatrix} 1 \\ 1 \end{bmatrix} + c_2 \begin{bmatrix} 2 \\ -1 \end{bmatrix}$, where $\begin{bmatrix} c_1 \\ c_2 \end{bmatrix} = \begin{bmatrix} 3 \\ 2 \end{bmatrix}$, so $\mathbf{x} = 3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} + 2 \begin{bmatrix} 2 \\ -1 \end{bmatrix}$.
+2. Compute $3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix}$ and $2 \begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \end{bmatrix}$.
+3. Add the vectors: $\begin{bmatrix} 3 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.
+4. Final answer: $\mathbf{x} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.

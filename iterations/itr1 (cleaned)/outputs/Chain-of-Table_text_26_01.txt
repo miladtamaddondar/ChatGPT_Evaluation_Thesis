@@ -1,0 +1,4 @@
+1. Write the mapping in terms of the input vector $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix}$: $T(\mathbf{x}) = \begin{bmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{bmatrix}$.
+2. Express each output entry as a linear combination of the input entries: $T(\mathbf{x}) = \begin{bmatrix} 0\cdot x_1 + 0\cdot x_2 + 0\cdot x_3 + 0\cdot x_4 \\ 1\cdot x_1 + 1\cdot x_2 + 0\cdot x_3 + 0\cdot x_4 \\ 0\cdot x_1 + 1\cdot x_2 + 1\cdot x_3 + 0\cdot x_4 \\ 0\cdot x_1 + 0\cdot x_2 + 1\cdot x_3 + 1\cdot x_4 \end{bmatrix}$.
+3. Write the transformation as a matrix multiplication: $T(\mathbf{x}) = \begin{bmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix}$.
+4. Conclude that the matrix representing $T$ is $A = \begin{bmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}$.

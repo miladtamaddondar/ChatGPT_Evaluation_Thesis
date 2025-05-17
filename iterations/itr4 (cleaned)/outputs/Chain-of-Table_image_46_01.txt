@@ -1,0 +1,11 @@
+1. To find the least-squares solutions, we solve the normal equations \(A^T A x = A^T b\). First, compute \(A^T A\): \(A^T A = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix}\).
+2. Compute \(A^T b\): \(A^T b = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \end{bmatrix} = \begin{bmatrix} 1+3+8+2 \\ 1+3+0+0 \\ 0+0+8+2 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\).
+3. Write the augmented matrix for the normal equations: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 2 & 2 & 0 & 4 \\ 2 & 0 & 2 & 10 \end{array}\right]\).
+4. Row 2 minus half of Row 1: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 2 & 0 & 2 & 10 \end{array}\right]\).
+5. Row 3 minus half of Row 1: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 0 & -1 & 1 & 3 \end{array}\right]\).
+6. Row 3 plus Row 2: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 0 & 0 & 0 & 0 \end{array}\right]\).
+7. Row 1 divided by 2: \(\left[\begin{array}{ccc|c} 2 & 1 & 1 & 7 \\ 0 & 1 & -1 & -3 \\ 0 & 0 & 0 & 0 \end{array}\right]\).
+8. Row 1 minus Row 2: \(\left[\begin{array}{ccc|c} 2 & 0 & 2 & 10 \\ 0 & 1 & -1 & -3 \\ 0 & 0 & 0 & 0 \end{array}\right]\).
+9. Row 1 divided by 2: \(\left[\begin{array}{ccc|c} 1 & 0 & 1 & 5 \\ 0 & 1 & -1 & -3 \\ 0 & 0 & 0 & 0 \end{array}\right]\).
+10. The general solution is \(x_1 + x_3 = 5\), \(x_2 - x_3 = -3\), so \(x_1 = 5 - t\), \(x_2 = -3 + t\), \(x_3 = t\), \(t \in \mathbb{R}\).
+11. Final answer: The set of all least-squares solutions is \(\boxed{\begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 5 - t \\ -3 + t \\ t \end{bmatrix}, \ t \in \mathbb{R}}\).

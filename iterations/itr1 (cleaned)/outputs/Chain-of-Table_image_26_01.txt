@@ -1,0 +1,4 @@
+1. To find the matrix representing \( T \), write \( T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4) \) as a matrix-vector product: \[ T\begin{pmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{pmatrix} = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \]
+2. Express each output entry as a linear combination of \( x_1, x_2, x_3, x_4 \): first row is \( 0x_1 + 0x_2 + 0x_3 + 0x_4 \), second row is \( 1x_1 + 1x_2 + 0x_3 + 0x_4 \), third row is \( 0x_1 + 1x_2 + 1x_3 + 0x_4 \), fourth row is \( 0x_1 + 0x_2 + 1x_3 + 1x_4 \).
+3. Write the matrix whose rows are the coefficients from step 2: \[ A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \]
+4. Therefore, the matrix that implements the mapping is \(\boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}}\).

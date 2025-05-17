@@ -1,0 +1,8 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we seek $\mathbf{v}$ such that $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$; this is equivalent to solving the homogeneous system $A\mathbf{v} = \mathbf{0}$ where $A = \begin{bmatrix} 1 & 1 & -2 \\ 5 & -1 & 2 \end{bmatrix}$.  
+2. Let $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, then the system becomes: $x + y - 2z = 0$ and $5x - y + 2z = 0$; this follows from the definition of the dot product.  
+3. Solve the first equation for $y$: $y = 2z - x$; this is valid by basic algebraic manipulation.  
+4. Substitute $y$ into the second equation: $5x - (2z - x) + 2z = 0 \implies 5x - 2z + x + 2z = 0 \implies 6x = 0$; combining like terms is a valid linear algebraic operation.  
+5. From $6x = 0$, we get $x = 0$; this is the only solution for $x$.  
+6. Substitute $x = 0$ back into $y = 2z - x$ to get $y = 2z$; this is a direct substitution.  
+7. Therefore, the general solution is $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix} = z \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$ for any $z \neq 0$; this describes all nonzero vectors orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$.  
+8. Choosing $z = 1$, a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$; this is a valid choice since $z \neq 0$ and the vector is nonzero.

@@ -1,0 +1,14 @@
+1. The inner product is defined as \(\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)\). The polynomials are \(p_0(t) = 1\), \(p_1(t) = t\), \(p_2(t) = t^2\).
+2. Compute the orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\): \(\mathrm{proj}_{V}(p_2) = \sum_{i=0}^1 \frac{\langle p_2, p_i \rangle}{\langle p_i, p_i \rangle} p_i\).
+3. Calculate the inner products: \(\langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4\), \(\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20\), \(\langle p_2, p_0 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20\), \(\langle p_2, p_1 \rangle = (-3)^2(-3) + (-1)^2(-1) + 1^2(1) + 3^2(3) = -27 -1 + 1 + 27 = 0\).
+4. The projection is \(\mathrm{proj}_{V}(p_2) = \frac{20}{4}p_0 + \frac{0}{20}p_1 = 5p_0\).
+5. The orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(5\).
+6. To find a polynomial \(q\) orthogonal to \(p_0\) and \(p_1\), let \(q(t) = a + bt + ct^2\) and solve \(\langle q, p_0 \rangle = 0\), \(\langle q, p_1 \rangle = 0\).
+7. \(\langle q, p_0 \rangle = a\cdot4 + b\cdot0 + c\cdot20 = 4a + 20c = 0\).
+8. \(\langle q, p_1 \rangle = a\cdot0 + b\cdot20 + c\cdot0 = 20b = 0\), so \(b = 0\).
+9. From \(4a + 20c = 0\), \(a = -5c\), so \(q(t) = -5c + ct^2 = c(t^2 - 5)\).
+10. To scale \(q\) so its values at \((-3, -1, 1, 3)\) are \((1, -1, -1, 1)\), set \(q(-3) = 1\), \(q(-1) = -1\), \(q(1) = -1\), \(q(3) = 1\).
+11. Compute \(q(-3) = c(9 - 5) = 4c\), \(q(-1) = c(1 - 5) = -4c\), \(q(1) = c(1 - 5) = -4c\), \(q(3) = c(9 - 5) = 4c\).
+12. Set \(4c = 1\), so \(c = \frac{1}{4}\).
+13. The desired polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\).
+14. Final answer: The orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(5\), and the orthogonal polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\) with values \((1, -1, -1, 1)\) at \((-3, -1, 1, 3)\).

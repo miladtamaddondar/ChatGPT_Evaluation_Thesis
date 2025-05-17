@@ -1,0 +1,5 @@
+1. To construct a \( 4 \times 3 \) matrix with rank 1, recall that a matrix has rank 1 if all its rows (or columns) are scalar multiples of a single row (or column), so we can write \( A = \mathbf{u} \mathbf{v}^T \) where \( \mathbf{u} \in \mathbb{R}^4 \) and \( \mathbf{v} \in \mathbb{R}^3 \).
+2. Let \( \mathbf{u} = \begin{bmatrix} 2 \\ -1 \\ 0 \\ 5 \end{bmatrix} \) and \( \mathbf{v} = \begin{bmatrix} 3 \\ 4 \\ -2 \end{bmatrix} \), then \( A = \mathbf{u} \mathbf{v}^T \) is a \( 4 \times 3 \) matrix.
+3. Compute \( A \) by multiplying \( \mathbf{u} \) and \( \mathbf{v}^T \): \( A = \begin{bmatrix} 2 \\ -1 \\ 0 \\ 5 \end{bmatrix} \begin{bmatrix} 3 & 4 & -2 \end{bmatrix} = \begin{bmatrix} 6 & 8 & -4 \\ -3 & -4 & 2 \\ 0 & 0 & 0 \\ 15 & 20 & -10 \end{bmatrix} \).
+4. Verify rank: since each row of \( A \) is a scalar multiple of \( \begin{bmatrix} 3 & 4 & -2 \end{bmatrix} \), the rows are linearly dependent, so the rank is 1.
+5. Final answer: A \( 4 \times 3 \) matrix with rank 1 is \( \boxed{\begin{bmatrix} 6 & 8 & -4 \\ -3 & -4 & 2 \\ 0 & 0 & 0 \\ 15 & 20 & -10 \end{bmatrix}} \).

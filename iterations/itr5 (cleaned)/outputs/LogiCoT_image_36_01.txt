@@ -1,0 +1,5 @@
+1. The matrix \( A \) has 4 rows and 7 columns, so \( A \) is a \( 4 \times 7 \) matrix.  
+2. The dimension of Col \( A \) is the rank of \( A \), which is the number of leading 1's (pivots) in its row echelon form; here, there are 3 pivots (first entry of each nonzero row).  
+3. By the Rank-Nullity Theorem, \(\text{dim Nul }A = n - \text{rank}(A)\), where \( n = 7 \) (number of columns), so \(\text{dim Nul }A = 7 - 3 = 4\).  
+4. Verifying: The three nonzero rows each have a leading 1 in a different column, confirming rank is 3; thus, Col \( A \) has dimension 3.  
+5. Final answer: \(\text{dim Nul }A = 4\), \(\text{dim Col }A = 3\).

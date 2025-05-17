@@ -1,0 +1,6 @@
+1. The transformation $T$ is defined by $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$ where $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, $\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \end{bmatrix}$, and $\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \end{bmatrix}$.
+2. By linearity, $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2 = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix}$.
+3. We can write this as $T(\mathbf{x}) = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix}$.
+4. To express $T(\mathbf{x})$ as $A\mathbf{x}$, we seek a matrix $A$ such that $A\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix}$.
+5. This means $A$ must have columns $\mathbf{v}_1$ and $\mathbf{v}_2$, so $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.
+6. Therefore, the matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ for all $\mathbf{x}$ is $\boxed{A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}}$.

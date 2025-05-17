@@ -1,0 +1,6 @@
+1. Let \( A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix} \) and assume \( A = LU \) where \( L = \begin{bmatrix}1 & 0 \\ l_{21} & 1\end{bmatrix} \) and \( U = \begin{bmatrix}u_{11} & u_{12} \\ 0 & u_{22}\end{bmatrix} \); this is valid because any invertible \( 2 \times 2 \) matrix can be factored this way.
+2. Multiply \( L \) and \( U \): \( LU = \begin{bmatrix}1 & 0 \\ l_{21} & 1\end{bmatrix} \begin{bmatrix}u_{11} & u_{12} \\ 0 & u_{22}\end{bmatrix} = \begin{bmatrix}u_{11} & u_{12} \\ l_{21}u_{11} & l_{21}u_{12} + u_{22}\end{bmatrix} \); this follows from standard matrix multiplication.
+3. Set \( LU = A \) and equate entries: \( u_{11} = 6 \), \( u_{12} = 9 \), \( l_{21}u_{11} = 4 \), \( l_{21}u_{12} + u_{22} = 5 \); matching corresponding positions in the matrices.
+4. Solve for \( l_{21} \): \( l_{21}u_{11} = 4 \implies l_{21} = \frac{4}{6} = \frac{2}{3} \); this uses the invertibility of \( u_{11} \neq 0 \).
+5. Solve for \( u_{22} \): \( l_{21}u_{12} + u_{22} = 5 \implies \frac{2}{3} \times 9 + u_{22} = 5 \implies 6 + u_{22} = 5 \implies u_{22} = -1 \); substitution and arithmetic confirm this.
+6. Thus, the LU factorization is \( L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix} \), \( U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix} \); this matches all entries in \( A \) when multiplied.

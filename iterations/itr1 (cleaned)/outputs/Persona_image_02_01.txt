@@ -1,0 +1,5 @@
+1. To find the vector \( \mathbf{x} \) in the standard basis given its coordinates in basis \( B \), use the formula \( \mathbf{x} = [\mathbf{x}]_B^1 \mathbf{b}_1 + [\mathbf{x}]_B^2 \mathbf{b}_2 \), where \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \) are the basis vectors and \( [\mathbf{x}]_B^1, [\mathbf{x}]_B^2 \) are the coordinates.  
+2. Substitute the given values: \( \mathbf{x} = 3 \begin{bmatrix} 1 \\ 1 \\ 3 \end{bmatrix} + 2 \begin{bmatrix} 2 \\ -1 \\ 1 \end{bmatrix} \).  
+3. Multiply the scalars: \( 3 \begin{bmatrix} 1 \\ 1 \\ 3 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \\ 9 \end{bmatrix} \) and \( 2 \begin{bmatrix} 2 \\ -1 \\ 1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \\ 2 \end{bmatrix} \).  
+4. Add the resulting vectors: \( \mathbf{x} = \begin{bmatrix} 3 \\ 3 \\ 9 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \\ 2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \\ 11 \end{bmatrix} \).  
+5. The final answer is \( \boxed{\mathbf{x} = \begin{bmatrix} 7 \\ 1 \\ 11 \end{bmatrix}} \).

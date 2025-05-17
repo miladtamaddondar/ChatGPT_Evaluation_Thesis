@@ -1,0 +1,4 @@
+1. The transformation is defined as \( T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2 \), so we substitute the given vectors: \( T(\mathbf{x}) = x_1\begin{bmatrix}-2 \\ 5\end{bmatrix} + x_2\begin{bmatrix}7 \\ -3\end{bmatrix} \).  
+2. Combine the terms to write \( T(\mathbf{x}) \) as a matrix-vector product: \( T(\mathbf{x}) = \begin{bmatrix}-2 & 7 \\ 5 & -3\end{bmatrix} \begin{bmatrix}x_1 \\ x_2\end{bmatrix} \).  
+3. Verify correctness: multiplying the matrix by \( \mathbf{x} \) gives \( \begin{bmatrix}-2x_1 + 7x_2 \\ 5x_1 - 3x_2\end{bmatrix} \), which matches the original transformation definition.  
+4. Therefore, the matrix \( A \) such that \( T(\mathbf{x}) = A\mathbf{x} \) is \( \boxed{\begin{bmatrix}-2 & 7 \\ 5 & -3\end{bmatrix}} \).

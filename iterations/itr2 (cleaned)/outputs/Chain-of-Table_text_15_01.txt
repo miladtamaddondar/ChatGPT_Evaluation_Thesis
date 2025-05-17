@@ -1,0 +1,10 @@
+1. Find the eigenvalues of \(A = \begin{pmatrix} 1 & -2 \\ 1 & 3 \end{pmatrix}\): Compute \(\det(A - \lambda I) = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5\); set to zero: \(\lambda^2 - 4\lambda + 5 = 0\).
+2. Solve for \(\lambda\): \(\lambda = \frac{4 \pm \sqrt{(-4)^2 - 4 \cdot 1 \cdot 5}}{2} = \frac{4 \pm \sqrt{16-20}}{2} = \frac{4 \pm 2i}{2} = 2 \pm i\).
+3. Find an eigenvector for \(\lambda = 2 + i\): Solve \((A - (2+i)I)\vec{v} = 0\), i.e., \(\begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = 0\).
+4. Row operation: The first row gives \((-1-i)x - 2y = 0\), so \(x = -\frac{2}{-1-i}y\).
+5. Simplify \(x\): Multiply numerator and denominator by the conjugate \(1-i\): \(x = -2y \cdot \frac{1-i}{(1+i)(1-i)} = -2y \cdot \frac{1-i}{2} = -y(1-i)\).
+6. Choose \(y = 1\), so eigenvector is \(\vec{v}_1 = \begin{pmatrix} -1+i \\ 1 \end{pmatrix}\).
+7. The complex conjugate eigenvector for \(\lambda = 2-i\) is \(\vec{v}_2 = \begin{pmatrix} -1-i \\ 1 \end{pmatrix}\).
+8. Form \(P\) from the real and imaginary parts of \(\vec{v}_1\): \(\operatorname{Re}(\vec{v}_1) = \begin{pmatrix} -1 \\ 1 \end{pmatrix}\), \(\operatorname{Im}(\vec{v}_1) = \begin{pmatrix} 1 \\ 0 \end{pmatrix}\), so \(P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}\).
+9. The canonical form \(C\) is \(\begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}\) since the real part is 2 and the imaginary part is 1.
+10. Final answer: \(A = P C P^{-1}\) where \(P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}\), \(C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}\).

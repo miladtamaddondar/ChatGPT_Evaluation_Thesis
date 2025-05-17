@@ -1,0 +1,7 @@
+1. Write the equation $T(x_1, x_2) = (-1, 4, 9)$ as a system: $x_1 - 2x_2 = -1$, $-x_1 + 3x_2 = 4$, $3x_1 - 2x_2 = 9$.
+2. Represent the system as a matrix equation: $\begin{bmatrix} 1 & -2 \\ -1 & 3 \\ 3 & -2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} -1 \\ 4 \\ 9 \end{bmatrix}$.
+3. Select any two equations to form a $2 \times 2$ system (since the third equation may be dependent); use the first and second: $\begin{cases} x_1 - 2x_2 = -1 \\ -x_1 + 3x_2 = 4 \end{cases}$.
+4. Add the two equations to eliminate $x_1$: $(x_1 - 2x_2) + (-x_1 + 3x_2) = -1 + 4 \implies x_2 = 3$.
+5. Substitute $x_2 = 3$ into the first equation: $x_1 - 2(3) = -1 \implies x_1 - 6 = -1 \implies x_1 = 5$.
+6. Verify the solution in the third equation: $3x_1 - 2x_2 = 3(5) - 2(3) = 15 - 6 = 9$, which matches the right side.
+7. Final answer: $\mathbf{x} = \begin{bmatrix} 5 \\ 3 \end{bmatrix}$.

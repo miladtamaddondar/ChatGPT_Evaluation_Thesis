@@ -1,0 +1,7 @@
+1. To find the value(s) of \( k \) such that \( AB = BA \), first compute \( AB \) and \( BA \).  
+2. Compute \( AB = \begin{bmatrix} 2 & 5 \\ -3 & 1 \end{bmatrix} \begin{bmatrix} 4 & -5 \\ 3 & k \end{bmatrix} = \begin{bmatrix} 2 \cdot 4 + 5 \cdot 3 & 2 \cdot (-5) + 5 \cdot k \\ -3 \cdot 4 + 1 \cdot 3 & -3 \cdot (-5) + 1 \cdot k \end{bmatrix} = \begin{bmatrix} 8 + 15 & -10 + 5k \\ -12 + 3 & 15 + k \end{bmatrix} = \begin{bmatrix} 23 & -10 + 5k \\ -9 & 15 + k \end{bmatrix} \).  
+3. Compute \( BA = \begin{bmatrix} 4 & -5 \\ 3 & k \end{bmatrix} \begin{bmatrix} 2 & 5 \\ -3 & 1 \end{bmatrix} = \begin{bmatrix} 4 \cdot 2 + (-5) \cdot (-3) & 4 \cdot 5 + (-5) \cdot 1 \\ 3 \cdot 2 + k \cdot (-3) & 3 \cdot 5 + k \cdot 1 \end{bmatrix} = \begin{bmatrix} 8 + 15 & 20 - 5 \\ 6 - 3k & 15 + k \end{bmatrix} = \begin{bmatrix} 23 & 15 \\ 6 - 3k & 15 + k \end{bmatrix} \).  
+4. Set \( AB = BA \) and equate corresponding entries: \( \begin{bmatrix} 23 & -10 + 5k \\ -9 & 15 + k \end{bmatrix} = \begin{bmatrix} 23 & 15 \\ 6 - 3k & 15 + k \end{bmatrix} \).  
+5. The (1,1) and (2,2) entries are already equal, so set the (1,2) entries equal: \( -10 + 5k = 15 \implies 5k = 25 \implies k = 5 \).  
+6. Set the (2,1) entries equal: \( -9 = 6 - 3k \implies -9 - 6 = -3k \implies -15 = -3k \implies k = 5 \).  
+7. Both off-diagonal equations give \( k = 5 \), so the only value of \( k \) that makes \( AB = BA \) is \( k = 5 \).

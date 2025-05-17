@@ -1,0 +1,4 @@
+1. The standard matrix for a rotation by angle \(\theta\) is \(\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}\).
+2. Substitute \(\theta = \frac{3\pi}{2}\) to get \(\cos\left(\frac{3\pi}{2}\right) = 0\) and \(\sin\left(\frac{3\pi}{2}\right) = -1\).
+3. Plug these values into the rotation matrix to get \(\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}\).
+4. The standard matrix of \(T\) is \(\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}\).

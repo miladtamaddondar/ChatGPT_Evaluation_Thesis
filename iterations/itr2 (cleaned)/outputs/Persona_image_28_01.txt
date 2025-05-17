@@ -1,0 +1,4 @@
+1. The transformation \( T(\mathbf{x}) \) maps \( \mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \) to \( x_1\mathbf{v}_1 + x_2\mathbf{v}_2 \), where \( \mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \end{bmatrix} \) and \( \mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \end{bmatrix} \).  
+2. Express \( T(\mathbf{x}) \) as a matrix-vector product: \( T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2 = \begin{bmatrix} -2 \\ 5 \end{bmatrix} x_1 + \begin{bmatrix} 7 \\ -3 \end{bmatrix} x_2 \).  
+3. Combine into a single matrix multiplication: \( T(\mathbf{x}) = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \).  
+4. Therefore, the matrix \( A \) such that \( T(\mathbf{x}) = A\mathbf{x} \) is \( \boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}} \).

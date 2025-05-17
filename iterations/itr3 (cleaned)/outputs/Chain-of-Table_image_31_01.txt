@@ -1,0 +1,4 @@
+1. The set \( W \) is defined as all vectors of the form \( \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} \) where \( a, b \in \mathbb{R} \). 
+2. To check if \( W \) is a vector space, test closure under addition: Let \( \vec{u} = \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} \) and \( \vec{v} = \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} \), then \( \vec{u} + \vec{v} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix} \). 
+3. The second entry of the sum is 8, not 4, so \( \vec{u} + \vec{v} \notin W \) since the second entry must always be 4 for any vector in \( W \). 
+4. Therefore, \( W \) is not closed under addition and is not a vector space.

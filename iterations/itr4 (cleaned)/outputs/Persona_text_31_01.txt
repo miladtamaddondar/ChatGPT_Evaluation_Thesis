@@ -1,0 +1,6 @@
+1. We are given $W = \left\{ \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} : a, b \in \mathbb{R} \right\}$ and asked to determine if $W$ is a vector space or to find a spanning set if it is.  
+2. To check if $W$ is a vector space, we must verify if it is closed under vector addition and scalar multiplication and contains the zero vector.  
+3. The zero vector in $\mathbb{R}^3$ is $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$, so set $3a + b = 0$, $4 = 0$, and $a - 5b = 0$ to see if there exist $a, b \in \mathbb{R}$ such that $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$.  
+4. The second entry requires $4 = 0$, which is impossible, so the zero vector is not in $W$.  
+5. Since $W$ does not contain the zero vector, $W$ is not a vector space.  
+6. Final answer: $W$ is not a vector space because it does not contain the zero vector, as shown by the constant $4$ in the second entry.

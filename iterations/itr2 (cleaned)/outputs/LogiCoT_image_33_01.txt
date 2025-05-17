@@ -1,0 +1,3 @@
+1. To find \( k \) such that \(\text{Nul } A\) is a subspace of \(\mathbb{R}^k\), recall that the null space of an \(m \times n\) matrix \(A\) is a subspace of \(\mathbb{R}^n\), where \(n\) is the number of columns of \(A\); since \(A\) has 2 columns, \(k = 2\).  
+2. To find \( k \) such that \(\text{Col } A\) is a subspace of \(\mathbb{R}^k\), recall that the column space of an \(m \times n\) matrix \(A\) is a subspace of \(\mathbb{R}^m\), where \(m\) is the number of rows of \(A\); since \(A\) has 4 rows, \(k = 4\).  
+3. Therefore, the answers are: (a) \(k = 2\) for the null space, and (b) \(k = 4\) for the column space.

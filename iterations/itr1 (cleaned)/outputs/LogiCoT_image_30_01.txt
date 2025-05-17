@@ -1,0 +1,5 @@
+1. Write the system of equations from \( T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9) \): \( x_1 - 2x_2 = -1 \), \( -x_1 + 3x_2 = 4 \), \( 3x_1 - 2x_2 = 9 \).  
+2. Verify the system is consistent by checking if any equation is a linear combination of the others: Multiply the first equation by 3 to get \( 3x_1 - 6x_2 = -3 \); subtract this from the third equation \( (3x_1 - 2x_2) - (3x_1 - 6x_2) = 9 - (-3) \Rightarrow 4x_2 = 12 \Rightarrow x_2 = 3 \).  
+3. Substitute \( x_2 = 3 \) into the first equation: \( x_1 - 2(3) = -1 \Rightarrow x_1 - 6 = -1 \Rightarrow x_1 = 5 \).  
+4. Verify with the second equation: \( -x_1 + 3x_2 = -5 + 9 = 4 \), which matches the given value, confirming correctness.  
+5. The solution is \( \mathbf{x} = (5, 3) \).

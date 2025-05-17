@@ -1,0 +1,7 @@
+1. Write the matrix \(A - 5I\) and set up the augmented matrix for the eigenvalue \(\lambda = 5\): \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\).
+2. Subtract row 3 from row 4 to eliminate the last entry in row 4: \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).
+3. Divide row 3 by 4 to make the leading coefficient 1: \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).
+4. The third row shows \(x_4 = 0\), so substitute \(x_4 = 0\) into the first two rows: \(\begin{bmatrix} 0 & -2 & 6 & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).
+5. Subtract row 2 from row 1 to eliminate the \(-2\) in row 1: \(\begin{bmatrix} 0 & 0 & 6-h & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).
+6. For the eigenspace to be two-dimensional, the number of free variables must be 2, which requires that the rank of the coefficient matrix is 2; this happens when \(6-h = 0\), so \(h = 6\).
+7. Final answer: The value of \(h\) such that the eigenspace for \(\lambda = 5\) is two-dimensional is \(\boxed{6}\).

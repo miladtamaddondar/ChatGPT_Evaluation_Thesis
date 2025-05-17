@@ -1,0 +1,5 @@
+1. Express $q$ as a linear combination of the basis vectors using the given coordinates: $q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3$.  
+2. Substitute the explicit forms of $p_1$, $p_2$, and $p_3$: $q = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)$.  
+3. Distribute the scalars and expand: $q = -1 - t^2 + t - 3t^2 + 2(1) + 2(t) - 6t^2$.  
+4. Combine like terms: constants $(-1 + 2 = 1)$, $t$ terms $(1t + 2t = 3t)$, $t^2$ terms $(-t^2 - 3t^2 - 6t^2 = -10t^2)$.  
+5. Write the final answer: $q = 1 + 3t - 10t^2$.

@@ -1,0 +1,8 @@
+1. To find the LU factorization, write the matrix \( A = \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} \) as \( A = LU \), where \( L \) is lower triangular and \( U \) is upper triangular. 
+2. Assume \( L = \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} \) and \( U = \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} \). 
+3. Multiply \( L \) and \( U \): \( LU = \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} = \begin{bmatrix} u_{11} & u_{12} \\ l_{21}u_{11} & l_{21}u_{12} + u_{22} \end{bmatrix} \). 
+4. Set up equations by matching \( LU \) to \( A \): \( u_{11} = 6 \), \( u_{12} = 9 \), \( l_{21}u_{11} = 4 \), \( l_{21}u_{12} + u_{22} = 5 \). 
+5. Solve for \( l_{21} \): \( l_{21} = 4/6 = 2/3 \). 
+6. Solve for \( u_{22} \): \( (2/3) \cdot 9 + u_{22} = 5 \implies 6 + u_{22} = 5 \implies u_{22} = -1 \). 
+7. Write the LU factorization: \( L = \begin{bmatrix} 1 & 0 \\ 2/3 & 1 \end{bmatrix} \), \( U = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \). 
+8. Final answer: The LU factorization is \( \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 2/3 & 1 \end{bmatrix} \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).

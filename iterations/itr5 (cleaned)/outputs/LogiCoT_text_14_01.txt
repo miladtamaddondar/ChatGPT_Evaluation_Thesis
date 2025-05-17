@@ -1,0 +1,9 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute the nullity of $A-5I$ and set it equal to $2$ since the dimension of the eigenspace is the nullity of $A-5I$.
+2. Compute $A-5I$: $A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+3. The nullity is $n - \text{rank}(A-5I)$, where $n=4$, so we need $\text{rank}(A-5I) = 2$ for the nullity to be $2$.
+4. To find the rank, observe that the last two rows are $\begin{bmatrix}0 & 0 & 0 & 4\end{bmatrix}$ and $\begin{bmatrix}0 & 0 & 0 & -4\end{bmatrix}$, which are linearly dependent, so together they contribute $1$ to the rank.
+5. The first two rows are $\begin{bmatrix}0 & -2 & 6 & -1\end{bmatrix}$ and $\begin{bmatrix}0 & -2 & h & 0\end{bmatrix}$; subtracting the second from the first gives $\begin{bmatrix}0 & 0 & 6-h & -1\end{bmatrix}$.
+6. If $h \neq 6$, then $\begin{bmatrix}0 & 0 & 6-h & -1\end{bmatrix}$ is not a zero row, so the first two rows are linearly independent, contributing $2$ to the rank (so total rank $3$).
+7. If $h = 6$, then the difference is $\begin{bmatrix}0 & 0 & 0 & -1\end{bmatrix}$, so the first two rows become linearly dependent (since their only difference is in the last entry), so together they contribute $1$ to the rank.
+8. Therefore, when $h=6$, the total rank is $1$ (from the first two rows) $+$ $1$ (from the last two rows) $= 2$.
+9. Thus, the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional is $h=6$.

@@ -1,0 +1,11 @@
+1. Write \( p(t) = 1 + 4t + 7t^2 \) as a linear combination of the basis: \( p(t) = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) \).  
+2. Expand the right side: \( a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) = a + at^2 + bt + bt^2 + c + 2ct + ct^2 \).  
+3. Combine like terms: \( (a + c) + (b + 2c)t + (a + b + c)t^2 \).  
+4. Set up the system by matching coefficients: \( a + c = 1 \), \( b + 2c = 4 \), \( a + b + c = 7 \).  
+5. Write the augmented matrix:  \[\begin{bmatrix}1 & 0 & 1 & | & 1 \\0 & 1 & 2 & | & 4 \\1 & 1 & 1 & | & 7 \\\end{bmatrix}\]  
+6. Subtract row 1 from row 3: \( R_3 \leftarrow R_3 - R_1 \):  \[\begin{bmatrix}1 & 0 & 1 & | & 1 \\0 & 1 & 2 & | & 4 \\0 & 1 & 0 & | & 6 \\\end{bmatrix}\]  
+7. Subtract row 2 from row 3: \( R_3 \leftarrow R_3 - R_2 \):  \[\begin{bmatrix}1 & 0 & 1 & | & 1 \\0 & 1 & 2 & | & 4 \\0 & 0 & -2 & | & 2 \\\end{bmatrix}\]  
+8. Solve for \( c \) from row 3: \( -2c = 2 \implies c = -1 \).  
+9. Substitute \( c = -1 \) into row 2: \( b + 2(-1) = 4 \implies b - 2 = 4 \implies b = 6 \).  
+10. Substitute \( c = -1 \) into row 1: \( a + (-1) = 1 \implies a = 2 \).  
+11. The coordinate vector of \( p(t) \) relative to \( \mathcal{B} \) is \( \boxed{\begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix}} \).

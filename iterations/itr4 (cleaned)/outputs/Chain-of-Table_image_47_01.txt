@@ -1,0 +1,8 @@
+1. Write the normal equations \(A^T A \vec{x} = A^T \vec{b}\): \(A^T A = \begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} = \begin{bmatrix} 14 & 1 \\ 1 & 42 \end{bmatrix}\), \(A^T \vec{b} = \begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 4 \\ -2 \\ -3 \end{bmatrix} = \begin{bmatrix} 16 \\ 6 \end{bmatrix}\), so the system is \(\begin{bmatrix} 14 & 1 \\ 1 & 42 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 16 \\ 6 \end{bmatrix}\).
+2. Write the augmented matrix: \(\left[\begin{array}{cc|c} 14 & 1 & 16 \\ 1 & 42 & 6 \end{array}\right]\).
+3. Subtract \(\frac{1}{14}\) times row 1 from row 2: \(\left[\begin{array}{cc|c} 14 & 1 & 16 \\ 0 & 41.9286 & 4.8571 \end{array}\right]\).
+4. Divide row 2 by 41.9286: \(\left[\begin{array}{cc|c} 14 & 1 & 16 \\ 0 & 1 & 0.1159 \end{array}\right]\).
+5. Subtract row 2 times 1 from row 1: \(\left[\begin{array}{cc|c} 14 & 0 & 15.8841 \\ 0 & 1 & 0.1159 \end{array}\right]\).
+6. Divide row 1 by 14: \(\left[\begin{array}{cc|c} 1 & 0 & 1.1346 \\ 0 & 1 & 0.1159 \end{array}\right]\).
+7. The least-squares solution is \(\boxed{\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 1.1346 \\ 0.1159 \end{bmatrix}}\).
+8. The orthogonal projection of \(\vec{b}\) onto \(\text{Col }A\) is \(A\vec{x} = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} \begin{bmatrix} 1.1346 \\ 0.1159 \end{bmatrix} = \begin{bmatrix} 1.1346 + 5 \times 0.1159 \\ 3 \times 1.1346 + 0.1159 \\ -2 \times 1.1346 + 4 \times 0.1159 \end{bmatrix} = \begin{bmatrix} 1.7141 \\ 3.5197 \\ -1.6065 \end{bmatrix}\).

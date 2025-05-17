@@ -1,0 +1,6 @@
+1. We want to write \( A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix} \) as \( LU \), where \( L \) is lower triangular and \( U \) is upper triangular.
+2. The first step in Gaussian elimination is to eliminate the entry below the (1,1) position using a multiplier \( m = \frac{4}{6} = \frac{2}{3} \).
+3. Subtract \( \frac{2}{3} \) times row 1 from row 2: \( 4 - \frac{2}{3} \times 6 = 0 \), \( 5 - \frac{2}{3} \times 9 = 5 - 6 = -1 \).
+4. The resulting upper triangular matrix is \( U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix} \).
+5. The lower triangular matrix \( L \) has 1's on the diagonal and the multiplier below: \( L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix} \).
+6. Therefore, the LU factorization is \( \boxed{\begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix} = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix} \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}} \).

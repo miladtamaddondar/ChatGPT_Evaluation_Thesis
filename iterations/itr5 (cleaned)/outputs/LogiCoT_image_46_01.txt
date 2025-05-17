@@ -1,0 +1,11 @@
+1. To find all least-squares solutions to \(Ax = b\), we solve the normal equations \(A^T A x = A^T b\); this follows from minimizing \(\|Ax - b\|^2\) and projecting \(b\) onto the column space of \(A\).
+2. Compute \(A^T\): \(A^T = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}\); this is correct by transposing the rows and columns of \(A\).
+3. Compute \(A^T A\): \(A^T A = \begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix}\); verified by matrix multiplication.
+4. Compute \(A^T b\): \(A^T b = \begin{bmatrix} 1+3+8+2 \\ 1+3+0+0 \\ 0+0+8+2 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\); each entry is the dot product of a row of \(A^T\) with \(b\).
+5. Write the normal equations: \(\begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix} x = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\); this is the system to solve for least-squares solutions.
+6. Let \(x = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix}\), so the equations are: \(4x_1 + 2x_2 + 2x_3 = 14\), \(2x_1 + 2x_2 = 4\), \(2x_1 + 2x_3 = 10\); these are the expanded normal equations.
+7. Solve the second equation for \(x_2\): \(2x_1 + 2x_2 = 4 \implies x_1 + x_2 = 2 \implies x_2 = 2 - x_1\); this isolates \(x_2\).
+8. Solve the third equation for \(x_3\): \(2x_1 + 2x_3 = 10 \implies x_1 + x_3 = 5 \implies x_3 = 5 - x_1\); this isolates \(x_3\).
+9. Substitute \(x_2\) and \(x_3\) into the first equation: \(4x_1 + 2(2 - x_1) + 2(5 - x_1) = 14\); this uses the expressions from steps 7 and 8.
+10. Simplify: \(4x_1 + 4 - 2x_1 + 10 - 2x_1 = 14 \implies (4x_1 - 2x_1 - 2x_1) + (4 + 10) = 14 \implies 0x_1 + 14 = 14\); all \(x_1\) terms cancel, confirming the equation holds for all \(x_1\).
+11. Therefore, the least-squares solutions are all vectors of the form \(x = \begin{bmatrix} x_1 \\ 2 - x_1 \\ 5 - x_1 \end{bmatrix}\), where \(x_1\) is any real number; this describes the entire solution set.

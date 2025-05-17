@@ -18,36 +18,36 @@ PROMPT_TEMPLATES = {
         "Make sure the answer you provide is in LaTex format and sutiable for a .tex document."
     ),
     "Chain-of-Table": (
-        "Given an augmented matrix representing a system of linear equations, "
-        "perform step-by-step row operations and show each transformation as a chain of tables. "
-        "Each table should represent the matrix at a specific step, with the operation used labeled clearly between them. "
-        "When providing the answer, use plain text for explanations and LaTeX format for all mathematical notations.",
-        "Present the step-by-step explanation such that each step—including both the description and the calculation—is written in a single line without any line breaks between the steps.",
-        "For example it should be: 1. Description and calculation. 2. Description and calculation.",
-        "Ensure the final step or answer is also numbered and formatted in a single line.",
-        "Maintain this format consistently so that each step occupies exactly one line.\n"
+        "You are given an augmented matrix representing a system of linear equations.",
+        "Perform step-by-step row operations to solve the system. Represent the matrix at each step using LaTeX matrix notation inline, with a short explanation.",
+        "Each step should be presented in one numbered line like this: 1. Operation performed and resulting matrix.",
+        "Avoid using tables, markdown, or multi-line formatting. Each step must be on its own numbered line with no additional line breaks.",
+        "Use plain text for descriptions and LaTeX for all matrix representations.",
+        "Ensure the final answer is formatted in the same single-line style.",
+        "The output will be processed line-by-line, so incorrect line breaks may lead to errors in evaluation. Format carefully.\n"
         "Problem: {content}"
     ),
     "LogiCoT": (
-        "Solve the equation step-by-step.\n"
-        "Problem: {content}\n"
-        "After each step, verify its correctness using principles of linear algebra (e.g., properties of determinants, rank, or eigenvalues).",
-        "If a step contains errors, revise it and proceed.",
-        "When providing the answer, use plain text for explanations and LaTeX format for all mathematical notations.",
-        "Present the step-by-step explanation such that each step—including both the description and the calculation—is written in a single line without any line breaks between the steps.",
-        "For example it should be: 1. Description and calculation. 2. Description and calculation.",
-        "Ensure the final step or answer is also numbered and formatted in a single line.",
-        "Maintain this format consistently so that each step occupies exactly one line."
+        "Solve the equation step-by-step using principles of linear algebra (e.g., properties of determinants, rank, or eigenvalues).",
+        "After each step, briefly verify its correctness using linear algebraic reasoning.",
+        "Use plain text for explanations and LaTeX format for all mathematical expressions.",
+        "Write the entire solution in a numbered list. Each number should represent a single step, with both the explanation and the math written on the same line.",
+        "For example: 1. Description and calculation. 2. Description and calculation.",
+        "Do not use multiple lines or extra paragraph breaks. Each step must be exactly one line.",
+        "Final answer should also follow the same format as a numbered step.",
+        "The output will be processed line-by-line, so incorrect line breaks may lead to errors in evaluation. Format carefully.\n"
+        "Problem: {content}"
     ),
     "Persona": (
-        "Imagine you are a linear algebra university professor. "
-        "A student provides you with a question, solve this question step-by-step with principles "
-        "of linear algebra validating your reasoning for each step and provide a final answer. "
-        "When providing the answer, use plain text for explanations and LaTeX format for all mathematical notationnotations.",
-        "Present the step-by-step explanation such that each step—including both the description and the calculation—is written in a single line without any line breaks between the steps.",
-        "For example it should be: 1. Description and calculation. 2. Description and calculation.",
-        "Ensure the final step or answer is also numbered and formatted in a single line.",
-        "Maintain this format consistently so that each step occupies exactly one line.\n"
+        "Imagine you are a university professor of linear algebra.",
+        "A student has asked you a question. Solve it step-by-step using principles of linear algebra. For each step, explain your reasoning briefly and show the corresponding calculation.",
+        "Use plain text for explanations and LaTeX format for all mathematical notation.",
+        "Present your answer as a numbered list, where each step is written in exactly one line (both the explanation and the math must be on the same line). For example:",
+        "1. Description and calculation.",
+        "2. Description and calculation.",
+        "Do not use multiple lines or extra paragraph breaks. Each step must be exactly one line.",
+        "The final answer must also follow this same one-line numbered format.",
+        "The output will be processed line-by-line, so incorrect line breaks may lead to errors in evaluation. Format carefully.\n"
         "The question is: {content}"
     )
 }

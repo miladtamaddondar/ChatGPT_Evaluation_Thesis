@@ -1,0 +1,4 @@
+1. We are given vectors \( r_1, \ldots, r_p \) in \( \mathbb{R}^n \) and a matrix \( Q \) of size \( m \times n \); we are to write the matrix \( [Qr_1 \ Qr_2 \ \ldots \ Qr_p] \) as a product of two matrices, neither of which is the identity.  
+2. Notice that \( [Qr_1 \ Qr_2 \ \ldots \ Qr_p] \) is the result of multiplying \( Q \) by the matrix \( [r_1 \ r_2 \ \ldots \ r_p] \), where \( [r_1 \ r_2 \ \ldots \ r_p] \) is an \( n \times p \) matrix whose columns are the vectors \( r_1, \ldots, r_p \).  
+3. Therefore, we can write \( [Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q [r_1 \ r_2 \ \ldots \ r_p] \).  
+4. The final answer is: \( [Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q [r_1 \ r_2 \ \ldots \ r_p] \).

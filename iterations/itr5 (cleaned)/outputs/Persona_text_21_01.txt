@@ -1,0 +1,8 @@
+1. To find $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{b}$, write the augmented matrix: $\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right]$.
+2. Use row 1 to eliminate $x_1$ from rows 2 and 3: Row 2 + 2*Row 1 $\to$ Row 2, Row 3 - 3*Row 1 $\to$ Row 3: $\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & -2 & 1 & 0 \end{array}\right]$.
+3. Use row 2 to eliminate $x_2$ from row 3: Row 3 + 2*Row 2 $\to$ Row 3: $\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 5 & 10 \end{array}\right]$.
+4. Solve for $x_3$ from row 3: $5x_3 = 10 \implies x_3 = 2$.
+5. Substitute $x_3 = 2$ into row 2: $x_2 + 2(2) = 5 \implies x_2 = 1$.
+6. Substitute $x_2 = 1, x_3 = 2$ into row 1: $x_1 - 2(2) = -1 \implies x_1 = 3$.
+7. The solution is $\mathbf{x} = \begin{bmatrix}3 \\ 1 \\ 2\end{bmatrix}$.
+8. Since each variable has a unique value, the solution is unique.

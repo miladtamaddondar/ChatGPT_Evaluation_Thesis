@@ -1,0 +1,9 @@
+1. Write the equation $T(\mathbf{x}) = (3, 8)$ in terms of components: $T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8)$.  
+2. Set up the corresponding system of linear equations: $x_1 + x_2 = 3$ and $4x_1 + 5x_2 = 8$.  
+3. Represent the system in matrix form: $\begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix} \begin{pmatrix} x_1 \\ x_2 \end{pmatrix} = \begin{pmatrix} 3 \\ 8 \end{pmatrix}$.  
+4. Verify that the coefficient matrix is invertible by checking its determinant: $\det\begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix} = 1 \cdot 5 - 1 \cdot 4 = 1$.  
+5. Since the determinant is nonzero, the matrix is invertible and the system has a unique solution.  
+6. Find the inverse of the matrix: $\begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix}^{-1} = \frac{1}{1} \begin{pmatrix} 5 & -1 \\ -4 & 1 \end{pmatrix} = \begin{pmatrix} 5 & -1 \\ -4 & 1 \end{pmatrix}$.  
+7. Multiply the inverse matrix by the right-hand side vector: $\begin{pmatrix} x_1 \\ x_2 \end{pmatrix} = \begin{pmatrix} 5 & -1 \\ -4 & 1 \end{pmatrix} \begin{pmatrix} 3 \\ 8 \end{pmatrix}$.  
+8. Compute $x_1 = 5 \cdot 3 + (-1) \cdot 8 = 15 - 8 = 7$ and $x_2 = -4 \cdot 3 + 1 \cdot 8 = -12 + 8 = -4$.  
+9. The solution is $\boxed{\mathbf{x} = (7, -4)}$.

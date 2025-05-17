@@ -1,0 +1,4 @@
+1. Recognize that $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$ is a linear combination of $\mathbf{v}_1$ and $\mathbf{v}_2$, which can be written as $T(\mathbf{x}) = [\mathbf{v}_1 \ \mathbf{v}_2] \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$ by the definition of matrix-vector multiplication.
+2. Write the matrix $A$ as $A = [\mathbf{v}_1 \ \mathbf{v}_2] = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$, since the columns of $A$ are $\mathbf{v}_1$ and $\mathbf{v}_2$ respectively.
+3. Verify correctness: Multiplying $A$ by $\mathbf{x}$ gives $\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix}$, which matches $x_1\mathbf{v}_1 + x_2\mathbf{v}_2$.
+4. Final answer: The matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ is $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.

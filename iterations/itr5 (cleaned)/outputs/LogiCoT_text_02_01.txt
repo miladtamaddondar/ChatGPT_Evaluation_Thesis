@@ -1,0 +1,5 @@
+1. The vector $\mathbf{x}$ is represented in basis $B$ by the coordinate vector $\left[ \mathbf{x} \right]_B = \begin{bmatrix} 3 \\ 2 \end{bmatrix}$, which means $\mathbf{x} = 3\mathbf{b}_1 + 2\mathbf{b}_2$, where $\mathbf{b}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$ and $\mathbf{b}_2 = \begin{bmatrix} 2 \\ -1 \end{bmatrix}$; this follows from the definition of coordinates relative to a basis.
+2. Compute $3\mathbf{b}_1 = 3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix}$; scalar multiplication distributes over vector components by linearity.
+3. Compute $2\mathbf{b}_2 = 2 \begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \end{bmatrix}$; again, scalar multiplication distributes over vector components.
+4. Add the results: $\mathbf{x} = \begin{bmatrix} 3 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$; vector addition is performed component-wise.
+5. Final answer: The vector $\mathbf{x} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.

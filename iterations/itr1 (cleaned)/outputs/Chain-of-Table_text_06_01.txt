@@ -1,0 +1,6 @@
+1. To find \( B \) such that \( AB = 0 \), we need to find two nonzero vectors in the null space of \( A \); let \( B = \begin{bmatrix}x_1 & x_2 \\ y_1 & y_2\end{bmatrix} \) and solve \( A\begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).  
+2. Set up the augmented matrix: \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & -2 & 0\end{array}\right]\).  
+3. Row 2 minus \(\frac{1}{3}\) times Row 1: \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 0 & 0 & 0\end{array}\right]\).  
+4. The first row gives \(3x - 6y = 0\) or \(x = 2y\); the general solution is \(\begin{bmatrix}x \\ y\end{bmatrix} = y\begin{bmatrix}2 \\ 1\end{bmatrix}\).  
+5. Choose \(y = 1\) to get the first column: \(\begin{bmatrix}2 \\ 1\end{bmatrix}\); choose \(y = -1\) to get the second column: \(\begin{bmatrix}-2 \\ -1\end{bmatrix}\).  
+6. Thus, one possible \( B \) is \(\boxed{\begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix}}\).

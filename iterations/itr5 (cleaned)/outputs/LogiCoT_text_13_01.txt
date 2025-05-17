@@ -1,0 +1,10 @@
+1. To find a basis for the eigenspace corresponding to \(\lambda = 4\), we solve \((A - 4I)\vec{x} = 0\); this uses the definition of an eigenspace.  
+2. Compute \(A - 4I = \begin{bmatrix}3-4 & 0 & 2 & 0 \\ 1 & 3-4 & 1 & 0 \\ 0 & 1 & 1-4 & 0 \\ 0 & 0 & 0 & 4-4 \end{bmatrix} = \begin{bmatrix}-1 & 0 & 2 & 0 \\ 1 & -1 & 1 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}\); this is correct by matrix subtraction.  
+3. Set up the homogeneous system: \(\begin{bmatrix}-1 & 0 & 2 & 0 \\ 1 & -1 & 1 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}\); this follows from the definition of eigenvectors.  
+4. Write out the equations: \(-x_1 + 2x_3 = 0\), \(x_1 - x_2 + x_3 = 0\), \(x_2 - 3x_3 = 0\), and \(0 = 0\); this is correct by matrix multiplication.  
+5. Solve the third equation: \(x_2 - 3x_3 = 0 \implies x_2 = 3x_3\); this isolates \(x_2\) in terms of \(x_3\).  
+6. Substitute \(x_2 = 3x_3\) into the second equation: \(x_1 - (3x_3) + x_3 = 0 \implies x_1 - 2x_3 = 0 \implies x_1 = 2x_3\); this expresses \(x_1\) in terms of \(x_3\).  
+7. The first equation \(-x_1 + 2x_3 = 0\) is satisfied since \(x_1 = 2x_3\); verification: \(-2x_3 + 2x_3 = 0\).  
+8. \(x_4\) does not appear in any equation, so it is a free variable; this is clear from the structure of the system.  
+9. The general solution is \(\begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}2x_3 \\ 3x_3 \\ x_3 \\ x_4\end{bmatrix} = x_3\begin{bmatrix}2 \\ 3 \\ 1 \\ 0\end{bmatrix} + x_4\begin{bmatrix}0 \\ 0 \\ 0 \\ 1\end{bmatrix}\); this is correct by expressing all variables in terms of free variables.  
+10. Therefore, a basis for the eigenspace corresponding to \(\lambda = 4\) is \(\left\{ \begin{bmatrix}2 \\ 3 \\ 1 \\ 0\end{bmatrix}, \begin{bmatrix}0 \\ 0 \\ 0 \\ 1\end{bmatrix} \right\}\); this follows since these vectors are linearly independent and span the solution set.

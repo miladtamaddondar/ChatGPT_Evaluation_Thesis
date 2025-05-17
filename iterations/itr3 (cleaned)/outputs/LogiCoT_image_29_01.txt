@@ -1,0 +1,7 @@
+1. Write the transformation equations as a system: \(T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8)\) gives the system \(x_1 + x_2 = 3\) and \(4x_1 + 5x_2 = 8\). 
+2. Express \(x_1\) in terms of \(x_2\) from the first equation: \(x_1 = 3 - x_2\). 
+3. Substitute \(x_1\) into the second equation: \(4(3 - x_2) + 5x_2 = 8\). 
+4. Simplify and solve for \(x_2\): \(12 - 4x_2 + 5x_2 = 8 \implies 12 + x_2 = 8 \implies x_2 = 8 - 12 = -4\). 
+5. Substitute \(x_2 = -4\) back into \(x_1 = 3 - x_2\): \(x_1 = 3 - (-4) = 7\). 
+6. Verify the solution in both equations: \(x_1 + x_2 = 7 + (-4) = 3\) and \(4x_1 + 5x_2 = 4 \times 7 + 5 \times (-4) = 28 - 20 = 8\), both correct. 
+7. Final answer: \(\mathbf{x} = (7, -4)\).

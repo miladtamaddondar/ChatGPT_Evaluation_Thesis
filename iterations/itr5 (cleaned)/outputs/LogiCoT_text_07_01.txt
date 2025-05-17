@@ -1,0 +1,4 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the images of \( r_1, \dots, r_p \) under the linear transformation represented by \( Q \), so stacking them as columns gives \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] \).  
+2. Note that multiplying \( Q \) by the matrix \( [r_1 \; r_2 \; \dots \; r_p] \) (which is \( n \times p \)) gives \( Q [r_1 \; r_2 \; \dots \; r_p] = [Q r_1 \; Q r_2 \; \dots \; Q r_p] \) by the definition of matrix multiplication.  
+3. Verify: For each \( k \), the \( k \)-th column of \( Q [r_1 \; \dots \; r_p] \) is \( Q r_k \), matching the construction of the given matrix.  
+4. Final answer: \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \), which is a product of the \( m \times n \) matrix \( Q \) and the \( n \times p \) matrix \( [r_1 \; r_2 \; \dots \; r_p] \).

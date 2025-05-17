@@ -1,0 +1,7 @@
+1. Write the augmented matrix for the homogeneous system \(A\mathbf{x} = \mathbf{0}\): \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0 \end{array}\right]\).
+2. Replace Row 3 with Row 3 - 2*Row 1: \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0 \end{array}\right]\).
+3. Replace Row 3 with Row 3 - 2*Row 2: \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\).
+4. The system in equations is: \(x_1 - 4x_2 + 7x_3 - 5x_4 = 0\), \(x_2 - 4x_3 + 3x_4 = 0\).
+5. Express \(x_2 = 4x_3 - 3x_4\) and substitute into the first equation: \(x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0\).
+6. Simplify: \(x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0\) so \(x_1 - 9x_3 + 7x_4 = 0\), thus \(x_1 = 9x_3 - 7x_4\).
+7. The solution is \(\mathbf{x} = x_3 \begin{bmatrix} 9 \\ 4 \\ 1 \\ 0 \end{bmatrix} + x_4 \begin{bmatrix} -7 \\ -3 \\ 0 \\ 1 \end{bmatrix}\), where \(x_3, x_4 \in \mathbb{R}\).

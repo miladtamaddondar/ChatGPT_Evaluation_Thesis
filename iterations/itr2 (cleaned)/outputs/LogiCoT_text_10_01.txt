@@ -1,0 +1,10 @@
+1. Write the given matrix \(A\): \(A = \begin{bmatrix}1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).  
+2. Write the given echelon form of \(A\): \(\text{Echelon form of } A = \begin{bmatrix}1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).  
+3. Identify pivot columns in the echelon form (columns 1, 3, and 4) since these contain the leading nonzero entries in each nonzero row.  
+4. By the Invertible Matrix Theorem, the pivot columns of the original matrix \(A\) form a basis for \(\text{Col } A\), so the basis is \(\left\{ \begin{bmatrix}1 \\ -3 \\ 2 \\ -4\end{bmatrix}, \begin{bmatrix}2 \\ -1 \\ 4 \\ 2\end{bmatrix}, \begin{bmatrix}-4 \\ 5 \\ -3 \\ 7\end{bmatrix} \right\}\), corresponding to columns 1, 3, and 4 of \(A\).  
+5. The dimension of \(\text{Col } A\) is the number of pivot columns, which is 3.  
+6. To find a basis for \(\text{Nul } A\), solve \(A\vec{x} = \vec{0}\) using the echelon form; let \(x_2\) be the free variable since column 2 is not a pivot column.  
+7. From the last nonzero row: \(5x_4 = 0 \implies x_4 = 0\); from the second nonzero row: \(5x_3 - 7x_4 = 0 \implies x_3 = 0\); from the first row: \(x_1 - 3x_2 + 2x_3 - 4x_4 = 0 \implies x_1 - 3x_2 = 0 \implies x_1 = 3x_2\).  
+8. The general solution is \(\vec{x} = x_2 \begin{bmatrix}3 \\ 1 \\ 0 \\ 0\end{bmatrix}\), so a basis for \(\text{Nul } A\) is \(\left\{ \begin{bmatrix}3 \\ 1 \\ 0 \\ 0\end{bmatrix} \right\}\).  
+9. The dimension of \(\text{Nul } A\) is the number of free variables, which is 1.  
+10. Final answers: Basis for \(\text{Col } A\) is \(\left\{ \begin{bmatrix}1 \\ -3 \\ 2 \\ -4\end{bmatrix}, \begin{bmatrix}2 \\ -1 \\ 4 \\ 2\end{bmatrix}, \begin{bmatrix}-4 \\ 5 \\ -3 \\ 7\end{bmatrix} \right\}\), dimension is 3; basis for \(\text{Nul } A\) is \(\left\{ \begin{bmatrix}3 \\ 1 \\ 0 \\ 0\end{bmatrix} \right\}\), dimension is 1.

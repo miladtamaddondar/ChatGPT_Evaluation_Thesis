@@ -1,0 +1,2 @@
+1. Notice that the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) has columns given by multiplying \(Q\) by each \(r_j\), so it can be written as \(Q\) times the matrix whose columns are \(r_1, \dots, r_p\): \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\).
+2. Therefore, the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) can be written as the product \(Q R\), where \(R = \left[ r_1 \; r_2 \; \dots \; r_p \right]\).

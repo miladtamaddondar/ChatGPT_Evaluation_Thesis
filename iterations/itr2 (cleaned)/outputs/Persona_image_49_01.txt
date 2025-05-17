@@ -1,0 +1,11 @@
+1. The problem asks for an upper triangular matrix \( R \) such that \( A = QR \), where \( Q \) is already given as an orthonormal matrix obtained by Gram-Schmidt, and \( A \) is given.  
+2. To find \( R \), use the property that \( Q \) has orthonormal columns, so \( Q^T Q = I \), and thus \( Q^T A = Q^T Q R = R \), so \( R = Q^T A \).  
+3. Compute \( Q^T \), the transpose of \( Q \):  \[Q^T = \begin{bmatrix}\frac{5}{6} & \frac{1}{6} & -\frac{3}{6} & \frac{1}{6} \\-\frac{1}{6} & \frac{5}{6} & \frac{1}{6} & \frac{3}{6}\end{bmatrix}\]
+4. Multiply \( Q^T \) by \( A \) to get \( R \):  \[R = Q^T A = \begin{bmatrix}\frac{5}{6} & \frac{1}{6} & -\frac{3}{6} & \frac{1}{6} \\-\frac{1}{6} & \frac{5}{6} & \frac{1}{6} & \frac{3}{6}\end{bmatrix}\begin{bmatrix}5 & 9 \\1 & 7 \\-3 & -5 \\1 & 5\end{bmatrix}\]
+5. Compute the (1,1) entry: \(\frac{5}{6} \cdot 5 + \frac{1}{6} \cdot 1 + (-\frac{3}{6}) \cdot (-3) + \frac{1}{6} \cdot 1 = \frac{25}{6} + \frac{1}{6} + \frac{9}{6} + \frac{1}{6} = \frac{36}{6} = 6\).  
+6. Compute the (1,2) entry: \(\frac{5}{6} \cdot 9 + \frac{1}{6} \cdot 7 + (-\frac{3}{6}) \cdot (-5) + \frac{1}{6} \cdot 5 = \frac{45}{6} + \frac{7}{6} + \frac{15}{6} + \frac{5}{6} = \frac{72}{6} = 12\).  
+7. Compute the (2,1) entry: \(-\frac{1}{6} \cdot 5 + \frac{5}{6} \cdot 1 + \frac{1}{6} \cdot (-3) + \frac{3}{6} \cdot 1 = -\frac{5}{6} + \frac{5}{6} - \frac{3}{6} + \frac{3}{6} = 0\).  
+8. Compute the (2,2) entry: \(-\frac{1}{6} \cdot 9 + \frac{5}{6} \cdot 7 + \frac{1}{6} \cdot (-5) + \frac{3}{6} \cdot 5 = -\frac{9}{6} + \frac{35}{6} - \frac{5}{6} + \frac{15}{6} = \frac{36}{6} = 6\).  
+9. Assemble the matrix \( R \):  \[R = \begin{bmatrix}6 & 12 \\0 & 6\end{bmatrix}\]
+10. Check the work by calculating \( QR \):  \[QR = \begin{bmatrix}\frac{5}{6} & -\frac{1}{6} \\\frac{1}{6} & \frac{5}{6} \\-\frac{3}{6} & \frac{1}{6} \\\frac{1}{6} & \frac{3}{6}\end{bmatrix}\begin{bmatrix}6 & 12 \\0 & 6\end{bmatrix}= \begin{bmatrix}5 & 9 \\1 & 7 \\-3 & -5 \\1 & 5\end{bmatrix} = A\]
+11. Final answer: The upper triangular matrix \( R \) such that \( A = QR \) is \(\boxed{\begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}}\).

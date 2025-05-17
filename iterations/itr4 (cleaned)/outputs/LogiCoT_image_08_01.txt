@@ -1,0 +1,4 @@
+1. A \(4 \times 3\) matrix with rank 1 can be constructed as the outer product of a nonzero \(4 \times 1\) vector and a nonzero \(1 \times 3\) vector, since the rank of such a product is 1.  
+2. Let \(\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix}\) and \(\mathbf{v} = \begin{bmatrix} 5 & 6 & 7 \end{bmatrix}\), then the matrix is \(A = \mathbf{u} \mathbf{v} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix} \begin{bmatrix} 5 & 6 & 7 \end{bmatrix} = \begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix}\).  
+3. To verify the rank is 1, note that each row is a scalar multiple of the first row, so all rows are linearly dependent except one, confirming the rank is 1.  
+4. Final answer: One example of a \(4 \times 3\) matrix with rank 1 is \(\begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix}\).

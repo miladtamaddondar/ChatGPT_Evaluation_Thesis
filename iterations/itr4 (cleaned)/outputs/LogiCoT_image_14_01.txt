@@ -1,0 +1,8 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first compute \( A - 5I \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).  
+2. The eigenspace dimension is the nullity of \( A - 5I \), so we need \(\text{nullity}(A-5I) = 2\); by the rank-nullity theorem, \(\text{rank}(A-5I) = 2\).  
+3. Row-reduce \( A-5I \): The last row is a multiple of the third row, so we can replace row 4 with row 4 + row 3 to get a row of zeros: \( \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix} \).  
+4. The first row is all zeros in the first column, so swap row 1 and row 2 for easier elimination: \( \begin{bmatrix} 0 & -2 & h & 0 \\ 0 & -2 & 6 & -1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix} \).  
+5. Subtract row 1 from row 2 (row 2 - row 1): \( \begin{bmatrix} 0 & -2 & h & 0 \\ 0 & 0 & 6-h & -1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix} \).  
+6. The third row is already in row-echelon form, and the fourth row is zero, so the number of nonzero rows (rank) is 3 unless \( 6-h = 0 \), i.e., \( h = 6 \).  
+7. If \( h = 6 \), then row 2 becomes \( [0, 0, 0, -1] \), so the matrix is \( \begin{bmatrix} 0 & -2 & 6 & 0 \\ 0 & 0 & 0 & -1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix} \), and the rank is 2 because only two rows are nonzero after further reduction.  
+8. Therefore, the value of \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional is \( \boxed{6} \).

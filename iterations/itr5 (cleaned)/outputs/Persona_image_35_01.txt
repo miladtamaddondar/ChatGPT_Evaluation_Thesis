@@ -1,0 +1,8 @@
+1. Let \( p(t) = 1 + 4t + 7t^2 \) and write \( p(t) = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) \).  
+2. Expand the right side: \( a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) = (a + c) + (b + 2c)t + (a + b + c)t^2 \).  
+3. Set up the system by equating coefficients: \( a + c = 1 \), \( b + 2c = 4 \), \( a + b + c = 7 \).  
+4. Solve \( a + c = 1 \) for \( a \): \( a = 1 - c \).  
+5. Substitute \( a = 1 - c \) into \( a + b + c = 7 \): \( (1 - c) + b + c = 7 \implies 1 + b = 7 \implies b = 6 \).  
+6. Substitute \( b = 6 \) into \( b + 2c = 4 \): \( 6 + 2c = 4 \implies 2c = -2 \implies c = -1 \).  
+7. Substitute \( c = -1 \) into \( a = 1 - c \): \( a = 1 - (-1) = 2 \).  
+8. The coordinate vector of \( p(t) \) relative to \( \mathcal{B} \) is \( \begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix} \).

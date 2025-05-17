@@ -1,0 +1,20 @@
+1. Write the vectors as columns of a matrix: $A = \begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 1 & -8 & -6 \\ 2 & -3 & 6 & 7 & 9 \end{bmatrix}$.
+2. Perform row reduction to row echelon form to identify linearly independent columns.
+3. Subtract $-3$ times column 1 from column 3: new column 3 is $(-3) - (-3 \cdot 1) = 0$, $1 - (0) = 1$, $1 - (-3 \cdot -3) = 1 - 9 = -8$, $6 - (2 \cdot -3) = 6 + 6 = 12$.
+4. Subtract $1$ times column 1 from column 4: new column 4 is $1 - 1 = 0$, $-3 - 0 = -3$, $-8 - (-3) = -5$, $7 - 2 = 5$.
+5. Subtract $2$ times column 1 from column 5: new column 5 is $2 - 2 = 0$, $1 - 0 = 1$, $-6 - (-6) = 0$, $9 - 4 = 5$.
+6. The updated matrix is $A' = \begin{bmatrix} 1 & 0 & 0 & 0 & 0 \\ 0 & 1 & 1 & -3 & 1 \\ -3 & 2 & -8 & -5 & 0 \\ 2 & -3 & 12 & 5 & 5 \end{bmatrix}$.
+7. Subtract $1$ times column 2 from column 3: new column 3 is $0 - 0 = 0$, $1 - 1 = 0$, $-8 - 2 = -10$, $12 - (-3) = 15$.
+8. Add $3$ times column 2 to column 4: new column 4 is $0 + 0 = 0$, $-3 + 3 = 0$, $-5 + 6 = 1$, $5 + (-9) = -4$.
+9. Subtract $1$ times column 2 from column 5: new column 5 is $0 - 0 = 0$, $1 - 1 = 0$, $0 - 2 = -2$, $5 - (-3) = 8$.
+10. The updated matrix is $A'' = \begin{bmatrix} 1 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 \\ -3 & 2 & -10 & 1 & -2 \\ 2 & -3 & 15 & -4 & 8 \end{bmatrix}$.
+11. The first two columns are clearly linearly independent; check if the third column is independent of the first two by seeing if $-10$ and $15$ are not both zero, so it is independent.
+12. Similarly, the fourth column has $1$ and $-4$ in the last two rows, so it is independent of the first three.
+13. The fifth column has $-2$ and $8$ in the last two rows, so it is independent of the first four.
+14. However, check if the last three columns are linearly independent by forming a $3 \times 3$ matrix with the last three columns' lower two entries: $\begin{bmatrix} -10 & 1 & -2 \\ 15 & -4 & 8 \end{bmatrix}$.
+15. Compute the determinant of the $3 \times 3$ matrix formed by columns 3, 4, and 5 (lower two entries): $(-10)(-4) - (1)(15) = 40 - 15 = 25 \neq 0$, so columns 3 and 4 are independent, but check column 5.
+16. Try to write column 5 as a linear combination of columns 3 and 4: solve $a(-10) + b(1) = -2$, $a(15) + b(-4) = 8$.
+17. Solve $-10a + b = -2$ and $15a - 4b = 8$; from the first, $b = -2 + 10a$, substitute into the second: $15a - 4(-2 + 10a) = 8 \implies 15a + 8 - 40a = 8 \implies -25a = 0 \implies a = 0$.
+18. Substitute $a = 0$ into $b = -2 + 10a = -2$, so $b = -2$.
+19. Therefore, column 5 = $0 \times$ column 3 $+ (-2) \times$ column 4, so column 5 is dependent on columns 3 and 4.
+20. Thus, a basis is given by the first four vectors: $\left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix} \right\}$.

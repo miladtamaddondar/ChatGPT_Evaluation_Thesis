@@ -1,0 +1,13 @@
+1. We are given \( T(\mathbf{x}) = A\mathbf{x} \) where \( A = \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \) and \( \mathbf{b} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix} \), and we need to solve \( A\mathbf{x} = \mathbf{b} \) for \( \mathbf{x} \).  
+2. Write the augmented matrix: \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right] \).  
+3. Use row operations to get zeros below the leading 1 in the first column: Add 2 times row 1 to row 2: \( -2+2(1)=0 \), \( 1+2(0)=1 \), \( 6+2(-2)=2 \), \( 7+2(-1)=5 \), so row 2 becomes \( [0, 1, 2, 5] \).  
+4. Subtract 3 times row 1 from row 3: \( 3-3(1)=0 \), \( -2-3(0)=-2 \), \( -5-3(-2)=1 \), \( -3-3(-1)=0 \), so row 3 becomes \( [0, -2, 1, 0] \).  
+5. The new matrix is \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & -2 & 1 & 0 \end{array}\right] \).  
+6. Add 2 times row 2 to row 3: \( -2+2(1)=0 \), \( 1+2(2)=5 \), \( 0+2(5)=10 \), so row 3 becomes \( [0, 0, 5, 10] \).  
+7. Divide row 3 by 5 to get a leading 1: \( [0, 0, 1, 2] \).  
+8. The matrix is now \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 1 & 2 \end{array}\right] \).  
+9. Back substitute: Row 2: \( 0x_1 + 1x_2 + 2x_3 = 5 \implies x_2 + 2x_3 = 5 \implies x_2 = 5 - 2x_3 \).  
+10. Row 1: \( 1x_1 + 0x_2 - 2x_3 = -1 \implies x_1 - 2x_3 = -1 \implies x_1 = -1 + 2x_3 \).  
+11. Row 3: \( x_3 = 2 \).  
+12. Substitute \( x_3 = 2 \) into previous results: \( x_2 = 5 - 2(2) = 1 \), \( x_1 = -1 + 2(2) = 3 \).  
+13. The unique solution is \( \mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix} \) because the system is square and the matrix reduces to row-echelon form with a pivot in every column, so the solution is unique.

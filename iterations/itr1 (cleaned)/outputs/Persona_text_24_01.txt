@@ -1,0 +1,11 @@
+1. We are asked to find all $\mathbf{x} \in \mathbb{R}^4$ such that $A\mathbf{x} = \mathbf{0}$, which means we need to solve the homogeneous system $A\mathbf{x} = \mathbf{0}$ where $A = \begin{bmatrix}1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4\end{bmatrix}$.
+2. Let $\mathbf{x} = \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix}$, so the system becomes: $\begin{cases} x_1 - 4x_2 + 7x_3 - 5x_4 = 0 \\ x_2 - 4x_3 + 3x_4 = 0 \\ 2x_1 - 6x_2 + 6x_3 - 4x_4 = 0 \end{cases}$.
+3. We can write the augmented matrix and row reduce: $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0\end{bmatrix}$.
+4. Subtract $2$ times row 1 from row 3: Row 3 $\rightarrow$ Row 3 $- 2 \times$ Row 1: $[2, -6, 6, -4, 0] - 2 \times [1, -4, 7, -5, 0] = [2-2, -6-(-8), 6-14, -4-(-10), 0-0] = [0, 2, -8, 6, 0]$.
+5. The matrix is now: $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0\end{bmatrix}$.
+6. Subtract $2$ times row 2 from row 3: Row 3 $\rightarrow$ Row 3 $- 2 \times$ Row 2: $[0, 2, -8, 6, 0] - 2 \times [0, 1, -4, 3, 0] = [0, 2-2, -8-(-8), 6-6, 0-0] = [0, 0, 0, 0, 0]$.
+7. The reduced matrix is: $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0\end{bmatrix}$, which corresponds to the equations: $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$ and $x_2 - 4x_3 + 3x_4 = 0$.
+8. Solve for leading variables in terms of free variables: From the second equation, $x_2 = 4x_3 - 3x_4$; substitute into the first equation: $x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0$.
+9. Simplify: $x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0 \implies x_1 - 9x_3 + 7x_4 = 0 \implies x_1 = 9x_3 - 7x_4$.
+10. Therefore, the general solution is $\mathbf{x} = \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}9x_3 - 7x_4 \\ 4x_3 - 3x_4 \\ x_3 \\ x_4\end{bmatrix} = x_3\begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + x_4\begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}$.
+11. The final answer: All $\mathbf{x} \in \mathbb{R}^4$ mapped to zero by $A$ are $\boxed{\mathbf{x} = s\begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + t\begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}}$ for $s, t \in \mathbb{R}$.

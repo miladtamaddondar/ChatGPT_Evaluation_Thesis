@@ -1,0 +1,7 @@
+1. To find the upper triangular matrix \( R \) such that \( A = QR \), use \( R = Q^T A \). First, compute \( Q^T \): \( Q^T = \begin{bmatrix} \frac{5}{6} & \frac{1}{6} & -\frac{3}{6} & \frac{1}{6} \\ -\frac{1}{6} & \frac{5}{6} & \frac{1}{6} & \frac{3}{6} \end{bmatrix} \).
+2. Compute the first entry \( r_{11} \): \( r_{11} = \frac{5}{6} \cdot 5 + \frac{1}{6} \cdot 1 + (-\frac{3}{6}) \cdot (-3) + \frac{1}{6} \cdot 1 = \frac{25}{6} + \frac{1}{6} + \frac{9}{6} + \frac{1}{6} = \frac{36}{6} = 6 \).
+3. Compute \( r_{12} \): \( r_{12} = \frac{5}{6} \cdot 9 + \frac{1}{6} \cdot 7 + (-\frac{3}{6}) \cdot (-5) + \frac{1}{6} \cdot 5 = \frac{45}{6} + \frac{7}{6} + \frac{15}{6} + \frac{5}{6} = \frac{72}{6} = 12 \).
+4. Compute \( r_{21} \): \( r_{21} = -\frac{1}{6} \cdot 5 + \frac{5}{6} \cdot 1 + \frac{1}{6} \cdot (-3) + \frac{3}{6} \cdot 1 = -\frac{5}{6} + \frac{5}{6} - \frac{3}{6} + \frac{3}{6} = 0 \).
+5. Compute \( r_{22} \): \( r_{22} = -\frac{1}{6} \cdot 9 + \frac{5}{6} \cdot 7 + \frac{1}{6} \cdot (-5) + \frac{3}{6} \cdot 5 = -\frac{9}{6} + \frac{35}{6} - \frac{5}{6} + \frac{15}{6} = \frac{36}{6} = 6 \).
+6. The resulting upper triangular matrix is \( R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} \).
+7. Final answer: \( R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} \).

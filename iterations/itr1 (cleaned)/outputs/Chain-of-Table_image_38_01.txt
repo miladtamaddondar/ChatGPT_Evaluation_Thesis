@@ -1,0 +1,10 @@
+1. Write the basis \(\mathcal{B}\) and the polynomial \(p(t)\) in terms of the basis: The basis is \(\mathcal{B} = \{1, 2t, -2 + 4t^2, -12t + 8t^3\}\), and \(p(t) = 7 - 12t - 8t^2 + 12t^3\).
+2. Express \(p(t)\) as a linear combination: \(p(t) = a(1) + b(2t) + c(-2 + 4t^2) + d(-12t + 8t^3)\).
+3. Expand the linear combination: \(p(t) = a + 2b t + c(-2) + 4c t^2 + d(-12t) + 8d t^3\).
+4. Group like terms: \(p(t) = (a - 2c) + (2b - 12d)t + 4c t^2 + 8d t^3\).
+5. Set up the system by matching coefficients: \(a - 2c = 7\), \(2b - 12d = -12\), \(4c = -8\), \(8d = 12\).
+6. Solve \(4c = -8\): \(c = -2\).
+7. Solve \(8d = 12\): \(d = \frac{12}{8} = \frac{3}{2}\).
+8. Substitute \(c = -2\) into \(a - 2c = 7\): \(a - 2(-2) = 7 \implies a + 4 = 7 \implies a = 3\).
+9. Substitute \(d = \frac{3}{2}\) into \(2b - 12d = -12\): \(2b - 12 \times \frac{3}{2} = -12 \implies 2b - 18 = -12 \implies 2b = 6 \implies b = 3\).
+10. The coordinate vector of \(p\) relative to \(\mathcal{B}\) is \(\boxed{[3,\ 3,\ -2,\ \frac{3}{2}]}\).

@@ -1,0 +1,10 @@
+1. Write each basis vector of $\mathcal{B}$ in terms of the standard basis $\{1, t, t^2\}$: $1 - 3t^2 = 1 \cdot 1 + 0 \cdot t + (-3) \cdot t^2$, $2 + t - 5t^2 = 2 \cdot 1 + 1 \cdot t + (-5) \cdot t^2$, $1 + 2t = 1 \cdot 1 + 2 \cdot t + 0 \cdot t^2$.
+2. Form the change-of-coordinates matrix $P$ from $\mathcal{B}$ to the standard basis by placing these as columns: $P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$.
+3. Verify $P$ is invertible by calculating its determinant: $\det(P) = 1 \cdot (1 \cdot 0 - 2 \cdot (-5)) - 2 \cdot (0 \cdot 0 - 2 \cdot (-3)) + 1 \cdot (0 \cdot -5 - 1 \cdot (-3)) = 1 \cdot (0 + 10) - 2 \cdot (0 + 6) + 1 \cdot (0 + 3) = 10 - 12 + 3 = 1$, so $P$ is invertible and $\mathcal{B}$ is a basis.
+4. To write $t^2$ as a linear combination of $\mathcal{B}$, set $t^2 = a(1 - 3t^2) + b(2 + t - 5t^2) + c(1 + 2t)$ and expand: $t^2 = (a + 2b + c) + (b + 2c)t + (-3a - 5b)t^2$.
+5. Match coefficients with $t^2 = 0 \cdot 1 + 0 \cdot t + 1 \cdot t^2$ to get the system: $a + 2b + c = 0$, $b + 2c = 0$, $-3a - 5b = 1$.
+6. Solve $b + 2c = 0 \implies b = -2c$; substitute into first equation: $a + 2(-2c) + c = 0 \implies a - 4c + c = 0 \implies a = 3c$.
+7. Substitute $a = 3c$ and $b = -2c$ into $-3a - 5b = 1$: $-3(3c) - 5(-2c) = 1 \implies -9c + 10c = 1 \implies c = 1$.
+8. Back substitute: $b = -2c = -2$, $a = 3c = 3$.
+9. Therefore, $t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)$, or as a coordinate vector in $\mathcal{B}$: $[t^2]_{\mathcal{B}} = \begin{bmatrix} 3 \\ -2 \\ 1 \end{bmatrix}$.
+10. Verify by plugging $a = 3$, $b = -2$, $c = 1$ into the expansion: $3(1 - 3t^2) - 2(2 + t - 5t^2) + (1 + 2t) = (3 - 9t^2) + (-4 - 2t + 10t^2) + (1 + 2t) = (3 - 4 + 1) + (-2t + 2t) + (-9t^2 + 10t^2) = 0 + 0t + 1t^2 = t^2$, confirming correctness.

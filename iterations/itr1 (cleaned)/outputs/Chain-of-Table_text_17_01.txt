@@ -1,0 +1,5 @@
+1. To find $T(p)$ for $p(t) = 5 + 3t$, evaluate $p(-1)$, $p(0)$, and $p(1)$: $p(-1) = 5 + 3(-1) = 2$, $p(0) = 5 + 3(0) = 5$, $p(1) = 5 + 3(1) = 8$, so $T(p) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix}$.
+2. To find the matrix for $T$ relative to $\{1, t, t^2\}$ and the standard basis, compute $T(1)$: $T(1) = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}$.
+3. Compute $T(t)$: $T(t) = \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix}$.
+4. Compute $T(t^2)$: $T(t^2) = \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}$.
+5. The matrix for $T$ is $\begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix}$.

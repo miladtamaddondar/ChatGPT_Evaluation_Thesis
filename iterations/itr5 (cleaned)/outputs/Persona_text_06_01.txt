@@ -1,0 +1,10 @@
+1. To find \( B \) such that \( AB = 0 \), we need each column of \( B \) to be in the null space of \( A \).
+2. Let \( \mathbf{b} = \begin{bmatrix}x \\ y\end{bmatrix} \) and solve \( A\mathbf{b} = 0 \), so \( \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix} \begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).
+3. This gives the system: \( 3x - 6y = 0 \) and \( x - 2y = 0 \).
+4. Solving \( x - 2y = 0 \) gives \( x = 2y \).
+5. Substitute \( x = 2y \) into the first equation: \( 3(2y) - 6y = 0 \implies 6y - 6y = 0 \), which is always true.
+6. Therefore, the null space is all vectors of the form \( \begin{bmatrix}2y \\ y\end{bmatrix} \) for any \( y \).
+7. Choose two different nonzero values for \( y \), say \( y = 1 \) and \( y = -1 \), to get two linearly independent columns.
+8. For \( y = 1 \), the vector is \( \begin{bmatrix}2 \\ 1\end{bmatrix} \); for \( y = -1 \), the vector is \( \begin{bmatrix}-2 \\ -1\end{bmatrix} \).
+9. Thus, \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns in the null space of \( A \).
+10. Final answer: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) satisfies \( AB = 0 \) with two different nonzero columns.

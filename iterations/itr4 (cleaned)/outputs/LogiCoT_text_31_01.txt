@@ -1,0 +1,7 @@
+1. Let $W = \left\{ \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} : a, b \in \mathbb{R} \right\}$; observe that the second entry is always $4$, regardless of $a$ or $b$.
+
+2. To check if $W$ is a vector space, test closure under addition: let $\mathbf{u} = \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix}$ and $\mathbf{v} = \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix}$, then $\mathbf{u} + \mathbf{v} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix}$, so the second entry is $8$ instead of $4$.
+
+3. Since the sum of two elements of $W$ is not in $W$ (the second entry is not always $4$), $W$ is not closed under addition, and thus not a vector space.
+
+4. Therefore, $W$ is not a vector space; for example, $\begin{bmatrix} 3 \\ 4 \\ 1 \end{bmatrix} + \begin{bmatrix} 2 \\ 4 \\ 0 \end{bmatrix} = \begin{bmatrix} 5 \\ 8 \\ 1 \end{bmatrix}$, but $\begin{bmatrix} 5 \\ 8 \\ 1 \end{bmatrix} \notin W$ since the second entry is $8 \neq 4$.

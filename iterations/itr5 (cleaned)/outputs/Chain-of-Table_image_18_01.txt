@@ -1,0 +1,9 @@
+1. Find the eigenvalues of \(A\) by solving \(\det(A - \lambda I) = 0\): \(\det\left(\begin{bmatrix}0 - \lambda & 1 \\ -3 & 4 - \lambda\end{bmatrix}\right) = (\lambda)(\lambda - 4) + 3 = \lambda^2 - 4\lambda + 3 = 0\).
+2. Factor and solve for \(\lambda\): \(\lambda^2 - 4\lambda + 3 = (\lambda - 1)(\lambda - 3) = 0\), so the eigenvalues are \(\lambda_1 = 1\), \(\lambda_2 = 3\).
+3. Find the eigenvector for \(\lambda_1 = 1\): Solve \((A - I)\vec{v} = 0\), i.e., \(\begin{bmatrix}-1 & 1 \\ -3 & 3\end{bmatrix}\vec{v} = 0\).
+4. Row reduce \(\begin{bmatrix}-1 & 1 \\ -3 & 3\end{bmatrix}\): Add 3 times row 1 to row 2 to get \(\begin{bmatrix}-1 & 1 \\ 0 & 0\end{bmatrix}\).
+5. The solution is \(v_1 = \begin{bmatrix}1 \\ 1\end{bmatrix}\) (any nonzero scalar multiple).
+6. Find the eigenvector for \(\lambda_2 = 3\): Solve \((A - 3I)\vec{v} = 0\), i.e., \(\begin{bmatrix}-3 & 1 \\ -3 & 1\end{bmatrix}\vec{v} = 0\).
+7. Row reduce \(\begin{bmatrix}-3 & 1 \\ -3 & 1\end{bmatrix}\): Subtract row 1 from row 2 to get \(\begin{bmatrix}-3 & 1 \\ 0 & 0\end{bmatrix}\).
+8. The solution is \(v_2 = \begin{bmatrix}1 \\ 3\end{bmatrix}\) (any nonzero scalar multiple).
+9. Therefore, a basis \(\mathcal{B}\) for \(\mathbb{R}^2\) such that \([T]_{\mathcal{B}}\) is diagonal is \(\left\{\begin{bmatrix}1 \\ 1\end{bmatrix}, \begin{bmatrix}1 \\ 3\end{bmatrix}\right\}\).

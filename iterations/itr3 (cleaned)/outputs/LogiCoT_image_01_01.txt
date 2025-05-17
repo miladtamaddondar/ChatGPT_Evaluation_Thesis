@@ -1,0 +1,5 @@
+1. State the matrix and recall the formula for the inverse of a 2x2 matrix: For \( A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \), \( A^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix} \). 
+2. Substitute the values \( a=8, b=6, c=5, d=4 \) into the formula: \( A^{-1} = \frac{1}{8 \cdot 4 - 6 \cdot 5} \begin{bmatrix} 4 & -6 \\ -5 & 8 \end{bmatrix} \). 
+3. Calculate the determinant: \( 8 \cdot 4 - 6 \cdot 5 = 32 - 30 = 2 \), which is nonzero, so the matrix is invertible. 
+4. Write the inverse using the determinant: \( A^{-1} = \frac{1}{2} \begin{bmatrix} 4 & -6 \\ -5 & 8 \end{bmatrix} \). 
+5. Simplify the matrix: \( A^{-1} = \begin{bmatrix} 2 & -3 \\ -2.5 & 4 \end{bmatrix} \).

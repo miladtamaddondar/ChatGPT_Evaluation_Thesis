@@ -1,0 +1,6 @@
+1. Express $T$ as a matrix transformation by writing $T(x_1, x_2, x_3, x_4)$ as $A\mathbf{x}$, where $\mathbf{x} = \begin{bmatrix}x_1\\x_2\\x_3\\x_4\end{bmatrix}$ and $A$ is a $4 \times 4$ matrix. 
+2. Write the output of $T$ as a linear combination of $x_1, x_2, x_3, x_4$: $T(x_1, x_2, x_3, x_4) = \begin{bmatrix}0\\x_1+x_2\\x_2+x_3\\x_3+x_4\end{bmatrix}$. 
+3. Match each output entry to the coefficients of $x_1, x_2, x_3, x_4$ to form the rows of $A$: first row: $0x_1 + 0x_2 + 0x_3 + 0x_4$; second row: $1x_1 + 1x_2 + 0x_3 + 0x_4$; third row: $0x_1 + 1x_2 + 1x_3 + 0x_4$; fourth row: $0x_1 + 0x_2 + 1x_3 + 1x_4$. 
+4. Write the matrix $A$: $A = \begin{bmatrix}0 & 0 & 0 & 0\\1 & 1 & 0 & 0\\0 & 1 & 1 & 0\\0 & 0 & 1 & 1\end{bmatrix}$. 
+5. Verify correctness by multiplying $A$ by $\mathbf{x}$: $A\mathbf{x} = \begin{bmatrix}0\\x_1+x_2\\x_2+x_3\\x_3+x_4\end{bmatrix}$, which matches $T(x_1, x_2, x_3, x_4)$. 
+6. Conclude that $T$ is a linear transformation because it can be represented as $T(\mathbf{x}) = A\mathbf{x}$, where $A = \begin{bmatrix}0 & 0 & 0 & 0\\1 & 1 & 0 & 0\\0 & 1 & 1 & 0\\0 & 0 & 1 & 1\end{bmatrix}$.

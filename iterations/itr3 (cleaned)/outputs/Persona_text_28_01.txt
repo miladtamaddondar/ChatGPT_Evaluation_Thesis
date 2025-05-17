@@ -1,0 +1,5 @@
+1. The linear transformation $T$ maps $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$ to $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2 = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix}$.  
+2. By the definition of matrix-vector multiplication, $A\mathbf{x} = x_1\mathbf{a}_1 + x_2\mathbf{a}_2$ where $\mathbf{a}_1$ and $\mathbf{a}_2$ are the columns of $A$.  
+3. To match $T(\mathbf{x})$, set $\mathbf{a}_1 = \mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \end{bmatrix}$ and $\mathbf{a}_2 = \mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \end{bmatrix}$.  
+4. Therefore, $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.  
+5. Final answer: The matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ is $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.

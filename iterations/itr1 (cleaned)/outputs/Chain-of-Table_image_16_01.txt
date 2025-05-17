@@ -1,0 +1,7 @@
+1. Apply \(T\) to the basis vector \(1\): \(T(1) = T(1 + 0t + 0t^2) = 3(1) + (5 \cdot 1 - 2 \cdot 0)t + (4 \cdot 0 + 0)t^2 = 3 + 5t\).
+2. Express \(T(1)\) in the basis \(\mathcal{B}\): \(T(1) = 3 \cdot 1 + 5 \cdot t + 0 \cdot t^2\), so the coordinate vector is \(\begin{bmatrix} 3 \\ 5 \\ 0 \end{bmatrix}\).
+3. Apply \(T\) to the basis vector \(t\): \(T(t) = T(0 + 1t + 0t^2) = 3(0) + (5 \cdot 0 - 2 \cdot 1)t + (4 \cdot 1 + 0)t^2 = -2t + 4t^2\).
+4. Express \(T(t)\) in the basis \(\mathcal{B}\): \(T(t) = 0 \cdot 1 + (-2) \cdot t + 4 \cdot t^2\), so the coordinate vector is \(\begin{bmatrix} 0 \\ -2 \\ 4 \end{bmatrix}\).
+5. Apply \(T\) to the basis vector \(t^2\): \(T(t^2) = T(0 + 0t + 1t^2) = 3(0) + (5 \cdot 0 - 2 \cdot 0)t + (4 \cdot 0 + 1)t^2 = t^2\).
+6. Express \(T(t^2)\) in the basis \(\mathcal{B}\): \(T(t^2) = 0 \cdot 1 + 0 \cdot t + 1 \cdot t^2\), so the coordinate vector is \(\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}\).
+7. The matrix representation of \(T\) relative to \(\mathcal{B}\) is formed by placing these coordinate vectors as columns: \(\boxed{\begin{bmatrix} 3 & 0 & 0 \\ 5 & -2 & 0 \\ 0 & 4 & 1 \end{bmatrix}}\).

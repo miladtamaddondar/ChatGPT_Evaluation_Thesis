@@ -1,0 +1,5 @@
+1. Identify the size of matrix \(A\): The matrix \(A\) has 4 rows and 6 columns, so \(A\) is a \(4 \times 6\) matrix.  
+2. Find the rank of \(A\) (dimension of Col \(A\)): The rank is the number of leading 1's (pivots) in the row echelon form; here, there are 3 nonzero rows with leading entries, so \(\text{rank}(A) = 3\).  
+3. Apply the Rank-Nullity Theorem: For an \(m \times n\) matrix, \(\text{rank}(A) + \text{nullity}(A) = n\), so \(3 + \text{nullity}(A) = 6\).  
+4. Solve for the nullity (dimension of Nul \(A\)): \(\text{nullity}(A) = 6 - 3 = 3\).  
+5. Final answer: The dimension of Nul \(A\) is 3 and the dimension of Col \(A\) is 3.

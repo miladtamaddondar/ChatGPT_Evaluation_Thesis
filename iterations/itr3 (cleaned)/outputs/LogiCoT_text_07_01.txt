@@ -1,0 +1,6 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the results of multiplying \( Q \) by each \( r_j \) in \( \mathbb{R}^n \). 
+2. Note that the matrix \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] \) is an \( m \times p \) matrix whose \( j \)-th column is \( Q r_j \). 
+3. Recall that multiplying a matrix \( Q \) by a matrix \( R = [r_1 \; r_2 \; \dots \; r_p] \) (where \( R \) is \( n \times p \)) results in a matrix whose \( j \)-th column is \( Q r_j \). 
+4. Therefore, \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \). 
+5. Verification: The product \( Q [r_1 \; r_2 \; \dots \; r_p] \) gives an \( m \times p \) matrix with columns \( Q r_j \), matching the original matrix, confirming correctness. 
+6. Final answer: \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q \begin{bmatrix} r_1 & r_2 & \dots & r_p \end{bmatrix} \).

@@ -1,0 +1,7 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we solve $(A-5I)\vec{x}=0$ and require the nullity to be $2$; first, compute $A-5I$: \[\begin{bmatrix}5 & -2 & 6 & -1 \\0 & 3 & h & 0 \\0 & 0 & 5 & 4 \\0 & 0 & 0 & 1 \\\end{bmatrix} - 5\begin{bmatrix}1 & 0 & 0 & 0 \\0 & 1 & 0 & 0 \\0 & 0 & 1 & 0 \\0 & 0 & 0 & 1 \\\end{bmatrix} = \begin{bmatrix}0 & -2 & 6 & -1 \\0 & -2 & h & 0 \\0 & 0 & 0 & 4 \\0 & 0 & 0 & -4 \\\end{bmatrix}\].
+2. Write the augmented matrix for the homogeneous system: \[\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\0 & -2 & h & 0 & 0 \\0 & 0 & 0 & 4 & 0 \\0 & 0 & 0 & -4 & 0 \\\end{array}\right]\].
+3. Add row 4 to row 3 to eliminate the $4$ in row 3: $R_3 \leftarrow R_3 + R_4$: \[\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\0 & -2 & h & 0 & 0 \\0 & 0 & 0 & 0 & 0 \\0 & 0 & 0 & -4 & 0 \\\end{array}\right]\].
+4. Divide row 4 by $-4$ to make the leading entry $1$: $R_4 \leftarrow -\frac{1}{4}R_4$: \[\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\0 & -2 & h & 0 & 0 \\0 & 0 & 0 & 0 & 0 \\0 & 0 & 0 & 1 & 0 \\\end{array}\right]\].
+5. The third row is all zeros, so the system has at least one free variable; to have nullity $2$, we need one more free variable, so the $2\times 2$ upper-left block must be singular, i.e., $\det\begin{bmatrix}-2 & h \\ -2 & 6\end{bmatrix}=(-2)(6)-(-2)h=-12+2h=0$.
+6. Solve $-12+2h=0$ to get $h=6$.
+7. Thus, $h=6$ is the value that makes the eigenspace for $\lambda=5$ two-dimensional.

@@ -1,0 +1,10 @@
+1. To write \(A\) in the form \(A = P C P^{-1}\) with \(C = \begin{pmatrix} a & b \\ -b & a \end{pmatrix}\), we first find the eigenvalues of \(A = \begin{pmatrix} 1 & -2 \\ 1 & 3 \end{pmatrix}\) by solving \(\det(A - \lambda I) = 0\): \(\det\begin{pmatrix} 1-\lambda & -2 \\ 1 & 3-\lambda \end{pmatrix} = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5 = 0\).
+2. Solving \(\lambda^2 - 4\lambda + 5 = 0\) gives \(\lambda = \frac{4 \pm \sqrt{16-20}}{2} = \frac{4 \pm 2i}{2} = 2 \pm i\).
+3. Since the eigenvalues are complex conjugates, \(C\) will be of the form \(\begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}\) where \(a = 2\) and \(b = 1\).
+4. To find \(P\), we compute an eigenvector for \(\lambda = 2 + i\) by solving \((A - (2+i)I)\mathbf{v} = 0\): \(A - (2+i)I = \begin{pmatrix} 1-(2+i) & -2 \\ 1 & 3-(2+i) \end{pmatrix} = \begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix}\).
+5. Let \(\mathbf{v} = \begin{pmatrix} x \\ y \end{pmatrix}\), then \((-1-i)x - 2y = 0\) and \(x + (1-i)y = 0\), so from the first equation, \(x = -\frac{2}{-1-i}y = \frac{2}{1+i}y\).
+6. Multiply numerator and denominator by the conjugate: \(\frac{2}{1+i} = \frac{2(1-i)}{(1+i)(1-i)} = \frac{2(1-i)}{2} = 1-i\), so \(x = (1-i)y\).
+7. Take \(y = 1\), then eigenvector for \(\lambda = 2+i\) is \(\mathbf{v}_1 = \begin{pmatrix} 1-i \\ 1 \end{pmatrix}\).
+8. The eigenvector for \(\lambda = 2-i\) is the conjugate: \(\mathbf{v}_2 = \begin{pmatrix} 1+i \\ 1 \end{pmatrix}\).
+9. To get a real invertible \(P\), use the real and imaginary parts of \(\mathbf{v}_1\): \(\text{Re}(\mathbf{v}_1) = \begin{pmatrix} 1 \\ 1 \end{pmatrix}\), \(\text{Im}(\mathbf{v}_1) = \begin{pmatrix} -1 \\ 0 \end{pmatrix}\), so \(P = \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix}\).
+10. The answer is: \(P = \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix}\), \(C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}\), so \(A = P C P^{-1}\).

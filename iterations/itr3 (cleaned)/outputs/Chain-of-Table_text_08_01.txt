@@ -1,0 +1,5 @@
+1. Start by constructing a \( 4 \times 3 \) matrix where all rows are multiples of the first row, for example, let the first row be \( (2, 4, 6) \), so the matrix is \( \begin{bmatrix} 2 & 4 & 6 \\ 4 & 8 & 12 \\ 6 & 12 & 18 \\ 8 & 16 & 24 \end{bmatrix} \).  
+2. Subtract 2 times the first row from the second row: \( R_2 \to R_2 - 2R_1 \), resulting in \( \begin{bmatrix} 2 & 4 & 6 \\ 0 & 0 & 0 \\ 6 & 12 & 18 \\ 8 & 16 & 24 \end{bmatrix} \).  
+3. Subtract 3 times the first row from the third row: \( R_3 \to R_3 - 3R_1 \), resulting in \( \begin{bmatrix} 2 & 4 & 6 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 8 & 16 & 24 \end{bmatrix} \).  
+4. Subtract 4 times the first row from the fourth row: \( R_4 \to R_4 - 4R_1 \), resulting in \( \begin{bmatrix} 2 & 4 & 6 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).  
+5. The resulting matrix has only one nonzero row, so its rank is 1: \( \boxed{\begin{bmatrix} 2 & 4 & 6 \\ 4 & 8 & 12 \\ 6 & 12 & 18 \\ 8 & 16 & 24 \end{bmatrix}} \) is a \( 4 \times 3 \) matrix of rank 1.

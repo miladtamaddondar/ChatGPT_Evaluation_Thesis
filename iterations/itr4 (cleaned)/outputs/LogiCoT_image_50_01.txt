@@ -1,0 +1,15 @@
+1. The inner product is defined as \(\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)\); verify this by substituting the definition from the problem.  
+2. Compute the values: \(p_0(t) = 1\) at all points, \(p_1(t) = t\), \(p_2(t) = t^2\); so at \((-3, -1, 1, 3)\), \(p_0 = (1,1,1,1)\), \(p_1 = (-3,-1,1,3)\), \(p_2 = (9,1,1,9)\).  
+3. Compute \(\langle p_2, p_0 \rangle = 9\cdot1 + 1\cdot1 + 1\cdot1 + 9\cdot1 = 20\); verify by direct calculation.  
+4. Compute \(\langle p_0, p_0 \rangle = 1+1+1+1 = 4\); verify by summing all ones.  
+5. Compute \(\langle p_2, p_1 \rangle = 9\cdot(-3) + 1\cdot(-1) + 1\cdot1 + 9\cdot3 = -27-1+1+27=0\); verify by summing.  
+6. Compute \(\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9+1+1+9=20\); verify by squaring and adding.  
+7. The projection formula is \(\mathrm{proj}_{U}(v) = \sum_{i} \frac{\langle v, u_i \rangle}{\langle u_i, u_i \rangle} u_i\), where \(U = \mathrm{span}\{p_0, p_1\}\); verify this is the standard projection formula.  
+8. Since \(\langle p_2, p_1 \rangle = 0\), the projection onto \(p_1\) is zero; so only the \(p_0\) term remains.  
+9. The projection of \(p_2\) onto the subspace is \(\frac{20}{4}p_0 = 5p_0\); verify by substituting values.  
+10. Final answer for part (a): The orthogonal projection of \(p_2\) onto \(\mathrm{span}\{p_0, p_1\}\) is \(5p_0\).  
+11. For part (b), let \(q = p_2 - \mathrm{proj}_{\mathrm{span}\{p_0, p_1\}}(p_2) = p_2 - 5p_0\); verify by subtracting projection from \(p_2\).  
+12. Compute \(q(t) = t^2 - 5\); at \((-3, -1, 1, 3)\), \(q = (9-5, 1-5, 1-5, 9-5) = (4, -4, -4, 4)\); verify by substitution.  
+13. The vector of values is \((4, -4, -4, 4)\), which needs to be scaled to \((1, -1, -1, 1)\); verify by comparing.  
+14. The scaling factor is \(1/4\); so the scaled polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\); verify scaling each entry.  
+15. Final answer for part (b): The required polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\), which at \((-3, -1, 1, 3)\) gives \((1, -1, -1, 1)\).

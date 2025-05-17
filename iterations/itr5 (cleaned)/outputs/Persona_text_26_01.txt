@@ -1,0 +1,5 @@
+1. To show $T$ is linear and find its matrix, write $T(x_1, x_2, x_3, x_4)$ as a matrix-vector product $A\mathbf{x}$ where $\mathbf{x} = \begin{bmatrix}x_1\\x_2\\x_3\\x_4\end{bmatrix}$.
+2. Express each output coordinate as a linear combination of the inputs: $0 = 0x_1 + 0x_2 + 0x_3 + 0x_4$, $x_1 + x_2 = 1x_1 + 1x_2 + 0x_3 + 0x_4$, $x_2 + x_3 = 0x_1 + 1x_2 + 1x_3 + 0x_4$, $x_3 + x_4 = 0x_1 + 0x_2 + 1x_3 + 1x_4$.
+3. Write the matrix $A$ whose rows are the coefficients: $A = \begin{bmatrix}0 & 0 & 0 & 0\\1 & 1 & 0 & 0\\0 & 1 & 1 & 0\\0 & 0 & 1 & 1\end{bmatrix}$.
+4. Verify $T(\mathbf{x}) = A\mathbf{x}$: $A\begin{bmatrix}x_1\\x_2\\x_3\\x_4\end{bmatrix} = \begin{bmatrix}0\\x_1+x_2\\x_2+x_3\\x_3+x_4\end{bmatrix}$, which matches $T$.
+5. Final answer: $T$ is a linear transformation and is implemented by the matrix $A = \begin{bmatrix}0 & 0 & 0 & 0\\1 & 1 & 0 & 0\\0 & 1 & 1 & 0\\0 & 0 & 1 & 1\end{bmatrix}$.

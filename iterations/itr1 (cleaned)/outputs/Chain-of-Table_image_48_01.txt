@@ -1,0 +1,7 @@
+1. To find a nonzero vector \(\mathbf{v}\) in \(\mathbb{R}^3\) that is orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\), we need \(\mathbf{v} \cdot \mathbf{u}_1 = 0\) and \(\mathbf{v} \cdot \mathbf{u}_2 = 0\). 
+2. Let \(\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}\), then the orthogonality conditions give the system: \(x + y - 2z = 0\) and \(5x - y + 2z = 0\). 
+3. Write the augmented matrix: \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 5 & -1 & 2 & 0 \end{bmatrix}\). 
+4. Row 2 minus 5 times Row 1: \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 0 & -6 & 12 & 0 \end{bmatrix}\). 
+5. Divide Row 2 by \(-6\): \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 0 & 1 & -2 & 0 \end{bmatrix}\). 
+6. Row 1 minus Row 2: \(\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & -2 & 0 \end{bmatrix}\). 
+7. The solution is \(x = 0\), \(y = 2z\), so let \(z = 1\), then \(\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}\) is a nonzero vector orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\).

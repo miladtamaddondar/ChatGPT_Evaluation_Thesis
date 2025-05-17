@@ -1,0 +1,7 @@
+1. Set up the system of equations by equating the transformation to the given vector: \( (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9) \).  
+2. Write out the three equations: \( x_1 - 2x_2 = -1 \), \( -x_1 + 3x_2 = 4 \), \( 3x_1 - 2x_2 = 9 \).  
+3. Verify that the system is consistent by checking if the third equation is a linear combination of the first two: Multiply the first equation by 3 to get \( 3x_1 - 6x_2 = -3 \), then add the second equation to get \( 3x_1 - 6x_2 + (-x_1 + 3x_2) = -3 + 4 \implies 2x_1 - 3x_2 = 1 \), which is not the same as the third equation, so all three equations are needed.  
+4. Solve the first two equations as a system: From \( x_1 - 2x_2 = -1 \) (i), \( -x_1 + 3x_2 = 4 \) (ii), add (i) and (ii): \( (x_1 - 2x_2) + (-x_1 + 3x_2) = -1 + 4 \implies x_2 = 3 \).  
+5. Substitute \( x_2 = 3 \) into equation (i): \( x_1 - 2(3) = -1 \implies x_1 - 6 = -1 \implies x_1 = 5 \).  
+6. Verify the solution in the third equation: \( 3x_1 - 2x_2 = 3(5) - 2(3) = 15 - 6 = 9 \), which matches the third component, so the solution is correct.  
+7. Final answer: \( \mathbf{x} = (5, 3) \).

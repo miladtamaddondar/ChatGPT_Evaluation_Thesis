@@ -1,0 +1,8 @@
+1. To find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \), we need each column of \( B \) to be in the null space of \( A \), i.e., \( A\mathbf{b}_1 = 0 \) and \( A\mathbf{b}_2 = 0 \), where \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \) are the columns of \( B \).  
+2. The null space of \( A \) is found by solving \( A\mathbf{x} = 0 \), i.e., \( \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix}\begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).  
+3. Writing out the system: \( 3x_1 - 6x_2 = 0 \) and \( x_1 - 2x_2 = 0 \).  
+4. Both equations are equivalent, so solve \( x_1 - 2x_2 = 0 \implies x_1 = 2x_2 \).  
+5. The general solution is \( \begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}2x_2 \\ x_2\end{bmatrix} = x_2\begin{bmatrix}2 \\ 1\end{bmatrix} \), so the null space is spanned by \( \begin{bmatrix}2 \\ 1\end{bmatrix} \).  
+6. To get two different nonzero columns for \( B \), choose two different nonzero scalars, say \( x_2 = 1 \) and \( x_2 = -1 \), giving columns \( \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \begin{bmatrix}-2 \\ -1\end{bmatrix} \).  
+7. Thus, \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns from the null space of \( A \).  
+8. Final answer: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix such that \( AB \) is the zero matrix and the columns of \( B \) are two different nonzero vectors in the null space of \( A \).

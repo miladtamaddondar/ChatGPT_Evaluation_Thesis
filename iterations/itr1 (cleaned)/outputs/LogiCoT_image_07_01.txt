@@ -1,0 +1,5 @@
+1. Recognize that the matrix \([Qr_1\ Qr_2\ \ldots\ Qr_p]\) consists of the vectors \(Qr_1, Qr_2, \ldots, Qr_p\) as columns, where each \(Qr_j\) is the result of multiplying \(Q\) (an \(m \times n\) matrix) by \(r_j\) (an \(n \times 1\) vector). 
+2. Note that stacking \(r_1, r_2, \ldots, r_p\) as columns forms the matrix \(R = [r_1\ r_2\ \ldots\ r_p]\), which is an \(n \times p\) matrix. 
+3. Observe that multiplying \(Q\) by \(R\) gives \(QR = Q[r_1\ r_2\ \ldots\ r_p] = [Qr_1\ Qr_2\ \ldots\ Qr_p]\), by the distributive property of matrix multiplication over columns. 
+4. Therefore, the matrix \([Qr_1\ Qr_2\ \ldots\ Qr_p]\) can be written as the product of two matrices: \(Q\) and \(R\), that is, \([Qr_1\ Qr_2\ \ldots\ Qr_p] = Q \cdot [r_1\ r_2\ \ldots\ r_p]\). 
+5. Verification: Neither \(Q\) nor \(R\) is an identity matrix by the problem statement, and the multiplication is valid since \(Q\) is \(m \times n\) and \(R\) is \(n \times p\), so their product is \(m \times p\), matching the dimensions of \([Qr_1\ Qr_2\ \ldots\ Qr_p]\).

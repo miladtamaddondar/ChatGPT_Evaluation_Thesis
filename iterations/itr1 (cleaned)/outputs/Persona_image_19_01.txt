@@ -1,0 +1,6 @@
+1. To find the $\mathcal{B}$-matrix for $T$, we need to find $[T]_{\mathcal{B}} = P^{-1}AP$, where $P$ is the change of basis matrix from $\mathcal{B}$ to the standard basis. 
+2. The columns of $P$ are the basis vectors $\mathbf{b}_1$ and $\mathbf{b}_2$, so $P = \begin{bmatrix} 1 & 5 \\ 1 & 4 \end{bmatrix}$. 
+3. Compute $P^{-1}$ using the formula for the inverse of a $2 \times 2$ matrix: $P^{-1} = \frac{1}{(1)(4)-(1)(5)}\begin{bmatrix} 4 & -5 \\ -1 & 1 \end{bmatrix} = \frac{1}{-1}\begin{bmatrix} 4 & -5 \\ -1 & 1 \end{bmatrix} = \begin{bmatrix} -4 & 5 \\ 1 & -1 \end{bmatrix}$. 
+4. Multiply $AP$: $AP = \begin{bmatrix} 1 & 1 \\ -1 & 3 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 1 & 4 \end{bmatrix} = \begin{bmatrix} 2 & 9 \\ 2 & 7 \end{bmatrix}$. 
+5. Compute $[T]_{\mathcal{B}} = P^{-1}AP = \begin{bmatrix} -4 & 5 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 2 & 9 \\ 2 & 7 \end{bmatrix} = \begin{bmatrix} (-4)(2)+5(2) & (-4)(9)+5(7) \\ (1)(2)+(-1)(2) & (1)(9)+(-1)(7) \end{bmatrix} = \begin{bmatrix} -8+10 & -36+35 \\ 2-2 & 9-7 \end{bmatrix} = \begin{bmatrix} 2 & -1 \\ 0 & 2 \end{bmatrix}$. 
+6. The $\mathcal{B}$-matrix for $T$ is $\boxed{\begin{bmatrix} 2 & -1 \\ 0 & 2 \end{bmatrix}}$.

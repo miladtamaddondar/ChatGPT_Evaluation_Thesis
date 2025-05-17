@@ -1,0 +1,14 @@
+1. To find the matrix of \( T \) in the basis \(\mathcal{B} = \{\mathbf{b}_1, \mathbf{b}_2\}\), we need to find \([T]_{\mathcal{B}}\) such that \( [T(\mathbf{x})]_{\mathcal{B}} = [T]_{\mathcal{B}}[\mathbf{x}]_{\mathcal{B}} \). 
+2. Compute \(T(\mathbf{b}_1) = A\mathbf{b}_1 = \begin{bmatrix} 1 & 1 \\ -1 & 3 \end{bmatrix} \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 2 \\ 2 \end{bmatrix}\). 
+3. Express \(\begin{bmatrix} 2 \\ 2 \end{bmatrix}\) as a linear combination of \(\mathbf{b}_1\) and \(\mathbf{b}_2\): Set \(c_1\mathbf{b}_1 + c_2\mathbf{b}_2 = \begin{bmatrix} 2 \\ 2 \end{bmatrix}\), i.e., \(c_1\begin{bmatrix} 1 \\ 1 \end{bmatrix} + c_2\begin{bmatrix} 5 \\ 4 \end{bmatrix} = \begin{bmatrix} 2 \\ 2 \end{bmatrix}\). 
+4. Write the system: \(c_1 + 5c_2 = 2\), \(c_1 + 4c_2 = 2\). 
+5. Subtract the second from the first: \((c_1 + 5c_2) - (c_1 + 4c_2) = 2 - 2 \implies c_2 = 0\). 
+6. Substitute \(c_2 = 0\) into \(c_1 + 5c_2 = 2\) to get \(c_1 = 2\). 
+7. Thus, \(T(\mathbf{b}_1) = 2\mathbf{b}_1 + 0\mathbf{b}_2\), so the first column of \([T]_{\mathcal{B}}\) is \(\begin{bmatrix} 2 \\ 0 \end{bmatrix}\).
+ 8. Compute \(T(\mathbf{b}_2) = A\mathbf{b}_2 = \begin{bmatrix} 1 & 1 \\ -1 & 3 \end{bmatrix} \begin{bmatrix} 5 \\ 4 \end{bmatrix} = \begin{bmatrix} 9 \\ 7 \end{bmatrix}\). 
+ 9. Express \(\begin{bmatrix} 9 \\ 7 \end{bmatrix}\) as a linear combination of \(\mathbf{b}_1\) and \(\mathbf{b}_2\): Set \(d_1\mathbf{b}_1 + d_2\mathbf{b}_2 = \begin{bmatrix} 9 \\ 7 \end{bmatrix}\), i.e., \(d_1\begin{bmatrix} 1 \\ 1 \end{bmatrix} + d_2\begin{bmatrix} 5 \\ 4 \end{bmatrix} = \begin{bmatrix} 9 \\ 7 \end{bmatrix}\). 
+ 10. Write the system: \(d_1 + 5d_2 = 9\), \(d_1 + 4d_2 = 7\). 
+ 11. Subtract the second from the first: \((d_1 + 5d_2) - (d_1 + 4d_2) = 9 - 7 \implies d_2 = 2\). 
+ 12. Substitute \(d_2 = 2\) into \(d_1 + 5d_2 = 9\) to get \(d_1 + 10 = 9 \implies d_1 = -1\). 
+ 13. Thus, \(T(\mathbf{b}_2) = -1\mathbf{b}_1 + 2\mathbf{b}_2\), so the second column of \([T]_{\mathcal{B}}\) is \(\begin{bmatrix} -1 \\ 2 \end{bmatrix}\). 
+ 14. Therefore, the \(\mathcal{B}\)-matrix for \(T\) is \([T]_{\mathcal{B}} = \begin{bmatrix} 2 & -1 \\ 0 & 2 \end{bmatrix}\).

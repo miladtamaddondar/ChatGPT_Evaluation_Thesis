@@ -1,0 +1,8 @@
+1. To find $P$ and $C$ such that $A = P C P^{-1}$ with $C = \begin{pmatrix} a & b \\ -b & a \end{pmatrix}$, first compute the eigenvalues of $A$: $\det(A - \lambda I) = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5 = 0$.
+2. The eigenvalues are $\lambda = 2 \pm i$.
+3. For $\lambda = 2 + i$, solve $(A - (2+i)I)\vec{v} = 0$: $A - (2+i)I = \begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix}$.
+4. Row reduce $\begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix}$: Add row 1 to row 2 to eliminate the first entry of row 2: $\begin{pmatrix} -1-i & -2 \\ 0 & -1-i + 1-i = -i \end{pmatrix}$.
+5. The second row gives $-i v_2 = 0 \implies v_2 = 0$, so from the first row $(-1-i) v_1 - 2 v_2 = 0 \implies v_1$ is free, so an eigenvector is $\vec{v}_1 = \begin{pmatrix} 1 \\ \frac{1+i}{2} \end{pmatrix}$.
+6. Similarly, for $\lambda = 2 - i$, the eigenvector is $\vec{v}_2 = \begin{pmatrix} 1 \\ \frac{1-i}{2} \end{pmatrix}$.
+7. Let $P = \begin{pmatrix} 1 & 1 \\ \frac{1+i}{2} & \frac{1-i}{2} \end{pmatrix}$, $C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}$.
+8. Final answer: $P = \begin{pmatrix} 1 & 1 \\ \frac{1+i}{2} & \frac{1-i}{2} \end{pmatrix}$, $C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}$, so $A = P C P^{-1}$.

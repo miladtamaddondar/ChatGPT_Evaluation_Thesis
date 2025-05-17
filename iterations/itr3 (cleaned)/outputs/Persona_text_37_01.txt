@@ -1,0 +1,5 @@
+1. The coordinate vector $[q]_{\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \end{bmatrix}$ tells us that $q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3$ in terms of the basis $\mathcal{B}$.  
+2. Substitute the basis polynomials: $q = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)$.  
+3. Distribute the scalars: $q = -1 - t^2 + t - 3t^2 + 2 + 2t - 6t^2$.  
+4. Combine like terms: The constant terms are $-1 + 2 = 1$, the $t$ terms are $t + 2t = 3t$, and the $t^2$ terms are $-t^2 - 3t^2 - 6t^2 = -10t^2$.  
+5. Therefore, $q = 1 + 3t - 10t^2$.

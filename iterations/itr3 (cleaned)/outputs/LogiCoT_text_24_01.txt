@@ -1,0 +1,12 @@
+1. Write the equation $A\mathbf{x} = \mathbf{0}$ as an augmented matrix: $\begin{bmatrix} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0 \end{bmatrix}$.
+2. Subtract $2$ times row 1 from row 3 to eliminate $x_1$ in row 3: row 3 becomes $[2 - 2\cdot1, -6 - 2\cdot(-4), 6 - 2\cdot7, -4 - 2\cdot(-5), 0 - 2\cdot0] = [0, 2, -8, 6, 0]$.
+3. Verify the new row 3 by calculation: $2-2=0$, $-6-(-8)=2$, $6-14=-8$, $-4-(-10)=6$, $0-0=0$; so the new matrix is $\begin{bmatrix} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0 \end{bmatrix}$.
+4. Subtract $2$ times row 2 from row 3 to eliminate $x_2$ in row 3: row 3 becomes $[0, 2-2\cdot1, -8-2\cdot(-4), 6-2\cdot3, 0-2\cdot0] = [0, 0, 0, 0, 0]$.
+5. Verify the new row 3 by calculation: $2-2=0$, $-8-(-8)=0$, $6-6=0$, $0-0=0$; so the new matrix is $\begin{bmatrix} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}$.
+6. Write the system of equations from the row-reduced matrix: $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$.
+7. Express leading variables in terms of free variables $x_3$ and $x_4$: From the second equation, $x_2 = 4x_3 - 3x_4$.
+8. Substitute $x_2$ into the first equation: $x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0$.
+9. Simplify: $x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0 \implies x_1 - 9x_3 + 7x_4 = 0$.
+10. Solve for $x_1$: $x_1 = 9x_3 - 7x_4$.
+11. Write the general solution: $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 9x_3 - 7x_4 \\ 4x_3 - 3x_4 \\ x_3 \\ x_4 \end{bmatrix}$.
+12. Express the solution as a span: $\mathbf{x} = x_3 \begin{bmatrix} 9 \\ 4 \\ 1 \\ 0 \end{bmatrix} + x_4 \begin{bmatrix} -7 \\ -3 \\ 0 \\ 1 \end{bmatrix}$, where $x_3, x_4 \in \mathbb{R}$.

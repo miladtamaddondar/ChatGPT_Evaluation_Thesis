@@ -1,0 +1,4 @@
+1. Recall that the standard matrix for a counterclockwise rotation by angle $\theta$ in $\mathbb{R}^2$ is $\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$; verify this by checking that it preserves lengths and angles (orthogonality and determinant $=1$).  
+2. Substitute $\theta = \frac{3\pi}{2}$ into the rotation matrix: $\cos\left(\frac{3\pi}{2}\right) = 0$ and $\sin\left(\frac{3\pi}{2}\right) = -1$; verify using the unit circle.  
+3. Plug in the values to get the matrix: $\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$; verify by checking that the determinant is $0 \cdot 0 - 1 \cdot (-1) = 1$ (so it is invertible and area-preserving).  
+4. The standard matrix of $T$ is $\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}$; verify by applying it to $(1,0)$ and $(0,1)$ to get $(0,-1)$ and $(1,0)$, which matches a $270^\circ$ counterclockwise rotation.

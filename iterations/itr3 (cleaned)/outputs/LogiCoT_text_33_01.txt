@@ -1,0 +1,4 @@
+1. Identify the size of matrix \( A \): \( A \) is a \( 4 \times 2 \) matrix because it has 4 rows and 2 columns.  
+2. Recall that the null space of \( A \), \( \text{Nul }A \), is the set of all solutions to \( A\vec{x} = \vec{0} \) where \( \vec{x} \in \mathbb{R}^2 \), so \( \text{Nul }A \) is a subspace of \( \mathbb{R}^2 \) and thus \( k = 2 \) for part (a).  
+3. Recall that the column space of \( A \), \( \text{Col }A \), is the span of the columns of \( A \), which are vectors in \( \mathbb{R}^4 \), so \( \text{Col }A \) is a subspace of \( \mathbb{R}^4 \) and thus \( k = 4 \) for part (b).  
+4. Final answers: (a) \( k = 2 \) for \( \text{Nul }A \); (b) \( k = 4 \) for \( \text{Col }A \).

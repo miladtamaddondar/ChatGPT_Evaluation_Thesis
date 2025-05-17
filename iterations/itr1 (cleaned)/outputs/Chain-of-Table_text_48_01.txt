@@ -1,0 +1,7 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, set up the system $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$, where $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, giving the equations: $x + y - 2z = 0$ and $5x - y + 2z = 0$.
+2. Write the augmented matrix for the system: $\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 5 & -1 & 2 & 0 \end{array}\right]$.
+3. Use row operations to eliminate $x$ from the second row: $R_2 \leftarrow R_2 - 5R_1$ gives $\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 0 & -6 & 12 & 0 \end{array}\right]$.
+4. Solve for $y$ and $z$ in the second row: $-6y + 12z = 0 \implies y = 2z$.
+5. Substitute $y = 2z$ into the first equation: $x + (2z) - 2z = 0 \implies x = 0$.
+6. Thus, the general solution is $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix} = z \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$ for any $z \neq 0$.
+7. Therefore, a nonzero vector orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$.

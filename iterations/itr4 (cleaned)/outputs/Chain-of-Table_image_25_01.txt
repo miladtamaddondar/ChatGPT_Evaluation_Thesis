@@ -1,0 +1,6 @@
+1. Write the unknown matrix as \(\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}\) and set up the equation: \(\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix}\).
+2. Expand the matrix multiplication: \(\begin{bmatrix} a x_1 + b x_2 + c x_3 \\ d x_1 + e x_2 + f x_3 \\ g x_1 + h x_2 + i x_3 \end{bmatrix} = \begin{bmatrix} 3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix}\).
+3. Equate coefficients for each variable in each row: First row: \(a x_1 + b x_2 + c x_3 = 3x_1 - 2x_3\) so \(a=3\), \(b=0\), \(c=-2\).
+4. Second row: \(d x_1 + e x_2 + f x_3 = 4x_1\) so \(d=4\), \(e=0\), \(f=0\).
+5. Third row: \(g x_1 + h x_2 + i x_3 = x_1 - x_2 + x_3\) so \(g=1\), \(h=-1\), \(i=1\).
+6. The completed matrix is \(\begin{bmatrix} 3 & 0 & -2 \\ 4 & 0 & 0 \\ 1 & -1 & 1 \end{bmatrix}\).

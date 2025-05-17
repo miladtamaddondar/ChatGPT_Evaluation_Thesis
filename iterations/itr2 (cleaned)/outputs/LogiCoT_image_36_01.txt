@@ -1,0 +1,6 @@
+1. Identify the size of matrix \( A \): \( A \) is a \( 4 \times 6 \) matrix because it has 4 rows and 6 columns. 
+2. Find the rank of \( A \): The rank is the number of leading 1's (pivots) in the row-reduced form; here, there are 3 nonzero rows, so \(\text{rank}(A) = 3\). 
+3. Use the Rank-Nullity Theorem: \(\text{nullity}(A) = n - \text{rank}(A)\), where \( n \) is the number of columns, so \(\text{nullity}(A) = 6 - 3 = 3\). 
+4. State the dimension of \(\text{Nul }A\): \(\dim(\text{Nul }A) = 3\), since there are 3 free variables. 
+5. State the dimension of \(\text{Col }A\): \(\dim(\text{Col }A) = 3\), since there are 3 pivot columns. 
+6. Final answer: \(\boxed{\dim(\text{Nul }A) = 3, \ \dim(\text{Col }A) = 3}\).

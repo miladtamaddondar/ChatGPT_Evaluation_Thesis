@@ -1,0 +1,5 @@
+1. Start with the matrix \(A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix}\) and initialize \(L = \begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix}\), \(U = A\).  
+2. Eliminate the entry below the (1,1) position: Row 2 = Row 2 - \(\frac{4}{6}\) × Row 1, so \(m_{21} = \frac{4}{6} = \frac{2}{3}\).  
+3. Update \(L\) with \(m_{21}\): \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\).  
+4. Perform the row operation on \(U\): Row 2 = Row 2 - \(\frac{2}{3}\) × Row 1: \(\begin{bmatrix}6 & 9 \\ 4 - \frac{2}{3} \times 6 & 5 - \frac{2}{3} \times 9\end{bmatrix} = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).  
+5. The LU factorization is \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\), \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).

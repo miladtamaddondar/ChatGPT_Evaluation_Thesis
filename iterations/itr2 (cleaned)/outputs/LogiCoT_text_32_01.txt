@@ -1,0 +1,5 @@
+1. To determine if $\mathbf{w}$ is in $\text{Nul }A$, compute $A\mathbf{w}$ and check if it equals the zero vector. 
+2. Compute $A\mathbf{w} = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ 3 \\ -4 \end{bmatrix} = \begin{bmatrix} 3(1) + (-5)(3) + (-3)(-4) \\ 6(1) + (-2)(3) + 0(-4) \\ -8(1) + 4(3) + 1(-4) \end{bmatrix}$. 
+3. Simplify each entry: First row: $3 - 15 + 12 = 0$, Second row: $6 - 6 + 0 = 0$, Third row: $-8 + 12 - 4 = 0$. 
+4. Therefore, $A\mathbf{w} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$, which is the zero vector. 
+5. Since $A\mathbf{w} = \mathbf{0}$, $\mathbf{w}$ is in $\text{Nul }A$.

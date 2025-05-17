@@ -1,0 +1,4 @@
+1. Write the definition of the coordinate vector: The vector $\mathbf{x}$ is expressed as a linear combination of the basis vectors, so $\mathbf{x} = 3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} + 2 \begin{bmatrix} 2 \\ -1 \end{bmatrix}$.
+2. Multiply the scalars by the basis vectors: $3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix}$ and $2 \begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \end{bmatrix}$.
+3. Add the resulting vectors: $\begin{bmatrix} 3 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \end{bmatrix} = \begin{bmatrix} 3+4 \\ 3+(-2) \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.
+4. State the final answer: The vector $\mathbf{x}$ is $\begin{bmatrix} 7 \\ 1 \end{bmatrix}$.

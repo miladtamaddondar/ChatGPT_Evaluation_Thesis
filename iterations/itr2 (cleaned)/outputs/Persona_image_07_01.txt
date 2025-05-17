@@ -1,0 +1,5 @@
+1. The matrix \([Qr_1 \ Qr_2 \ \ldots \ Qr_p]\) consists of the vectors \(Qr_1, Qr_2, \ldots, Qr_p\) as its columns. 
+2. Each column \(Qr_i\) can be written as the product of \(Q\) and the vector \(r_i\). 
+3. If we form the matrix \(R = [r_1 \ r_2 \ \ldots \ r_p]\), which is an \(n \times p\) matrix, then multiplying \(Q\) (an \(m \times n\) matrix) by \(R\) gives an \(m \times p\) matrix whose columns are \(Qr_1, Qr_2, \ldots, Qr_p\). 
+4. Therefore, \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q \cdot [r_1 \ r_2 \ \ldots \ r_p] = Q R\). 
+5. Final answer: \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q R\), where \(Q\) is \(m \times n\) and \(R\) is \(n \times p\).

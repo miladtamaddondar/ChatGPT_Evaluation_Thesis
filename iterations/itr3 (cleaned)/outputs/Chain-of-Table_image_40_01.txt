@@ -1,0 +1,11 @@
+1. Write each basis vector in \(\mathcal{B} = \{1 - 3t^2,\, 2 + t - 5t^2,\, 1 + 2t\}\) as a coordinate vector in the standard basis \(\{1, t, t^2\}\): \(1 - 3t^2 = [1,\, 0,\, -3]^T\), \(2 + t - 5t^2 = [2,\, 1,\, -5]^T\), \(1 + 2t = [1,\, 2,\, 0]^T\).
+2. Form the change-of-coordinates matrix \(P\) from \(\mathcal{B}\) to the standard basis by placing these as columns: \(P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}\).
+3. To write \(t^2\) as a linear combination of the polynomials in \(\mathcal{B}\), set up the equation \(c_1(1 - 3t^2) + c_2(2 + t - 5t^2) + c_3(1 + 2t) = t^2\).
+4. Expand and collect coefficients: \((c_1 + 2c_2 + c_3) + (c_2 + 2c_3)t + (-3c_1 - 5c_2)t^2 = 0 + 0t + 1t^2\).
+5. Set up the system: \(c_1 + 2c_2 + c_3 = 0\), \(c_2 + 2c_3 = 0\), \(-3c_1 - 5c_2 = 1\).
+6. Write the augmented matrix: \(\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ -3 & -5 & 0 & 1 \end{bmatrix}\).
+7. Use row 2 to eliminate \(c_2\) in row 3: Row 3 = Row 3 + 5×Row 2 \(\rightarrow\) \(\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ -3 & 0 & 10 & 1 \end{bmatrix}\).
+8. Eliminate \(c_1\) in row 3: Row 3 = Row 3 + 3×Row 1 \(\rightarrow\) \(\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 6 & 13 & 1 \end{bmatrix}\).
+9. Eliminate \(c_2\) in row 3: Row 3 = Row 3 - 6×Row 2 \(\rightarrow\) \(\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}\).
+10. Back-substitute: \(c_3 = 1\), \(c_2 + 2c_3 = 0 \implies c_2 = -2\), \(c_1 + 2c_2 + c_3 = 0 \implies c_1 + 2(-2) + 1 = 0 \implies c_1 - 4 + 1 = 0 \implies c_1 = 3\).
+11. Final answer: The change-of-coordinates matrix is \(P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}\), and \(t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)\).

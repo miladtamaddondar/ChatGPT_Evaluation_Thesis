@@ -1,0 +1,10 @@
+1. To diagonalize $A$, we first find its eigenvalues by solving $\det(A - \lambda I) = 0$; compute $A - \lambda I = \begin{bmatrix}0-\lambda & 1 \\ -3 & 4-\lambda\end{bmatrix}$.
+2. The determinant is $(0-\lambda)(4-\lambda) - (1)(-3) = (\lambda^2 - 4\lambda) + 3 = \lambda^2 - 4\lambda + 3$.
+3. Set the characteristic polynomial to zero: $\lambda^2 - 4\lambda + 3 = 0$.
+4. Factor: $(\lambda - 1)(\lambda - 3) = 0$, so the eigenvalues are $\lambda_1 = 1$ and $\lambda_2 = 3$.
+5. For $\lambda_1 = 1$, solve $(A - I)\mathbf{v} = 0$; $A - I = \begin{bmatrix}-1 & 1 \\ -3 & 3\end{bmatrix}$.
+6. The system $-v_1 + v_2 = 0$ and $-3v_1 + 3v_2 = 0$ reduces to $v_2 = v_1$, so an eigenvector is $\mathbf{v}_1 = \begin{bmatrix}1 \\ 1\end{bmatrix}$.
+7. For $\lambda_2 = 3$, solve $(A - 3I)\mathbf{v} = 0$; $A - 3I = \begin{bmatrix}-3 & 1 \\ -3 & 1\end{bmatrix}$.
+8. The system $-3v_1 + v_2 = 0$ and $-3v_1 + v_2 = 0$ reduces to $v_2 = 3v_1$, so an eigenvector is $\mathbf{v}_2 = \begin{bmatrix}1 \\ 3\end{bmatrix}$.
+9. The eigenvectors $\begin{bmatrix}1 \\ 1\end{bmatrix}$ and $\begin{bmatrix}1 \\ 3\end{bmatrix}$ are linearly independent, so they form a basis $\mathcal{B}$ for $\mathbb{R}^2$.
+10. Therefore, a basis $\mathcal{B} = \left\{ \begin{bmatrix}1 \\ 1\end{bmatrix}, \begin{bmatrix}1 \\ 3\end{bmatrix} \right\}$ diagonalizes $A$, so $[T]_{\mathcal{B}}$ is diagonal.

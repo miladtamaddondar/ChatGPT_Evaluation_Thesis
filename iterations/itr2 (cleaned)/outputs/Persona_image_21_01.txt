@@ -1,0 +1,10 @@
+1. We are given \( A = \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \) and \( \mathbf{b} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix} \), and we need to solve \( A\mathbf{x} = \mathbf{b} \) for \( \mathbf{x} \).
+2. Write the augmented matrix: \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right] \).
+3. Use row 1 to eliminate the first entry in row 2: Row 2 = Row 2 + 2*Row 1 gives \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 3 & -2 & -5 & -3 \end{array}\right] \).
+4. Use row 1 to eliminate the first entry in row 3: Row 3 = Row 3 - 3*Row 1 gives \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & -2 & 1 & 0 \end{array}\right] \).
+5. Use row 2 to eliminate the second entry in row 3: Row 3 = Row 3 + 2*Row 2 gives \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 5 & 10 \end{array}\right] \).
+6. Solve for \( x_3 \) from row 3: \( 5x_3 = 10 \implies x_3 = 2 \).
+7. Substitute \( x_3 = 2 \) into row 2: \( x_2 + 2x_3 = 5 \implies x_2 + 4 = 5 \implies x_2 = 1 \).
+8. Substitute \( x_2 = 1 \) and \( x_3 = 2 \) into row 1: \( x_1 - 2x_3 = -1 \implies x_1 - 4 = -1 \implies x_1 = 3 \).
+9. The solution is \( \mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix} \).
+10. Since the system has a unique solution (no free variables and all pivots are nonzero), \( \mathbf{x} \) is unique.

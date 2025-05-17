@@ -1,0 +1,5 @@
+1. Write the augmented matrix for the homogeneous system $A\mathbf{x} = \mathbf{0}$: $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0\end{bmatrix}$.
+2. Subtract $2$ times row 1 from row 3: $R_3 \to R_3 - 2R_1$, giving $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0\end{bmatrix}$.
+3. Subtract $2$ times row 2 from row 3: $R_3 \to R_3 - 2R_2$, giving $\begin{bmatrix}1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0\end{bmatrix}$.
+4. The reduced system is $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$; solve for leading variables: $x_2 = 4x_3 - 3x_4$, $x_1 = 4x_2 - 7x_3 + 5x_4 = 4(4x_3 - 3x_4) - 7x_3 + 5x_4 = 16x_3 - 12x_4 - 7x_3 + 5x_4 = 9x_3 - 7x_4$.
+5. The general solution is $\mathbf{x} = \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = x_3\begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + x_4\begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}$, where $x_3, x_4 \in \mathbb{R}$.

@@ -1,0 +1,8 @@
+1. To find a nonzero matrix \( B \) such that \( AB = 0 \), we need to find two nonzero vectors \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \) in the null space of \( A \) since each column of \( AB \) is \( A\mathbf{b}_i \).  
+2. The null space of \( A \) consists of all vectors \( \mathbf{x} \) such that \( A\mathbf{x} = 0 \); set up the equation: \( \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix} \begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).  
+3. Write the system: \( 3x_1 - 6x_2 = 0 \) and \( x_1 - 2x_2 = 0 \); both equations are multiples, so the null space is one-dimensional.  
+4. Solve \( x_1 - 2x_2 = 0 \) to get \( x_1 = 2x_2 \); thus, the general solution is \( \begin{bmatrix}x_1 \\ x_2\end{bmatrix} = x_2 \begin{bmatrix}2 \\ 1\end{bmatrix} \).  
+5. Choose two different nonzero values for \( x_2 \) (say, 1 and -1) to get two different null space vectors: \( \mathbf{b}_1 = \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \mathbf{b}_2 = \begin{bmatrix}-2 \\ -1\end{bmatrix} \).  
+6. Form \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \); verify that both columns are nonzero and linearly dependent (as expected for a 1-dimensional null space).  
+7. Check \( AB = \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix} \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} = \begin{bmatrix}3\cdot2 + (-6)\cdot1 & 3\cdot(-2) + (-6)\cdot(-1) \\ 1\cdot2 + (-2)\cdot1 & 1\cdot(-2) + (-2)\cdot(-1)\end{bmatrix} = \begin{bmatrix}6-6 & -6+6 \\ 2-2 & -2+2\end{bmatrix} = \begin{bmatrix}0 & 0 \\ 0 & 0\end{bmatrix} \).  
+8. Final answer: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB \) is the zero matrix.

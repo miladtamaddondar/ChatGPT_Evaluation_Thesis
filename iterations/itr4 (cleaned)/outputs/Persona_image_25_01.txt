@@ -1,0 +1,5 @@
+1. Let the missing matrix be \(\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}\) and set up the multiplication: \(\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} ax_1 + bx_2 + cx_3 \\ dx_1 + ex_2 + fx_3 \\ gx_1 + hx_2 + ix_3 \end{bmatrix}\).  
+2. Equate the first row to the right side: \(ax_1 + bx_2 + cx_3 = 3x_1 - 2x_3\), so \(a = 3\), \(b = 0\), \(c = -2\).  
+3. Equate the second row: \(dx_1 + ex_2 + fx_3 = 4x_1\), so \(d = 4\), \(e = 0\), \(f = 0\).  
+4. Equate the third row: \(gx_1 + hx_2 + ix_3 = x_1 - x_2 + x_3\), so \(g = 1\), \(h = -1\), \(i = 1\).  
+5. The completed matrix is \(\begin{bmatrix} 3 & 0 & -2 \\ 4 & 0 & 0 \\ 1 & -1 & 1 \end{bmatrix}\).

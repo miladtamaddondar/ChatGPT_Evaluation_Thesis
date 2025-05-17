@@ -1,0 +1,4 @@
+1. To construct a \(4 \times 3\) matrix with rank 1, recall that a matrix has rank 1 if all its rows (or columns) are scalar multiples of a single nonzero row (or column), so we can write \(A = \mathbf{u}\mathbf{v}^T\) where \(\mathbf{u}\) is a \(4 \times 1\) column vector and \(\mathbf{v}\) is a \(3 \times 1\) column vector. 
+2. Let \(\mathbf{u} = \begin{bmatrix}1 \\ 2 \\ 3 \\ 4\end{bmatrix}\) and \(\mathbf{v} = \begin{bmatrix}5 \\ 6 \\ 7\end{bmatrix}\), then \(A = \mathbf{u}\mathbf{v}^T = \begin{bmatrix}1 \\ 2 \\ 3 \\ 4\end{bmatrix} \begin{bmatrix}5 & 6 & 7\end{bmatrix} = \begin{bmatrix}5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28\end{bmatrix}\). 
+3. Verify: Each row is a scalar multiple of the first row (\([5\ 6\ 7]\)), so the matrix has rank 1 by definition. 
+4. Final answer: A \(4 \times 3\) matrix with rank 1 is \(\begin{bmatrix}5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28\end{bmatrix}\).

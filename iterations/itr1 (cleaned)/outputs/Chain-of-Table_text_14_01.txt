@@ -1,0 +1,9 @@
+1. Subtract $5I$ from $A$ to get $A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+2. The eigenspace for $\lambda=5$ is the null space of $A-5I$, so set up the augmented matrix: $\left[\begin{array}{cccc|c} 0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 4 & 0 \\ 0 & 0 & 0 & -4 & 0 \end{array}\right]$.
+3. Row 4 $\to$ Row 4 + Row 3: $\left[\begin{array}{cccc|c} 0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 4 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]$.
+4. Row 3 $\to$ \(\frac{1}{4}\) Row 3: $\left[\begin{array}{cccc|c} 0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]$.
+5. The system now is: $-2x_2 + 6x_3 - x_4 = 0$, $-2x_2 + h x_3 = 0$, $x_4 = 0$.
+6. From $x_4 = 0$, substitute into the first two equations: $-2x_2 + 6x_3 = 0$, $-2x_2 + h x_3 = 0$.
+7. Subtract the second equation from the first: $(6 - h)x_3 = 0$.
+8. For the eigenspace to be two-dimensional, $x_3$ must be free, so $6-h=0 \implies h=6$.
+9. Final answer: $h = 6$.

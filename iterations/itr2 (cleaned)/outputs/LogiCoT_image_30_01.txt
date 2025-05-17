@@ -1,0 +1,6 @@
+1. Write the system of equations from the transformation: \( T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9) \) gives the equations \( x_1 - 2x_2 = -1 \), \( -x_1 + 3x_2 = 4 \), \( 3x_1 - 2x_2 = 9 \).  
+2. Solve the first equation for \( x_1 \): \( x_1 = -1 + 2x_2 \).  
+3. Substitute \( x_1 \) into the second equation: \( -(-1 + 2x_2) + 3x_2 = 4 \implies 1 - 2x_2 + 3x_2 = 4 \implies 1 + x_2 = 4 \implies x_2 = 3 \).  
+4. Substitute \( x_2 = 3 \) into the expression for \( x_1 \): \( x_1 = -1 + 2 \times 3 = -1 + 6 = 5 \).  
+5. Verify with the third equation: \( 3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9 \), which matches the given value, so the solution is correct.  
+6. Final answer: The vector \( \mathbf{x} \) such that \( T(\mathbf{x}) = (-1, 4, 9) \) is \( \boxed{(5, 3)} \).

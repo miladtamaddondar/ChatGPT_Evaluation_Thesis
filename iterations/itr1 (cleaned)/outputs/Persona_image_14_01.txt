@@ -1,0 +1,10 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first compute \( A - 5I \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).
+2. The eigenspace dimension is the nullity of \( A - 5I \), so we need the nullity to be 2, which means the rank must be \( 4 - 2 = 2 \).
+3. Row reduce \( A - 5I \): The last two rows are \( [0,0,0,4] \) and \( [0,0,0,-4] \), which are linearly dependent, so only one contributes to the rank.
+4. The first two rows are \( [0, -2, 6, -1] \) and \( [0, -2, h, 0] \); subtract the first from the second to get \( [0, 0, h-6, 1] \).
+5. Now, the matrix is row equivalent to \( \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & 0 & h-6 & 1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix} \).
+6. For the rank to be 2, the last two rows must be linear combinations of the first two, so the third row \( [0,0,0,4] \) must be a linear combination of the first two nonzero rows.
+7. The only way for the third row to be a linear combination is if the second row is zero, i.e., \( h-6 = 0 \) and \( 1 = 0 \), but \( 1 = 0 \) is impossible, so instead, the only way to reduce the rank is if the first two rows are linearly dependent.
+8. The first two rows \( [0, -2, 6, -1] \) and \( [0, -2, h, 0] \) are linearly dependent if \( h = 6 \) and \( -1 = 0 \), but again, \( -1 = 0 \) is impossible, so instead, the only way to get rank 2 is if the third and fourth rows are linearly dependent, i.e., the third row is zero, so \( 4 = 0 \), which is impossible.
+9. Therefore, let's check the rank carefully: If \( h = 6 \), the second row becomes \( [0, 0, 0, 1] \), and the third row is \( [0,0,0,4] \), so both are linearly dependent, and the rank is 2.
+10. Thus, the value of \( h \) that makes the eigenspace for \( \lambda = 5 \) two-dimensional is \( \boxed{h = 6} \).

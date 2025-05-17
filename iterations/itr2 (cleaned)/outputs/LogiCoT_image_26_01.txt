@@ -1,0 +1,6 @@
+1. Describe the transformation as a matrix multiplication: We want to find a matrix \( A \) such that \( T(\vec{x}) = A\vec{x} \) where \( \vec{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} \). 
+2. Write the output vector in terms of the input components: \( T(x_1, x_2, x_3, x_4) = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \). 
+3. Express each component as a linear combination of \( x_1, x_2, x_3, x_4 \): The first entry is \( 0 \cdot x_1 + 0 \cdot x_2 + 0 \cdot x_3 + 0 \cdot x_4 \), the second is \( 1 \cdot x_1 + 1 \cdot x_2 + 0 \cdot x_3 + 0 \cdot x_4 \), the third is \( 0 \cdot x_1 + 1 \cdot x_2 + 1 \cdot x_3 + 0 \cdot x_4 \), the fourth is \( 0 \cdot x_1 + 0 \cdot x_2 + 1 \cdot x_3 + 1 \cdot x_4 \). 
+4. Write the matrix \( A \) whose rows are the coefficients from step 3: \( A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \). 
+5. Verify by multiplying \( A \) by \( \vec{x} \): \( A\vec{x} = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \), which matches \( T(\vec{x}) \), confirming correctness. 
+6. Conclude that \( T \) is a linear transformation and is implemented by the matrix \( A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \).

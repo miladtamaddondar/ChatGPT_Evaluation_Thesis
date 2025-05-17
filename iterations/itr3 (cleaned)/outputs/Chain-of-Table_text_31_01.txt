@@ -1,0 +1,5 @@
+1. Express the general vector in $W$ as a linear combination: $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} = a\begin{bmatrix} 3 \\ 4 \\ 1 \end{bmatrix} + b\begin{bmatrix} 1 \\ 0 \\ -5 \end{bmatrix}$.
+2. Observe that the second entry is always $4$ regardless of $a$ or $b$, so every vector in $W$ has the form $\begin{bmatrix} x \\ 4 \\ z \end{bmatrix}$ for some $x$ and $z$.
+3. Check if $W$ is closed under addition: $\begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} + \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix}$.
+4. The sum's second entry is $8$, not $4$, so $W$ is not closed under addition and thus not a vector space.
+5. Therefore, $W$ is not a vector space; for example, $\begin{bmatrix} 3 \\ 4 \\ 1 \end{bmatrix} + \begin{bmatrix} 1 \\ 4 \\ -5 \end{bmatrix} = \begin{bmatrix} 4 \\ 8 \\ -4 \end{bmatrix} \notin W$.

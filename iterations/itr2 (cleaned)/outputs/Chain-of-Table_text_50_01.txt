@@ -1,0 +1,7 @@
+1. Compute the inner products: $\langle p_0, p_0 \rangle = 1+1+1+1=4$, $\langle p_1, p_1 \rangle = (-3)^2+(-1)^2+1^2+3^2=9+1+1+9=20$, $\langle p_0, p_1 \rangle = (-3)+(-1)+1+3=0$, $\langle p_2, p_0 \rangle = (-3)^2+(-1)^2+1^2+3^2=20$, $\langle p_2, p_1 \rangle = (-3)^3+(-1)^3+1^3+3^3 = -27-1+1+27=0$.
+2. Set up the projection formula: $\text{proj}_{W}(p_2) = \frac{\langle p_2, p_0 \rangle}{\langle p_0, p_0 \rangle}p_0 + \frac{\langle p_2, p_1 \rangle}{\langle p_1, p_1 \rangle}p_1 = \frac{20}{4}p_0 + \frac{0}{20}p_1 = 5p_0$.
+3. The orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5$.
+4. Subtract the projection from $p_2$ to get a vector orthogonal to $p_0$ and $p_1$: $q(t) = p_2(t) - 5 = t^2 - 5$.
+5. Compute the values of $q$ at $-3, -1, 1, 3$: $q(-3) = 9-5=4$, $q(-1)=1-5=-4$, $q(1)=1-5=-4$, $q(3)=9-5=4$.
+6. To scale $q$ so its values at $(-3,-1,1,3)$ are $(1,-1,-1,1)$, divide by $4$: $q(t) = \frac{1}{4}(t^2-5)$.
+7. The orthogonal basis is $\{p_0, p_1, q\}$ where $q(t) = \frac{1}{4}(t^2-5)$, and the projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5$.

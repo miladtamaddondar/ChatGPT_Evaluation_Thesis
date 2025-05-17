@@ -1,0 +1,5 @@
+1. To find $T(3\mathbf{u})$, set up the augmented matrix for the system: $\begin{bmatrix} 5 & 2 & | & 2 \\ 1 & 3 & | & -1 \end{bmatrix}$, which represents $T\left(\begin{bmatrix} 5 \\ 2 \end{bmatrix}\right) = \begin{bmatrix} 2 \\ 1 \end{bmatrix}$ and $T\left(\begin{bmatrix} 1 \\ 3 \end{bmatrix}\right) = \begin{bmatrix} -1 \\ 3 \end{bmatrix}$.
+2. By linearity, $T(3\mathbf{u}) = 3T(\mathbf{u}) = 3\begin{bmatrix} 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 6 \\ 3 \end{bmatrix}$.
+3. Similarly, $T(2\mathbf{v}) = 2T(\mathbf{v}) = 2\begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} -2 \\ 6 \end{bmatrix}$.
+4. By linearity, $T(3\mathbf{u} + 2\mathbf{v}) = 3T(\mathbf{u}) + 2T(\mathbf{v}) = 3\begin{bmatrix} 2 \\ 1 \end{bmatrix} + 2\begin{bmatrix} -1 \\ 3 \end{bmatrix} = \begin{bmatrix} 6 \\ 3 \end{bmatrix} + \begin{bmatrix} -2 \\ 6 \end{bmatrix} = \begin{bmatrix} 4 \\ 9 \end{bmatrix}$.
+5. Final Answer: $T(3\mathbf{u}) = \begin{bmatrix} 6 \\ 3 \end{bmatrix}$, $T(2\mathbf{v}) = \begin{bmatrix} -2 \\ 6 \end{bmatrix}$, $T(3\mathbf{u} + 2\mathbf{v}) = \begin{bmatrix} 4 \\ 9 \end{bmatrix}$.

@@ -1,0 +1,4 @@
+1. Express the vector $\mathbf{x}$ as a linear combination of the basis vectors: $\mathbf{x} = 3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} + 2 \begin{bmatrix} 2 \\ -1 \end{bmatrix}$.
+2. Compute the scalar multiplication: $3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix}$ and $2 \begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \end{bmatrix}$.
+3. Add the resulting vectors: $\begin{bmatrix} 3 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.
+4. Therefore, the vector $\mathbf{x}$ is $\boxed{\begin{bmatrix} 7 \\ 1 \end{bmatrix}}$.

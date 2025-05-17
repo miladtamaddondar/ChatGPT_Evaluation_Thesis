@@ -1,0 +1,16 @@
+1. Write the problem as: Find the matrix $[T]_{\mathcal{B}}$ such that $[T(\mathbf{x})]_{\mathcal{B}} = [T]_{\mathcal{B}}[\mathbf{x}]_{\mathcal{B}}$ for all $\mathbf{x} \in \mathbb{R}^2$.
+2. Compute $T(\mathbf{b}_1) = A\mathbf{b}_1 = \begin{bmatrix}1 & 1 \\ -1 & 3\end{bmatrix} \begin{bmatrix}1 \\ 1\end{bmatrix} = \begin{bmatrix}2 \\ 2\end{bmatrix}$
+3. Express $T(\mathbf{b}_1) = \begin{bmatrix}2 \\ 2\end{bmatrix}$ as a linear combination of $\mathbf{b}_1$ and $\mathbf{b}_2$: Solve $c_1\begin{bmatrix}1 \\ 1\end{bmatrix} + c_2\begin{bmatrix}5 \\ 4\end{bmatrix} = \begin{bmatrix}2 \\ 2\end{bmatrix}$.
+4. Set up the augmented matrix: $\left[\begin{array}{cc|c}1 & 5 & 2 \\ 1 & 4 & 2\end{array}\right]$.
+5. Subtract row 1 from row 2: $R_2 \leftarrow R_2 - R_1$ gives $\left[\begin{array}{cc|c}1 & 5 & 2 \\ 0 & -1 & 0\end{array}\right]$.
+6. Multiply row 2 by $-1$: $R_2 \leftarrow -R_2$ gives $\left[\begin{array}{cc|c}1 & 5 & 2 \\ 0 & 1 & 0\end{array}\right]$.
+7. Subtract $5 \times$ row 2 from row 1: $R_1 \leftarrow R_1 - 5R_2$ gives $\left[\begin{array}{cc|c}1 & 0 & 2 \\ 0 & 1 & 0\end{array}\right]$.
+8. So $c_1 = 2$, $c_2 = 0$, thus $[T(\mathbf{b}_1)]_{\mathcal{B}} = \begin{bmatrix}2 \\ 0\end{bmatrix}$.
+9. Compute $T(\mathbf{b}_2) = A\mathbf{b}_2 = \begin{bmatrix}1 & 1 \\ -1 & 3\end{bmatrix} \begin{bmatrix}5 \\ 4\end{bmatrix} = \begin{bmatrix}9 \\ 7\end{bmatrix}$.
+10. Express $T(\mathbf{b}_2) = \begin{bmatrix}9 \\ 7\end{bmatrix}$ as a linear combination of $\mathbf{b}_1$ and $\mathbf{b}_2$: Solve $d_1\begin{bmatrix}1 \\ 1\end{bmatrix} + d_2\begin{bmatrix}5 \\ 4\end{bmatrix} = \begin{bmatrix}9 \\ 7\end{bmatrix}$.
+11. Set up the augmented matrix: $\left[\begin{array}{cc|c}1 & 5 & 9 \\ 1 & 4 & 7\end{array}\right]$.
+12. Subtract row 1 from row 2: $R_2 \leftarrow R_2 - R_1$ gives $\left[\begin{array}{cc|c}1 & 5 & 9 \\ 0 & -1 & -2\end{array}\right]$.
+13. Multiply row 2 by $-1$: $R_2 \leftarrow -R_2$ gives $\left[\begin{array}{cc|c}1 & 5 & 9 \\ 0 & 1 & 2\end{array}\right]$.
+14. Subtract $5 \times$ row 2 from row 1: $R_1 \leftarrow R_1 - 5R_2$ gives $\left[\begin{array}{cc|c}1 & 0 & -1 \\ 0 & 1 & 2\end{array}\right]$.
+15. So $d_1 = -1$, $d_2 = 2$, thus $[T(\mathbf{b}_2)]_{\mathcal{B}} = \begin{bmatrix}-1 \\ 2\end{bmatrix}$.
+16. Therefore, the $\mathcal{B}$-matrix for $T$ is $[T]_{\mathcal{B}} = \begin{bmatrix}2 & -1 \\ 0 & 2\end{bmatrix}$.

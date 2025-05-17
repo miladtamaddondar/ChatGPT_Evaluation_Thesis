@@ -1,0 +1,4 @@
+1. Start with a \( 4 \times 3 \) zero matrix, which has rank 0: \( \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).
+2. Replace the first row with nonzero entries to create a nonzero row: \( \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).
+3. Make the other rows scalar multiples of the first row to ensure rank 1: \( \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix} \).
+4. Final answer: A \( 4 \times 3 \) matrix of rank 1 is \( \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix} \).

@@ -1,0 +1,10 @@
+1. To find a basis for the subspace spanned by the vectors \(\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3, \mathbf{v}_4\), we first form a matrix with these vectors as columns: \(A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).
+2. We perform row reduction (Gaussian elimination) on \(A\) to determine the linear independence of the columns; first, notice that \(\mathbf{v}_2 = -3 \mathbf{v}_1\), so \(\mathbf{v}_2\) is dependent on \(\mathbf{v}_1\).
+3. Next, we check if \(\mathbf{v}_3\) is a linear combination of \(\mathbf{v}_1\); suppose \(\mathbf{v}_3 = a\mathbf{v}_1\), then \(2 = a \cdot 1\) so \(a = 2\), but \(-1 \neq 2 \cdot (-3) = -6\), so \(\mathbf{v}_3\) is not a multiple of \(\mathbf{v}_1\), thus independent.
+4. Now, check if \(\mathbf{v}_4\) is a linear combination of \(\mathbf{v}_1\) and \(\mathbf{v}_3\); set \(\mathbf{v}_4 = b\mathbf{v}_1 + c\mathbf{v}_3\), so \(-4 = b \cdot 1 + c \cdot 2\), \(5 = b \cdot (-3) + c \cdot (-1)\), \(-3 = b \cdot 2 + c \cdot 4\), \(7 = b \cdot (-4) + c \cdot 2\).
+5. Solve the first equation: \(-4 = b + 2c\), so \(b = -4 - 2c\).
+6. Substitute \(b\) into the second equation: \(5 = (-3)(-4 - 2c) + (-1)c = 12 + 6c - c = 12 + 5c\), so \(5c = 5 - 12 = -7\), so \(c = -\frac{7}{5}\).
+7. Substitute \(c\) back into \(b = -4 - 2c\): \(b = -4 - 2(-\frac{7}{5}) = -4 + \frac{14}{5} = -\frac{6}{5}\).
+8. Check if these values satisfy the third equation: \(-3 = 2b + 4c = 2(-\frac{6}{5}) + 4(-\frac{7}{5}) = -\frac{12}{5} - \frac{28}{5} = -\frac{40}{5} = -8\), but this does not equal \(-3\), so \(\mathbf{v}_4\) is not in the span of \(\mathbf{v}_1\) and \(\mathbf{v}_3\).
+9. Therefore, \(\mathbf{v}_1\), \(\mathbf{v}_3\), and \(\mathbf{v}_4\) are linearly independent and form a basis for the subspace.
+10. The dimension of the subspace is \(3\) because there are \(3\) linearly independent vectors in the basis.

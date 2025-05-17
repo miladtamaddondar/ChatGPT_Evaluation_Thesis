@@ -1,0 +1,5 @@
+1. The standard matrix of a linear transformation that rotates vectors in $\mathbb{R}^2$ counterclockwise by angle $\theta$ is $\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$; this follows from the definition of rotation in linear algebra.  
+2. Substitute $\theta = \frac{3\pi}{2}$ into the rotation matrix to get $\begin{bmatrix} \cos\left(\frac{3\pi}{2}\right) & -\sin\left(\frac{3\pi}{2}\right) \\ \sin\left(\frac{3\pi}{2}\right) & \cos\left(\frac{3\pi}{2}\right) \end{bmatrix}$; this uses the properties of trigonometric functions.  
+3. Evaluate $\cos\left(\frac{3\pi}{2}\right) = 0$ and $\sin\left(\frac{3\pi}{2}\right) = -1$ using the unit circle, which is a standard linear algebraic technique for rotations.  
+4. Substitute these values to get $\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$; this step uses arithmetic and the properties of matrix entries.  
+5. The standard matrix of $T$ is $\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}$; this result is verified because it rotates the standard basis vectors as expected for a $\frac{3\pi}{2}$ counterclockwise rotation.

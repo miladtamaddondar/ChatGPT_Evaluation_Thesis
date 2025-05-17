@@ -1,0 +1,5 @@
+1. Express $T$ as a matrix transformation: For a vector $\mathbf{x} = (x_1, x_2, x_3, x_4)^T$, $T(\mathbf{x}) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)^T$; we seek a $4 \times 4$ matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$.
+2. Write the output as a linear combination of the inputs: $T(\mathbf{x}) = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} = x_1\begin{pmatrix} 0 \\ 1 \\ 0 \\ 0 \end{pmatrix} + x_2\begin{pmatrix} 0 \\ 1 \\ 1 \\ 0 \end{pmatrix} + x_3\begin{pmatrix} 0 \\ 0 \\ 1 \\ 1 \end{pmatrix} + x_4\begin{pmatrix} 0 \\ 0 \\ 0 \\ 1 \end{pmatrix}$.
+3. Assemble the matrix $A$ column-wise from the coefficients: $A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$.
+4. Verify correctness by multiplying $A$ by a general vector: $A\mathbf{x} = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix}$, which matches $T(\mathbf{x})$.
+5. Conclude that $T$ is a linear transformation implemented by $A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$.

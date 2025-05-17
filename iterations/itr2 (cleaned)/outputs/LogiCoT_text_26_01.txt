@@ -1,0 +1,7 @@
+1. Express $T$ as a matrix transformation: $T(x_1, x_2, x_3, x_4) = A \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix}$, where $A$ is a $4 \times 4$ matrix. 
+2. Write each output coordinate as a linear combination of the inputs: $T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)$. 
+3. Match each output to matrix multiplication: The first output is $0 = 0x_1 + 0x_2 + 0x_3 + 0x_4$, the second is $x_1 + x_2 = 1x_1 + 1x_2 + 0x_3 + 0x_4$, the third is $x_2 + x_3 = 0x_1 + 1x_2 + 1x_3 + 0x_4$, and the fourth is $x_3 + x_4 = 0x_1 + 0x_2 + 1x_3 + 1x_4$. 
+4. Write the matrix $A$ row by row: $A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$. 
+5. Verify linearity: $T(\mathbf{x} + \mathbf{y}) = A(\mathbf{x} + \mathbf{y}) = A\mathbf{x} + A\mathbf{y} = T(\mathbf{x}) + T(\mathbf{y})$ and $T(c\mathbf{x}) = A(c\mathbf{x}) = cA\mathbf{x} = cT(\mathbf{x})$, so $T$ is linear.
+ 6. Check the rank of $A$ to confirm the transformation's properties: The first row is all zeros and the remaining three rows are linearly independent, so $\operatorname{rank}(A) = 3$. 
+ 7. Final answer: The matrix that implements $T$ is $A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$, and $T$ is a linear transformation.

@@ -1,0 +1,8 @@
+1. To find a basis for \(\mathbb{R}^2\) consisting of \(\mathbf{v}_1\) and another eigenvector \(\mathbf{v}_2\) of \(A\), first recall that \(\mathbf{v}_1 = \begin{bmatrix} \frac{3}{7} \\ \frac{4}{7} \end{bmatrix}\) is already an eigenvector. 
+2. Find the eigenvalues of \(A = \begin{bmatrix} 0.6 & 0.3 \\ 0.4 & 0.7 \end{bmatrix}\) by solving \(\det(A - \lambda I) = 0\): \(\det\left(\begin{bmatrix} 0.6-\lambda & 0.3 \\ 0.4 & 0.7-\lambda \end{bmatrix}\right) = (0.6-\lambda)(0.7-\lambda) - (0.3)(0.4) = 0\). 
+3. Expand: \((0.6-\lambda)(0.7-\lambda) - 0.12 = 0.42 - 0.6\lambda - 0.7\lambda + \lambda^2 - 0.12 = \lambda^2 - 1.3\lambda + 0.3 = 0\). 
+4. Solve the quadratic equation: \(\lambda^2 - 1.3\lambda + 0.3 = 0\), so \(\lambda = \frac{1.3 \pm \sqrt{1.69 - 1.2}}{2} = \frac{1.3 \pm \sqrt{0.49}}{2} = \frac{1.3 \pm 0.7}{2}\), giving eigenvalues \(\lambda_1 = 1\) and \(\lambda_2 = 0.3\). 
+5. We know \(\mathbf{v}_1\) corresponds to \(\lambda_1 = 1\), so now find an eigenvector \(\mathbf{v}_2\) for \(\lambda_2 = 0.3\) by solving \((A - 0.3I)\mathbf{v}_2 = 0\): \(A - 0.3I = \begin{bmatrix} 0.3 & 0.3 \\ 0.4 & 0.4 \end{bmatrix}\). 
+6. Set up the system: \(0.3x + 0.3y = 0\) and \(0.4x + 0.4y = 0\), which both reduce to \(x + y = 0\), so \(y = -x\). 
+7. Thus, an eigenvector for \(\lambda_2 = 0.3\) is \(\mathbf{v}_2 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}\). 
+8. Therefore, a basis for \(\mathbb{R}^2\) consisting of eigenvectors of \(A\) is \(\left\{ \begin{bmatrix} \frac{3}{7} \\ \frac{4}{7} \end{bmatrix}, \begin{bmatrix} 1 \\ -1 \end{bmatrix} \right\}\).

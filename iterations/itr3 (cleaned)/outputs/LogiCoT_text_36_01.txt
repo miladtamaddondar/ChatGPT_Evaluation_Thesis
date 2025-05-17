@@ -1,0 +1,5 @@
+1. Identify the size of matrix $A$: $A$ is a $4 \times 6$ matrix (4 rows, 6 columns).  
+2. Find the number of pivot columns (leading 1s) in the row echelon form: From the given matrix, the first, third, and fourth columns have leading entries, so there are 3 pivot columns.  
+3. By the Rank Theorem, the dimension of $\text{Col }A$ (the column space) is equal to the number of pivot columns, so $\dim(\text{Col }A) = 3$.  
+4. The dimension of $\text{Nul }A$ (the null space) is the number of free variables, which is the total number of columns minus the number of pivot columns: $6 - 3 = 3$, so $\dim(\text{Nul }A) = 3$.  
+5. Final answer: $\boxed{\dim(\text{Col }A) = 3,\ \dim(\text{Nul }A) = 3}$.

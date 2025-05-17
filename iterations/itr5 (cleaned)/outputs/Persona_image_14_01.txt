@@ -1,0 +1,11 @@
+1. To find the eigenspace for \(\lambda = 5\), we solve \((A - 5I)\vec{x} = 0\).  
+2. Compute \(A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\).  
+3. The eigenspace dimension is the nullity of \(A - 5I\), so we row reduce \(A - 5I\).  
+4. The last two rows are \([0\ 0\ 0\ 4]\) and \([0\ 0\ 0\ -4]\), which are linearly dependent, so one can be removed.  
+5. The reduced matrix is \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \end{bmatrix}\).  
+6. The third row gives \(4x_4 = 0 \implies x_4 = 0\).  
+7. The second row gives \(-2x_2 + h x_3 = 0 \implies x_2 = \frac{h}{2}x_3\).  
+8. The first row gives \(-2x_2 + 6x_3 - x_4 = 0\), but \(x_4 = 0\), so \(-2x_2 + 6x_3 = 0\).  
+9. Substitute \(x_2 = \frac{h}{2}x_3\) into \(-2x_2 + 6x_3 = 0\) to get \(-2(\frac{h}{2}x_3) + 6x_3 = 0 \implies -h x_3 + 6x_3 = 0 \implies (6-h)x_3 = 0\).  
+10. For the eigenspace to be two-dimensional, \(x_3\) must be free, so set \(h = 6\).  
+11. Final answer: \(h = 6\) ensures the eigenspace for \(\lambda = 5\) is two-dimensional.

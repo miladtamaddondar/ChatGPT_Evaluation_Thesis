@@ -1,0 +1,8 @@
+1. Set up the equation by equating $T(x_1, x_2)$ to $(-1, 4, 9)$: $(x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9)$.  
+2. Write the system of equations: $x_1 - 2x_2 = -1$, $-x_1 + 3x_2 = 4$, $3x_1 - 2x_2 = 9$.  
+3. Verify that the system is consistent by checking if the third equation is a linear combination of the first two: Multiply the first equation by 3 to get $3x_1 - 6x_2 = -3$, then add the second equation to this result: $3x_1 - 6x_2 + (-x_1 + 3x_2) = -3 + 4$ gives $2x_1 - 3x_2 = 1$, which is not the same as $3x_1 - 2x_2 = 9$, so all three equations are independent and the system is determined.  
+4. Solve the first equation for $x_1$: $x_1 = -1 + 2x_2$.  
+5. Substitute $x_1$ into the second equation: $-(-1 + 2x_2) + 3x_2 = 4$ gives $1 - 2x_2 + 3x_2 = 4$, so $1 + x_2 = 4$, thus $x_2 = 3$.  
+6. Substitute $x_2 = 3$ into $x_1 = -1 + 2x_2$ to get $x_1 = -1 + 2 \times 3 = -1 + 6 = 5$.  
+7. Verify the solution in the third equation: $3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9$, which matches the right-hand side, confirming correctness.  
+8. The solution is $\mathbf{x} = (5, 3)$.

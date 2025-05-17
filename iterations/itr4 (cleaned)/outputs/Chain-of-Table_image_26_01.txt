@@ -1,0 +1,4 @@
+1. The transformation \( T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4) \) can be written as a matrix multiplication \( T(\vec{x}) = A\vec{x} \), where \( \vec{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} \).
+2. To find the matrix \( A \), write each component of the output as a linear combination of the inputs: \( 0 = 0x_1 + 0x_2 + 0x_3 + 0x_4 \), \( x_1 + x_2 = 1x_1 + 1x_2 + 0x_3 + 0x_4 \), \( x_2 + x_3 = 0x_1 + 1x_2 + 1x_3 + 0x_4 \), \( x_3 + x_4 = 0x_1 + 0x_2 + 1x_3 + 1x_4 \).
+3. Therefore, the matrix that implements the mapping is \( \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \).
+4. Final answer: The matrix that implements \( T \) is \( \boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}} \).

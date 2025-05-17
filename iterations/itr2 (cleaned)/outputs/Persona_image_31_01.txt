@@ -1,0 +1,6 @@
+1. We are given \( W = \left\{ \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} : a, b \in \mathbb{R} \right\} \) and asked to determine if \( W \) is a vector space or not.  
+2. To be a vector space, \( W \) must be closed under vector addition and scalar multiplication, and must contain the zero vector.  
+3. Check if the zero vector \( \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} \) is in \( W \): Set \( 3a + b = 0 \), \( 4 = 0 \), \( a - 5b = 0 \).  
+4. The second equation \( 4 = 0 \) is never true for any real \( a, b \), so the zero vector is not in \( W \).  
+5. Since \( W \) does not contain the zero vector, \( W \) is not a vector space.  
+6. Final answer: \( W \) is not a vector space because it does not contain the zero vector, as shown by the contradiction in the second component.

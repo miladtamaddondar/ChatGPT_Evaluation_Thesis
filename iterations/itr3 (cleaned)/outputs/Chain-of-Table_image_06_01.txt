@@ -1,0 +1,7 @@
+1. Let \( A = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \) and \( B = \begin{bmatrix} b_1 & b_2 \end{bmatrix} \) where \( b_1, b_2 \) are 2x1 column vectors; we want \( AB = 0 \), so each column of \( B \) must satisfy \( A x = 0 \).  
+2. Set up the system for a generic column \( x = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \): \( \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \), which gives equations: \( 3x_1 - 6x_2 = 0 \) and \( -x_1 + 2x_2 = 0 \).  
+3. Write the augmented matrix: \( \left[ \begin{array}{cc|c} 3 & -6 & 0 \\ -1 & 2 & 0 \end{array} \right] \).  
+4. Row 2 times 3 plus Row 1: \( R_1 \to R_1 + 3R_2 \): \( \left[ \begin{array}{cc|c} 0 & 0 & 0 \\ -1 & 2 & 0 \end{array} \right] \).  
+5. The system reduces to \( -x_1 + 2x_2 = 0 \), so \( x_1 = 2x_2 \); general solution: \( x = x_2 \begin{bmatrix} 2 \\ 1 \end{bmatrix} \).  
+6. To get two different nonzero columns, pick two different nonzero values for \( x_2 \), e.g., \( x_2 = 1 \) and \( x_2 = -1 \), so columns are \( \begin{bmatrix} 2 \\ 1 \end{bmatrix} \) and \( \begin{bmatrix} -2 \\ -1 \end{bmatrix} \).  
+7. Thus, \( B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

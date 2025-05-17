@@ -1,0 +1,18 @@
+1. We are asked to find all $\mathbf{x} \in \mathbb{R}^4$ such that $A\mathbf{x} = \mathbf{0}$, i.e., to solve the homogeneous system $A\mathbf{x} = \mathbf{0}$, where $A = \begin{bmatrix}1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4\end{bmatrix}$.
+2. Write the system as equations: $1x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$, $2x_1 - 6x_2 + 6x_3 - 4x_4 = 0$.
+3. Observe that the third equation is $2x_1 - 6x_2 + 6x_3 - 4x_4 = 0$, which is twice the first row minus two times the second row: $2(x_1 - 4x_2 + 7x_3 - 5x_4) - 2(x_2 - 4x_3 + 3x_4) = 2x_1 - 8x_2 + 14x_3 - 10x_4 - 2x_2 + 8x_3 - 6x_4 = 2x_1 - 10x_2 + 22x_3 - 16x_4$, but the third equation is $2x_1 - 6x_2 + 6x_3 - 4x_4 = 0$, so let's check for linear dependence.
+4. Subtract $2 \times$ first equation from the third: $[2x_1 - 6x_2 + 6x_3 - 4x_4] - 2[x_1 - 4x_2 + 7x_3 - 5x_4] = 2x_1 - 6x_2 + 6x_3 - 4x_4 - 2x_1 + 8x_2 - 14x_3 + 10x_4 = (2x_1 - 2x_1) + (-6x_2 + 8x_2) + (6x_3 - 14x_3) + (-4x_4 + 10x_4) = 2x_2 - 8x_3 + 6x_4$, which is not identically zero, so the third equation is not a linear combination of the first two.
+5. Let's proceed to row reduce $A$ to row echelon form to find the solution: Start with $A = \begin{bmatrix}1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4\end{bmatrix}$.
+6. Subtract $2 \times$ row 1 from row 3: Row 3 becomes $[2, -6, 6, -4] - 2 \times [1, -4, 7, -5] = [2-2, -6+8, 6-14, -4+10] = [0, 2, -8, 6]$.
+7. The matrix is now $\begin{bmatrix}1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 0 & 2 & -8 & 6\end{bmatrix}$.
+8. Subtract $2 \times$ row 2 from row 3: Row 3 becomes $[0,2,-8,6] - 2 \times [0,1,-4,3] = [0,2-2,-8+8,6-6] = [0,0,0,0]$.
+9. The matrix is now in row echelon form: $\begin{bmatrix}1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 0 & 0 & 0 & 0\end{bmatrix}$.
+10. Write the system: $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$.
+11. Express $x_2$ in terms of $x_3$ and $x_4$ from the second equation: $x_2 = 4x_3 - 3x_4$.
+12. Substitute $x_2$ into the first equation: $x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0$.
+13. Simplify: $x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0$.
+14. Combine like terms: $x_1 + (-16x_3 + 7x_3) + (12x_4 - 5x_4) = 0 \implies x_1 - 9x_3 + 7x_4 = 0$.
+15. Solve for $x_1$: $x_1 = 9x_3 - 7x_4$.
+16. Therefore, the general solution is $x_1 = 9x_3 - 7x_4$, $x_2 = 4x_3 - 3x_4$, $x_3 = x_3$, $x_4 = x_4$.
+17. Write the solution in vector form: $\mathbf{x} = x_3 \begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + x_4 \begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}$, where $x_3, x_4 \in \mathbb{R}$.
+18. Final answer: All $\mathbf{x} \in \mathbb{R}^4$ mapped to zero by $A$ are $\boxed{\mathbf{x} = x_3 \begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + x_4 \begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix},\ \text{where } x_3, x_4 \in \mathbb{R}}$.

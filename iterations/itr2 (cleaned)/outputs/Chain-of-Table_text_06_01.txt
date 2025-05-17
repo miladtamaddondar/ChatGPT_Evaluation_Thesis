@@ -1,0 +1,6 @@
+1. To find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \), we need each column of \( B \) to be a solution to \( A\mathbf{x} = 0 \); let's solve \( A\mathbf{x} = 0 \) where \( \mathbf{x} = \begin{bmatrix}x_1 \\ x_2\end{bmatrix} \): \(\begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix}\begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix}\).
+2. Write the augmented matrix: \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & -2 & 0\end{array}\right]\).
+3. Row operation: \( R_1 \to R_1 - 3R_2 \): \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & -2 & 0\end{array}\right] \xrightarrow{R_1 - 3R_2} \left[\begin{array}{cc|c}0 & 0 & 0 \\ 1 & -2 & 0\end{array}\right]\).
+4. The second row gives \( x_1 - 2x_2 = 0 \implies x_1 = 2x_2 \); let \( x_2 = t \), so \( \mathbf{x} = t\begin{bmatrix}2 \\ 1\end{bmatrix} \).
+5. To form \( B \) with two different nonzero columns, choose two different values for \( t \), say \( t = 1 \) and \( t = -1 \), giving columns \( \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \begin{bmatrix}-2 \\ -1\end{bmatrix} \).
+6. Thus, one possible \( B \) is \( \boxed{\begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix}} \).

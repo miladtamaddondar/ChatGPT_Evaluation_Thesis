@@ -1,0 +1,7 @@
+1. Express $q$ as a linear combination of the basis vectors: $q = c_1 p_1 + c_2 p_2 + c_3 p_3$, where $[q]_{\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \end{bmatrix}$, so $c_1 = -1$, $c_2 = 1$, $c_3 = 2$.
+2. Substitute the coefficients and basis polynomials: $q = (-1)(1 + t^2) + (1)(t - 3t^2) + (2)(1 + t - 3t^2)$.
+3. Distribute each coefficient: $q = -1 - t^2 + t - 3t^2 + 2(1) + 2(t) - 6t^2$.
+4. Expand and combine like terms: $q = (-1 + t - t^2 - 3t^2) + (2 + 2t - 6t^2)$.
+5. Group all like terms: $q = (-1 + 2) + (t + 2t) + (-t^2 - 3t^2 - 6t^2)$.
+6. Simplify each group: $q = 1 + 3t - 10t^2$.
+7. Final answer: $q = 1 + 3t - 10t^2$.

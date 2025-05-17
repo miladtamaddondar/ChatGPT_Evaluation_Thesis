@@ -1,0 +1,5 @@
+1. The matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) is formed by multiplying \(Q\) by each vector \(r_j\) and placing the results as columns.  
+2. We can write the matrix whose columns are \(r_1, \dots, r_p\) as \(R = \left[ r_1 \; r_2 \; \dots \; r_p \right]\), which is an \(n \times p\) matrix.  
+3. The product \(Q R\) gives an \(m \times p\) matrix whose \(j\)-th column is \(Q r_j\).  
+4. Therefore, \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q R\).  
+5. Final answer: \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\).

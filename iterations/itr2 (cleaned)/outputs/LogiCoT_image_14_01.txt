@@ -1,0 +1,10 @@
+1. Substitute \(\lambda = 5\) into \(A - \lambda I\): \(A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\).  
+2. The eigenspace dimension is the nullity of \(A - 5I\), which is \(4 - \text{rank}(A - 5I)\); for a two-dimensional eigenspace, we need \(\text{rank}(A - 5I) = 2\).  
+3. Row reduce \(A - 5I\): The last two rows are \([0\ 0\ 0\ 4]\) and \([0\ 0\ 0\ -4]\), which are linearly dependent, so only one contributes to the rank.  
+4. The first two rows are \([0\ -2\ 6\ -1]\) and \([0\ -2\ h\ 0]\); subtract the second from the first to get \([0\ 0\ 6-h\ -1]\).  
+5. For these two rows to be linearly dependent (so the total rank is 2), set \(6-h = 0\) and \(-1 = 0\), but \(-1 \neq 0\), so instead, ensure the first two rows are linearly dependent: \([0\ -2\ 6\ -1] = k[0\ -2\ h\ 0]\) for some \(k\).  
+6. Equate components: \(-2 = -2k\), so \(k = 1\); then \(6 = h\) and \(-1 = 0\), which is impossible, so instead, check if the third and fourth rows can be made linearly dependent with the first two.  
+7. The third and fourth rows are already linearly dependent, so focus on the first two rows: their \(2 \times 2\) submatrix \(\begin{bmatrix} -2 & 6 \\ -2 & h \end{bmatrix}\) must be rank 1 for the total rank to be 2.  
+8. Compute the determinant: \((-2)h - (-2)6 = -2h + 12\); set this to zero for rank 1: \(-2h + 12 = 0 \implies h = 6\).  
+9. Verify: With \(h = 6\), the first two rows become \([0\ -2\ 6\ -1]\) and \([0\ -2\ 6\ 0]\), which are linearly dependent except for the last entry, but the third and fourth rows are still only one rank, so total rank is 2.  
+10. Therefore, the value of \(h\) such that the eigenspace for \(\lambda = 5\) is two-dimensional is \(\boxed{6}\).

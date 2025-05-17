@@ -1,0 +1,4 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the images of the vectors \( r_1, \dots, r_p \) under the linear transformation defined by \( Q \), so stacking them as columns gives the matrix \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] \). 
+2. Recall that for any matrix \( Q \) and matrix \( R = [r_1 \; r_2 \; \dots \; r_p] \), the product \( Q R \) is the matrix whose columns are \( Q r_1, \dots, Q r_p \), so \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \). 
+3. Verify correctness: The product \( Q [r_1 \; r_2 \; \dots \; r_p] \) has as its \( j \)-th column \( Q r_j \), matching the original matrix, so the step is valid by the definition of matrix multiplication. 
+4. Therefore, the answer is: \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \), where neither factor is an identity matrix.

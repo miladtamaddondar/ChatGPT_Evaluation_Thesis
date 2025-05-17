@@ -1,0 +1,15 @@
+1. We are given \( A = \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \) and \( \mathbf{b} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix} \), and need to solve \( A\mathbf{x} = \mathbf{b} \).  
+2. To determine if the solution is unique, we check if \( A \) is invertible by computing \( \det(A) \).  
+3. Compute \( \det(A) = 1 \cdot (1 \cdot -5 - 6 \cdot -2) - 0 \cdot (-2 \cdot -5 - 6 \cdot 3) + (-2) \cdot (-2 \cdot -2 - 1 \cdot 3) \).  
+4. Simplify: \( \det(A) = 1 \cdot (-5 + 12) + 0 + (-2) \cdot (4 - 3) = 1 \cdot 7 + 0 + (-2) \cdot 1 = 7 - 2 = 5 \).  
+5. Since \( \det(A) \neq 0 \), \( A \) is invertible and the solution is unique by the Invertible Matrix Theorem.  
+6. The solution is \( \mathbf{x} = A^{-1}\mathbf{b} \); we can solve using row reduction or Cramer's rule.  
+7. Set up the augmented matrix: \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right] \).  
+8. Add 2 times row 1 to row 2: \( R_2 = R_2 + 2R_1 \) gives \( [0, 1, 2, 5] \) for row 2.  
+9. Subtract 3 times row 1 from row 3: \( R_3 = R_3 - 3R_1 \) gives \( [0, -2, 1, 0] \) for row 3.  
+10. Add 2 times row 2 to row 3: \( R_3 = R_3 + 2R_2 \) gives \( [0, 0, 5, 10] \) for row 3.  
+11. Now the system is upper triangular:  \[\begin{cases}x_1 - 2x_3 = -1 \\x_2 + 2x_3 = 5 \\5x_3 = 10\end{cases}\]
+12. Solve \( 5x_3 = 10 \implies x_3 = 2 \).  
+13. Substitute \( x_3 = 2 \) into the second equation: \( x_2 + 2(2) = 5 \implies x_2 = 1 \).  
+14. Substitute \( x_3 = 2 \) into the first equation: \( x_1 - 2(2) = -1 \implies x_1 = 3 \).  
+15. The unique solution is \( \mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix} \), and this is verified by the invertibility of \( A \).

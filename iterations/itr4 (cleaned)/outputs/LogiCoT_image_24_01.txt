@@ -1,0 +1,10 @@
+1. We are asked to find all vectors \(\mathbf{x} \in \mathbb{R}^4\) such that \(A\mathbf{x} = \mathbf{0}\), where \(A = \begin{bmatrix} 1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4 \end{bmatrix}\); this is finding the null space of \(A\).  
+2. Let \(\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix}\), so the system is \(\begin{cases} x_1 - 4x_2 + 7x_3 - 5x_4 = 0 \\ x_2 - 4x_3 + 3x_4 = 0 \\ 2x_1 - 6x_2 + 6x_3 - 4x_4 = 0 \end{cases}\); this follows from matrix multiplication.  
+3. The second equation gives \(x_2 = 4x_3 - 3x_4\); this is valid by isolating \(x_2\).  
+4. Substitute \(x_2\) into the first equation: \(x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0\), which simplifies to \(x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0\).  
+5. Combine like terms: \(x_1 - 9x_3 + 7x_4 = 0\), so \(x_1 = 9x_3 - 7x_4\); this is correct by algebraic manipulation.  
+6. Substitute \(x_1\) and \(x_2\) into the third equation: \(2(9x_3 - 7x_4) - 6(4x_3 - 3x_4) + 6x_3 - 4x_4 = 0\).  
+7. Expand: \(18x_3 - 14x_4 - 24x_3 + 18x_4 + 6x_3 - 4x_4 = 0\).  
+8. Combine like terms: \((18x_3 - 24x_3 + 6x_3) + (-14x_4 + 18x_4 - 4x_4) = 0\) gives \(0x_3 + 0x_4 = 0\); so the third equation is always satisfied, confirming our previous steps.  
+9. Thus, the general solution is \(x_1 = 9x_3 - 7x_4\), \(x_2 = 4x_3 - 3x_4\), \(x_3 = x_3\), \(x_4 = x_4\), where \(x_3, x_4\) are free variables.  
+10. Therefore, the solution set is \(\mathbf{x} = x_3 \begin{bmatrix} 9 \\ 4 \\ 1 \\ 0 \end{bmatrix} + x_4 \begin{bmatrix} -7 \\ -3 \\ 0 \\ 1 \end{bmatrix}\), where \(x_3, x_4 \in \mathbb{R}\).

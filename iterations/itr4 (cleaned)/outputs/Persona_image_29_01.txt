@@ -1,0 +1,6 @@
+1. Set up the system of equations from the transformation: \( T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8) \) gives the equations \( x_1 + x_2 = 3 \) and \( 4x_1 + 5x_2 = 8 \).  
+2. Solve the first equation for \( x_1 \): \( x_1 = 3 - x_2 \).  
+3. Substitute \( x_1 \) into the second equation: \( 4(3 - x_2) + 5x_2 = 8 \) gives \( 12 - 4x_2 + 5x_2 = 8 \).  
+4. Simplify and solve for \( x_2 \): \( 12 + x_2 = 8 \) so \( x_2 = 8 - 12 = -4 \).  
+5. Substitute \( x_2 = -4 \) back into \( x_1 = 3 - x_2 \): \( x_1 = 3 - (-4) = 3 + 4 = 7 \).  
+6. Final answer: The vector \( \mathbf{x} \) such that \( T(\mathbf{x}) = (3, 8) \) is \( \boxed{(7, -4)} \).

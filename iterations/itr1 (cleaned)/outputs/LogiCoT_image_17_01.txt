@@ -1,0 +1,5 @@
+1. To find the image under \( T \) of \( p(t) = 5 + 3t \), substitute \( p(t) \) into the definition: \( T(p) = \begin{bmatrix} p(-1) \\ p(0) \\ p(1) \end{bmatrix} \). 
+2. Compute \( p(-1) = 5 + 3(-1) = 2 \), \( p(0) = 5 + 3(0) = 5 \), \( p(1) = 5 + 3(1) = 8 \), so \( T(p) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix} \). 
+3. For the matrix of \( T \) relative to the basis \( \{1, t, t^2\} \) for \( \mathbb{P}_2 \) and the standard basis for \( \mathbb{R}^3 \), compute \( T(1) = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix} \), \( T(t) = \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix} \), \( T(t^2) = \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix} \). 
+4. The matrix is formed by placing these as columns: \( \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix} \). 
+5. Verify: Each column matches \( T \) applied to the basis elements, confirming correctness by the definition of a matrix representation of a linear transformation.

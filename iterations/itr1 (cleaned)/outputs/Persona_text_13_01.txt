@@ -1,0 +1,10 @@
+1. To find a basis for the eigenspace corresponding to \(\lambda = 4\), we solve \((A - 4I)\mathbf{x} = 0\). 
+2. Compute \(A - 4I = \begin{bmatrix}3-4 & 0 & 2 & 0 \\ 1 & 3-4 & 1 & 0 \\ 0 & 1 & 1-4 & 0 \\ 0 & 0 & 0 & 4-4\end{bmatrix} = \begin{bmatrix}-1 & 0 & 2 & 0 \\ 1 & -1 & 1 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 0 & 0\end{bmatrix}\). 
+3. Set up the homogeneous system: \(\begin{bmatrix}-1 & 0 & 2 & 0 \\ 1 & -1 & 1 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 0 & 0\end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}\). 
+4. Write the equations: (i) \(-x_1 + 2x_3 = 0\), (ii) \(x_1 - x_2 + x_3 = 0\), (iii) \(x_2 - 3x_3 = 0\), (iv) \(0 = 0\). 
+5. From (iii), \(x_2 = 3x_3\). 
+6. Substitute \(x_2 = 3x_3\) into (ii): \(x_1 - 3x_3 + x_3 = x_1 - 2x_3 = 0\), so \(x_1 = 2x_3\). 
+7. From (i), \(-x_1 + 2x_3 = -2x_3 + 2x_3 = 0\), which is satisfied. 
+8. Let \(x_3 = t\), then \(x_1 = 2t\), \(x_2 = 3t\), \(x_4\) is free, let \(x_4 = s\). 
+9. The general solution is \(\begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = t\begin{bmatrix}2 \\ 3 \\ 1 \\ 0\end{bmatrix} + s\begin{bmatrix}0 \\ 0 \\ 0 \\ 1\end{bmatrix}\). 
+10. Therefore, a basis for the eigenspace corresponding to \(\lambda = 4\) is \(\left\{ \begin{bmatrix}2 \\ 3 \\ 1 \\ 0\end{bmatrix}, \begin{bmatrix}0 \\ 0 \\ 0 \\ 1\end{bmatrix} \right\}\).

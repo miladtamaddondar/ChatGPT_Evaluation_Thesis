@@ -1,0 +1,7 @@
+1. Let the unknown matrix be \( A = \begin{bmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{bmatrix} \), and write the multiplication \( A \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix} \). 
+2. Equate the components: \( a_{11}x_1 + a_{12}x_2 + a_{13}x_3 = 3x_1 - 2x_3 \), \( a_{21}x_1 + a_{22}x_2 + a_{23}x_3 = 4x_1 \), \( a_{31}x_1 + a_{32}x_2 + a_{33}x_3 = x_1 - x_2 + x_3 \). 
+3. For the first row, compare coefficients: \( a_{11} = 3 \), \( a_{12} = 0 \), \( a_{13} = -2 \). 
+4. For the second row, compare coefficients: \( a_{21} = 4 \), \( a_{22} = 0 \), \( a_{23} = 0 \). 
+5. For the third row, compare coefficients: \( a_{31} = 1 \), \( a_{32} = -1 \), \( a_{33} = 1 \). 
+6. Assemble the completed matrix: \( A = \begin{bmatrix} 3 & 0 & -2 \\ 4 & 0 & 0 \\ 1 & -1 & 1 \end{bmatrix} \). 
+7. Verification: Multiply \( A \) by \( \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} \) to get \( \begin{bmatrix} 3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix} \), which matches the right side, confirming correctness.

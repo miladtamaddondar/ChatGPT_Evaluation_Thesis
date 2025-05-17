@@ -1,0 +1,14 @@
+1. The problem asks to write \(\mathbf{y}\) as the sum of a vector in \(W = \text{span}\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}\) and a vector orthogonal to \(W\), i.e., find \(\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp\) where \(\mathbf{y}_W \in W\) and \(\mathbf{y}_\perp \perp W\). 
+2. Since \(\mathbf{y}_W = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3\), set up the equation \(\mathbf{y} = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3 + \mathbf{y}_\perp\), and require \(\mathbf{y}_\perp\) to be orthogonal to each \(\mathbf{u}_i\) (so \(\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W\) and \(\mathbf{u}_i^T \mathbf{y}_\perp = 0\) for \(i=1,2,3\)). 
+3. This leads to the normal equations: \(\mathbf{u}_i^T \mathbf{y}_W = \mathbf{u}_i^T \mathbf{y}\) for \(i=1,2,3\), which gives a \(3 \times 3\) system for \(a_1, a_2, a_3\). 
+4. Compute the Gram matrix \(G\) with \(G_{ij} = \mathbf{u}_i^T \mathbf{u}_j\): \(G = \begin{bmatrix} 3 & -1 & 2 \\ -1 & 15 & -4 \\ 2 & -4 & 3 \end{bmatrix}\). 
+5. Compute the right-hand side vector \(\mathbf{b}\) with \(b_i = \mathbf{u}_i^T \mathbf{y}\): \(\mathbf{b} = \begin{bmatrix} 6 \\ 13 \\ -2 \end{bmatrix}\). 
+6. Write the system \(G \begin{bmatrix} a_1 \\ a_2 \\ a_3 \end{bmatrix} = \begin{bmatrix} 6 \\ 13 \\ -2 \end{bmatrix}\). 
+7. Form the augmented matrix: \(\left[\begin{array}{ccc|c} 3 & -1 & 2 & 6 \\ -1 & 15 & -4 & 13 \\ 2 & -4 & 3 & -2 \end{array}\right]\). 
+8. Row 2 plus Row 1: \(R_2 \rightarrow R_2 + R_1\): \(\left[\begin{array}{ccc|c} 3 & -1 & 2 & 6 \\ 2 & 14 & -2 & 19 \\ 2 & -4 & 3 & -2 \end{array}\right]\). 
+9. Row 3 minus Row 1: \(R_3 \rightarrow R_3 - R_1\): \(\left[\begin{array}{ccc|c} 3 & -1 & 2 & 6 \\ 2 & 14 & -2 & 19 \\ -1 & -3 & 1 & -8 \end{array}\right]\). 
+10. Row 2 minus \(2/3\) times Row 1: \(R_2 \rightarrow R_2 - \frac{2}{3}R_1\): \(\left[\begin{array}{ccc|c} 3 & -1 & 2 & 6 \\ 0 & \frac{44}{3} & -\frac{10}{3} & 15 \\ -1 & -3 & 1 & -8 \end{array}\right]\). 
+11. Row 3 plus \(1/3\) times Row 1: \(R_3 \rightarrow R_3 + \frac{1}{3}R_1\): \(\left[\begin{array}{ccc|c} 3 & -1 & 2 & 6 \\ 0 & \frac{44}{3} & -\frac{10}{3} & 15 \\ 0 & -\frac{10}{3} & \frac{5}{3} & -6 \end{array}\right]\). 
+12. Row 3 plus \(\frac{1}{44}\) times Row 2: \(R_3 \rightarrow R_3 + \frac{1}{44}R_2\): \(\left[\begin{array}{ccc|c} 3 & -1 & 2 & 6 \\ 0 & \frac{44}{3} & -\frac{10}{3} & 15 \\ 0 & 0 & 2 & -5 \end{array}\right]\). 
+13. Back-substitute: \(a_3 = \frac{-5}{2} = -2.5\), \(a_2 = \frac{15 + \frac{10}{3} \cdot 2.5}{\frac{44}{3}} = \frac{15 + 25/3}{44/3} = \frac{70}{44} = \frac{35}{22}\), \(a_1 = \frac{6 + 1 \cdot \frac{35}{22} - 2 \cdot 2.5}{3} = \frac{6 + \frac{35}{22} - 5}{3} = \frac{1 + \frac{35}{22}}{3} = \frac{\frac{57}{22}}{3} = \frac{57}{66}\). 
+14. Therefore, \(\mathbf{y}_W = \frac{57}{66}\mathbf{u}_1 + \frac{35}{22}\mathbf{u}_2 - 2.5\mathbf{u}_3\) and \(\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W\).

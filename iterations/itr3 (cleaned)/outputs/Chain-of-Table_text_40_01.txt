@@ -1,0 +1,9 @@
+1. Write each vector in $\mathcal{B}$ in terms of the standard basis $\{1, t, t^2\}$: $1 - 3t^2 = 1\cdot 1 + 0\cdot t + (-3)\cdot t^2$, $2 + t - 5t^2 = 2\cdot 1 + 1\cdot t + (-5)\cdot t^2$, $1 + 2t = 1\cdot 1 + 2\cdot t + 0\cdot t^2$.
+2. Form the change-of-coordinates matrix $P$ with these as columns: $P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$.
+3. To write $t^2$ as a linear combination, solve $c_1(1 - 3t^2) + c_2(2 + t - 5t^2) + c_3(1 + 2t) = t^2$, which gives the augmented matrix $\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ -3 & -5 & 0 & 1 \end{bmatrix}$.
+4. Apply $R_3 \leftarrow R_3 + 3R_1$: $\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 1 & 3 & 1 \end{bmatrix}$.
+5. Apply $R_3 \leftarrow R_3 - R_2$: $\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}$.
+6. Apply $R_2 \leftarrow R_2 - 2R_3$: $\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 0 & -2 \\ 0 & 0 & 1 & 1 \end{bmatrix}$.
+7. Apply $R_1 \leftarrow R_1 - R_3$: $\begin{bmatrix} 1 & 2 & 0 & -1 \\ 0 & 1 & 0 & -2 \\ 0 & 0 & 1 & 1 \end{bmatrix}$.
+8. Apply $R_1 \leftarrow R_1 - 2R_2$: $\begin{bmatrix} 1 & 0 & 0 & 3 \\ 0 & 1 & 0 & -2 \\ 0 & 0 & 1 & 1 \end{bmatrix}$.
+9. The solution is $c_1 = 3$, $c_2 = -2$, $c_3 = 1$, so $t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)$.

@@ -1,0 +1,12 @@
+1. Write the vectors as columns of a matrix $A = \begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 1 & -8 & -6 \\ 2 & -3 & 6 & 7 & 9 \end{bmatrix}$; this allows us to use row reduction to find linear independence.
+2. Perform row operations to row reduce $A$ to row echelon form; this will reveal the pivot columns, which correspond to linearly independent vectors.
+3. Subtract $-3$ times row 1 from row 3 and $2$ times row 1 from row 4: new row 3 is $(-3)-(1)(1)= -3-1 = -4$, but let's compute carefully: row 3: $[-3, -4, 1, 6] + 3 \times [1, 0, -3, 2] = [-3+3, -4+0, 1+(-9), 6+6] = [0, -4, -8, 12]$; row 4: $[2, 1, -6, 9] - 2 \times [1, 0, -3, 2] = [2-2, 1-0, -6+6, 9-4] = [0, 1, 0, 5]$.
+4. The updated matrix is $\begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & 2 & -3 & 1 \\ 0 & -4 & -8 & 12 & 0 \\ 0 & 1 & 0 & 5 & 1 \end{bmatrix}$; verify that the first two columns still have leading ones, so they are still candidates for the basis.
+5. Add $4$ times row 2 to row 3: row 3 becomes $[0, -4, -8, 12, 0] + 4 \times [0, 1, 2, -3, 1] = [0, 0, 0, 0, 4]$.
+6. Subtract row 2 from row 4: row 4 becomes $[0, 1, 0, 5, 1] - [0, 1, 2, -3, 1] = [0, 0, -2, 8, 0]$.
+7. The matrix is now $\begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & 2 & -3 & 1 \\ 0 & 0 & 0 & 0 & 4 \\ 0 & 0 & -2 & 8 & 0 \end{bmatrix}$; the third row now has a leading entry in the fifth column and the fourth row in the third column.
+8. Divide row 3 by $4$ to get a leading $1$: row 3 becomes $[0, 0, 0, 0, 1]$.
+9. Divide row 4 by $-2$ to get a leading $1$: row 4 becomes $[0, 0, 1, -4, 0]$.
+10. The row-echelon form is $\begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & 2 & -3 & 1 \\ 0 & 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & -4 & 0 \end{bmatrix}$; the pivot columns are 1, 2, 3, and 5.
+11. By the theory of row reduction, the pivot columns of the original matrix form a basis for the column space.
+12. Therefore, a basis for the space spanned by the vectors is $\left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \end{bmatrix} \right\}$.

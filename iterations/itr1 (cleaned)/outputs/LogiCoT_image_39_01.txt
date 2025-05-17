@@ -1,0 +1,5 @@
+1. Write the given equation in terms of components: Let \(\mathbf{u} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\), \(\mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}\), so \(\mathbf{u}\mathbf{v}^T = \begin{bmatrix} 1 \\ 2 \end{bmatrix} \begin{bmatrix} v_1 & v_2 & v_3 \end{bmatrix} = \begin{bmatrix} v_1 & v_2 & v_3 \\ 2v_1 & 2v_2 & 2v_3 \end{bmatrix}\).
+2. Set up the system by equating corresponding entries: \(\begin{bmatrix} v_1 & v_2 & v_3 \\ 2v_1 & 2v_2 & 2v_3 \end{bmatrix} = \begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \end{bmatrix}\).
+3. Write equations for each entry: \(v_1 = 1\), \(v_2 = -3\), \(v_3 = 4\), \(2v_1 = 2\), \(2v_2 = -6\), \(2v_3 = 8\).
+4. Verify consistency: \(2v_1 = 2 \implies v_1 = 1\), \(2v_2 = -6 \implies v_2 = -3\), \(2v_3 = 8 \implies v_3 = 4\); all consistent with previous results.
+5. State the solution: \(\mathbf{v} = \begin{bmatrix} 1 \\ -3 \\ 4 \end{bmatrix}\).

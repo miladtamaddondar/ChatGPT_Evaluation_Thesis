@@ -1,0 +1,11 @@
+1. To find a vector $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{b}$, set up the system: $\begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix}$.
+2. Write the augmented matrix: $\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right]$.
+3. Use row 1 to eliminate $x_1$ from rows 2 and 3: Row 2 $\to$ Row 2 + 2*Row 1: $[0\ 1\ 2\ |\ 5]$, Row 3 $\to$ Row 3 - 3*Row 1: $[0\ -2\ 1\ |\ 0]$.
+4. The new matrix is $\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & -2 & 1 & 0 \end{array}\right]$.
+5. Use row 2 to eliminate $x_2$ from row 3: Row 3 $\to$ Row 3 + 2*Row 2: $[0\ 0\ 5\ |\ 10]$.
+6. The matrix is now $\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 5 & 10 \end{array}\right]$.
+7. Solve for $x_3$ from row 3: $5x_3 = 10 \implies x_3 = 2$.
+8. Substitute $x_3 = 2$ into row 2: $x_2 + 2(2) = 5 \implies x_2 = 1$.
+9. Substitute $x_2 = 1$, $x_3 = 2$ into row 1: $x_1 - 2(2) = -1 \implies x_1 = 3$.
+10. The solution is $\mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix}$.
+11. Since the matrix reduces to an identity in the coefficient part, the solution is unique.

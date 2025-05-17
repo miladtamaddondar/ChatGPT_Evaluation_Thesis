@@ -1,0 +1,10 @@
+1. Set up the equation \(A\mathbf{x} = \mathbf{b}\) where \(A = \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix}\) and \(\mathbf{b} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix}\). 
+2. Write the augmented matrix: \(\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right]\). 
+3. Use row operations: Add 2 times row 1 to row 2: \(R_2 \rightarrow R_2 + 2R_1\), yielding \(\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 3 & -2 & -5 & -3 \end{array}\right]\). 
+4. Subtract 3 times row 1 from row 3: \(R_3 \rightarrow R_3 - 3R_1\), yielding \(\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & -2 & 1 & 0 \end{array}\right]\). 
+5. Add 2 times row 2 to row 3: \(R_3 \rightarrow R_3 + 2R_2\), yielding \(\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 5 & 10 \end{array}\right]\). 
+6. Divide row 3 by 5: \(R_3 \rightarrow \frac{1}{5}R_3\), yielding \(\left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 1 & 2 \end{array}\right]\). 
+7. Back substitute: From row 3, \(x_3 = 2\); from row 2, \(x_2 + 2x_3 = 5 \implies x_2 = 5 - 4 = 1\); from row 1, \(x_1 - 2x_3 = -1 \implies x_1 = -1 + 4 = 3\). 
+8. The solution is \(\mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix}\). 
+9. To check uniqueness, verify that the coefficient matrix \(A\) is invertible by checking its determinant: \(\det(A) = 1\begin{vmatrix}1 & 6 \\ -2 & -5\end{vmatrix} - 0 + (-2)\begin{vmatrix}-2 & 1 \\ 3 & -2\end{vmatrix} = 1((-1)-6) - 2((-2)-3) = 1(-1-12) - 2(-2-3) = 1(-11) - 2(-5) = -11 + 10 = -1\), which is nonzero, so the solution is unique. 
+10. Final answer: \(\mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix}\) and the solution is unique because \(\det(A) \neq 0\).

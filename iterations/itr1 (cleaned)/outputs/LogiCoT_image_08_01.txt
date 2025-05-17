@@ -1,0 +1,4 @@
+1. To construct a \(4 \times 3\) matrix with rank 1, recall that all rows must be scalar multiples of a single row (or all columns scalar multiples of a single column), so choose vectors \(\mathbf{u} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix}\) and \(\mathbf{v} = \begin{bmatrix} 5 & 6 & 7 \end{bmatrix}\) and form their outer product. 
+2. Compute the matrix \(A = \mathbf{u} \mathbf{v} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix} \begin{bmatrix} 5 & 6 & 7 \end{bmatrix} = \begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix}\). 
+3. Verify that all rows are scalar multiples of the first row: the second row is \(2\) times the first, the third row is \(3\) times the first, and the fourth row is \(4\) times the first, so the matrix has rank 1. 
+4. The constructed \(4 \times 3\) matrix with rank 1 is \(\begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix}\).

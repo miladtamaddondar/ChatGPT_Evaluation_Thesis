@@ -1,0 +1,6 @@
+1. Write the augmented matrix: \(\left[\begin{array}{cc|cc} 8 & 6 & 1 & 0 \\ 5 & 4 & 0 & 1 \end{array}\right]\)
+2. Replace Row 1 with Row 1 - (5/8)×Row 2: \(\left[\begin{array}{cc|cc} 8 & 6 & 1 & 0 \\ 0 & 0.25 & -0.625 & 1 \end{array}\right]\)
+3. Divide Row 1 by 8: \(\left[\begin{array}{cc|cc} 1 & 0.75 & 0.125 & 0 \\ 0 & 0.25 & -0.625 & 1 \end{array}\right]\)
+4. Divide Row 2 by 0.25: \(\left[\begin{array}{cc|cc} 1 & 0.75 & 0.125 & 0 \\ 0 & 1 & -2.5 & 4 \end{array}\right]\)
+5. Replace Row 1 with Row 1 - 0.75×Row 2: \(\left[\begin{array}{cc|cc} 1 & 0 & 2 & -3 \\ 0 & 1 & -2.5 & 4 \end{array}\right]\)
+6. The inverse is \(\left[\begin{array}{cc} 2 & -3 \\ -2.5 & 4 \end{array}\right]\)

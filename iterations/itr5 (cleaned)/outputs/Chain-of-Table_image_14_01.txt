@@ -1,0 +1,4 @@
+1. Subtract \(5I\) from \(A\) to form \(A - 5I\): \(\left[\begin{array}{cccc}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{array}\right]\).
+2. Row 4 divided by \(-4\): \(\left[\begin{array}{cccc}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 1\end{array}\right]\).
+3. Row 3 minus 4 times row 4: \(\left[\begin{array}{cccc}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{array}\right]\).
+4. To have a two-dimensional eigenspace, the nullity of \(A-5I\) must be 2, so the rank must be 2; for this, the second and first rows must be linearly dependent, so set \(h = 6\): Final answer: \(h = 6\).

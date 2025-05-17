@@ -1,0 +1,11 @@
+1. To write \(\mathbf{y}\) as the sum of a vector in \(W\) and a vector orthogonal to \(W\), we need to project \(\mathbf{y}\) onto the subspace \(W = \text{span}\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}\); this uses the projection formula for subspaces.  
+2. First, check if \(\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}\) are linearly independent by forming the matrix \(U = [\mathbf{u}_1\ \mathbf{u}_2\ \mathbf{u}_3]\) and checking its rank; if the rank is 3, they span a 3D subspace.  
+3. \(U = \begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix}\); by row reducing, we see the columns are linearly independent (since the determinant of the \(3 \times 3\) minor is nonzero), so \(W\) is 3-dimensional.  
+4. The projection of \(\mathbf{y}\) onto \(W\) is given by \(\mathbf{y}_W = U(U^T U)^{-1} U^T \mathbf{y}\); this formula projects onto the column space of \(U\).  
+5. Compute \(U^T U = \begin{bmatrix} 3 & -2 & 1 \\ -2 & 15 & -4 \\ 1 & -4 & 3 \end{bmatrix}\) by multiplying \(U^T\) and \(U\); this uses properties of matrix multiplication.  
+6. Compute \(U^T \mathbf{y} = \begin{bmatrix} 9 \\ 3 \\ -2 \end{bmatrix}\) by multiplying each row of \(U^T\) by \(\mathbf{y}\); this step finds the coordinates of \(\mathbf{y}\) in the basis.  
+7. Solve for \(\mathbf{c} = (U^T U)^{-1} U^T \mathbf{y}\), which gives the coefficients for the linear combination of \(\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\) that is the projection.  
+8. Calculate \(\mathbf{c}\) by solving the system \( (U^T U)\mathbf{c} = U^T \mathbf{y} \); using matrix algebra, we find \(\mathbf{c} = \begin{bmatrix} 2 \\ 0 \\ 1 \end{bmatrix}\).  
+9. The projection is \(\mathbf{y}_W = U\mathbf{c} = 2\mathbf{u}_1 + 0\mathbf{u}_2 + 1\mathbf{u}_3 = 2\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + \begin{bmatrix}-1\\0\\1\\1\end{bmatrix} = \begin{bmatrix}1\\2\\1\\3\end{bmatrix}\).  
+10. The orthogonal component is \(\mathbf{y}_{W^\perp} = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}1\\2\\1\\3\end{bmatrix} = \begin{bmatrix}3\\1\\2\\-4\end{bmatrix}\).  
+11. Final answer: \(\mathbf{y} = \underbrace{\begin{bmatrix}1\\2\\1\\3\end{bmatrix}}_{\text{in } W} + \underbrace{\begin{bmatrix}3\\1\\2\\-4\end{bmatrix}}_{\text{orthogonal to } W}\).

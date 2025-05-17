@@ -1,0 +1,4 @@
+1. To find the eigenvalues, set up the characteristic equation \(\det(A - \lambda I) = 0\): \(\det\begin{bmatrix}0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix} = 0\).  
+2. Since the matrix is upper triangular, the determinant is the product of the diagonal entries: \((0-\lambda)(2-\lambda)(1-\lambda) = 0\).  
+3. Set each factor equal to zero to find the eigenvalues: \(\lambda_1 = 0\), \(\lambda_2 = 2\), \(\lambda_3 = 1\).  
+4. Therefore, the eigenvalues of the matrix are \(\boxed{0,\, 2,\, 1}\).

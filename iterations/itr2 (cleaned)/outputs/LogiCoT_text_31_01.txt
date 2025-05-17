@@ -1,0 +1,7 @@
+1. Identify the set $W$ as all vectors of the form $\begin{bmatrix} 3a + b \\ 4a - 5b \end{bmatrix}$ where $a, b \in \mathbb{R}$. 
+2. Express the general vector in $W$ as a linear combination: $\begin{bmatrix} 3a + b \\ 4a - 5b \end{bmatrix} = a\begin{bmatrix} 3 \\ 4 \end{bmatrix} + b\begin{bmatrix} 1 \\ -5 \end{bmatrix}$. 
+3. Conclude that $W = \text{span}\left\{ \begin{bmatrix} 3 \\ 4 \end{bmatrix}, \begin{bmatrix} 1 \\ -5 \end{bmatrix} \right\}$. 
+4. Verify that $\begin{bmatrix} 3 \\ 4 \end{bmatrix}$ and $\begin{bmatrix} 1 \\ -5 \end{bmatrix}$ are linearly independent by checking if $x\begin{bmatrix} 3 \\ 4 \end{bmatrix} + y\begin{bmatrix} 1 \\ -5 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$ only has the solution $x = 0$, $y = 0$. 
+5. Set up the equations: $3x + y = 0$ and $4x - 5y = 0$; solve to get $y = -3x$, substitute into the second equation to get $4x - 5(-3x) = 4x + 15x = 19x = 0 \implies x = 0$, so $y = 0$. 
+6. Since the only solution is $x = 0$, $y = 0$, the vectors are linearly independent, so $W$ is a vector space. 
+7. Final answer: $S = \left\{ \begin{bmatrix} 3 \\ 4 \end{bmatrix}, \begin{bmatrix} 1 \\ -5 \end{bmatrix} \right\}$ spans $W$.

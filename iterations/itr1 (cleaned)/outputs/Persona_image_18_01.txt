@@ -1,0 +1,6 @@
+1. To find a basis \(\mathcal{B}\) for \(\mathbb{R}^2\) such that \([T]_{\mathcal{B}}\) is diagonal, we need to find the eigenvectors of \(A = \begin{bmatrix} 0 & 1 \\ -3 & 4 \end{bmatrix}\).  
+2. Compute the characteristic polynomial: \(\det(A - \lambda I) = \det\left(\begin{bmatrix} 0-\lambda & 1 \\ -3 & 4-\lambda \end{bmatrix}\right) = (0-\lambda)(4-\lambda) - (-3)(1) = \lambda^2 - 4\lambda + 3\).  
+3. Solve the characteristic equation: \(\lambda^2 - 4\lambda + 3 = 0\) gives \(\lambda = 1\) and \(\lambda = 3\).  
+4. For \(\lambda = 1\), solve \((A - I)\mathbf{v} = 0\): \(A - I = \begin{bmatrix} -1 & 1 \\ -3 & 3 \end{bmatrix}\), so \(-v_1 + v_2 = 0\) implies \(v_2 = v_1\), so an eigenvector is \(\mathbf{v}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\).  
+5. For \(\lambda = 3\), solve \((A - 3I)\mathbf{v} = 0\): \(A - 3I = \begin{bmatrix} -3 & 1 \\ -3 & 1 \end{bmatrix}\), so \(-3v_1 + v_2 = 0\) implies \(v_2 = 3v_1\), so an eigenvector is \(\mathbf{v}_2 = \begin{bmatrix} 1 \\ 3 \end{bmatrix}\).  
+6. The required basis \(\mathcal{B}\) is \(\left\{ \begin{bmatrix} 1 \\ 1 \end{bmatrix}, \begin{bmatrix} 1 \\ 3 \end{bmatrix} \right\}\).

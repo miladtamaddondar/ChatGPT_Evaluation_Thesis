@@ -1,0 +1,6 @@
+1. Write the augmented matrix \(\left[\begin{array}{cc|cc}8 & 6 & 1 & 0 \\ 5 & 4 & 0 & 1\end{array}\right]\).  
+2. Make the leading 1 in row 1 by dividing row 1 by 8: \(R_1 \to \frac{1}{8}R_1\), \(\left[\begin{array}{cc|cc}1 & \frac{3}{4} & \frac{1}{8} & 0 \\ 5 & 4 & 0 & 1\end{array}\right]\).  
+3. Eliminate the 5 below the leading 1 by \(R_2 \to R_2 - 5R_1\): \(\left[\begin{array}{cc|cc}1 & \frac{3}{4} & \frac{1}{8} & 0 \\ 0 & \frac{1}{4} & -\frac{5}{8} & 1\end{array}\right]\).  
+4. Make the leading 1 in row 2 by multiplying row 2 by 4: \(R_2 \to 4R_2\), \(\left[\begin{array}{cc|cc}1 & \frac{3}{4} & \frac{1}{8} & 0 \\ 0 & 1 & -\frac{5}{2} & 4\end{array}\right]\).  
+5. Eliminate the \(\frac{3}{4}\) above the leading 1 in column 2 by \(R_1 \to R_1 - \frac{3}{4}R_2\): \(\left[\begin{array}{cc|cc}1 & 0 & 2 & -3 \\ 0 & 1 & -\frac{5}{2} & 4\end{array}\right]\).  
+6. The inverse is \(\begin{bmatrix}2 & -3 \\ -\frac{5}{2} & 4\end{bmatrix}\).

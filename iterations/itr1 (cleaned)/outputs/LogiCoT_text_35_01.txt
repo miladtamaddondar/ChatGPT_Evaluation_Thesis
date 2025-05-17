@@ -1,0 +1,10 @@
+1. Express $p(t) = 1 + 4t + 7t^2$ as a linear combination of the basis elements: $p(t) = a(1+t^2) + b(t+t^2) + c(1+2t+t^2)$.  
+2. Expand the right side: $a(1+t^2) + b(t+t^2) + c(1+2t+t^2) = a + a t^2 + b t + b t^2 + c + 2c t + c t^2 = (a + c) + (b + 2c)t + (a + b + c)t^2$.  
+3. Equate coefficients with $p(t)$: $a + c = 1$, $b + 2c = 4$, $a + b + c = 7$.  
+4. Write the system of equations: $\begin{cases} a + c = 1 \\ b + 2c = 4 \\ a + b + c = 7 \end{cases}$.  
+5. Solve for $a$ and $b$ in terms of $c$: From the first, $a = 1 - c$; from the second, $b = 4 - 2c$.  
+6. Substitute $a$ and $b$ into the third equation: $(1-c) + (4-2c) + c = 7 \implies 1-c+4-2c+c=7 \implies 5 - 2c = 7$.  
+7. Solve for $c$: $5 - 2c = 7 \implies -2c = 2 \implies c = -1$.  
+8. Substitute $c = -1$ into $a = 1 - c$ and $b = 4 - 2c$: $a = 1 - (-1) = 2$, $b = 4 - 2(-1) = 6$.  
+9. Verify by plugging $a$, $b$, $c$ back into the original equations: $a + c = 2 + (-1) = 1$, $b + 2c = 6 + 2(-1) = 4$, $a + b + c = 2 + 6 + (-1) = 7$; all equations are satisfied.  
+10. Therefore, the coordinate vector of $p(t)$ relative to $\mathcal{B}$ is $\boxed{\begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix}}$.

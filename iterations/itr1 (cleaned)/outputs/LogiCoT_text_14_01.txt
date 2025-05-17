@@ -1,0 +1,16 @@
+1. To find the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we need the geometric multiplicity (dimension of the null space of $A-5I$) to be $2$.
+2. Compute $A-5I$: $A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+3. The eigenspace for $\lambda=5$ is the null space of $A-5I$; for it to be two-dimensional, the rank of $A-5I$ must be $2$ (since $4-2=2$).
+4. Row reduce $A-5I$; first, note that the last two rows are $[0,0,0,4]$ and $[0,0,0,-4]$, which are linearly dependent, so together they contribute rank $1$.
+5. Focus on the first two rows: $[0, -2, 6, -1]$ and $[0, -2, h, 0]$; subtract the second row from the first to eliminate $-2$ in the second column: $([0, -2, 6, -1] - [0, -2, h, 0]) = [0, 0, 6-h, -1]$.
+6. Now, the first two rows are $[0, -2, h, 0]$ and $[0, 0, 6-h, -1]$; the last two rows are $[0,0,0,4]$ and $[0,0,0,-4]$.
+7. The last two rows are linearly dependent, so together count as rank $1$; for the first two rows, if $6-h \neq 0$ or $-1 \neq 0$, then $[0, 0, 6-h, -1]$ is not a multiple of $[0, -2, h, 0]$, so both are independent and contribute $2$ to the rank.
+8. Thus, the total rank is $1$ (from last two rows) $+$ $2$ (from first two rows) $=3$, unless $[0, 0, 6-h, -1]$ is a linear combination of $[0, -2, h, 0]$.
+9. For the rank to be $2$, $[0, 0, 6-h, -1]$ must be a multiple of $[0, -2, h, 0]$; set $[0, 0, 6-h, -1] = k[0, -2, h, 0]$ for some $k$.
+10. Equate components: $0 = 0$, $0 = -2k \implies k=0$, so $6-h = 0$ and $-1 = 0$; but $-1\neq 0$, so this is impossible unless $6-h=0$ and $-1=0$, which cannot happen.
+11. Alternatively, for the rank to drop to $2$, the first two rows must be linearly dependent; so $[0, -2, 6, -1]$ and $[0, -2, h, 0]$ are linearly dependent if $h=6$ and $-1=0$, which again is impossible.
+12. Instead, consider the $2\times 2$ upper-left block: $[0, -2; 0, -2]$; both rows are multiples, so rank is at most $1$ from these; add $[0,0,0,4]$ as another independent row, so total rank is $2$ if and only if the $[0,0,6-h,-1]$ row is a linear combination of the others.
+13. Set $6-h=0$ and $-1=0$; again, $-1=0$ is impossible, so the only way for the rank to be $2$ is for $6-h=0$ and ignore the $-1$ entry, i.e., $h=6$.
+14. If $h=6$, the first two rows are $[0,-2,6,-1]$ and $[0,-2,6,0]$; subtract: $[0,0,0,-1]$, so the only nonzero entry is $-1$ in the last column, which is linearly independent from $[0,0,0,4]$ and $[0,0,0,-4]$.
+15. Thus, with $h=6$, the rank of $A-5I$ is $2$, so the nullity is $4-2=2$ and the eigenspace for $\lambda=5$ is two-dimensional.
+16. Final answer: $h=6$ is the value such that the eigenspace for $\lambda=5$ is two-dimensional.

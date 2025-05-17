@@ -1,0 +1,5 @@
+1. Find the eigenvalues of \(A\) by solving \(\det(A - \lambda I) = 0\): \(\det\left(\begin{bmatrix}0-\lambda & 1 \\ -3 & 4-\lambda\end{bmatrix}\right) = (0-\lambda)(4-\lambda) - (-3)(1) = \lambda^2 - 4\lambda + 3 = 0\).  
+2. Solve the characteristic equation \(\lambda^2 - 4\lambda + 3 = 0\): The roots are \(\lambda = 1\) and \(\lambda = 3\).  
+3. For \(\lambda = 1\), solve \((A - I)\mathbf{v} = 0\): \(A - I = \begin{bmatrix}-1 & 1 \\ -3 & 3\end{bmatrix}\), so \(-v_1 + v_2 = 0\) and \(-3v_1 + 3v_2 = 0\), giving eigenvector \(\mathbf{v}_1 = \begin{bmatrix}1 \\ 1\end{bmatrix}\).  
+4. For \(\lambda = 3\), solve \((A - 3I)\mathbf{v} = 0\): \(A - 3I = \begin{bmatrix}-3 & 1 \\ -3 & 1\end{bmatrix}\), so \(-3v_1 + v_2 = 0\), giving eigenvector \(\mathbf{v}_2 = \begin{bmatrix}1 \\ 3\end{bmatrix}\).  
+5. The set \(\mathcal{B} = \left\{\begin{bmatrix}1 \\ 1\end{bmatrix}, \begin{bmatrix}1 \\ 3\end{bmatrix}\right\}\) is a basis for \(\mathbb{R}^2\) consisting of eigenvectors of \(A\), so \([T]_{\mathcal{B}} = \begin{bmatrix}1 & 0 \\ 0 & 3\end{bmatrix}\) is diagonal.

@@ -1,0 +1,7 @@
+1. Since $T$ is linear and $T(\mathbf{e}_1) = \mathbf{y}_1$, $T(\mathbf{e}_2) = \mathbf{y}_2$, for any vector $\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = x_1 \mathbf{y}_1 + x_2 \mathbf{y}_2$.
+2. Compute $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = 5\mathbf{y}_1 + (-3)\mathbf{y}_2 = 5\begin{bmatrix} 2 \\ 5 \end{bmatrix} - 3\begin{bmatrix} -1 \\ 6 \end{bmatrix}$.
+3. Calculate $5\begin{bmatrix} 2 \\ 5 \end{bmatrix} = \begin{bmatrix} 10 \\ 25 \end{bmatrix}$ and $-3\begin{bmatrix} -1 \\ 6 \end{bmatrix} = \begin{bmatrix} 3 \\ -18 \end{bmatrix}$.
+4. Add the results: $\begin{bmatrix} 10 \\ 25 \end{bmatrix} + \begin{bmatrix} 3 \\ -18 \end{bmatrix} = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$.
+5. So, $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$.
+6. For a general vector, $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = x_1\begin{bmatrix} 2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} -1 \\ 6 \end{bmatrix} = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.
+7. Final answers: $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$ and $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.

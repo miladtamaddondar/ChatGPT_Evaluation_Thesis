@@ -1,0 +1,6 @@
+1. Identify the transformation: The transformation \( T \) is a counterclockwise rotation by \( \frac{3\pi}{2} \) radians in \( \mathbb{R}^2 \). 
+2. Recall the standard rotation matrix: The standard matrix for a counterclockwise rotation by angle \( \theta \) is \( \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix} \). 
+3. Substitute \( \theta = \frac{3\pi}{2} \): \( \cos\left(\frac{3\pi}{2}\right) = 0 \) and \( \sin\left(\frac{3\pi}{2}\right) = -1 \), so the matrix becomes \( \begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} \). 
+4. Simplify the matrix: \( \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix} \). 
+5. Verify by applying to basis vectors: \( T\left(\begin{bmatrix}1\\0\end{bmatrix}\right) = \begin{bmatrix}0\\-1\end{bmatrix} \) and \( T\left(\begin{bmatrix}0\\1\end{bmatrix}\right) = \begin{bmatrix}1\\0\end{bmatrix} \), which matches a \( \frac{3\pi}{2} \) rotation. 
+6. Final answer: The standard matrix of \( T \) is \( \boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}} \).

@@ -1,0 +1,5 @@
+1. Identify the size of matrix \( A \): \( A \) is a \( 4 \times 6 \) matrix (4 rows, 6 columns). 
+2. Count the number of pivot columns (leading 1s in each row): There are 3 pivot columns (columns 1, 3, and 4). 
+3. By the Rank Theorem, the rank of \( A \) (dimension of Col \( A \)) is the number of pivot columns, so \(\dim(\text{Col } A) = 3\). 
+4. The dimension of Nul \( A \) is the number of free variables, which is the number of columns minus the rank: \(6 - 3 = 3\), so \(\dim(\text{Nul } A) = 3\). 
+5. Final answer: \(\boxed{\dim(\text{Col } A) = 3, \quad \dim(\text{Nul } A) = 3}\).

@@ -1,0 +1,9 @@
+1. To find the coordinate vector of $p(t) = 1 + 4t + 7t^2$ relative to $\mathcal{B}$, we need to find scalars $c_1, c_2, c_3$ such that $p(t) = c_1(1 + t^2) + c_2(t + t^2) + c_3(1 + 2t + t^2)$.  
+2. Expand the right side: $c_1(1 + t^2) + c_2(t + t^2) + c_3(1 + 2t + t^2) = c_1 + c_1 t^2 + c_2 t + c_2 t^2 + c_3 + 2c_3 t + c_3 t^2$.  
+3. Combine like terms: $(c_1 + c_3) + (c_2 + 2c_3)t + (c_1 + c_2 + c_3)t^2$.  
+4. Set this equal to $1 + 4t + 7t^2$ and equate coefficients: $c_1 + c_3 = 1$, $c_2 + 2c_3 = 4$, $c_1 + c_2 + c_3 = 7$.  
+5. Solve the first equation for $c_1$: $c_1 = 1 - c_3$.  
+6. Substitute $c_1$ into the third equation: $(1 - c_3) + c_2 + c_3 = 7 \implies 1 + c_2 = 7 \implies c_2 = 6$.  
+7. Substitute $c_2 = 6$ into the second equation: $6 + 2c_3 = 4 \implies 2c_3 = -2 \implies c_3 = -1$.  
+8. Substitute $c_3 = -1$ into $c_1 = 1 - c_3$: $c_1 = 1 - (-1) = 2$.  
+9. Therefore, the coordinate vector of $p(t)$ relative to $\mathcal{B}$ is $\begin{bmatrix}2\\6\\-1\end{bmatrix}$.

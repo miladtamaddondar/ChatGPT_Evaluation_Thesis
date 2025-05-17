@@ -1,0 +1,9 @@
+1. Subtract $5I$ from $A$ to form $A-5I$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+2. Write the augmented matrix for the homogeneous system $(A-5I)\vec{x} = \vec{0}$: $\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 4 & 0 \\ 0 & 0 & 0 & -4 & 0\end{array}\right]$.
+3. Add row 4 to row 3 to eliminate the $4$ in row 3: $\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4 & 0\end{array}\right]$.
+4. Divide row 4 by $-4$ to get a leading $1$: $\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 0\end{array}\right]$.
+5. Use row 4 to eliminate the $-1$ in row 1, by adding row 4 to row 1: $\left[\begin{array}{cccc|c}0 & -2 & 6 & 0 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 0\end{array}\right]$.
+6. Divide row 1 and row 2 by $-2$ to get leading $1$s: $\left[\begin{array}{cccc|c}0 & 1 & -3 & 0 & 0 \\ 0 & 1 & -\frac{h}{2} & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 0\end{array}\right]$.
+7. Subtract row 1 from row 2 to eliminate the $1$ in row 2, column 2: $\left[\begin{array}{cccc|c}0 & 1 & -3 & 0 & 0 \\ 0 & 0 & 3-\frac{h}{2} & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 0\end{array}\right]$.
+8. For the eigenspace to be two-dimensional, the number of free variables must be $2$, so the rank of the coefficient matrix must be $2$. This requires $3-\frac{h}{2}=0$, so $h=6$.
+9. Final answer: $h=6$.

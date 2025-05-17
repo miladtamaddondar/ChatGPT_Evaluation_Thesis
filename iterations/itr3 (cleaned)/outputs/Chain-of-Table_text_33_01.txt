@@ -1,0 +1,2 @@
+1. To find $k$ for $\text{Nul }A$, observe that $\text{Nul }A$ consists of all solutions to $A\vec{x} = \vec{0}$, where $\vec{x} \in \mathbb{R}^k$; since $A$ has 2 columns, $k = 2$.
+2. To find $k$ for $\text{Col }A$, observe that $\text{Col }A$ is the span of the columns of $A$, which are vectors in $\mathbb{R}^4$ (since $A$ has 4 rows), so $k = 4$.

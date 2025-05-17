@@ -1,0 +1,8 @@
+1. Subtract \(4I\) from \(A\) to form \(A - 4I\): \(\begin{bmatrix}-1 & 0 & 2 & 0 \\ 1 & -1 & 1 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).
+2. Write the augmented matrix for \((A-4I)\vec{x} = 0\): \(\left[\begin{array}{cccc|c}-1 & 0 & 2 & 0 & 0 \\ 1 & -1 & 1 & 0 & 0 \\ 0 & 1 & -3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\).
+3. Add row 1 to row 2: \(\left[\begin{array}{cccc|c}-1 & 0 & 2 & 0 & 0 \\ 0 & -1 & 3 & 0 & 0 \\ 0 & 1 & -3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\).
+4. Add row 2 to row 3: \(\left[\begin{array}{cccc|c}-1 & 0 & 2 & 0 & 0 \\ 0 & -1 & 3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\).
+5. Multiply row 1 by \(-1\): \(\left[\begin{array}{cccc|c}1 & 0 & -2 & 0 & 0 \\ 0 & -1 & 3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\).
+6. Multiply row 2 by \(-1\): \(\left[\begin{array}{cccc|c}1 & 0 & -2 & 0 & 0 \\ 0 & 1 & -3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\).
+7. The reduced system is \(x_1 - 2x_3 = 0\), \(x_2 - 3x_3 = 0\), \(x_4\) free, \(x_3\) free; so the general solution is \(\vec{x} = x_3\begin{bmatrix}2\\3\\1\\0\end{bmatrix} + x_4\begin{bmatrix}0\\0\\0\\1\end{bmatrix}\).
+8. Final answer: A basis for the eigenspace is \(\left\{\begin{bmatrix}2\\3\\1\\0\end{bmatrix},\begin{bmatrix}0\\0\\0\\1\end{bmatrix}\right\}\).

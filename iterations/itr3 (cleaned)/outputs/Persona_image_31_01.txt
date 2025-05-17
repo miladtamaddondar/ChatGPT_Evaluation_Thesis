@@ -1,0 +1,5 @@
+1. Description: Let \( W \) be the set of all vectors of the form \( \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} \) where \( a, b \in \mathbb{R} \); we need to determine if \( W \) is a vector space by checking if it is closed under addition and scalar multiplication, and if it contains the zero vector. 
+2. Description and calculation: The zero vector in \( \mathbb{R}^3 \) is \( \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} \); set \( 3a + b = 0 \), \( 4 = 0 \), and \( a - 5b = 0 \). 
+3. Description and calculation: The second component \( 4 = 0 \) is never true for any real \( a, b \), so the zero vector is not in \( W \). 
+4. Description and calculation: Since \( W \) does not contain the zero vector, it cannot be a vector space. 
+5. Final answer: \( W \) is not a vector space because it does not contain the zero vector.

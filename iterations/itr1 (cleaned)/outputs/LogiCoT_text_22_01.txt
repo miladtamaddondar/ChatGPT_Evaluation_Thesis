@@ -1,0 +1,4 @@
+1. The standard matrix for a rotation by angle $\theta$ counterclockwise about the origin in $\mathbb{R}^2$ is $\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$; for $\theta = \frac{3\pi}{2}$, substitute to get $\begin{bmatrix} \cos\left(\frac{3\pi}{2}\right) & -\sin\left(\frac{3\pi}{2}\right) \\ \sin\left(\frac{3\pi}{2}\right) & \cos\left(\frac{3\pi}{2}\right) \end{bmatrix}$.
+2. Compute $\cos\left(\frac{3\pi}{2}\right) = 0$ and $\sin\left(\frac{3\pi}{2}\right) = -1$, so the matrix becomes $\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$.
+3. Verify correctness: the determinant is $(0)(0) - (1)(-1) = 1$, which is consistent with a rotation matrix (determinant $1$), and the rank is $2$ (full rank), confirming it is invertible and thus a valid rotation matrix.
+4. The standard matrix of $T$ is $\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}$.

@@ -1,0 +1,6 @@
+1. The matrix $A$ is a $4 \times 6$ matrix, so it has 4 rows and 6 columns.
+2. The rank of $A$ is the number of leading 1's (pivots) in its row echelon form; from the matrix, we see pivots in columns 1, 3, and 4, so $\operatorname{rank} A = 3$.
+3. By the Rank-Nullity Theorem, $\operatorname{rank} A + \dim(\operatorname{Nul} A) = \text{number of columns of } A = 6$.
+4. Solving for $\dim(\operatorname{Nul} A)$ gives $\dim(\operatorname{Nul} A) = 6 - 3 = 3$.
+5. The dimension of $\operatorname{Col} A$ is the rank, so $\dim(\operatorname{Col} A) = 3$.
+6. Final answer: $\dim(\operatorname{Nul} A) = 3$ and $\dim(\operatorname{Col} A) = 3$.

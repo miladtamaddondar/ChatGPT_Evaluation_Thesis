@@ -1,0 +1,2 @@
+1. The matrix $A$ has 2 columns and 4 rows, so $\text{Nul }A$ consists of all vectors $\mathbf{x} \in \mathbb{R}^2$ such that $A\mathbf{x} = \mathbf{0}$, thus $k = 2$ for $\text{Nul }A$.
+2. The columns of $A$ are vectors in $\mathbb{R}^4$, so $\text{Col }A$ is a subspace of $\mathbb{R}^4$, thus $k = 4$ for $\text{Col }A$.

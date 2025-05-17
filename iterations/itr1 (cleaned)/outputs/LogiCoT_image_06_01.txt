@@ -1,0 +1,8 @@
+1. We need to find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), where \(A = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix}\); this means each column of \(B\) must be in the null space of \(A\). 
+2. Set \(B = \begin{bmatrix} \mathbf{b}_1 & \mathbf{b}_2 \end{bmatrix}\) where \(\mathbf{b}_1\) and \(\mathbf{b}_2\) are two different nonzero vectors in the null space of \(A\). 
+3. To find the null space, solve \(A\mathbf{x} = 0\) where \(\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\): \(3x_1 - 6x_2 = 0\) and \(-x_1 + 2x_2 = 0\). 
+4. Both equations are equivalent; from the first, \(x_1 = 2x_2\), so the null space is all scalar multiples of \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\). 
+5. Choose two different nonzero multiples, e.g., \(\mathbf{b}_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\) and \(\mathbf{b}_2 = \begin{bmatrix} 4 \\ 2 \end{bmatrix}\). 
+6. Construct \(B = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}\). 
+7. Verify: \(AB = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix} = \begin{bmatrix} 3 \cdot 2 + (-6) \cdot 1 & 3 \cdot 4 + (-6) \cdot 2 \\ -1 \cdot 2 + 2 \cdot 1 & -1 \cdot 4 + 2 \cdot 2 \end{bmatrix} = \begin{bmatrix} 6 - 6 & 12 - 12 \\ -2 + 2 & -4 + 4 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}\), so the answer is correct. 
+8. Final answer: \(B = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}\) is a \(2 \times 2\) matrix with two different nonzero columns such that \(AB = 0\).

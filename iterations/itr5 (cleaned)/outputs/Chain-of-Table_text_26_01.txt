@@ -1,0 +1,6 @@
+1. To find the matrix $A$ such that $T(\vec{x}) = A\vec{x}$, we express $T(x_1, x_2, x_3, x_4)$ as a linear combination of $x_1, x_2, x_3, x_4$: $T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)$.
+2. The first entry is always $0$, so the first row of $A$ is $(0, 0, 0, 0)$.
+3. The second entry is $x_1 + x_2$, so the second row is $(1, 1, 0, 0)$.
+4. The third entry is $x_2 + x_3$, so the third row is $(0, 1, 1, 0)$.
+5. The fourth entry is $x_3 + x_4$, so the fourth row is $(0, 0, 1, 1)$.
+6. Therefore, the matrix that implements $T$ is $\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$.

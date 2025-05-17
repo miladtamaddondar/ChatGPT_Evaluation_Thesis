@@ -1,0 +1,6 @@
+1. To find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \), each column of \( B \) must be in the null space of \( A \). 
+2. Let \( \mathbf{b}_1 = \begin{bmatrix}x_1 \\ x_2\end{bmatrix} \) and \( \mathbf{b}_2 = \begin{bmatrix}y_1 \\ y_2\end{bmatrix} \) be the columns of \( B \), so \( A\mathbf{b}_1 = 0 \) and \( A\mathbf{b}_2 = 0 \). 
+3. Set up the system for \( \mathbf{b}_1 \): \( \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix} \begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \), which gives the equations \( 3x_1 - 6x_2 = 0 \) and \( x_1 - 2x_2 = 0 \). 
+4. Solving \( x_1 - 2x_2 = 0 \) gives \( x_1 = 2x_2 \), so the null space is spanned by \( \begin{bmatrix}2 \\ 1\end{bmatrix} \). 
+5. Thus, any nonzero scalar multiple of \( \begin{bmatrix}2 \\ 1\end{bmatrix} \) is a solution; choose \( \mathbf{b}_1 = \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \mathbf{b}_2 = \begin{bmatrix}-4 \\ -2\end{bmatrix} \) (a different nonzero multiple). 
+6. Therefore, \( B = \begin{bmatrix}2 & -4 \\ 1 & -2\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

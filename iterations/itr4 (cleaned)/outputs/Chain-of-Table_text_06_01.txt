@@ -1,0 +1,7 @@
+1. To find \( B \) such that \( AB = 0 \), we need each column \( \vec{b}_1, \vec{b}_2 \) of \( B \) to satisfy \( A\vec{b}_i = 0 \). Let \( \vec{b} = \begin{bmatrix}x \\ y\end{bmatrix} \), so \( A\vec{b} = \begin{bmatrix}3x - 6y \\ x - 2y\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).
+2. The system is \( 3x - 6y = 0 \) and \( x - 2y = 0 \). Let's write the augmented matrix: \( \left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & -2 & 0\end{array}\right] \).
+3. Row 1: \( R_1 \leftarrow \frac{1}{3}R_1 \): \( \left[\begin{array}{cc|c}1 & -2 & 0 \\ 1 & -2 & 0\end{array}\right] \).
+4. Row 2: \( R_2 \leftarrow R_2 - R_1 \): \( \left[\begin{array}{cc|c}1 & -2 & 0 \\ 0 & 0 & 0\end{array}\right] \).
+5. The solution is \( x - 2y = 0 \implies x = 2y \), so the general solution is \( \begin{bmatrix}2y \\ y\end{bmatrix} \) for any \( y \neq 0 \).
+6. Choose \( y = 1 \) to get the first column: \( \vec{b}_1 = \begin{bmatrix}2 \\ 1\end{bmatrix} \). Choose \( y = -1 \) to get the second column: \( \vec{b}_2 = \begin{bmatrix}-2 \\ -1\end{bmatrix} \).
+7. Thus, \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

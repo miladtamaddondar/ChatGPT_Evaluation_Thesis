@@ -1,0 +1,7 @@
+1. Compute the dot product $\mathbf{u} \cdot \mathbf{v} = 2 \times (-7) + (-5) \times (-4) + (-1) \times 6 = -14 + 20 - 6 = 0$; since the dot product is zero, $\mathbf{u}$ and $\mathbf{v}$ are orthogonal by definition.  
+2. Compute $\|\mathbf{u}\|^2 = 2^2 + (-5)^2 + (-1)^2 = 4 + 25 + 1 = 30$; this uses the definition of the squared norm as the sum of the squares of the components.  
+3. Compute $\|\mathbf{v}\|^2 = (-7)^2 + (-4)^2 + 6^2 = 49 + 16 + 36 = 101$; again, this follows the squared norm formula.  
+4. Compute $\mathbf{u} + \mathbf{v} = \begin{bmatrix} 2 + (-7) \\ -5 + (-4) \\ -1 + 6 \end{bmatrix} = \begin{bmatrix} -5 \\ -9 \\ 5 \end{bmatrix}$; this is the component-wise sum of vectors.  
+5. Compute $\|\mathbf{u} + \mathbf{v}\|^2 = (-5)^2 + (-9)^2 + 5^2 = 25 + 81 + 25 = 131$; this uses the squared norm formula for the sum vector.  
+6. Compare with the identity $\|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + 2\mathbf{u} \cdot \mathbf{v} + \|\mathbf{v}\|^2 = 30 + 2 \times 0 + 101 = 131$; the calculation matches, verifying the result using the polarization identity.  
+7. Final answer: $\mathbf{u} \cdot \mathbf{v} = 0$, $\|\mathbf{u}\|^2 = 30$, $\|\mathbf{v}\|^2 = 101$, $\|\mathbf{u} + \mathbf{v}\|^2 = 131$.

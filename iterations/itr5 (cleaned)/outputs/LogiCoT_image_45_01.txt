@@ -1,0 +1,6 @@
+1. Compute the dot product \(\mathbf{u} \cdot \mathbf{v} = 2 \times (-7) + (-5) \times (-4) + (-1) \times 6 = -14 + 20 - 6 = 0\); this is correct by the definition of the dot product.  
+2. Compute \(\|\mathbf{u}\|^2 = 2^2 + (-5)^2 + (-1)^2 = 4 + 25 + 1 = 30\); this follows from the definition of the squared norm.  
+3. Compute \(\|\mathbf{v}\|^2 = (-7)^2 + (-4)^2 + 6^2 = 49 + 16 + 36 = 101\); this is correct by the same squared norm definition.  
+4. Compute \(\mathbf{u} + \mathbf{v} = \begin{bmatrix} 2 + (-7) \\ -5 + (-4) \\ -1 + 6 \end{bmatrix} = \begin{bmatrix} -5 \\ -9 \\ 5 \end{bmatrix}\); this is correct by vector addition.  
+5. Compute \(\|\mathbf{u} + \mathbf{v}\|^2 = (-5)^2 + (-9)^2 + 5^2 = 25 + 81 + 25 = 131\); this is correct by the squared norm definition.  
+6. Compare the results: \(\mathbf{u} \cdot \mathbf{v} = 0\), \(\|\mathbf{u}\|^2 = 30\), \(\|\mathbf{v}\|^2 = 101\), \(\|\mathbf{u} + \mathbf{v}\|^2 = 131\); note that \(\|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + \|\mathbf{v}\|^2\) since \(\mathbf{u} \cdot \mathbf{v} = 0\), confirming the Pythagorean theorem for orthogonal vectors.

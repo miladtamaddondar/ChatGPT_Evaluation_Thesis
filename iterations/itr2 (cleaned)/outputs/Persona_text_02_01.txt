@@ -1,0 +1,4 @@
+1. The vector $\mathbf{x}$ is given in terms of its coordinates relative to the basis $B = \left\{ \begin{bmatrix} 1 \\ 1 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \end{bmatrix} \right\}$, with coordinate vector $\left[ \mathbf{x} \right]_B = \begin{bmatrix} 3 \\ 2 \end{bmatrix}$, so we use the formula $\mathbf{x} = c_1 \mathbf{b}_1 + c_2 \mathbf{b}_2$ where $c_1 = 3$, $c_2 = 2$, $\mathbf{b}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$, and $\mathbf{b}_2 = \begin{bmatrix} 2 \\ -1 \end{bmatrix}$. 
+2. Substitute the values to get $\mathbf{x} = 3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} + 2 \begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \end{bmatrix}$. 
+3. Add the vectors to obtain $\mathbf{x} = \begin{bmatrix} 3+4 \\ 3+(-2) \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$. 
+4. Therefore, the vector $\mathbf{x}$ in standard coordinates is $\boxed{\begin{bmatrix} 7 \\ 1 \end{bmatrix}}$.

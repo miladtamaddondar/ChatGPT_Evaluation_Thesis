@@ -1,0 +1,5 @@
+1. The transformation \( T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4) \) can be represented as a matrix multiplication \( T(\mathbf{x}) = A\mathbf{x} \), where \( \mathbf{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} \).  
+2. To find the matrix \( A \), write the output as a linear combination of the inputs: the first entry is always 0, the second is \( x_1 + x_2 \), the third is \( x_2 + x_3 \), and the fourth is \( x_3 + x_4 \).  
+3. Expressing this as a matrix, we get \( A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \).  
+4. To verify, compute \( A\mathbf{x} = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \), which matches the transformation.  
+5. Therefore, \( T \) is a linear transformation and the matrix that implements the mapping is \( \boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}} \).

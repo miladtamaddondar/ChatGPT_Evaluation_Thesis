@@ -1,0 +1,8 @@
+1. Write the augmented matrix: \(\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3\end{array}\right]\).
+2. Add 2 times row 1 to row 2: \(R_2 \leftarrow R_2 + 2R_1\): \(\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 3 & -2 & -5 & -3\end{array}\right]\).
+3. Subtract 3 times row 1 from row 3: \(R_3 \leftarrow R_3 - 3R_1\): \(\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & -2 & 1 & 0\end{array}\right]\).
+4. Add 2 times row 2 to row 3: \(R_3 \leftarrow R_3 + 2R_2\): \(\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 5 & 10\end{array}\right]\).
+5. Divide row 3 by 5: \(R_3 \leftarrow \frac{1}{5}R_3\): \(\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 1 & 2\end{array}\right]\).
+6. Subtract 2 times row 3 from row 2: \(R_2 \leftarrow R_2 - 2R_3\): \(\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 2\end{array}\right]\).
+7. Add 2 times row 3 to row 1: \(R_1 \leftarrow R_1 + 2R_3\): \(\left[\begin{array}{ccc|c}1 & 0 & 0 & 3 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 2\end{array}\right]\).
+8. The unique solution is \(\mathbf{x} = \begin{bmatrix}3 \\ 1 \\ 2\end{bmatrix}\), so \(\mathbf{x}\) is unique.

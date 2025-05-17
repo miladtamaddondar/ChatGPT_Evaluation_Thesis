@@ -1,0 +1,5 @@
+1. Since $T$ is linear and $T(\mathbf{e}_1) = \mathbf{y}_1$, $T(\mathbf{e}_2) = \mathbf{y}_2$, for any vector $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, we can write $\mathbf{x} = x_1\mathbf{e}_1 + x_2\mathbf{e}_2$.
+2. By linearity, $T(\mathbf{x}) = T(x_1\mathbf{e}_1 + x_2\mathbf{e}_2) = x_1 T(\mathbf{e}_1) + x_2 T(\mathbf{e}_2) = x_1\mathbf{y}_1 + x_2\mathbf{y}_2$.
+3. Substitute the given values: $T(\mathbf{x}) = x_1 \begin{bmatrix} 2 \\ 5 \end{bmatrix} + x_2 \begin{bmatrix} -1 \\ 6 \end{bmatrix} = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.
+4. For $\mathbf{x} = \begin{bmatrix} 5 \\ -3 \end{bmatrix}$, substitute $x_1 = 5$, $x_2 = -3$: $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 2(5) - (-3) \\ 5(5) + 6(-3) \end{bmatrix} = \begin{bmatrix} 10 + 3 \\ 25 - 18 \end{bmatrix} = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$.
+5. For $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, the image is $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.

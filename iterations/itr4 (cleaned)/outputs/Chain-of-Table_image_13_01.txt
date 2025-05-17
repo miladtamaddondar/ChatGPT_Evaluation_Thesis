@@ -1,0 +1,9 @@
+1. Subtract \(4I\) from \(A\) to get \(A-4I\): \(\left[\begin{array}{cccc} -1 & 0 & 2 & 0 \\ 1 & -1 & 1 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 0 & 0 \end{array}\right]\)  
+2. Write the augmented matrix for \((A-4I)\vec{x} = 0\): \(\left[\begin{array}{cccc|c} -1 & 0 & 2 & 0 & 0 \\ 1 & -1 & 1 & 0 & 0 \\ 0 & 1 & -3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)  
+3. Add row 1 to row 2: \(\left[\begin{array}{cccc|c} -1 & 0 & 2 & 0 & 0 \\ 0 & -1 & 3 & 0 & 0 \\ 0 & 1 & -3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)  
+4. Add row 2 to row 3: \(\left[\begin{array}{cccc|c} -1 & 0 & 2 & 0 & 0 \\ 0 & -1 & 3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)  
+5. Multiply row 1 by \(-1\): \(\left[\begin{array}{cccc|c} 1 & 0 & -2 & 0 & 0 \\ 0 & -1 & 3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)  
+6. Multiply row 2 by \(-1\): \(\left[\begin{array}{cccc|c} 1 & 0 & -2 & 0 & 0 \\ 0 & 1 & -3 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)  
+7. The system is now in row-echelon form: \(x_1 - 2x_3 = 0\), \(x_2 - 3x_3 = 0\), \(x_4\) is free, \(x_3\) is free.  
+8. Express the general solution: \(x_1 = 2x_3\), \(x_2 = 3x_3\), \(x_3 = x_3\), \(x_4 = x_4\).  
+9. The basis for the eigenspace is \(\left\{ \begin{pmatrix} 2 \\ 3 \\ 1 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 0 \\ 0 \\ 1 \end{pmatrix} \right\}\).

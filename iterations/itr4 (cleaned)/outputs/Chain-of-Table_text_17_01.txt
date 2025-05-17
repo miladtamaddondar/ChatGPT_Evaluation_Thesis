@@ -1,0 +1,2 @@
+1. a: The image under $T$ of $p(t) = 5 + 3t$ is $\begin{bmatrix}2 \\ 5 \\ 8\end{bmatrix}$.
+2. b: The matrix for $T$ relative to the basis $\{1, t, t^2\}$ for $\mathbb{P}_2$ and the standard basis for $\mathbb{R}^3$ is $\begin{bmatrix}1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1\end{bmatrix}$.

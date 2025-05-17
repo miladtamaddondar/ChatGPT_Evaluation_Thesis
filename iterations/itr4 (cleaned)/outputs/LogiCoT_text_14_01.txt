@@ -1,0 +1,10 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A-5I$ to find the nullity: $A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+2. The eigenspace dimension is the nullity of $A-5I$; by the rank-nullity theorem, nullity $= 4 - \text{rank}(A-5I)$, so we need $\text{rank}(A-5I) = 2$.
+3. To find the rank, note that the last two rows are $[0,0,0,4]$ and $[0,0,0,-4]$, which are linearly dependent, so together they contribute only one to the rank.
+4. The first two rows are $[0, -2, 6, -1]$ and $[0, -2, h, 0]$; subtracting the second from the first gives $[0, 0, 6-h, -1]$.
+5. If $6-h \neq 0$ or $-1 \neq 0$, the first two rows are linearly independent, so they contribute two to the rank, making the total rank $3$ (from one of the last two rows and the two independent first rows).
+6. To get rank $2$, the first two rows must be linearly dependent, i.e., $[0, -2, 6, -1] = k[0, -2, h, 0]$ for some $k$.
+7. Comparing the second entry: $-2 = k(-2) \implies k=1$; then compare the third entry: $6 = h$.
+8. Therefore, $h=6$ is required for the first two rows to be linearly dependent, reducing the rank by one.
+9. With $h=6$, the first two rows are multiples, so the rank is $1$ (from the first two rows) plus $1$ (from the last two rows), totaling $2$.
+10. Thus, the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional is $\boxed{h=6}$.

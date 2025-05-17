@@ -1,0 +1,5 @@
+1. To find \( B \) such that \( AB = 0 \), we need to solve \( A\vec{x} = \vec{0} \) for nonzero vectors \( \vec{x} \); let’s solve \( \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix} \begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \) by writing the augmented matrix: \( \left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & -2 & 0\end{array}\right] \).
+2. Row 1 minus 3 times Row 2: \( R_1 \to R_1 - 3R_2 \), resulting in \( \left[\begin{array}{cc|c}0 & 0 & 0 \\ 1 & -2 & 0\end{array}\right] \).
+3. The second row gives \( x - 2y = 0 \implies x = 2y \), so the general solution is \( \begin{bmatrix}x \\ y\end{bmatrix} = y\begin{bmatrix}2 \\ 1\end{bmatrix} \).
+4. To construct \( B \) with two different nonzero columns, choose \( y = 1 \) for the first column and \( y = -1 \) for the second: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \).
+5. Final answer: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \).

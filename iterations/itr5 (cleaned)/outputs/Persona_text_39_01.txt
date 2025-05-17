@@ -1,0 +1,6 @@
+1. Recognize that $\mathbf{u}\mathbf{v}^T$ is the outer product of a $2 \times 1$ vector and a $1 \times 3$ vector, resulting in a $2 \times 3$ matrix.
+2. Let $\mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}$, so $\mathbf{u}\mathbf{v}^T = \begin{bmatrix} 1 \\ 2 \end{bmatrix} \begin{bmatrix} v_1 & v_2 & v_3 \end{bmatrix} = \begin{bmatrix} 1v_1 & 1v_2 & 1v_3 \\ 2v_1 & 2v_2 & 2v_3 \end{bmatrix}$.
+3. Set this equal to the given matrix: $\begin{bmatrix} 1 & -3 & 4 \\ 2 & -6 & 8 \end{bmatrix} = \begin{bmatrix} v_1 & v_2 & v_3 \\ 2v_1 & 2v_2 & 2v_3 \end{bmatrix}$.
+4. Equate corresponding entries in the first row: $v_1 = 1$, $v_2 = -3$, $v_3 = 4$.
+5. Check the second row: $2v_1 = 2$, $2v_2 = -6$, $2v_3 = 8$ all match the given matrix, confirming the solution.
+6. The final answer is $\mathbf{v} = \begin{bmatrix} 1 \\ -3 \\ 4 \end{bmatrix}$.

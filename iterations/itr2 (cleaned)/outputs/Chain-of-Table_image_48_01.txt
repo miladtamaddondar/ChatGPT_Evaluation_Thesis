@@ -1,0 +1,7 @@
+1. Let \(\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}\) be a vector orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\), so we require \(\mathbf{u}_1 \cdot \mathbf{v} = 0\) and \(\mathbf{u}_2 \cdot \mathbf{v} = 0\). 
+2. Write the orthogonality conditions: \(\mathbf{u}_1 \cdot \mathbf{v} = 1x + 1y + (-2)z = 0\) and \(\mathbf{u}_2 \cdot \mathbf{v} = 5x + (-1)y + 2z = 0\). 
+3. Write the system as an augmented matrix: \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 5 & -1 & 2 & 0 \end{bmatrix}\). 
+4. Row operation: \(R_2 \leftarrow R_2 - 5R_1\): \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 0 & -6 & 12 & 0 \end{bmatrix}\). 
+5. Row operation: \(R_2 \leftarrow -\frac{1}{6}R_2\): \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 0 & 1 & -2 & 0 \end{bmatrix}\). 
+6. Row operation: \(R_1 \leftarrow R_1 - R_2\): \(\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & -2 & 0 \end{bmatrix}\). 
+7. The solution is \(x = 0\), \(y - 2z = 0 \implies y = 2z\), so a nonzero solution is \(z = 1\), \(y = 2\), \(x = 0\), thus \(\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}\) is a nonzero vector orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\).

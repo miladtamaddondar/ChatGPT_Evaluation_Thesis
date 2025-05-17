@@ -1,0 +1,9 @@
+1. To find the value of \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first form the matrix \( A - 5I \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).  
+2. The eigenspace dimension is the nullity of \( A - 5I \), so we set up the homogeneous system \( (A - 5I)\vec{x} = 0 \): \( \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \end{bmatrix} \).  
+3. The last two rows give \( 4x_4 = 0 \) and \( -4x_4 = 0 \), so \( x_4 = 0 \).  
+4. Substitute \( x_4 = 0 \) into the first two equations: \( -2x_2 + 6x_3 = 0 \) and \( -2x_2 + h x_3 = 0 \).  
+5. These two equations can be written as a system: \( \begin{cases} -2x_2 + 6x_3 = 0 \\ -2x_2 + h x_3 = 0 \end{cases} \).  
+6. Subtract the second equation from the first: \( (6 - h)x_3 = 0 \).  
+7. For the eigenspace to be two-dimensional, we need two free variables, which happens if the two equations above are dependent, i.e., \( 6 - h = 0 \implies h = 6 \).  
+8. Substitute \( h = 6 \) back: both equations become \( -2x_2 + 6x_3 = 0 \), so the system reduces to one equation in two variables (\( x_2 \) and \( x_3 \)), giving two free variables (\( x_1 \) and \( x_3 \)), so the nullity is 2.  
+9. Final answer: \( h = 6 \).

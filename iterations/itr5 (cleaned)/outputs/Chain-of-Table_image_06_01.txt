@@ -1,0 +1,7 @@
+1. To find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), each column of \(B\) must be in the null space of \(A\). Let the first column of \(B\) be \(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\), so \(A\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 3x_1 - 6x_2 \\ -x_1 + 2x_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\).
+2. Set up the augmented matrix for the system: \(\left[\begin{array}{cc|c} 3 & -6 & 0 \\ -1 & 2 & 0 \end{array}\right]\).
+3. Multiply the second row by 3 and add to the first row: \(R_1 \to R_1 + 3R_2\), resulting in \(\left[\begin{array}{cc|c} 0 & 0 & 0 \\ -1 & 2 & 0 \end{array}\right]\).
+4. The second row gives \(-x_1 + 2x_2 = 0\), so \(x_1 = 2x_2\). Let \(x_2 = 1\), then \(x_1 = 2\). One null vector is \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\).
+5. For a different nonzero column, let \(x_2 = -1\), then \(x_1 = -2\). Another null vector is \(\begin{bmatrix} -2 \\ -1 \end{bmatrix}\).
+6. Thus, a \(2 \times 2\) matrix \(B\) with two different nonzero null vectors as columns is \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\)
+7. Final answer: \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).

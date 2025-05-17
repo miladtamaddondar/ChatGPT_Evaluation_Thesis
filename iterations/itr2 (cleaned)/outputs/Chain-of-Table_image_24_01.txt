@@ -1,0 +1,6 @@
+1. Write the augmented matrix for the system \(A\mathbf{x} = \mathbf{0}\): \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0 \end{array}\right]\)  
+2. Eliminate the \(x_1\) term from row 3 by replacing \(R_3 \to R_3 - 2R_1\): \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0 \end{array}\right]\)  
+3. Eliminate the \(x_2\) term from row 3 by replacing \(R_3 \to R_3 - 2R_2\): \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)  
+4. Write the system of equations from the row-reduced matrix: \(x_1 - 4x_2 + 7x_3 - 5x_4 = 0\), \(x_2 - 4x_3 + 3x_4 = 0\)  
+5. Express leading variables in terms of free variables (\(x_3 = s\), \(x_4 = t\)): \(x_2 = 4s - 3t\), \(x_1 = 4x_2 - 7x_3 + 5x_4 = 4(4s - 3t) - 7s + 5t = 16s - 12t - 7s + 5t = 9s - 7t\)  
+6. Write the general solution: \(\mathbf{x} = s\begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + t\begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}\), where \(s, t \in \mathbb{R}\).

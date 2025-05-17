@@ -1,0 +1,5 @@
+1. Write the system of equations for $T(\mathbf{x}) = (3, 8)$: $x_1 + x_2 = 3$, $4x_1 + 5x_2 = 8$.
+2. Write the augmented matrix: $\begin{bmatrix} 1 & 1 & | & 3 \\ 4 & 5 & | & 8 \end{bmatrix}$.
+3. Replace $R_2$ with $R_2 - 4R_1$: $\begin{bmatrix} 1 & 1 & | & 3 \\ 0 & 1 & | & -4 \end{bmatrix}$.
+4. Replace $R_1$ with $R_1 - R_2$: $\begin{bmatrix} 1 & 0 & | & 7 \\ 0 & 1 & | & -4 \end{bmatrix}$.
+5. The solution is $x_1 = 7$, $x_2 = -4$.

@@ -1,0 +1,10 @@
+1. To find the value(s) of \( k \) such that \( AB = BA \), first compute \( AB \) by multiplying \( A = \begin{bmatrix} 2 & 5 \\ -3 & 1 \end{bmatrix} \) and \( B = \begin{bmatrix} 4 & -5 \\ 3 & k \end{bmatrix} \): \( AB = \begin{bmatrix} 2 \cdot 4 + 5 \cdot 3 & 2 \cdot (-5) + 5 \cdot k \\ -3 \cdot 4 + 1 \cdot 3 & -3 \cdot (-5) + 1 \cdot k \end{bmatrix} = \begin{bmatrix} 8 + 15 & -10 + 5k \\ -12 + 3 & 15 + k \end{bmatrix} = \begin{bmatrix} 23 & -10 + 5k \\ -9 & 15 + k \end{bmatrix} \).  
+2. Verify the multiplication by checking each entry: \( (1,1): 2 \cdot 4 + 5 \cdot 3 = 8 + 15 = 23 \), \( (1,2): 2 \cdot (-5) + 5 \cdot k = -10 + 5k \), \( (2,1): -3 \cdot 4 + 1 \cdot 3 = -12 + 3 = -9 \), \( (2,2): -3 \cdot (-5) + 1 \cdot k = 15 + k \), so the computation is correct.  
+3. Now compute \( BA \) by multiplying \( B \) and \( A \): \( BA = \begin{bmatrix} 4 & -5 \\ 3 & k \end{bmatrix} \begin{bmatrix} 2 & 5 \\ -3 & 1 \end{bmatrix} = \begin{bmatrix} 4 \cdot 2 + (-5) \cdot (-3) & 4 \cdot 5 + (-5) \cdot 1 \\ 3 \cdot 2 + k \cdot (-3) & 3 \cdot 5 + k \cdot 1 \end{bmatrix} = \begin{bmatrix} 8 + 15 & 20 - 5 \\ 6 - 3k & 15 + k \end{bmatrix} = \begin{bmatrix} 23 & 15 \\ 6 - 3k & 15 + k \end{bmatrix} \).  
+4. Verify this multiplication: \( (1,1): 4 \cdot 2 + (-5) \cdot (-3) = 8 + 15 = 23 \), \( (1,2): 4 \cdot 5 + (-5) \cdot 1 = 20 - 5 = 15 \), \( (2,1): 3 \cdot 2 + k \cdot (-3) = 6 - 3k \), \( (2,2): 3 \cdot 5 + k \cdot 1 = 15 + k \), so the computation is correct.  
+5. Set \( AB = BA \) and equate corresponding entries: \( \begin{bmatrix} 23 & -10 + 5k \\ -9 & 15 + k \end{bmatrix} = \begin{bmatrix} 23 & 15 \\ 6 - 3k & 15 + k \end{bmatrix} \).  
+6. Equate the (1,2) entries: \( -10 + 5k = 15 \implies 5k = 25 \implies k = 5 \).  
+7. Equate the (2,1) entries: \( -9 = 6 - 3k \implies -9 - 6 = -3k \implies -15 = -3k \implies k = 5 \).  
+8. Equate the (2,2) entries: \( 15 + k = 15 + k \), which is always true for any \( k \).  
+9. The (1,1) entries are both 23, which is always true.  
+10. Therefore, the only value of \( k \) that makes \( AB = BA \) is \( \boxed{5} \).

@@ -1,0 +1,4 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the results of multiplying \( Q \) by each \( r_j \), so the matrix \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] \) is the matrix whose \( j \)-th column is \( Q r_j \). 
+2. Note that \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \) by the property of matrix multiplication, since multiplying \( Q \) by a matrix whose columns are \( r_1, \dots, r_p \) gives a matrix whose columns are \( Q r_1, \dots, Q r_p \). 
+3. Verify correctness: Let \( R = [r_1 \; r_2 \; \dots \; r_p] \), an \( n \times p \) matrix; then \( Q R \) is an \( m \times p \) matrix whose \( j \)-th column is \( Q r_j \), matching the original matrix, so the step is correct. 
+4. Final answer: \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \), which is the product of the \( m \times n \) matrix \( Q \) and the \( n \times p \) matrix \( [r_1 \; r_2 \; \dots \; r_p] \), neither of which is an identity matrix.

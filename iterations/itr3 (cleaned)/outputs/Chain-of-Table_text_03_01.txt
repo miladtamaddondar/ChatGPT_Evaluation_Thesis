@@ -1,0 +1,4 @@
+1. Start with the matrix \(A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix}\).  
+2. To eliminate the (2,1) entry, compute the multiplier \(l_{21} = \frac{4}{6} = \frac{2}{3}\), then perform \(R_2 \leftarrow R_2 - \frac{2}{3}R_1\): \(\begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix} \xrightarrow{R_2 - \frac{2}{3}R_1}\begin{bmatrix}6 & 9 \\ 0 & 5 - \frac{2}{3} \times 9\end{bmatrix} = \begin{bmatrix}6 & 9 \\ 0 & 5 - 6\end{bmatrix} = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).  
+3. The lower triangular matrix \(L\) has \(1\)s on the diagonal and the multiplier below: \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\), and the upper triangular matrix \(U\) is the result after elimination: \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).  
+4. Therefore, the LU factorization is \(A = LU\) where \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\) and \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).

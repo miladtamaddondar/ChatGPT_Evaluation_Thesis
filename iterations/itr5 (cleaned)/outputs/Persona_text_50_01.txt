@@ -1,0 +1,15 @@
+1. The inner product is defined as $\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)$.
+2. To project $p_2$ onto $\text{Span}\{p_0, p_1\}$, write $\text{proj}_W(p_2) = a p_0 + b p_1$.
+3. The orthogonal projection formula is $\text{proj}_W(p_2) = \sum_{i=0}^1 \frac{\langle p_2, p_i \rangle}{\langle p_i, p_i \rangle} p_i$.
+4. Compute $\langle p_2, p_0 \rangle = p_2(-3)\cdot 1 + p_2(-1)\cdot 1 + p_2(1)\cdot 1 + p_2(3)\cdot 1 = 9 + 1 + 1 + 9 = 20$.
+5. Compute $\langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4$.
+6. Compute $\langle p_2, p_1 \rangle = p_2(-3)p_1(-3) + p_2(-1)p_1(-1) + p_2(1)p_1(1) + p_2(3)p_1(3) = 9(-3) + 1(-1) + 1(1) + 9(3) = -27 - 1 + 1 + 27 = 0$.
+7. Compute $\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20$.
+8. So, $\text{proj}_W(p_2) = \frac{20}{4}p_0 + \frac{0}{20}p_1 = 5p_0 + 0p_1 = 5$.
+9. The orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5$.
+10. To find $q$, set $q = p_2 - \text{proj}_W(p_2) = t^2 - 5$.
+11. Check orthogonality: $\langle q, p_0 \rangle = \langle t^2 - 5, 1 \rangle = \langle t^2, 1 \rangle - 5\langle 1, 1 \rangle = 20 - 20 = 0$.
+12. Check orthogonality: $\langle q, p_1 \rangle = \langle t^2 - 5, t \rangle = \langle t^2, t \rangle - 5\langle 1, t \rangle = 0 - 0 = 0$.
+13. Compute $q$'s values at $(-3, -1, 1, 3)$: $q(-3) = 9 - 5 = 4$, $q(-1) = 1 - 5 = -4$, $q(1) = 1 - 5 = -4$, $q(3) = 9 - 5 = 4$.
+14. To scale $q$ so its values are $(1, -1, -1, 1)$, set $q = \frac{1}{4}(t^2 - 5)$.
+15. The required orthogonal polynomial is $q = \frac{1}{4}(t^2 - 5)$, and $\{p_0, p_1, q\}$ is an orthogonal basis for $\text{Span}\{p_0, p_1, p_2\}$.

@@ -1,0 +1,6 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, set up \( (A - 5I)\vec{x} = 0 \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).  
+2. Write the augmented matrix for the homogeneous system: \( \left[\begin{array}{cccc|c} 0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 4 & 0 \\ 0 & 0 & 0 & -4 & 0 \end{array}\right] \).  
+3. Row 4 is a multiple of row 3, so add row 3 to row 4: \( R_4 \leftarrow R_4 + R_3 \): \( \left[\begin{array}{cccc|c} 0 & -2 & 6 & -1 & 0 \\ 0 & -2 & h & 0 & 0 \\ 0 & 0 & 0 & 4 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right] \).  
+4. The system has a two-dimensional eigenspace if the nullity of \( A - 5I \) is 2, i.e., the rank is 2 (since 4 - rank = nullity): The first two rows are linearly independent unless \( h = 6 \), so check when the third row does not increase the rank.  
+5. The third row is all zeros except for the 4 in the fourth column, so it increases the rank unless it is a linear combination of the first two rows; but the only way for the rank to be 2 is if the first two rows are linearly dependent, i.e., \( h = 6 \).  
+6. Therefore, the value of \( h \) that makes the eigenspace for \( \lambda = 5 \) two-dimensional is \( \boxed{6} \).

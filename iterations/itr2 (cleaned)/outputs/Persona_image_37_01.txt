@@ -1,0 +1,6 @@
+1. The vector \([q]_{\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \end{bmatrix}\) means \(q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3\) in the basis \(\mathcal{B} = \{p_1, p_2, p_3\}\).  
+2. Substitute the given polynomials: \(p_1(t) = 1 + t^2\), \(p_2(t) = t - 3t^2\), \(p_3(t) = 1 + t - 3t^2\).  
+3. Compute \(q(t) = -1 \cdot (1 + t^2) + 1 \cdot (t - 3t^2) + 2 \cdot (1 + t - 3t^2)\).  
+4. Expand: \(q(t) = (-1 - t^2) + (t - 3t^2) + (2 + 2t - 6t^2)\).  
+5. Combine like terms: constant terms: \(-1 + 2 = 1\); \(t\) terms: \(t + 2t = 3t\); \(t^2\) terms: \(-t^2 - 3t^2 - 6t^2 = -10t^2\).  
+6. Therefore, the answer is \(q(t) = 1 + 3t - 10t^2\).

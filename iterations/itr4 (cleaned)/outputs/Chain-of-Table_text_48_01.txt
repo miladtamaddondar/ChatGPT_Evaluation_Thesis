@@ -1,0 +1,5 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, set up the system $\mathbf{v} \cdot \mathbf{u}_1 = 0$ and $\mathbf{v} \cdot \mathbf{u}_2 = 0$, where $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$. This gives the equations: $x + y - 2z = 0$ and $5x - y + 2z = 0$, which corresponds to the augmented matrix $\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 5 & -1 & 2 & 0 \end{array}\right]$.
+2. Subtract $5$ times row 1 from row 2: $R_2 \to R_2 - 5R_1$, resulting in $\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 0 & -6 & 12 & 0 \end{array}\right]$.
+3. Divide row 2 by $-6$: $R_2 \to -\frac{1}{6}R_2$, resulting in $\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 0 & 1 & -2 & 0 \end{array}\right]$.
+4. Subtract row 2 from row 1: $R_1 \to R_1 - R_2$, resulting in $\left[\begin{array}{ccc|c} 1 & 0 & 0 & 0 \\ 0 & 1 & -2 & 0 \end{array}\right]$.
+5. The solution is $x = 0$, $y = 2z$, so any nonzero vector of the form $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix}$ with $z \neq 0$ is orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$; for example, $\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$.

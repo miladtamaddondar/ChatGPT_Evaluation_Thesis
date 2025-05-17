@@ -1,0 +1,4 @@
+1. To find the eigenvalues, set up the characteristic equation: \(\det\left(\begin{bmatrix}0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix}\right) = 0\).
+2. The determinant is \((0-\lambda)\left[(2-\lambda)(1-\lambda) - 0\cdot5\right] - 0 + 0 = -\lambda(2-\lambda)(1-\lambda)\).
+3. Set the characteristic polynomial to zero: \(-\lambda(2-\lambda)(1-\lambda) = 0\).
+4. The eigenvalues are \(\boxed{0,\ 1,\ 2}\).

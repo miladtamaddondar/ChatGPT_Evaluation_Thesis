@@ -1,0 +1,9 @@
+1. To find the matrix representation of $T$ relative to the basis $\mathcal{B} = \{1, t, t^2\}$, we first apply $T$ to each basis vector: $T(1)$, $T(t)$, and $T(t^2)$.
+2. Compute $T(1)$: Since $1 = 1 + 0t + 0t^2$, plug $a_0 = 1$, $a_1 = 0$, $a_2 = 0$ into $T$: $T(1) = 3(1) + (5(1) - 2(0))t + (4(0) + 0)t^2 = 3 + 5t + 0t^2$.
+3. Express $T(1)$ in coordinates relative to $\mathcal{B}$: $T(1) = 3 \cdot 1 + 5 \cdot t + 0 \cdot t^2$, so its coordinate vector is $\begin{bmatrix} 3 \\ 5 \\ 0 \end{bmatrix}$.
+4. Compute $T(t)$: Since $t = 0 + 1t + 0t^2$, plug $a_0 = 0$, $a_1 = 1$, $a_2 = 0$ into $T$: $T(t) = 3(0) + (5(0) - 2(1))t + (4(1) + 0)t^2 = 0 - 2t + 4t^2$.
+5. Express $T(t)$ in coordinates relative to $\mathcal{B}$: $T(t) = 0 \cdot 1 + (-2) \cdot t + 4 \cdot t^2$, so its coordinate vector is $\begin{bmatrix} 0 \\ -2 \\ 4 \end{bmatrix}$.
+6. Compute $T(t^2)$: Since $t^2 = 0 + 0t + 1t^2$, plug $a_0 = 0$, $a_1 = 0$, $a_2 = 1$ into $T$: $T(t^2) = 3(0) + (5(0) - 2(0))t + (4(0) + 1)t^2 = 0 + 0t + 1t^2$.
+7. Express $T(t^2)$ in coordinates relative to $\mathcal{B}$: $T(t^2) = 0 \cdot 1 + 0 \cdot t + 1 \cdot t^2$, so its coordinate vector is $\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$.
+8. Assemble the coordinate vectors as columns to form the matrix representation of $T$ relative to $\mathcal{B}$: $[T]_{\mathcal{B}} = \begin{bmatrix} 3 & 0 & 0 \\ 5 & -2 & 0 \\ 0 & 4 & 1 \end{bmatrix}$.
+9. Final answer: The matrix representation of $T$ relative to $\mathcal{B}$ is $\boxed{\begin{bmatrix} 3 & 0 & 0 \\ 5 & -2 & 0 \\ 0 & 4 & 1 \end{bmatrix}}$.

@@ -1,0 +1,6 @@
+1. To find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), each column of \(B\) must be a solution to \(A\vec{x} = \vec{0}\), where \(A = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix}\). Let's solve \(A\vec{x} = 0\) for a generic column vector \(\vec{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\): \(\begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\).
+2. This gives the system: \(3x_1 - 6x_2 = 0\) and \(-x_1 + 2x_2 = 0\). Write the augmented matrix: \(\left[\begin{array}{cc|c} 3 & -6 & 0 \\ -1 & 2 & 0 \end{array}\right]\).
+3. Multiply the second row by 3 and add to the first row to eliminate \(x_1\): Row1 = Row1 + 3*Row2: \(\left[\begin{array}{cc|c} 0 & 0 & 0 \\ -1 & 2 & 0 \end{array}\right]\).
+4. The second equation is \(-x_1 + 2x_2 = 0\), so \(x_1 = 2x_2\). The general solution is \(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 2x_2 \\ x_2 \end{bmatrix} = x_2 \begin{bmatrix} 2 \\ 1 \end{bmatrix}\).
+5. To construct \(B\) with two different nonzero columns, choose two different nonzero values for \(x_2\), say \(x_2 = 1\) and \(x_2 = -1\). Thus, \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).
+6. Final answer: A \(2 \times 2\) matrix \(B\) such that \(AB = 0\) is \(\begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).

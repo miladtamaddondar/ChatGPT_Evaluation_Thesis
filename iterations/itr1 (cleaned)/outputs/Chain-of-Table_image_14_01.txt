@@ -1,0 +1,10 @@
+1. Subtract \( 5I \) from \( A \) to get \( A - 5I \): \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\)
+2. Set up the homogeneous system \((A - 5I)\vec{x} = 0\): \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \end{bmatrix}\)
+3. Row 4 is a multiple of row 3, so replace row 4 by row 4 + row 3: \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}\)
+4. Divide row 3 by 4 to make leading 1: \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}\)
+5. Eliminate \( x_4 \) from row 1 using row 3: row 1 = row 1 + row 3, but since row 1, column 4 is -1, add row 3 times 1: \(\begin{bmatrix} 0 & -2 & 6 & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}\)
+6. The system now is: \( -2x_2 + 6x_3 = 0 \), \( -2x_2 + h x_3 = 0 \), \( x_4 = 0 \)
+7. Subtract row 1 from row 2 to eliminate \( x_2 \): row 2 = row 2 - row 1: \(\begin{bmatrix} 0 & -2 & 6 & 0 \\ 0 & 0 & h-6 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}\)
+8. The system is now: \( -2x_2 + 6x_3 = 0 \), \( (h-6)x_3 = 0 \), \( x_4 = 0 \)
+9. For the eigenspace to be two-dimensional, the nullity must be 2, so \( (h-6)x_3 = 0 \) must always be true (i.e., \( h-6 = 0 \)), so \( h = 6 \)
+10. Final answer: \( h = 6 \) ensures the eigenspace for \( \lambda = 5 \) is two-dimensional.

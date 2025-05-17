@@ -1,0 +1,4 @@
+1. To find the image of $p(t) = 5 + 3t$ under $T$, evaluate $p(-1)$, $p(0)$, and $p(1)$: $p(-1) = 5 + 3(-1) = 2$, $p(0) = 5 + 3(0) = 5$, $p(1) = 5 + 3(1) = 8$; these are correct by direct substitution.
+2. Therefore, $T(p) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix}$; this is correct as it matches the definition of $T$.
+3. To find the matrix for $T$ relative to the basis $\{1, t, t^2\}$ for $\mathbb{P}_2$ and the standard basis for $\mathbb{R}^3$, apply $T$ to each basis vector: $T(1) = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}$, $T(t) = \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix}$, $T(t^2) = \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}$; this is correct by evaluating each polynomial at $-1, 0, 1$.
+4. The matrix for $T$ is formed by placing these as columns: $[T] = \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix}$; this is correct by the definition of the matrix representation of a linear transformation.

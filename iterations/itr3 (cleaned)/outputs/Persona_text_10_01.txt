@@ -1,0 +1,10 @@
+1. The given matrix is $A = \begin{bmatrix}1 & -3 & 2 & -4 \\ 3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}$ and its echelon form is $\begin{bmatrix}1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 0 \end{bmatrix}$.
+2. To find a basis for $\text{Col }A$, we identify the pivot columns in the echelon form, which are columns 1, 3, and 4.
+3. The corresponding columns from the original matrix $A$ are: column 1: $\begin{bmatrix}1 \\ 3 \\ 2 \\ -4\end{bmatrix}$, column 3: $\begin{bmatrix}2 \\ -1 \\ 4 \\ 2\end{bmatrix}$, column 4: $\begin{bmatrix}-4 \\ 5 \\ -3 \\ 7\end{bmatrix}$.
+4. Therefore, a basis for $\text{Col }A$ is $\left\{ \begin{bmatrix}1 \\ 3 \\ 2 \\ -4\end{bmatrix}, \begin{bmatrix}2 \\ -1 \\ 4 \\ 2\end{bmatrix}, \begin{bmatrix}-4 \\ 5 \\ -3 \\ 7\end{bmatrix} \right\}$.
+5. To find a basis for $\text{Nul }A$, we set up the equation $A\vec{x} = \vec{0}$ and use the echelon form to solve for the general solution.
+6. Let $\vec{x} = \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix}$; from the echelon form, the equations are: (i) $x_1 - 3x_2 + 2x_3 - 4x_4 = 0$, (ii) $5x_3 - 7x_4 = 0$, (iii) $5x_4 = 0$.
+7. From (iii), $x_4 = 0$; from (ii), $5x_3 = 0 \implies x_3 = 0$; from (i), $x_1 - 3x_2 = 0 \implies x_1 = 3x_2$.
+8. Letting $x_2 = t$, the general solution is $\vec{x} = t\begin{bmatrix}3 \\ 1 \\ 0 \\ 0\end{bmatrix}$.
+9. Therefore, a basis for $\text{Nul }A$ is $\left\{ \begin{bmatrix}3 \\ 1 \\ 0 \\ 0\end{bmatrix} \right\}$.
+10. The dimension of $\text{Col }A$ is $3$ (number of pivot columns), and the dimension of $\text{Nul }A$ is $1$ (number of free variables).

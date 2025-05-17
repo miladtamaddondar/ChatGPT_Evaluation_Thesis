@@ -1,0 +1,9 @@
+1. The inner product is defined as ⟨f, g⟩ = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3). We need to compute the orthogonal projection of \( p_2(t) = t^2 \) onto the subspace spanned by \( p_0(t) = 1 \) and \( p_1(t) = t \).
+2. Compute the values of \( p_0, p_1, p_2 \) at \( t = -3, -1, 1, 3 \):\( p_0: (1, 1, 1, 1) \)\( p_1: (-3, -1, 1, 3) \)\( p_2: (9, 1, 1, 9) \)
+3. Compute ⟨p₂, p₀⟩: ⟨p₂, p₀⟩ = 9*1 + 1*1 + 1*1 + 9*1 = 20
+4. Compute ⟨p₀, p₀⟩: ⟨p₀, p₀⟩ = 1*1 + 1*1 + 1*1 + 1*1 = 4
+5. Compute ⟨p₂, p₁⟩: ⟨p₂, p₁⟩ = 9*(-3) + 1*(-1) + 1*1 + 9*3 = -27 - 1 + 1 + 27 = 0
+6. Compute ⟨p₁, p₁⟩: ⟨p₁, p₁⟩ = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20
+7. The projection formula is: \( \text{proj}_{U}(p_2) = \frac{\langle p_2, p_0 \rangle}{\langle p_0, p_0 \rangle}p_0 + \frac{\langle p_2, p_1 \rangle}{\langle p_1, p_1 \rangle}p_1 \) So, \( \text{proj}_{U}(p_2) = \frac{20}{4}p_0 + \frac{0}{20}p_1 = 5p_0 \)
+8.Final answer for (a): The orthogonal projection of \( p_2 \) onto the subspace spanned by \( p_0 \) and \( p_1 \) is \( 5 \).
+Let me know if you want the step-by-step for part (b) as well!

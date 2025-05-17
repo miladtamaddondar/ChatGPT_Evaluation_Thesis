@@ -1,0 +1,8 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A - 5I$ where $I$ is the $4 \times 4$ identity matrix: $A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+2. The eigenspace dimension is the nullity of $A-5I$, so we set up the homogeneous system $(A-5I)\vec{x} = 0$ and write the augmented matrix: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}$.
+3. The last two rows give $4x_4 = 0$ and $-4x_4 = 0$ so $x_4 = 0$.
+4. The second row is $-2x_2 + h x_3 = 0$ and the first row is $-2x_2 + 6x_3 = 0$.
+5. Subtract the first row equation from the second: $(-2x_2 + h x_3) - (-2x_2 + 6x_3) = 0 \implies (h-6)x_3 = 0$.
+6. For the eigenspace to be two-dimensional, we need two free variables, which requires the system to have rank 2 (since $4 - 2 = 2$), so $h-6=0$ or $h=6$ to make $x_3$ a free variable.
+7. If $h=6$, both equations become $-2x_2 + 6x_3 = 0$, so $x_2 = 3x_3$ and $x_1$ is free, so the general solution is $\begin{bmatrix}x_1 \\ 3x_3 \\ x_3 \\ 0\end{bmatrix}$, which has two free variables ($x_1$ and $x_3$).
+8. Therefore, the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional is $h=6$.

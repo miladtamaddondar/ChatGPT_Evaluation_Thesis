@@ -1,0 +1,12 @@
+1. Identify the basis \(\mathcal{B} = \{1 - 3t^2,\, 2 + t - 5t^2,\, 1 + 2t\}\) and the standard basis for \(\mathbb{P}_2\) as \(\{1, t, t^2\}\). 
+2. Express each vector in \(\mathcal{B}\) in terms of the standard basis: \(1 - 3t^2 = 1 \cdot 1 + 0 \cdot t + (-3) \cdot t^2\), \(2 + t - 5t^2 = 2 \cdot 1 + 1 \cdot t + (-5) \cdot t^2\), \(1 + 2t = 1 \cdot 1 + 2 \cdot t + 0 \cdot t^2\). 
+3. Form the change-of-coordinates matrix \(P\) from \(\mathcal{B}\) to the standard basis by writing these as columns: \(P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}\). 
+4. Verify correctness by checking that multiplying \(P\) by the coordinate vector of a polynomial in \(\mathcal{B}\) gives the correct polynomial in the standard basis (by linearity and construction, this is correct). 
+5. To write \(t^2\) as a linear combination of the polynomials in \(\mathcal{B}\), set \(t^2 = a(1 - 3t^2) + b(2 + t - 5t^2) + c(1 + 2t)\). 
+6. Expand and collect like terms: \(t^2 = (a + 2b + c) + (b + 2c)t + (-3a - 5b)t^2\). 
+7. Set up the system by matching coefficients: \(a + 2b + c = 0\), \(b + 2c = 0\), \(-3a - 5b = 1\). 
+8. Solve \(b + 2c = 0 \implies b = -2c\). 
+9. Substitute \(b = -2c\) into \(a + 2b + c = 0\) to get \(a + 2(-2c) + c = 0 \implies a - 4c + c = 0 \implies a = 3c\). 
+10. Substitute \(a = 3c\) and \(b = -2c\) into \(-3a - 5b = 1\) to get \(-3(3c) - 5(-2c) = 1 \implies -9c + 10c = 1 \implies c = 1\). 
+11. Then \(a = 3c = 3\) and \(b = -2c = -2\). 
+12. Thus, \(t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)\) in terms of \(\mathcal{B}\).

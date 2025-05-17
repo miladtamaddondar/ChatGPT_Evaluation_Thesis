@@ -1,0 +1,5 @@
+1. Start with the matrix \( \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix} \). To factor as \(LU\), let \(L = \begin{bmatrix}1 & 0 \\ l_{21} & 1\end{bmatrix}\) and \(U = \begin{bmatrix}u_{11} & u_{12} \\ 0 & u_{22}\end{bmatrix}\).
+2. Set \(u_{11} = 6\), \(u_{12} = 9\); so \(U = \begin{bmatrix}6 & 9 \\ 0 & u_{22}\end{bmatrix}\).
+3. Find \(l_{21}\) so that \(l_{21} \cdot u_{11} = 4\), thus \(l_{21} = \frac{4}{6} = \frac{2}{3}\).
+4. Compute \(u_{22}\) from the equation \(l_{21} \cdot u_{12} + u_{22} = 5\), so \(u_{22} = 5 - l_{21} \cdot u_{12} = 5 - \frac{2}{3} \cdot 9 = 5 - 6 = -1\).
+5. The LU factorization is \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\), \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).

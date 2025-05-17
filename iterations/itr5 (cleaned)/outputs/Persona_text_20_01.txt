@@ -1,0 +1,14 @@
+1. To find a basis of eigenvectors, first find the eigenvalues $\lambda$ by solving $\det(A - \lambda I) = 0$.
+2. Compute $A - \lambda I = \begin{bmatrix}0.6-\lambda & 0.3 \\ 0.4 & 0.7-\lambda\end{bmatrix}$.
+3. The determinant is $(0.6-\lambda)(0.7-\lambda) - (0.4)(0.3) = 0$.
+4. Expand: $0.42 - 0.6\lambda - 0.7\lambda + \lambda^2 - 0.12 = 0$.
+5. Simplify: $\lambda^2 - 1.3\lambda + 0.3 = 0$.
+6. Solve using quadratic formula: $\lambda = \frac{1.3 \pm \sqrt{1.69 - 1.2}}{2} = \frac{1.3 \pm 0.7}{2}$.
+7. Thus, eigenvalues are $\lambda_1 = 1$ and $\lambda_2 = 0.3$.
+8. We are given $\mathbf{v}_1 = \begin{bmatrix}3/7 \\ 4/7\end{bmatrix}$ is an eigenvector for $\lambda_1 = 1$.
+9. To find $\mathbf{v}_2$ for $\lambda_2 = 0.3$, solve $(A - 0.3I)\mathbf{v}_2 = 0$.
+10. Compute $A - 0.3I = \begin{bmatrix}0.3 & 0.3 \\ 0.4 & 0.4\end{bmatrix}$.
+11. Let $\mathbf{v}_2 = \begin{bmatrix}x \\ y\end{bmatrix}$, so $0.3x + 0.3y = 0$ and $0.4x + 0.4y = 0$.
+12. Both equations reduce to $x + y = 0$.
+13. Thus, $\mathbf{v}_2$ can be any scalar multiple of $\begin{bmatrix}1 \\ -1\end{bmatrix}$.
+14. Therefore, a basis for $\mathbb{R}^2$ consisting of eigenvectors is $\left\{ \begin{bmatrix}3/7 \\ 4/7\end{bmatrix}, \begin{bmatrix}1 \\ -1\end{bmatrix} \right\}$.

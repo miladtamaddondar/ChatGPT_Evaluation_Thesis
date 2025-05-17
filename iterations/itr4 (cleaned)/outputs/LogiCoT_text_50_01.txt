@@ -1,0 +1,13 @@
+1. The inner product on $\mathbb{P}_3$ is defined as $\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)$; this is a valid inner product since it is symmetric, linear in the first argument, and positive definite for polynomials of degree at most $3$.
+2. To project $p_2$ onto $\text{Span}\{p_0, p_1\}$, write $\operatorname{proj}_W(p_2) = a_0 p_0 + a_1 p_1$ and require orthogonality to $p_2 - (a_0 p_0 + a_1 p_1)$ with both $p_0$ and $p_1$.
+3. Compute the necessary inner products: $\langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4$; $\langle p_0, p_1 \rangle = 1\cdot(-3) + 1\cdot(-1) + 1\cdot 1 + 1\cdot 3 = 0$; $\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20$.
+4. Compute $\langle p_2, p_0 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20$ and $\langle p_2, p_1 \rangle = (-3)^2(-3) + (-1)^2(-1) + (1)^2(1) + (3)^2(3) = 9(-3) + 1(-1) + 1(1) + 9(3) = -27 -1 +1 +27 = 0$.
+5. Set up the equations for orthogonality: $\langle p_2 - (a_0 p_0 + a_1 p_1), p_0 \rangle = 0$ and $\langle p_2 - (a_0 p_0 + a_1 p_1), p_1 \rangle = 0$; substituting values gives $20 - 4a_0 = 0$ and $0 - 20a_1 = 0$.
+6. Solve for $a_0$ and $a_1$: $a_0 = 5$, $a_1 = 0$; thus, the projection is $5p_0$.
+7. Verification: $p_2 - 5p_0 = t^2 - 5$ is orthogonal to both $p_0$ and $p_1$ because $\langle t^2 - 5, p_0 \rangle = \langle t^2, p_0 \rangle - 5\langle p_0, p_0 \rangle = 20 - 20 = 0$ and $\langle t^2 - 5, p_1 \rangle = 0 - 5\cdot 0 = 0$.
+8. Thus, the orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5p_0$.
+9. For part (b), $q = t^2 - 5$ is already orthogonal to $p_0$ and $p_1$ as shown above.
+10. Evaluate $q$ at $(-3, -1, 1, 3)$: $q(-3) = 9 - 5 = 4$, $q(-1) = 1 - 5 = -4$, $q(1) = 1 - 5 = -4$, $q(3) = 9 - 5 = 4$; the vector is $(4, -4, -4, 4)$.
+11. To scale $q$ so its value vector is $(1, -1, -1, 1)$, divide by $4$: $q(t) = \frac{1}{4}(t^2 - 5)$.
+12. The polynomial $q(t) = \frac{1}{4}(t^2 - 5)$ is orthogonal to $p_0$ and $p_1$, and its value vector at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$.
+13. Final answer: (a) The orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5p_0$; (b) The required polynomial is $q(t) = \frac{1}{4}(t^2 - 5)$.

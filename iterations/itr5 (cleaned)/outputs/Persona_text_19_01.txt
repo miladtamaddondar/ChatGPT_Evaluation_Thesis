@@ -1,0 +1,6 @@
+1. To find the $\mathcal{B}$-matrix for $T$, we need to compute $[T]_{\mathcal{B}}$ such that $[T(\mathbf{x})]_{\mathcal{B}} = [T]_{\mathcal{B}}[\mathbf{x}]_{\mathcal{B}}$ for all $\mathbf{x}$.
+2. First, compute $T(\mathbf{b}_1) = A\mathbf{b}_1 = \begin{bmatrix}1 & 1 \\ -1 & 3\end{bmatrix}\begin{bmatrix}1 \\ 1\end{bmatrix} = \begin{bmatrix}2 \\ 2\end{bmatrix}$.
+3. Next, express $T(\mathbf{b}_1) = 2\mathbf{b}_1 + 0\mathbf{b}_2$ by solving $\begin{bmatrix}2 \\ 2\end{bmatrix} = c_1\begin{bmatrix}1 \\ 1\end{bmatrix} + c_2\begin{bmatrix}5 \\ 4\end{bmatrix}$, which gives $c_1 = 2$, $c_2 = 0$.
+4. Compute $T(\mathbf{b}_2) = A\mathbf{b}_2 = \begin{bmatrix}1 & 1 \\ -1 & 3\end{bmatrix}\begin{bmatrix}5 \\ 4\end{bmatrix} = \begin{bmatrix}9 \\ 7\end{bmatrix}$.
+5. Express $T(\mathbf{b}_2) = -1\mathbf{b}_1 + 2\mathbf{b}_2$ by solving $\begin{bmatrix}9 \\ 7\end{bmatrix} = d_1\begin{bmatrix}1 \\ 1\end{bmatrix} + d_2\begin{bmatrix}5 \\ 4\end{bmatrix}$, which gives $d_1 = -1$, $d_2 = 2$.
+6. The $\mathcal{B}$-matrix for $T$ is $[T]_{\mathcal{B}} = \begin{bmatrix}2 & -1 \\ 0 & 2\end{bmatrix}$.

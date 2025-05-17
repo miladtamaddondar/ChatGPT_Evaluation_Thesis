@@ -1,0 +1,4 @@
+1. To find the matrix representation of $T$ relative to $\mathcal{B} = \{1, t, t^2\}$, compute $T(1)$, $T(t)$, and $T(t^2)$ and express each as a coordinate vector in $\mathcal{B}$; first, $T(1) = 3 \cdot 1 + (5 \cdot 1 - 2 \cdot 0)t + (4 \cdot 0 + 0)t^2 = 3 + 5t + 0t^2$, so $[T(1)]_{\mathcal{B}} = \begin{bmatrix} 3 \\ 5 \\ 0 \end{bmatrix}$.
+2. Next, $T(t) = 3 \cdot 0 + (5 \cdot 0 - 2 \cdot 1)t + (4 \cdot 1 + 0)t^2 = 0 - 2t + 4t^2$, so $[T(t)]_{\mathcal{B}} = \begin{bmatrix} 0 \\ -2 \\ 4 \end{bmatrix}$.
+3. Finally, $T(t^2) = 3 \cdot 0 + (5 \cdot 0 - 2 \cdot 0)t + (4 \cdot 0 + 1)t^2 = 0 + 0t + 1t^2$, so $[T(t^2)]_{\mathcal{B}} = \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$.
+4. The matrix representation of $T$ relative to $\mathcal{B}$ is $\begin{bmatrix} 3 & 0 & 0 \\ 5 & -2 & 0 \\ 0 & 4 & 1 \end{bmatrix}$.

@@ -1,0 +1,2 @@
+1. The matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) is formed by multiplying \(Q\) by each vector \(r_j\) and placing the results as columns. 
+2. We can write the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) as \(Q\) times the matrix whose columns are \(r_1, r_2, \dots, r_p\), that is, \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\).

@@ -1,0 +1,11 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first compute \( A - 5I \): \[ A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \] (since subtracting 5 from the diagonal entries).
+2. The eigenspace dimension is the nullity of \( A - 5I \), so we need \(\text{nullity}(A-5I) = 2\); by the rank-nullity theorem, \(\text{rank}(A-5I) = 2\) (since the matrix is \(4 \times 4\)).
+3. To find the rank, row-reduce \( A-5I \): notice that the last two rows are \([0,0,0,4]\) and \([0,0,0,-4]\), which are linearly dependent, so together they contribute only 1 to the rank.
+4. The first two rows are \([0, -2, 6, -1]\) and \([0, -2, h, 0]\); subtract the second row from the first to eliminate the \(-2\) in the second entry: \([0, -2, 6, -1] - [0, -2, h, 0] = [0, 0, 6-h, -1]\).
+5. Now, the rows are \([0, -2, h, 0]\), \([0, 0, 6-h, -1]\), \([0,0,0,4]\), and \([0,0,0,-4]\); as before, the last two rows are linearly dependent, so only one counts for rank.
+6. For rank to be 2, the two rows \([0, -2, h, 0]\) and \([0, 0, 6-h, -1]\) must be linearly dependent, so set \([0, 0, 6-h, -1] = k[0, -2, h, 0]\) for some scalar \( k \).
+7. Comparing the third entry: \(6-h = k h\); comparing the fourth entry: \(-1 = 0\cdot k\), which is impossible unless \(-1=0\), which cannot be.
+8. Therefore, for the rank to be 2, the row \([0, 0, 6-h, -1]\) must be a linear combination of the previous rows, but since the fourth entry is nonzero, the only way is for both the third and fourth entries to be zero: \(6-h=0\) and \(-1=0\), but \(-1=0\) is impossible.
+9. Re-examine: Instead, for rank 2, one of the first two rows must be a linear combination of the others, or one must be the zero row; set \(h=6\), then \([0, 0, 0, -1]\) is the second row, which is not zero, but now the third and fourth rows are still linearly dependent.
+10. Now, with \(h=6\), the rows are \([0, -2, 6, 0]\), \([0, 0, 0, -1]\), \([0,0,0,4]\), \([0,0,0,-4]\); the last three rows are linearly dependent, so only two are independent, giving rank 2.
+11. Therefore, the value of \(h\) that makes the eigenspace for \(\lambda=5\) two-dimensional is \(h=6\).

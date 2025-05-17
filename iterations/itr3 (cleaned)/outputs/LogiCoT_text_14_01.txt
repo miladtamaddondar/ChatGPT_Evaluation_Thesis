@@ -1,0 +1,8 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we need the geometric multiplicity (dimension of the null space of $A-5I$) to be 2, so first compute $A-5I$: $A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+2. The eigenspace for $\lambda=5$ is the null space of $A-5I$, so set up the homogeneous system $(A-5I)\vec{x} = 0$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}$.
+3. The last two rows give $4x_4=0$ and $-4x_4=0$, so $x_4=0$.
+4. Substitute $x_4=0$ into the first two equations: $-2x_2 + 6x_3 = 0$ and $-2x_2 + h x_3 = 0$.
+5. These two equations can be written as a system: $-2x_2 + 6x_3 = 0$ and $-2x_2 + h x_3 = 0$; subtracting gives $(6-h)x_3=0$.
+6. For the eigenspace to be two-dimensional, the null space must have two free variables, which occurs when $6-h=0$, so $h=6$.
+7. When $h=6$, both equations become $-2x_2 + 6x_3=0$, so $x_2=3x_3$, and $x_1$ is free, so the general solution is $\begin{bmatrix}x_1 \\ 3x_3 \\ x_3 \\ 0\end{bmatrix}$, which has two free variables ($x_1$ and $x_3$), confirming the eigenspace is two-dimensional.
+8. Therefore, the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional is $\boxed{6}$.

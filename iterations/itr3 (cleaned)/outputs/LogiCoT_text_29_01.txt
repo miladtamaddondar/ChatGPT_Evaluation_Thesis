@@ -1,0 +1,7 @@
+1. Write the equation for $T(\mathbf{x}) = (3, 8)$ as a system: Let $\mathbf{x} = (x_1, x_2)$, so $T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8)$, which gives the system $\begin{cases} x_1 + x_2 = 3 \\ 4x_1 + 5x_2 = 8 \end{cases}$.
+2. Express $x_2$ in terms of $x_1$ using the first equation: $x_2 = 3 - x_1$.
+3. Substitute $x_2 = 3 - x_1$ into the second equation: $4x_1 + 5(3 - x_1) = 8$.
+4. Simplify and solve for $x_1$: $4x_1 + 15 - 5x_1 = 8 \implies -x_1 + 15 = 8 \implies -x_1 = 8 - 15 = -7 \implies x_1 = 7$.
+5. Substitute $x_1 = 7$ back into $x_2 = 3 - x_1$: $x_2 = 3 - 7 = -4$.
+6. State the solution: The vector $\mathbf{x} = (7, -4)$ satisfies $T(\mathbf{x}) = (3, 8)$.
+7. Verify correctness by plugging back: $T(7, -4) = (7 + (-4), 4 \cdot 7 + 5 \cdot (-4)) = (3, 28 - 20) = (3, 8)$, confirming the solution is correct.

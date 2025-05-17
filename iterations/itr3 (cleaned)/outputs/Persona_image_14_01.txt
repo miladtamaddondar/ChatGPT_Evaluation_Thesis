@@ -1,0 +1,10 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first write \( A - 5I \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).  
+2. The eigenspace dimension is the nullity of \( A - 5I \), so we need \(\text{nullity}(A - 5I) = 2\), which means the rank must be \(4 - 2 = 2\).  
+3. Row reduce \( A - 5I \): The last two rows are \([0\ 0\ 0\ 4]\) and \([0\ 0\ 0\ -4]\), which are linearly dependent, so together they contribute rank 1.  
+4. The first two rows are \([0\ -2\ 6\ -1]\) and \([0\ -2\ h\ 0]\); subtract the first from the second: \([0\ -2\ h\ 0] - [0\ -2\ 6\ -1] = [0\ 0\ h-6\ 1]\).  
+5. Now the matrix is \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & 0 & h-6 & 1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\), and the last two rows are still dependent, so the rank from them is 1.  
+6. The first row is nonzero if any entry is nonzero, and the second row is nonzero if \(h-6 \neq 0\) or 1 is nonzero, so for the rank to be 2, the second row must be a linear combination of the first and last two rows.  
+7. Since the last two rows together only give one pivot, for the total rank to be 2, the first two rows must be linearly dependent, so set the second row as a multiple of the first: \([0\ 0\ h-6\ 1] = k[0\ -2\ 6\ -1]\) for some \(k\).  
+8. Matching the third entry: \(h-6 = 6k\), and matching the fourth entry: \(1 = -k\), so \(k = -1\).  
+9. Substitute \(k = -1\) into \(h-6 = 6k\): \(h-6 = 6(-1) = -6\), so \(h = 0\).  
+10. Therefore, the value of \(h\) such that the eigenspace for \(\lambda = 5\) is two-dimensional is \(\boxed{0}\).

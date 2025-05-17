@@ -1,0 +1,3 @@
+1. Identify the form of vectors in \( W \): Each vector in \( W \) is of the form \( \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} \) where \( a, b \in \mathbb{R} \). 
+2. Check if \( W \) is closed under addition: Let \( \mathbf{u} = \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} \) and \( \mathbf{v} = \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} \), then \( \mathbf{u} + \mathbf{v} = \begin{bmatrix} 3(a_1+a_2) + (b_1+b_2) \\ 8 \\ (a_1+a_2) - 5(b_1+b_2) \end{bmatrix} \); the second component is 8, not 4, so \( W \) is not closed under addition. 
+3. Conclude that \( W \) is not a vector space: Since \( W \) is not closed under addition, it is not a vector space.

@@ -1,0 +1,6 @@
+1. We are given \( \mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \), \( \mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \end{bmatrix} \), \( \mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \end{bmatrix} \), and \( T(\mathbf{x}) = x_1 \mathbf{v}_1 + x_2 \mathbf{v}_2 \); we need to find a matrix \( A \) such that \( T(\mathbf{x}) = A\mathbf{x} \) for all \( \mathbf{x} \).
+2. By linearity, \( T(\mathbf{x}) = x_1 \mathbf{v}_1 + x_2 \mathbf{v}_2 = x_1 \begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2 \begin{bmatrix} 7 \\ -3 \end{bmatrix} \), which can be written as \( \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix} \).
+3. To express this as a matrix multiplication, we write \( \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \).
+4. Therefore, the matrix \( A \) such that \( T(\mathbf{x}) = A\mathbf{x} \) is \( A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \).
+5. Verification: Multiplying \( A\mathbf{x} \) gives \( \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix} \), which matches the form for \( T(\mathbf{x}) \).
+6. Final answer: The matrix \( A \) is \( \boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}} \).

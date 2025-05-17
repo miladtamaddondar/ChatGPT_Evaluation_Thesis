@@ -1,0 +1,4 @@
+1. Start with the matrix \(A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix}\) and set \(L = \begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix}\), \(U = A\).  
+2. Eliminate the entry below the (1,1) position by row 2 minus \(\frac{4}{6}\) times row 1: \(R_2 \to R_2 - \frac{4}{6}R_1\), so \(U = \begin{bmatrix}6 & 9 \\ 0 & 5 - \frac{4}{6} \times 9\end{bmatrix} = \begin{bmatrix}6 & 9 \\ 0 & 5 - 6\end{bmatrix} = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).  
+3. Update \(L\) with the multiplier used: \(L = \begin{bmatrix}1 & 0 \\ \frac{4}{6} & 1\end{bmatrix} = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\).  
+4. The LU factorization is \(A = LU\) where \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\), \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).

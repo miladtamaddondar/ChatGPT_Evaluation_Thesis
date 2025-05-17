@@ -1,0 +1,11 @@
+1. Write the matrices: \( A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} \), \( \mathbf{b} = \begin{bmatrix} 4 \\ -2 \\ -3 \end{bmatrix} \).  
+2. Compute \( A^T A \): \( A^T A = \begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} = \begin{bmatrix} 1^2+3^2+(-2)^2 & 1\cdot5+3\cdot1+(-2)\cdot4 \\ 5\cdot1+1\cdot3+4\cdot(-2) & 5^2+1^2+4^2 \end{bmatrix} = \begin{bmatrix} 14 & 2 \\ 2 & 42 \end{bmatrix} \).  
+3. Compute \( A^T \mathbf{b} \): \( A^T \mathbf{b} = \begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 4 \\ -2 \\ -3 \end{bmatrix} = \begin{bmatrix} 1\cdot4+3\cdot(-2)+(-2)\cdot(-3) \\ 5\cdot4+1\cdot(-2)+4\cdot(-3) \end{bmatrix} = \begin{bmatrix} 4-6+6 \\ 20-2-12 \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \end{bmatrix} \).  
+4. Set up the normal equations: \( (A^T A)\mathbf{x} = A^T \mathbf{b} \) gives \( \begin{bmatrix} 14 & 2 \\ 2 & 42 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \end{bmatrix} \).  
+5. Write the augmented matrix: \( \left[\begin{array}{cc|c} 14 & 2 & 4 \\ 2 & 42 & 6 \end{array}\right] \).  
+6. Row 2 minus \(\frac{2}{14}\) times Row 1: Row 2 = Row 2 - (1/7)Row 1: \( \left[\begin{array}{cc|c} 14 & 2 & 4 \\ 0 & 41.714 & 5.429 \end{array}\right] \).  
+7. Solve for \( x_2 \): \( 41.714x_2 = 5.429 \implies x_2 = \frac{5.429}{41.714} \approx 0.13 \).  
+8. Substitute \( x_2 \) into Row 1: \( 14x_1 + 2(0.13) = 4 \implies 14x_1 = 4 - 0.26 = 3.74 \implies x_1 = \frac{3.74}{14} \approx 0.267 \).  
+9. Least-squares solution: \( \mathbf{x} = \begin{bmatrix} 0.267 \\ 0.13 \end{bmatrix} \).  
+10. Find the orthogonal projection: \( \mathbf{p} = A\mathbf{x} = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} \begin{bmatrix} 0.267 \\ 0.13 \end{bmatrix} = \begin{bmatrix} 1\cdot0.267 + 5\cdot0.13 \\ 3\cdot0.267 + 1\cdot0.13 \\ -2\cdot0.267 + 4\cdot0.13 \end{bmatrix} = \begin{bmatrix} 0.267 + 0.65 \\ 0.801 + 0.13 \\ -0.534 + 0.52 \end{bmatrix} = \begin{bmatrix} 0.917 \\ 0.931 \\ -0.014 \end{bmatrix} \).  
+11. Final answers: (a) The orthogonal projection is \( \mathbf{p} = \begin{bmatrix} 0.917 \\ 0.931 \\ -0.014 \end{bmatrix} \); (b) the least-squares solution is \( \mathbf{x} = \begin{bmatrix} 0.267 \\ 0.13 \end{bmatrix} \).

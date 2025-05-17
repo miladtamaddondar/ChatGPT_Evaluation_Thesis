@@ -1,0 +1,12 @@
+1. Express $p(t) = 1 + 4t + 7t^2$ as a linear combination of the basis vectors: $p(t) = a(1+t^2) + b(t+t^2) + c(1+2t+t^2)$.  
+2. Expand the right side: $a(1+t^2) + b(t+t^2) + c(1+2t+t^2) = a + at^2 + bt + bt^2 + c + 2ct + ct^2$.  
+3. Combine like terms: $(a + c) + (b + 2c)t + (a + b + c)t^2$.  
+4. Set up equations by matching coefficients with $p(t)$: $a + c = 1$, $b + 2c = 4$, $a + b + c = 7$.  
+5. Write the system as an augmented matrix: $\begin{bmatrix} 1 & 0 & 1 & | & 1 \\ 0 & 1 & 2 & | & 4 \\ 1 & 1 & 1 & | & 7 \end{bmatrix}$.  
+6. Subtract row 1 from row 3 to eliminate $a$: row 3 becomes $[0\ 1\ 0\ |\ 6]$.  
+7. Now the system is: row 1: $a + c = 1$, row 2: $b + 2c = 4$, row 3: $b = 6$.  
+8. From row 3, $b = 6$; verify by substitution: $b = 6$ is consistent with the system.  
+9. Substitute $b = 6$ into row 2: $6 + 2c = 4 \implies 2c = -2 \implies c = -1$.  
+10. Substitute $c = -1$ into row 1: $a + (-1) = 1 \implies a = 2$.  
+11. The coordinate vector is $\begin{bmatrix} a \\ b \\ c \end{bmatrix} = \begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix}$; verify by reconstructing $p(t)$: $2(1+t^2) + 6(t+t^2) + (-1)(1+2t+t^2) = 1 + 4t + 7t^2$.  
+12. Final answer: The coordinate vector of $p(t)$ relative to $\mathcal{B}$ is $\boxed{\begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix}}$.

@@ -1,0 +1,6 @@
+1. To find the inverse of a \(2 \times 2\) matrix \(A = \begin{bmatrix}a & b \\ c & d\end{bmatrix}\), use the formula \(A^{-1} = \frac{1}{ad-bc} \begin{bmatrix}d & -b \\ -c & a\end{bmatrix}\).  
+2. For the given matrix \(A = \begin{bmatrix}8 & 6 \\ 5 & 4\end{bmatrix}\), compute the determinant: \(\det(A) = (8)(4) - (6)(5) = 32 - 30 = 2\).  
+3. Since the determinant is nonzero (\(2 \neq 0\)), the matrix is invertible.  
+4. Apply the inverse formula: \(A^{-1} = \frac{1}{2} \begin{bmatrix}4 & -6 \\ -5 & 8\end{bmatrix}\).  
+5. Simplify the matrix: \(A^{-1} = \begin{bmatrix}2 & -3 \\ -2.5 & 4\end{bmatrix}\).  
+6. Therefore, the inverse of \(\begin{bmatrix}8 & 6 \\ 5 & 4\end{bmatrix}\) is \(\boxed{\begin{bmatrix}2 & -3 \\ -2.5 & 4\end{bmatrix}}\).

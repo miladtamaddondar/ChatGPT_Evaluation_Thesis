@@ -1,0 +1,6 @@
+1. Identify the general form of vectors in $W$: Each vector in $W$ is of the form $\begin{bmatrix} 3a + b \\ 4a - 5b \end{bmatrix}$, where $a, b \in \mathbb{R}$.
+2. Express the general vector as a linear combination: $\begin{bmatrix} 3a + b \\ 4a - 5b \end{bmatrix} = a\begin{bmatrix} 3 \\ 4 \end{bmatrix} + b\begin{bmatrix} 1 \\ -5 \end{bmatrix}$.
+3. Verify closure under addition: Let $\mathbf{u} = a_1\begin{bmatrix} 3 \\ 4 \end{bmatrix} + b_1\begin{bmatrix} 1 \\ -5 \end{bmatrix}$ and $\mathbf{v} = a_2\begin{bmatrix} 3 \\ 4 \end{bmatrix} + b_2\begin{bmatrix} 1 \\ -5 \end{bmatrix}$, then $\mathbf{u} + \mathbf{v} = (a_1 + a_2)\begin{bmatrix} 3 \\ 4 \end{bmatrix} + (b_1 + b_2)\begin{bmatrix} 1 \\ -5 \end{bmatrix}$, which is still in $W$.
+4. Verify closure under scalar multiplication: For scalar $k$, $k\mathbf{u} = (ka_1)\begin{bmatrix} 3 \\ 4 \end{bmatrix} + (kb_1)\begin{bmatrix} 1 \\ -5 \end{bmatrix}$, which is still in $W$.
+5. Since $W$ is closed under addition and scalar multiplication, $W$ is a vector space.
+6. Therefore, a set $S = \left\{ \begin{bmatrix} 3 \\ 4 \end{bmatrix}, \begin{bmatrix} 1 \\ -5 \end{bmatrix} \right\}$ spans $W$.

@@ -1,0 +1,18 @@
+1. To find $P$ and $C$ such that $A = PCP^{-1}$ with $C$ of the form $\begin{pmatrix} a & b \\ -b & a \end{pmatrix}$, we first compute the eigenvalues of $A = \begin{pmatrix} 1 & -2 \\ 1 & 3 \end{pmatrix}$ by solving $\det(A - \lambda I) = 0$.
+2. Compute the characteristic polynomial: $\det\left(\begin{pmatrix} 1-\lambda & -2 \\ 1 & 3-\lambda \end{pmatrix}\right) = (1-\lambda)(3-\lambda) + 2 = (1-\lambda)(3-\lambda) + 2$.
+3. Expand: $(1-\lambda)(3-\lambda) + 2 = (3 - \lambda - 3\lambda + \lambda^2) + 2 = (\lambda^2 - 4\lambda + 3) + 2 = \lambda^2 - 4\lambda + 5$.
+4. Set the characteristic polynomial to zero: $\lambda^2 - 4\lambda + 5 = 0$.
+5. Solve for $\lambda$: $\lambda = \frac{4 \pm \sqrt{(-4)^2 - 4 \cdot 1 \cdot 5}}{2} = \frac{4 \pm \sqrt{16 - 20}}{2} = \frac{4 \pm \sqrt{-4}}{2} = \frac{4 \pm 2i}{2} = 2 \pm i$.
+6. Since $A$ has complex conjugate eigenvalues $2+i$ and $2-i$, $C$ will be $\begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}$.
+7. Next, find a complex eigenvector for $\lambda = 2+i$ by solving $(A - (2+i)I)\vec{v} = 0$.
+8. Compute $A - (2+i)I = \begin{pmatrix} 1-(2+i) & -2 \\ 1 & 3-(2+i) \end{pmatrix} = \begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix}$.
+9. Set up the system: $(-1-i)x - 2y = 0$ and $x + (1-i)y = 0$.
+10. From the second equation, $x = -(1-i)y$.
+11. Substitute into the first equation: $(-1-i)(-(1-i)y) - 2y = 0$.
+12. Compute $(-1-i)(-(1-i)) = (1+i)(1-i) = 1^2 - (i)^2 = 1 - (-1) = 2$.
+13. So $2y - 2y = 0$, which is always true, so any nonzero $y$ gives an eigenvector.
+14. Take $y = 1$, then $x = -(1-i)$, so the eigenvector is $\vec{v} = \begin{pmatrix} -(1-i) \\ 1 \end{pmatrix}$.
+15. The real and imaginary parts of this eigenvector are $\operatorname{Re}(\vec{v}) = \begin{pmatrix} -1 \\ 1 \end{pmatrix}$ and $\operatorname{Im}(\vec{v}) = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
+16. Form $P$ with these as columns: $P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}$.
+17. $C$ is as in step 6: $C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}$.
+18. Therefore, the invertible matrix $P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}$ and $C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}$ satisfy $A = P C P^{-1}$.

@@ -1,0 +1,6 @@
+1. The matrix $A$ is a $4 \times 6$ matrix, so it has 4 rows and 6 columns.  
+2. To find $\text{Nul }A$ and $\text{Col }A$, we need to determine the rank of $A$, which is the number of leading 1's (pivot columns) in its row-reduced echelon form (RREF).  
+3. The given matrix $A$ is already in row-echelon form, and the leading entries (pivots) are in columns 1, 3, and 4.  
+4. Therefore, the rank of $A$ is 3, so $\dim(\text{Col }A) = 3$.  
+5. By the Rank-Nullity Theorem, $\dim(\text{Nul }A) = n - \text{rank}(A) = 6 - 3 = 3$.  
+6. Final answer: $\dim(\text{Nul }A) = 3$ and $\dim(\text{Col }A) = 3$.

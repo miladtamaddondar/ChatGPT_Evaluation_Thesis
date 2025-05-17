@@ -1,0 +1,4 @@
+1. The standard matrix for a rotation by θ radians counterclockwise in \(\mathbb{R}^2\) is \(\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}\). 
+2. Here, θ = \(\frac{3\pi}{2}\) radians, so we compute \(\cos\left(\frac{3\pi}{2}\right) = 0\) and \(\sin\left(\frac{3\pi}{2}\right) = -1\). 
+3. Substitute these values into the rotation matrix to get \(\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}\). 
+4. Therefore, the standard matrix of \(T\) is \(\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}\).

@@ -1,0 +1,7 @@
+1. Write the matrix as \( A = \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} \). 
+2. Set up \( L = \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} \) and \( U = \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} \) such that \( A = LU \). 
+3. From the first row, \( 6 = 1 \cdot u_{11} + 0 \cdot 0 \Rightarrow u_{11} = 6 \) and \( 9 = 1 \cdot u_{12} + 0 \cdot u_{22} \Rightarrow u_{12} = 9 \). 
+4. From the second row, \( 4 = l_{21} \cdot u_{11} \Rightarrow l_{21} = 4/6 = 2/3 \) and \( 5 = l_{21} \cdot u_{12} + 1 \cdot u_{22} \Rightarrow 5 = (2/3) \cdot 9 + u_{22} \Rightarrow 5 = 6 + u_{22} \Rightarrow u_{22} = -1 \). 
+5. Thus, \( L = \begin{bmatrix} 1 & 0 \\ 2/3 & 1 \end{bmatrix} \) and \( U = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \). 
+6. Verify by multiplying: \( LU = \begin{bmatrix} 1 & 0 \\ 2/3 & 1 \end{bmatrix} \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} = \begin{bmatrix} 6 & 9 \\ (2/3) \cdot 6 + 1 \cdot 0 & (2/3) \cdot 9 + 1 \cdot (-1) \end{bmatrix} = \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} \), confirming correctness. 
+7. Final answer: The LU factorization is \( L = \begin{bmatrix} 1 & 0 \\ 2/3 & 1 \end{bmatrix} \), \( U = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).

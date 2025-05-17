@@ -1,0 +1,9 @@
+1. To find the coordinate vector of $p(t)$ relative to $\mathcal{B}$, we seek scalars $a, b, c$ such that $p(t) = a(1+t^2) + b(t+t^2) + c(1+2t+t^2)$; this is correct because expressing $p(t)$ as a linear combination of basis vectors gives its coordinates.  
+2. Expand the right side: $a(1+t^2) + b(t+t^2) + c(1+2t+t^2) = a + a t^2 + b t + b t^2 + c + 2c t + c t^2$; this step is valid by distributivity of scalar multiplication over addition.  
+3. Combine like terms: $(a + c) + (b + 2c)t + (a + b + c)t^2$; this uses the commutativity and associativity of addition in vector spaces.  
+4. Set coefficients equal to those in $p(t) = 1 + 4t + 7t^2$: $a + c = 1$, $b + 2c = 4$, $a + b + c = 7$; this is valid because two polynomials are equal iff their corresponding coefficients are equal.  
+5. Solve for $a, b, c$: From $a + c = 1$ (i), $b + 2c = 4$ (ii), $a + b + c = 7$ (iii); this system is correct and ready for solution.  
+6. From (i), $a = 1 - c$; substituting this into (iii) gives $(1-c) + b + c = 7 \implies 1 + b = 7 \implies b = 6$; substitution is valid by the properties of equality.  
+7. Substitute $b = 6$ into (ii): $6 + 2c = 4 \implies 2c = -2 \implies c = -1$; this follows from basic algebraic manipulation.  
+8. Substitute $c = -1$ into $a = 1 - c$: $a = 1 - (-1) = 2$; this is correct by substitution.  
+9. Therefore, the coordinate vector of $p(t)$ relative to $\mathcal{B}$ is $\boxed{\begin{bmatrix}2 \\ 6 \\ -1\end{bmatrix}}$; this is valid because $p(t) = 2(1+t^2) + 6(t+t^2) - 1(1+2t+t^2)$.

@@ -1,0 +1,4 @@
+1. To find a matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$, write $\mathbf{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix}$ and $T(\mathbf{x}) = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix}$.
+2. Express each output entry as a linear combination of $x_1, x_2, x_3, x_4$: $0 = 0x_1 + 0x_2 + 0x_3 + 0x_4$, $x_1 + x_2 = 1x_1 + 1x_2 + 0x_3 + 0x_4$, $x_2 + x_3 = 0x_1 + 1x_2 + 1x_3 + 0x_4$, $x_3 + x_4 = 0x_1 + 0x_2 + 1x_3 + 1x_4$.
+3. Write the matrix $A$ using these coefficients: $A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$.
+4. Therefore, $T$ is a linear transformation and the matrix implementing the mapping is $\boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}}$.

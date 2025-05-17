@@ -1,0 +1,8 @@
+1. To show \( T \) is a linear transformation, we seek a matrix \( A \) such that \( T(\vec{x}) = A\vec{x} \) for \( \vec{x} = (x_1, x_2, x_3, x_4)^T \).  
+2. The output vector is \( (0, x_1 + x_2, x_2 + x_3, x_3 + x_4) \), so we write this as a matrix-vector product.  
+3. The first entry is always 0, so the first row of \( A \) is \( (0, 0, 0, 0) \).  
+4. The second entry is \( x_1 + x_2 \), so the second row of \( A \) is \( (1, 1, 0, 0) \).  
+5. The third entry is \( x_2 + x_3 \), so the third row of \( A \) is \( (0, 1, 1, 0) \).  
+6. The fourth entry is \( x_3 + x_4 \), so the fourth row of \( A \) is \( (0, 0, 1, 1) \).  
+7. Therefore, the matrix is \( A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \).  
+8. Since \( T(\vec{x}) = A\vec{x} \), \( T \) is a linear transformation and the matrix implementing the mapping is \( \boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}} \).

@@ -1,0 +1,8 @@
+1. Let \( A = \begin{bmatrix} 2 & 1 \\ -1 & 4 \end{bmatrix} \); the characteristic polynomial is found by computing \( \det(A - \lambda I) \).  
+2. Compute \( A - \lambda I = \begin{bmatrix} 2-\lambda & 1 \\ -1 & 4-\lambda \end{bmatrix} \).  
+3. The determinant is \( (2-\lambda)(4-\lambda) - (1)(-1) = (2-\lambda)(4-\lambda) + 1 \).  
+4. Expand: \( (2-\lambda)(4-\lambda) + 1 = 8 - 2\lambda - 4\lambda + \lambda^2 + 1 = \lambda^2 - 6\lambda + 9 \).  
+5. The characteristic polynomial is \( \lambda^2 - 6\lambda + 9 \); verify by re-expanding: \( (2-\lambda)(4-\lambda) = 8 - 2\lambda - 4\lambda + \lambda^2 = \lambda^2 - 6\lambda + 8 \), then add 1 to get \( \lambda^2 - 6\lambda + 9 \).  
+6. Set the characteristic polynomial to zero: \( \lambda^2 - 6\lambda + 9 = 0 \).  
+7. Factor: \( (\lambda - 3)^2 = 0 \), so the eigenvalue is \( \lambda = 3 \) (with algebraic multiplicity 2).  
+8. Final answer: The characteristic polynomial is \( \lambda^2 - 6\lambda + 9 \) and the eigenvalue is \( \lambda = 3 \) (with multiplicity 2).

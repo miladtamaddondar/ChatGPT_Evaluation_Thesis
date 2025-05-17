@@ -1,0 +1,12 @@
+1. To find all least-squares solutions to \(Ax = b\), we solve the normal equations \(A^T A x = A^T b\); this is valid because least-squares solutions minimize \(\|Ax - b\|^2\).  
+2. Compute \(A^T\): \(A^T = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}\); this is correct by transposing \(A\).  
+3. Compute \(A^T A\): \(A^T A = \begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix}\); this is verified by matrix multiplication.  
+4. Compute \(A^T b\): \(A^T b = \begin{bmatrix} 1+3+8+2 \\ 1+3+0+0 \\ 0+0+8+2 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\); each entry is the dot product of a row of \(A^T\) with \(b\).  
+5. Write the normal equations: \(\begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\); this follows from steps 3 and 4.  
+6. Let’s row reduce the augmented matrix: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 2 & 2 & 0 & 4 \\ 2 & 0 & 2 & 10 \end{array}\right]\); this sets up the system for solution.  
+7. Divide row 1 by 2: \(\left[\begin{array}{ccc|c} 2 & 1 & 1 & 7 \\ 2 & 2 & 0 & 4 \\ 2 & 0 & 2 & 10 \end{array}\right]\); this simplifies calculations.  
+8. Subtract row 1 from rows 2 and 3: Row 2: \((2,2,0,4)-(2,1,1,7) = (0,1,-1,-3)\), Row 3: \((2,0,2,10)-(2,1,1,7) = (0,-1,1,3)\); new matrix: \(\left[\begin{array}{ccc|c} 2 & 1 & 1 & 7 \\ 0 & 1 & -1 & -3 \\ 0 & -1 & 1 & 3 \end{array}\right]\).  
+9. Add row 2 to row 3: \((0,-1,1,3)+(0,1,-1,-3) = (0,0,0,0)\); the matrix is now \(\left[\begin{array}{ccc|c} 2 & 1 & 1 & 7 \\ 0 & 1 & -1 & -3 \\ 0 & 0 & 0 & 0 \end{array}\right]\); this shows a free variable.  
+10. Let \(x_3 = t\); from row 2: \(x_2 - x_3 = -3 \implies x_2 = -3 + t\); this is correct by back substitution.  
+11. From row 1: \(2x_1 + x_2 + x_3 = 7\), substitute \(x_2\) and \(x_3\): \(2x_1 + (-3 + t) + t = 7 \implies 2x_1 - 3 + 2t = 7\); thus \(2x_1 = 10 - 2t\), so \(x_1 = 5 - t\).  
+12. The general least-squares solution is \(x = \begin{bmatrix} 5-t \\ -3+t \\ t \end{bmatrix}\), \(t \in \mathbb{R}\); this describes all least-squares solutions.

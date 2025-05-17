@@ -1,0 +1,5 @@
+1. Start by noting that a \( 4 \times 3 \) matrix with rank 1 means all rows are scalar multiples of a single nonzero row; let's choose the first row as \( (1, 2, 3) \), so the matrix is \( \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix} \).  
+2. Subtract 2 times the first row from the second row: \( R_2 \leftarrow R_2 - 2R_1 \), resulting in \( \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix} \).  
+3. Add the first row to the third row: \( R_3 \leftarrow R_3 + R_1 \), resulting in \( \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 5 & 10 & 15 \end{bmatrix} \).  
+4. Subtract 5 times the first row from the fourth row: \( R_4 \leftarrow R_4 - 5R_1 \), resulting in \( \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).  
+5. The final matrix \( \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \) has exactly one nonzero row, so its rank is 1.

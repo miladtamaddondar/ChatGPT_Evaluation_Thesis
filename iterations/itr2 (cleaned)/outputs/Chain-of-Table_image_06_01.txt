@@ -1,0 +1,8 @@
+1. We want to find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), where \(A = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix}\); this means each column of \(B\) must be in the null space of \(A\). 
+2. Let the first column of \(B\) be \(\mathbf{b}_1 = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\), so \(A\mathbf{b}_1 = \begin{bmatrix} 3x_1 - 6x_2 \\ -x_1 + 2x_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\). 
+3. Set up the equations: \(3x_1 - 6x_2 = 0\) and \(-x_1 + 2x_2 = 0\). 
+4. Solve the second equation: \(-x_1 + 2x_2 = 0 \implies x_1 = 2x_2\). \
+5. Substitute into the first equation: \(3(2x_2) - 6x_2 = 0 \implies 6x_2 - 6x_2 = 0\), which is always true, so any vector of the form \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) times a scalar is a solution. 
+6. Let’s pick \(x_2 = 1\), so \(\mathbf{b}_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\) is a nonzero column. 
+7. For the second column, pick a different nonzero scalar multiple, say \(x_2 = -1\), so \(\mathbf{b}_2 = \begin{bmatrix} -2 \\ -1 \end{bmatrix}\) is another nonzero column. 
+8. Therefore, one possible \(B\) is \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).

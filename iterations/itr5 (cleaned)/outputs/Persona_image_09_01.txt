@@ -1,0 +1,5 @@
+1. Write the vectors as columns of a matrix: \( A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix} \).
+2. Perform row operations to row reduce \( A \) to echelon form: subtract \(-3\) times row 1 from row 2, \(-2\) times row 1 from row 3, and \(4\) times row 1 from row 4 to get \( \begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & -6 & 23 \end{bmatrix} \).
+3. Add \(6/5\) times row 3 to row 4 to eliminate the \(-6\) in row 4, column 3: \( \begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 17 \end{bmatrix} \).
+4. The leading entries (pivots) are in columns 1, 3, and 4, so the corresponding original vectors \( \mathbf{v}_1, \mathbf{v}_3, \mathbf{v}_4 \) form a basis.
+5. The dimension of the subspace is the number of basis vectors, which is 3.

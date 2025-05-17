@@ -1,0 +1,6 @@
+1. Write \( U = [u_1\ u_2] = \begin{bmatrix} \frac{2}{3} & -\frac{2}{3} \\ \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{1}{3} \end{bmatrix} \).
+2. Compute \( U^T U = \begin{bmatrix} \frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{bmatrix} \begin{bmatrix} \frac{2}{3} & -\frac{2}{3} \\ \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{1}{3} \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \).
+3. Compute \( U U^T = \begin{bmatrix} \frac{2}{3} & -\frac{2}{3} \\ \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{1}{3} \end{bmatrix} \begin{bmatrix} \frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{bmatrix} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} \).
+4. Compute \( (U U^T) y = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} = \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} \).
+5. Since \( U \) has orthonormal columns, \( \text{proj}_W y = U U^T y = \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} \).
+6. Final answer: \( U^T U = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix},\ U U^T = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix},\ \text{proj}_W y = (U U^T) y = \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} \).

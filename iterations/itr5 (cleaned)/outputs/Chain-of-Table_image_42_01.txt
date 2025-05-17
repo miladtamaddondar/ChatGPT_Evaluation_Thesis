@@ -1,0 +1,18 @@
+1. To write \(\mathbf{y}\) as the sum of a vector in \(W\) and a vector orthogonal to \(W\), we project \(\mathbf{y}\) onto the subspace \(W\) spanned by \(\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\). Let \(\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp\), where \(\mathbf{y}_W\) is in \(W\) and \(\mathbf{y}_\perp\) is orthogonal to \(W\).
+2. Write \(\mathbf{y}_W = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3\), so \(\mathbf{y}_W = a_1\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + a_2\begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} + a_3\begin{bmatrix}-1\\0\\1\\1\end{bmatrix}\).
+3. Set up the equation \(\mathbf{y} = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3 + \mathbf{y}_\perp\), but since \(\mathbf{y}_\perp\) is orthogonal to \(W\), we solve for \(a_1, a_2, a_3\) by projecting \(\mathbf{y}\) onto the span of the \(\mathbf{u}_i\).
+4. Form the matrix equation: \(\begin{bmatrix}1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1\end{bmatrix} \begin{bmatrix}a_1 \\ a_2 \\ a_3\end{bmatrix} = \begin{bmatrix}4 \\ 3 \\ 3 \\ -1\end{bmatrix}\).
+5. Write the augmented matrix: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 1 & 3 & 0 & 3 \\ 0 & 1 & 1 & 3 \\ 1 & -2 & 1 & -1 \end{array}\right]\).
+6. Subtract row 1 from row 2 and row 4: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 1 & 1 & 3 \\ 0 & -1 & 2 & -5 \end{array}\right]\).
+7. Divide row 2 by 4: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 1 & \frac{1}{4} & -\frac{1}{4} \\ 0 & 1 & 1 & 3 \\ 0 & -1 & 2 & -5 \end{array}\right]\).
+8. Subtract row 2 from row 3, add row 2 to row 4: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 1 & \frac{1}{4} & -\frac{1}{4} \\ 0 & 0 & \frac{3}{4} & \frac{13}{4} \\ 0 & 0 & \frac{9}{4} & -\frac{21}{4} \end{array}\right]\).
+9. Multiply row 3 by \(\frac{4}{3}\): \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 1 & \frac{1}{4} & -\frac{1}{4} \\ 0 & 0 & 1 & \frac{13}{3} \\ 0 & 0 & \frac{9}{4} & -\frac{21}{4} \end{array}\right]\).
+10. Subtract \(\frac{9}{4}\) times row 3 from row 4: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 1 & \frac{1}{4} & -\frac{1}{4} \\ 0 & 0 & 1 & \frac{13}{3} \\ 0 & 0 & 0 & -14 \end{array}\right]\).
+11. Back-substitute: From row 4, the system is inconsistent unless \(-14 = 0\), so the vectors \(\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\) do not span all of \(\mathbb{R}^4\), but the least squares solution gives the closest vector in \(W\).
+12. The least squares solution is given by solving the normal equations: \((U^TU)\mathbf{a} = U^T\mathbf{y}\), where \(U = [\mathbf{u}_1~\mathbf{u}_2~\mathbf{u}_3]\).
+13. Compute \(U^TU = \begin{bmatrix}3 & -2 & 1 \\ -2 & 15 & -4 \\ 1 & -4 & 3\end{bmatrix}\), \(U^T\mathbf{y} = \begin{bmatrix}6 \\ 2 \\ 0\end{bmatrix}\).
+14. Solve \(\begin{bmatrix}3 & -2 & 1 \\ -2 & 15 & -4 \\ 1 & -4 & 3\end{bmatrix} \begin{bmatrix}a_1 \\ a_2 \\ a_3\end{bmatrix} = \begin{bmatrix}6 \\ 2 \\ 0\end{bmatrix}\).
+15. The solution is \(\begin{bmatrix}a_1 \\ a_2 \\ a_3\end{bmatrix} = \begin{bmatrix}2 \\ 0 \\ 2\end{bmatrix}\).
+16. Thus, \(\mathbf{y}_W = 2\mathbf{u}_1 + 0\mathbf{u}_2 + 2\mathbf{u}_3 = 2\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + 2\begin{bmatrix}-1\\0\\1\\1\end{bmatrix} = \begin{bmatrix}2\\2\\0\\2\end{bmatrix} + \begin{bmatrix}-2\\0\\2\\2\end{bmatrix} = \begin{bmatrix}0\\2\\2\\4\end{bmatrix}\).
+17. The orthogonal component is \(\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}0\\2\\2\\4\end{bmatrix} = \begin{bmatrix}4\\1\\1\\-5\end{bmatrix}\).
+18. Final answer: \(\mathbf{y} = \begin{bmatrix}0\\2\\2\\4\end{bmatrix} + \begin{bmatrix}4\\1\\1\\-5\end{bmatrix}\), where the first vector is in \(W\) and the second is orthogonal to \(W\).

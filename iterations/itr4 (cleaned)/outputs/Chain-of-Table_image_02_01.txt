@@ -1,0 +1,4 @@
+1. Write the formula for changing from basis B to the standard basis: \(\mathbf{x} = 3\begin{bmatrix}1\\1\end{bmatrix} + 2\begin{bmatrix}2\\-1\end{bmatrix}\).
+2. Multiply the scalars: \(3\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}3\\3\end{bmatrix}\), \(2\begin{bmatrix}2\\-1\end{bmatrix} = \begin{bmatrix}4\\-2\end{bmatrix}\).
+3. Add the vectors: \(\begin{bmatrix}3\\3\end{bmatrix} + \begin{bmatrix}4\\-2\end{bmatrix} = \begin{bmatrix}7\\1\end{bmatrix}\).
+4. Final answer: The vector \(\mathbf{x} = \begin{bmatrix}7\\1\end{bmatrix}\).

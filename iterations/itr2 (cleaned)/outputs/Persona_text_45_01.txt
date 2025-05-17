@@ -1,0 +1,5 @@
+1. To compute the dot product $\mathbf{u} \cdot \mathbf{v}$, multiply corresponding components and sum: $2 \times (-7) + (-5) \times (-4) + (-1) \times 6 = -14 + 20 - 6 = 0$.  
+2. To compute $\|\mathbf{u}\|^2$, sum the squares of the components: $2^2 + (-5)^2 + (-1)^2 = 4 + 25 + 1 = 30$.  
+3. To compute $\|\mathbf{v}\|^2$, sum the squares of the components: $(-7)^2 + (-4)^2 + 6^2 = 49 + 16 + 36 = 101$.  
+4. To compute $\|\mathbf{u} + \mathbf{v}\|^2$, first find $\mathbf{u} + \mathbf{v} = \begin{bmatrix} 2 + (-7) \\ -5 + (-4) \\ -1 + 6 \end{bmatrix} = \begin{bmatrix} -5 \\ -9 \\ 5 \end{bmatrix}$, then sum the squares: $(-5)^2 + (-9)^2 + 5^2 = 25 + 81 + 25 = 131$.  
+5. The computed values are: $\mathbf{u} \cdot \mathbf{v} = 0$, $\|\mathbf{u}\|^2 = 30$, $\|\mathbf{v}\|^2 = 101$, and $\|\mathbf{u} + \mathbf{v}\|^2 = 131$.

@@ -1,0 +1,11 @@
+1. To find the orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$, we need to solve for $a$ and $b$ in $a p_0 + b p_1$ such that $p_2 - (a p_0 + b p_1)$ is orthogonal to both $p_0$ and $p_1$ under the given inner product. This leads to the system: $\langle p_2 - (a p_0 + b p_1), p_0 \rangle = 0$ and $\langle p_2 - (a p_0 + b p_1), p_1 \rangle = 0$.
+2. Compute the inner products: $\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)$. The relevant values are: $p_0(-3)=1$, $p_0(-1)=1$, $p_0(1)=1$, $p_0(3)=1$; $p_1(-3)=-3$, $p_1(-1)=-1$, $p_1(1)=1$, $p_1(3)=3$; $p_2(-3)=9$, $p_2(-1)=1$, $p_2(1)=1$, $p_2(3)=9$.
+3. Compute the coefficients for the system: $\langle p_0, p_0 \rangle = 4$, $\langle p_0, p_1 \rangle = 0$, $\langle p_1, p_1 \rangle = 20$, $\langle p_2, p_0 \rangle = 20$, $\langle p_2, p_1 \rangle = 0$.
+4. The system is: $\begin{bmatrix} 4 & 0 \\ 0 & 20 \end{bmatrix} \begin{bmatrix} a \\ b \end{bmatrix} = \begin{bmatrix} 20 \\ 0 \end{bmatrix}$.
+5. Divide row 1 by 4: 1. $R_1 \to \frac{1}{4} R_1$: $\left[\begin{array}{cc|c} 1 & 0 & 5 \\ 0 & 20 & 0 \end{array}\right]$.
+6. Divide row 2 by 20: 2. $R_2 \to \frac{1}{20} R_2$: $\left[\begin{array}{cc|c} 1 & 0 & 5 \\ 0 & 1 & 0 \end{array}\right]$.
+7. The solution is $a=5$, $b=0$, so the orthogonal projection is $5p_0$.
+8. For part (b), $q = p_2 - 5p_0$ is orthogonal to $p_0$ and $p_1$. $q(t) = t^2 - 5$.
+9. The vector of $q$ at $(-3, -1, 1, 3)$ is $(9-5, 1-5, 1-5, 9-5) = (4, -4, -4, 4)$.
+10. To scale $q$ so that its vector is $(1, -1, -1, 1)$, divide by 4: $q(t) = \frac{1}{4}(t^2 - 5)$.
+11. Final answer: The orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5p_0$, and the orthogonal basis is $\{p_0, p_1, \frac{1}{4}(t^2 - 5)\}$.

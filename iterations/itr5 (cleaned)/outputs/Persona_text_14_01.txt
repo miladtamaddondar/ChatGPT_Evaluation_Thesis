@@ -1,0 +1,20 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A - 5I$:\[A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\].
+2. The eigenspace dimension is the nullity of $A-5I$, so we row reduce $A-5I$ to find when the nullity is $2$.
+3. The last two rows are $[0,0,0,4]$ and $[0,0,0,-4]$, which are linearly dependent, so we can subtract the fourth row from the third to get $[0,0,0,8]$ and $[0,0,0,0]$.
+4. Now, the matrix is equivalent to $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 8 \\ 0 & 0 & 0 & 0\end{bmatrix}$, so the rank is $3$ unless one of the first two rows is linearly dependent on the others.
+5. For nullity $2$, the rank must be $2$ (since $4-2=2$), so one of the first two rows must be a linear combination of the others.
+6. The first two rows are $[0, -2, 6, -1]$ and $[0, -2, h, 0]$; subtract the second row from the first: $[0, 0, 6-h, -1]$.
+7. For these two rows to be linearly dependent, $6-h=0$ and $-1=0$, but $-1\neq 0$, so instead, the only way for rank to drop is if the first two rows are linearly dependent.
+8. Set $[0, -2, 6, -1] = k[0, -2, h, 0]$ for some $k$, so $-2 = k(-2)$, $6 = k h$, $-1 = k \cdot 0$.
+9. From $-2 = k(-2)$, $k=1$; from $-1 = 0$, contradiction, so the only way for rank to drop is if the third row is zero, i.e., $8=0$, which is impossible.
+10. Alternatively, for the third row $[0,0,0,8]$ to be zero, $8=0$ is not possible, so the only way is if the first two rows are linearly dependent, which requires $h=6$ and $-1=0$, contradiction.
+11. Therefore, check if $h$ can be chosen so that the rank is $2$; set $h=6$ and check the nullity.
+12. Substitute $h=6$, the first two rows become $[0, -2, 6, -1]$ and $[0, -2, 6, 0]$; subtracting gives $[0, 0, 0, -1]$.
+13. Now, the matrix is $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & 6 & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}$, which after row operations gives three nonzero rows, so rank is $3$ and nullity is $1$.
+14. Therefore, the only way for the nullity to be $2$ is if $h$ is such that the first two rows are multiples, i.e., $[0, -2, 6, -1] = k[0, -2, h, 0]$ with $k\neq 0$.
+15. From $-2 = k(-2)$, $k=1$; $6 = h$, $-1 = 0$, contradiction, so no value of $h$ makes the first two rows linearly dependent.
+16. Instead, set $h$ so that the third row is a linear combination of the first two, i.e., $[0,0,0,4] = a[0,-2,6,-1] + b[0,-2,h,0]$.
+17. The only nonzero entry is in the fourth column, so $4 = -a$, so $a = -4$.
+18. Now, $0 = -2a - 2b = 8 - 2b \implies b = 4$.
+19. Next, $0 = 6a + h b = -24 + 4h \implies 4h = 24 \implies h = 6$.
+20. Therefore, the value of $h$ that makes the eigenspace for $\lambda=5$ two-dimensional is $\boxed{6}$.

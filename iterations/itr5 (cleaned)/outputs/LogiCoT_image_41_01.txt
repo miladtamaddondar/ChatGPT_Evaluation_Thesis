@@ -1,0 +1,9 @@
+1. Compute the dot product \(\mathbf{u} \cdot \mathbf{v} = (-1)(4) + (2)(6) = -4 + 12 = 8\); verify: dot product is sum of products of corresponding entries.  
+2. Compute the dot product \(\mathbf{v} \cdot \mathbf{v} = (4)^2 + (6)^2 = 16 + 36 = 52\); verify: dot product with itself gives squared norm.  
+3. Compute the scalar \(\frac{\mathbf{u} \cdot \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}} = \frac{8}{52} = \frac{2}{13}\); verify: division of scalars is valid.  
+4. Multiply scalar by vector: \(\left(\frac{2}{13}\right)\mathbf{v} = \frac{2}{13}\begin{bmatrix}4\\6\end{bmatrix} = \begin{bmatrix}\frac{8}{13}\\\frac{12}{13}\end{bmatrix}\); verify: scalar multiplication distributes over vector entries.  
+5. Compute the dot product \(\mathbf{x} \cdot \mathbf{w} = (6)(3) + (-2)(-1) + (3)(-5) = 18 + 2 - 15 = 5\); verify: dot product is sum of products of corresponding entries.  
+6. Compute the dot product \(\mathbf{x} \cdot \mathbf{x} = (6)^2 + (-2)^2 + (3)^2 = 36 + 4 + 9 = 49\); verify: dot product with itself gives squared norm.  
+7. Compute the scalar \(\frac{\mathbf{x} \cdot \mathbf{w}}{\mathbf{x} \cdot \mathbf{x}} = \frac{5}{49}\); verify: division of scalars is valid.  
+8. Multiply scalar by vector: \(\left(\frac{5}{49}\right)\mathbf{x} = \frac{5}{49}\begin{bmatrix}6\\-2\\3\end{bmatrix} = \begin{bmatrix}\frac{30}{49}\\-\frac{10}{49}\\\frac{15}{49}\end{bmatrix}\); verify: scalar multiplication distributes over vector entries.  
+9. Final answers: (a) \(\begin{bmatrix}\frac{8}{13}\\\frac{12}{13}\end{bmatrix}\), (b) \(\begin{bmatrix}\frac{30}{49}\\-\frac{10}{49}\\\frac{15}{49}\end{bmatrix}\).

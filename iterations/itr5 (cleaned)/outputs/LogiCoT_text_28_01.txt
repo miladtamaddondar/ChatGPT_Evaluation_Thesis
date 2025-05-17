@@ -1,0 +1,4 @@
+1. Since $T$ is linear and $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$, we can express $T(\mathbf{x})$ as a matrix-vector product using the standard basis vectors; this means $A$ has columns $\mathbf{v}_1$ and $\mathbf{v}_2$.
+2. Therefore, $A = \begin{bmatrix} \mathbf{v}_1 & \mathbf{v}_2 \end{bmatrix} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$, since multiplying $A$ by $\mathbf{x}$ gives $x_1\mathbf{v}_1 + x_2\mathbf{v}_2$.
+3. Verification: $A\mathbf{x} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix} = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$, confirming correctness.
+4. Final answer: The required matrix is $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.

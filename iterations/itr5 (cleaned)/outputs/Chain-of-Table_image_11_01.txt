@@ -1,0 +1,1 @@
+1. The matrix is already diagonal, so the eigenvalues are the diagonal entries: \(0, 2, 1\).

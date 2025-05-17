@@ -1,0 +1,5 @@
+1. Observe that \( Q r_j \) is the matrix-vector product of \( Q \) with \( r_j \), so stacking these as columns gives \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] \).  
+2. Recall that for any matrix \( Q \) and a matrix \( R = [r_1 \; r_2 \; \dots \; r_p] \), the product \( Q R \) is the matrix whose \( j \)-th column is \( Q r_j \).  
+3. Therefore, \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \) by the definition of matrix multiplication.  
+4. Since neither \( Q \) nor \( [r_1 \; \dots \; r_p] \) is necessarily an identity matrix, this expresses the original matrix as a product of two non-identity matrices.  
+5. Final answer: \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \).

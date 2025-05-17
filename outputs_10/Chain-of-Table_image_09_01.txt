@@ -1,0 +1,7 @@
+1. Write the vectors as columns of a matrix: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).  
+2. Use \(R_2 + 3R_1 \rightarrow R_2\): \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).  
+3. Use \(R_3 - 2R_1 \rightarrow R_3\): \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).  
+4. Use \(R_4 + 4R_1 \rightarrow R_4\): \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 10 & -9 \end{bmatrix}\).  
+5. Use \(R_4 - 2R_2 \rightarrow R_4\): \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 5 \end{bmatrix}\).  
+6. Use \(R_4 - R_3 \rightarrow R_4\): \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).  
+7. The nonzero columns corresponding to pivots are columns 1, 3, and 4, so a basis is \(\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}\) and the dimension is 3.

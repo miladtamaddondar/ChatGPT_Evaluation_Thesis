@@ -1,0 +1,13 @@
+1. To find a nonzero vector $\mathbf{v}$ in $\mathbb{R}^3$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we seek $\mathbf{v}$ such that $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$; this is equivalent to solving the system: $\begin{cases} v_1 + v_2 - 2v_3 = 0 \\ 5v_1 - v_2 + 2v_3 = 0 \end{cases}$.
+
+2. To solve, add the two equations: $(v_1 + v_2 - 2v_3) + (5v_1 - v_2 + 2v_3) = 0 + 0 \implies 6v_1 = 0 \implies v_1 = 0$; this uses the property that adding equations preserves the solution set.
+
+3. Substitute $v_1 = 0$ into the first equation: $0 + v_2 - 2v_3 = 0 \implies v_2 = 2v_3$; this follows from the basic property of linear equations.
+
+4. Substitute $v_1 = 0$ and $v_2 = 2v_3$ into the second equation: $5 \cdot 0 - (2v_3) + 2v_3 = 0 \implies 0 = 0$, confirming consistency and that $v_3$ can be any real number.
+
+5. Therefore, the general solution is $\mathbf{v} = \begin{bmatrix} 0 \\ 2v_3 \\ v_3 \end{bmatrix}$ for any $v_3 \neq 0$, so a nonzero vector is $\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$ by choosing $v_3 = 1$.
+
+6. Verification: $\mathbf{u}_1 \cdot \mathbf{v} = 1 \cdot 0 + 1 \cdot 2 + (-2) \cdot 1 = 0 + 2 - 2 = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 5 \cdot 0 + (-1) \cdot 2 + 2 \cdot 1 = 0 - 2 + 2 = 0$, confirming $\mathbf{v}$ is orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$.
+
+7. Final answer: A nonzero vector orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$.

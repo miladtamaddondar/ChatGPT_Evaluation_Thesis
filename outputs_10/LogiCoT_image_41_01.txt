@@ -1,0 +1,17 @@
+Let's solve each part step by step, with each step on a single line as requested.
+
+**Part (a):** \( \left( \frac{\mathbf{u} \cdot \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}} \right) \mathbf{v} \)
+
+1. Compute \( \mathbf{u} \cdot \mathbf{v} = (-1)(4) + (2)(6) = -4 + 12 = 8 \). Verified: Dot product is linear and distributive.
+2. Compute \( \mathbf{v} \cdot \mathbf{v} = (4)^2 + (6)^2 = 16 + 36 = 52 \). Verified: Dot product of a vector with itself gives the squared norm.
+3. Compute the scalar \( \frac{\mathbf{u} \cdot \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}} = \frac{8}{52} = \frac{2}{13} \). Verified: Division of scalars is valid.
+4. Multiply scalar by vector: \( \frac{2}{13} \mathbf{v} = \frac{2}{13} \begin{bmatrix} 4 \\ 6 \end{bmatrix} = \begin{bmatrix} \frac{8}{13} \\ \frac{12}{13} \end{bmatrix} \). Verified: Scalar multiplication is distributive over vector components.
+
+**Part (b):** \( \left( \frac{\mathbf{x} \cdot \mathbf{w}}{\mathbf{x} \cdot \mathbf{x}} \right) \mathbf{x} \)
+
+5. Compute \( \mathbf{x} \cdot \mathbf{w} = (6)(3) + (-2)(-1) + (3)(-5) = 18 + 2 - 15 = 5 \). Verified: Dot product calculation is correct.
+6. Compute \( \mathbf{x} \cdot \mathbf{x} = (6)^2 + (-2)^2 + (3)^2 = 36 + 4 + 9 = 49 \). Verified: Dot product of a vector with itself is the squared norm.
+7. Compute the scalar \( \frac{\mathbf{x} \cdot \mathbf{w}}{\mathbf{x} \cdot \mathbf{x}} = \frac{5}{49} \). Verified: Scalar division is valid.
+8. Multiply scalar by vector: \( \frac{5}{49} \mathbf{x} = \frac{5}{49} \begin{bmatrix} 6 \\ -2 \\ 3 \end{bmatrix} = \begin{bmatrix} \frac{30}{49} \\ -\frac{10}{49} \\ \frac{15}{49} \end{bmatrix} \). Verified: Scalar multiplication is distributive over vector components.
+
+**Final answers:** 9. The answer to (a) is \( \boxed{\begin{bmatrix} \frac{8}{13} \\ \frac{12}{13} \end{bmatrix}} \) and the answer to (b) is \( \boxed{\begin{bmatrix} \frac{30}{49} \\ -\frac{10}{49} \\ \frac{15}{49} \end{bmatrix}} \).

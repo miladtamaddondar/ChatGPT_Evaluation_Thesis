@@ -1,0 +1,25 @@
+1. To find a nonzero vector $\mathbf{v}$ in $\mathbb{R}^3$ that is orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we need $\mathbf{v}$ such that $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$.
+
+2. Let $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, then the orthogonality conditions give two equations: $1 \cdot x + 1 \cdot y + (-2) \cdot z = 0$ and $5 \cdot x + (-1) \cdot y + 2 \cdot z = 0$.
+
+3. The first equation simplifies to $x + y - 2z = 0$.
+
+4. The second equation simplifies to $5x - y + 2z = 0$.
+
+5. Solve the system: From the first equation, $x = 2z - y$.
+
+6. Substitute $x$ into the second equation: $5(2z - y) - y + 2z = 0$.
+
+7. Expand: $10z - 5y - y + 2z = 0$.
+
+8. Combine like terms: $12z - 6y = 0$.
+
+9. Solve for $y$: $12z = 6y \implies y = 2z$.
+
+10. Substitute $y = 2z$ into $x = 2z - y$: $x = 2z - 2z = 0$.
+
+11. Thus, $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix}$ for any $z \neq 0$.
+
+12. Choose $z = 1$ for a nonzero vector: $\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$.
+
+13. Therefore, a nonzero vector in $\mathbb{R}^3$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$.

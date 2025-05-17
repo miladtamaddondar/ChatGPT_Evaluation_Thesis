@@ -1,0 +1,10 @@
+1. Express $p(t) = 1 + 4t + 7t^2$ as a linear combination of the basis vectors: $p(t) = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2)$.  
+2. Expand the right-hand side: $a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) = a + a t^2 + b t + b t^2 + c + 2c t + c t^2$.  
+3. Combine like terms: $(a + c) + (b + 2c)t + (a + b + c)t^2$.  
+4. Set up the system by equating coefficients with $1 + 4t + 7t^2$: $a + c = 1$, $b + 2c = 4$, $a + b + c = 7$.  
+5. Verify the system has a unique solution by writing the coefficient matrix and checking its determinant: $\begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \\ 1 & 1 & 1 \end{pmatrix}$, determinant is $1(1 \cdot 1 - 2 \cdot 1) - 0(0 \cdot 1 - 2 \cdot 1) + 1(0 \cdot 1 - 1 \cdot 1) = (1 - 2) + 0 + (0 - 1) = -1 - 1 = -2 \neq 0$, so the system is uniquely solvable.  
+6. Solve $a + c = 1$ for $a$: $a = 1 - c$.  
+7. Substitute $a$ into $a + b + c = 7$: $(1 - c) + b + c = 7 \implies 1 + b = 7 \implies b = 6$.  
+8. Substitute $b = 6$ into $b + 2c = 4$: $6 + 2c = 4 \implies 2c = -2 \implies c = -1$.  
+9. Substitute $c = -1$ into $a = 1 - c$: $a = 1 - (-1) = 2$.  
+10. The coordinate vector of $p(t)$ relative to $\mathcal{B}$ is $\begin{pmatrix} 2 \\ 6 \\ -1 \end{pmatrix}$.

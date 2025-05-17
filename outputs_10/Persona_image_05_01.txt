@@ -1,0 +1,7 @@
+1. To find the value(s) of \( k \) such that \( AB = BA \), first compute \( AB \): \( AB = \begin{bmatrix} 2 & 5 \\ -3 & 1 \end{bmatrix} \begin{bmatrix} 4 & -5 \\ 3 & k \end{bmatrix} = \begin{bmatrix} (2)(4)+(5)(3) & (2)(-5)+(5)(k) \\ (-3)(4)+(1)(3) & (-3)(-5)+(1)(k) \end{bmatrix} = \begin{bmatrix} 8+15 & -10+5k \\ -12+3 & 15+k \end{bmatrix} = \begin{bmatrix} 23 & -10+5k \\ -9 & 15+k \end{bmatrix} \).
+2. Now compute \( BA \): \( BA = \begin{bmatrix} 4 & -5 \\ 3 & k \end{bmatrix} \begin{bmatrix} 2 & 5 \\ -3 & 1 \end{bmatrix} = \begin{bmatrix} (4)(2)+(-5)(-3) & (4)(5)+(-5)(1) \\ (3)(2)+(k)(-3) & (3)(5)+(k)(1) \end{bmatrix} = \begin{bmatrix} 8+15 & 20-5 \\ 6-3k & 15+k \end{bmatrix} = \begin{bmatrix} 23 & 15 \\ 6-3k & 15+k \end{bmatrix} \).
+3. Set \( AB = BA \) and equate corresponding entries: \(\begin{bmatrix} 23 & -10+5k \\ -9 & 15+k \end{bmatrix} = \begin{bmatrix} 23 & 15 \\ 6-3k & 15+k \end{bmatrix}\).
+4. From the (1,2) entry: \(-10+5k = 15 \implies 5k = 25 \implies k = 5\).
+5. From the (2,1) entry: \(-9 = 6-3k \implies -9-6 = -3k \implies -15 = -3k \implies k = 5\).
+6. The (2,2) entry gives \(15+k = 15+k\), which is always true, and the (1,1) entry \(23=23\) is always true.
+7. Therefore, the value of \( k \) that makes \( AB = BA \) is \( \boxed{5} \).

@@ -1,0 +1,12 @@
+1. Express \( p(t) = 1 + 4t + 7t^2 \) as a linear combination of the basis vectors \( 1 + t^2,\, t + t^2,\, 1 + 2t + t^2 \): Let \( p(t) = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) \).  
+2. Expand the right side: \( a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) = a + at^2 + bt + bt^2 + c + 2ct + ct^2 \).  
+3. Combine like terms: \( (a + c) + (b + 2c)t + (a + b + c)t^2 \).  
+4. Set up the system by matching coefficients with \( 1 + 4t + 7t^2 \): \( a + c = 1 \), \( b + 2c = 4 \), \( a + b + c = 7 \).  
+5. Verify the system is set up correctly: Matching constant, \( t \), and \( t^2 \) coefficients is valid by the principle of linear independence in \( \mathbb{P}_2 \).  
+6. Solve for \( a \) and \( b \) in terms of \( c \): From \( a + c = 1 \Rightarrow a = 1 - c \); from \( b + 2c = 4 \Rightarrow b = 4 - 2c \).  
+7. Substitute \( a \) and \( b \) into \( a + b + c = 7 \): \( (1 - c) + (4 - 2c) + c = 7 \).  
+8. Simplify: \( 1 - c + 4 - 2c + c = 7 \Rightarrow 5 - 2c = 7 \).  
+9. Solve for \( c \): \( -2c = 2 \Rightarrow c = -1 \).  
+10. Substitute \( c = -1 \) into previous expressions: \( a = 1 - (-1) = 2 \), \( b = 4 - 2(-1) = 6 \).  
+11. Verify by plugging \( a, b, c \) back into the linear combination: \( 2(1 + t^2) + 6(t + t^2) - 1(1 + 2t + t^2) = (2 - 1) + (6 - 2)t + (2 + 6 - 1)t^2 = 1 + 4t + 7t^2 \), which matches \( p(t) \).  
+12. The coordinate vector of \( p(t) \) relative to \( \mathcal{B} \) is \( \boxed{\begin{pmatrix} 2 \\ 6 \\ -1 \end{pmatrix}} \).

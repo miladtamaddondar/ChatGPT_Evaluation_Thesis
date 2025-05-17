@@ -1,0 +1,7 @@
+1. To find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \), we need two nonzero vectors \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \) in the null space of \( A \), i.e., solve \( A\mathbf{b} = 0 \) for \( \mathbf{b} \neq 0 \).  
+2. Write the augmented matrix for \( A\mathbf{b} = 0 \): \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & -2 & 0\end{array}\right]\).  
+3. Row 2 \(-\) \(\frac{1}{3}\) Row 1: \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 0 & 0 & 0\end{array}\right]\).  
+4. Divide Row 1 by 3: \(\left[\begin{array}{cc|c}1 & -2 & 0 \\ 0 & 0 & 0\end{array}\right]\).  
+5. The solution to the system is \( x_1 - 2x_2 = 0 \implies x_1 = 2x_2 \), so the general solution is \( \mathbf{b} = x_2\begin{bmatrix}2 \\ 1\end{bmatrix} \).  
+6. Choose two different nonzero values for \( x_2 \), say \( x_2 = 1 \) and \( x_2 = -1 \), giving columns \( \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \begin{bmatrix}-2 \\ -1\end{bmatrix} \).  
+7. Thus, \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

@@ -1,0 +1,31 @@
+1. The problem asks to write $\mathbf{y}$ as $\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp$, where $\mathbf{y}_W$ is in $W = \text{span}\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}$ and $\mathbf{y}_\perp$ is orthogonal to $W$.
+
+2. To do this, we find the orthogonal projection of $\mathbf{y}$ onto $W$, which is $\mathbf{y}_W = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3$ for some scalars $a_1, a_2, a_3$.
+
+3. Set up the equation: $\mathbf{y}_W = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3$ and require that $\mathbf{y} - \mathbf{y}_W$ is orthogonal to each $\mathbf{u}_i$, i.e., $\mathbf{u}_i^T(\mathbf{y} - \mathbf{y}_W) = 0$ for $i=1,2,3$.
+
+4. This gives the system: $\mathbf{u}_i^T\mathbf{y} = \mathbf{u}_i^T(a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3)$ for $i=1,2,3$.
+
+5. Compute the Gram matrix $G$ with entries $G_{ij} = \mathbf{u}_i^T\mathbf{u}_j$ and the vector $b$ with entries $b_i = \mathbf{u}_i^T\mathbf{y}$.
+
+6. Calculate the dot products: $\mathbf{u}_1^T\mathbf{u}_1 = 1+1+0+1=3$, $\mathbf{u}_1^T\mathbf{u}_2 = 1\cdot(-1)+1\cdot3+0\cdot1+1\cdot(-2) = -1+3+0-2=0$, $\mathbf{u}_1^T\mathbf{u}_3 = 1\cdot(-1)+1\cdot0+0\cdot1+1\cdot1 = -1+0+0+1=0$, $\mathbf{u}_2^T\mathbf{u}_2 = (-1)^2+3^2+1^2+(-2)^2=1+9+1+4=15$, $\mathbf{u}_2^T\mathbf{u}_3 = (-1)\cdot(-1)+3\cdot0+1\cdot1+(-2)\cdot1=1+0+1-2=0$, $\mathbf{u}_3^T\mathbf{u}_3 = (-1)^2+0^2+1^2+1^2=1+0+1+1=3$.
+
+7. So the Gram matrix $G$ is $\begin{bmatrix} 3 & 0 & 0 \\ 0 & 15 & 0 \\ 0 & 0 & 3 \end{bmatrix}$.
+
+8. Compute $b_1 = \mathbf{u}_1^T\mathbf{y} = 1\cdot4 + 1\cdot3 + 0\cdot3 + 1\cdot(-1) = 4+3+0-1=6$, $b_2 = \mathbf{u}_2^T\mathbf{y} = (-1)\cdot4 + 3\cdot3 + 1\cdot3 + (-2)\cdot(-1) = -4+9+3+2=10$, $b_3 = \mathbf{u}_3^T\mathbf{y} = (-1)\cdot4 + 0\cdot3 + 1\cdot3 + 1\cdot(-1) = -4+0+3-1=-2$.
+
+9. So $b = \begin{bmatrix} 6 \\ 10 \\ -2 \end{bmatrix}$.
+
+10. Solve $G\mathbf{a} = b$ for $\mathbf{a} = \begin{bmatrix} a_1 \\ a_2 \\ a_3 \end{bmatrix}$: $3a_1 = 6 \implies a_1 = 2$, $15a_2 = 10 \implies a_2 = \frac{2}{3}$, $3a_3 = -2 \implies a_3 = -\frac{2}{3}$.
+
+11. Compute $\mathbf{y}_W = 2\mathbf{u}_1 + \frac{2}{3}\mathbf{u}_2 - \frac{2}{3}\mathbf{u}_3$.
+
+12. Calculate $2\mathbf{u}_1 = \begin{bmatrix} 2 \\ 2 \\ 0 \\ 2 \end{bmatrix}$, $\frac{2}{3}\mathbf{u}_2 = \begin{bmatrix} -\frac{2}{3} \\ 2 \\ \frac{2}{3} \\ -\frac{4}{3} \end{bmatrix}$, $-\frac{2}{3}\mathbf{u}_3 = \begin{bmatrix} \frac{2}{3} \\ 0 \\ -\frac{2}{3} \\ -\frac{2}{3} \end{bmatrix}$.
+
+13. Add the vectors: $\mathbf{y}_W = \begin{bmatrix} 2 - \frac{2}{3} + \frac{2}{3} \\ 2 + 2 + 0 \\ 0 + \frac{2}{3} - \frac{2}{3} \\ 2 - \frac{4}{3} - \frac{2}{3} \end{bmatrix} = \begin{bmatrix} 2 \\ 4 \\ 0 \\ 2 - 2 = 0 \end{bmatrix}$.
+
+14. Thus, $\mathbf{y}_W = \begin{bmatrix} 2 \\ 4 \\ 0 \\ 0 \end{bmatrix}$.
+
+15. Compute $\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} - \begin{bmatrix} 2 \\ 4 \\ 0 \\ 0 \end{bmatrix} = \begin{bmatrix} 2 \\ -1 \\ 3 \\ -1 \end{bmatrix}$.
+
+16. Final answer: $\boxed{\mathbf{y} = \begin{bmatrix} 2 \\ 4 \\ 0 \\ 0 \end{bmatrix} + \begin{bmatrix} 2 \\ -1 \\ 3 \\ -1 \end{bmatrix}}$, where the first vector is in $W$ and the second is orthogonal to $W$.

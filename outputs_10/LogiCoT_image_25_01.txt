@@ -1,0 +1,13 @@
+1. Let the unknown matrix be \(\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}\), and set up the multiplication: \(\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix}\).
+
+2. Expand the matrix multiplication to get equations for each row: First row: \(a x_1 + b x_2 + c x_3 = 3x_1 - 2x_3\), Second row: \(d x_1 + e x_2 + f x_3 = 4x_1\), Third row: \(g x_1 + h x_2 + i x_3 = x_1 - x_2 + x_3\).
+
+3. Equate coefficients for the first row: \(a = 3\), \(b = 0\), \(c = -2\) since \(a x_1 + b x_2 + c x_3 = 3x_1 + 0x_2 - 2x_3\).
+
+4. Equate coefficients for the second row: \(d = 4\), \(e = 0\), \(f = 0\) since \(d x_1 + e x_2 + f x_3 = 4x_1 + 0x_2 + 0x_3\).
+
+5. Equate coefficients for the third row: \(g = 1\), \(h = -1\), \(i = 1\) since \(g x_1 + h x_2 + i x_3 = 1x_1 - 1x_2 + 1x_3\).
+
+6. Substitute the values back into the matrix to get the answer: The matrix is \(\begin{bmatrix} 3 & 0 & -2 \\ 4 & 0 & 0 \\ 1 & -1 & 1 \end{bmatrix}\).
+
+7. Verification: Multiplying this matrix by \(\begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix}\) gives \(\begin{bmatrix} 3x_1 - 2x_3 \\ 4x_1 \\ x_1 - x_2 + x_3 \end{bmatrix}\), which matches the right-hand side, so the solution is correct.

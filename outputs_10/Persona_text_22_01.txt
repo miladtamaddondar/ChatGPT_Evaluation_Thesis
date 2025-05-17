@@ -1,0 +1,5 @@
+1. To find the standard matrix of a linear transformation that rotates points in $\mathbb{R}^2$ counterclockwise by an angle $\theta$, we use the rotation matrix formula: $A = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$.  
+2. Substitute $\theta = \frac{3\pi}{2}$ into the formula: $A = \begin{bmatrix} \cos\left(\frac{3\pi}{2}\right) & -\sin\left(\frac{3\pi}{2}\right) \\ \sin\left(\frac{3\pi}{2}\right) & \cos\left(\frac{3\pi}{2}\right) \end{bmatrix}$.  
+3. Compute $\cos\left(\frac{3\pi}{2}\right) = 0$ and $\sin\left(\frac{3\pi}{2}\right) = -1$, so $A = \begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix}$.  
+4. Simplify the matrix: $A = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$.  
+5. Therefore, the standard matrix of $T$ is $\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}$.

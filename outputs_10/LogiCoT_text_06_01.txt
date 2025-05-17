@@ -1,0 +1,7 @@
+1. Find the null space of \( A = \begin{bmatrix}3 & -6 \\ -1 & 2\end{bmatrix} \) by solving \( A\mathbf{x} = \mathbf{0} \): \( 3x_1 - 6x_2 = 0 \), \( -x_1 + 2x_2 = 0 \).  
+2. Solve \( 3x_1 - 6x_2 = 0 \implies x_1 = 2x_2 \); verify with the second equation: \( -x_1 + 2x_2 = -2x_2 + 2x_2 = 0 \), so the solution is correct.  
+3. The null space consists of all vectors of the form \( \mathbf{x} = \begin{bmatrix}2t \\ t\end{bmatrix} \) for \( t \in \mathbb{R} \); verify that \( A\mathbf{x} = \mathbf{0} \) for any \( t \neq 0 \).  
+4. Choose two different nonzero values for \( t \), say \( t = 1 \) and \( t = -1 \), to get two linearly independent null vectors: \( \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \begin{bmatrix}-2 \\ -1\end{bmatrix} \).  
+5. Construct \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) using these two vectors as columns; verify that \( AB = \begin{bmatrix}0 & 0 \\ 0 & 0\end{bmatrix} \) by direct multiplication.  
+6. Multiply \( A \) by each column: \( A\begin{bmatrix}2 \\ 1\end{bmatrix} = \begin{bmatrix}3 \cdot 2 + (-6) \cdot 1 \\ -1 \cdot 2 + 2 \cdot 1\end{bmatrix} = \begin{bmatrix}6 - 6 \\ -2 + 2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \), similarly for \( \begin{bmatrix}-2 \\ -1\end{bmatrix} \), confirming correctness.  
+7. Final answer: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB \) is the zero matrix.

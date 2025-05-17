@@ -1,0 +1,7 @@
+1. Subtract $5I$ from $A$ to form $A - 5I$ for $\lambda = 5$: \[A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\].
+2. Add row 4 to row 3 to eliminate the 4 in row 3, column 4: $R_3 \leftarrow R_3 + R_4$ \[\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4 \end{bmatrix}\].
+3. Divide row 4 by $-4$ to make the leading entry $1$: $R_4 \leftarrow -\frac{1}{4}R_4$ \[\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}\].
+4. Add $R_4$ to $R_1$ to eliminate the $-1$ in row 1, column 4: $R_1 \leftarrow R_1 + R_4$ \[\begin{bmatrix}0 & -2 & 6 & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}\].
+5. Subtract $R_1$ from $R_2$ to eliminate $-2$ in row 2, column 2: $R_2 \leftarrow R_2 - R_1$ \[\begin{bmatrix}0 & -2 & 6 & 0 \\ 0 & 0 & h-6 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}\].
+6. For the nullspace to be two-dimensional, the rank of $A-5I$ must be $2$, so the third row must be all zeros, which requires $h-6=0$, so $h=6$.
+7. Final answer: $h=6$.

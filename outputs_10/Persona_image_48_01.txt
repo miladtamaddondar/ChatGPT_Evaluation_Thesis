@@ -1,0 +1,7 @@
+1. To find a nonzero vector \(\mathbf{v}\) in \(\mathbb{R}^3\) that is orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\), we use the cross product: \(\mathbf{v} = \mathbf{u}_1 \times \mathbf{u}_2\).  
+2. Set up the cross product determinant: \(\mathbf{v} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 1 & 1 & -2 \\ 5 & -1 & 2 \end{vmatrix}\).  
+3. Compute the \(\mathbf{i}\) component: \( (1)(2) - (-2)(-1) = 2 - 2 = 0 \).  
+4. Compute the \(\mathbf{j}\) component: \(-[(1)(2) - (-2)(5)] = -[2 - (-10)] = -[2 + 10] = -12 \).  
+5. Compute the \(\mathbf{k}\) component: \( (1)(-1) - (1)(5) = -1 - 5 = -6 \).  
+6. Combine components to get \(\mathbf{v} = \begin{bmatrix} 0 \\ -12 \\ -6 \end{bmatrix}\).  
+7. The required nonzero vector orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\) is \(\boxed{\mathbf{v} = \begin{bmatrix} 0 \\ -12 \\ -6 \end{bmatrix}}\).

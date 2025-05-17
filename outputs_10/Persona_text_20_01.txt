@@ -1,0 +1,21 @@
+1. To find a basis for $\mathbb{R}^2$ consisting of $\mathbf{v}_1$ and another eigenvector $\mathbf{v}_2$ of $A$, we first need to find all eigenvalues of $A$ by solving $\det(A - \lambda I) = 0$.
+
+2. Compute $A - \lambda I = \begin{bmatrix}0.6 - \lambda & 0.3 \\ 0.4 & 0.7 - \lambda\end{bmatrix}$, so the characteristic polynomial is $(0.6 - \lambda)(0.7 - \lambda) - (0.3)(0.4) = 0$.
+
+3. Expanding, $(0.6 - \lambda)(0.7 - \lambda) - 0.12 = 0.42 - 0.6\lambda - 0.7\lambda + \lambda^2 - 0.12 = \lambda^2 - 1.3\lambda + 0.3 = 0$.
+
+4. Solve the quadratic equation: $\lambda^2 - 1.3\lambda + 0.3 = 0$ gives $\lambda = \frac{1.3 \pm \sqrt{1.69 - 1.2}}{2} = \frac{1.3 \pm \sqrt{0.49}}{2} = \frac{1.3 \pm 0.7}{2}$.
+
+5. Therefore, the eigenvalues are $\lambda_1 = 1$ and $\lambda_2 = 0.3$.
+
+6. $\mathbf{v}_1$ is already given as an eigenvector, and since $A$ is stochastic, $\mathbf{v}_1$ corresponds to $\lambda_1 = 1$.
+
+7. To find $\mathbf{v}_2$, the eigenvector for $\lambda_2 = 0.3$, solve $(A - 0.3I)\mathbf{v}_2 = 0$.
+
+8. $A - 0.3I = \begin{bmatrix}0.3 & 0.3 \\ 0.4 & 0.4\end{bmatrix}$, so the system is $0.3x + 0.3y = 0$ and $0.4x + 0.4y = 0$.
+
+9. Both equations reduce to $x + y = 0$, so $y = -x$.
+
+10. Thus, an eigenvector for $\lambda_2 = 0.3$ is $\mathbf{v}_2 = \begin{bmatrix}1 \\ -1\end{bmatrix}$ (any nonzero scalar multiple is valid).
+
+11. Therefore, a basis for $\mathbb{R}^2$ consisting of $\mathbf{v}_1$ and another eigenvector $\mathbf{v}_2$ of $A$ is $\left\{ \begin{bmatrix}3/7 \\ 4/7\end{bmatrix}, \begin{bmatrix}1 \\ -1\end{bmatrix} \right\}$.

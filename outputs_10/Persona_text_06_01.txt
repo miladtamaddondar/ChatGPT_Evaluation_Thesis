@@ -1,0 +1,8 @@
+1. To find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \), we need each column of \( B \) to be in the null space of \( A \): \( A\vec{b}_1 = 0 \) and \( A\vec{b}_2 = 0 \).  
+2. Let \( \vec{b} = \begin{bmatrix} x \\ y \end{bmatrix} \), then \( A\vec{b} = \begin{bmatrix} 3 & -6 \\ 1 & -2 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 3x - 6y \\ x - 2y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \).  
+3. Set up the system: \( 3x - 6y = 0 \) and \( x - 2y = 0 \).  
+4. Solve \( x - 2y = 0 \) to get \( x = 2y \).  
+5. Substitute \( x = 2y \) into the first equation: \( 3(2y) - 6y = 6y - 6y = 0 \), which is always true, so the null space is all vectors of the form \( \begin{bmatrix} 2y \\ y \end{bmatrix} \) for any \( y \).  
+6. Choose two different nonzero values for \( y \): let \( y = 1 \) and \( y = -1 \), so \( \vec{b}_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix} \) and \( \vec{b}_2 = \begin{bmatrix} -2 \\ -1 \end{bmatrix} \).  
+7. Form the matrix \( B \) with these as columns: \( B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} \).  
+8. Final answer: A \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \) with two different nonzero columns is \( B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} \).

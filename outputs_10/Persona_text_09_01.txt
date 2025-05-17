@@ -1,0 +1,19 @@
+1. To find a basis for the subspace spanned by the vectors, we first form a matrix \(A\) whose columns are the given vectors: \(A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).
+
+2. We perform row reduction (Gaussian elimination) on the columns of \(A\) to determine which columns are linearly independent: Notice that \(\mathbf{v}_2 = -3\mathbf{v}_1\), so \(\mathbf{v}_2\) is dependent on \(\mathbf{v}_1\).
+
+3. Next, check if \(\mathbf{v}_3\) can be written as a linear combination of \(\mathbf{v}_1\): Set \(a\mathbf{v}_1 = \mathbf{v}_3\), that is, \(a\begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix} = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}\), which gives \(a = 2\) from the first entry, but then \(-3a = -1\) gives \(a = 1/3\), so \(\mathbf{v}_3\) is not a multiple of \(\mathbf{v}_1\).
+
+4. Now, check if \(\mathbf{v}_4\) can be written as a linear combination of \(\mathbf{v}_1\) and \(\mathbf{v}_3\): Set \(a\mathbf{v}_1 + b\mathbf{v}_3 = \mathbf{v}_4\), i.e., \(a\begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix} + b\begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix} = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix}\).
+
+5. Write the system of equations: \(a + 2b = -4\), \(-3a - b = 5\), \(2a + 4b = -3\), \(-4a + 2b = 7\).
+
+6. Solve the first two equations: From \(a + 2b = -4\), \(a = -4 - 2b\); substitute into \(-3a - b = 5\): \(-3(-4 - 2b) - b = 5 \implies 12 + 6b - b = 5 \implies 5b = -7 \implies b = -\frac{7}{5}\), then \(a = -4 - 2(-\frac{7}{5}) = -4 + \frac{14}{5} = -\frac{6}{5}\).
+
+7. Check if these values satisfy the third equation: \(2a + 4b = 2(-\frac{6}{5}) + 4(-\frac{7}{5}) = -\frac{12}{5} - \frac{28}{5} = -\frac{40}{5} = -8\), but the equation is \(2a + 4b = -3\), so \(-8 \neq -3\), thus \(\mathbf{v}_4\) is not a linear combination of \(\mathbf{v}_1\) and \(\mathbf{v}_3\).
+
+8. Therefore, \(\mathbf{v}_1\), \(\mathbf{v}_3\), and \(\mathbf{v}_4\) are linearly independent, and together with the fact that \(\mathbf{v}_2\) is dependent, the set \(\{\mathbf{v}_1, \mathbf{v}_3, \mathbf{v}_4\}\) forms a basis for the subspace.
+
+9. The dimension of the subspace is the number of vectors in the basis, which is 3.
+
+10. Final answer: A basis for the subspace is \(\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}\) and the dimension of the subspace is \(3\).

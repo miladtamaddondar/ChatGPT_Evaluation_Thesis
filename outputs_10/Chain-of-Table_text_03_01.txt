@@ -1,0 +1,6 @@
+1. Start with the matrix \(A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix}\); we want to write \(A = LU\) where \(L\) is lower triangular and \(U\) is upper triangular.  
+2. The first step is to eliminate the entry below the (1,1) position; the multiplier is \(m = \frac{4}{6} = \frac{2}{3}\).  
+3. Subtract \(\frac{2}{3}\) times row 1 from row 2: \(R_2 \to R_2 - \frac{2}{3}R_1\), so the new row 2 is \([4 - \frac{2}{3} \cdot 6,\, 5 - \frac{2}{3} \cdot 9] = [0,\, 5 - 6] = [0,\, -1]\).  
+4. The resulting upper triangular matrix is \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).  
+5. The lower triangular matrix \(L\) has 1's on the diagonal and the multiplier below: \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\).  
+6. Therefore, the LU factorization is \(A = LU = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix} \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).

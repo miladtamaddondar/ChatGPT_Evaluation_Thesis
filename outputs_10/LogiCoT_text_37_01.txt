@@ -1,0 +1,8 @@
+1. The coordinate vector $[q]_{\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \end{bmatrix}$ means $q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3$ by the definition of coordinates in a basis.  
+2. Substitute the expressions for $p_1, p_2, p_3$: $q = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)$.  
+3. Distribute the coefficients: $q = -1 - t^2 + t - 3t^2 + 2(1) + 2(t) - 6t^2$.  
+4. Expand: $q = -1 - t^2 + t - 3t^2 + 2 + 2t - 6t^2$.  
+5. Combine like terms: constant terms $(-1 + 2) = 1$, $t$ terms $(t + 2t) = 3t$, $t^2$ terms $(-t^2 - 3t^2 - 6t^2) = -10t^2$.  
+6. Therefore, $q = 1 + 3t - 10t^2$.  
+7. Verification: Express $q$ in terms of the basis and check the coefficients: $q = 1 + 3t - 10t^2 = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)$ matches the original coordinate vector, confirming correctness.  
+8. Final answer: $q = 1 + 3t - 10t^2$.

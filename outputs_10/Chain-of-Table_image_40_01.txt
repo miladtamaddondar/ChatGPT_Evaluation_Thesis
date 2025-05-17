@@ -1,0 +1,10 @@
+1. Write each basis vector in \(\mathcal{B}\) in terms of the standard basis \(\{1, t, t^2\}\): \(1-3t^2 = 1\cdot1 + 0\cdot t + (-3)\cdot t^2\), \(2+t-5t^2 = 2\cdot1 + 1\cdot t + (-5)\cdot t^2\), \(1+2t = 1\cdot1 + 2\cdot t + 0\cdot t^2\).  
+2. Form the change-of-coordinates matrix \(P\) by placing these as columns: \[ P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix} \].  
+3. To write \(t^2\) as a linear combination of the basis \(\mathcal{B}\), solve \(c_1(1-3t^2) + c_2(2+t-5t^2) + c_3(1+2t) = t^2\).  
+4. Expand and collect coefficients: \((c_1 + 2c_2 + c_3) + (c_2 + 2c_3)t + (-3c_1 - 5c_2)t^2 = 0\cdot1 + 0\cdot t + 1\cdot t^2\).  
+5. Set up the system: \(c_1 + 2c_2 + c_3 = 0\), \(c_2 + 2c_3 = 0\), \(-3c_1 - 5c_2 = 1\).  
+6. Write the augmented matrix: \(\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ -3 & -5 & 0 & 1 \end{bmatrix}\).  
+7. Row 3 + 3 × Row 1: \(\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 1 & 3 & 1 \end{bmatrix}\).  
+8. Row 3 - Row 2: \(\begin{bmatrix} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}\).  
+9. Back-substitute: \(c_3 = 1\), \(c_2 + 2c_3 = 0 \implies c_2 = -2\), \(c_1 + 2c_2 + c_3 = 0 \implies c_1 + 2(-2) + 1 = 0 \implies c_1 - 4 + 1 = 0 \implies c_1 = 3\).  
+10. Final answer: The change-of-coordinates matrix is \(\boxed{\begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}}\), and \(t^2 = 3(1-3t^2) - 2(2+t-5t^2) + 1(1+2t)\) in basis \(\mathcal{B}\).

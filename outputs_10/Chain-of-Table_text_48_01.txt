@@ -1,0 +1,43 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we want $\mathbf{v} \cdot \mathbf{u}_1 = 0$ and $\mathbf{v} \cdot \mathbf{u}_2 = 0$; let $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, so we get the system: $x + y - 2z = 0$ and $5x - y + 2z = 0$.
+
+2. Write the augmented matrix for this system: 
+\[
+\left[
+\begin{array}{ccc|c}
+1 & 1 & -2 & 0 \\
+5 & -1 & 2 & 0 \\
+\end{array}
+\right]
+\]
+
+3. Perform $R_2 \to R_2 - 5R_1$: 
+\[
+\left[
+\begin{array}{ccc|c}
+1 & 1 & -2 & 0 \\
+0 & -6 & 12 & 0 \\
+\end{array}
+\right]
+\]
+
+4. Divide $R_2$ by $-6$ to simplify: 
+\[
+\left[
+\begin{array}{ccc|c}
+1 & 1 & -2 & 0 \\
+0 & 1 & -2 & 0 \\
+\end{array}
+\right]
+\]
+
+5. Perform $R_1 \to R_1 - R_2$: 
+\[
+\left[
+\begin{array}{ccc|c}
+1 & 0 & 0 & 0 \\
+0 & 1 & -2 & 0 \\
+\end{array}
+\right]
+\]
+
+6. The solution is $x = 0$, $y = 2z$, $z$ free; let $z = 1$, so $\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$ is a nonzero vector orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$.

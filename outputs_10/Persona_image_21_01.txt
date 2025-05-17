@@ -1,0 +1,15 @@
+1. We are given \( T(\mathbf{x}) = A\mathbf{x} = \mathbf{b} \), where \( A = \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \) and \( \mathbf{b} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix} \), and we need to solve for \( \mathbf{x} \) and determine if the solution is unique.  
+2. Write the system as \( \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix} \).  
+3. To determine uniqueness, check if \( A \) is invertible by computing its determinant: \( \det(A) = 1 \cdot (1 \cdot -5 - 6 \cdot -2) - 0 \cdot (-2 \cdot -5 - 6 \cdot 3) + (-2) \cdot (-2 \cdot -2 - 1 \cdot 3) \).  
+4. Calculate \( \det(A) = 1 \cdot (-5 + 12) - 0 + (-2) \cdot (4 - 3) = 1 \cdot 7 - 2 \cdot 1 = 7 - 2 = 5 \).  
+5. Since \( \det(A) \neq 0 \), \( A \) is invertible, so the solution is unique.  
+6. To find \( \mathbf{x} \), use \( \mathbf{x} = A^{-1}\mathbf{b} \).  
+7. Compute \( A^{-1} \) (using the formula for the inverse of a 3x3 matrix or row reduction), but for brevity, let's solve the system using augmented matrix and row reduction:  
+8. Write the augmented matrix: \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right] \).  
+9. Add 2 times row 1 to row 2: Row 2 becomes \( [0, 1, 2, 5] \).  
+10. Subtract 3 times row 1 from row 3: Row 3 becomes \( [0, -2, 1, 0] \).  
+11. Add 2 times row 2 to row 3: Row 3 becomes \( [0, 0, 5, 10] \).  
+12. Divide row 3 by 5: Row 3 becomes \( [0, 0, 1, 2] \).  
+13. Substitute \( x_3 = 2 \) into row 2: \( x_2 + 2x_3 = 5 \implies x_2 + 4 = 5 \implies x_2 = 1 \).  
+14. Substitute \( x_2 = 1 \) and \( x_3 = 2 \) into row 1: \( x_1 - 2x_3 = -1 \implies x_1 - 4 = -1 \implies x_1 = 3 \).  
+15. The unique solution is \( \mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix} \).

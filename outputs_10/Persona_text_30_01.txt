@@ -1,0 +1,7 @@
+1. We are given $T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2)$ and want to find $(x_1, x_2)$ such that $T(x_1, x_2) = (-1, 4, 9)$.  
+2. Set up the system of equations: $x_1 - 2x_2 = -1$, $-x_1 + 3x_2 = 4$, $3x_1 - 2x_2 = 9$.  
+3. Solve the first equation for $x_1$: $x_1 = -1 + 2x_2$.  
+4. Substitute $x_1$ into the second equation: $-(-1 + 2x_2) + 3x_2 = 4 \implies 1 - 2x_2 + 3x_2 = 4 \implies 1 + x_2 = 4 \implies x_2 = 3$.  
+5. Substitute $x_2 = 3$ into $x_1 = -1 + 2x_2$: $x_1 = -1 + 2 \times 3 = -1 + 6 = 5$.  
+6. Check the third equation with $x_1 = 5$, $x_2 = 3$: $3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9$, which matches the given value.  
+7. Therefore, the solution is $\mathbf{x} = (5, 3)$.

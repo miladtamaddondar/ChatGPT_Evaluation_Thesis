@@ -1,0 +1,5 @@
+1. Identify the action of $T$ on a general vector $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$: $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2 = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix}$, which is a linear combination of $\mathbf{v}_1$ and $\mathbf{v}_2$.
+
+2. Express the result as a matrix-vector product: $T(\mathbf{x}) = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, confirming the coefficients of $x_1$ and $x_2$ match the entries of $\mathbf{v}_1$ and $\mathbf{v}_2$.
+
+3. Conclude that the matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ is $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$, and verify correctness by checking that $A\mathbf{x}$ yields the same linear combination as $T(\mathbf{x})$ for any $\mathbf{x}$.

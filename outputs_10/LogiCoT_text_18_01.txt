@@ -1,0 +1,13 @@
+1. Find the eigenvalues of \(A\) by solving \(\det(A - \lambda I) = 0\): \(\det\left(\begin{bmatrix}0-\lambda & 1 \\ -3 & 4-\lambda\end{bmatrix}\right) = (0-\lambda)(4-\lambda) - (-3)(1) = \lambda^2 - 4\lambda + 3 = 0\).
+
+2. Factor the characteristic polynomial and solve for \(\lambda\): \(\lambda^2 - 4\lambda + 3 = (\lambda-1)(\lambda-3) = 0\), so the eigenvalues are \(\lambda_1 = 1\) and \(\lambda_2 = 3\).
+
+3. Verify the eigenvalues by plugging back: For \(\lambda = 1\), \((1)^2 - 4(1) + 3 = 0\); for \(\lambda = 3\), \((3)^2 - 4(3) + 3 = 0\), so both are correct.
+
+4. Find an eigenvector for \(\lambda_1 = 1\) by solving \((A - I)\mathbf{v} = 0\): \(A - I = \begin{bmatrix}-1 & 1 \\ -3 & 3\end{bmatrix}\), so \(-v_1 + v_2 = 0\) and \(-3v_1 + 3v_2 = 0\), which are equivalent; thus, any vector of the form \(\begin{bmatrix}1 \\ 1\end{bmatrix}\) is an eigenvector.
+
+5. Find an eigenvector for \(\lambda_2 = 3\) by solving \((A - 3I)\mathbf{v} = 0\): \(A - 3I = \begin{bmatrix}-3 & 1 \\ -3 & 1\end{bmatrix}\), so \(-3v_1 + v_2 = 0\), which gives eigenvectors of the form \(\begin{bmatrix}1 \\ 3\end{bmatrix}\).
+
+6. Verify linear independence of the two eigenvectors: The determinant of the matrix \(\begin{bmatrix}1 & 1 \\ 1 & 3\end{bmatrix}\) is \(1 \cdot 3 - 1 \cdot 1 = 2 \neq 0\), so they are linearly independent.
+
+7. The basis \(\mathcal{B} = \left\{ \begin{bmatrix}1 \\ 1\end{bmatrix}, \begin{bmatrix}1 \\ 3\end{bmatrix} \right\}\) diagonalizes \(A\), and the diagonal matrix is \([T]_{\mathcal{B}} = \begin{bmatrix}1 & 0 \\ 0 & 3\end{bmatrix}\).

@@ -1,0 +1,9 @@
+1. Write the equation $T(\mathbf{x}) = (-1, 4, 9)$ as a system: Let $\mathbf{x} = (x_1, x_2)$, so $T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9)$, giving the system $\begin{cases} x_1 - 2x_2 = -1 \\ -x_1 + 3x_2 = 4 \\ 3x_1 - 2x_2 = 9 \end{cases}$.
+
+2. Verify the system is consistent: Add the first and second equations: $(x_1 - 2x_2) + (-x_1 + 3x_2) = -1 + 4 \implies x_2 = 3$.
+
+3. Substitute $x_2 = 3$ into the first equation: $x_1 - 2(3) = -1 \implies x_1 - 6 = -1 \implies x_1 = 5$.
+
+4. Verify the solution $(x_1, x_2) = (5, 3)$ in the third equation: $3x_1 - 2x_2 = 3(5) - 2(3) = 15 - 6 = 9$, which matches the given value, confirming consistency.
+
+5. The solution is $\boxed{(x_1, x_2) = (5, 3)}$.

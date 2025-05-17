@@ -1,0 +1,9 @@
+1. Express the transformation $T$ as a matrix multiplication: Let $\mathbf{x} = \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix}$, then $T(\mathbf{x}) = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix}$, so we seek a $4 \times 4$ matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$.
+
+2. Write the output as a linear combination of the input components: $T(\mathbf{x})_1 = 0$, $T(\mathbf{x})_2 = x_1 + x_2$, $T(\mathbf{x})_3 = x_2 + x_3$, $T(\mathbf{x})_4 = x_3 + x_4$.
+
+3. Construct the matrix $A$ row by row based on these combinations: The first row is $(0, 0, 0, 0)$, the second row is $(1, 1, 0, 0)$, the third row is $(0, 1, 1, 0)$, and the fourth row is $(0, 0, 1, 1)$, so $A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$.
+
+4. Verify correctness by multiplying $A$ by a general vector $\mathbf{x}$: $A\mathbf{x} = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix}$, which matches $T(\mathbf{x})$.
+
+5. Conclude that $T$ is a linear transformation because it can be represented as $T(\mathbf{x}) = A\mathbf{x}$ for all $\mathbf{x}$, and the matrix $A$ is as found above.

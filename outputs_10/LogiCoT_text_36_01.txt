@@ -1,0 +1,8 @@
+1. Identify the size of the matrix \( A \): \( A \) is a \( 4 \times 6 \) matrix because it has 4 rows and 6 columns.  
+2. Recognize that the dimension of \( \text{Nul }A \) is the number of free variables in the homogeneous equation \( A\vec{x} = \vec{0} \).  
+3. Observe that the matrix is in row echelon form, so the number of leading 1's (pivots) equals the rank of \( A \).  
+4. Count the pivots: They are in columns 1, 3, and 4, so there are 3 pivots.  
+5. By the Rank-Nullity Theorem, \( \text{rank}(A) + \dim(\text{Nul }A) = \) number of columns \( = 6 \).  
+6. Substitute the rank: \( 3 + \dim(\text{Nul }A) = 6 \implies \dim(\text{Nul }A) = 3 \).  
+7. The dimension of \( \text{Col }A \) is the rank of \( A \), which is 3.  
+8. Final answer: \( \boxed{\dim(\text{Nul }A) = 3, \quad \dim(\text{Col }A) = 3} \).

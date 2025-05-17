@@ -1,0 +1,15 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A - 5I$ where $I$ is the $4 \times 4$ identity matrix: $A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+
+2. The eigenspace dimension is the nullity of $A-5I$, so we solve $(A-5I)\vec{x} = 0$; writing the system: $0x_1 - 2x_2 + 6x_3 - x_4 = 0$, $0x_1 - 2x_2 + h x_3 = 0$, $4x_4 = 0$, $-4x_4 = 0$.
+
+3. From the last two equations, $x_4 = 0$.
+
+4. Substitute $x_4 = 0$ into the first two equations: $-2x_2 + 6x_3 = 0$, $-2x_2 + h x_3 = 0$.
+
+5. The first equation gives $-2x_2 + 6x_3 = 0 \implies x_2 = 3x_3$.
+
+6. Substitute $x_2 = 3x_3$ into the second equation: $-2(3x_3) + h x_3 = 0 \implies -6x_3 + h x_3 = 0 \implies (h - 6)x_3 = 0$.
+
+7. For the eigenspace to be two-dimensional, we need two free variables, so $x_1$ and $x_3$ must be free, which occurs if $h - 6 = 0$, i.e., $h = 6$.
+
+8. Therefore, the value of $h$ such that the eigenspace for $\lambda = 5$ is two-dimensional is $\boxed{6}$.

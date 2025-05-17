@@ -1,0 +1,19 @@
+1. Write the basis $\mathcal{B} = \{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\}$ and the standard basis $\mathcal{E} = \{1, t, t^2\}$ for $\mathbb{P}_2$; verify that both are bases by checking that each set contains 3 linearly independent polynomials (since the dimension of $\mathbb{P}_2$ is 3, and none of the polynomials in either set is a linear combination of the others, both are bases).
+
+2. Express each vector in $\mathcal{B}$ in terms of the standard basis: $1 - 3t^2 = 1\cdot 1 + 0\cdot t + (-3)\cdot t^2$, $2 + t - 5t^2 = 2\cdot 1 + 1\cdot t + (-5)\cdot t^2$, $1 + 2t = 1\cdot 1 + 2\cdot t + 0\cdot t^2$.
+
+3. Form the change-of-coordinates matrix $P$ from $\mathcal{B}$ to $\mathcal{E}$ by placing the coordinate vectors as columns: $P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$.
+
+4. Verify that $P$ is invertible by calculating its determinant: $\det(P) = 1\cdot(1\cdot0 - 2\cdot(-5)) - 2\cdot(0\cdot0 - 2\cdot(-3)) + 1\cdot(0\cdot(-5) - 1\cdot(-3)) = 1\cdot(0 + 10) - 2\cdot(0 + 6) + 1\cdot(0 + 3) = 10 - 12 + 3 = 1$, so $P$ is invertible and thus a valid change-of-coordinates matrix.
+
+5. To write $t^2$ as a linear combination of the polynomials in $\mathcal{B}$, set $t^2 = a(1 - 3t^2) + b(2 + t - 5t^2) + c(1 + 2t)$ and expand: $t^2 = a(1) + b(2) + c(1) + a(0) + b(1) + c(2)t + a(-3) + b(-5) + c(0)t^2 = (a + 2b + c) + (b + 2c)t + (-3a - 5b)t^2$.
+
+6. Equate coefficients with $t^2 = 0\cdot 1 + 0\cdot t + 1\cdot t^2$ to get the system: $a + 2b + c = 0$, $b + 2c = 0$, $-3a - 5b = 1$.
+
+7. Solve the system: From $b + 2c = 0$, $b = -2c$; substitute into $a + 2b + c = 0$ to get $a + 2(-2c) + c = 0 \implies a - 4c + c = 0 \implies a = 3c$; substitute $a = 3c$, $b = -2c$ into $-3a - 5b = 1$ to get $-3(3c) - 5(-2c) = 1 \implies -9c + 10c = 1 \implies c = 1$.
+
+8. Substitute $c = 1$ into $a = 3c$ and $b = -2c$ to get $a = 3$, $b = -2$.
+
+9. Therefore, $t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)$, or explicitly, $t^2 = 3(1 - 3t^2) + (-2)(2 + t - 5t^2) + 1(1 + 2t)$.
+
+10. Verify the solution by expanding: $3(1 - 3t^2) = 3 - 9t^2$, $-2(2 + t - 5t^2) = -4 - 2t + 10t^2$, $1(1 + 2t) = 1 + 2t$; sum: $(3 - 4 + 1) + (-2t + 2t) + (-9t^2 + 10t^2) = 0 + 0t + 1t^2 = t^2$, confirming correctness.

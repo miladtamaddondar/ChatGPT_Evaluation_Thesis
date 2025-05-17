@@ -1,0 +1,23 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A-5I$: $A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+
+2. The eigenspace dimension is the nullity of $A-5I$, so we need $\text{nullity}(A-5I)=2$, i.e., $\text{rank}(A-5I)=2$ by the rank-nullity theorem (since the matrix is $4\times4$).
+
+3. To find the rank, note that the last two rows are $[0,0,0,4]$ and $[0,0,0,-4]$, which are linearly dependent, so together they contribute rank $1$ unless both are zero.
+
+4. The first two rows are $[0,-2,6,-1]$ and $[0,-2,h,0]$; subtract row 2 from row 1 to eliminate the $-2$ in the second entry: $[0,-2,6,-1] - [0,-2,h,0] = [0,0,6-h,-1]$.
+
+5. Replace row 1 with $[0,0,6-h,-1]$ and row 2 with $[0,-2,h,0]$; now, the nonzero rows are $[0,0,6-h,-1]$, $[0,-2,h,0]$, and $[0,0,0,4]$.
+
+6. The row $[0,0,0,4]$ is independent of the others, so for rank $2$, the remaining two rows must be linearly dependent; set $[0,0,6-h,-1]=k[0,-2,h,0]$ for some $k$.
+
+7. Comparing entries, the first entry gives no information, the second gives $0 = -2k \implies k=0$, so $[0,0,6-h,-1]=[0,0,0,0]$.
+
+8. Thus, $6-h=0$ and $-1=0$, but $-1=0$ is impossible; so instead, for rank $2$, the first two rows must be linearly dependent with the third row, i.e., the $3\times3$ upper left block must be rank $1$.
+
+9. Consider the $3\times3$ upper left block: $\begin{bmatrix}0 & -2 & 6 \\ 0 & -2 & h \\ 0 & 0 & 0\end{bmatrix}$; its rank is $1$ if the two nonzero rows are dependent, i.e., $[0,-2,6]$ and $[0,-2,h]$ are dependent.
+
+10. $[0,-2,6]=[0,-2,h]$ iff $6=h$, so $h=6$.
+
+11. Verify: If $h=6$, then the first two rows are $[0,-2,6,-1]$ and $[0,-2,6,0]$, whose difference is $[0,0,0,-1]$, so the nonzero rows are $[0,-2,6,-1]$, $[0,0,0,4]$, and $[0,0,0,-4]$, which are linearly dependent (since the last two are multiples), so rank is $2$.
+
+12. Therefore, the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional is $\boxed{6}$.

@@ -1,0 +1,99 @@
+1. Let \( W \) be the subspace spanned by \( \mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3 \); write \( \mathbf{y} \) as \( \mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp \) where \( \mathbf{y}_W \in W \) and \( \mathbf{y}_\perp \perp W \). 2. Express \( \mathbf{y}_W = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 \) and set up the equation \( \mathbf{y} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 + \mathbf{y}_\perp \). 3. To find \( c_1, c_2, c_3 \), solve the least squares problem \( \mathbf{U}\mathbf{c} = \mathbf{y} \) where \( \mathbf{U} = [\mathbf{u}_1 \ \mathbf{u}_2 \ \mathbf{u}_3] \). 4. Write the system as an augmented matrix:
+\[
+\left[
+\begin{array}{ccc|c}
+1 & -1 & -1 & 4 \\
+1 & 3 & 0 & 3 \\
+0 & 1 & 1 & 3 \\
+1 & -2 & 1 & -1 \\
+\end{array}
+\right]
+\]
+5. Row 1 unchanged. Row 2: Row2 - Row1 → \( (1-1, 3-(-1), 0-(-1), 3-4) = (0, 4, 1, -1) \).
+\[
+\left[
+\begin{array}{ccc|c}
+1 & -1 & -1 & 4 \\
+0 & 4 & 1 & -1 \\
+0 & 1 & 1 & 3 \\
+1 & -2 & 1 & -1 \\
+\end{array}
+\right]
+\]
+6. Row 4: Row4 - Row1 → \( (1-1, -2-(-1), 1-(-1), -1-4) = (0, -1, 2, -5) \).
+\[
+\left[
+\begin{array}{ccc|c}
+1 & -1 & -1 & 4 \\
+0 & 4 & 1 & -1 \\
+0 & 1 & 1 & 3 \\
+0 & -1 & 2 & -5 \\
+\end{array}
+\right]
+\]
+7. Row 3 unchanged. Row 3: Row3 - (1/4)Row2 → \( (0, 1-1, 1-0.25, 3-(-0.25)) = (0, 0, 0.75, 3.25) \).
+\[
+\left[
+\begin{array}{ccc|c}
+1 & -1 & -1 & 4 \\
+0 & 4 & 1 & -1 \\
+0 & 0 & 0.75 & 3.25 \\
+0 & -1 & 2 & -5 \\
+\end{array}
+\right]
+\]
+8. Row 4: Row4 + Row2/4 → \( (0, -1+1, 2+0.25, -5+0.25) = (0, 0, 2.25, -4.75) \).
+\[
+\left[
+\begin{array}{ccc|c}
+1 & -1 & -1 & 4 \\
+0 & 4 & 1 & -1 \\
+0 & 0 & 0.75 & 3.25 \\
+0 & 0 & 2.25 & -4.75 \\
+\end{array}
+\right]
+\]
+9. Row 4: Row4 - 3*Row3 → \( (0, 0, 2.25-3*0.75, -4.75-3*3.25) = (0, 0, 0, -14.5) \).
+\[
+\left[
+\begin{array}{ccc|c}
+1 & -1 & -1 & 4 \\
+0 & 4 & 1 & -1 \\
+0 & 0 & 0.75 & 3.25 \\
+0 & 0 & 0 & -14.5 \\
+\end{array}
+\right]
+\]
+10. The system is inconsistent, so the vectors \( \mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3 \) are linearly dependent and do not span all of \( \mathbb{R}^4 \); thus, we solve the least squares problem using the normal equations \( \mathbf{U}^T\mathbf{U}\mathbf{c} = \mathbf{U}^T\mathbf{y} \). 11. Compute \( \mathbf{U}^T\mathbf{U} \) and \( \mathbf{U}^T\mathbf{y} \):
+\[
+\mathbf{U}^T\mathbf{U} =
+\begin{bmatrix}
+3 & 0 & 1 \\
+0 & 15 & -2 \\
+1 & -2 & 3 \\
+\end{bmatrix}
+\]
+\[
+\mathbf{U}^T\mathbf{y} =
+\begin{bmatrix}
+6 \\
+14 \\
+2 \\
+\end{bmatrix}
+\]
+12. Solve the system:
+\[
+\begin{bmatrix}
+3 & 0 & 1 \\
+0 & 15 & -2 \\
+1 & -2 & 3 \\
+\end{bmatrix}
+\begin{bmatrix}
+c_1 \\ c_2 \\ c_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+6 \\ 14 \\ 2
+\end{bmatrix}
+\]
+13. Row 1: \( 3c_1 + c_3 = 6 \implies c_3 = 6 - 3c_1 \). 14. Row 3: \( c_1 - 2c_2 + 3c_3 = 2 \implies c_1 - 2c_2 + 3(6-3c_1) = 2 \implies c_1 - 2c_2 + 18 - 9c_1 = 2 \implies -8c_1 - 2c_2 = -16 \implies 4c_1 + c_2 = 8 \implies c_2 = 8 - 4c_1 \). 15. Row 2: \( 15c_2 - 2c_3 = 14 \implies 15c_2 - 2(6-3c_1) = 14 \implies 15c_2 - 12 + 6c_1 = 14 \implies 15c_2 + 6c_1 = 26 \). 16. Substitute \( c_2 = 8 - 4c_1 \) into previous: \( 15(8-4c_1) + 6c_1 = 26 \implies 120 - 60c_1 + 6c_1 = 26 \implies -54c_1 = -94 \implies c_1 = \frac{47}{27} \). 17. \( c_2 = 8 - 4 \cdot \frac{47}{27} = 8 - \frac{188}{27} = \frac{216-188}{27} = \frac{28}{27} \). 18. \( c_3 = 6 - 3 \cdot \frac{47}{27} = 6 - \frac{141}{27} = \frac{162-141}{27} = \frac{21}{27} = \frac{7}{9} \). 19. Thus, \( \mathbf{y}_W = \frac{47}{27}\mathbf{u}_1 + \frac{28}{27}\mathbf{u}_2 + \frac{7}{9}\mathbf{u}_3 \) and \( \mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W \). 20. Final answer: \( \boxed{\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp = \frac{47}{27}\mathbf{u}_1 + \frac{28}{27}\mathbf{u}_2 + \frac{7}{9}\mathbf{u}_3 + \mathbf{y}_\perp} \).

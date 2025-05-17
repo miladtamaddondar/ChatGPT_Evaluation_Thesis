@@ -1,0 +1,7 @@
+1. The matrix \([Qr_1 \; Qr_2 \; \cdots \; Qr_p]\) can be written as the product of the matrix \(Q\) and the matrix whose columns are the vectors \(r_1, r_2, \ldots, r_p\), that is, \([r_1 \; r_2 \; \cdots \; r_p]\).
+
+2. Therefore, \([Qr_1 \; Qr_2 \; \cdots \; Qr_p] = Q [r_1 \; r_2 \; \cdots \; r_p]\).
+
+3. Neither \(Q\) nor \([r_1 \; r_2 \; \cdots \; r_p]\) is an identity matrix, so this satisfies the requirement.
+
+4. Final answer: \([Qr_1 \; Qr_2 \; \cdots \; Qr_p] = Q [r_1 \; r_2 \; \cdots \; r_p]\).

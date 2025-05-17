@@ -1,0 +1,10 @@
+1. Compute the dot product $\mathbf{u} \cdot \mathbf{v}$: $(2)(-7) + (-5)(-4) + (-1)(6) = -14 + 20 - 6 = 0$.  
+2. Verify the dot product using the distributive property: $2 \times -7 = -14$, $-5 \times -4 = 20$, $-1 \times 6 = -6$, sum $-14 + 20 - 6 = 0$, which matches the previous result.  
+3. Compute the squared norm $\|\mathbf{u}\|^2$: $(2)^2 + (-5)^2 + (-1)^2 = 4 + 25 + 1 = 30$.  
+4. Verify $\|\mathbf{u}\|^2$ using the definition of the norm: $2^2 = 4$, $(-5)^2 = 25$, $(-1)^2 = 1$, sum $4 + 25 + 1 = 30$, confirming correctness.  
+5. Compute the squared norm $\|\mathbf{v}\|^2$: $(-7)^2 + (-4)^2 + (6)^2 = 49 + 16 + 36 = 101$.  
+6. Verify $\|\mathbf{v}\|^2$ using the definition of the norm: $(-7)^2 = 49$, $(-4)^2 = 16$, $6^2 = 36$, sum $49 + 16 + 36 = 101$, confirming correctness.  
+7. Compute $\mathbf{u} + \mathbf{v} = \begin{bmatrix} 2 + (-7) \\ -5 + (-4) \\ -1 + 6 \end{bmatrix} = \begin{bmatrix} -5 \\ -9 \\ 5 \end{bmatrix}$.  
+8. Compute the squared norm $\|\mathbf{u} + \mathbf{v}\|^2$: $(-5)^2 + (-9)^2 + (5)^2 = 25 + 81 + 25 = 131$.  
+9. Verify $\|\mathbf{u} + \mathbf{v}\|^2$ using the parallelogram law: $\|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + 2\mathbf{u} \cdot \mathbf{v} + \|\mathbf{v}\|^2 = 30 + 2 \times 0 + 101 = 131$, which matches the direct calculation.  
+10. Final answer: $\mathbf{u} \cdot \mathbf{v} = 0$, $\|\mathbf{u}\|^2 = 30$, $\|\mathbf{v}\|^2 = 101$, $\|\mathbf{u} + \mathbf{v}\|^2 = 131$.

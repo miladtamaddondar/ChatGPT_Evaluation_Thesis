@@ -1,0 +1,17 @@
+1. Write the given vectors as columns of a matrix: \( A = \begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 1 & -8 & -6 \\ 2 & -3 & 6 & 7 & 9 \end{bmatrix} \).
+2. Row reduce the matrix to echelon form to determine linear independence: Subtract 1st column times 3 from 3rd column, and 1st column times 2 from 4th column, and 1st column times -2 from 5th column.
+3. Perform the calculations: 3rd column: \((-3) - 3 \times 1 = -6\), \((-4) - 3 \times 0 = -4\), \(1 - 3 \times (-3) = 10\), \(6 - 3 \times 2 = 0\); 4th column: \(1 - 2 \times 1 = -1\), \((-3) - 2 \times 0 = -3\), \((-8) - 2 \times (-3) = -2\), \(7 - 2 \times 2 = 3\); 5th column: \(2 - (-2) \times 1 = 4\), \(1 - (-2) \times 0 = 1\), \((-6) - (-2) \times (-3) = -12\), \(9 - (-2) \times 2 = 13\).
+4. The new matrix is \( \begin{bmatrix} 1 & 0 & -6 & -1 & 4 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 10 & -2 & -12 \\ 2 & -3 & 0 & 3 & 13 \end{bmatrix} \).
+5. Now, focus on the second column and eliminate below: Add 4 times 2nd column to 3rd column, and 3 times 2nd column to 4th column, and -1 times 2nd column to 5th column.
+6. Calculations: 3rd column: \(-6 + 4 \times 0 = -6\), \(-4 + 4 \times 1 = 0\), \(10 + 4 \times 2 = 18\), \(0 + 4 \times -3 = -12\); 4th column: \(-1 + 3 \times 0 = -1\), \(-3 + 3 \times 1 = 0\), \(-2 + 3 \times 2 = 4\), \(3 + 3 \times -3 = -6\); 5th column: \(4 + (-1) \times 0 = 4\), \(1 + (-1) \times 1 = 0\), \(-12 + (-1) \times 2 = -14\), \(13 + (-1) \times -3 = 16\).
+7. The matrix is now \( \begin{bmatrix} 1 & 0 & -6 & -1 & 4 \\ 0 & 1 & 0 & 0 & 0 \\ -3 & 2 & 18 & 4 & -14 \\ 2 & -3 & -12 & -6 & 16 \end{bmatrix} \).
+8. Next, focus on the third column: divide 3rd column by -6 to get leading 1 in row 1, then eliminate below and above.
+9. Divide 3rd column by -6: \(1, 0, -3/-6=0.5, 2/-6=-0.333\); \(0, 1, 2/-6=-0.333, -3/-6=0.5\); \(-6/-6=1, 0/(-6)=0, 18/-6=-3, -12/-6=2\); \(-1/-6=0.167, 0/(-6)=0, 4/-6=-0.667, -6/-6=1\); \(4/-6=-0.667, 0/(-6)=0, -14/-6=2.333, 16/-6=-2.667\).
+10. Actually, it's easier to perform row operations: Subtract -3 times row 1 from row 3, and 2 times row 1 from row 4.
+11. Row 3: \(-3 - (-3) \times 1 = 0\), \(2 - (-3) \times 0 = 2\), \(18 - (-3) \times -6 = 0\), \(4 - (-3) \times -1 = 1\), \(-14 - (-3) \times 4 = -2\); Row 4: \(2 - 2 \times 1 = 0\), \(-3 - 2 \times 0 = -3\), \(-12 - 2 \times -6 = 0\), \(-6 - 2 \times -1 = -4\), \(16 - 2 \times 4 = 8\).
+12. Now, subtract 2 times row 2 from row 3, and -3 times row 2 from row 4.
+13. Row 3: \(0 - 2 \times 0 = 0\), \(2 - 2 \times 1 = 0\), \(0 - 2 \times 0 = 0\), \(1 - 2 \times 0 = 1\), \(-2 - 2 \times 0 = -2\); Row 4: \(0 - (-3) \times 0 = 0\), \(-3 - (-3) \times 1 = 0\), \(0 - (-3) \times 0 = 0\), \(-4 - (-3) \times 0 = -4\), \(8 - (-3) \times 0 = 8\).
+14. Now, the matrix is \( \begin{bmatrix} 1 & 0 & -6 & -1 & 4 \\ 0 & 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & -2 \\ 0 & 0 & 0 & -4 & 8 \end{bmatrix} \).
+15. Divide row 4 by -4: \(0, 0, 0, 1, -2\), so row 4 and row 3 are the same, meaning row 4 is redundant.
+16. Thus, the nonzero rows correspond to the first, second, and third vectors, so the original vectors \( \mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_4 \) form a basis.
+17. Therefore, a basis for the space spanned by the given vectors is \( \left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix} \right\} \).

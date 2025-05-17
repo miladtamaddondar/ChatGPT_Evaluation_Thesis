@@ -1,0 +1,1 @@
+1. To construct a \(4 \times 3\) matrix with rank 1, all rows must be scalar multiples of a single nonzero row, so let’s choose the first row as \((1, 2, 3)\) and make every other row a multiple of it: \[\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 0.5 & 1 & 1.5 \end{bmatrix}\]

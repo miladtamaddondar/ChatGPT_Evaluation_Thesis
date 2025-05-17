@@ -1,0 +1,13 @@
+1. Form the normal equations $A^T A \mathbf{x} = A^T \mathbf{b}$ by first computing $A^T A$ and $A^T \mathbf{b}$: $A^T A = \begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix}$, $A^T \mathbf{b} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}$.
+
+2. Write the augmented matrix for the normal equations: $\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 2 & 2 & 0 & 4 \\ 2 & 0 & 2 & 10 \end{array}\right]$.
+
+3. Row 2 $\to$ Row 2 $- \frac{1}{2}$ Row 1: $\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 2 & 0 & 2 & 10 \end{array}\right]$.
+
+4. Row 3 $\to$ Row 3 $- \frac{1}{2}$ Row 1: $\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 0 & -1 & 1 & 3 \end{array}\right]$.
+
+5. Row 3 $\to$ Row 3 + Row 2: $\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 0 & 0 & 0 & 0 \end{array}\right]$.
+
+6. Back-substitute: From Row 2, $x_2 - x_3 = -3 \implies x_2 = x_3 - 3$; from Row 1, $4x_1 + 2x_2 + 2x_3 = 14 \implies 4x_1 + 2(x_3 - 3) + 2x_3 = 14 \implies 4x_1 + 2x_3 - 6 + 2x_3 = 14 \implies 4x_1 + 4x_3 = 20 \implies x_1 + x_3 = 5 \implies x_1 = 5 - x_3$.
+
+7. The least-squares solutions are all vectors of the form $\mathbf{x} = \begin{bmatrix} 5 - t \\ t - 3 \\ t \end{bmatrix}$ for $t \in \mathbb{R}$.

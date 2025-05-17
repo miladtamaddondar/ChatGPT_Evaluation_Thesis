@@ -1,0 +1,16 @@
+1. Set up the equation $\mathbf{y} = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3 + \mathbf{z}$, where $\mathbf{z}$ is orthogonal to $W$, so we seek $a_1, a_2, a_3$ such that $\mathbf{y} - (a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3)$ is orthogonal to each $\mathbf{u}_i$.
+2. Set up the system: Let $\mathbf{w} = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3$, so $\mathbf{y} = \mathbf{w} + \mathbf{z}$, and $\mathbf{z} \perp W$.
+3. Write the equations for orthogonality: $(\mathbf{y} - \mathbf{w}) \cdot \mathbf{u}_i = 0$ for $i=1,2,3$.
+4. Expand: $\mathbf{y} \cdot \mathbf{u}_i = (a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3) \cdot \mathbf{u}_i$ for $i=1,2,3$.
+5. Compute dot products: $\mathbf{u}_1 \cdot \mathbf{u}_1 = 1+1+0+1=3$, $\mathbf{u}_1 \cdot \mathbf{u}_2 = -1+3+0-2=0$, $\mathbf{u}_1 \cdot \mathbf{u}_3 = -1+0+0+1=0$.
+6. Compute dot products: $\mathbf{u}_2 \cdot \mathbf{u}_1 = 0$, $\mathbf{u}_2 \cdot \mathbf{u}_2 = 1+9+1+4=15$, $\mathbf{u}_2 \cdot \mathbf{u}_3 = 1+0+1-2=0$.
+7. Compute dot products: $\mathbf{u}_3 \cdot \mathbf{u}_1 = 0$, $\mathbf{u}_3 \cdot \mathbf{u}_2 = 0$, $\mathbf{u}_3 \cdot \mathbf{u}_3 = 1+0+1+1=3$.
+8. Compute $\mathbf{y} \cdot \mathbf{u}_1 = 4+3+0-1=6$, $\mathbf{y} \cdot \mathbf{u}_2 = -4+9+3+2=10$, $\mathbf{y} \cdot \mathbf{u}_3 = -4+0+3-1=-2$.
+9. Write the system: $3a_1 = 6$, $15a_2 = 10$, $3a_3 = -2$.
+10. Solve: $a_1 = 2$, $a_2 = \frac{2}{3}$, $a_3 = -\frac{2}{3}$.
+11. Compute $\mathbf{w} = 2\mathbf{u}_1 + \frac{2}{3}\mathbf{u}_2 - \frac{2}{3}\mathbf{u}_3 = 2\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + \frac{2}{3}\begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} - \frac{2}{3}\begin{bmatrix}-1\\0\\1\\1\end{bmatrix}$.
+12. Compute each term: $2\mathbf{u}_1 = \begin{bmatrix}2\\2\\0\\2\end{bmatrix}$, $\frac{2}{3}\mathbf{u}_2 = \begin{bmatrix}-2/3\\2\\2/3\\-4/3\end{bmatrix}$, $-\frac{2}{3}\mathbf{u}_3 = \begin{bmatrix}2/3\\0\\-2/3\\-2/3\end{bmatrix}$.
+13. Add: $\mathbf{w} = \begin{bmatrix}2\\2\\0\\2\end{bmatrix} + \begin{bmatrix}-2/3\\2\\2/3\\-4/3\end{bmatrix} + \begin{bmatrix}2/3\\0\\-2/3\\-2/3\end{bmatrix} = \begin{bmatrix}2-2/3+2/3\\2+2+0\\0+2/3-2/3\\2-4/3-2/3\end{bmatrix} = \begin{bmatrix}2\\4\\0\\2-2=0\end{bmatrix}$.
+14. Thus, $\mathbf{w} = \begin{bmatrix}2\\4\\0\\0\end{bmatrix}$.
+15. Compute $\mathbf{z} = \mathbf{y} - \mathbf{w} = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}2\\4\\0\\0\end{bmatrix} = \begin{bmatrix}2\\-1\\3\\-1\end{bmatrix}$.
+16. Final answer: $\boxed{\mathbf{y} = \begin{bmatrix}2\\4\\0\\0\end{bmatrix} + \begin{bmatrix}2\\-1\\3\\-1\end{bmatrix}}$, where the first vector is in $W$ and the second is orthogonal to $W$.

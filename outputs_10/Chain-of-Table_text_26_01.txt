@@ -1,0 +1,4 @@
+1. Write the transformation as a matrix multiplication: \( T(x_1, x_2, x_3, x_4) = A \begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} \).
+2. Express each output component in terms of \( x_1, x_2, x_3, x_4 \): First entry is \( 0 \), so \( 0x_1 + 0x_2 + 0x_3 + 0x_4 \); second is \( x_1 + x_2 \), so \( 1x_1 + 1x_2 + 0x_3 + 0x_4 \); third is \( x_2 + x_3 \), so \( 0x_1 + 1x_2 + 1x_3 + 0x_4 \); fourth is \( x_3 + x_4 \), so \( 0x_1 + 0x_2 + 1x_3 + 1x_4 \).
+3. Write the matrix \( A \) with these coefficients as rows: \[ A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \].
+4. State the answer: The matrix that implements \( T \) is \( \boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}} \).

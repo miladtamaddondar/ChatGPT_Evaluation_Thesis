@@ -1,0 +1,3 @@
+1. To solve part (a), recall that the null space Nul \(A\) of a matrix \(A\) with size \(m \times n\) is a subspace of \(\mathbb{R}^n\), where \(n\) is the number of columns of \(A\); here, \(A\) is a \(4 \times 2\) matrix, so \(n = 2\), thus \(k = 2\).  
+2. To solve part (b), recall that the column space Col \(A\) of a matrix \(A\) with size \(m \times n\) is a subspace of \(\mathbb{R}^m\), where \(m\) is the number of rows of \(A\); here, \(A\) is a \(4 \times 2\) matrix, so \(m = 4\), thus \(k = 4\).  
+3. Final answers: (a) \(k = 2\) for Nul \(A\) as a subspace of \(\mathbb{R}^k\); (b) \(k = 4\) for Col \(A\) as a subspace of \(\mathbb{R}^k\).

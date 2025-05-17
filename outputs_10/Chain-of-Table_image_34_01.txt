@@ -1,0 +1,5 @@
+1. Write the vectors as columns of a matrix: \(\begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 1 & -8 & -6 \\ 2 & -3 & 6 & 7 & 9 \end{bmatrix}\).  
+2. Use the first column as a pivot and eliminate below: Add 3 times row 1 to row 3 and subtract 2 times row 1 from row 4: \(\begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ 0 & 2 & -8 & -5 & 0 \\ 0 & -3 & 12 & 5 & 5 \end{bmatrix}\).  
+3. Use the second column as a pivot and eliminate below: Subtract 2 times row 2 from row 3 and add 3 times row 2 to row 4: \(\begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ 0 & 0 & 0 & 1 & -2 \\ 0 & 0 & 0 & -4 & 8 \end{bmatrix}\).  
+4. Use the third row as a pivot and eliminate below: Add 4 times row 3 to row 4: \(\begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ 0 & 0 & 0 & 1 & -2 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}\).  
+5. Identify pivot columns (columns 1, 2, and 4), so the basis is \(\left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix} \right\}\).

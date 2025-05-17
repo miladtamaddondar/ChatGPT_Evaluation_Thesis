@@ -1,0 +1,13 @@
+1. First, let's write the general vector in $W$ as $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix}$ where $a, b \in \mathbb{R}$.
+
+2. To check if $W$ is a vector space, we need to see if it is closed under vector addition and scalar multiplication, and if it contains the zero vector.
+
+3. The zero vector in $\mathbb{R}^3$ is $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$; let's see if there exist $a, b \in \mathbb{R}$ such that $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$.
+
+4. This gives the system: $3a + b = 0$, $4 = 0$, $a - 5b = 0$.
+
+5. The equation $4 = 0$ is never true, so the zero vector is not in $W$.
+
+6. Since $W$ does not contain the zero vector, $W$ is not a vector space.
+
+7. Therefore, $W$ is not a vector space because it does not contain the zero vector.

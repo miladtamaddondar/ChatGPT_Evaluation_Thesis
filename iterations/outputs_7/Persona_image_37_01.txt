@@ -1,0 +1,7 @@
+1. Since \([q]_{\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \end{bmatrix}\), write \(q\) as a linear combination: \(q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3\).
+2. Substitute the given polynomials: \(q = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)\).
+3. Distribute and combine like terms: \(q = -1 - t^2 + t - 3t^2 + 2 + 2t - 6t^2\).
+4. Combine constants: \(-1 + 2 = 1\).
+5. Combine \(t\) terms: \(t + 2t = 3t\).
+6. Combine \(t^2\) terms: \(-t^2 - 3t^2 - 6t^2 = -10t^2\).
+7. Write the final answer: \(q = 1 + 3t - 10t^2\).

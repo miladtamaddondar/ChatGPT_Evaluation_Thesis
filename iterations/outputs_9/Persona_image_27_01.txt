@@ -1,0 +1,7 @@
+1. The linear transformation \( T \) is defined by \( T(\mathbf{e}_1) = \mathbf{y}_1 \) and \( T(\mathbf{e}_2) = \mathbf{y}_2 \), so the matrix representation of \( T \) is \( A = [\mathbf{y}_1 \ \mathbf{y}_2] = \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix} \).
+2. To find the image of \( \begin{bmatrix} 5 \\ -3 \end{bmatrix} \), compute \( T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = A \begin{bmatrix} 5 \\ -3 \end{bmatrix} = \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix} \begin{bmatrix} 5 \\ -3 \end{bmatrix} \).
+3. Calculate the first entry: \( 2 \cdot 5 + (-1) \cdot (-3) = 10 + 3 = 13 \).
+4. Calculate the second entry: \( 5 \cdot 5 + 6 \cdot (-3) = 25 - 18 = 7 \).
+5. Thus, \( T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 13 \\ 7 \end{bmatrix} \).
+6. For \( \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \), compute \( T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = A \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix} \).
+7. The images are \( \boxed{\begin{bmatrix} 13 \\ 7 \end{bmatrix}} \) for \( \begin{bmatrix} 5 \\ -3 \end{bmatrix} \) and \( \boxed{\begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}} \) for \( \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \).

@@ -1,0 +1,4 @@
+1. Write the transformation in terms of matrix multiplication: \( T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4) \).
+2. Express as a matrix equation: \( T\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{pmatrix} = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \).
+3. Find the matrix \( A \) such that \( T(\vec{x}) = A\vec{x} \): \( A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \).
+4. Final answer: The matrix that implements the mapping is \( \boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}} \).

@@ -1,0 +1,5 @@
+1. Write the equation for $\mathbf{x}$ in terms of the basis: $\mathbf{x} = 3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} + 2 \begin{bmatrix} 2 \\ -1 \end{bmatrix}$.
+2. Compute $3 \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix}$.
+3. Compute $2 \begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \end{bmatrix}$.
+4. Add the two results: $\begin{bmatrix} 3 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.
+5. Final answer: $\mathbf{x} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.

@@ -1,0 +1,5 @@
+1. Start with the matrix \(A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix}\).
+2. To eliminate the (2,1) entry, perform row 2 minus \(\frac{4}{6}\) times row 1: \(R_2 \to R_2 - \frac{2}{3}R_1\), resulting in \(\begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).
+3. The multipliers used are stored in \(L\): \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\).
+4. The upper triangular matrix \(U\) is the result after elimination: \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).
+5. Final answer: \(A = LU\) where \(L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\), \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).

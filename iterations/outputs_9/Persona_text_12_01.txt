@@ -1,0 +1,9 @@
+1. To find the characteristic polynomial, compute $\det(A - \lambda I)$ where $A = \begin{bmatrix}2 & 1 \\ -1 & 4\end{bmatrix}$ and $I$ is the $2 \times 2$ identity matrix.
+2. Subtract $\lambda I$ from $A$: $A - \lambda I = \begin{bmatrix}2 - \lambda & 1 \\ -1 & 4 - \lambda\end{bmatrix}$.
+3. Compute the determinant: $\det(A - \lambda I) = (2 - \lambda)(4 - \lambda) - (1)(-1) = (2 - \lambda)(4 - \lambda) + 1$.
+4. Expand $(2 - \lambda)(4 - \lambda) = 8 - 2\lambda - 4\lambda + \lambda^2 = \lambda^2 - 6\lambda + 8$.
+5. Add 1 to the expansion: $\lambda^2 - 6\lambda + 8 + 1 = \lambda^2 - 6\lambda + 9$.
+6. The characteristic polynomial is $\boxed{\lambda^2 - 6\lambda + 9}$.
+7. To find the eigenvalues, solve $\lambda^2 - 6\lambda + 9 = 0$.
+8. Factor the quadratic: $(\lambda - 3)^2 = 0$.
+9. The eigenvalue is $\boxed{\lambda = 3}$ (with multiplicity 2).

@@ -1,0 +1,6 @@
+1. Write the linear combination using the given coordinates: \(q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3\).
+2. Substitute the expressions for \(p_1, p_2, p_3\): \(q = -1 \cdot (1 + t^2) + 1 \cdot (t - 3t^2) + 2 \cdot (1 + t - 3t^2)\).
+3. Expand each term: \(q = (-1 - t^2) + (t - 3t^2) + (2 + 2t - 6t^2)\).
+4. Combine like terms: \(q = (-1 + 2) + (t + 2t) + (-t^2 - 3t^2 - 6t^2)\).
+5. Simplify: \(q = 1 + 3t - 10t^2\).
+6. Final answer: \(q = 1 + 3t - 10t^2\).

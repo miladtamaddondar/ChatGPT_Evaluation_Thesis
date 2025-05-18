@@ -1,0 +1,8 @@
+1. The vector $[q]_{\mathcal{B}} = \begin{bmatrix} -1 \\ 1 \\ 2 \end{bmatrix}$ means $q = -1 \cdot p_1 + 1 \cdot p_2 + 2 \cdot p_3$ by the definition of coordinates in a basis.
+2. Substitute the expressions for $p_1$, $p_2$, and $p_3$ into the linear combination: $q = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)$.
+3. Expand each term: $-1(1 + t^2) = -1 - t^2$, $1(t - 3t^2) = t - 3t^2$, $2(1 + t - 3t^2) = 2 + 2t - 6t^2$.
+4. Add all the expanded terms: $q = (-1 - t^2) + (t - 3t^2) + (2 + 2t - 6t^2)$.
+5. Combine like terms: constant terms $-1 + 2 = 1$, $t$ terms $t + 2t = 3t$, $t^2$ terms $-t^2 - 3t^2 - 6t^2 = -10t^2$.
+6. Thus, $q = 1 + 3t - 10t^2$.
+7. Verification: Express $q$ in terms of $\mathcal{B}$ and check coefficients; solving $q = a_1 p_1 + a_2 p_2 + a_3 p_3$ gives $a_1 = -1$, $a_2 = 1$, $a_3 = 2$, matching $[q]_{\mathcal{B}}$.
+8. Final answer: $q = 1 + 3t - 10t^2$.

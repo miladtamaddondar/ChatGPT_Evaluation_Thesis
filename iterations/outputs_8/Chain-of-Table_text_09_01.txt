@@ -1,0 +1,7 @@
+1. Write the vectors as columns of a matrix: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).
+2. Row 2 + 3 × Row 1 \(\rightarrow\) Row 2: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).
+3. Row 3 - 2 × Row 1 \(\rightarrow\) Row 3: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ -4 & 12 & 2 & 7 \end{bmatrix}\).
+4. Row 4 + 4 × Row 1 \(\rightarrow\) Row 4: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 10 & -9 \end{bmatrix}\).
+5. Row 4 - 2 × Row 2 \(\rightarrow\) Row 4: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 5 \end{bmatrix}\).
+6. Row 4 - Row 3 \(\rightarrow\) Row 4: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).
+7. Final answer: The basis is \(\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}\), and the dimension of the subspace is 3.

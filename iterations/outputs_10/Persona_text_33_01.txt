@@ -1,0 +1,5 @@
+1. The matrix $A$ has $4$ rows and $2$ columns, so $A$ is a $4 \times 2$ matrix.
+2. The null space $\text{Nul }A$ consists of all solutions $x$ to $A x = 0$, where $x \in \mathbb{R}^2$, so $\text{Nul }A$ is a subspace of $\mathbb{R}^2$.
+3. The column space $\text{Col }A$ is the span of the columns of $A$, which are vectors in $\mathbb{R}^4$, so $\text{Col }A$ is a subspace of $\mathbb{R}^4$.
+4. (a) The value of $k$ such that $\text{Nul }A$ is a subspace of $\mathbb{R}^k$ is $k = 2$.
+5. (b) The value of $k$ such that $\text{Col }A$ is a subspace of $\mathbb{R}^k$ is $k = 4$.

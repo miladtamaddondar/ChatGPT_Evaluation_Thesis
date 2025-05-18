@@ -1,0 +1,7 @@
+1. To show \(T\) is a linear transformation, we need to represent \(T(x_1, x_2, x_3, x_4)\) as a matrix multiplication \(A\mathbf{x}\), where \(\mathbf{x} = \begin{pmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{pmatrix}\).  
+2. The first component is always 0, so the first row of \(A\) is \((0, 0, 0, 0)\).  
+3. The second component is \(x_1 + x_2\), so the second row of \(A\) is \((1, 1, 0, 0)\).  
+4. The third component is \(x_2 + x_3\), so the third row of \(A\) is \((0, 1, 1, 0)\).  
+5. The fourth component is \(x_3 + x_4\), so the fourth row of \(A\) is \((0, 0, 1, 1)\).  
+6. Therefore, the matrix \(A\) is \(\begin{pmatrix}0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1\end{pmatrix}\).  
+7. Since \(T(\mathbf{x}) = A\mathbf{x}\) for all \(\mathbf{x}\), \(T\) is a linear transformation and the matrix implementing \(T\) is \(\boxed{\begin{pmatrix}0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1\end{pmatrix}}\).

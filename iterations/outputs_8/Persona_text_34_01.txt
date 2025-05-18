@@ -1,0 +1,9 @@
+1. Write the vectors as rows of a matrix to analyze their linear independence: $\begin{bmatrix} 1 & 0 & -3 & 2 \\ 0 & 1 & 2 & -3 \\ -3 & -4 & 1 & 6 \\ 1 & -3 & -8 & 7 \\ 2 & 1 & -6 & 9 \end{bmatrix}$.
+2. Use row 1 as the pivot and eliminate the first entry in rows 3, 4, and 5: row 3 + 3*row 1 $\rightarrow$ $[0, -4, -8, 12]$, row 4 - row 1 $\rightarrow$ $[0, -3, -5, 5]$, row 5 - 2*row 1 $\rightarrow$ $[0, 1, 0, 5]$.
+3. The new matrix is $\begin{bmatrix} 1 & 0 & -3 & 2 \\ 0 & 1 & 2 & -3 \\ 0 & -4 & -8 & 12 \\ 0 & -3 & -5 & 5 \\ 0 & 1 & 0 & 5 \end{bmatrix}$.
+4. Use row 2 as the pivot and eliminate the second entry in rows 3, 4, and 5: row 3 + 4*row 2 $\rightarrow$ $[0, 0, 0, 0]$, row 4 + 3*row 2 $\rightarrow$ $[0, 0, 1, -4]$, row 5 - row 2 $\rightarrow$ $[0, 0, -2, 8]$.
+5. The matrix is now $\begin{bmatrix} 1 & 0 & -3 & 2 \\ 0 & 1 & 2 & -3 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & -4 \\ 0 & 0 & -2 & 8 \end{bmatrix}$.
+6. Use row 4 as the pivot and eliminate the third entry in row 5: row 5 + 2*row 4 $\rightarrow$ $[0, 0, 0, 0]$.
+7. The matrix in row-echelon form is $\begin{bmatrix} 1 & 0 & -3 & 2 \\ 0 & 1 & 2 & -3 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & -4 \\ 0 & 0 & 0 & 0 \end{bmatrix}$.
+8. The nonzero rows correspond to the original vectors $\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_4$.
+9. Therefore, a basis for the space spanned by the vectors is $\left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix} \right\}$.

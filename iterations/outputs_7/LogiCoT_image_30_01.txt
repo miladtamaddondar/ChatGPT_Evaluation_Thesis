@@ -1,0 +1,6 @@
+1. Write the system of equations from \( T(x_1, x_2) = (-1, 4, 9) \): \( x_1 - 2x_2 = -1 \), \( -x_1 + 3x_2 = 4 \), \( 3x_1 - 2x_2 = 9 \).  
+2. Verify that the system is consistent by checking if the third equation can be obtained from the first two: Solve the first for \( x_1 = -1 + 2x_2 \) and substitute into the second to get \( -(-1 + 2x_2) + 3x_2 = 4 \).  
+3. Simplify the substituted equation: \( 1 - 2x_2 + 3x_2 = 4 \implies 1 + x_2 = 4 \implies x_2 = 3 \).  
+4. Substitute \( x_2 = 3 \) into \( x_1 = -1 + 2x_2 \) to get \( x_1 = -1 + 2 \times 3 = 5 \).  
+5. Verify the pair \((x_1, x_2) = (5, 3)\) in the third equation: \( 3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9 \), which matches the given value.  
+6. The solution is \( \boxed{(x_1, x_2) = (5, 3)} \).

@@ -1,0 +1,7 @@
+1. Write the equation \(A = QR\) and solve for \(R\) using \(R = Q^T A\): \( Q^T = \begin{bmatrix} \frac{5}{6} & \frac{1}{6} & -\frac{3}{6} & \frac{1}{6} \\ -\frac{1}{6} & \frac{5}{6} & \frac{1}{6} & \frac{3}{6} \end{bmatrix} \), \( A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} \).
+2. Compute the first column of \(R\): \( Q^T \) first row dotted with columns of \(A\): \( \frac{5}{6} \cdot 5 + \frac{1}{6} \cdot 1 + (-\frac{3}{6}) \cdot (-3) + \frac{1}{6} \cdot 1 = \frac{25}{6} + \frac{1}{6} + \frac{9}{6} + \frac{1}{6} = \frac{36}{6} = 6 \).
+3. Compute the second column, first row of \(R\): \( \frac{5}{6} \cdot 9 + \frac{1}{6} \cdot 7 + (-\frac{3}{6}) \cdot (-5) + \frac{1}{6} \cdot 5 = \frac{45}{6} + \frac{7}{6} + \frac{15}{6} + \frac{5}{6} = \frac{72}{6} = 12 \).
+4. Compute the first column, second row of \(R\): \( -\frac{1}{6} \cdot 5 + \frac{5}{6} \cdot 1 + \frac{1}{6} \cdot (-3) + \frac{3}{6} \cdot 1 = -\frac{5}{6} + \frac{5}{6} - \frac{3}{6} + \frac{3}{6} = 0 \).
+5. Compute the second column, second row of \(R\): \( -\frac{1}{6} \cdot 9 + \frac{5}{6} \cdot 7 + \frac{1}{6} \cdot (-5) + \frac{3}{6} \cdot 5 = -\frac{9}{6} + \frac{35}{6} - \frac{5}{6} + \frac{15}{6} = \frac{36}{6} = 6 \).
+6. Thus, the upper triangular matrix \(R\) is \( \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} \).
+7. Final answer: The upper triangular matrix \(R\) such that \(A = QR\) is \( \boxed{R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}} \).

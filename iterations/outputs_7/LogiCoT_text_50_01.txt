@@ -1,0 +1,15 @@
+1. The inner product on $\mathbb{P}_3$ is defined as $\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)$; this is a valid inner product because it is linear, symmetric, and positive definite.
+2. To compute the orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$, we seek $\text{proj}_W(p_2) = a p_0 + b p_1$ such that $p_2 - (a p_0 + b p_1)$ is orthogonal to both $p_0$ and $p_1$.
+3. Set up the orthogonality equations: $\langle p_2 - (a p_0 + b p_1), p_0 \rangle = 0$ and $\langle p_2 - (a p_0 + b p_1), p_1 \rangle = 0$.
+4. Compute the required inner products: $p_0(t) = 1$, $p_1(t) = t$, $p_2(t) = t^2$; so $p_0(-3) = p_0(-1) = p_0(1) = p_0(3) = 1$.
+5. Calculate $\langle p_0, p_0 \rangle = 1+1+1+1 = 4$; $\langle p_0, p_1 \rangle = (-3)+(-1)+1+3 = 0$; $\langle p_0, p_2 \rangle = 9+1+1+9 = 20$.
+6. Calculate $p_1(-3) = -3$, $p_1(-1) = -1$, $p_1(1) = 1$, $p_1(3) = 3$; so $\langle p_1, p_1 \rangle = 9+1+1+9 = 20$.
+7. Calculate $\langle p_1, p_2 \rangle = (-3)\cdot 9 + (-1)\cdot 1 + 1\cdot 1 + 3\cdot 9 = -27-1+1+27 = 0$.
+8. The orthogonality equations become: $20 - 4a - 0b = 0$ and $0 - 0a - 20b = 0$.
+9. Solve for $a$ and $b$: $20 - 4a = 0 \implies a = 5$; $-20b = 0 \implies b = 0$.
+10. Therefore, the orthogonal projection is $\text{proj}_W(p_2) = 5p_0$.
+11. Verification: $p_2 - 5p_0 = t^2 - 5$; check orthogonality: $\langle t^2 - 5, 1 \rangle = (9-5)+(1-5)+(1-5)+(9-5) = 4-4-4+4 = 0$ and $\langle t^2 - 5, t \rangle = (9-5)(-3)+(1-5)(-1)+(1-5)(1)+(9-5)(3) = 4(-3)+(-4)(-1)+(-4)(1)+4(3) = -12+4-4+12=0$.
+12. For part (b), let $q = p_2 - 5p_0 = t^2 - 5$; this is orthogonal to both $p_0$ and $p_1$ as shown above.
+13. Evaluate $q$ at $(-3, -1, 1, 3)$: $q(-3) = 9-5=4$, $q(-1)=1-5=-4$, $q(1)=1-5=-4$, $q(3)=9-5=4$; so the vector is $(4, -4, -4, 4)$.
+14. To scale $q$ so its values are $(1, -1, -1, 1)$, set $q^* = \frac{1}{4}(t^2 - 5)$.
+15. Final answer: (a) The orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5p_0$; (b) The required orthogonal polynomial is $q(t) = \frac{1}{4}(t^2 - 5)$.

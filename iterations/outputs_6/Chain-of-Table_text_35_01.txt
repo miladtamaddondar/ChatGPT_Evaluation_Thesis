@@ -1,0 +1,7 @@
+1. Set up the equation $c_1(1+t^2) + c_2(t+t^2) + c_3(1+2t+t^2) = 1 + 4t + 7t^2$ and write the corresponding augmented matrix: $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 1 & 1 & 1 & 7 \end{array}\right]$.
+2. Subtract row 1 from row 3: $R_3 \to R_3 - R_1$ gives $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 1 & 0 & 6 \end{array}\right]$.
+3. Subtract row 2 from row 3: $R_3 \to R_3 - R_2$ gives $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & -2 & 2 \end{array}\right]$.
+4. Divide row 3 by $-2$: $R_3 \to -\frac{1}{2}R_3$ gives $\left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & 1 & -1 \end{array}\right]$.
+5. Subtract row 3 from row 1: $R_1 \to R_1 - R_3$ gives $\left[\begin{array}{ccc|c} 1 & 0 & 0 & 2 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & 1 & -1 \end{array}\right]$.
+6. Subtract $2$ times row 3 from row 2: $R_2 \to R_2 - 2R_3$ gives $\left[\begin{array}{ccc|c} 1 & 0 & 0 & 2 \\ 0 & 1 & 0 & 6 \\ 0 & 0 & 1 & -1 \end{array}\right]$.
+7. Final answer: The coordinate vector is $\begin{bmatrix}2\\6\\-1\end{bmatrix}_{\mathcal{B}}$.

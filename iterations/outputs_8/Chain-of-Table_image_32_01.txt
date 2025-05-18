@@ -1,0 +1,5 @@
+1. To determine if \(\mathbf{w} = \begin{bmatrix} 1 \\ 3 \\ -4 \end{bmatrix}\) is in \(\text{Nul }A\), compute \(A\mathbf{w}\): \(A\mathbf{w} = \begin{bmatrix} 3 & -5 & -3 \\ 6 & -2 & 0 \\ -8 & 4 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ 3 \\ -4 \end{bmatrix}\).
+2. Compute the first entry: \(3(1) + (-5)(3) + (-3)(-4) = 3 - 15 + 12 = 0\).
+3. Compute the second entry: \(6(1) + (-2)(3) + 0(-4) = 6 - 6 + 0 = 0\).
+4. Compute the third entry: \(-8(1) + 4(3) + 1(-4) = -8 + 12 - 4 = 0\).
+5. Therefore, \(A\mathbf{w} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}\), so \(\mathbf{w}\) is in \(\text{Nul }A\).

@@ -1,0 +1,10 @@
+1. Write the inner product: For polynomials \( f, g \in \mathbb{P}_3 \), \(\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)\).
+2. Compute values: \(p_0(t) = 1\) so \(p_0(-3) = p_0(-1) = p_0(1) = p_0(3) = 1\); \(p_1(t) = t\) so \(p_1(-3) = -3, p_1(-1) = -1, p_1(1) = 1, p_1(3) = 3\); \(p_2(t) = t^2\) so \(p_2(-3) = p_2(3) = 9, p_2(-1) = p_2(1) = 1\).
+3. Compute projections: \(\text{proj}_{p_0}(p_2) = \frac{\langle p_2, p_0 \rangle}{\langle p_0, p_0 \rangle} p_0\), \(\langle p_2, p_0 \rangle = 9+1+1+9=20\), \(\langle p_0, p_0 \rangle = 1+1+1+1=4\), so \(\text{proj}_{p_0}(p_2) = \frac{20}{4}p_0 = 5p_0\).
+4. Compute \(\text{proj}_{p_1}(p_2)\): \(\langle p_2, p_1 \rangle = 9(-3)+1(-1)+1(1)+9(3) = -27-1+1+27=0\), \(\langle p_1, p_1 \rangle = (-3)^2+(-1)^2+1^2+3^2=9+1+1+9=20\), so \(\text{proj}_{p_1}(p_2) = 0\).
+5. The orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(5p_0\).
+6. Subtract projection to get orthogonal component: \(q = p_2 - 5p_0 = t^2 - 5\).
+7. Check orthogonality: \(\langle q, p_0 \rangle = \langle p_2, p_0 \rangle - 5\langle p_0, p_0 \rangle = 20 - 20 = 0\), \(\langle q, p_1 \rangle = \langle p_2, p_1 \rangle - 5\langle p_0, p_1 \rangle\), \(\langle p_0, p_1 \rangle = -3-1+1+3=0\), so \(\langle q, p_1 \rangle = 0\).
+8. Evaluate \(q\) at \(-3, -1, 1, 3\): \(q(-3) = 9-5=4\), \(q(-1) = 1-5=-4\), \(q(1) = 1-5=-4\), \(q(3) = 9-5=4\).
+9. To scale \(q\) so its values are \((1, -1, -1, 1)\), set \(q' = \frac{1}{4}q = \frac{1}{4}(t^2 - 5)\).
+10. Final answer: The orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(5p_0\); the orthogonal polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\), which evaluates to \((1, -1, -1, 1)\) at \((-3, -1, 1, 3)\).

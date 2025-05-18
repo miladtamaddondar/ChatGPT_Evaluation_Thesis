@@ -1,0 +1,6 @@
+1. Write the matrix \( A = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 2 & 5 \\ 0 & 0 & 1 \end{bmatrix} \) and set up the characteristic equation \(\det(A - \lambda I) = 0\).
+2. Compute \(A - \lambda I = \begin{bmatrix} 0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda \end{bmatrix} = \begin{bmatrix} -\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda \end{bmatrix}\).
+3. Find the determinant: \(\det(A - \lambda I) = (-\lambda) \cdot \det\begin{bmatrix} 2-\lambda & 5 \\ 0 & 1-\lambda \end{bmatrix}\).
+4. Compute the \(2 \times 2\) determinant: \(\det\begin{bmatrix} 2-\lambda & 5 \\ 0 & 1-\lambda \end{bmatrix} = (2-\lambda)(1-\lambda) - 0 = (2-\lambda)(1-\lambda)\).
+5. The characteristic polynomial is \((- \lambda)(2-\lambda)(1-\lambda) = 0\).
+6. The eigenvalues are \(\boxed{0, 1, 2}\).

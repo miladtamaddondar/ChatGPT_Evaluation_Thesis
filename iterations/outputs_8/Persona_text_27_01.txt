@@ -1,0 +1,7 @@
+1. Since $T$ is linear and $T(\mathbf{e}_1) = \mathbf{y}_1$, $T(\mathbf{e}_2) = \mathbf{y}_2$, we can write $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = x_1 \mathbf{y}_1 + x_2 \mathbf{y}_2$.
+2. Substitute $\mathbf{y}_1 = \begin{bmatrix} 2 \\ 5 \end{bmatrix}$ and $\mathbf{y}_2 = \begin{bmatrix} -1 \\ 6 \end{bmatrix}$ to get $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = x_1 \begin{bmatrix} 2 \\ 5 \end{bmatrix} + x_2 \begin{bmatrix} -1 \\ 6 \end{bmatrix}$.
+3. Combine the vectors: $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.
+4. To find the image of $\begin{bmatrix} 5 \\ -3 \end{bmatrix}$, substitute $x_1 = 5$, $x_2 = -3$: $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 2(5) - (-3) \\ 5(5) + 6(-3) \end{bmatrix}$.
+5. Calculate the entries: $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 10 + 3 \\ 25 - 18 \end{bmatrix} = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$.
+6. The image of $\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$ is $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.
+7. The image of $\begin{bmatrix} 5 \\ -3 \end{bmatrix}$ is $\begin{bmatrix} 13 \\ 7 \end{bmatrix}$, and the image of $\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$ is $\begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.

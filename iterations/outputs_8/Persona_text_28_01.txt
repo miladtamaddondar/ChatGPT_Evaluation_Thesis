@@ -1,0 +1,4 @@
+1. Since $T$ is linear and $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$, we can write $T(\mathbf{x}) = \begin{bmatrix} -2 \\ 5 \end{bmatrix} x_1 + \begin{bmatrix} 7 \\ -3 \end{bmatrix} x_2$.
+2. Combine the vectors and scalars: $T(\mathbf{x}) = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix}$.
+3. Express this as a matrix-vector product: $T(\mathbf{x}) = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$.
+4. Therefore, the matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ is $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.

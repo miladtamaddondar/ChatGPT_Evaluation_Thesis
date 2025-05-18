@@ -1,0 +1,10 @@
+1. To find \( R \), use the formula \( R = Q^T A \) since \( Q \) has orthonormal columns.  
+2. Compute \( Q^T \) as \( Q^T = \begin{bmatrix} \frac{5}{6} & \frac{1}{6} & -\frac{3}{6} & \frac{1}{6} \\ -\frac{1}{6} & \frac{5}{6} & \frac{1}{6} & \frac{3}{6} \end{bmatrix} \).  
+3. Multiply \( Q^T \) and \( A \): \( R = Q^T A = \begin{bmatrix} \frac{5}{6} & \frac{1}{6} & -\frac{3}{6} & \frac{1}{6} \\ -\frac{1}{6} & \frac{5}{6} & \frac{1}{6} & \frac{3}{6} \end{bmatrix} \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} \).  
+4. Calculate the (1,1) entry: \( \frac{5}{6} \cdot 5 + \frac{1}{6} \cdot 1 + (-\frac{3}{6}) \cdot (-3) + \frac{1}{6} \cdot 1 = \frac{25}{6} + \frac{1}{6} + \frac{9}{6} + \frac{1}{6} = \frac{36}{6} = 6 \).  
+5. Calculate the (1,2) entry: \( \frac{5}{6} \cdot 9 + \frac{1}{6} \cdot 7 + (-\frac{3}{6}) \cdot (-5) + \frac{1}{6} \cdot 5 = \frac{45}{6} + \frac{7}{6} + \frac{15}{6} + \frac{5}{6} = \frac{72}{6} = 12 \).  
+6. Calculate the (2,1) entry: \( -\frac{1}{6} \cdot 5 + \frac{5}{6} \cdot 1 + \frac{1}{6} \cdot (-3) + \frac{3}{6} \cdot 1 = -\frac{5}{6} + \frac{5}{6} -\frac{3}{6} + \frac{3}{6} = 0 \).  
+7. Calculate the (2,2) entry: \( -\frac{1}{6} \cdot 9 + \frac{5}{6} \cdot 7 + \frac{1}{6} \cdot (-5) + \frac{3}{6} \cdot 5 = -\frac{9}{6} + \frac{35}{6} -\frac{5}{6} + \frac{15}{6} = \frac{36}{6} = 6 \).  
+8. Thus, \( R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} \).  
+9. Check: Compute \( QR = \begin{bmatrix} \frac{5}{6} & -\frac{1}{6} \\ \frac{1}{6} & \frac{5}{6} \\ -\frac{3}{6} & \frac{1}{6} \\ \frac{1}{6} & \frac{3}{6} \end{bmatrix} \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} = A \).  
+10. Final answer: The upper triangular matrix is \( R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} \).

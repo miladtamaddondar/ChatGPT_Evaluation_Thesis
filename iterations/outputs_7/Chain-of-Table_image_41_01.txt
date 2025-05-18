@@ -1,0 +1,8 @@
+1. Compute \(\mathbf{u} \cdot \mathbf{v} = (-1)(4) + (2)(6) = -4 + 12 = 8\).
+2. Compute \(\mathbf{v} \cdot \mathbf{v} = (4)^2 + (6)^2 = 16 + 36 = 52\).
+3. Compute \(\frac{\mathbf{u} \cdot \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}} = \frac{8}{52} = \frac{2}{13}\).
+4. Compute \(\left(\frac{\mathbf{u} \cdot \mathbf{v}}{\mathbf{v} \cdot \mathbf{v}}\right)\mathbf{v} = \frac{2}{13} \begin{bmatrix}4\\6\end{bmatrix} = \begin{bmatrix}\frac{8}{13}\\\frac{12}{13}\end{bmatrix}\).
+5. Compute \(\mathbf{x} \cdot \mathbf{w} = (6)(3) + (-2)(-1) + (3)(-5) = 18 + 2 - 15 = 5\).
+6. Compute \(\mathbf{x} \cdot \mathbf{x} = (6)^2 + (-2)^2 + (3)^2 = 36 + 4 + 9 = 49\).
+7. Compute \(\frac{\mathbf{x} \cdot \mathbf{w}}{\mathbf{x} \cdot \mathbf{x}} = \frac{5}{49}\).
+8. Compute \(\left(\frac{\mathbf{x} \cdot \mathbf{w}}{\mathbf{x} \cdot \mathbf{x}}\right)\mathbf{x} = \frac{5}{49} \begin{bmatrix}6\\-2\\3\end{bmatrix} = \begin{bmatrix}\frac{30}{49}\\-\frac{10}{49}\\\frac{15}{49}\end{bmatrix}\).

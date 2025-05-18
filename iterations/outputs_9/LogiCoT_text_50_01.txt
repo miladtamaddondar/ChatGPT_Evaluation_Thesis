@@ -1,0 +1,20 @@
+1. The inner product on $\mathbb{P}_3$ is defined by $\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)$; verify by checking that this is a symmetric, bilinear, positive-definite form.
+2. The subspace $W = \text{Span}\{p_0, p_1\}$ consists of all polynomials of the form $a + bt$; verify that $p_0$ and $p_1$ are linearly independent by noting $1$ and $t$ are linearly independent.
+3. The orthogonal projection of $p_2$ onto $W$ is $\text{proj}_W(p_2) = \alpha p_0 + \beta p_1$, where $\alpha, \beta$ are chosen so that $p_2 - (\alpha p_0 + \beta p_1)$ is orthogonal to both $p_0$ and $p_1$.
+4. Set up the orthogonality conditions: $\langle p_2 - (\alpha p_0 + \beta p_1), p_0 \rangle = 0$ and $\langle p_2 - (\alpha p_0 + \beta p_1), p_1 \rangle = 0$; this gives two equations in $\alpha$ and $\beta$.
+5. Compute $\langle p_2, p_0 \rangle = p_2(-3)\cdot 1 + p_2(-1)\cdot 1 + p_2(1)\cdot 1 + p_2(3)\cdot 1 = 9 + 1 + 1 + 9 = 20$; verify by evaluating $p_2(t) = t^2$ at $-3, -1, 1, 3$.
+6. Compute $\langle p_2, p_1 \rangle = p_2(-3)\cdot p_1(-3) + p_2(-1)\cdot p_1(-1) + p_2(1)\cdot p_1(1) + p_2(3)\cdot p_1(3) = 9(-3) + 1(-1) + 1(1) + 9(3) = -27 - 1 + 1 + 27 = 0$; verify by direct calculation.
+7. Compute $\langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4$; verify by evaluating at each point.
+8. Compute $\langle p_0, p_1 \rangle = 1(-3) + 1(-1) + 1(1) + 1(3) = -3 - 1 + 1 + 3 = 0$; verify by summing.
+9. Compute $\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20$; verify by squaring each value.
+10. The orthogonality equations are: $20 - 4\alpha - 0\beta = 0$ and $0 - 0\alpha - 20\beta = 0$; verify by substituting the computed inner products.
+11. Solve for $\alpha$: $20 - 4\alpha = 0 \implies \alpha = 5$; verify by substitution.
+12. Solve for $\beta$: $0 - 20\beta = 0 \implies \beta = 0$; verify by substitution.
+13. The orthogonal projection is $\text{proj}_W(p_2) = 5p_0 + 0p_1 = 5$; verify by substituting $\alpha$ and $\beta$.
+14. To find $q$ orthogonal to $p_0$ and $p_1$, set $q = p_2 - \text{proj}_W(p_2) = t^2 - 5$; verify $q$ is in $\text{Span}\{p_0, p_1, p_2\}$.
+15. Check orthogonality: $\langle q, p_0 \rangle = \langle t^2 - 5, 1 \rangle = \langle t^2, 1 \rangle - 5\langle 1, 1 \rangle = 20 - 20 = 0$; verify by previous calculations.
+16. Check orthogonality: $\langle q, p_1 \rangle = \langle t^2 - 5, t \rangle = \langle t^2, t \rangle - 5\langle 1, t \rangle = 0 - 0 = 0$; verify by previous calculations.
+17. Evaluate $q$ at $t = -3, -1, 1, 3$: $q(-3) = 9 - 5 = 4$, $q(-1) = 1 - 5 = -4$, $q(1) = 1 - 5 = -4$, $q(3) = 9 - 5 = 4$; verify by substitution.
+18. The vector of values is $(4, -4, -4, 4)$, but we want $(1, -1, -1, 1)$, so scale $q$ by $1/4$ to get $q = \frac{1}{4}(t^2 - 5)$; verify scaling.
+19. The scaled $q$ has values $q(-3) = 1$, $q(-1) = -1$, $q(1) = -1$, $q(3) = 1$; verify by substitution.
+20. Final answers: (a) The orthogonal projection of $p_2$ onto $\text{Span}\{p_0, p_1\}$ is $5$; (b) The orthogonal polynomial is $q(t) = \frac{1}{4}(t^2 - 5)$, with vector of values $(1, -1, -1, 1)$.

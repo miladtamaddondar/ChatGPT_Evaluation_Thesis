@@ -1,0 +1,5 @@
+1. The transformation is defined by \( T(\mathbf{x}) = x_1 \mathbf{v}_1 + x_2 \mathbf{v}_2 \).  
+2. Write \( T(\mathbf{x}) \) as \( T(\mathbf{x}) = x_1 \begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2 \begin{bmatrix} 7 \\ -3 \end{bmatrix} \).  
+3. Combine the vectors: \( T(\mathbf{x}) = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix} \).  
+4. Express this as a matrix multiplication: \( T(\mathbf{x}) = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \).  
+5. Therefore, the matrix \( A \) is \( \boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}} \).

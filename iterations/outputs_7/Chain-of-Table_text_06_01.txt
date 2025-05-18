@@ -1,0 +1,6 @@
+1. To find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \), we need to find two linearly independent vectors in the null space of \( A \). Set up the augmented matrix for \( A\vec{x} = 0 \): \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & -2 & 0\end{array}\right]\).
+2. Row 2 \(-\) (1/3) Row 1: \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 0 & 0 & 0\end{array}\right]\).
+3. Divide Row 1 by 3: \(\left[\begin{array}{cc|c}1 & -2 & 0 \\ 0 & 0 & 0\end{array}\right]\).
+4. The equation is \(x_1 - 2x_2 = 0\), so \(x_1 = 2x_2\). Let \(x_2 = t\), then the general solution is \(\vec{x} = t\begin{bmatrix}2 \\ 1\end{bmatrix}\).
+5. Choose two different nonzero values for \(t\), say \(t=1\) and \(t=-1\), to get two different columns: \(\begin{bmatrix}2 \\ 1\end{bmatrix}\) and \(\begin{bmatrix}-2 \\ -1\end{bmatrix}\).
+6. Therefore, \(B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix}\) is a \(2 \times 2\) matrix with two different nonzero columns such that \(AB = 0\).

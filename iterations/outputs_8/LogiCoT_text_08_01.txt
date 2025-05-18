@@ -1,0 +1,5 @@
+1. A \( 4 \times 3 \) matrix with rank 1 means all its rows (or columns) are scalar multiples of a single row (or column), so we can construct it as the outer product of two nonzero vectors.  
+2. Let \( \mathbf{u} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix} \in \mathbb{R}^4 \) and \( \mathbf{v} = \begin{bmatrix} 5 \\ 6 \\ 7 \end{bmatrix} \in \mathbb{R}^3 \); then \( A = \mathbf{u} \mathbf{v}^T \) is a \( 4 \times 3 \) matrix.  
+3. Compute \( A = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix} \begin{bmatrix} 5 & 6 & 7 \end{bmatrix} = \begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix} \).  
+4. To verify rank 1, note that every row is a scalar multiple of the first row: for example, row 2 is 2 times row 1, row 3 is 3 times row 1, and row 4 is 4 times row 1, so the row space is 1-dimensional.  
+5. Final answer: A \( 4 \times 3 \) matrix with rank 1 is \( \boxed{\begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix}} \).

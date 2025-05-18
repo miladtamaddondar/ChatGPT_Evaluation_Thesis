@@ -1,0 +1,9 @@
+1. Write the augmented matrix for $T(\mathbf{b}_1) = A\mathbf{b}_1 = c_1\mathbf{b}_1 + c_2\mathbf{b}_2$: $\left[\begin{array}{cc|c} 1 & 5 & 2 \\ 1 & 4 & 4 \end{array}\right]$ (where the system is $c_1\mathbf{b}_1 + c_2\mathbf{b}_2 = A\mathbf{b}_1 = \begin{bmatrix}2\\4\end{bmatrix}$).
+2. $R_2 \to R_2 - R_1$: $\left[\begin{array}{cc|c} 1 & 5 & 2 \\ 0 & -1 & 2 \end{array}\right]$
+3. $R_2 \to -R_2$: $\left[\begin{array}{cc|c} 1 & 5 & 2 \\ 0 & 1 & -2 \end{array}\right]$
+4. $R_1 \to R_1 - 5R_2$: $\left[\begin{array}{cc|c} 1 & 0 & 12 \\ 0 & 1 & -2 \end{array}\right]$ (so $[T]_{\mathcal{B}}$ first column is $\begin{bmatrix}12\\-2\end{bmatrix}$).
+5. Write the augmented matrix for $T(\mathbf{b}_2) = A\mathbf{b}_2 = d_1\mathbf{b}_1 + d_2\mathbf{b}_2$: $\left[\begin{array}{cc|c} 1 & 5 & 9 \\ 1 & 4 & 17 \end{array}\right]$.
+6. $R_2 \to R_2 - R_1$: $\left[\begin{array}{cc|c} 1 & 5 & 9 \\ 0 & -1 & 8 \end{array}\right]$
+7. $R_2 \to -R_2$: $\left[\begin{array}{cc|c} 1 & 5 & 9 \\ 0 & 1 & -8 \end{array}\right]$
+8. $R_1 \to R_1 - 5R_2$: $\left[\begin{array}{cc|c} 1 & 0 & 49 \\ 0 & 1 & -8 \end{array}\right]$ (so $[T]_{\mathcal{B}}$ second column is $\begin{bmatrix}49\\-8\end{bmatrix}$).
+9. Final answer: The $\mathcal{B}$-matrix for $T$ is $\begin{bmatrix} 12 & 49 \\ -2 & -8 \end{bmatrix}$.

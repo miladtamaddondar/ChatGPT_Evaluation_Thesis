@@ -1,0 +1,1 @@
+1. The matrix \([Qr_1 \; Qr_2 \; \ldots \; Qr_p]\) can be written as the product of two matrices: \(Q\) and \([r_1 \; r_2 \; \ldots \; r_p]\), that is, \([Qr_1 \; Qr_2 \; \ldots \; Qr_p] = Q \begin{bmatrix} r_1 & r_2 & \cdots & r_p \end{bmatrix}\).

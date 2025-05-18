@@ -1,0 +1,5 @@
+1. Start with the matrix \(A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix}\).
+2. To eliminate the (2,1) entry, perform the row operation \(R_2 \leftarrow R_2 - \frac{4}{6}R_1\), resulting in \(\begin{bmatrix}6 & 9 \\ 0 & 5 - \frac{4}{6} \times 9\end{bmatrix} = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).
+3. The multipliers used are stored in \(L\), so \(L = \begin{bmatrix}1 & 0 \\ \frac{4}{6} & 1\end{bmatrix} = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix}\).
+4. The upper triangular matrix is \(U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).
+5. The LU factorization is \(A = LU = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix} \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}\).

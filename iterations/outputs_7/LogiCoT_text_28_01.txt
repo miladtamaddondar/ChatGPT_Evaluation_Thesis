@@ -1,0 +1,5 @@
+1. Recognize that $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$ represents a linear transformation where the output is a linear combination of $\mathbf{v}_1$ and $\mathbf{v}_2$ with coefficients $x_1$ and $x_2$ respectively.
+2. Recall that for a matrix $A$, $A\mathbf{x} = x_1\mathbf{a}_1 + x_2\mathbf{a}_2$ where $\mathbf{a}_1$ and $\mathbf{a}_2$ are the columns of $A$; thus, the columns of $A$ should be $\mathbf{v}_1$ and $\mathbf{v}_2$.
+3. Write $A = \begin{bmatrix} \mathbf{v}_1 & \mathbf{v}_2 \end{bmatrix} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$, since placing $\mathbf{v}_1$ and $\mathbf{v}_2$ as columns ensures $A\mathbf{x} = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$.
+4. Verify by computing $A\mathbf{x} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix}$, which matches $x_1\mathbf{v}_1 + x_2\mathbf{v}_2$.
+5. Final answer: The matrix $A$ is $\boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}}$.

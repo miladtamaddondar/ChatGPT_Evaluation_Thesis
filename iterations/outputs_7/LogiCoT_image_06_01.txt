@@ -1,0 +1,8 @@
+1. To find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), we need each column of \(B\) to be in the null space of \(A\), i.e., \(A\vec{b}_i = 0\) for each column \(\vec{b}_i\) of \(B\).  
+2. Let \(\vec{b} = \begin{bmatrix} x \\ y \end{bmatrix}\), then \(A\vec{b} = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 3x - 6y \\ -x + 2y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\).  
+3. Setting up the system: \(3x - 6y = 0\) and \(-x + 2y = 0\).  
+4. The second equation gives \(x = 2y\); substituting into the first gives \(3(2y) - 6y = 0 \implies 6y - 6y = 0\), which is always true, so any vector of the form \(\begin{bmatrix} 2y \\ y \end{bmatrix}\) is in the null space.  
+5. To get two different nonzero columns, choose \(y = 1\) to get \(\vec{b}_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\) and \(y = -1\) to get \(\vec{b}_2 = \begin{bmatrix} -2 \\ -1 \end{bmatrix}\).  
+6. Construct \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).  
+7. Verify: \(AB = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} = \begin{bmatrix} (3)(2)+(-6)(1) & (3)(-2)+(-6)(-1) \\ (-1)(2)+(2)(1) & (-1)(-2)+(2)(-1) \end{bmatrix} = \begin{bmatrix} 6-6 & -6+6 \\ -2+2 & 2-2 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}\).  
+8. Final answer: \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\) is a \(2 \times 2\) matrix with two different nonzero columns such that \(AB = 0\).

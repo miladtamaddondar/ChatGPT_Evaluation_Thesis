@@ -1,0 +1,6 @@
+1. To find the eigenvalues, set up the characteristic equation \(\det(A - \lambda I) = 0\), where \(A = \begin{bmatrix}0 & 0 & 0 \\ 0 & 2 & 5 \\ 0 & 0 & 1\end{bmatrix}\) and \(I\) is the \(3 \times 3\) identity matrix.
+2. Compute \(A - \lambda I = \begin{bmatrix}0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix} = \begin{bmatrix}-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix}\).
+3. The determinant of an upper triangular matrix is the product of its diagonal entries, so \(\det(A - \lambda I) = (-\lambda)(2-\lambda)(1-\lambda)\).
+4. Set the determinant equal to zero: \((-\lambda)(2-\lambda)(1-\lambda) = 0\).
+5. The eigenvalues are the roots of the equation, so \(\lambda = 0\), \(\lambda = 1\), and \(\lambda = 2\).
+6. Final answer: The eigenvalues of the matrix are \(\boxed{0,\, 1,\, 2}\).

@@ -1,0 +1,11 @@
+1. To find the orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$, we seek $a, b$ such that $p_2 - (a p_0 + b p_1)$ is orthogonal to both $p_0$ and $p_1$ with respect to the inner product $\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)$. This leads to the system: $\langle p_2 - (a p_0 + b p_1), p_0 \rangle = 0$ and $\langle p_2 - (a p_0 + b p_1), p_1 \rangle = 0$.
+2. Compute the necessary inner products: $\langle p_0, p_0 \rangle = 1+1+1+1=4$, $\langle p_0, p_1 \rangle = (-3)+(-1)+1+3=0$, $\langle p_0, p_2 \rangle = 9+1+1+9=20$, $\langle p_1, p_1 \rangle = 9+1+1+9=20$, $\langle p_1, p_2 \rangle = (-3)\cdot9 + (-1)\cdot1 + 1\cdot1 + 3\cdot9 = -27-1+1+27=0$.
+3. The system is: $4a + 0b = 20$ and $0a + 20b = 0$.
+4. Write the augmented matrix: $\left[\begin{array}{cc|c} 4 & 0 & 20 \\ 0 & 20 & 0 \end{array}\right]$.
+5. Row 1: Divide row 1 by 4: $\left[\begin{array}{cc|c} 1 & 0 & 5 \\ 0 & 20 & 0 \end{array}\right]$.
+6. Row 2: Divide row 2 by 20: $\left[\begin{array}{cc|c} 1 & 0 & 5 \\ 0 & 1 & 0 \end{array}\right]$.
+7. Solution: $a=5$, $b=0$. Thus, the orthogonal projection is $5p_0$.
+8. To find $q$ orthogonal to $p_0$ and $p_1$, let $q = p_2 - \text{proj}_{\text{span}\{p_0, p_1\}} p_2 = p_2 - 5p_0 = t^2 - 5$.
+9. Compute $q(-3) = 9-5=4$, $q(-1)=1-5=-4$, $q(1)=1-5=-4$, $q(3)=9-5=4$. The vector of values is $(4, -4, -4, 4)$.
+10. To scale $q$ so its vector of values is $(1, -1, -1, 1)$, divide by 4: $q = \frac{1}{4}(t^2 - 5)$.
+11. Final answer: The orthogonal projection of $p_2$ onto the subspace spanned by $p_0$ and $p_1$ is $5p_0 = 5$. An orthogonal basis is $\{p_0, p_1, \frac{1}{4}(t^2-5)\}$, where $\frac{1}{4}(t^2-5)$ is orthogonal to $p_0$ and $p_1$ and its vector of values at $(-3, -1, 1, 3)$ is $(1, -1, -1, 1)$.

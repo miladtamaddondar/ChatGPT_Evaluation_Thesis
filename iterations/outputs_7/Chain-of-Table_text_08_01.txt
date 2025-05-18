@@ -1,0 +1,6 @@
+1. Start with the zero matrix: \( \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).  
+2. Replace row 1 with \( [1\ 2\ 3] \): \( \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).  
+3. Replace row 2 with 2 times row 1: \( \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).  
+4. Replace row 3 with -1 times row 1: \( \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 0 & 0 & 0 \end{bmatrix} \).  
+5. Replace row 4 with 5 times row 1: \( \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix} \).  
+6. Final answer: \( \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{bmatrix} \) is a \(4 \times 3\) matrix with rank 1.

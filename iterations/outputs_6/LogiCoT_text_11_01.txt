@@ -1,0 +1,4 @@
+1. To find the eigenvalues, set up the characteristic equation by subtracting \(\lambda\) times the identity matrix from the given matrix: \(\det\left(\begin{bmatrix}0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix}\right) = 0\).
+2. Since the matrix is upper triangular, its determinant is the product of the diagonal entries: \((0-\lambda)(2-\lambda)(1-\lambda) = 0\).
+3. The eigenvalues are the roots of the equation: \(\lambda = 0\), \(\lambda = 2\), and \(\lambda = 1\).
+4. Final answer: The eigenvalues of the matrix are \(\boxed{0, 2, 1}\).

@@ -1,0 +1,6 @@
+1. To show \( T \) is a linear transformation, we need to find a matrix \( A \) such that \( T(\vec{x}) = A\vec{x} \) for \( \vec{x} = (x_1, x_2, x_3, x_4)^T \).  
+2. Write the output as a column vector: \( T(x_1, x_2, x_3, x_4) = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \).  
+3. Express each component as a linear combination of \( x_1, x_2, x_3, x_4 \): first row is \( 0 \), second is \( x_1 + x_2 \), third is \( x_2 + x_3 \), fourth is \( x_3 + x_4 \).  
+4. Construct the matrix \( A \) so that \( A\vec{x} \) gives the above vector: \( A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \).  
+5. Verify by multiplying \( A \) by \( \vec{x} \): \( A\vec{x} = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \), which matches \( T(\vec{x}) \).  
+6. Since \( T(\vec{x}) = A\vec{x} \) for all \( \vec{x} \), \( T \) is a linear transformation and the matrix implementing \( T \) is \( \boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}} \).

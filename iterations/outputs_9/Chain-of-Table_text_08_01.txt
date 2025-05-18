@@ -1,0 +1,3 @@
+1. Start with the zero matrix: \(\begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}\) (Rank is 0).
+2. Replace the first row with nonzero entries: \(R_1 \to [2\ 4\ 6]\), resulting in \(\begin{bmatrix} 2 & 4 & 6 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}\) (Rank is now 1).
+3. Make all other rows scalar multiples of the first row to keep rank 1: \(R_2 \to 3 \times R_1 = [6\ 12\ 18]\), \(R_3 \to -1 \times R_1 = [-2\ -4\ -6]\), \(R_4 \to 0.5 \times R_1 = [1\ 2\ 3]\), resulting in \(\begin{bmatrix} 2 & 4 & 6 \\ 6 & 12 & 18 \\ -2 & -4 & -6 \\ 1 & 2 & 3 \end{bmatrix}\) (Final answer: a \(4 \times 3\) matrix of rank 1).

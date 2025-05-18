@@ -1,0 +1,3 @@
+1. Observe that \([Qr_1\ Qr_2\ \ldots\ Qr_p]\) is a matrix whose columns are \(Qr_1, Qr_2, \ldots, Qr_p\).  
+2. Note that this can be written as \(Q[r_1\ r_2\ \ldots\ r_p]\), where \([r_1\ r_2\ \ldots\ r_p]\) is the \(n \times p\) matrix whose columns are the vectors \(r_1, r_2, \ldots, r_p\).  
+3. Therefore, the answer is: \([Qr_1\ Qr_2\ \ldots\ Qr_p] = Q \begin{bmatrix} r_1 & r_2 & \cdots & r_p \end{bmatrix}\).

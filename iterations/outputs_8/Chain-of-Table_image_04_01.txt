@@ -1,0 +1,2 @@
+1. Compute \( AD = A \times D = \begin{bmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 4 & 5 \end{bmatrix} \begin{bmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 5 \end{bmatrix} = \begin{bmatrix} 2 & 3 & 5 \\ 2 & 6 & 15 \\ 2 & 12 & 25 \end{bmatrix} \).
+2. Compute \( DA = D \times A = \begin{bmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 5 \end{bmatrix} \begin{bmatrix} 1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 4 & 5 \end{bmatrix} = \begin{bmatrix} 2 & 2 & 2 \\ 3 & 6 & 9 \\ 5 & 20 & 25 \end{bmatrix} \).

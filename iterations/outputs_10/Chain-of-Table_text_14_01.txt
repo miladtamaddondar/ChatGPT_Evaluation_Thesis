@@ -1,0 +1,7 @@
+1. Subtract $5I$ from $A$ to form $A - 5I$: $\begin{bmatrix}0 & -2 & 6 & -1 \\0 & -2 & h & 0 \\0 & 0 & 0 & 4 \\0 & 0 & 0 & -4\end{bmatrix}$.
+2. Set up the augmented matrix for $(A-5I)\vec{x} = 0$: $\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\0 & -2 & h & 0 & 0 \\0 & 0 & 0 & 4 & 0 \\0 & 0 & 0 & -4 & 0\end{array}\right]$.
+3. Row 4 $\to$ Row 4 + Row 3: $\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\0 & -2 & h & 0 & 0 \\0 & 0 & 0 & 4 & 0 \\0 & 0 & 0 & 0 & 0\end{array}\right]$.
+4. Divide Row 3 by 4: $\left[\begin{array}{cccc|c}0 & -2 & 6 & -1 & 0 \\0 & -2 & h & 0 & 0 \\0 & 0 & 0 & 1 & 0 \\0 & 0 & 0 & 0 & 0\end{array}\right]$.
+5. Add Row 3 to Row 1: $\left[\begin{array}{cccc|c}0 & -2 & 6 & 0 & 0 \\0 & -2 & h & 0 & 0 \\0 & 0 & 0 & 1 & 0 \\0 & 0 & 0 & 0 & 0\end{array}\right]$.
+6. The system now has a free variable $x_1$ and possibly $x_3$ if the second row becomes dependent; for the eigenspace to be two-dimensional, the second row must be a multiple of the first, so set $h=6$.
+7. Final answer: $h=6$.

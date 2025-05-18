@@ -1,0 +1,20 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A - 5I$:\[A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\] (since subtracting $5$ from each diagonal entry is correct).
+2. The eigenspace dimension is the nullity of $A-5I$, so we set up the homogeneous system $(A-5I)\vec{x} = 0$ and seek $h$ so that the solution space is two-dimensional (nullity 2).
+3. The nullity is $n - \text{rank}(A-5I)$, so for nullity 2 in a $4 \times 4$ matrix, we need $\text{rank}(A-5I) = 2$ (since $4-2=2$).
+4. To find the rank, note the lower $2\times2$ block is $\begin{bmatrix}0 & 4 \\ 0 & -4\end{bmatrix}$, which has rank 1 (since the two rows are linearly dependent).
+5. The upper $2\times4$ block is $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0\end{bmatrix}$; subtracting the first row from the second gives $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & 0 & h-6 & 1\end{bmatrix}$, so the two rows are linearly independent unless $h-6=0$ and $1=0$ (which is impossible), so the upper block has rank 2.
+6. The total matrix is block upper-triangular, so the rank is the sum of the ranks of the diagonal blocks if their row spaces are independent; here, the lower block has rank 1 and the upper block has rank 2, but we must check if any row in the lower block is a linear combination of the upper block's rows.
+7. The last two rows are $[0\ 0\ 0\ 4]$ and $[0\ 0\ 0\ -4]$, which cannot be written as combinations of the first two rows (since the first two rows have nonzero entries only in columns 2 and 3), so they are independent.
+8. Thus, the total rank is $2$ (from the first two rows) plus $1$ (from the last two rows, since they are linearly dependent), so total rank is $3$ unless the lower block is all zeros (i.e., $4=0$ and $-4=0$, which is false), so rank is $3$.
+9. To reduce the rank to $2$, the only way is for the upper block to have rank $1$ (since the lower block always has rank $1$), so set $h$ so that the two upper rows are linearly dependent: $[0\ -2\ 6\ -1]$ and $[0\ -2\ h\ 0]$.
+10. For linear dependence, set $[0\ -2\ h\ 0] = \alpha [0\ -2\ 6\ -1]$; matching entries: $-2 = -2\alpha \implies \alpha=1$, $h=6\alpha=6$, $0=-1\alpha=-1$, which is impossible, so the upper rows are never linearly dependent.
+11. Therefore, the only way to get nullity $2$ is for the lower block to be zero, i.e., $4=0$ and $-4=0$, which is impossible, so let's check the calculation for the upper block again.
+12. The correct approach is to row reduce $A-5I$ and see for which $h$ the nullity increases; write the system: $0x_1 - 2x_2 + 6x_3 - x_4 = 0$, $0x_1 - 2x_2 + h x_3 = 0$, $0x_3 + 4x_4 = 0$, $0x_3 - 4x_4 = 0$.
+13. From the last two equations: $4x_4=0$ and $-4x_4=0$ imply $x_4=0$.
+14. Substitute $x_4=0$ into the first two equations: $-2x_2 + 6x_3=0$ and $-2x_2 + h x_3=0$.
+15. Subtract the two equations: $(-2x_2 + 6x_3) - (-2x_2 + h x_3) = (6-h)x_3 = 0$.
+16. Thus, either $x_3=0$ or $h=6$; if $h\neq 6$, then $x_3=0$.
+17. If $h\neq 6$, both equations become $-2x_2=0 \implies x_2=0$, so the only free variable is $x_1$; the eigenspace is one-dimensional.
+18. If $h=6$, the two equations are identical: $-2x_2 + 6x_3=0$, so $x_2=3x_3$, and $x_1$ is free, so the general solution is $x_1$ and $x_3$ free, $x_2=3x_3$, $x_4=0$.
+19. Thus, for $h=6$, the eigenspace is two-dimensional, as required.
+20. Final answer: $h=6$ is the value such that the eigenspace for $\lambda=5$ is two-dimensional.

@@ -1,0 +1,23 @@
+1. To write \(\mathbf{y}\) as the sum of a vector in \(W = \text{span}\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}\) and a vector orthogonal to \(W\), we need to find the orthogonal projection of \(\mathbf{y}\) onto \(W\) and subtract it from \(\mathbf{y}\): \(\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp\), where \(\mathbf{y}_W \in W\) and \(\mathbf{y}_\perp \perp W\).
+2. Since \(\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\) may not be orthogonal, we use the formula \(\mathbf{y}_W = \mathbf{U}(\mathbf{U}^T\mathbf{U})^{-1}\mathbf{U}^T\mathbf{y}\), where \(\mathbf{U} = [\mathbf{u}_1\ \mathbf{u}_2\ \mathbf{u}_3]\) is a \(4 \times 3\) matrix.
+3. Construct \(\mathbf{U}\): \(\mathbf{U} = \begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix}\).
+4. Compute \(\mathbf{U}^T\mathbf{U}\): \(\mathbf{U}^T\mathbf{U} = \begin{bmatrix} 1 & 1 & 0 & 1 \\ -1 & 3 & 1 & -2 \\ -1 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix}\), which yields a \(3 \times 3\) matrix.
+5. Calculate each entry of \(\mathbf{U}^T\mathbf{U}\): \(\mathbf{U}^T\mathbf{U} = \begin{bmatrix} 3 & -1 & 1 \\ -1 & 15 & 0 \\ 1 & 0 & 3 \end{bmatrix}\).
+6. Compute \(\mathbf{U}^T\mathbf{y}\): \(\mathbf{U}^T\mathbf{y} = \begin{bmatrix} 1 & 1 & 0 & 1 \\ -1 & 3 & 1 & -2 \\ -1 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} = \begin{bmatrix} 4+3+0+(-1) = 6 \\ -4+9+3+2 = 10 \\ -4+0+3+(-1) = -2 \end{bmatrix}\).
+7. Set up the equation \((\mathbf{U}^T\mathbf{U})\mathbf{c} = \mathbf{U}^T\mathbf{y}\) to solve for \(\mathbf{c}\): \(\begin{bmatrix} 3 & -1 & 1 \\ -1 & 15 & 0 \\ 1 & 0 & 3 \end{bmatrix} \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix} = \begin{bmatrix} 6 \\ 10 \\ -2 \end{bmatrix}\).
+8. Solve for \(c_2\) from the second equation: \(-c_1 + 15c_2 = 10 \implies c_1 = 15c_2 - 10\).
+9. Substitute \(c_1\) into the first and third equations: First: \(3(15c_2-10) - c_2 + c_3 = 6\), Third: \((15c_2-10) + 3c_3 = -2\).
+10. Simplify the first: \(45c_2 - 30 - c_2 + c_3 = 6 \implies 44c_2 + c_3 = 36\).
+11. Simplify the third: \(15c_2 - 10 + 3c_3 = -2 \implies 15c_2 + 3c_3 = 8\).
+12. Solve for \(c_3\) from the third: \(3c_3 = 8 - 15c_2 \implies c_3 = \frac{8 - 15c_2}{3}\).
+13. Substitute \(c_3\) into the first: \(44c_2 + \frac{8 - 15c_2}{3} = 36\).
+14. Multiply both sides by 3: \(132c_2 + 8 - 15c_2 = 108\).
+15. Combine like terms: \(117c_2 = 100 \implies c_2 = \frac{100}{117}\).
+16. Substitute \(c_2\) back to find \(c_3\): \(c_3 = \frac{8 - 15 \cdot \frac{100}{117}}{3} = \frac{8 - \frac{1500}{117}}{3} = \frac{\frac{936 - 1500}{117}}{3} = \frac{-564}{117 \cdot 3} = \frac{-564}{351} = -\frac{188}{117}\).
+17. Substitute \(c_2\) into \(c_1 = 15c_2 - 10\): \(c_1 = 15 \cdot \frac{100}{117} - 10 = \frac{1500}{117} - 10 = \frac{1500 - 1170}{117} = \frac{330}{117} = \frac{110}{39}\).
+18. Now, \(\mathbf{y}_W = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 = \frac{110}{39}\mathbf{u}_1 + \frac{100}{117}\mathbf{u}_2 - \frac{188}{117}\mathbf{u}_3\).
+19. Compute \(\mathbf{y}_W\): \(\mathbf{y}_W = \frac{110}{39}\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + \frac{100}{117}\begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} - \frac{188}{117}\begin{bmatrix}-1\\0\\1\\1\end{bmatrix}\).
+20. Add the vectors: First entry: \(\frac{110}{39} - \frac{100}{117} + \frac{188}{117} = \frac{330}{117} + \frac{88}{117} = \frac{418}{117}\); Second: \(\frac{110}{39} + \frac{300}{117} + 0 = \frac{330}{117} + \frac{300}{117} = \frac{630}{117} = \frac{210}{39}\); Third: \(0 + \frac{100}{117} - \frac{188}{117} = -\frac{88}{117}\); Fourth: \(\frac{110}{39} - \frac{200}{117} - \frac{188}{117} = \frac{330}{117} - \frac{388}{117} = -\frac{58}{117}\).
+21. So, \(\mathbf{y}_W = \begin{bmatrix} \frac{418}{117} \\ \frac{210}{39} \\ -\frac{88}{117} \\ -\frac{58}{117} \end{bmatrix}\).
+22. The orthogonal component is \(\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} - \begin{bmatrix} \frac{418}{117} \\ \frac{210}{39} \\ -\frac{88}{117} \\ -\frac{58}{117} \end{bmatrix} = \begin{bmatrix} 4 - \frac{418}{117} \\ 3 - \frac{210}{39} \\ 3 + \frac{88}{117} \\ -1 + \frac{58}{117} \end{bmatrix}\).
+23. Therefore, the final answer is: \(\boxed{\mathbf{y} = \begin{bmatrix} \frac{418}{117} \\ \frac{210}{39} \\ -\frac{88}{117} \\ -\frac{58}{117} \end{bmatrix} + \begin{bmatrix} 4 - \frac{418}{117} \\ 3 - \frac{210}{39} \\ 3 + \frac{88}{117} \\ -1 + \frac{58}{117} \end{bmatrix}}\), where the first vector is in \(W\) and the second is orthogonal to \(W\).

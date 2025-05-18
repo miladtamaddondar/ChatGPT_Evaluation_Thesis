@@ -1,0 +1,5 @@
+1. Write the characteristic polynomial: \(\det\left(\begin{bmatrix}2 & 1 \\ -1 & 4\end{bmatrix} - \lambda \begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix}\right) = 0\) gives \(\det\left(\begin{bmatrix}2-\lambda & 1 \\ -1 & 4-\lambda\end{bmatrix}\right) = 0\).
+2. Compute the determinant: \((2-\lambda)(4-\lambda) - (1)(-1) = (2-\lambda)(4-\lambda) + 1 = 0\).
+3. Expand and simplify: \(8 - 2\lambda - 4\lambda + \lambda^2 + 1 = \lambda^2 - 6\lambda + 9 = 0\).
+4. Factor the quadratic: \((\lambda - 3)^2 = 0\).
+5. The eigenvalues are: \(\lambda = 3\) (with algebraic multiplicity 2).

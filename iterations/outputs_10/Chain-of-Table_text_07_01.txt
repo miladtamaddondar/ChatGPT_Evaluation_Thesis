@@ -1,0 +1,1 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the products of \( Q \) with each \( r_j \), so the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) can be written as \( Q \left[ r_1 \; r_2 \; \dots \; r_p \right] \).

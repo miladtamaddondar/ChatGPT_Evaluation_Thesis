@@ -1,0 +1,5 @@
+1. The matrix \( A \) has 4 rows and 6 columns, so it is a \( 4 \times 6 \) matrix.
+2. The rank of \( A \) is the number of leading 1's in its row echelon form, which is 3 (one in each of the first three rows).
+3. The dimension of Col \( A \) (the column space) is equal to the rank, so \(\dim(\text{Col }A) = 3\).
+4. The dimension of Nul \( A \) (the null space) is the number of columns minus the rank, so \(\dim(\text{Nul }A) = 6 - 3 = 3\).
+5. Final answer: \(\dim(\text{Col }A) = 3\), \(\dim(\text{Nul }A) = 3\).

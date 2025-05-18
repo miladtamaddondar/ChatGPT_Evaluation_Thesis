@@ -1,0 +1,5 @@
+1. Find the eigenvalues of \(A = \begin{bmatrix} 0 & 1 \\ -3 & 4 \end{bmatrix}\) by solving \(\det(A - \lambda I) = 0\): \(\det\left(\begin{bmatrix} 0-\lambda & 1 \\ -3 & 4-\lambda \end{bmatrix}\right) = (0-\lambda)(4-\lambda) - (-3)(1) = \lambda^2 - 4\lambda + 3 = 0\).
+2. Solve \(\lambda^2 - 4\lambda + 3 = 0\): The roots are \(\lambda = 1\) and \(\lambda = 3\).
+3. Find the eigenvector for \(\lambda = 1\): Solve \((A - I)\vec{v} = 0\), i.e., \(\begin{bmatrix} -1 & 1 \\ -3 & 3 \end{bmatrix}\vec{v} = 0\). The system reduces to \(-v_1 + v_2 = 0\), so \(v_2 = v_1\). Take \(v_1 = 1\), so eigenvector is \(\vec{v}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\).
+4. Find the eigenvector for \(\lambda = 3\): Solve \((A - 3I)\vec{v} = 0\), i.e., \(\begin{bmatrix} -3 & 1 \\ -3 & 1 \end{bmatrix}\vec{v} = 0\). The system reduces to \(-3v_1 + v_2 = 0\), so \(v_2 = 3v_1\). Take \(v_1 = 1\), so eigenvector is \(\vec{v}_2 = \begin{bmatrix} 1 \\ 3 \end{bmatrix}\).
+5. The basis \(\mathcal{B} = \left\{ \begin{bmatrix} 1 \\ 1 \end{bmatrix}, \begin{bmatrix} 1 \\ 3 \end{bmatrix} \right\}\) is a basis for \(\mathbb{R}^2\) such that \([T]_{\mathcal{B}}\) is diagonal.

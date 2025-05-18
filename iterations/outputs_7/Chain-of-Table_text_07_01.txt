@@ -1,0 +1,1 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the images of the vectors \( r_1, \dots, r_p \) under the linear transformation represented by \( Q \), so \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\).

@@ -1,0 +1,6 @@
+1. Let \( A = \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} \), and we seek \( A = LU \) where \( L \) is lower triangular and \( U \) is upper triangular.  
+2. Assume \( L = \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} \) and \( U = \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} \), so \( LU = \begin{bmatrix} u_{11} & u_{12} \\ l_{21}u_{11} & l_{21}u_{12} + u_{22} \end{bmatrix} \).  
+3. Set \( u_{11} = 6 \) and \( u_{12} = 9 \) by matching the first row of \( A \) and \( LU \), which is correct because \( L \) has 1 in the (1,1) position.  
+4. Set \( l_{21}u_{11} = 4 \implies l_{21} = \frac{4}{6} = \frac{2}{3} \), matching the (2,1) entry of \( A \), which is correct by substitution.  
+5. Set \( l_{21}u_{12} + u_{22} = 5 \implies \frac{2}{3} \times 9 + u_{22} = 5 \implies 6 + u_{22} = 5 \implies u_{22} = -1 \), which is correct by direct calculation.  
+6. Thus, \( L = \begin{bmatrix} 1 & 0 \\ \frac{2}{3} & 1 \end{bmatrix} \) and \( U = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \) is the LU factorization of \( A \).

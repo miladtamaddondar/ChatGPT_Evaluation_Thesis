@@ -1,0 +1,2 @@
+1. The matrix \( A \) has 2 columns, so \( \text{Nul }A \) consists of all vectors \( \mathbf{x} \in \mathbb{R}^2 \) such that \( A\mathbf{x} = \mathbf{0} \), so \( k = 2 \) for part (a).
+2. The matrix \( A \) has 4 rows, so \( \text{Col }A \) consists of all linear combinations of the columns of \( A \), which are vectors in \( \mathbb{R}^4 \), so \( k = 4 \) for part (b).

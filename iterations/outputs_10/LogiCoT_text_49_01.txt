@@ -1,0 +1,12 @@
+1. Since $A = QR$ and $Q$ is given, we can solve for $R$ by multiplying both sides on the left by $Q^T$, using the fact that $Q$ has orthonormal columns ($Q^T Q = I$): $Q^T A = Q^T Q R = R$.
+2. Compute $Q^T$ (the transpose of $Q$): $Q^T = \begin{bmatrix} 5/6 & 1/6 & -3/6 & 1/6 \\ -1/6 & 5/6 & 1/6 & 3/6 \end{bmatrix}$.
+3. Multiply $Q^T$ by $A$: $R = Q^T A = \begin{bmatrix} 5/6 & 1/6 & -3/6 & 1/6 \\ -1/6 & 5/6 & 1/6 & 3/6 \end{bmatrix} \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix}$.
+4. Compute the $(1,1)$ entry of $R$: $(5/6) \cdot 5 + (1/6) \cdot 1 + (-3/6) \cdot (-3) + (1/6) \cdot 1 = (25/6) + (1/6) + (9/6) + (1/6) = (36/6) = 6$.
+5. Compute the $(1,2)$ entry of $R$: $(5/6) \cdot 9 + (1/6) \cdot 7 + (-3/6) \cdot (-5) + (1/6) \cdot 5 = (45/6) + (7/6) + (15/6) + (5/6) = (72/6) = 12$.
+6. Compute the $(2,1)$ entry of $R$: $(-1/6) \cdot 5 + (5/6) \cdot 1 + (1/6) \cdot (-3) + (3/6) \cdot 1 = (-5/6) + (5/6) + (-3/6) + (3/6) = (0/6) = 0$.
+7. Compute the $(2,2)$ entry of $R$: $(-1/6) \cdot 9 + (5/6) \cdot 7 + (1/6) \cdot (-5) + (3/6) \cdot 5 = (-9/6) + (35/6) + (-5/6) + (15/6) = (36/6) = 6$.
+8. Thus, $R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}$, which is upper triangular as required.
+9. To check, compute $QR$ and verify it equals $A$: $Q \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \end{bmatrix} \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}$.
+10. Compute first column of $QR$: $6 \cdot$ first column of $Q$ $= \begin{bmatrix} 5 \\ 1 \\ -3 \\ 1 \end{bmatrix}$, which matches the first column of $A$.
+11. Compute second column of $QR$: $12 \cdot$ first column of $Q$ $+ 6 \cdot$ second column of $Q$ $= 12 \cdot \begin{bmatrix} 5/6 \\ 1/6 \\ -3/6 \\ 1/6 \end{bmatrix} + 6 \cdot \begin{bmatrix} -1/6 \\ 5/6 \\ 1/6 \\ 3/6 \end{bmatrix} = \begin{bmatrix} 10 \\ 2 \\ -6 \\ 2 \end{bmatrix} + \begin{bmatrix} -1 \\ 5 \\ 1 \\ 3 \end{bmatrix} = \begin{bmatrix} 9 \\ 7 \\ -5 \\ 5 \end{bmatrix}$, which matches the second column of $A$.
+12. Therefore, the upper triangular matrix $R$ such that $A = QR$ is $\boxed{R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}}$.

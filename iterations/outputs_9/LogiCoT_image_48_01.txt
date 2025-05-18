@@ -1,0 +1,8 @@
+1. To find a nonzero vector \(\mathbf{v}\) in \(\mathbb{R}^3\) orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\), we seek \(\mathbf{v}\) such that \(\mathbf{u}_1 \cdot \mathbf{v} = 0\) and \(\mathbf{u}_2 \cdot \mathbf{v} = 0\).  
+2. Let \(\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}\), so the orthogonality conditions become \(1x + 1y + (-2)z = 0\) and \(5x + (-1)y + 2z = 0\).  
+3. Write the system as: \(\begin{cases} x + y - 2z = 0 \\ 5x - y + 2z = 0 \end{cases}\).  
+4. Add the two equations: \((x + y - 2z) + (5x - y + 2z) = 0 \implies 6x = 0 \implies x = 0\).  
+5. Substitute \(x = 0\) into the first equation: \(0 + y - 2z = 0 \implies y = 2z\).  
+6. Let \(z = 1\) (to get a nonzero vector), then \(y = 2\), \(x = 0\), so \(\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}\).  
+7. Verify orthogonality: \(\mathbf{u}_1 \cdot \mathbf{v} = 1 \cdot 0 + 1 \cdot 2 + (-2) \cdot 1 = 0\), \(\mathbf{u}_2 \cdot \mathbf{v} = 5 \cdot 0 + (-1) \cdot 2 + 2 \cdot 1 = 0\).  
+8. Final answer: A nonzero vector orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\) is \(\boxed{\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}\).

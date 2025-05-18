@@ -1,0 +1,10 @@
+1. To find the matrix of \( T \) in the basis \( \mathcal{B} = \{\mathbf{b}_1, \mathbf{b}_2\} \), compute \( [T]_{\mathcal{B}} = P^{-1}AP \), where \( P = [\mathbf{b}_1 \ \mathbf{b}_2] \).  
+2. Write \( P = \begin{bmatrix} 1 & 5 \\ 1 & 4 \end{bmatrix} \); verify by checking columns match \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \).  
+3. Compute \( P^{-1} \) using the formula for a \( 2 \times 2 \) inverse: \( P^{-1} = \frac{1}{(1)(4)-(1)(5)}\begin{bmatrix} 4 & -5 \\ -1 & 1 \end{bmatrix} = \begin{bmatrix} -4 & 5 \\ 1 & -1 \end{bmatrix} \).  
+4. Verify \( P^{-1}P = I \): \( \begin{bmatrix} -4 & 5 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 1 & 4 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \).  
+5. Compute \( AP = \begin{bmatrix} 1 & 1 \\ -1 & 3 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 1 & 4 \end{bmatrix} = \begin{bmatrix} 2 & 9 \\ 2 & 7 \end{bmatrix} \).  
+6. Verify \( AP \) by direct multiplication: first column \( (1+1, -1+3) = (2,2) \), second column \( (1\cdot5+1\cdot4, -1\cdot5+3\cdot4) = (9,7) \).  
+7. Compute \( [T]_{\mathcal{B}} = P^{-1}AP = \begin{bmatrix} -4 & 5 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 2 & 9 \\ 2 & 7 \end{bmatrix} \).  
+8. Multiply: First column: \( (-4)\cdot2 + 5\cdot2 = -8+10=2 \), \( 1\cdot2 + (-1)\cdot2 = 2-2=0 \); Second column: \( (-4)\cdot9 + 5\cdot7 = -36+35=-1 \), \( 1\cdot9 + (-1)\cdot7 = 9-7=2 \).  
+9. Thus, \( [T]_{\mathcal{B}} = \begin{bmatrix} 2 & -1 \\ 0 & 2 \end{bmatrix} \).  
+10. Final answer: The \( \mathcal{B} \)-matrix for \( T \) is \( \boxed{\begin{bmatrix} 2 & -1 \\ 0 & 2 \end{bmatrix}} \).

@@ -1,0 +1,5 @@
+1. Let \( A = \begin{bmatrix} 8 & 6 \\ 5 & 4 \end{bmatrix} \) and recall the formula for the inverse of a 2x2 matrix \( A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \) is \( A^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix} \).
+2. Compute the determinant: \( \det(A) = (8)(4) - (6)(5) = 32 - 30 = 2 \).
+3. Write the adjugate matrix: \( \text{adj}(A) = \begin{bmatrix} 4 & -6 \\ -5 & 8 \end{bmatrix} \).
+4. Multiply the adjugate by \( \frac{1}{2} \): \( A^{-1} = \frac{1}{2} \begin{bmatrix} 4 & -6 \\ -5 & 8 \end{bmatrix} \).
+5. The inverse is \( A^{-1} = \begin{bmatrix} 2 & -3 \\ -2.5 & 4 \end{bmatrix} \).

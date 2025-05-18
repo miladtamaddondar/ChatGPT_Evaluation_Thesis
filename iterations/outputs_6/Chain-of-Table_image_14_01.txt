@@ -1,0 +1,7 @@
+1. Subtract \(5I\) from \(A\) to get \(A-5I\): \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\).
+2. Add row 4 to row 3: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4\end{bmatrix}\).
+3. Swap rows 3 and 4: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & -4 \\ 0 & 0 & 0 & 0\end{bmatrix}\).
+4. Divide row 3 by \(-4\): \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0\end{bmatrix}\).
+5. Add row 3 times 1 to row 1: \(\begin{bmatrix}0 & -2 & 6 & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0\end{bmatrix}\).
+6. The system has a two-dimensional eigenspace when the rank is 2, so the second row must be a multiple of the first: set \(h = 6\).
+7. Final answer: \(h = 6\).

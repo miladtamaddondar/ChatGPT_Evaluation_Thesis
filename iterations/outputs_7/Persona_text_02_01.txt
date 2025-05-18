@@ -1,0 +1,5 @@
+1. Recall that the vector $\mathbf{x}$ in the standard basis is given by $\mathbf{x} = c_1 \mathbf{b}_1 + c_2 \mathbf{b}_2$, where $c_1$ and $c_2$ are the coordinates in $[\mathbf{x}]_B$ and $\mathbf{b}_1$, $\mathbf{b}_2$ are the basis vectors.
+2. Substitute the given values: $c_1 = 3$, $c_2 = 2$, $\mathbf{b}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$, $\mathbf{b}_2 = \begin{bmatrix} 2 \\ -1 \end{bmatrix}$, so $\mathbf{x} = 3\begin{bmatrix} 1 \\ 1 \end{bmatrix} + 2\begin{bmatrix} 2 \\ -1 \end{bmatrix}$.
+3. Compute the scalar multiplications: $3\begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \\ 3 \end{bmatrix}$ and $2\begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 4 \\ -2 \end{bmatrix}$.
+4. Add the resulting vectors: $\begin{bmatrix} 3 \\ 3 \end{bmatrix} + \begin{bmatrix} 4 \\ -2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1 \end{bmatrix}$.
+5. The vector $\mathbf{x}$ in the standard basis is $\boxed{\begin{bmatrix} 7 \\ 1 \end{bmatrix}}$.

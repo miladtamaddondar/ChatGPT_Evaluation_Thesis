@@ -1,0 +1,6 @@
+1. Write the augmented matrix for the homogeneous system \(A\mathbf{x} = \mathbf{0}\): \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0 \end{array}\right]\)
+2. Row 3 minus 2 times Row 1: \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0 \end{array}\right]\)
+3. Row 3 minus 2 times Row 2: \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)
+4. The reduced system is: \(\left[\begin{array}{cccc|c} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{array}\right]\)
+5. Let \(x_3 = s\) and \(x_4 = t\) be free variables. From Row 2: \(x_2 - 4x_3 + 3x_4 = 0 \implies x_2 = 4s - 3t\). From Row 1: \(x_1 - 4x_2 + 7x_3 - 5x_4 = 0\). Substitute for \(x_2\): \(x_1 - 4(4s - 3t) + 7s - 5t = 0 \implies x_1 - 16s + 12t + 7s - 5t = 0 \implies x_1 = 9s - 7t\).
+6. The solution set is: \(\mathbf{x} = s\begin{bmatrix} 9 \\ 4 \\ 1 \\ 0 \end{bmatrix} + t\begin{bmatrix} -7 \\ -3 \\ 0 \\ 1 \end{bmatrix}\), where \(s, t \in \mathbb{R}\).

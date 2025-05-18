@@ -1,0 +1,10 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we seek $\mathbf{v}$ such that $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$; this is equivalent to solving a homogeneous system.  
+2. Let $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, so the orthogonality conditions become: $1x + 1y - 2z = 0$ and $5x - 1y + 2z = 0$.  
+3. Write the system as a matrix equation: $\begin{bmatrix} 1 & 1 & -2 \\ 5 & -1 & 2 \end{bmatrix} \begin{bmatrix} x \\ y \\ z \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$.  
+4. To solve, express $x$ and $y$ in terms of $z$; from the first equation, $x + y - 2z = 0 \implies x = 2z - y$.  
+5. Substitute $x = 2z - y$ into the second equation: $5(2z - y) - y + 2z = 0 \implies 10z - 5y - y + 2z = 0 \implies 12z - 6y = 0$.  
+6. Solve $12z - 6y = 0$ for $y$: $12z = 6y \implies y = 2z$.  
+7. Substitute $y = 2z$ back into $x = 2z - y$: $x = 2z - 2z = 0$.  
+8. Thus, the general solution is $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix} = z \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$ for any $z \neq 0$.  
+9. Choose $z = 1$ (to get a nonzero vector): $\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$.  
+10. Final answer: A nonzero vector orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$.

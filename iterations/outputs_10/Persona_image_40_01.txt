@@ -1,0 +1,14 @@
+1. The basis \(\mathcal{B} = \{1 - 3t^2,\, 2 + t - 5t^2,\, 1 + 2t\}\) is given for \(\mathbb{P}_2\), and the standard basis is \(\{1, t, t^2\}\).
+2. Express each vector in \(\mathcal{B}\) in terms of the standard basis: \(1 - 3t^2 = 1\cdot 1 + 0\cdot t + (-3)\cdot t^2\).
+3. Express the second vector: \(2 + t - 5t^2 = 2\cdot 1 + 1\cdot t + (-5)\cdot t^2\).
+4. Express the third vector: \(1 + 2t = 1\cdot 1 + 2\cdot t + 0\cdot t^2\).
+5. Write these as columns to form the change-of-coordinates matrix from \(\mathcal{B}\) to the standard basis: \[P_{\mathcal{B} \to \text{std}} = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}\].
+6. To write \(t^2\) as a linear combination of the polynomials in \(\mathcal{B}\), solve \(c_1(1 - 3t^2) + c_2(2 + t - 5t^2) + c_3(1 + 2t) = t^2\).
+7. Expand and collect like terms: \((c_1 + 2c_2 + c_3) + (c_2 + 2c_3)t + (-3c_1 - 5c_2)t^2 = 0 + 0t + 1t^2\).
+8. Set up the system: \(c_1 + 2c_2 + c_3 = 0\), \(c_2 + 2c_3 = 0\), \(-3c_1 - 5c_2 = 1\).
+9. From the second equation, \(c_2 = -2c_3\).
+10. Substitute \(c_2 = -2c_3\) into the first equation: \(c_1 + 2(-2c_3) + c_3 = 0 \implies c_1 - 4c_3 + c_3 = 0 \implies c_1 = 3c_3\).
+11. Substitute \(c_1 = 3c_3\) and \(c_2 = -2c_3\) into the third equation: \(-3(3c_3) - 5(-2c_3) = 1 \implies -9c_3 + 10c_3 = 1 \implies c_3 = 1\).
+12. Substitute \(c_3 = 1\) into \(c_1 = 3c_3\) and \(c_2 = -2c_3\): \(c_1 = 3\), \(c_2 = -2\).
+13. Therefore, \(t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)\).
+14. The change-of-coordinates matrix is \(\begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}\), and \(t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + (1 + 2t)\) in terms of \(\mathcal{B}\).

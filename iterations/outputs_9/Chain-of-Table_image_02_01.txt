@@ -1,0 +1,4 @@
+1. Write the formula for the change of basis: \(\mathbf{x} = 3\begin{bmatrix}1\\1\end{bmatrix} + 2\begin{bmatrix}2\\-1\end{bmatrix}\).
+2. Multiply scalars by basis vectors: \(\mathbf{x} = \begin{bmatrix}3\\3\end{bmatrix} + \begin{bmatrix}4\\-2\end{bmatrix}\).
+3. Add the vectors: \(\mathbf{x} = \begin{bmatrix}3+4\\3+(-2)\end{bmatrix} = \begin{bmatrix}7\\1\end{bmatrix}\).
+4. Final answer: The vector \(\mathbf{x}\) is \(\begin{bmatrix}7\\1\end{bmatrix}\).

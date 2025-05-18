@@ -1,0 +1,5 @@
+1. To find the image under \( T \) of \( p(t) = 5 + 3t \), evaluate \( p(-1) = 5 + 3(-1) = 2 \), \( p(0) = 5 + 3(0) = 5 \), \( p(1) = 5 + 3(1) = 8 \), so \( T(p) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix} \).
+2. To find the matrix for \( T \), first compute \( T(1) \): \( 1(-1) = 1 \), \( 1(0) = 1 \), \( 1(1) = 1 \), so \( T(1) = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix} \).
+3. Next, compute \( T(t) \): \( t(-1) = -1 \), \( t(0) = 0 \), \( t(1) = 1 \), so \( T(t) = \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix} \).
+4. Next, compute \( T(t^2) \): \( t^2(-1) = 1 \), \( t^2(0) = 0 \), \( t^2(1) = 1 \), so \( T(t^2) = \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix} \).
+5. The matrix for \( T \) relative to the given bases is \( \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix} \).

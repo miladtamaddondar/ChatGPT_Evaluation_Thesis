@@ -1,0 +1,8 @@
+1. To find \( B \) such that \( AB = 0 \), each column \( \mathbf{b}_i \) of \( B \) must satisfy \( A\mathbf{b}_i = 0 \).
+2. Let \( \mathbf{b}_1 = \begin{bmatrix}x_1 \\ x_2\end{bmatrix} \), then \( A\mathbf{b}_1 = \begin{bmatrix}3x_1 - 6x_2 \\ -x_1 + 2x_2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).
+3. Solve the system: \( 3x_1 - 6x_2 = 0 \) and \( -x_1 + 2x_2 = 0 \).
+4. From the second equation, \( x_1 = 2x_2 \).
+5. Substitute into the first: \( 3(2x_2) - 6x_2 = 0 \implies 6x_2 - 6x_2 = 0 \), which is always true.
+6. So, \( \mathbf{b}_1 = \begin{bmatrix}2 \\ 1\end{bmatrix} \) is a nonzero solution (let \( x_2 = 1 \)).
+7. Any scalar multiple is also a solution, so pick another: \( \mathbf{b}_2 = \begin{bmatrix}4 \\ 2\end{bmatrix} \) (let \( x_2 = 2 \)).
+8. Thus, \( B = \begin{bmatrix}2 & 4 \\ 1 & 2\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

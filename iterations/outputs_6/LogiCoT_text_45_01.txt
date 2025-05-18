@@ -1,0 +1,6 @@
+1. Compute the dot product $\mathbf{u} \cdot \mathbf{v}$: $2 \times (-7) + (-5) \times (-4) + (-1) \times 6 = -14 + 20 - 6 = 0$; since the dot product is zero, the vectors are orthogonal, which is consistent with linear algebraic properties.
+2. Compute $\|\mathbf{u}\|^2$ as the dot product of $\mathbf{u}$ with itself: $2^2 + (-5)^2 + (-1)^2 = 4 + 25 + 1 = 30$; this matches the definition of the squared norm.
+3. Compute $\|\mathbf{v}\|^2$ as the dot product of $\mathbf{v}$ with itself: $(-7)^2 + (-4)^2 + 6^2 = 49 + 16 + 36 = 101$; this is correct by the norm formula.
+4. Compute $\mathbf{u} + \mathbf{v} = \begin{bmatrix} 2 + (-7) \\ -5 + (-4) \\ -1 + 6 \end{bmatrix} = \begin{bmatrix} -5 \\ -9 \\ 5 \end{bmatrix}$; vector addition is performed componentwise, which is correct.
+5. Compute $\|\mathbf{u} + \mathbf{v}\|^2 = (-5)^2 + (-9)^2 + 5^2 = 25 + 81 + 25 = 131$; this matches the squared norm definition.
+6. Final answer: $\mathbf{u} \cdot \mathbf{v} = 0$, $\|\mathbf{u}\|^2 = 30$, $\|\mathbf{v}\|^2 = 101$, $\|\mathbf{u} + \mathbf{v}\|^2 = 131$.

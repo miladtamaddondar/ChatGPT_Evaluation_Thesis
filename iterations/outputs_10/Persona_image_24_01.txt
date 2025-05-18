@@ -1,0 +1,12 @@
+1. We are asked to find all vectors $\mathbf{x} \in \mathbb{R}^4$ such that $A\mathbf{x} = \mathbf{0}$ for $A = \begin{bmatrix} 1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4 \end{bmatrix}$.
+2. Let $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix}$, so $A\mathbf{x} = \mathbf{0}$ gives the system: $1x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$, $2x_1 - 6x_2 + 6x_3 - 4x_4 = 0$.
+3. From the second equation, solve for $x_2$: $x_2 = 4x_3 - 3x_4$.
+4. Substitute $x_2$ into the first equation: $x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0$.
+5. Simplify: $x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0 \implies x_1 - 9x_3 + 7x_4 = 0$.
+6. Solve for $x_1$: $x_1 = 9x_3 - 7x_4$.
+7. Substitute $x_1$ and $x_2$ into the third equation: $2(9x_3 - 7x_4) - 6(4x_3 - 3x_4) + 6x_3 - 4x_4 = 0$.
+8. Expand: $18x_3 - 14x_4 - 24x_3 + 18x_4 + 6x_3 - 4x_4 = 0$.
+9. Combine like terms: $(18 - 24 + 6)x_3 + (-14 + 18 - 4)x_4 = 0 \implies 0x_3 + 0x_4 = 0$.
+10. The third equation is always satisfied, so $x_3$ and $x_4$ are free variables.
+11. Therefore, the solution is $\mathbf{x} = \begin{bmatrix} 9x_3 - 7x_4 \\ 4x_3 - 3x_4 \\ x_3 \\ x_4 \end{bmatrix}$ for any $x_3, x_4 \in \mathbb{R}$.
+12. Final answer: All solutions are $\mathbf{x} = x_3 \begin{bmatrix} 9 \\ 4 \\ 1 \\ 0 \end{bmatrix} + x_4 \begin{bmatrix} -7 \\ -3 \\ 0 \\ 1 \end{bmatrix}$ for $x_3, x_4 \in \mathbb{R}$.

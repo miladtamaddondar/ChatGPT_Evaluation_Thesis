@@ -1,0 +1,10 @@
+1. Write the equation \( p(t) = 1 + 4t + 7t^2 = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) \) and expand: \( 1 + 4t + 7t^2 = a(1) + a(t^2) + b(t) + b(t^2) + c(1) + 2c(t) + c(t^2) \).
+2. Combine like terms: \( (a + c) + (b + 2c)t + (a + b + c)t^2 = 1 + 4t + 7t^2 \).
+3. Set up the system of equations: \( a + c = 1 \), \( b + 2c = 4 \), \( a + b + c = 7 \).
+4. Write the augmented matrix: \( \left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 1 & 1 & 1 & 7 \end{array}\right] \).
+5. Subtract row 1 from row 3: \( R_3 \to R_3 - R_1 \): \( \left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 1 & 0 & 6 \end{array}\right] \).
+6. Subtract row 2 from row 3: \( R_3 \to R_3 - R_2 \): \( \left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & -2 & 2 \end{array}\right] \).
+7. Divide row 3 by -2: \( R_3 \to \frac{1}{-2}R_3 \): \( \left[\begin{array}{ccc|c} 1 & 0 & 1 & 1 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & 1 & -1 \end{array}\right] \).
+8. Subtract row 3 from row 1: \( R_1 \to R_1 - R_3 \): \( \left[\begin{array}{ccc|c} 1 & 0 & 0 & 2 \\ 0 & 1 & 2 & 4 \\ 0 & 0 & 1 & -1 \end{array}\right] \).
+9. Subtract 2 times row 3 from row 2: \( R_2 \to R_2 - 2R_3 \): \( \left[\begin{array}{ccc|c} 1 & 0 & 0 & 2 \\ 0 & 1 & 0 & 6 \\ 0 & 0 & 1 & -1 \end{array}\right] \).
+10. The solution is \( \left[\begin{array}{c} 2 \\ 6 \\ -1 \end{array}\right} \), so the coordinate vector of \( p(t) \) relative to \( \mathcal{B} \) is \( \boxed{\begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix}} \).

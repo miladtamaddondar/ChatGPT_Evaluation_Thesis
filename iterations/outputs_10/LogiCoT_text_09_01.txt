@@ -1,0 +1,14 @@
+1. Write the vectors as columns of a matrix \(A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\); this allows us to analyze their linear dependence using row reduction.
+2. Perform row operations to row reduce \(A\); first, notice that \(\mathbf{v}_2 = -3\mathbf{v}_1\), so \(\mathbf{v}_2\) is linearly dependent on \(\mathbf{v}_1\).
+3. Replace column 2 with column 2 plus 3 times column 1: \(-3 + 3 \times 1 = 0\), \(9 + 3 \times (-3) = 0\), \(-6 + 3 \times 2 = 0\), \(12 + 3 \times (-4) = 0\); so column 2 becomes the zero vector, confirming dependence.
+4. Now focus on the remaining vectors: \(\mathbf{v}_1, \mathbf{v}_3, \mathbf{v}_4\); check if \(\mathbf{v}_3\) is a linear combination of \(\mathbf{v}_1\): set \(a\mathbf{v}_1 = \mathbf{v}_3\), so \(a \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix} = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}\).
+5. Solve for \(a\): \(a = 2/1 = 2\), check other components: \(-3a = -1 \implies a = 1/3\), so inconsistent; thus, \(\mathbf{v}_3\) is not a multiple of \(\mathbf{v}_1\).
+6. Now check if \(\mathbf{v}_4\) is a linear combination of \(\mathbf{v}_1\) and \(\mathbf{v}_3\): set \(b_1\mathbf{v}_1 + b_3\mathbf{v}_3 = \mathbf{v}_4\).
+7. Write the system: \(b_1(1) + b_3(2) = -4\), \(b_1(-3) + b_3(-1) = 5\), \(b_1(2) + b_3(4) = -3\), \(b_1(-4) + b_3(2) = 7\).
+8. Solve the first equation: \(b_1 + 2b_3 = -4\); solve the second: \(-3b_1 - b_3 = 5\).
+9. Multiply the first equation by 3: \(3b_1 + 6b_3 = -12\); add to the second: \((3b_1 - 3b_1) + (6b_3 - b_3) = -12 + 5 \implies 5b_3 = -7 \implies b_3 = -7/5\).
+10. Substitute \(b_3 = -7/5\) into the first equation: \(b_1 + 2(-7/5) = -4 \implies b_1 - 14/5 = -4 \implies b_1 = -4 + 14/5 = (-20 + 14)/5 = -6/5\).
+11. Check these values in the third equation: \(2b_1 + 4b_3 = 2(-6/5) + 4(-7/5) = -12/5 - 28/5 = -40/5 = -8\), but the right side is \(-3\), so the equation is not satisfied; thus, \(\mathbf{v}_4\) is not a linear combination of \(\mathbf{v}_1\) and \(\mathbf{v}_3\).
+12. Therefore, the set \(\{\mathbf{v}_1, \mathbf{v}_3, \mathbf{v}_4\}\) is linearly independent and forms a basis for the subspace.
+13. The dimension of the subspace is the number of basis vectors, which is 3.
+14. Final answer: A basis is \(\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}\) and the dimension is 3.

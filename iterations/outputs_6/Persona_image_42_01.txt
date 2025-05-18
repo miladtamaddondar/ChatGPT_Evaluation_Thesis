@@ -1,0 +1,10 @@
+1. To write \(\mathbf{y}\) as the sum of a vector in \(W\) and a vector orthogonal to \(W\), we first express \(\mathbf{y}\) as \(\mathbf{y} = \mathbf{y}_W + \mathbf{y}_{\perp}\), where \(\mathbf{y}_W\) is the projection onto \(W\) and \(\mathbf{y}_{\perp}\) is orthogonal to \(W\).
+2. Let \(\mathbf{y}_W = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3\), and solve for \(c_1, c_2, c_3\) such that \(\mathbf{y}_W\) is the projection of \(\mathbf{y}\) onto the span of \(\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\).
+3. Set up the equation \(\mathbf{y} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 + \mathbf{y}_{\perp}\) and require \(\mathbf{y}_{\perp}\) to be orthogonal to each \(\mathbf{u}_i\), so \(\mathbf{u}_i^T (\mathbf{y} - \mathbf{y}_W) = 0\) for \(i=1,2,3\).
+4. Write the system: \(\mathbf{U}^T\mathbf{U}\mathbf{c} = \mathbf{U}^T\mathbf{y}\), where \(\mathbf{U} = [\mathbf{u}_1 \ \mathbf{u}_2 \ \mathbf{u}_3]\) and \(\mathbf{c} = \begin{bmatrix}c_1\\c_2\\c_3\end{bmatrix}\).
+5. Compute \(\mathbf{U}^T\mathbf{U}\) as follows: \(\mathbf{U}^T\mathbf{U} = \begin{bmatrix}3 & -2 & 2\\-2 & 15 & -5\\2 & -5 & 4\end{bmatrix}\).
+6. Compute \(\mathbf{U}^T\mathbf{y}\) as follows: \(\mathbf{U}^T\mathbf{y} = \begin{bmatrix}10\\0\\2\end{bmatrix}\).
+7. Solve the system \(\begin{bmatrix}3 & -2 & 2\\-2 & 15 & -5\\2 & -5 & 4\end{bmatrix}\begin{bmatrix}c_1\\c_2\\c_3\end{bmatrix} = \begin{bmatrix}10\\0\\2\end{bmatrix}\) to find \(c_1 = 2\), \(c_2 = 0\), \(c_3 = 1\).
+8. Substitute back: \(\mathbf{y}_W = 2\mathbf{u}_1 + 0\mathbf{u}_2 + 1\mathbf{u}_3 = 2\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + \begin{bmatrix}-1\\0\\1\\1\end{bmatrix} = \begin{bmatrix}1\\2\\1\\3\end{bmatrix}\).
+9. Compute \(\mathbf{y}_{\perp} = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}1\\2\\1\\3\end{bmatrix} = \begin{bmatrix}3\\1\\2\\-4\end{bmatrix}\).
+10. The final answer is: \(\mathbf{y} = \underbrace{\begin{bmatrix}1\\2\\1\\3\end{bmatrix}}_{\in W} + \underbrace{\begin{bmatrix}3\\1\\2\\-4\end{bmatrix}}_{\perp W}\).

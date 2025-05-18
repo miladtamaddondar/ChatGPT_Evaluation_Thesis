@@ -1,0 +1,5 @@
+1. Start with the matrix \( A = \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} \).
+2. To eliminate the 4 in the second row, first column, subtract \(\frac{4}{6}\) times row 1 from row 2: \( R_2 \rightarrow R_2 - \frac{4}{6}R_1 \), resulting in \( \begin{bmatrix} 6 & 9 \\ 0 & 5 - \frac{4}{6} \cdot 9 \end{bmatrix} = \begin{bmatrix} 6 & 9 \\ 0 & 5 - 6 \end{bmatrix} = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).
+3. The multipliers used form the lower triangular matrix \( L = \begin{bmatrix} 1 & 0 \\ \frac{4}{6} & 1 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ \frac{2}{3} & 1 \end{bmatrix} \).
+4. The upper triangular matrix is \( U = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).
+5. Final answer: \( \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ \frac{2}{3} & 1 \end{bmatrix} \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).

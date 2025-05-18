@@ -1,0 +1,13 @@
+1. To find $P$ and $C$ such that $A = PCP^{-1}$ with $C = \begin{pmatrix} a & b \\ -b & a \end{pmatrix}$, first compute the eigenvalues of $A$ by solving $\det(A - \lambda I) = 0$; $\det\begin{pmatrix} 1-\lambda & -2 \\ 1 & 3-\lambda \end{pmatrix} = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5 = 0$.
+2. The characteristic equation $\lambda^2 - 4\lambda + 5 = 0$ has roots $\lambda = 2 \pm i$; this is verified by the quadratic formula: $\lambda = \frac{4 \pm \sqrt{16-20}}{2} = 2 \pm i$.
+3. Since $C$ must have the form $\begin{pmatrix} a & b \\ -b & a \end{pmatrix}$, its eigenvalues are $a \pm bi$; equate to $2 \pm i$ to get $a = 2$, $b = 1$.
+4. Thus, $C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}$; verify its eigenvalues: $\det\begin{pmatrix} 2-\lambda & 1 \\ -1 & 2-\lambda \end{pmatrix} = (2-\lambda)^2 + 1 = \lambda^2 - 4\lambda + 5$.
+5. Next, find a basis of $\mathbb{R}^2$ such that $A$ is similar to $C$; find a complex eigenvector $v$ for $\lambda = 2+i$: $(A - (2+i)I)v = 0$ gives $\begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix}v = 0$.
+6. Let $v = \begin{pmatrix} x \\ y \end{pmatrix}$, so $(-1-i)x - 2y = 0$ and $x + (1-i)y = 0$; from the first, $x = -\frac{2}{1+i}y$.
+7. Rationalize denominator: $1+i$ times its conjugate $1-i$ is $2$, so $1/(1+i) = (1-i)/2$; thus $x = -2 \cdot \frac{1-i}{2} y = -(1-i)y$.
+8. Take $y = 1$, so $v = \begin{pmatrix} -(1-i) \\ 1 \end{pmatrix}$; verify: $(-1-i)(-(1-i)) - 2\cdot1 = (1-i^2) - 2 = (1+1) - 2 = 0$.
+9. The real and imaginary parts of $v$ form a real basis: $\operatorname{Re}(v) = \begin{pmatrix} -1 \\ 1 \end{pmatrix}$, $\operatorname{Im}(v) = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
+10. Set $P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}$; verify $P$ is invertible: $\det(P) = (-1)\cdot 0 - 1\cdot 1 = -1 \neq 0$.
+11. Compute $P^{-1}$: for $P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}$, the inverse is $\frac{1}{-1}\begin{pmatrix} 0 & -1 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ -1 & 1 \end{pmatrix}$.
+12. Compute $PCP^{-1}$: $PC = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix} = \begin{pmatrix} -3 & 1 \\ 2 & 1 \end{pmatrix}$; then $PCP^{-1} = \begin{pmatrix} -3 & 1 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & -2 \\ 1 & 3 \end{pmatrix}$.
+13. Therefore, the required matrices are $P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}$ and $C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix}$, so $A = PCP^{-1}$.

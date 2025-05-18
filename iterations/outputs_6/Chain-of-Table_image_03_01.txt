@@ -1,0 +1,4 @@
+1. Start with the matrix \( A = \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} \).
+2. To eliminate the 4 in the lower left, use the operation \( R_2 \leftarrow R_2 - \frac{4}{6}R_1 \): \( \begin{bmatrix} 6 & 9 \\ 0 & 5 - \frac{4}{6} \cdot 9 \end{bmatrix} = \begin{bmatrix} 6 & 9 \\ 0 & 5 - 6 \end{bmatrix} = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).
+3. The multiplier used was \( \ell_{21} = \frac{4}{6} = \frac{2}{3} \), so \( L = \begin{bmatrix} 1 & 0 \\ \frac{2}{3} & 1 \end{bmatrix} \) and \( U = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).
+4. Final answer: \( \boxed{A = LU = \begin{bmatrix} 1 & 0 \\ \frac{2}{3} & 1 \end{bmatrix} \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix}} \).

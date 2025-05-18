@@ -1,0 +1,3 @@
+1. Observe that the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) has as its \(j\)-th column the product \(Q r_j\).
+2. Note that \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\) by the definition of matrix multiplication.
+3. Therefore, the desired product is \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \cdot \left[ r_1 \; r_2 \; \dots \; r_p \right]\).

@@ -1,0 +1,7 @@
+1. Let \( A = \begin{bmatrix} 8 & 6 \\ 5 & 4 \end{bmatrix} \); to find \( A^{-1} \), first compute the determinant: \( \det(A) = (8)(4) - (6)(5) = 32 - 30 = 2 \).  
+2. Since \( \det(A) \neq 0 \), the matrix is invertible by the invertibility criterion for square matrices.  
+3. The formula for the inverse of a \( 2 \times 2 \) matrix \( \begin{bmatrix} a & b \\ c & d \end{bmatrix} \) is \( \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix} \); substitute \( a=8, b=6, c=5, d=4 \).  
+4. Compute the adjugate matrix: \( \begin{bmatrix} 4 & -6 \\ -5 & 8 \end{bmatrix} \).  
+5. Multiply the adjugate by \( \frac{1}{2} \) (the reciprocal of the determinant): \( A^{-1} = \frac{1}{2} \begin{bmatrix} 4 & -6 \\ -5 & 8 \end{bmatrix} \).  
+6. Simplify to get \( A^{-1} = \begin{bmatrix} 2 & -3 \\ -2.5 & 4 \end{bmatrix} \).  
+7. Final answer: The inverse is \( \boxed{\begin{bmatrix} 2 & -3 \\ -2.5 & 4 \end{bmatrix}} \).

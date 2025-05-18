@@ -1,0 +1,5 @@
+1. Recognize that \( Q r_i \) is the matrix-vector product of \( Q \) with each \( r_i \), so the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) has columns \( Q r_1, Q r_2, \dots, Q r_p \).
+2. Observe that stacking the vectors \( r_1, \dots, r_p \) as columns forms the matrix \( R = [r_1 \; r_2 \; \dots \; r_p] \), which is an \( n \times p \) matrix.
+3. Use the property of matrix multiplication that \( Q R = [Q r_1 \; Q r_2 \; \dots \; Q r_p] \), since multiplying \( Q \) by \( R \) applies \( Q \) to each column of \( R \).
+4. Verify correctness: The product \( Q R \) is an \( m \times p \) matrix whose \( i \)-th column is \( Q r_i \), matching the original matrix.
+5. Therefore, \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q [r_1 \; r_2 \; \dots \; r_p]\), which expresses the matrix as a product of two matrices, neither of which is an identity matrix.

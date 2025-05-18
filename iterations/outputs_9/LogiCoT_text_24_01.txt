@@ -1,0 +1,15 @@
+1. We are asked to find all $\mathbf{x} \in \mathbb{R}^4$ such that $A\mathbf{x} = \mathbf{0}$, i.e., to solve the homogeneous system $A\mathbf{x} = \mathbf{0}$ where $A = \begin{bmatrix}1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4 \end{bmatrix}$.
+2. Write the system as equations: $1x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$, $2x_1 - 6x_2 + 6x_3 - 4x_4 = 0$.
+3. Observe that the third equation can be simplified using the first: $2x_1 - 6x_2 + 6x_3 - 4x_4 = 2(x_1 - 3x_2 + 3x_3 - 2x_4)$, which suggests a dependency.
+4. Subtract $2 \times$ (first equation) from the third: $[2x_1 - 6x_2 + 6x_3 - 4x_4] - 2[x_1 - 4x_2 + 7x_3 - 5x_4] = 0 - 0$, which gives $2x_1 - 6x_2 + 6x_3 - 4x_4 - 2x_1 + 8x_2 - 14x_3 + 10x_4 = 0$.
+5. Simplify: $(-6x_2 + 8x_2) + (6x_3 - 14x_3) + (-4x_4 + 10x_4) = 2x_2 - 8x_3 + 6x_4 = 0$.
+6. Now we have three equations: (i) $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, (ii) $x_2 - 4x_3 + 3x_4 = 0$, (iii) $2x_2 - 8x_3 + 6x_4 = 0$.
+7. Notice that equation (iii) is just $2 \times$ equation (ii), so it is not independent; thus, the system has two independent equations.
+8. Express $x_2$ in terms of $x_3$ and $x_4$ using (ii): $x_2 = 4x_3 - 3x_4$.
+9. Substitute $x_2$ into (i): $x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0$.
+10. Expand: $x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0$.
+11. Combine like terms: $x_1 + (-16x_3 + 7x_3) + (12x_4 - 5x_4) = x_1 - 9x_3 + 7x_4 = 0$.
+12. Solve for $x_1$: $x_1 = 9x_3 - 7x_4$.
+13. Let $x_3 = s$ and $x_4 = t$ be free variables, then $x_2 = 4s - 3t$ and $x_1 = 9s - 7t$.
+14. Therefore, the general solution is $\mathbf{x} = \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = s\begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + t\begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}$ for $s, t \in \mathbb{R}$.
+15. Final answer: All $\mathbf{x}$ mapped to zero by $A$ are $\mathbf{x} = s\begin{bmatrix}9 \\ 4 \\ 1 \\ 0\end{bmatrix} + t\begin{bmatrix}-7 \\ -3 \\ 0 \\ 1\end{bmatrix}$ for $s, t \in \mathbb{R}$.

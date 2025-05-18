@@ -1,0 +1,8 @@
+1. To find \( B \) such that \( AB = 0 \), each column of \( B \) must be in the null space of \( A \), so solve \( A\mathbf{x} = 0 \).  
+2. Write the system: \( 3x_1 - 6x_2 = 0 \) and \( -x_1 + 2x_2 = 0 \).  
+3. From the first equation, \( 3x_1 = 6x_2 \implies x_1 = 2x_2 \).  
+4. Substitute \( x_1 = 2x_2 \) into the second equation: \( -2x_2 + 2x_2 = 0 \), which is satisfied for all \( x_2 \).  
+5. The null space is all vectors of the form \( \begin{bmatrix}2t \\ t\end{bmatrix} \) for \( t \neq 0 \).  
+6. Choose two different nonzero values for \( t \), say \( t = 1 \) and \( t = -1 \), to get two linearly independent vectors: \( \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \begin{bmatrix}-2 \\ -1\end{bmatrix} \).  
+7. Construct \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \).  
+8. Final answer: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

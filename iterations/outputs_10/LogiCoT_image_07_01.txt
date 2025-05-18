@@ -1,0 +1,5 @@
+1. Let \( R = [r_1 \ r_2 \ \ldots \ r_p] \) be the \( n \times p \) matrix whose columns are the vectors \( r_1, \ldots, r_p \); this is valid since stacking vectors as columns forms a matrix.  
+2. The matrix \( [Q r_1 \ Q r_2 \ \ldots \ Q r_p] \) is the result of multiplying \( Q \) (an \( m \times n \) matrix) by each \( r_i \) (an \( n \times 1 \) vector), and stacking the results as columns, which is equivalent to multiplying \( Q \) by the matrix \( R \).  
+3. Therefore, \( [Q r_1 \ Q r_2 \ \ldots \ Q r_p] = Q R \), since matrix multiplication distributes over columns: \( Q [r_1 \ r_2 \ \ldots \ r_p] = [Q r_1 \ Q r_2 \ \ldots \ Q r_p] \).  
+4. Neither \( Q \) nor \( R \) is necessarily an identity matrix, so this is a valid factorization into two non-identity matrices.  
+5. Final answer: The matrix \( [Q r_1 \ Q r_2 \ \ldots \ Q r_p] \) can be written as the product \( Q R \).

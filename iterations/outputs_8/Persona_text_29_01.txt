@@ -1,0 +1,9 @@
+1. Let $\mathbf{x} = (x_1, x_2)$ and set $T(\mathbf{x}) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8)$.
+2. Set up the system: $x_1 + x_2 = 3$ and $4x_1 + 5x_2 = 8$.
+3. Solve the first equation for $x_1$: $x_1 = 3 - x_2$.
+4. Substitute $x_1$ into the second equation: $4(3 - x_2) + 5x_2 = 8$.
+5. Expand and simplify: $12 - 4x_2 + 5x_2 = 8$.
+6. Combine like terms: $12 + x_2 = 8$.
+7. Solve for $x_2$: $x_2 = 8 - 12 = -4$.
+8. Substitute $x_2 = -4$ into $x_1 = 3 - x_2$: $x_1 = 3 - (-4) = 7$.
+9. The solution is $\mathbf{x} = (7, -4)$.

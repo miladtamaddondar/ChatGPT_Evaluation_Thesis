@@ -1,0 +1,6 @@
+1. Start with the augmented matrix \(\left[\begin{array}{cc|cc} 8 & 6 & 1 & 0 \\ 5 & 4 & 0 & 1 \end{array}\right]\).
+2. Row 1 divided by 8: \(\left[\begin{array}{cc|cc} 1 & \frac{3}{4} & \frac{1}{8} & 0 \\ 5 & 4 & 0 & 1 \end{array}\right]\).
+3. Row 2 minus 5 times Row 1: \(\left[\begin{array}{cc|cc} 1 & \frac{3}{4} & \frac{1}{8} & 0 \\ 0 & \frac{1}{4} & -\frac{5}{8} & 1 \end{array}\right]\).
+4. Row 2 multiplied by 4: \(\left[\begin{array}{cc|cc} 1 & \frac{3}{4} & \frac{1}{8} & 0 \\ 0 & 1 & -\frac{5}{2} & 4 \end{array}\right]\).
+5. Row 1 minus \(\frac{3}{4}\) times Row 2: \(\left[\begin{array}{cc|cc} 1 & 0 & 2 & -3 \\ 0 & 1 & -\frac{5}{2} & 4 \end{array}\right]\).
+6. The inverse is \(\left[\begin{array}{cc} 2 & -3 \\ -\frac{5}{2} & 4 \end{array}\right]\).

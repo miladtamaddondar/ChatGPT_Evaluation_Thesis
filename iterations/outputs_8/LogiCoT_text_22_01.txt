@@ -1,0 +1,4 @@
+1. The standard matrix for a rotation by angle $\theta$ in $\mathbb{R}^2$ is $\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$, which is derived from the action of $T$ on the standard basis vectors.
+2. For $\theta = \frac{3\pi}{2}$, we compute $\cos\left(\frac{3\pi}{2}\right) = 0$ and $\sin\left(\frac{3\pi}{2}\right) = -1$ by evaluating the trigonometric functions at this angle.
+3. Substituting these values, the standard matrix becomes $\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$, since $-\sin\left(\frac{3\pi}{2}\right) = 1$.
+4. Therefore, the standard matrix of $T$ is $\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}$, which can be verified by applying it to the standard basis vectors and confirming the correct rotation.

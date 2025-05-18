@@ -1,0 +1,10 @@
+1. To find a nonzero vector \(\mathbf{v}\) in \(\mathbb{R}^3\) orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\), we seek \(\mathbf{v}\) such that \(\mathbf{u}_1 \cdot \mathbf{v} = 0\) and \(\mathbf{u}_2 \cdot \mathbf{v} = 0\).  
+2. Let \(\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}\), then the orthogonality conditions give the equations: \(1x + 1y - 2z = 0\) and \(5x - 1y + 2z = 0\).  
+3. Write the system as an augmented matrix: \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 5 & -1 & 2 & 0 \end{bmatrix}\).  
+4. Use row operations: Subtract 5 times the first row from the second row to eliminate \(x\): \(\begin{bmatrix} 1 & 1 & -2 & 0 \\ 0 & -6 & 12 & 0 \end{bmatrix}\).  
+5. Solve the second equation: \(-6y + 12z = 0 \implies y = 2z\).  
+6. Substitute \(y = 2z\) into the first equation: \(x + 2z - 2z = 0 \implies x = 0\).  
+7. Therefore, the general solution is \(\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix} = z \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}\), where \(z \neq 0\).  
+8. Choose \(z = 1\) for a nonzero vector: \(\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}\).  
+9. Verification: \(\mathbf{u}_1 \cdot \mathbf{v} = 1 \cdot 0 + 1 \cdot 2 + (-2) \cdot 1 = 0\) and \(\mathbf{u}_2 \cdot \mathbf{v} = 5 \cdot 0 + (-1) \cdot 2 + 2 \cdot 1 = 0\), confirming orthogonality.  
+10. Final answer: A nonzero vector orthogonal to \(\mathbf{u}_1\) and \(\mathbf{u}_2\) is \(\boxed{\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}\).

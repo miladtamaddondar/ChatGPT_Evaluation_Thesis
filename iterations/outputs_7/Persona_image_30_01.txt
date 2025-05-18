@@ -1,0 +1,7 @@
+1. Write the system of equations given by \( T(x_1, x_2) = (-1, 4, 9) \): \( x_1 - 2x_2 = -1 \), \( -x_1 + 3x_2 = 4 \), \( 3x_1 - 2x_2 = 9 \).
+2. Solve the first equation for \( x_1 \): \( x_1 = -1 + 2x_2 \).
+3. Substitute \( x_1 \) into the second equation: \( -(-1 + 2x_2) + 3x_2 = 4 \) gives \( 1 - 2x_2 + 3x_2 = 4 \).
+4. Simplify and solve for \( x_2 \): \( 1 + x_2 = 4 \) so \( x_2 = 3 \).
+5. Substitute \( x_2 = 3 \) back into \( x_1 = -1 + 2x_2 \): \( x_1 = -1 + 2 \times 3 = 5 \).
+6. Check the solution in the third equation: \( 3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9 \), which matches.
+7. The solution is \( x = (5, 3) \).

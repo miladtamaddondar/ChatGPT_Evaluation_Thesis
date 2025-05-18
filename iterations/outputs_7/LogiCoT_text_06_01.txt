@@ -1,0 +1,10 @@
+1. To find a nonzero matrix \( B \) such that \( AB = 0 \), we need to find nonzero vectors \( x \) such that \( Ax = 0 \); these will be the columns of \( B \).  
+2. Let \( x = \begin{bmatrix}x_1 \\ x_2\end{bmatrix} \), then \( Ax = \begin{bmatrix}3 & -6 \\ -1 & 2\end{bmatrix} \begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}3x_1 - 6x_2 \\ -x_1 + 2x_2\end{bmatrix} \).  
+3. Set \( 3x_1 - 6x_2 = 0 \) and \( -x_1 + 2x_2 = 0 \); both equations are linearly dependent (the second is \(-1/3\) times the first), so the solution space is one-dimensional.  
+4. Solving \( -x_1 + 2x_2 = 0 \) gives \( x_1 = 2x_2 \); let \( x_2 = 1 \), then \( x_1 = 2 \), so one solution is \( x^{(1)} = \begin{bmatrix}2 \\ 1\end{bmatrix} \).  
+5. Verifying: \( A x^{(1)} = \begin{bmatrix}3*2 - 6*1 \\ -1*2 + 2*1\end{bmatrix} = \begin{bmatrix}6 - 6 \\ -2 + 2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \), so this is correct.  
+6. To get a different nonzero column, scale \( x^{(1)} \) by a nonzero scalar, e.g., let \( x_2 = -1 \), then \( x_1 = 2*(-1) = -2 \), so \( x^{(2)} = \begin{bmatrix}-2 \\ -1\end{bmatrix} \).  
+7. Verifying: \( A x^{(2)} = \begin{bmatrix}3*(-2) - 6*(-1) \\ -1*(-2) + 2*(-1)\end{bmatrix} = \begin{bmatrix}-6 + 6 \\ 2 - 2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \), so this is also correct.  
+8. Construct \( B \) with these two columns: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \).  
+9. Verifying \( AB = 0 \): \( AB = A \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} = \begin{bmatrix}A \begin{bmatrix}2 \\ 1\end{bmatrix} & A \begin{bmatrix}-2 \\ -1\end{bmatrix}\end{bmatrix} = \begin{bmatrix}0 & 0 \\ 0 & 0\end{bmatrix} \), which is the zero matrix.  
+10. Final answer: \( B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

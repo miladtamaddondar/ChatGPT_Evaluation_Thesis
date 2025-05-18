@@ -1,0 +1,9 @@
+1. To find \( B \) such that \( AB = 0 \), each column of \( B \) must be in the null space of \( A \), so solve \( A\mathbf{x} = 0 \).  
+2. Write \( A\mathbf{x} = 0 \) as \( \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix} \begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).  
+3. This gives the equations \( 3x_1 - 6x_2 = 0 \) and \( x_1 - 2x_2 = 0 \).  
+4. From the second equation, \( x_1 = 2x_2 \).  
+5. Substitute \( x_1 = 2x_2 \) into the first equation: \( 3(2x_2) - 6x_2 = 0 \Rightarrow 6x_2 - 6x_2 = 0 \), which is always true.  
+6. The general solution is \( \mathbf{x} = \begin{bmatrix}2x_2 \\ x_2\end{bmatrix} = x_2 \begin{bmatrix}2 \\ 1\end{bmatrix} \), so any scalar multiple of \( \begin{bmatrix}2 \\ 1\end{bmatrix} \) is a null vector.  
+7. Choose two different nonzero vectors: let \( \mathbf{v}_1 = \begin{bmatrix}2 \\ 1\end{bmatrix} \) and \( \mathbf{v}_2 = \begin{bmatrix}4 \\ 2\end{bmatrix} \) (twice the first).  
+8. Form \( B \) by placing \( \mathbf{v}_1 \) and \( \mathbf{v}_2 \) as columns: \( B = \begin{bmatrix}2 & 4 \\ 1 & 2\end{bmatrix} \).  
+9. The required matrix is \( B = \begin{bmatrix}2 & 4 \\ 1 & 2\end{bmatrix} \), so \( AB = 0 \) and the columns are nonzero and different.

@@ -1,0 +1,7 @@
+1. To find the matrix representation of $T$ relative to $\mathcal{B}$, we apply $T$ to each basis vector in $\mathcal{B}$ and express the result as a linear combination of $\mathcal{B}$'s elements.
+2. Compute $T(1)$: $T(1) = T(1 + 0t + 0t^2) = 3\cdot1 + (5\cdot1 - 2\cdot0)t + (4\cdot0 + 0)t^2 = 3 + 5t + 0t^2$; thus, $T(1) = 3\cdot1 + 5\cdot t + 0\cdot t^2$.
+3. Compute $T(t)$: $T(t) = T(0 + 1t + 0t^2) = 3\cdot0 + (5\cdot0 - 2\cdot1)t + (4\cdot1 + 0)t^2 = 0 - 2t + 4t^2$; thus, $T(t) = 0\cdot1 + (-2)\cdot t + 4\cdot t^2$.
+4. Compute $T(t^2)$: $T(t^2) = T(0 + 0t + 1t^2) = 3\cdot0 + (5\cdot0 - 2\cdot0)t + (4\cdot0 + 1)t^2 = 0 + 0t + 1t^2$; thus, $T(t^2) = 0\cdot1 + 0\cdot t + 1\cdot t^2$.
+5. The coordinate vectors of $T(1)$, $T(t)$, and $T(t^2)$ relative to $\mathcal{B}$ are $\begin{bmatrix}3\\5\\0\end{bmatrix}$, $\begin{bmatrix}0\\-2\\4\end{bmatrix}$, and $\begin{bmatrix}0\\0\\1\end{bmatrix}$, respectively.
+6. The matrix representation of $T$ relative to $\mathcal{B}$ is formed by placing these coordinate vectors as columns: $[T]_{\mathcal{B}} = \begin{bmatrix}3 & 0 & 0\\ 5 & -2 & 0\\ 0 & 4 & 1\end{bmatrix}$.
+7. Final answer: The matrix representation of $T$ relative to $\mathcal{B}$ is $\boxed{\begin{bmatrix}3 & 0 & 0\\ 5 & -2 & 0\\ 0 & 4 & 1\end{bmatrix}}$.

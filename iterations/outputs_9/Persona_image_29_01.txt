@@ -1,0 +1,7 @@
+1. Set up the system of equations from \( T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8) \) to get \( x_1 + x_2 = 3 \) and \( 4x_1 + 5x_2 = 8 \).
+2. Solve the first equation for \( x_1 \): \( x_1 = 3 - x_2 \).
+3. Substitute \( x_1 = 3 - x_2 \) into the second equation: \( 4(3 - x_2) + 5x_2 = 8 \).
+4. Simplify to get \( 12 - 4x_2 + 5x_2 = 8 \), which simplifies to \( 12 + x_2 = 8 \).
+5. Solve for \( x_2 \): \( x_2 = 8 - 12 = -4 \).
+6. Substitute \( x_2 = -4 \) back into \( x_1 = 3 - x_2 \) to get \( x_1 = 3 - (-4) = 7 \).
+7. The solution is \( \mathbf{x} = (7, -4) \).

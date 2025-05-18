@@ -1,0 +1,6 @@
+1. The set \( W \) consists of all vectors of the form \( \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} \) where \( a, b \in \mathbb{R} \); let's check if \( W \) is a vector space by testing closure under addition.  
+2. Let \( \mathbf{u} = \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} \) and \( \mathbf{v} = \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} \) be arbitrary elements of \( W \).  
+3. Their sum is \( \mathbf{u} + \mathbf{v} = \begin{bmatrix} (3a_1 + b_1) + (3a_2 + b_2) \\ 4 + 4 \\ (a_1 - 5b_1) + (a_2 - 5b_2) \end{bmatrix} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix} \).  
+4. For \( \mathbf{u} + \mathbf{v} \) to be in \( W \), its second entry must be 4, but here it is 8, so \( \mathbf{u} + \mathbf{v} \notin W \).  
+5. Therefore, \( W \) is not closed under addition, so \( W \) is not a vector space.  
+6. Final answer: \( W \) is not a vector space because it is not closed under addition, as shown by the sum \( \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} + \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix} \notin W \).

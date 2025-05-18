@@ -1,0 +1,9 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first compute \( A - 5I \): \[ A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \] (since subtracting 5 from each diagonal entry).
+2. The eigenspace dimension is the nullity of \( A - 5I \), so we need the nullity to be 2, which means the rank must be 2 (since the matrix is 4x4 and nullity + rank = 4 by the rank-nullity theorem).
+3. To find the rank, row reduce \( A - 5I \): the last two rows are \([0,0,0,4]\) and \([0,0,0,-4]\), which are linearly dependent, so only one contributes to the rank.
+4. Subtract the last row from the third row to get a row of zeros: \([0,0,0,4] - [0,0,0,-4] = [0,0,0,8]\), but both are still linearly dependent, so only one counts for rank.
+5. The first two rows are \([0, -2, 6, -1]\) and \([0, -2, h, 0]\); subtract the second row from the first: \([0, -2, 6, -1] - [0, -2, h, 0] = [0, 0, 6-h, -1]\).
+6. Now the matrix is: \(\begin{bmatrix} 0 & -2 & h & 0 \\ 0 & 0 & 6-h & -1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}\).
+7. The nonzero rows are: \([0, -2, h, 0]\), \([0, 0, 6-h, -1]\), and \([0, 0, 0, 4]\); for rank 2, one of these must be a linear combination of the others, so set \(6-h = 0\) and \(-1 = 0\) (but \(-1 \neq 0\)), so instead, set \(h = 6\) so the second row becomes \([0,0,0,-1]\).
+8. Now the rows are \([0, -2, 6, 0]\), \([0, 0, 0, -1]\), \([0, 0, 0, 4]\), and \([0, 0, 0, 0]\); the last two rows are linearly dependent, so only one counts, and the first row is independent, so the rank is 2.
+9. Therefore, the value of \( h \) that makes the eigenspace for \( \lambda = 5 \) two-dimensional is \( \boxed{6} \).

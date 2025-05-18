@@ -1,0 +1,10 @@
+1. To find the image under \( T \) of \( p(t) = 5 + 3t \), substitute \( p(t) \) into the definition of \( T \): \( T(p) = \begin{bmatrix} p(-1) \\ p(0) \\ p(1) \end{bmatrix} \).  
+2. Compute \( p(-1) = 5 + 3(-1) = 2 \), \( p(0) = 5 + 3(0) = 5 \), and \( p(1) = 5 + 3(1) = 8 \); so \( T(p) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix} \).  
+3. Verify correctness: Each entry is evaluated by direct substitution into \( p(t) \), which is consistent with the definition of \( T \).  
+4. To find the matrix for \( T \) relative to the basis \( \{1, t, t^2\} \) for \( \mathbb{P}_2 \) and the standard basis for \( \mathbb{R}^3 \), apply \( T \) to each basis vector.  
+5. For \( 1 \), \( T(1) = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix} \) because \( 1(-1) = 1(0) = 1(1) = 1 \).  
+6. For \( t \), \( T(t) = \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix} \) because \( t(-1) = -1 \), \( t(0) = 0 \), \( t(1) = 1 \).  
+7. For \( t^2 \), \( T(t^2) = \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix} \) because \( t^2(-1) = 1 \), \( t^2(0) = 0 \), \( t^2(1) = 1 \).  
+8. The matrix for \( T \) is formed by placing these results as columns: \( [T] = \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix} \).  
+9. Verify correctness: Each column corresponds to \( T \) applied to a basis vector, matching the definition of a transformation matrix.  
+10. Final answers: (a) \( T(5+3t) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix} \); (b) The matrix for \( T \) is \( \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix} \).

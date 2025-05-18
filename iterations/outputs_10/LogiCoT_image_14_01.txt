@@ -1,0 +1,10 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we need the geometric multiplicity (nullity of \( A - 5I \)) to be 2.  
+2. Compute \( A - 5I \): \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\).  
+3. The nullity is 2 if the rank of \( A - 5I \) is 2 (since it is a 4x4 matrix: nullity = 4 - rank).  
+4. The last two rows are \([0,0,0,4]\) and \([0,0,0,-4]\), which are linearly dependent, so together they contribute rank 1 unless both are zero.  
+5. The first two rows are \([0, -2, 6, -1]\) and \([0, -2, h, 0]\); subtract the second from the first to get \([0, 0, 6-h, -1]\).  
+6. If \( h \neq 6 \), these two rows are linearly independent, so the top block has rank 2; if \( h = 6 \), the difference is \([0,0,0,-1]\), which is linearly independent from the third row.  
+7. For nullity 2, we want the total rank to be 2; the lower two rows give rank 1, so the top two rows must be linearly dependent, i.e., \( h = 6 \).  
+8. Verify: If \( h = 6 \), the first two rows are \([0, -2, 6, -1]\) and \([0, -2, 6, 0]\), which are linearly dependent (their difference is \([0,0,0,-1]\)), so the rank of the top block is 1.  
+9. The bottom two rows, \([0,0,0,4]\) and \([0,0,0,-4]\), are also linearly dependent, so the total rank is 2, and the nullity is \( 4 - 2 = 2 \).  
+10. Final answer: The value of \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional is \( \boxed{6} \).

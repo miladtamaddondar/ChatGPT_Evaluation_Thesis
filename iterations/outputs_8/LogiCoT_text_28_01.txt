@@ -1,0 +1,4 @@
+1. Recognize that $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$ can be written as a matrix-vector product where the columns of $A$ are $\mathbf{v}_1$ and $\mathbf{v}_2$: $T(\mathbf{x}) = [\mathbf{v}_1\ \mathbf{v}_2] \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$.
+2. Write the matrix $A$ explicitly by placing $\mathbf{v}_1$ and $\mathbf{v}_2$ as columns: $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.
+3. Verify correctness by computing $A\mathbf{x} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix} = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$, which matches $T(\mathbf{x})$.
+4. Final answer: The matrix $A$ is $\boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}}$.

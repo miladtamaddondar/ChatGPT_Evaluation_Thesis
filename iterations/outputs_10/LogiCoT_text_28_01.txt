@@ -1,0 +1,4 @@
+1. Recognize that $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$ is a linear transformation, so it can be represented as matrix multiplication $A\mathbf{x}$, where $A$ has $\mathbf{v}_1$ and $\mathbf{v}_2$ as its columns.  
+2. Write $A = \begin{bmatrix} \mathbf{v}_1 & \mathbf{v}_2 \end{bmatrix} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$, because multiplying this $A$ by $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$ yields $x_1\mathbf{v}_1 + x_2\mathbf{v}_2$.  
+3. Verify: $A\mathbf{x} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix}$, which matches $x_1\mathbf{v}_1 + x_2\mathbf{v}_2 = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix}$.  
+4. Final answer: The matrix $A$ is $\boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}}$.

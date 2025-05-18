@@ -1,0 +1,4 @@
+1. Write the equation for the vector in standard coordinates: \(\mathbf{x} = 3\begin{bmatrix}1\\1\\3\end{bmatrix} + 2\begin{bmatrix}2\\-1\\1\end{bmatrix}\).
+2. Multiply the scalars: \(3\begin{bmatrix}1\\1\\3\end{bmatrix} = \begin{bmatrix}3\\3\\9\end{bmatrix}\), \(2\begin{bmatrix}2\\-1\\1\end{bmatrix} = \begin{bmatrix}4\\-2\\2\end{bmatrix}\).
+3. Add the vectors: \(\begin{bmatrix}3\\3\\9\end{bmatrix} + \begin{bmatrix}4\\-2\\2\end{bmatrix} = \begin{bmatrix}7\\1\\11\end{bmatrix}\).
+4. Final answer: \(\mathbf{x} = \begin{bmatrix}7\\1\\11\end{bmatrix}\).

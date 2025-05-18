@@ -1,0 +1,17 @@
+1. Form the matrix $A$ whose columns are the given vectors: $A = \begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 1 & -8 & -6 \\ 2 & -3 & 6 & 7 & 9 \end{bmatrix}$; this is correct since the span of the vectors corresponds to the column space of $A$.
+2. Perform Gaussian elimination to row reduce $A$ and identify linearly independent columns; this is valid as the pivot columns of the row-reduced matrix form a basis for the column space.
+3. Subtract $-3$ times column 1 from column 3: $-3 - (-3 \times 1) = 0$, $-4 - (-3 \times 0) = -4$, $1 - (-3 \times -3) = 1 - 9 = -8$, $6 - (-3 \times 2) = 6 + 6 = 12$; verify by direct calculation.
+4. Subtract $1$ times column 1 from column 4: $1 - 1 = 0$, $-3 - 0 = -3$, $-8 - (-3) = -5$, $7 - 2 = 5$; verify by direct calculation.
+5. Subtract $2$ times column 1 from column 5: $2 - 2 = 0$, $1 - 0 = 1$, $-6 - (-6) = 0$, $9 - 4 = 5$; verify by direct calculation.
+6. The new matrix is $\begin{bmatrix} 1 & 0 & 0 & 0 & 0 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & -8 & -5 & 0 \\ 2 & -3 & 12 & 5 & 5 \end{bmatrix}$; this is correct by the previous calculations.
+7. Subtract $2$ times column 2 from column 3: $-4 - 2 \times 1 = -6$, $2 - 2 \times 1 = 0$, $-8 - 2 \times -4 = 0$, $12 - 2 \times -3 = 18$; verify by direct calculation.
+8. Subtract $-3$ times column 2 from column 4: $-3 - (-3 \times 1) = 0$, $-5 - (-3 \times -4) = -5 - 12 = -17$, $5 - (-3 \times -3) = 5 - 9 = -4$; verify by direct calculation.
+9. Subtract $1$ times column 2 from column 5: $1 - 1 = 0$, $0 - 1 \times -4 = 4$, $5 - 1 \times -3 = 8$; verify by direct calculation.
+10. The new matrix is $\begin{bmatrix} 1 & 0 & 0 & 0 & 0 \\ 0 & 1 & -6 & 0 & 0 \\ -3 & 2 & 0 & -17 & 4 \\ 2 & -3 & 18 & -4 & 8 \end{bmatrix}$; this is correct by the previous calculations.
+11. Observe that columns 1 and 2 are already in reduced form and nonzero, so they are linearly independent; this follows from the identity submatrix in the first two columns.
+12. Check if column 3 can be written as a linear combination of columns 1 and 2: since its only nonzero entry is in row 2, and columns 1 and 2 already have pivots in rows 1 and 2, column 3 is linearly dependent on columns 1 and 2.
+13. Similarly, check columns 4 and 5: their nonzero entries are in rows 3 and 4, which are not covered by the pivots in columns 1 and 2, so we need to check if they are linearly independent from columns 1 and 2.
+14. Extract the submatrix formed by columns 3, 4, and 5 in rows 3 and 4: $\begin{bmatrix} 0 & -17 & 4 \\ 18 & -4 & 8 \end{bmatrix}$; this is correct as these are the only nonzero entries in those rows.
+15. Check the rank of this $2 \times 3$ submatrix: since columns 4 and 5 are not scalar multiples of each other (e.g., $-17/4 \neq -4/8$), they are linearly independent.
+16. Therefore, the set $\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_4, \mathbf{v}_5\}$ forms a basis for the span, as columns 1, 2, 4, and 5 are linearly independent.
+17. Final answer: A basis for the space spanned by the given vectors is $\left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ -6 \\ 9 \end{bmatrix} \right\}$.

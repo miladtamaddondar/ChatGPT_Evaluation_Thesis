@@ -1,0 +1,12 @@
+1. We are asked to find all vectors $\mathbf{x} \in \mathbb{R}^4$ such that $A\mathbf{x} = \mathbf{0}$ for $A = \begin{bmatrix} 1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4 \end{bmatrix}$.
+2. Let $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix}$, so the system is $\begin{bmatrix} 1 & -4 & 7 & -5 \\ 0 & 1 & -4 & 3 \\ 2 & -6 & 6 & -4 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$.
+3. Write the system as equations: $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$, $x_2 - 4x_3 + 3x_4 = 0$, $2x_1 - 6x_2 + 6x_3 - 4x_4 = 0$.
+4. Notice the third equation is $2x_1 - 6x_2 + 6x_3 - 4x_4 = 2(x_1 - 3x_2 + 3x_3 - 2x_4) = 0$, which can be simplified.
+5. Let's express $x_1$ from the first equation: $x_1 = 4x_2 - 7x_3 + 5x_4$.
+6. Substitute $x_2$ from the second equation: $x_2 = 4x_3 - 3x_4$.
+7. Substitute $x_2$ into the expression for $x_1$: $x_1 = 4(4x_3 - 3x_4) - 7x_3 + 5x_4 = 16x_3 - 12x_4 - 7x_3 + 5x_4 = 9x_3 - 7x_4$.
+8. Now, substitute $x_1$ and $x_2$ into the third equation: $2x_1 - 6x_2 + 6x_3 - 4x_4 = 2(9x_3 - 7x_4) - 6(4x_3 - 3x_4) + 6x_3 - 4x_4$.
+9. Simplify: $18x_3 - 14x_4 - 24x_3 + 18x_4 + 6x_3 - 4x_4 = (18 - 24 + 6)x_3 + (-14 + 18 - 4)x_4 = 0x_3 + 0x_4 = 0$.
+10. Thus, the third equation is automatically satisfied for all $x_3, x_4$, so $x_3$ and $x_4$ are free variables.
+11. Therefore, the general solution is $\mathbf{x} = \begin{bmatrix} 9x_3 - 7x_4 \\ 4x_3 - 3x_4 \\ x_3 \\ x_4 \end{bmatrix}$ for all $x_3, x_4 \in \mathbb{R}$.
+12. The solution set is $\boxed{\left\{ \begin{bmatrix} 9x_3 - 7x_4 \\ 4x_3 - 3x_4 \\ x_3 \\ x_4 \end{bmatrix} : x_3, x_4 \in \mathbb{R} \right\}}$.

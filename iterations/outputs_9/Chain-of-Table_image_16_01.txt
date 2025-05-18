@@ -1,0 +1,5 @@
+1. To find the matrix representation of \( T \) relative to the basis \( \mathcal{B} = \{1, t, t^2\} \), compute \( T(1) \), \( T(t) \), and \( T(t^2) \) and express each as a linear combination of the basis elements.
+2. Compute \( T(1) \): \( T(1) = T(1 + 0t + 0t^2) = 3(1) + (5(1) - 2(0))t + (4(0) + 0)t^2 = 3 + 5t \). So, as a vector: \( [T(1)]_{\mathcal{B}} = \begin{bmatrix} 3 \\ 5 \\ 0 \end{bmatrix} \).
+3. Compute \( T(t) \): \( T(t) = T(0 + 1t + 0t^2) = 3(0) + (5(0) - 2(1))t + (4(1) + 0)t^2 = -2t + 4t^2 \). So, as a vector: \( [T(t)]_{\mathcal{B}} = \begin{bmatrix} 0 \\ -2 \\ 4 \end{bmatrix} \).
+4. Compute \( T(t^2) \): \( T(t^2) = T(0 + 0t + 1t^2) = 3(0) + (5(0) - 2(0))t + (4(0) + 1)t^2 = t^2 \). So, as a vector: \( [T(t^2)]_{\mathcal{B}} = \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix} \).
+5. The matrix representation of \( T \) relative to \( \mathcal{B} \) is \( \begin{bmatrix} 3 & 0 & 0 \\ 5 & -2 & 0 \\ 0 & 4 & 1 \end{bmatrix} \).

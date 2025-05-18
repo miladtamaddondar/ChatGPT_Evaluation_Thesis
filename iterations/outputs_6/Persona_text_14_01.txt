@@ -1,0 +1,10 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we need $\dim(\ker(A-5I))=2$.
+2. Compute $A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+3. Set up the homogeneous system $(A-5I)\vec{x} = 0$ to find the null space.
+4. Write the system: $0x_1 - 2x_2 + 6x_3 - x_4 = 0$, $0x_1 - 2x_2 + h x_3 = 0$, $4x_4 = 0$, $-4x_4 = 0$.
+5. From the last two equations, $x_4 = 0$.
+6. Substitute $x_4=0$ into the first two equations: $-2x_2 + 6x_3 = 0$, $-2x_2 + h x_3 = 0$.
+7. The system reduces to $-2x_2 + 6x_3 = 0$ and $-2x_2 + h x_3 = 0$.
+8. Subtract the first from the second: $(h-6)x_3 = 0$.
+9. For the eigenspace to be two-dimensional, $x_3$ must be free, so $h-6=0$.
+10. Therefore, $h=6$ is the value that makes the eigenspace for $\lambda=5$ two-dimensional.

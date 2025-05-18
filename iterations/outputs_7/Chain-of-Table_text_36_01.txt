@@ -1,0 +1,4 @@
+1. The given matrix $A$ is $\begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ \end{bmatrix}$, which is already in row echelon form.
+2. There are 3 nonzero rows, so the rank of $A$ (dimension of $\text{Col }A$) is $3$.
+3. $A$ has $6$ columns, so by the Rank-Nullity Theorem, $\dim(\text{Nul }A) = 6 - 3 = 3$.
+4. Final answer: $\dim(\text{Col }A) = 3$, $\dim(\text{Nul }A) = 3$.

@@ -1,0 +1,10 @@
+1. We are given \( A = \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \) and \( \mathbf{b} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix} \), and need to solve \( A\mathbf{x} = \mathbf{b} \).
+2. Write the augmented matrix: \( \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right] \).
+3. Add 2 times row 1 to row 2: row 2 becomes \( (0, 1, 2, 5) \).
+4. Subtract 3 times row 1 from row 3: row 3 becomes \( (0, -2, 1, 0) \).
+5. Add 2 times row 2 to row 3: row 3 becomes \( (0, 0, 5, 10) \).
+6. Divide row 3 by 5: row 3 becomes \( (0, 0, 1, 2) \).
+7. Subtract 2 times row 3 from row 2: row 2 becomes \( (0, 1, 0, 1) \).
+8. Add 2 times row 3 to row 1: row 1 becomes \( (1, 0, 0, 3) \).
+9. The solution is \( \mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix} \).
+10. Since the matrix reduces to the identity, the solution is unique.

@@ -1,0 +1,15 @@
+1. To compute \( U^T U \), first write \( U = \begin{bmatrix} 2/3 & -2/3 \\ 1/3 & 2/3 \\ 2/3 & 1/3 \end{bmatrix} \), then \( U^T U = \begin{bmatrix} \mathbf{u}_1^T \mathbf{u}_1 & \mathbf{u}_1^T \mathbf{u}_2 \\ \mathbf{u}_2^T \mathbf{u}_1 & \mathbf{u}_2^T \mathbf{u}_2 \end{bmatrix} \).  
+2. Compute \( \mathbf{u}_1^T \mathbf{u}_1 = (2/3)^2 + (1/3)^2 + (2/3)^2 = 4/9 + 1/9 + 4/9 = 9/9 = 1 \), so the (1,1) entry is 1.  
+3. Compute \( \mathbf{u}_2^T \mathbf{u}_2 = (-2/3)^2 + (2/3)^2 + (1/3)^2 = 4/9 + 4/9 + 1/9 = 9/9 = 1 \), so the (2,2) entry is 1.  
+4. Compute \( \mathbf{u}_1^T \mathbf{u}_2 = (2/3)(-2/3) + (1/3)(2/3) + (2/3)(1/3) = -4/9 + 2/9 + 2/9 = 0 \), so the (1,2) and (2,1) entries are 0.  
+5. Therefore, \( U^T U = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \), which is the identity matrix, confirming \( \mathbf{u}_1 \) and \( \mathbf{u}_2 \) are orthonormal.  
+6. To compute \( U U^T \), use \( U U^T = \mathbf{u}_1 \mathbf{u}_1^T + \mathbf{u}_2 \mathbf{u}_2^T \).  
+7. Compute \( \mathbf{u}_1 \mathbf{u}_1^T = \begin{bmatrix} 2/3 \\ 1/3 \\ 2/3 \end{bmatrix} \begin{bmatrix} 2/3 & 1/3 & 2/3 \end{bmatrix} = \begin{bmatrix} 4/9 & 2/9 & 4/9 \\ 2/9 & 1/9 & 2/9 \\ 4/9 & 2/9 & 4/9 \end{bmatrix} \).  
+8. Compute \( \mathbf{u}_2 \mathbf{u}_2^T = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \end{bmatrix} \begin{bmatrix} -2/3 & 2/3 & 1/3 \end{bmatrix} = \begin{bmatrix} 4/9 & -4/9 & -2/9 \\ -4/9 & 4/9 & 2/9 \\ -2/9 & 2/9 & 1/9 \end{bmatrix} \).  
+9. Add the two matrices: \( UU^T = \begin{bmatrix} 4/9+4/9 & 2/9+(-4/9) & 4/9+(-2/9) \\ 2/9+(-4/9) & 1/9+4/9 & 2/9+2/9 \\ 4/9+(-2/9) & 2/9+2/9 & 4/9+1/9 \end{bmatrix} = \begin{bmatrix} 8/9 & -2/9 & 2/9 \\ -2/9 & 5/9 & 4/9 \\ 2/9 & 4/9 & 5/9 \end{bmatrix} \).  
+10. To compute \( \text{proj}_W \mathbf{y} \), use \( \text{proj}_W \mathbf{y} = UU^T \mathbf{y} \) since \( \mathbf{u}_1, \mathbf{u}_2 \) are orthonormal.  
+11. Compute \( UU^T \mathbf{y} = \begin{bmatrix} 8/9 & -2/9 & 2/9 \\ -2/9 & 5/9 & 4/9 \\ 2/9 & 4/9 & 5/9 \end{bmatrix} \begin{bmatrix} 4 \\ 8 \\ 1 \end{bmatrix} \).  
+12. First entry: \( (8/9) \cdot 4 + (-2/9) \cdot 8 + (2/9) \cdot 1 = 32/9 - 16/9 + 2/9 = 18/9 = 2 \).  
+13. Second entry: \( (-2/9) \cdot 4 + (5/9) \cdot 8 + (4/9) \cdot 1 = -8/9 + 40/9 + 4/9 = 36/9 = 4 \).  
+14. Third entry: \( (2/9) \cdot 4 + (4/9) \cdot 8 + (5/9) \cdot 1 = 8/9 + 32/9 + 5/9 = 45/9 = 5 \).  
+15. Therefore, \( \text{proj}_W \mathbf{y} = (UU^T)\mathbf{y} = \begin{bmatrix} 2 \\ 4 \\ 5 \end{bmatrix} \).

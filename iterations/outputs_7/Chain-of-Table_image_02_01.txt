@@ -1,0 +1,4 @@
+1. Write the equation for the vector in the standard basis: \(\mathbf{x} = 3\begin{bmatrix}1\\1\\3\end{bmatrix} + 2\begin{bmatrix}2\\-1\\1\end{bmatrix}\).
+2. Distribute the scalars: \(\mathbf{x} = \begin{bmatrix}3\\3\\9\end{bmatrix} + \begin{bmatrix}4\\-2\\2\end{bmatrix}\).
+3. Add the vectors: \(\mathbf{x} = \begin{bmatrix}3+4\\3+(-2)\\9+2\end{bmatrix} = \begin{bmatrix}7\\1\\11\end{bmatrix}\).
+4. Final answer: The vector \(\mathbf{x} = \begin{bmatrix}7\\1\\11\end{bmatrix}\).

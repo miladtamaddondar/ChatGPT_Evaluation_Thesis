@@ -1,0 +1,1 @@
+1. Let \( R = \begin{bmatrix} r_1 & r_2 & \cdots & r_p \end{bmatrix} \) be the \( n \times p \) matrix whose columns are the vectors \( r_1, \ldots, r_p \), then the matrix \( \begin{bmatrix} Qr_1 & Qr_2 & \cdots & Qr_p \end{bmatrix} \) can be written as the product \( Q R \).

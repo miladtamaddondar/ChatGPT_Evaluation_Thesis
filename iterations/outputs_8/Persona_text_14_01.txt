@@ -1,0 +1,8 @@
+1. To find $h$ so that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A-5I$:\[A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\].
+2. The eigenspace dimension is the nullity of $A-5I$, so we solve $(A-5I)\vec{x} = 0$.
+3. The last two rows give $4x_4=0$ and $-4x_4=0$, so $x_4=0$.
+4. The second row gives $-2x_2 + h x_3 = 0$, so $x_2 = \frac{h}{2}x_3$.
+5. The first row gives $-2x_2 + 6x_3 = 0$ (since $x_4=0$), so $x_2 = 3x_3$.
+6. For a nontrivial solution, set $x_2 = 3x_3 = \frac{h}{2}x_3$, so $3 = \frac{h}{2}$, thus $h=6$.
+7. With $h=6$, the system reduces to $x_1$ and $x_3$ free, so the eigenspace is two-dimensional.
+8. The required value is $h=6$.

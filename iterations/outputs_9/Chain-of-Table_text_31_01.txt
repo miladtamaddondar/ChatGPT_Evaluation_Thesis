@@ -1,0 +1,11 @@
+1. Express the general vector as $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix}$ and set it equal to $\begin{bmatrix} x \\ y \\ z \end{bmatrix}$, giving the system: $x = 3a + b$, $y = 4$, $z = a - 5b$.
+2. Write the augmented matrix: $\left[\begin{array}{cc|c} 3 & 1 & x \\ 0 & 0 & y \\ 1 & -5 & z \end{array}\right]$.
+3. Note that the second row $0a + 0b = y$ implies $y = 4$ for any solution; thus, $W$ only contains vectors with $y = 4$.
+4. Express $a$ and $b$ in terms of $x$ and $z$: From the first and third equations, solve for $a$ and $b$.
+5. From the third equation: $z = a - 5b \implies a = z + 5b$.
+6. Substitute $a$ into the first equation: $x = 3(z + 5b) + b = 3z + 15b + b = 3z + 16b$.
+7. Solve for $b$: $x - 3z = 16b \implies b = \frac{x - 3z}{16}$.
+8. Substitute $b$ into $a = z + 5b$: $a = z + 5\left(\frac{x - 3z}{16}\right) = \frac{16z + 5x - 15z}{16} = \frac{5x + 1z}{16}$.
+9. Since $a$ and $b$ can be expressed in terms of $x$ and $z$ for any $x, z \in \mathbb{R}$, $W$ is the set of all vectors of the form $\begin{bmatrix} x \\ 4 \\ z \end{bmatrix}$.
+10. $W$ is spanned by $\left\{ \begin{bmatrix} 1 \\ 4 \\ 0 \end{bmatrix}, \begin{bmatrix} 0 \\ 4 \\ 1 \end{bmatrix} \right\}$, but since $y$ is always $4$, a more precise spanning set is $\left\{ \begin{bmatrix} 1 \\ 4 \\ 0 \end{bmatrix}, \begin{bmatrix} 0 \\ 4 \\ 1 \end{bmatrix} \right\}$.
+11. However, $W$ is not a vector space because it does not contain the zero vector (since $y$ is always $4$), so $W$ is not a vector space.

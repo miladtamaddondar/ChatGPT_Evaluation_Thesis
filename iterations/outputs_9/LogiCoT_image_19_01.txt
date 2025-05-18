@@ -1,0 +1,10 @@
+1. To find the matrix of \( T \) in the basis \( \mathcal{B} = \{\mathbf{b}_1, \mathbf{b}_2\} \), we need to find \( [T]_{\mathcal{B}} \) such that \( [T(\mathbf{x})]_{\mathcal{B}} = [T]_{\mathcal{B}} [\mathbf{x}]_{\mathcal{B}} \).  
+2. Compute \( T(\mathbf{b}_1) = A\mathbf{b}_1 = \begin{bmatrix}1 & 1\\-1 & 3\end{bmatrix}\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}2\\2\end{bmatrix} \).  
+3. Compute \( T(\mathbf{b}_2) = A\mathbf{b}_2 = \begin{bmatrix}1 & 1\\-1 & 3\end{bmatrix}\begin{bmatrix}5\\4\end{bmatrix} = \begin{bmatrix}9\\7\end{bmatrix} \).  
+4. Express \( T(\mathbf{b}_1) = \begin{bmatrix}2\\2\end{bmatrix} \) as a linear combination of \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \): set \( a\mathbf{b}_1 + b\mathbf{b}_2 = \begin{bmatrix}2\\2\end{bmatrix} \), i.e., \( a\begin{bmatrix}1\\1\end{bmatrix} + b\begin{bmatrix}5\\4\end{bmatrix} = \begin{bmatrix}2\\2\end{bmatrix} \).  
+5. This gives the system: \( a + 5b = 2 \), \( a + 4b = 2 \); subtract to get \( b = 0 \), so \( a = 2 \).  
+6. Therefore, \( [T(\mathbf{b}_1)]_{\mathcal{B}} = \begin{bmatrix}2\\0\end{bmatrix} \).  
+7. Express \( T(\mathbf{b}_2) = \begin{bmatrix}9\\7\end{bmatrix} \) as a linear combination of \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \): set \( a\mathbf{b}_1 + b\mathbf{b}_2 = \begin{bmatrix}9\\7\end{bmatrix} \), i.e., \( a + 5b = 9 \), \( a + 4b = 7 \).  
+8. Subtract the equations: \( (a + 5b) - (a + 4b) = 9 - 7 \implies b = 2 \), so \( a = 9 - 5 \times 2 = -1 \).  
+9. Therefore, \( [T(\mathbf{b}_2)]_{\mathcal{B}} = \begin{bmatrix}-1\\2\end{bmatrix} \).  
+10. The matrix of \( T \) in the basis \( \mathcal{B} \) is \( [T]_{\mathcal{B}} = \begin{bmatrix}2 & -1\\0 & 2\end{bmatrix} \).

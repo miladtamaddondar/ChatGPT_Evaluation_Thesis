@@ -1,0 +1,9 @@
+1. To compute \(AD\), multiply matrix \(A\) by matrix \(D\): \(AD = \begin{bmatrix}1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 4 & 5\end{bmatrix} \begin{bmatrix}2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 5\end{bmatrix}\).
+2. Since \(D\) is diagonal, multiplying \(A\) by \(D\) on the right scales the columns of \(A\) by the corresponding diagonal entries of \(D\): the first column by 2, the second by 3, the third by 5.
+3. Perform the column scaling: \(AD = \begin{bmatrix}1\cdot2 & 1\cdot3 & 1\cdot5 \\ 1\cdot2 & 2\cdot3 & 3\cdot5 \\ 1\cdot2 & 4\cdot3 & 5\cdot5\end{bmatrix} = \begin{bmatrix}2 & 3 & 5 \\ 2 & 6 & 15 \\ 2 & 12 & 25\end{bmatrix}\).
+4. Verify correctness: Each entry in column \(j\) of \(AD\) is the corresponding entry in column \(j\) of \(A\) multiplied by \(D_{jj}\), which matches our calculation.
+5. To compute \(DA\), multiply matrix \(D\) by matrix \(A\): \(DA = \begin{bmatrix}2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 5\end{bmatrix} \begin{bmatrix}1 & 1 & 1 \\ 1 & 2 & 3 \\ 1 & 4 & 5\end{bmatrix}\).
+6. Since \(D\) is diagonal, multiplying \(A\) by \(D\) on the left scales the rows of \(A\) by the corresponding diagonal entries of \(D\): the first row by 2, the second by 3, the third by 5.
+7. Perform the row scaling: \(DA = \begin{bmatrix}2\cdot1 & 2\cdot1 & 2\cdot1 \\ 3\cdot1 & 3\cdot2 & 3\cdot3 \\ 5\cdot1 & 5\cdot4 & 5\cdot5\end{bmatrix} = \begin{bmatrix}2 & 2 & 2 \\ 3 & 6 & 9 \\ 5 & 20 & 25\end{bmatrix}\).
+8. Verify correctness: Each entry in row \(i\) of \(DA\) is the corresponding entry in row \(i\) of \(A\) multiplied by \(D_{ii}\), which matches our calculation.
+9. Final answer: \(AD = \begin{bmatrix}2 & 3 & 5 \\ 2 & 6 & 15 \\ 2 & 12 & 25\end{bmatrix}\), \(DA = \begin{bmatrix}2 & 2 & 2 \\ 3 & 6 & 9 \\ 5 & 20 & 25\end{bmatrix}\).

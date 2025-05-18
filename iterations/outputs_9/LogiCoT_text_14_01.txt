@@ -1,0 +1,14 @@
+1. To find $h$ such that the eigenspace for $\lambda = 5$ is two-dimensional, we first compute $A - 5I$: $A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+2. The eigenspace dimension is the nullity of $A-5I$, so we need $\text{nullity}(A-5I) = 2$; by the rank-nullity theorem, $\text{rank}(A-5I) = 2$.
+3. To find when $\text{rank}(A-5I) = 2$, we row reduce $A-5I$; the last two rows are $[0,0,0,4]$ and $[0,0,0,-4]$, which are linearly dependent, so at most one contributes to the rank.
+4. The first two rows are $[0, -2, 6, -1]$ and $[0, -2, h, 0]$; subtract the first from the second to eliminate the $-2$ in the second row: $[0, -2, h, 0] - [0, -2, 6, -1] = [0, 0, h-6, 1]$.
+5. Now, the matrix is row-equivalent to $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & 0 & h-6 & 1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}$; the nonzero rows are $[0,-2,6,-1]$, $[0,0,h-6,1]$, and $[0,0,0,4]$.
+6. For the rank to be $2$, one of these three rows must be a linear combination of the others; since $[0,0,0,4]$ is independent unless the $4$ is $0$, which it is not, the only way is for $[0,0,h-6,1]$ to be a linear combination of the others.
+7. $[0,0,h-6,1]$ is linearly dependent on $[0,-2,6,-1]$ and $[0,0,0,4]$ if and only if $h-6 = 0$ and $1 = 0$, but $1 \neq 0$, so the only way for the rank to drop is for $h-6=0$ and for the third row to be a linear combination of the first two.
+8. Alternatively, check if the $3\times3$ submatrix in columns 2-4 has rank $2$; the $3\times3$ submatrix is $\begin{bmatrix}-2 & 6 & -1 \\ -2 & h & 0 \\ 0 & 0 & 4 \end{bmatrix}$.
+9. The determinant of this $3\times3$ submatrix is $4 \cdot \begin{vmatrix} -2 & 6 \\ -2 & h \end{vmatrix} = 4((-2)h - (-2)6) = 4(-2h + 12) = -8h + 48$.
+10. Set $-8h + 48 = 0$ to ensure the $3\times3$ minor is zero (so rank at most $2$): $-8h + 48 = 0 \implies h = 6$.
+11. Verify: If $h=6$, the second row after elimination is $[0,0,0,1]$, which is independent of the third row $[0,0,0,4]$, so the rank is still $3$; thus, our earlier reasoning was incorrect.
+12. Instead, set $h=6$ and check the full row-reduced form: $[0,-2,6,-1]$, $[0,-2,6,0]$, $[0,0,0,4]$, $[0,0,0,-4]$; subtract the first from the second: $[0,0,0,1]$.
+13. Now, the nonzero rows are $[0,-2,6,-1]$, $[0,0,0,1]$, $[0,0,0,4]$; $[0,0,0,4]$ is a multiple of $[0,0,0,1]$, so only two independent rows, so rank is $2$.
+14. Therefore, the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional is $h=6$.

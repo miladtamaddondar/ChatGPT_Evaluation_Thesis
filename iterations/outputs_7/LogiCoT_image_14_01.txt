@@ -1,0 +1,10 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first compute \( A - 5I \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).  
+2. The eigenspace dimension is the nullity of \( A - 5I \), which is \( 4 - \text{rank}(A - 5I) \); for dimension 2, we need \( \text{rank}(A - 5I) = 2 \).  
+3. To find the rank, observe that the last two rows are \( [0,0,0,4] \) and \( [0,0,0,-4] \), which are linearly dependent, so they contribute at most one to the rank.  
+4. The first two rows are \( [0, -2, 6, -1] \) and \( [0, -2, h, 0] \); subtracting the second from the first gives \( [0, 0, 6-h, -1] \).  
+5. If \( 6-h \neq 0 \) or \( -1 \neq 0 \), the first two rows are linearly independent, so together with a nonzero row from the last two, the rank would be 3; we want rank 2, so set \( 6-h = 0 \) and \( -1 = 0 \) (which is impossible), so instead, make the first two rows linearly dependent.  
+6. The first two rows are linearly dependent if there is a scalar \( k \) such that \( [0, -2, 6, -1] = k[0, -2, h, 0] \); comparing components, \( -2 = k(-2) \implies k = 1 \), so \( 6 = h \) and \( -1 = 0 \), which is not possible.  
+7. Alternatively, set \( h = 6 \) so the third entry matches, and check the rank: with \( h = 6 \), the first two rows are \( [0, -2, 6, -1] \) and \( [0, -2, 6, 0] \); subtracting gives \( [0, 0, 0, -1] \).  
+8. Now, the first row is \( [0, -2, 6, -1] \), the second is \( [0, -2, 6, 0] \), the third is \( [0, 0, 0, 4] \), and the fourth is \( [0, 0, 0, -4] \); the third and fourth are linearly dependent, and the difference of the first two gives a new row \( [0, 0, 0, -1] \), so the nonzero rows are \( [0, -2, 6, -1] \) and \( [0, 0, 0, 4] \), which are linearly independent.  
+9. Thus, with \( h = 6 \), the rank is 2, so the nullity is \( 4 - 2 = 2 \), giving a two-dimensional eigenspace for \( \lambda = 5 \).  
+10. Final answer: The value of \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional is \( \boxed{6} \).

@@ -1,0 +1,5 @@
+1. To determine if $W$ is a vector space, check if it is closed under addition and scalar multiplication: let $\mathbf{u} = \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix}$ and $\mathbf{v} = \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix}$ be arbitrary elements of $W$.
+2. Add $\mathbf{u}$ and $\mathbf{v}$: $\mathbf{u} + \mathbf{v} = \begin{bmatrix} (3a_1 + b_1) + (3a_2 + b_2) \\ 4 + 4 \\ (a_1 - 5b_1) + (a_2 - 5b_2) \end{bmatrix} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix}$.
+3. The second component of the sum is $8$, not $4$, so $\mathbf{u} + \mathbf{v} \notin W$ because $W$ requires the second component to be $4$.
+4. Therefore, $W$ is not closed under addition and is not a vector space; for example, $\begin{bmatrix} 3 \\ 4 \\ 1 \end{bmatrix} + \begin{bmatrix} 0 \\ 4 \\ 0 \end{bmatrix} = \begin{bmatrix} 3 \\ 8 \\ 1 \end{bmatrix} \notin W$.
+5. Final answer: $W$ is not a vector space because it is not closed under addition, as shown by the example in step 4.

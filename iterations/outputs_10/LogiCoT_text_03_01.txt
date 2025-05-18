@@ -1,0 +1,7 @@
+1. Let \( A = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix} \) and assume \( A = LU \), where \( L = \begin{bmatrix}1 & 0 \\ l_{21} & 1\end{bmatrix} \) and \( U = \begin{bmatrix}u_{11} & u_{12} \\ 0 & u_{22}\end{bmatrix} \); this is the standard Doolittle LU form.  
+2. Multiply \( L \) and \( U \): \( LU = \begin{bmatrix}u_{11} & u_{12} \\ l_{21}u_{11} & l_{21}u_{12} + u_{22}\end{bmatrix} \); this matches the structure of \( A \).  
+3. Set \( u_{11} = 6 \) and \( u_{12} = 9 \) from the first row of \( A \), since \( LU_{1,1} = u_{11} \) and \( LU_{1,2} = u_{12} \).  
+4. Set \( l_{21}u_{11} = 4 \implies l_{21} = \frac{4}{6} = \frac{2}{3} \) from the second row, first column of \( A \).  
+5. Set \( l_{21}u_{12} + u_{22} = 5 \implies \frac{2}{3} \cdot 9 + u_{22} = 5 \implies 6 + u_{22} = 5 \implies u_{22} = -1 \).  
+6. Therefore, \( L = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix} \) and \( U = \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix} \); verify by multiplying: \( LU = \begin{bmatrix}6 & 9 \\ 4 & 5\end{bmatrix} = A \).  
+7. Final answer: The LU factorization is \( \boxed{A = \begin{bmatrix}1 & 0 \\ \frac{2}{3} & 1\end{bmatrix} \begin{bmatrix}6 & 9 \\ 0 & -1\end{bmatrix}} \).

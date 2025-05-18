@@ -1,0 +1,4 @@
+1. The matrix \( A \) is already in row echelon form: \( \begin{bmatrix} 1 & 3 & -4 & 2 & -1 & 6 \\ 0 & 0 & 1 & -3 & 7 & 0 \\ 0 & 0 & 0 & 1 & 4 & -3 \\ 0 & 0 & 0 & 0 & 0 & 0 \end{bmatrix} \).
+2. The number of pivot columns (leading 1's) is 3, so \(\dim(\text{Col }A) = 3\).
+3. The number of free variables is \(6 - 3 = 3\), so \(\dim(\text{Nul }A) = 3\).
+4. Final answer: The dimension of \(\text{Nul }A\) is 3 and the dimension of \(\text{Col }A\) is 3.

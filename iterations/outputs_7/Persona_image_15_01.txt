@@ -1,0 +1,10 @@
+1. To write \( A = \begin{pmatrix} 1 & -2 \\ 1 & 3 \end{pmatrix} \) as \( PCP^{-1} \) with \( C = \begin{pmatrix} a & b \\ -b & a \end{pmatrix} \), we first find the eigenvalues of \( A \) by solving \( \det(A - \lambda I) = 0 \).
+2. Compute the characteristic polynomial: \( \det\left(\begin{pmatrix} 1-\lambda & -2 \\ 1 & 3-\lambda \end{pmatrix}\right) = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5 \).
+3. Solve \( \lambda^2 - 4\lambda + 5 = 0 \) to get \( \lambda = 2 \pm i \).
+4. Since \( C \) must have the form \( \begin{pmatrix} a & b \\ -b & a \end{pmatrix} \), set \( a = 2, b = 1 \) so the eigenvalues of \( C \) are \( 2 \pm i \).
+5. Find an eigenvector for \( \lambda = 2 + i \) by solving \( (A - (2+i)I)\mathbf{v} = 0 \): \( \begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix} \mathbf{v} = 0 \).
+6. Let \( v_1 = 1 \), then \( (-1-i) \cdot 1 + (-2) v_2 = 0 \Rightarrow v_2 = \frac{-1-i}{2} \).
+7. The eigenvector for \( \lambda = 2+i \) is \( \mathbf{v}_1 = \begin{pmatrix} 1 \\ \frac{-1-i}{2} \end{pmatrix} \).
+8. The eigenvector for \( \lambda = 2-i \) is the complex conjugate: \( \mathbf{v}_2 = \begin{pmatrix} 1 \\ \frac{-1+i}{2} \end{pmatrix} \).
+9. Form \( P \) from the real and imaginary parts of \( \mathbf{v}_1 \): \( \operatorname{Re}(\mathbf{v}_1) = \begin{pmatrix} 1 \\ -\frac{1}{2} \end{pmatrix} \), \( \operatorname{Im}(\mathbf{v}_1) = \begin{pmatrix} 0 \\ -\frac{1}{2} \end{pmatrix} \).
+10. Thus, \( P = \begin{pmatrix} 1 & 0 \\ -\frac{1}{2} & -\frac{1}{2} \end{pmatrix} \) and \( C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix} \) satisfy \( A = PCP^{-1} \).

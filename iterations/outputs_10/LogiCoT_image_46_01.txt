@@ -1,0 +1,14 @@
+1. To find all least-squares solutions to \(Ax = b\), we solve the normal equations \(A^T A x = A^T b\).  
+2. Compute \(A^T\): \(A^T = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}\).  
+3. Compute \(A^T A\): \(A^T A = \begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix}\).  
+4. Verify \(A^T A\) by matrix multiplication: Each entry matches the sum of products from \(A^T\) row and \(A\) column, confirming correctness.  
+5. Compute \(A^T b\): \(A^T b = \begin{bmatrix} 1+3+8+2 \\ 1+3+0+0 \\ 0+0+8+2 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\).  
+6. Set up the normal equations: \(\begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\).  
+7. Write the system: \(4x_1 + 2x_2 + 2x_3 = 14\), \(2x_1 + 2x_2 = 4\), \(2x_1 + 2x_3 = 10\).  
+8. Solve the second equation: \(2x_1 + 2x_2 = 4 \implies x_1 + x_2 = 2\).  
+9. Solve the third equation: \(2x_1 + 2x_3 = 10 \implies x_1 + x_3 = 5\).  
+10. Express \(x_2\) and \(x_3\) in terms of \(x_1\): \(x_2 = 2 - x_1\), \(x_3 = 5 - x_1\).  
+11. Substitute \(x_2\) and \(x_3\) into the first equation: \(4x_1 + 2(2-x_1) + 2(5-x_1) = 14\).  
+12. Simplify: \(4x_1 + 4 - 2x_1 + 10 - 2x_1 = 14\) gives \(4x_1 - 2x_1 - 2x_1 + 4 + 10 = 14\) so \(0x_1 + 14 = 14\).  
+13. The equation is always true, so the solution set is all \(x_1\) with \(x_2 = 2 - x_1\), \(x_3 = 5 - x_1\).  
+14. The set of all least-squares solutions is \(\boxed{\begin{bmatrix} x_1 \\ 2 - x_1 \\ 5 - x_1 \end{bmatrix}, \text{ for all } x_1 \in \mathbb{R}}\).

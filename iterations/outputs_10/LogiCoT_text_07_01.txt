@@ -1,0 +1,4 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the results of multiplying \( Q \) by each \( r_i \), so the matrix \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] \) has columns \( Q r_i \).  
+2. Note that multiplying \( Q \) by the matrix \( [r_1 \; r_2 \; \dots \; r_p] \) yields \( Q [r_1 \; r_2 \; \dots \; r_p] = [Q r_1 \; Q r_2 \; \dots \; Q r_p] \) by the definition of matrix multiplication.  
+3. Therefore, \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \), which expresses the matrix as a product of \( Q \) and the matrix with columns \( r_1, \dots, r_p \); neither is an identity matrix.  
+4. Final answer: \( [Q r_1 \; Q r_2 \; \dots \; Q r_p] = Q [r_1 \; r_2 \; \dots \; r_p] \).

@@ -1,0 +1,9 @@
+1. To find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), each column of \(B\) must be in the null space of \(A\): \(A\mathbf{b}_1 = 0\) and \(A\mathbf{b}_2 = 0\).
+2. Set up the equation for a generic vector \(\mathbf{b} = \begin{bmatrix} x \\ y \end{bmatrix}\): \(A\mathbf{b} = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 3x - 6y \\ -x + 2y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\).
+3. Solve the system: \(3x - 6y = 0\) and \(-x + 2y = 0\).
+4. From \(-x + 2y = 0\), we get \(x = 2y\).
+5. Substitute \(x = 2y\) into \(3x - 6y = 0\): \(3(2y) - 6y = 6y - 6y = 0\), which is always true.
+6. Therefore, the null space is all vectors of the form \(\begin{bmatrix} 2y \\ y \end{bmatrix} = y\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) for any \(y \neq 0\).
+7. To get two different nonzero columns, choose \(y = 1\) and \(y = -1\): \(\mathbf{b}_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\), \(\mathbf{b}_2 = \begin{bmatrix} -2 \\ -1 \end{bmatrix}\).
+8. Thus, \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\) is a \(2 \times 2\) matrix with two different nonzero columns in the null space of \(A\).
+9. Final answer: \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\) satisfies \(AB = 0\) with two different nonzero columns.

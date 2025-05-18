@@ -1,0 +1,12 @@
+1. The given matrix is \( A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix} \) and its echelon form is \( \begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 0 \end{bmatrix} \); this is correct as the echelon form has zeros below each leading entry.  
+2. The pivot columns in the echelon form are columns 1, 3, and 4; by the definition of pivot columns, these correspond to the basis for the column space.  
+3. The basis for \(\text{Col }A\) is given by the corresponding columns of the original matrix: \(\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}\); this is correct by the Invertible Matrix Theorem.  
+4. The dimension of \(\text{Col }A\) is the number of pivot columns, which is 3; this is correct by the definition of rank.  
+5. To find a basis for \(\text{Nul }A\), set up the equation \(A\vec{x} = 0\) and write the system from the echelon form:     \(\begin{cases} x_1 - 3x_2 + 2x_3 - 4x_4 = 0 \\ 5x_3 - 7x_4 = 0 \\ 5x_4 = 0 \end{cases}\); this is correct by back-substitution.  
+6. From the last equation, \(5x_4 = 0 \implies x_4 = 0\); this is correct by division.  
+7. Substitute \(x_4 = 0\) into the second equation: \(5x_3 = 0 \implies x_3 = 0\); this is correct by division.  
+8. Substitute \(x_3 = 0\) and \(x_4 = 0\) into the first equation: \(x_1 - 3x_2 = 0 \implies x_1 = 3x_2\); this is correct by solving for \(x_1\).  
+9. The general solution is \(\vec{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 3x_2 \\ x_2 \\ 0 \\ 0 \end{bmatrix} = x_2 \begin{bmatrix} 3 \\ 1 \\ 0 \\ 0 \end{bmatrix}\); this is correct by parameterization.  
+10. The basis for \(\text{Nul }A\) is \(\left\{ \begin{bmatrix} 3 \\ 1 \\ 0 \\ 0 \end{bmatrix} \right\}\); this is correct as it spans the null space.  
+11. The dimension of \(\text{Nul }A\) is 1, since there is one free variable; this is correct by the Rank-Nullity Theorem.  
+12. Final answer: The basis for \(\text{Col }A\) is \(\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}\) with dimension 3, and the basis for \(\text{Nul }A\) is \(\left\{ \begin{bmatrix} 3 \\ 1 \\ 0 \\ 0 \end{bmatrix} \right\}\) with dimension 1.

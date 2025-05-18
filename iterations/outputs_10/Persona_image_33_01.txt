@@ -1,0 +1,2 @@
+1. The matrix \( A \) has 2 columns, so the null space Nul \( A \) is a subspace of \( \mathbb{R}^2 \), thus \( k = 2 \) for part (a).
+2. The matrix \( A \) has 4 rows, so the column space Col \( A \) is a subspace of \( \mathbb{R}^4 \), thus \( k = 4 \) for part (b).

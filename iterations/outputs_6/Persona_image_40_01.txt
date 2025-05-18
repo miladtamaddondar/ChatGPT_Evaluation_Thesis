@@ -1,0 +1,12 @@
+1. The standard basis for \( \mathbb{P}_2 \) is \( \{1, t, t^2\} \).
+2. Write each basis vector in \( \mathcal{B} \) in terms of the standard basis: \( 1 - 3t^2 = 1 \cdot 1 + 0 \cdot t + (-3) \cdot t^2 \).
+3. \( 2 + t - 5t^2 = 2 \cdot 1 + 1 \cdot t + (-5) \cdot t^2 \).
+4. \( 1 + 2t = 1 \cdot 1 + 2 \cdot t + 0 \cdot t^2 \).
+5. The change-of-coordinates matrix from \( \mathcal{B} \) to the standard basis is \( P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix} \).
+6. To write \( t^2 \) as a linear combination of the polynomials in \( \mathcal{B} \), solve \( P \begin{bmatrix} a \\ b \\ c \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix} \).
+7. Set up the system: \( 1a + 2b + 1c = 0 \), \( 0a + 1b + 2c = 0 \), \( -3a - 5b + 0c = 1 \).
+8. From the second equation, \( b + 2c = 0 \implies b = -2c \).
+9. Substitute \( b = -2c \) into the first equation: \( a + 2(-2c) + c = 0 \implies a - 4c + c = 0 \implies a = 3c \).
+10. Substitute \( a = 3c \), \( b = -2c \) into the third equation: \( -3(3c) - 5(-2c) = 1 \implies -9c + 10c = 1 \implies c = 1 \).
+11. Then \( a = 3 \), \( b = -2 \), \( c = 1 \).
+12. Thus, \( t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t) \) in terms of the basis \( \mathcal{B} \).

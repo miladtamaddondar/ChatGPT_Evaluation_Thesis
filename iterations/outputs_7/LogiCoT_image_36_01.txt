@@ -1,0 +1,7 @@
+1. The matrix \( A \) is a \( 4 \times 6 \) matrix because it has 4 rows and 6 columns.  
+2. The rank of \( A \) is the number of leading 1's (pivots) in its row echelon form, which is 3 (one in each of the first three rows).  
+3. By the Rank-Nullity Theorem, \(\text{rank}(A) + \text{nullity}(A) = \) number of columns \( = 6 \).  
+4. Since \(\text{rank}(A) = 3\), \(\text{nullity}(A) = 6 - 3 = 3\).  
+5. The dimension of \(\text{Col } A\) is the rank, so \(\dim(\text{Col } A) = 3\).  
+6. The dimension of \(\text{Nul } A\) is the nullity, so \(\dim(\text{Nul } A) = 3\).  
+7. Final answer: \(\dim(\text{Col } A) = 3\), \(\dim(\text{Nul } A) = 3\).

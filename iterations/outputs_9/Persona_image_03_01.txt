@@ -1,0 +1,6 @@
+1. Let \( A = \begin{bmatrix} 6 & 9 \\ 4 & 5 \end{bmatrix} \) and assume \( A = LU \) where \( L = \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} \) and \( U = \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} \).
+2. Multiply \( L \) and \( U \): \( LU = \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} = \begin{bmatrix} u_{11} & u_{12} \\ l_{21}u_{11} & l_{21}u_{12} + u_{22} \end{bmatrix} \).
+3. Set \( u_{11} = 6 \) and \( u_{12} = 9 \) by matching the first row of \( LU \) to \( A \).
+4. Solve for \( l_{21} \) using \( l_{21}u_{11} = 4 \) so \( l_{21} = \frac{4}{6} = \frac{2}{3} \).
+5. Solve for \( u_{22} \) using \( l_{21}u_{12} + u_{22} = 5 \) so \( \frac{2}{3} \times 9 + u_{22} = 5 \) which gives \( 6 + u_{22} = 5 \) so \( u_{22} = -1 \).
+6. The LU factorization is \( L = \begin{bmatrix} 1 & 0 \\ \frac{2}{3} & 1 \end{bmatrix} \), \( U = \begin{bmatrix} 6 & 9 \\ 0 & -1 \end{bmatrix} \).

@@ -1,0 +1,6 @@
+1. Compute the dot product \(\mathbf{u} \cdot \mathbf{v} = 2 \times (-7) + (-5) \times (-4) + (-1) \times 6 = -14 + 20 - 6 = 0\); since the sum is zero, the vectors are orthogonal.  
+2. Compute \(\|\mathbf{u}\|^2 = 2^2 + (-5)^2 + (-1)^2 = 4 + 25 + 1 = 30\); this is the squared norm of \(\mathbf{u}\), which is always non-negative.  
+3. Compute \(\|\mathbf{v}\|^2 = (-7)^2 + (-4)^2 + 6^2 = 49 + 16 + 36 = 101\); this is the squared norm of \(\mathbf{v}\), which is always non-negative.  
+4. Compute \(\mathbf{u} + \mathbf{v} = \begin{bmatrix} 2 + (-7) \\ -5 + (-4) \\ -1 + 6 \end{bmatrix} = \begin{bmatrix} -5 \\ -9 \\ 5 \end{bmatrix}\); vector addition is performed component-wise.  
+5. Compute \(\|\mathbf{u} + \mathbf{v}\|^2 = (-5)^2 + (-9)^2 + 5^2 = 25 + 81 + 25 = 131\); this is the squared norm of the sum, which is always non-negative.  
+6. Compare: \(\mathbf{u} \cdot \mathbf{v} = 0\), \(\|\mathbf{u}\|^2 = 30\), \(\|\mathbf{v}\|^2 = 101\), \(\|\mathbf{u} + \mathbf{v}\|^2 = 131\); since \(\mathbf{u}\) and \(\mathbf{v}\) are orthogonal, \(\|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + \|\mathbf{v}\|^2\), which holds as \(30 + 101 = 131\).

@@ -1,0 +1,10 @@
+1. Subtract \(5I\) from \(A\) to get \(A-5I\): \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\)
+2. Add row 4 to row 3: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4\end{bmatrix}\)
+3. Swap row 3 and row 4: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & -4 \\ 0 & 0 & 0 & 0\end{bmatrix}\)
+4. To have the eigenspace dimension 2, the nullity of this matrix must be 2, so the rank must be 2. The third row must be zero, so set \(-4 = 0\), which is impossible, so instead, the only way to reduce the rank is to make the second row a multiple of the first: set \(h = 6\), so row 2 is a multiple of row 1.
+5. Substitute \(h = 6\): \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & 6 & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\)
+6. Subtract row 1 from row 2: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\)
+7. Subtract 4 times row 2 from row 3: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4\end{bmatrix}\)
+8. Add row 4 to row 3: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & -4 \\ 0 & 0 & 0 & 0\end{bmatrix}\)
+9. The rank is 2, so the nullity is 2, and the eigenspace for \(\lambda = 5\) is two-dimensional when \(h = 6\).
+10. Final answer: The value of \(h\) such that the eigenspace for \(\lambda = 5\) is two-dimensional is \(h = 6\).

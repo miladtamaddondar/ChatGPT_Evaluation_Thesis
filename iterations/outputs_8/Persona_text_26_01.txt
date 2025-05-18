@@ -1,0 +1,6 @@
+1. To show $T$ is linear, we find a matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ for $\mathbf{x} = (x_1, x_2, x_3, x_4)^T$.
+2. The first component is always $0$, so the first row of $A$ is $(0, 0, 0, 0)$.
+3. The second component is $x_1 + x_2$, so the second row of $A$ is $(1, 1, 0, 0)$.
+4. The third component is $x_2 + x_3$, so the third row of $A$ is $(0, 1, 1, 0)$.
+5. The fourth component is $x_3 + x_4$, so the fourth row of $A$ is $(0, 0, 1, 1)$.
+6. Thus, the matrix that implements $T$ is $A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$.

@@ -1,0 +1,10 @@
+1. To find the change-of-coordinates matrix from $\mathcal{B}$ to the standard basis $\mathcal{E} = \{1, t, t^2\}$, express each vector in $\mathcal{B}$ in terms of $\mathcal{E}$: $1 - 3t^2 = 1 \cdot 1 + 0 \cdot t + (-3) \cdot t^2$, $2 + t - 5t^2 = 2 \cdot 1 + 1 \cdot t + (-5) \cdot t^2$, $1 + 2t = 1 \cdot 1 + 2 \cdot t + 0 \cdot t^2$.
+2. The coordinate vectors of the basis elements in $\mathcal{E}$ are: $[1 - 3t^2]_{\mathcal{E}} = \begin{bmatrix} 1 \\ 0 \\ -3 \end{bmatrix}$, $[2 + t - 5t^2]_{\mathcal{E}} = \begin{bmatrix} 2 \\ 1 \\ -5 \end{bmatrix}$, $[1 + 2t]_{\mathcal{E}} = \begin{bmatrix} 1 \\ 2 \\ 0 \end{bmatrix}$.
+3. The change-of-coordinates matrix from $\mathcal{B}$ to $\mathcal{E}$, $P_{\mathcal{E} \leftarrow \mathcal{B}}$, is formed by placing these coordinate vectors as columns: $P_{\mathcal{E} \leftarrow \mathcal{B}} = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$.
+4. To write $t^2$ as a linear combination of the polynomials in $\mathcal{B}$, set $t^2 = a(1 - 3t^2) + b(2 + t - 5t^2) + c(1 + 2t)$ and expand: $t^2 = a(1) + a(-3)t^2 + b(2) + b(t) + b(-5)t^2 + c(1) + c(2t)$.
+5. Collect like terms: constant term: $a + 2b + c$, $t$ term: $b + 2c$, $t^2$ term: $-3a - 5b$; set equal to $0 + 0t + 1t^2$ to get the system: $a + 2b + c = 0$, $b + 2c = 0$, $-3a - 5b = 1$.
+6. Solve $b + 2c = 0 \implies b = -2c$; substitute into the other equations: $a + 2(-2c) + c = 0 \implies a - 4c + c = 0 \implies a = 3c$.
+7. Substitute $a = 3c$ and $b = -2c$ into $-3a - 5b = 1$: $-3(3c) - 5(-2c) = 1 \implies -9c + 10c = 1 \implies c = 1$.
+8. Substitute $c = 1$ into $a = 3c$ and $b = -2c$: $a = 3$, $b = -2$.
+9. Thus, $t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)$.
+10. Final answer: The change-of-coordinates matrix is $P_{\mathcal{E} \leftarrow \mathcal{B}} = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$, and $[t^2]_{\mathcal{B}} = \begin{bmatrix} 3 \\ -2 \\ 1 \end{bmatrix}$.

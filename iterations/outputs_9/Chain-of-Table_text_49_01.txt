@@ -1,0 +1,7 @@
+1. Write the equation $A = QR$ and note that $R = Q^T A$ since $Q$ has orthonormal columns: $R = Q^T A$.
+2. Compute $Q^T$: $Q^T = \begin{bmatrix} 5/6 & 1/6 & -3/6 & 1/6 \\ -1/6 & 5/6 & 1/6 & 3/6 \end{bmatrix}$.
+3. Multiply $Q^T$ by $A$ to get $R$: $R = \begin{bmatrix} 5/6 & 1/6 & -3/6 & 1/6 \\ -1/6 & 5/6 & 1/6 & 3/6 \end{bmatrix} \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} = \begin{bmatrix} (5/6)5 + (1/6)1 + (-3/6)(-3) + (1/6)1 & (5/6)9 + (1/6)7 + (-3/6)(-5) + (1/6)5 \\ (-1/6)5 + (5/6)1 + (1/6)(-3) + (3/6)1 & (-1/6)9 + (5/6)7 + (1/6)(-5) + (3/6)5 \end{bmatrix}$.
+4. Calculate each entry: $R_{11} = (25/6) + (1/6) + (9/6) + (1/6) = (36/6) = 6$, $R_{12} = (45/6) + (7/6) + (15/6) + (5/6) = (72/6) = 12$, $R_{21} = (-5/6) + (5/6) + (-3/6) + (3/6) = (0/6) = 0$, $R_{22} = (-9/6) + (35/6) + (-5/6) + (15/6) = (36/6) = 6$.
+5. Write the resulting upper triangular matrix: $R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}$.
+6. Check $QR = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \end{bmatrix} \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} = \begin{bmatrix} (5/6)6 + (-1/6)0 & (5/6)12 + (-1/6)6 \\ (1/6)6 + (5/6)0 & (1/6)12 + (5/6)6 \\ (-3/6)6 + (1/6)0 & (-3/6)12 + (1/6)6 \\ (1/6)6 + (3/6)0 & (1/6)12 + (3/6)6 \end{bmatrix} = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} = A$.
+7. Final answer: $R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}$.

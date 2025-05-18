@@ -1,0 +1,4 @@
+1. Express the general vector as $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} = a\begin{bmatrix} 3 \\ 0 \\ 1 \end{bmatrix} + b\begin{bmatrix} 1 \\ 0 \\ -5 \end{bmatrix} + 4\begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix}$.
+2. Note that the set $W$ consists of all vectors of the form $a\begin{bmatrix} 3 \\ 0 \\ 1 \end{bmatrix} + b\begin{bmatrix} 1 \\ 0 \\ -5 \end{bmatrix} + 4\begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix}$, where $a, b \in \mathbb{R}$.
+3. Since the second entry is always $4$, $W$ is not closed under addition or scalar multiplication; for example, $2\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} = \begin{bmatrix} 6a + 2b \\ 8 \\ 2a - 10b \end{bmatrix}$, which does not have $4$ as the second entry.
+4. Therefore, $W$ is not a vector space; for example, $\begin{bmatrix} 3 \\ 4 \\ 1 \end{bmatrix} \in W$ but $2\begin{bmatrix} 3 \\ 4 \\ 1 \end{bmatrix} = \begin{bmatrix} 6 \\ 8 \\ 2 \end{bmatrix} \notin W$.

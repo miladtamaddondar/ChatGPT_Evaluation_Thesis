@@ -1,0 +1,7 @@
+1. To show $T$ is a linear transformation, we seek a matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$, where $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix}$; this is valid since linear transformations from $\mathbb{R}^4$ to $\mathbb{R}^4$ can be represented by $4 \times 4$ matrices.
+2. The first component of $T(\mathbf{x})$ is always $0$, so the first row of $A$ must be $[0\ 0\ 0\ 0]$; this is correct since multiplying any vector by this row yields $0$.
+3. The second component is $x_1 + x_2$, so the second row of $A$ is $[1\ 1\ 0\ 0]$; this is correct because $1 \cdot x_1 + 1 \cdot x_2 + 0 \cdot x_3 + 0 \cdot x_4 = x_1 + x_2$.
+4. The third component is $x_2 + x_3$, so the third row of $A$ is $[0\ 1\ 1\ 0]$; this is correct because $0 \cdot x_1 + 1 \cdot x_2 + 1 \cdot x_3 + 0 \cdot x_4 = x_2 + x_3$.
+5. The fourth component is $x_3 + x_4$, so the fourth row of $A$ is $[0\ 0\ 1\ 1]$; this is correct because $0 \cdot x_1 + 0 \cdot x_2 + 1 \cdot x_3 + 1 \cdot x_4 = x_3 + x_4$.
+6. Thus, the matrix $A$ representing $T$ is $\begin{bmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}$; this is verified by matrix multiplication with any vector $\mathbf{x}$, which yields $T(\mathbf{x})$.
+7. Final answer: $T$ is a linear transformation and is implemented by the matrix $A = \begin{bmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix}$.

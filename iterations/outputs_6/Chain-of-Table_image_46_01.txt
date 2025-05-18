@@ -1,0 +1,7 @@
+1. Write the normal equations \(A^T A x = A^T b\): \(A^T A = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \end{bmatrix} = \begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix}\), \(A^T b = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 1 & 1 & 0 & 0 \\ 0 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 1 \\ 3 \\ 8 \\ 2 \end{bmatrix} = \begin{bmatrix} 1+3+8+2 \\ 1+3+0+0 \\ 0+0+8+2 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\).
+2. Form the augmented matrix for the normal equations: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 2 & 2 & 0 & 4 \\ 2 & 0 & 2 & 10 \end{array}\right]\).
+3. Row 2 = Row 2 - 0.5*Row 1: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 2 & 0 & 2 & 10 \end{array}\right]\).
+4. Row 3 = Row 3 - 0.5*Row 1: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 0 & -1 & 1 & 3 \end{array}\right]\).
+5. Row 3 = Row 3 + Row 2: \(\left[\begin{array}{ccc|c} 4 & 2 & 2 & 14 \\ 0 & 1 & -1 & -3 \\ 0 & 0 & 0 & 0 \end{array}\right]\).
+6. Back-substitute: Let \(x_3 = t\) (free variable), then from Row 2: \(x_2 - x_3 = -3 \implies x_2 = -3 + t\), from Row 1: \(4x_1 + 2x_2 + 2x_3 = 14\), substitute \(x_2\) and \(x_3\): \(4x_1 + 2(-3 + t) + 2t = 14 \implies 4x_1 - 6 + 2t + 2t = 14 \implies 4x_1 + 4t = 20 \implies x_1 + t = 5 \implies x_1 = 5 - t\).
+7. The least-squares solutions are all vectors of the form \(x = \begin{bmatrix} 5-t \\ -3+t \\ t \end{bmatrix}\), where \(t\) is any real number.

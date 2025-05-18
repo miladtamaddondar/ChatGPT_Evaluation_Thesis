@@ -1,0 +1,6 @@
+1. The vector $\begin{bmatrix}-1\\1\\2\end{bmatrix}$ gives the coordinates of $q$ in the basis $\mathcal{B} = \{p_1, p_2, p_3\}$, so $q = -1\cdot p_1 + 1\cdot p_2 + 2\cdot p_3$.
+2. Substitute the given polynomials: $q = -1(1 + t^2) + 1(t - 3t^2) + 2(1 + t - 3t^2)$.
+3. Distribute the coefficients: $q = (-1 - t^2) + (t - 3t^2) + (2 + 2t - 6t^2)$.
+4. Combine like terms: $q = (-1 + 2) + (t + 2t) + (-t^2 - 3t^2 - 6t^2)$.
+5. Simplify: $q = 1 + 3t - 10t^2$.
+6. Final answer: $q(t) = 1 + 3t - 10t^2$.

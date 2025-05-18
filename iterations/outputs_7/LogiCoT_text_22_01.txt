@@ -1,0 +1,4 @@
+1. The standard matrix for a rotation by angle $\theta$ counterclockwise in $\mathbb{R}^2$ is $\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$, which is derived from how the transformation acts on the standard basis vectors.
+2. For $\theta = \frac{3\pi}{2}$, we compute $\cos\left(\frac{3\pi}{2}\right) = 0$ and $\sin\left(\frac{3\pi}{2}\right) = -1$, using the unit circle definitions.
+3. Substituting these values, the standard matrix is $\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$, since $-\sin\theta = -(-1) = 1$ and $\cos\theta = 0$.
+4. The standard matrix of $T$ is $\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}$, which can be verified by checking that it rotates the vector $(1,0)$ to $(0,-1)$ and $(0,1)$ to $(1,0)$, as expected for a $270^\circ$ counterclockwise rotation.

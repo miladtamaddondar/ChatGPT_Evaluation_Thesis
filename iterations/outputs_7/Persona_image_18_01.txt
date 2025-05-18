@@ -1,0 +1,5 @@
+1. To diagonalize \( A \), first find its eigenvalues by solving \( \det(A - \lambda I) = 0 \): \( \det\begin{bmatrix} 0-\lambda & 1 \\ -3 & 4-\lambda \end{bmatrix} = (\lambda^2 - 4\lambda + 3) = 0 \).
+2. Solve the characteristic equation \( \lambda^2 - 4\lambda + 3 = 0 \) to get eigenvalues \( \lambda_1 = 1 \) and \( \lambda_2 = 3 \).
+3. For \( \lambda_1 = 1 \), solve \( (A - I)\vec{v} = 0 \): \( \begin{bmatrix} -1 & 1 \\ -3 & 3 \end{bmatrix}\vec{v} = 0 \), so \( v_2 = v_1 \), giving eigenvector \( \vec{v}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix} \).
+4. For \( \lambda_2 = 3 \), solve \( (A - 3I)\vec{v} = 0 \): \( \begin{bmatrix} -3 & 1 \\ -3 & 1 \end{bmatrix}\vec{v} = 0 \), so \( v_2 = 3v_1 \), giving eigenvector \( \vec{v}_2 = \begin{bmatrix} 1 \\ 3 \end{bmatrix} \).
+5. The basis \( \mathcal{B} = \left\{ \begin{bmatrix} 1 \\ 1 \end{bmatrix}, \begin{bmatrix} 1 \\ 3 \end{bmatrix} \right\} \) diagonalizes \( A \), so \( [T]_{\mathcal{B}} \) is diagonal.

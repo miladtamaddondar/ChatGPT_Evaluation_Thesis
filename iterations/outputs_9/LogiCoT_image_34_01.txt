@@ -1,0 +1,17 @@
+1. Write the vectors as columns of a matrix \( A = \begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 1 & -8 & -6 \\ 2 & -3 & 6 & 7 & 9 \end{bmatrix} \) to analyze their linear independence.  
+2. Use row reduction (Gaussian elimination) to row echelon form to determine which columns are linearly independent.  
+3. Subtract 1 times column 1 from column 4 and 2 times column 1 from column 5 to eliminate the first entry in columns 4 and 5: new columns 4 and 5 are \([0, -3, -5, 5]\) and \([0, 1, 0, 5]\) respectively.  
+4. Subtract 0 times column 2 from column 4 and 1 times column 2 from column 5 to eliminate the second entry in column 5: column 5 becomes \([0, 0, -2, 8]\).  
+5. Subtract \(-3\) times column 1 from column 3 to eliminate the third entry: column 3 becomes \([0, -4, 10, 12]\).  
+6. Now, the matrix is \(\begin{bmatrix} 1 & 0 & 0 & 0 & 0 \\ 0 & 1 & -4 & -3 & 0 \\ -3 & 2 & 10 & -5 & -2 \\ 2 & -3 & 12 & 5 & 8 \end{bmatrix}\); check for pivot columns by continuing row reduction.  
+7. For column 3, subtract \(-4\) times column 2 from column 3: column 3 becomes \([0, 0, 10 + 16, 12 + 12]\) or \([0, 0, 26, 24]\).  
+8. For column 4, add 3 times column 2 to column 4: column 4 becomes \([0, 0, -5 + 6, 5 - 9]\) or \([0, 0, 1, -4]\).  
+9. For column 5, no change needed as previous steps already made upper zeros.  
+10. Now, the matrix is \(\begin{bmatrix} 1 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 \\ -3 & 2 & 26 & 1 & -2 \\ 2 & -3 & 24 & -4 & 8 \end{bmatrix}\); continue to row reduce the lower 2x3 block.  
+11. Subtract \(-3\) times row 1 and 2 times row 2 from row 3: row 3 becomes \([0, 0, 26, 1, -2]\).  
+12. Subtract 2 times row 1 and \(-3\) times row 2 from row 4: row 4 becomes \([0, 0, 24, -4, 8]\).  
+13. Subtract \(\frac{24}{26}\) times row 3 from row 4 to eliminate the entry in column 3 of row 4: row 4 becomes \([0, 0, 0, -4 - \frac{24}{26}, 8 + \frac{48}{26}]\).  
+14. Simplify the new row 4: \(-4 - \frac{24}{26} = -4.923\), \(8 + \frac{48}{26} = 9.846\), so row 4 is \([0, 0, 0, -4.923, 9.846]\).  
+15. The leading entries (pivots) are in columns 1, 2, 3, and 4, so columns 1, 2, 3, and 4 are linearly independent.  
+16. Therefore, a basis for the space spanned by the vectors is \(\left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix} \right\}\).  
+17. Final answer: The set \(\left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} -3 \\ -4 \\ 1 \\ 6 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix} \right\}\) is a basis for the space spanned by the given vectors.

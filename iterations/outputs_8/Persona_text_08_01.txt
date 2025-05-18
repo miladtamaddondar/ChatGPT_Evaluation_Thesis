@@ -1,0 +1,6 @@
+1. To construct a \( 4 \times 3 \) matrix with rank 1, recall that all rows (or columns) must be scalar multiples of one another.  
+2. Choose a nonzero column vector \( \mathbf{u} = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix} \) in \( \mathbb{R}^4 \).  
+3. Choose a nonzero row vector \( \mathbf{v}^T = \begin{bmatrix} 5 & 6 & 7 \end{bmatrix} \) in \( \mathbb{R}^{1 \times 3} \).  
+4. Form the matrix \( A = \mathbf{u} \mathbf{v}^T \), which is the outer product and yields a \( 4 \times 3 \) matrix.  
+5. Compute \( A = \begin{bmatrix} 1 \\ 2 \\ 3 \\ 4 \end{bmatrix} \begin{bmatrix} 5 & 6 & 7 \end{bmatrix} = \begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix} \).  
+6. The final answer is \( \boxed{\begin{bmatrix} 5 & 6 & 7 \\ 10 & 12 & 14 \\ 15 & 18 & 21 \\ 20 & 24 & 28 \end{bmatrix}} \), which is a \( 4 \times 3 \) matrix of rank 1.

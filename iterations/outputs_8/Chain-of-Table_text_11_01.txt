@@ -1,0 +1,6 @@
+1. Set up the characteristic equation by subtracting $\lambda$ from the diagonal: $\begin{bmatrix}0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix}$.
+2. Write the determinant equation: $(0-\lambda)\begin{vmatrix}2-\lambda & 5 \\ 0 & 1-\lambda\end{vmatrix} = 0$.
+3. Compute the $2 \times 2$ determinant: $(0-\lambda)[(2-\lambda)(1-\lambda) - 0 \cdot 5] = 0$.
+4. Expand: $-\lambda(2-\lambda)(1-\lambda) = 0$.
+5. Set each factor to zero: $\lambda = 0$, $\lambda = 2$, $\lambda = 1$.
+6. Final answer: The eigenvalues are $\boxed{0,\,1,\,2}$.

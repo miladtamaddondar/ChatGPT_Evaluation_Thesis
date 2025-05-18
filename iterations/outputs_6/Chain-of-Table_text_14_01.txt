@@ -1,0 +1,9 @@
+1. Subtract $5I$ from $A$ to form $A - 5I$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+2. Add row 4 to row 3: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+3. Swap rows 3 and 4: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & -4 \\ 0 & 0 & 0 & 0\end{bmatrix}$.
+4. Multiply row 3 by $-1/4$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0\end{bmatrix}$.
+5. Add row 3 to row 1: $\begin{bmatrix}0 & -2 & 6 & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0\end{bmatrix}$.
+6. Add row 3 to row 2: $\begin{bmatrix}0 & -2 & 6 & 0 \\ 0 & -2 & h & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0\end{bmatrix}$.
+7. Multiply row 1 by $-1/2$: $\begin{bmatrix}0 & 1 & -3 & 0 \\ 0 & -2 & h & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0\end{bmatrix}$.
+8. Add $2$ times row 1 to row 2: $\begin{bmatrix}0 & 1 & -3 & 0 \\ 0 & 0 & h-6 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0\end{bmatrix}$.
+9. Final answer: For the eigenspace of $\lambda=5$ to be two-dimensional, set $h-6=0$, so $h=6$.

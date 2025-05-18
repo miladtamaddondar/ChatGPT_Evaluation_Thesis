@@ -1,0 +1,7 @@
+1. To find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), we need to find two different nonzero vectors in the null space of \(A\). Set up the equation \(A\vec{x} = 0\) where \(A = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix}\) and \(\vec{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\), giving the system: \(3x_1 - 6x_2 = 0\), \(-x_1 + 2x_2 = 0\).
+2. Write the augmented matrix and begin row reduction: \(\left[\begin{array}{cc|c} 3 & -6 & 0 \\ -1 & 2 & 0 \end{array}\right]\).
+3. Multiply Row 2 by 3 and add to Row 1: Row 1 = Row 1 + 3(Row 2): \(\left[\begin{array}{cc|c} 0 & 0 & 0 \\ -1 & 2 & 0 \end{array}\right]\).
+4. Multiply Row 2 by -1: Row 2 = -1(Row 2): \(\left[\begin{array}{cc|c} 0 & 0 & 0 \\ 1 & -2 & 0 \end{array}\right]\).
+5. The system reduces to \(x_1 - 2x_2 = 0\), so \(x_1 = 2x_2\). The general solution is \(\vec{x} = x_2 \begin{bmatrix} 2 \\ 1 \end{bmatrix}\).
+6. Choose two different nonzero values for \(x_2\), say \(x_2 = 1\) and \(x_2 = -1\), giving columns \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) and \(\begin{bmatrix} -2 \\ -1 \end{bmatrix}\).
+7. Thus, one possible matrix \(B\) is \(\boxed{B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}}\).

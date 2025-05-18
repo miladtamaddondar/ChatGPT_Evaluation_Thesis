@@ -1,0 +1,6 @@
+1. We are given \( T(\mathbf{x}) = x_1 \mathbf{v}_1 + x_2 \mathbf{v}_2 \), where \( \mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \), \( \mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \end{bmatrix} \), and \( \mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \end{bmatrix} \); we want a matrix \( A \) such that \( T(\mathbf{x}) = A\mathbf{x} \).  
+2. By linearity, \( T(\mathbf{x}) = x_1 \mathbf{v}_1 + x_2 \mathbf{v}_2 = x_1 \begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2 \begin{bmatrix} 7 \\ -3 \end{bmatrix} \); this can be written as \( \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix} \).  
+3. To express this as \( A\mathbf{x} \), we write \( A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \) and set \( A\mathbf{x} = \begin{bmatrix} a_{11}x_1 + a_{12}x_2 \\ a_{21}x_1 + a_{22}x_2 \end{bmatrix} \).  
+4. Matching coefficients, we see \( a_{11} = -2 \), \( a_{12} = 7 \), \( a_{21} = 5 \), and \( a_{22} = -3 \), so \( A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \).  
+5. Verification: \( A\mathbf{x} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} -2x_1 + 7x_2 \\ 5x_1 - 3x_2 \end{bmatrix} \), which matches \( T(\mathbf{x}) \).  
+6. Final answer: The matrix \( A \) is \( \boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}} \).

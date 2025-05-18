@@ -1,0 +1,11 @@
+1. To find the eigenspace for \(\lambda = 5\), solve \((A - 5I)\vec{x} = 0\).  
+2. Compute \(A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\).  
+3. Set up the homogeneous system: \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}\).  
+4. The last two equations are \(4x_4 = 0\) and \(-4x_4 = 0\), so \(x_4 = 0\).  
+5. Substitute \(x_4 = 0\) into the first two equations: \( -2x_2 + 6x_3 = 0 \) and \( -2x_2 + h x_3 = 0 \).  
+6. Write as a system: \( -2x_2 + 6x_3 = 0 \) and \( -2x_2 + h x_3 = 0 \).  
+7. Subtract the first from the second: \((h-6)x_3 = 0\).  
+8. For a two-dimensional eigenspace, we need a free variable, so set \(h = 6\) to make \(x_3\) free.  
+9. With \(h = 6\), the equations become identical: \( -2x_2 + 6x_3 = 0 \implies x_2 = 3x_3 \).  
+10. The general solution is \( x_1 \) free, \( x_2 = 3x_3 \), \( x_3 \) free, \( x_4 = 0 \), so the eigenspace is two-dimensional.  
+11. Final answer: \( h = 6 \) ensures the eigenspace for \(\lambda = 5\) is two-dimensional.

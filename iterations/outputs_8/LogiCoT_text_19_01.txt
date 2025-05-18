@@ -1,0 +1,8 @@
+1. The $\mathcal{B}$-matrix for $T$ is the matrix representation $[T]_{\mathcal{B}}$ of $T$ with respect to the basis $\mathcal{B}$, which is given by $[T]_{\mathcal{B}} = P^{-1}AP$, where $P$ is the change-of-basis matrix from $\mathcal{B}$ to the standard basis.  
+2. Construct $P$ by placing $\mathbf{b}_1$ and $\mathbf{b}_2$ as columns: $P = \begin{bmatrix} 1 & 5 \\ 1 & 4 \end{bmatrix}$.  
+3. Verify $P$ is invertible by checking $\det(P) = (1)(4) - (1)(5) = 4 - 5 = -1 \neq 0$, so $P$ is invertible.  
+4. Compute $P^{-1}$ using the formula for $2 \times 2$ matrices: $P^{-1} = \frac{1}{-1} \begin{bmatrix} 4 & -5 \\ -1 & 1 \end{bmatrix} = \begin{bmatrix} -4 & 5 \\ 1 & -1 \end{bmatrix}$.  
+5. Compute $AP$: $A = \begin{bmatrix} 1 & 1 \\ -1 & 3 \end{bmatrix}$, so $AP = \begin{bmatrix} 1 & 1 \\ -1 & 3 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 1 & 4 \end{bmatrix} = \begin{bmatrix} (1)(1)+(1)(1) & (1)(5)+(1)(4) \\ (-1)(1)+(3)(1) & (-1)(5)+(3)(4) \end{bmatrix} = \begin{bmatrix} 2 & 9 \\ 2 & 7 \end{bmatrix}$.  
+6. Compute $[T]_{\mathcal{B}} = P^{-1}AP = P^{-1}(AP)$: $[T]_{\mathcal{B}} = \begin{bmatrix} -4 & 5 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 2 & 9 \\ 2 & 7 \end{bmatrix}$.  
+7. Multiply the matrices: First row: $(-4)(2)+(5)(2) = -8+10=2$, $(-4)(9)+(5)(7) = -36+35=-1$; Second row: $(1)(2)+(-1)(2)=2-2=0$, $(1)(9)+(-1)(7)=9-7=2$; so $[T]_{\mathcal{B}} = \begin{bmatrix} 2 & -1 \\ 0 & 2 \end{bmatrix}$.  
+8. Final answer: The $\mathcal{B}$-matrix for $T$ is $\boxed{\begin{bmatrix} 2 & -1 \\ 0 & 2 \end{bmatrix}}$.

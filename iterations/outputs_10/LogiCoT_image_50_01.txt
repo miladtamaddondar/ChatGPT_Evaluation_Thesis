@@ -1,0 +1,17 @@
+1. The inner product on \( \mathbb{P}_3 \) is defined as \( \langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3) \); this is a valid inner product because it is linear, symmetric, and positive definite for polynomials evaluated at four distinct points.  
+2. To project \( p_2 \) onto the subspace spanned by \( p_0 \) and \( p_1 \), we use the formula \( \text{proj}_W(p_2) = a_0 p_0 + a_1 p_1 \), where \( a_0 = \frac{\langle p_2, p_0 \rangle}{\langle p_0, p_0 \rangle} \) and \( a_1 = \frac{\langle p_2, p_1 \rangle}{\langle p_1, p_1 \rangle} \) because \( p_0 \) and \( p_1 \) are orthogonal (as shown below).  
+3. Compute \( \langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4 \); this is correct since \( p_0(t) = 1 \) for all \( t \).  
+4. Compute \( \langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20 \); this is correct since \( p_1(t) = t \).  
+5. Compute \( \langle p_0, p_1 \rangle = 1 \cdot (-3) + 1 \cdot (-1) + 1 \cdot 1 + 1 \cdot 3 = -3 - 1 + 1 + 3 = 0 \); this confirms \( p_0 \) and \( p_1 \) are orthogonal.  
+6. Compute \( \langle p_2, p_0 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20 \); this is correct since \( p_2(t) = t^2 \) and \( p_0(t) = 1 \).  
+7. Compute \( \langle p_2, p_1 \rangle = (-3)^2 \cdot (-3) + (-1)^2 \cdot (-1) + 1^2 \cdot 1 + 3^2 \cdot 3 = 9 \cdot (-3) + 1 \cdot (-1) + 1 \cdot 1 + 9 \cdot 3 = -27 - 1 + 1 + 27 = 0 \); this is correct.  
+8. Thus, \( a_0 = \frac{20}{4} = 5 \) and \( a_1 = \frac{0}{20} = 0 \), so the projection is \( 5p_0 \).  
+9. The orthogonal projection of \( p_2 \) onto the subspace spanned by \( p_0 \) and \( p_1 \) is \( 5 \).  
+10. To find a polynomial \( q \) orthogonal to \( p_0 \) and \( p_1 \), let \( q(t) = at^2 + bt + c \) and solve \( \langle q, p_0 \rangle = 0 \) and \( \langle q, p_1 \rangle = 0 \).  
+11. \( \langle q, p_0 \rangle = a \langle p_2, p_0 \rangle + b \langle p_1, p_0 \rangle + c \langle p_0, p_0 \rangle = a \cdot 20 + b \cdot 0 + c \cdot 4 = 20a + 4c = 0 \).  
+12. \( \langle q, p_1 \rangle = a \langle p_2, p_1 \rangle + b \langle p_1, p_1 \rangle + c \langle p_0, p_1 \rangle = a \cdot 0 + b \cdot 20 + c \cdot 0 = 20b = 0 \), so \( b = 0 \).  
+13. From \( 20a + 4c = 0 \), we get \( c = -5a \).  
+14. So \( q(t) = a t^2 - 5a \); choose \( a = 1 \) for simplicity, so \( q(t) = t^2 - 5 \).  
+15. Evaluate \( q \) at \( -3, -1, 1, 3 \): \( q(-3) = 9 - 5 = 4 \), \( q(-1) = 1 - 5 = -4 \), \( q(1) = 1 - 5 = -4 \), \( q(3) = 9 - 5 = 4 \); so the vector is \( (4, -4, -4, 4) \).  
+16. To scale \( q \) so its vector of values is \( (1, -1, -1, 1) \), divide by 4: \( q(t) = \frac{1}{4}(t^2 - 5) \).  
+17. The required polynomial is \( q(t) = \frac{1}{4}(t^2 - 5) \), which is orthogonal to \( p_0 \) and \( p_1 \), and its values at \( (-3, -1, 1, 3) \) are \( (1, -1, -1, 1) \).

@@ -1,0 +1,10 @@
+1. To find the coordinate vector of $p(t)$ relative to $\mathcal{B}$, express $p(t)$ as a linear combination: $p(t) = a(1+t^2) + b(t+t^2) + c(1+2t+t^2)$.  
+2. Expand the right side: $a(1+t^2) + b(t+t^2) + c(1+2t+t^2) = a + at^2 + bt + bt^2 + c + 2ct + ct^2$.  
+3. Combine like terms: $(a+c) + (b+2c)t + (a+b+c)t^2$.  
+4. Set coefficients equal to those in $p(t) = 1 + 4t + 7t^2$ to get the system: $a+c=1$, $b+2c=4$, $a+b+c=7$.  
+5. Verify the system by matching coefficients: constant term $a+c=1$, $t$ term $b+2c=4$, $t^2$ term $a+b+c=7$; all correct.  
+6. Solve $a+c=1$ for $a$: $a=1-c$.  
+7. Substitute $a=1-c$ into $a+b+c=7$: $(1-c)+b+c=7 \implies 1+b=7 \implies b=6$.  
+8. Substitute $b=6$ into $b+2c=4$: $6+2c=4 \implies 2c=-2 \implies c=-1$.  
+9. Substitute $c=-1$ into $a=1-c$: $a=1-(-1)=2$.  
+10. The coordinate vector of $p(t)$ relative to $\mathcal{B}$ is $\begin{bmatrix}2\\6\\-1\end{bmatrix}$.

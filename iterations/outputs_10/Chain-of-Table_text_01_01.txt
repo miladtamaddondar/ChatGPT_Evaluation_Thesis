@@ -1,0 +1,7 @@
+1. Write the augmented matrix with the identity: \(\left[\begin{array}{cc|cc}8 & 6 & 1 & 0 \\ 5 & 4 & 0 & 1\end{array}\right]\).
+2. Row 1 ← Row 1 - (8/5)×Row 2: \(\left[\begin{array}{cc|cc}0 & 6 - (8/5)\times4 & 1 - (8/5)\times0 & 0 - (8/5)\times1 \\ 5 & 4 & 0 & 1\end{array}\right] = \left[\begin{array}{cc|cc}0 & 6 - 32/5 & 1 & -8/5 \\ 5 & 4 & 0 & 1\end{array}\right] = \left[\begin{array}{cc|cc}0 & -2/5 & 1 & -8/5 \\ 5 & 4 & 0 & 1\end{array}\right]\).
+3. Row 1 ← Row 1 × (-5/2): \(\left[\begin{array}{cc|cc}0 & 1 & -5/2 & 4 \\ 5 & 4 & 0 & 1\end{array}\right]\).
+4. Row 2 ← Row 2 - 4×Row 1: \(\left[\begin{array}{cc|cc}0 & 1 & -5/2 & 4 \\ 5 & 0 & 0 + 4\times(5/2) & 1 - 4\times4\end{array}\right] = \left[\begin{array}{cc|cc}0 & 1 & -5/2 & 4 \\ 5 & 0 & 10 & -15\end{array}\right]\).
+5. Row 2 ← Row 2 × (1/5): \(\left[\begin{array}{cc|cc}0 & 1 & -5/2 & 4 \\ 1 & 0 & 2 & -3\end{array}\right]\).
+6. Row 1 ↔ Row 2: \(\left[\begin{array}{cc|cc}1 & 0 & 2 & -3 \\ 0 & 1 & -5/2 & 4\end{array}\right]\).
+7. Final answer: The inverse is \(\begin{bmatrix}2 & -3 \\ -\frac{5}{2} & 4\end{bmatrix}\).

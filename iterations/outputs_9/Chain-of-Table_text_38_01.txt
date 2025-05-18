@@ -1,0 +1,8 @@
+1. Write the equation $a(1) + b(2t) + c(-2 + 4t^2) + d(-12t + 8t^3) = 7 - 12t - 8t^2 + 12t^3$ and collect like terms to get $a - 2c = 7$, $2b - 12d = -12$, $4c = -8$, $8d = 12$.
+2. Write the corresponding augmented matrix: $\begin{bmatrix} 1 & 0 & -2 & 0 & | & 7 \\ 0 & 2 & 0 & -12 & | & -12 \\ 0 & 0 & 4 & 0 & | & -8 \\ 0 & 0 & 0 & 8 & | & 12 \end{bmatrix}$.
+3. Row 3: $R_3 \to \frac{1}{4}R_3$ gives $\begin{bmatrix} 1 & 0 & -2 & 0 & | & 7 \\ 0 & 2 & 0 & -12 & | & -12 \\ 0 & 0 & 1 & 0 & | & -2 \\ 0 & 0 & 0 & 8 & | & 12 \end{bmatrix}$.
+4. Row 4: $R_4 \to \frac{1}{8}R_4$ gives $\begin{bmatrix} 1 & 0 & -2 & 0 & | & 7 \\ 0 & 2 & 0 & -12 & | & -12 \\ 0 & 0 & 1 & 0 & | & -2 \\ 0 & 0 & 0 & 1 & | & \frac{3}{2} \end{bmatrix}$.
+5. Row 2: $R_2 \to R_2 + 12R_4$ gives $\begin{bmatrix} 1 & 0 & -2 & 0 & | & 7 \\ 0 & 2 & 0 & 0 & | & 6 \\ 0 & 0 & 1 & 0 & | & -2 \\ 0 & 0 & 0 & 1 & | & \frac{3}{2} \end{bmatrix}$.
+6. Row 2: $R_2 \to \frac{1}{2}R_2$ gives $\begin{bmatrix} 1 & 0 & -2 & 0 & | & 7 \\ 0 & 1 & 0 & 0 & | & 3 \\ 0 & 0 & 1 & 0 & | & -2 \\ 0 & 0 & 0 & 1 & | & \frac{3}{2} \end{bmatrix}$.
+7. Row 1: $R_1 \to R_1 + 2R_3$ gives $\begin{bmatrix} 1 & 0 & 0 & 0 & | & 3 \\ 0 & 1 & 0 & 0 & | & 3 \\ 0 & 0 & 1 & 0 & | & -2 \\ 0 & 0 & 0 & 1 & | & \frac{3}{2} \end{bmatrix}$.
+8. Final answer: The coordinate vector of $p$ relative to $\mathcal{B}$ is $\begin{bmatrix} 3 \\ 3 \\ -2 \\ \frac{3}{2} \end{bmatrix}$.

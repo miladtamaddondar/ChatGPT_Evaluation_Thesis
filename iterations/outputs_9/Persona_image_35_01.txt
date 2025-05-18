@@ -1,0 +1,8 @@
+1. To find the coordinate vector of \( p(t) = 1 + 4t + 7t^2 \) relative to \( \mathcal{B} = \{1 + t^2,\, t + t^2,\, 1 + 2t + t^2\} \), write \( p(t) = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) \).
+2. Expand the right side: \( a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) = (a + c) + (b + 2c)t + (a + b + c)t^2 \).
+3. Set coefficients equal to those in \( p(t) \): \( a + c = 1 \), \( b + 2c = 4 \), \( a + b + c = 7 \).
+4. Solve for \( a \) and \( c \) from \( a + c = 1 \Rightarrow a = 1 - c \).
+5. Substitute \( a = 1 - c \) into \( a + b + c = 7 \): \( (1 - c) + b + c = 7 \Rightarrow 1 + b = 7 \Rightarrow b = 6 \).
+6. Substitute \( b = 6 \) into \( b + 2c = 4 \): \( 6 + 2c = 4 \Rightarrow 2c = -2 \Rightarrow c = -1 \).
+7. Substitute \( c = -1 \) into \( a = 1 - c \): \( a = 1 - (-1) = 2 \).
+8. The coordinate vector of \( p(t) \) relative to \( \mathcal{B} \) is \( \boxed{\begin{pmatrix} 2 \\ 6 \\ -1 \end{pmatrix}} \).

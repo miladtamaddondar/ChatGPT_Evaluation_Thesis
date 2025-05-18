@@ -1,0 +1,7 @@
+1. To find a matrix \( B \) such that \( AB = 0 \), we need the columns of \( B \) to be in the null space of \( A \); let's first find the null space of \( A \) by solving \( A\mathbf{x} = 0 \), i.e., \(\begin{bmatrix}3 & -6 \\ 1 &  -2\end{bmatrix}\begin{bmatrix}x_1 \\ x_2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix}\).
+2. Writing the system: \(3x_1 - 6x_2 = 0\) and \(x_1 - 2x_2 = 0\).
+3. The second equation gives \(x_1 = 2x_2\); substituting into the first equation, \(3(2x_2) - 6x_2 = 0 \implies 6x_2 - 6x_2 = 0\), which is always true, so the solution is all scalar multiples of \(\begin{bmatrix}2 \\ 1\end{bmatrix}\).
+4. Therefore, any vector of the form \(\mathbf{x} = t\begin{bmatrix}2 \\ 1\end{bmatrix}\) is in the null space; let's pick two different nonzero values for \(t\), say \(t=1\) and \(t=-1\), giving columns \(\begin{bmatrix}2 \\ 1\end{bmatrix}\) and \(\begin{bmatrix}-2 \\ -1\end{bmatrix}\).
+5. Construct \(B\) with these columns: \(B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix}\).
+6. Verify \(AB = 0\): \(A\begin{bmatrix}2 \\ 1\end{bmatrix} = \begin{bmatrix}3*2 + (-6)*1 \\ 1*2 + (-2)*1\end{bmatrix} = \begin{bmatrix}6 - 6 \\ 2 - 2\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix}\), and similarly for the second column.
+7. Final answer: The required matrix is \(B = \begin{bmatrix}2 & -2 \\ 1 & -1\end{bmatrix}\), whose columns are two different nonzero vectors in the null space of \(A\), so \(AB = 0\).

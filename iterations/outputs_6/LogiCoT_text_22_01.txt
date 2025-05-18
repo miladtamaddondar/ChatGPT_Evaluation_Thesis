@@ -1,0 +1,4 @@
+1. To find the standard matrix of $T$, recall that the standard matrix for a counterclockwise rotation by angle $\theta$ in $\mathbb{R}^2$ is $\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$; this formula is derived from the action of rotation on the standard basis vectors.  
+2. Substitute $\theta = \frac{3\pi}{2}$ into the formula: $\cos\left(\frac{3\pi}{2}\right) = 0$ and $\sin\left(\frac{3\pi}{2}\right) = -1$, so the matrix becomes $\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix}$.  
+3. Simplify the matrix: $-(-1) = 1$, so the matrix is $\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$; this is verified by checking the rotation of the standard basis vectors $(1,0)$ and $(0,1)$.  
+4. Final answer: The standard matrix of $T$ is $\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}$.

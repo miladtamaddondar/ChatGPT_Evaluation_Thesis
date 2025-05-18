@@ -1,0 +1,12 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we seek $\mathbf{v}$ such that $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$.
+2. Let $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, then the orthogonality conditions are: $1x + 1y - 2z = 0$ and $5x - 1y + 2z = 0$.
+3. Write the system as a matrix equation: $\begin{bmatrix} 1 & 1 & -2 \\ 5 & -1 & 2 \end{bmatrix} \begin{bmatrix} x \\ y \\ z \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$.
+4. To find a nontrivial solution, note that the system is underdetermined (2 equations, 3 unknowns), so the solution space is at least one-dimensional.
+5. Solve the first equation for $y$: $x + y - 2z = 0 \implies y = 2z - x$.
+6. Substitute $y$ into the second equation: $5x - (2z - x) + 2z = 0 \implies 5x - 2z + x + 2z = 0$.
+7. Simplify: $5x - 2z + x + 2z = 6x = 0 \implies x = 0$.
+8. Substitute $x = 0$ into $y = 2z - x$ to get $y = 2z$.
+9. Thus, the general solution is $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix} = z \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$ for any $z \neq 0$.
+10. Choose $z = 1$ for a nonzero vector: $\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$.
+11. Verify: $\mathbf{u}_1 \cdot \mathbf{v} = 1 \cdot 0 + 1 \cdot 2 + (-2) \cdot 1 = 0$, $\mathbf{u}_2 \cdot \mathbf{v} = 5 \cdot 0 + (-1) \cdot 2 + 2 \cdot 1 = 0$.
+12. Final answer: A nonzero vector in $\mathbb{R}^3$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$.

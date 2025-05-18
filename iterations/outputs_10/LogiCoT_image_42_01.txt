@@ -1,0 +1,24 @@
+1. To write \(\mathbf{y}\) as the sum of a vector in \(W\) and a vector orthogonal to \(W\), we need to project \(\mathbf{y}\) onto the subspace \(W\) spanned by \(\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\) and subtract this projection from \(\mathbf{y}\).  
+2. Let \(\mathbf{U} = [\mathbf{u}_1 \ \mathbf{u}_2 \ \mathbf{u}_3]\), so \(\mathbf{U}\) is a \(4 \times 3\) matrix; the projection of \(\mathbf{y}\) onto \(W\) is \(\mathbf{p} = \mathbf{U}(\mathbf{U}^T\mathbf{U})^{-1}\mathbf{U}^T\mathbf{y}\).  
+3. Compute \(\mathbf{U}^T\mathbf{U}\): \(\mathbf{U}^T\mathbf{U} = \begin{bmatrix}1&1&0&1\\-1&3&1&-2\\-1&0&1&1\end{bmatrix}^T\begin{bmatrix}1&-1&-1\\1&3&0\\0&1&1\\1&-2&1\end{bmatrix} = \begin{bmatrix}3&0&2\\0&15&-4\\2&-4&3\end{bmatrix}\) (verified by matrix multiplication).  
+4. Compute \(\mathbf{U}^T\mathbf{y}\): \(\mathbf{U}^T\mathbf{y} = \begin{bmatrix}4+3+0-1=6\\-4+9+3+2=10\\-4+0+3-1=-2\end{bmatrix} = \begin{bmatrix}6\\10\\-2\end{bmatrix}\) (verified by dot product).  
+5. Solve \((\mathbf{U}^T\mathbf{U})\mathbf{c} = \mathbf{U}^T\mathbf{y}\) for \(\mathbf{c}\): \(\begin{bmatrix}3&0&2\\0&15&-4\\2&-4&3\end{bmatrix}\begin{bmatrix}c_1\\c_2\\c_3\end{bmatrix} = \begin{bmatrix}6\\10\\-2\end{bmatrix}\).  
+6. Solve for \(c_2\) from the second row: \(15c_2 - 4c_3 = 10 \implies c_2 = \frac{10 + 4c_3}{15}\).  
+7. Substitute \(c_2\) into the third row: \(2c_1 - 4c_2 + 3c_3 = -2\).  
+8. Substitute \(c_2\) into the first row: \(3c_1 + 2c_3 = 6\), so \(c_1 = \frac{6 - 2c_3}{3}\).  
+9. Substitute \(c_1\) and \(c_2\) into the third equation: \(2\left(\frac{6-2c_3}{3}\right) - 4\left(\frac{10+4c_3}{15}\right) + 3c_3 = -2\).  
+10. Simplify: \(\frac{12-4c_3}{3} - \frac{40+16c_3}{15} + 3c_3 = -2\).  
+11. Combine terms over common denominator 15: \(\frac{60-20c_3-40-16c_3+45c_3}{15} = -2\).  
+12. Simplify numerator: \(60-40 = 20\), \(-20c_3-16c_3+45c_3 = 9c_3\), so \(\frac{20+9c_3}{15} = -2\).  
+13. Multiply both sides by 15: \(20 + 9c_3 = -30\), so \(9c_3 = -50\), \(c_3 = -\frac{50}{9}\).  
+14. Substitute \(c_3\) into \(c_2 = \frac{10 + 4c_3}{15} = \frac{10 + 4(-50/9)}{15} = \frac{10 - 200/9}{15} = \frac{90/9 - 200/9}{15} = \frac{-110/9}{15} = -\frac{110}{135} = -\frac{22}{27}\).  
+15. Substitute \(c_3\) into \(c_1 = \frac{6 - 2c_3}{3} = \frac{6 - 2(-50/9)}{3} = \frac{6 + 100/9}{3} = \frac{54/9 + 100/9}{3} = \frac{154/9}{3} = \frac{154}{27}\).  
+16. The projection is \(\mathbf{p} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 = \frac{154}{27}\mathbf{u}_1 - \frac{22}{27}\mathbf{u}_2 - \frac{50}{9}\mathbf{u}_3\).  
+17. Compute \(\mathbf{p} = \frac{154}{27}\begin{bmatrix}1\\1\\0\\1\end{bmatrix} - \frac{22}{27}\begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} - \frac{50}{9}\begin{bmatrix}-1\\0\\1\\1\end{bmatrix}\).  
+18. Calculate each component: First, \(\frac{154}{27}\begin{bmatrix}1\\1\\0\\1\end{bmatrix} = \begin{bmatrix}\frac{154}{27}\\\frac{154}{27}\\0\\\frac{154}{27}\end{bmatrix}\), \(-\frac{22}{27}\begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} = \begin{bmatrix}\frac{22}{27}\\-\frac{66}{27}\\-\frac{22}{27}\\\frac{44}{27}\end{bmatrix}\), \(-\frac{50}{9}\begin{bmatrix}-1\\0\\1\\1\end{bmatrix} = \begin{bmatrix}\frac{50}{9}\\0\\-\frac{50}{9}\\-\frac{50}{9}\end{bmatrix}\).  
+19. Add the three vectors: \(\mathbf{p} = \begin{bmatrix}\frac{154}{27}+\frac{22}{27}+\frac{50}{9}\\\frac{154}{27}-\frac{66}{27}+0\\0-\frac{22}{27}-\frac{50}{9}\\\frac{154}{27}+\frac{44}{27}-\frac{50}{9}\end{bmatrix}\).  
+20. Simplify each entry: \(\frac{154}{27}+\frac{22}{27}+\frac{150}{27} = \frac{326}{27}\), \(\frac{154}{27}-\frac{66}{27} = \frac{88}{27}\), \(0-\frac{22}{27}-\frac{150}{27} = -\frac{172}{27}\), \(\frac{154}{27}+\frac{44}{27}-\frac{150}{27} = \frac{48}{27} = \frac{16}{9}\).  
+21. Thus, \(\mathbf{p} = \begin{bmatrix}\frac{326}{27}\\\frac{88}{27}\\-\frac{172}{27}\\\frac{16}{9}\end{bmatrix}\) is the projection of \(\mathbf{y}\) onto \(W\).  
+22. The orthogonal component is \(\mathbf{y} - \mathbf{p} = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}\frac{326}{27}\\\frac{88}{27}\\-\frac{172}{27}\\\frac{16}{9}\end{bmatrix} = \begin{bmatrix}4 - \frac{326}{27}\\3 - \frac{88}{27}\\3 + \frac{172}{27}\\-1 - \frac{16}{9}\end{bmatrix}\).  
+23. Simplify: \(4 - \frac{326}{27} = \frac{108-326}{27} = -\frac{218}{27}\), \(3 - \frac{88}{27} = \frac{81-88}{27} = -\frac{7}{27}\), \(3 + \frac{172}{27} = \frac{81+172}{27} = \frac{253}{27}\), \(-1 - \frac{16}{9} = -\frac{9+16}{9} = -\frac{25}{9}\).  
+24. Therefore, the final answer is: \(\mathbf{y} = \begin{bmatrix}\frac{326}{27}\\\frac{88}{27}\\-\frac{172}{27}\\\frac{16}{9}\end{bmatrix} + \begin{bmatrix}-\frac{218}{27}\\-\frac{7}{27}\\\frac{253}{27}\\-\frac{25}{9}\end{bmatrix}\), where the first vector is in \(W\) and the second is orthogonal to \(W\).

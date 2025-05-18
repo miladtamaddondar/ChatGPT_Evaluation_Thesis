@@ -1,0 +1,8 @@
+1. Write each vector in $\mathcal{B}$ in terms of the standard basis and form the matrix: $\left[\begin{array}{ccc|c} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ -3 & -5 & 0 & 1 \end{array}\right]$ (columns are $1-3t^2$, $2+t-5t^2$, $1+2t$; right side is $t^2$).
+2. $R_1 \leftrightarrow R_3$: $\left[\begin{array}{ccc|c} -3 & -5 & 0 & 1 \\ 0 & 1 & 2 & 0 \\ 1 & 2 & 1 & 0 \end{array}\right]$
+3. $R_1 \to -\frac{1}{3}R_1$: $\left[\begin{array}{ccc|c} 1 & \frac{5}{3} & 0 & -\frac{1}{3} \\ 0 & 1 & 2 & 0 \\ 1 & 2 & 1 & 0 \end{array}\right]$
+4. $R_3 \to R_3 - R_1$: $\left[\begin{array}{ccc|c} 1 & \frac{5}{3} & 0 & -\frac{1}{3} \\ 0 & 1 & 2 & 0 \\ 0 & \frac{1}{3} & 1 & \frac{1}{3} \end{array}\right]$
+5. $R_3 \to R_3 - \frac{1}{3}R_2$: $\left[\begin{array}{ccc|c} 1 & \frac{5}{3} & 0 & -\frac{1}{3} \\ 0 & 1 & 2 & 0 \\ 0 & 0 & 1 & \frac{1}{3} \end{array}\right]$
+6. $R_2 \to R_2 - 2R_3$: $\left[\begin{array}{ccc|c} 1 & \frac{5}{3} & 0 & -\frac{1}{3} \\ 0 & 1 & 0 & -\frac{2}{3} \\ 0 & 0 & 1 & \frac{1}{3} \end{array}\right]$
+7. $R_1 \to R_1 - \frac{5}{3}R_2$: $\left[\begin{array}{ccc|c} 1 & 0 & 0 & 1 \\ 0 & 1 & 0 & -\frac{2}{3} \\ 0 & 0 & 1 & \frac{1}{3} \end{array}\right]$
+8. Final answer: The change-of-coordinates matrix from $\mathcal{B}$ to the standard basis is $\begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$, and $[t^2]_{\mathcal{B}} = \begin{bmatrix} 1 \\ -\frac{2}{3} \\ \frac{1}{3} \end{bmatrix}$.

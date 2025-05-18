@@ -1,0 +1,16 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A-5I$:\[A-5I = \begin{bmatrix}0 & -2 & 6 & -1 \\0 & -2 & h & 0 \\0 & 0 & 0 & 4 \\0 & 0 & 0 & -4\end{bmatrix}\].
+2. The eigenspace dimension is the nullity of $A-5I$, so we row-reduce $A-5I$ to find when the nullity is $2$.
+3. The last two rows are $[0\ 0\ 0\ 4]$ and $[0\ 0\ 0\ -4]$, which are linearly dependent, so we can subtract row 3 from row 4 to get a row of zeros: $[0\ 0\ 0\ -4] - [0\ 0\ 0\ 4] = [0\ 0\ 0\ -8]$.
+4. Divide row 3 by $4$ to get $[0\ 0\ 0\ 1]$ and row 4 by $-8$ to get $[0\ 0\ 0\ 1]$; subtracting row 3 from row 4 gives $[0\ 0\ 0\ 0]$.
+5. Now the matrix is \(\begin{bmatrix}0 & -2 & 6 & -1 \\0 & -2 & h & 0 \\0 & 0 & 0 & 1 \\0 & 0 & 0 & 0\end{bmatrix}\), so the rank is at least $3$ unless the first two rows are linearly dependent.
+6. For the nullity to be $2$, the rank must be $2$, so the first two rows must be linearly dependent: $[0\ -2\ 6\ -1] = k[0\ -2\ h\ 0]$ for some $k$.
+7. Comparing the first entries: $0=0$, second: $-2 = k(-2)$, so $k=1$.
+8. Third entry: $6 = 1 \cdot h \implies h=6$.
+9. Fourth entry: $-1 = 1 \cdot 0 = 0$, which is not satisfied, so the only way for the first two rows to be linearly dependent is if $-1=0$, which is not possible.
+10. Alternatively, set $h$ so that the second row is a multiple of the first except for the last entry, but since the last entry is $-1$ in the first row and $0$ in the second, this is only possible if $-1=0$, which cannot happen.
+11. Instead, consider the possibility that the third and fourth rows are linearly dependent, which they are, so the rank is at most $3$.
+12. For the nullity to be $2$, the rank must be $2$, so the first two rows must be linearly dependent, which again leads to $h=6$ and $-1=0$, a contradiction.
+13. Therefore, the only way for the nullity to be $2$ is if the third and fourth rows are both zero, i.e., $[0\ 0\ 0\ 4]$ and $[0\ 0\ 0\ -4]$ both zero, which is not possible unless $4=0$.
+14. Re-examine: the third and fourth rows correspond to $x_4=0$, so the solution space is determined by the first two rows.
+15. The system reduces to two equations in three variables ($x_2, x_3, x_4=0$), so for the nullity to be $2$, the two equations must be linearly dependent, i.e., $h=6$.
+16. Therefore, the value of $h$ that makes the eigenspace for $\lambda=5$ two-dimensional is $\boxed{h=6}$.

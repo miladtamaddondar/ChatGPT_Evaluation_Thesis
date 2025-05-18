@@ -1,0 +1,2 @@
+1. Notice that each column \( Qr_i \) is the product of \( Q \) and the vector \( r_i \), so the matrix \([Qr_1 \ Qr_2 \ \ldots \ Qr_p]\) is \( Q \) times the matrix whose columns are \( r_1, \ldots, r_p \): \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q [r_1 \ r_2 \ \ldots \ r_p]\).
+2. Therefore, the answer is: \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q \begin{bmatrix} r_1 & r_2 & \cdots & r_p \end{bmatrix}\).

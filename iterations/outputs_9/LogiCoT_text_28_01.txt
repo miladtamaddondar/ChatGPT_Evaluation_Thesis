@@ -1,0 +1,5 @@
+1. Recognize that $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$ is a linear combination of $\mathbf{v}_1$ and $\mathbf{v}_2$, where $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, $\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \end{bmatrix}$, and $\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \end{bmatrix}$.
+2. By the definition of matrix multiplication, $A\mathbf{x} = x_1\mathbf{a}_1 + x_2\mathbf{a}_2$ where $\mathbf{a}_1$ and $\mathbf{a}_2$ are the columns of $A$; thus, set $\mathbf{a}_1 = \mathbf{v}_1$ and $\mathbf{a}_2 = \mathbf{v}_2$.
+3. Therefore, $A = \begin{bmatrix} \mathbf{v}_1 & \mathbf{v}_2 \end{bmatrix} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.
+4. Verification: $A\mathbf{x} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix} = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$, which matches $T(\mathbf{x})$.
+5. Final answer: The matrix $A$ is $\boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}}$.

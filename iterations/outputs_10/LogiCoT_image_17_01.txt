@@ -1,0 +1,7 @@
+1. To find the image under \( T \) of \( p(t) = 5 + 3t \), first evaluate \( p(-1) \), \( p(0) \), and \( p(1) \): \( p(-1) = 5 + 3(-1) = 2 \), \( p(0) = 5 + 3(0) = 5 \), \( p(1) = 5 + 3(1) = 8 \).  
+2. Therefore, \( T(p) = \begin{bmatrix} 2 \\ 5 \\ 8 \end{bmatrix} \); this follows directly from the definition of \( T \) and the values computed.  
+3. To find the matrix for \( T \) relative to the basis \( \{1, t, t^2\} \) for \( \mathbb{P}_2 \) and the standard basis for \( \mathbb{R}^3 \), apply \( T \) to each basis vector:  
+4. For \( 1 \): \( T(1) = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix} \) because \( 1 \) evaluated at any \( t \) is 1.  
+5. For \( t \): \( T(t) = \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix} \) because \( t \) evaluated at \(-1, 0, 1\) gives \(-1, 0, 1\).  
+6. For \( t^2 \): \( T(t^2) = \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix} \) because \( t^2 \) evaluated at \(-1, 0, 1\) gives \(1, 0, 1\).  
+7. The matrix for \( T \) is formed by placing these results as columns: \( \begin{bmatrix} 1 & -1 & 1 \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{bmatrix} \); this is correct as each column corresponds to the image of a basis vector under \( T \).

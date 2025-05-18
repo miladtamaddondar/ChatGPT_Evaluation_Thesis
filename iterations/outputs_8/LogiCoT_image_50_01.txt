@@ -1,0 +1,16 @@
+1. The inner product on \( \mathbb{P}_3 \) is defined as \( \langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3) \); verify by evaluating for any polynomials \( f \) and \( g \).  
+2. To project \( p_2 \) onto \( \text{Span}\{p_0, p_1\} \), use \( \text{proj}_W(p_2) = \sum_{i=0}^1 \frac{\langle p_2, p_i \rangle}{\langle p_i, p_i \rangle} p_i \); this follows from the formula for orthogonal projection in an inner product space.  
+3. Compute \( \langle p_2, p_0 \rangle = p_2(-3)p_0(-3) + p_2(-1)p_0(-1) + p_2(1)p_0(1) + p_2(3)p_0(3) = 9+1+1+9 = 20 \); this uses the definition of the inner product and the values of \( p_2 \) and \( p_0 \).  
+4. Compute \( \langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4 \); this is correct since \( p_0(t) = 1 \) for all \( t \).  
+5. Compute \( \langle p_2, p_1 \rangle = p_2(-3)p_1(-3) + p_2(-1)p_1(-1) + p_2(1)p_1(1) + p_2(3)p_1(3) = 9(-3) + 1(-1) + 1(1) + 9(3) = -27 - 1 + 1 + 27 = 0 \); this is correct by direct calculation.  
+6. Compute \( \langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20 \); this is correct since \( p_1(t) = t \).  
+7. Thus, \( \text{proj}_W(p_2) = \frac{20}{4}p_0 + \frac{0}{20}p_1 = 5p_0 \); this uses the projection formula and previous calculations.  
+8. The orthogonal projection of \( p_2 \) onto \( \text{Span}\{p_0, p_1\} \) is \( 5 \); this is the answer to part (a).  
+9. To find \( q \) orthogonal to \( p_0 \) and \( p_1 \), let \( q(t) = at^2 + bt + c \) and solve \( \langle q, p_0 \rangle = 0 \) and \( \langle q, p_1 \rangle = 0 \); this is the Gram-Schmidt process.  
+10. \( \langle q, p_0 \rangle = a(9+1+1+9) + b(-3-1+1+3) + c(1+1+1+1) = 20a + 0b + 4c = 0 \); this equation is correct by substituting values.  
+11. \( \langle q, p_1 \rangle = a[9(-3)+1(-1)+1(1)+9(3)] + b[(-3)^2+(-1)^2+1^2+3^2] + c[-3-1+1+3] = a(0) + b(20) + c(0) = 20b = 0 \); this equation is correct by direct calculation.  
+12. From step 11, \( b = 0 \); from step 10, \( 20a + 4c = 0 \implies 5a + c = 0 \); these are the conditions for orthogonality.  
+13. Let \( a = 1 \), then \( c = -5 \), so \( q(t) = t^2 - 5 \); this gives a specific orthogonal polynomial.  
+14. The values of \( q \) at \( -3, -1, 1, 3 \) are: \( (-3)^2-5 = 9-5=4 \), \( (-1)^2-5=1-5=-4 \), \( (1)^2-5=1-5=-4 \), \( (3)^2-5=9-5=4 \); this checks the evaluation.  
+15. To scale \( q \) so its values are \( (1, -1, -1, 1) \), divide by 4: \( q_{\text{scaled}}(t) = \frac{1}{4}(t^2-5) \); this ensures the correct values at the specified points.  
+16. The polynomial \( q(t) = \frac{1}{4}(t^2 - 5) \) is orthogonal to \( p_0 \) and \( p_1 \), and its values at \( (-3, -1, 1, 3) \) are \( (1, -1, -1, 1) \); this completes part (b).

@@ -1,0 +1,10 @@
+1. To find the eigenspace for \(\lambda = 5\), substitute \(\lambda = 5\) into \(A - 5I\): \(A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}\).
+2. The eigenspace dimension is the nullity of \(A - 5I\), so we row-reduce \(A - 5I\): the last two rows can be combined to get zeros in the fourth column except for one row, so add row 4 to row 3 divided by -4: row 3 becomes all zeros.
+3. The row-reduced matrix is \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0\end{bmatrix}\).
+4. The rank is the number of nonzero rows, which is 3 if the second row is nonzero, and 2 if the second row becomes zero for some \(h\).
+5. For the eigenspace to be two-dimensional, the nullity (number of free variables) must be 2, so the rank must be 2.
+6. Set the second row to zero: \(0 = -2y + hz\) and \(0 = -2y + hz\) implies \(h=0\) and \(y=0\), but since the second row is \([0, -2, h, 0]\), for it to be zero, both \(-2\) and \(h\) must be zero, which is impossible.
+7. Alternatively, the only way to reduce the rank is for the second and third rows to be linearly dependent; since the third row is \([0, 0, 0, 4]\), it is independent unless \(4=0\), which is not possible.
+8. Therefore, the only way for the rank to be 2 is if the second row is a multiple of the first: compare \([0, -2, h, 0]\) and \([0, -2, 6, -1]\), so set \(h = 6\) and the fourth entry to 0, which is already satisfied.
+9. Thus, \(h = 6\) makes the second row a multiple of the first, reducing the rank to 2 and making the nullity 2.
+10. Final answer: \(h = 6\) is the value such that the eigenspace for \(\lambda = 5\) is two-dimensional.

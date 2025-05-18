@@ -1,0 +1,9 @@
+1. To find the $\mathcal{B}$-matrix for $T$, compute $T(\mathbf{b}_1) = A\mathbf{b}_1 = \begin{bmatrix}1 & 1\\-1 & 3\end{bmatrix}\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}2\\2\end{bmatrix}$.  
+2. Express $\begin{bmatrix}2\\2\end{bmatrix}$ as a linear combination of $\mathbf{b}_1$ and $\mathbf{b}_2$: $c_1\begin{bmatrix}1\\1\end{bmatrix} + c_2\begin{bmatrix}5\\4\end{bmatrix} = \begin{bmatrix}2\\2\end{bmatrix}$.  
+3. Set up and solve the system: $c_1 + 5c_2 = 2$, $c_1 + 4c_2 = 2$, so $c_1 + 5c_2 - (c_1 + 4c_2) = 0 \implies c_2 = 0$, $c_1 = 2$.  
+4. Thus, $[T(\mathbf{b}_1)]_{\mathcal{B}} = \begin{bmatrix}2\\0\end{bmatrix}$.  
+5. Compute $T(\mathbf{b}_2) = A\mathbf{b}_2 = \begin{bmatrix}1 & 1\\-1 & 3\end{bmatrix}\begin{bmatrix}5\\4\end{bmatrix} = \begin{bmatrix}9\\7\end{bmatrix}$.  
+6. Express $\begin{bmatrix}9\\7\end{bmatrix}$ as a linear combination of $\mathbf{b}_1$ and $\mathbf{b}_2$: $d_1\begin{bmatrix}1\\1\end{bmatrix} + d_2\begin{bmatrix}5\\4\end{bmatrix} = \begin{bmatrix}9\\7\end{bmatrix}$.  
+7. Set up and solve the system: $d_1 + 5d_2 = 9$, $d_1 + 4d_2 = 7$, so $d_1 + 5d_2 - (d_1 + 4d_2) = 2 \implies d_2 = 2$, $d_1 = 9 - 10 = -1$.  
+8. Thus, $[T(\mathbf{b}_2)]_{\mathcal{B}} = \begin{bmatrix}-1\\2\end{bmatrix}$.  
+9. The $\mathcal{B}$-matrix for $T$ is $\begin{bmatrix}2 & -1\\0 & 2\end{bmatrix}$.

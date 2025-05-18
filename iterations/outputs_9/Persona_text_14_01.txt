@@ -1,0 +1,13 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A - 5I$:\[A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\].
+2. The eigenspace dimension equals the nullity of $A - 5I$, so we need $\text{nullity}(A - 5I) = 2$.
+3. By the rank-nullity theorem, $\text{nullity} = 4 - \text{rank}$, so we need $\text{rank}(A - 5I) = 2$.
+4. The last two rows can be combined: row 3 is $[0,0,0,4]$ and row 4 is $[0,0,0,-4]$, so they are linearly dependent, contributing only one to the rank.
+5. The first two rows are $[0, -2, 6, -1]$ and $[0, -2, h, 0]$; subtracting row 2 from row 1 gives $[0, 0, 6-h, -1]$.
+6. For the first two rows to be linearly dependent, $6-h$ and $-1$ must both be zero, so $6-h=0$ and $-1=0$, but $-1=0$ is impossible, so they are linearly independent unless $h=6$.
+7. If $h=6$, row 2 becomes $[0, -2, 6, 0]$, so row 1 is $[0, -2, 6, -1]$ and row 2 is $[0, -2, 6, 0]$, which are still not multiples unless $-1=0$, which is impossible.
+8. Therefore, the only way to reduce the rank to 2 is if the first two rows are linearly dependent, which requires $h=6$ and the fourth entry of row 1 to be $0$, but it is $-1$, so this is not possible.
+9. Alternatively, the only way for the rank to be 2 is if one of the first two rows is a linear combination of the other rows, which happens if $h=4$.
+10. Substitute $h=4$ into row 2: $[0, -2, 4, 0]$, now subtract $2$ times row 3 divided by $4$ from row 2, but this does not eliminate any row.
+11. Instead, set $h=6$ and check the rank: the matrix becomes \(\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & 6 & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\), subtract row 1 from row 2 to get $[0,0,0,1]$.
+12. Now the matrix has three nonzero rows: $[0, -2, 6, -1]$, $[0,0,0,1]$, and $[0,0,0,4]$, but $[0,0,0,4]$ is a multiple of $[0,0,0,1]$, so rank is 2 if and only if $h=6$.
+13. Therefore, the value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional is $h=6$.

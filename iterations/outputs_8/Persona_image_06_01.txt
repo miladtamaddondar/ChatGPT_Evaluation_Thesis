@@ -1,0 +1,7 @@
+1. To find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), each column of \(B\) must be in the null space of \(A\), i.e., \(A\mathbf{x} = 0\).
+2. Let \(\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\), then \(A\mathbf{x} = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 3x_1 - 6x_2 \\ -x_1 + 2x_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\).
+3. Solve \(3x_1 - 6x_2 = 0\) and \(-x_1 + 2x_2 = 0\), which both reduce to \(x_1 = 2x_2\).
+4. The general solution is \(\mathbf{x} = \begin{bmatrix} 2t \\ t \end{bmatrix}\) for any \(t \neq 0\), so any nonzero scalar multiple of \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) is a solution.
+5. To get two different nonzero columns, choose \(t = 1\) and \(t = -1\), giving columns \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) and \(\begin{bmatrix} -2 \\ -1 \end{bmatrix}\).
+6. Thus, one possible \(B\) is \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).
+7. The final answer is \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).

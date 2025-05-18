@@ -1,0 +1,10 @@
+1. Write the system of equations from \( T(x_1, x_2) = (-1, 4, 9) \): \( x_1 - 2x_2 = -1 \), \( -x_1 + 3x_2 = 4 \), \( 3x_1 - 2x_2 = 9 \).  
+2. Verify that the system is consistent by checking if the third equation is a linear combination of the first two: Multiply the first equation by 3 to get \( 3x_1 - 6x_2 = -3 \).  
+3. Add the second equation to the result: \( (3x_1 - 6x_2) + (-x_1 + 3x_2) = -3 + 4 \implies 2x_1 - 3x_2 = 1 \).  
+4. Compare \( 2x_1 - 3x_2 = 1 \) with the third equation \( 3x_1 - 2x_2 = 9 \); since they are not multiples, the system is not overdetermined, so solve the first two equations.  
+5. Solve the first equation for \( x_1 \): \( x_1 = -1 + 2x_2 \).  
+6. Substitute \( x_1 \) into the second equation: \( -(-1 + 2x_2) + 3x_2 = 4 \implies 1 - 2x_2 + 3x_2 = 4 \implies 1 + x_2 = 4 \).  
+7. Solve for \( x_2 \): \( x_2 = 3 \).  
+8. Substitute \( x_2 = 3 \) into \( x_1 = -1 + 2x_2 \): \( x_1 = -1 + 2 \times 3 = 5 \).  
+9. Verify the solution in the third equation: \( 3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9 \), which matches the given value.  
+10. Final answer: The solution is \( x = (5, 3) \).

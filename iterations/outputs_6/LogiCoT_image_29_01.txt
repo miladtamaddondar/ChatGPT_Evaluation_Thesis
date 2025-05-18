@@ -1,0 +1,9 @@
+1. Write the transformation equations as a system: \( x_1 + x_2 = 3 \) and \( 4x_1 + 5x_2 = 8 \).  
+2. Express the system in matrix form: \( \begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix} \begin{pmatrix} x_1 \\ x_2 \end{pmatrix} = \begin{pmatrix} 3 \\ 8 \end{pmatrix} \).  
+3. Verify the coefficient matrix is invertible by checking its determinant: \( \det \begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix} = (1)(5) - (1)(4) = 1 \neq 0 \), so the system has a unique solution.  
+4. Solve the first equation for \( x_1 \): \( x_1 = 3 - x_2 \).  
+5. Substitute \( x_1 \) into the second equation: \( 4(3 - x_2) + 5x_2 = 8 \).  
+6. Simplify and solve for \( x_2 \): \( 12 - 4x_2 + 5x_2 = 8 \implies 12 + x_2 = 8 \implies x_2 = 8 - 12 = -4 \).  
+7. Substitute \( x_2 = -4 \) into \( x_1 = 3 - x_2 \): \( x_1 = 3 - (-4) = 7 \).  
+8. The solution is \( \mathbf{x} = \begin{pmatrix} 7 \\ -4 \end{pmatrix} \); verify by plugging into the original equations: \( 7 + (-4) = 3 \) and \( 4 \times 7 + 5 \times (-4) = 28 - 20 = 8 \), both correct.  
+9. Final answer: \( \boxed{\mathbf{x} = \begin{pmatrix} 7 \\ -4 \end{pmatrix}} \).

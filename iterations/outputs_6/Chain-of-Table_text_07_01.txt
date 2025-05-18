@@ -1,0 +1,2 @@
+1. Recognize that \( Q r_1, Q r_2, \dots, Q r_p \) are the products of \( Q \) with each column vector \( r_i \), so \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\).
+2. Thus, the matrix can be written as the product \( Q \left[ r_1 \; r_2 \; \dots \; r_p \right] \).

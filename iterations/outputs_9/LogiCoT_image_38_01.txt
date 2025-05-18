@@ -1,0 +1,11 @@
+1. The basis \(\mathcal{B}\) for \(\mathbb{P}_3\) is \(\{1,\, 2t,\, -2+4t^2,\, -12t+8t^3\}\), and \(p(t) = 7 - 12t - 8t^2 + 12t^3\).  
+2. We seek scalars \(a_1, a_2, a_3, a_4\) such that \(p(t) = a_1 \cdot 1 + a_2 \cdot 2t + a_3(-2+4t^2) + a_4(-12t+8t^3)\).  
+3. Expanding the right side: \(a_1 + 2a_2 t - 2a_3 + 4a_3 t^2 - 12a_4 t + 8a_4 t^3\).  
+4. Combine like terms: constant term: \(a_1 - 2a_3\), \(t\) term: \(2a_2 - 12a_4\), \(t^2\) term: \(4a_3\), \(t^3\) term: \(8a_4\).  
+5. Set equal to \(p(t)\): \(7 - 12t - 8t^2 + 12t^3 = (a_1 - 2a_3) + (2a_2 - 12a_4)t + 4a_3 t^2 + 8a_4 t^3\).  
+6. Equate coefficients: \(a_1 - 2a_3 = 7\), \(2a_2 - 12a_4 = -12\), \(4a_3 = -8\), \(8a_4 = 12\).  
+7. Solve \(4a_3 = -8 \implies a_3 = -2\); verify: \(4(-2) = -8\), correct.  
+8. Solve \(8a_4 = 12 \implies a_4 = \frac{12}{8} = \frac{3}{2}\); verify: \(8 \cdot \frac{3}{2} = 12\), correct.  
+9. Substitute \(a_3 = -2\) into \(a_1 - 2a_3 = 7\): \(a_1 - 2(-2) = 7 \implies a_1 + 4 = 7 \implies a_1 = 3\); verify: \(3 - 2(-2) = 3 + 4 = 7\), correct.  
+10. Substitute \(a_4 = \frac{3}{2}\) into \(2a_2 - 12a_4 = -12\): \(2a_2 - 12 \cdot \frac{3}{2} = -12 \implies 2a_2 - 18 = -12 \implies 2a_2 = 6 \implies a_2 = 3\); verify: \(2 \cdot 3 - 12 \cdot \frac{3}{2} = 6 - 18 = -12\), correct.  
+11. The coordinate vector of \(p\) relative to \(\mathcal{B}\) is \(\begin{bmatrix} 3 \\ 3 \\ -2 \\ \frac{3}{2} \end{bmatrix}\).

@@ -1,0 +1,7 @@
+1. To find a nonzero vector \(\mathbf{v}\) in \(\mathbb{R}^3\) that is orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\), we use the cross product: \(\mathbf{v} = \mathbf{u}_1 \times \mathbf{u}_2\).  
+2. Compute the cross product: \(\mathbf{v} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 1 & 1 & -2 \\ 5 & -1 & 2 \end{vmatrix}\).  
+3. Expand the determinant: \(\mathbf{v} = \mathbf{i} \begin{vmatrix} 1 & -2 \\ -1 & 2 \end{vmatrix} - \mathbf{j} \begin{vmatrix} 1 & -2 \\ 5 & 2 \end{vmatrix} + \mathbf{k} \begin{vmatrix} 1 & 1 \\ 5 & -1 \end{vmatrix}\).  
+4. Calculate each minor: \(\begin{vmatrix} 1 & -2 \\ -1 & 2 \end{vmatrix} = (1)(2) - (-2)(-1) = 2 - 2 = 0\); \(\begin{vmatrix} 1 & -2 \\ 5 & 2 \end{vmatrix} = (1)(2) - (-2)(5) = 2 + 10 = 12\); \(\begin{vmatrix} 1 & 1 \\ 5 & -1 \end{vmatrix} = (1)(-1) - (1)(5) = -1 - 5 = -6\).  
+5. Substitute the values: \(\mathbf{v} = 0\mathbf{i} - 12\mathbf{j} - 6\mathbf{k} = \begin{bmatrix} 0 \\ -12 \\ -6 \end{bmatrix}\).  
+6. Verify orthogonality: \(\mathbf{u}_1 \cdot \mathbf{v} = 1 \cdot 0 + 1 \cdot (-12) + (-2) \cdot (-6) = 0 - 12 + 12 = 0\); \(\mathbf{u}_2 \cdot \mathbf{v} = 5 \cdot 0 + (-1) \cdot (-12) + 2 \cdot (-6) = 0 + 12 - 12 = 0\), so \(\mathbf{v}\) is orthogonal to both.  
+7. Final answer: A nonzero vector orthogonal to \(\mathbf{u}_1\) and \(\mathbf{u}_2\) is \(\boxed{\begin{bmatrix} 0 \\ -12 \\ -6 \end{bmatrix}}\).

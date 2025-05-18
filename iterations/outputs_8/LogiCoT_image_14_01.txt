@@ -1,0 +1,21 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first compute \( A - 5I \): \[ A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \] (Subtracting 5 from each diagonal entry is correct.)
+2. The eigenspace dimension is the nullity of \( A - 5I \); by the rank-nullity theorem, we need \(\text{nullity}(A-5I) = 2\), so \(\text{rank}(A-5I) = 2\) for a \(4 \times 4\) matrix. (This follows from \(\text{nullity} = n - \text{rank}\).)
+3. Row reduce \( A-5I \): The last two rows are \([0\ 0\ 0\ 4]\) and \([0\ 0\ 0\ -4]\), which are linearly dependent, so one can be eliminated. (Correct, as multiplying the last row by \(-1\) gives the third row.)
+4. Replace the fourth row with the sum of the third and fourth rows: \([0\ 0\ 0\ 0]\), so the matrix becomes \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}\). (This step is valid and simplifies the matrix.)
+5. The third row is nonzero, so it is a pivot row; the first two rows are nonzero unless they are linearly dependent. (We need to check when the first two rows are linearly dependent.)
+6. The first two rows are \([0, -2, 6, -1]\) and \([0, -2, h, 0]\); subtract the second row from the first: \([0, 0, 6-h, -1]\). (This is correct algebra.)
+7. For the first two rows to be linearly dependent, \(6-h = 0\) and \(-1 = 0\), but \(-1 \neq 0\), so they are never linearly dependent for any \(h\). (This shows both are always pivot rows.)
+8. Thus, the matrix has three nonzero rows (first, second, and third) unless the third row is zero, i.e., unless \(4 = 0\), which is never true. (So rank is always 3.)
+9. However, if \(h = 6\), then the first two rows become \([0, -2, 6, -1]\) and \([0, -2, 6, 0]\); subtracting gives \([0, 0, 0, -1]\), which is nonzero, so still independent. (Verifying with \(h = 6\) does not reduce rank.)
+10. The only way to reduce the rank to 2 is if the third row is zero, i.e., \(4 = 0\), which is not possible; thus, there is an error in the previous reasoning. (Let's check the algebraic multiplicity.)
+11. The algebraic multiplicity of \(\lambda = 5\) is the multiplicity as a root of the characteristic polynomial; since the lower \(2 \times 2\) block has eigenvalues 5 and 1, and the upper \(2 \times 2\) block is independent, let's compute the characteristic polynomial.
+12. The characteristic polynomial is \(\det(A - \lambda I) = \det\begin{bmatrix} 5-\lambda & -2 & 6 & -1 \\ 0 & 3-\lambda & h & 0 \\ 0 & 0 & 5-\lambda & 4 \\ 0 & 0 & 0 & 1-\lambda \end{bmatrix}\). (This is correct.)
+13. Since the matrix is block upper-triangular, the determinant is the product of the determinants of the diagonal blocks: \((5-\lambda)\begin{vmatrix} 3-\lambda & h \\ 0 & 5-\lambda \end{vmatrix}(1-\lambda)\). (This is correct.)
+14. The determinant simplifies to \((5-\lambda)^2(3-\lambda)(1-\lambda)\). (Multiplying out the \(2 \times 2\) block: \((3-\lambda)(5-\lambda)\).)
+15. Thus, the algebraic multiplicity of \(\lambda = 5\) is 2. (There are two factors of \(5-\lambda\).)
+16. For the eigenspace to be two-dimensional, the geometric multiplicity (nullity of \(A-5I\)) must be 2, which happens if \(\text{rank}(A-5I) = 2\). (By rank-nullity theorem.)
+17. From earlier, \(A-5I\) is \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\). The last two rows are linearly dependent, so one can be eliminated, leaving three rows.
+18. For the rank to drop to 2, the first two rows must be linearly dependent: \([0, -2, 6, -1]\) and \([0, -2, h, 0]\).
+19. Set \([0, -2, 6, -1] = k[0, -2, h, 0]\) for some scalar \(k\). Comparing components: \(-2 = k(-2)\) gives \(k = 1\); \(6 = h\cdot 1\) gives \(h = 6\); \(-1 = 0\cdot 1 = 0\), which is not possible.
+20. Thus, the first two rows cannot be made linearly dependent for any \(h\), so the maximum nullity is 1, and the eigenspace cannot be two-dimensional for any real \(h\).
+21. Final answer: There is no value of \(h\) such that the eigenspace for \(\lambda = 5\) is two-dimensional.

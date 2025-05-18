@@ -1,0 +1,10 @@
+1. Set up the equation $T(x_1, x_2) = (-1, 4, 9)$, so $(x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9)$.
+2. Write the corresponding system of equations: $x_1 - 2x_2 = -1$, $-x_1 + 3x_2 = 4$, $3x_1 - 2x_2 = 9$.
+3. Solve the first equation for $x_1$: $x_1 = -1 + 2x_2$.
+4. Substitute $x_1$ into the second equation: $-(-1 + 2x_2) + 3x_2 = 4$.
+5. Simplify: $1 - 2x_2 + 3x_2 = 4$.
+6. Combine like terms: $1 + x_2 = 4$.
+7. Solve for $x_2$: $x_2 = 3$.
+8. Substitute $x_2 = 3$ into $x_1 = -1 + 2x_2$: $x_1 = -1 + 2 \times 3 = 5$.
+9. Check the third equation: $3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9$, which matches.
+10. The solution is $\mathbf{x} = (5, 3)$.

@@ -1,0 +1,7 @@
+1. To solve part (a), recall that for an \( m \times n \) matrix \( A \), the null space Nul \( A \) is a subspace of \( \mathbb{R}^n \), where \( n \) is the number of columns.  
+2. Matrix \( A \) has 2 columns, so \( n = 2 \).  
+3. Therefore, for part (a), \( k = 2 \) because Nul \( A \) is a subspace of \( \mathbb{R}^2 \).  
+4. To solve part (b), recall that the column space Col \( A \) is a subspace of \( \mathbb{R}^m \), where \( m \) is the number of rows.  
+5. Matrix \( A \) has 4 rows, so \( m = 4 \).  
+6. Therefore, for part (b), \( k = 4 \) because Col \( A \) is a subspace of \( \mathbb{R}^4 \).  
+7. Final answers: (a) \( k = 2 \), (b) \( k = 4 \).

@@ -1,0 +1,7 @@
+1. Subtract \(5I\) from \(A\) to form \(A-5I\): \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}\)
+2. Add row 4 to row 3 to eliminate the 4 in row 3, column 4: \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4 \end{bmatrix}\)
+3. Divide row 4 by \(-4\): \(\begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}\)
+4. Subtract \(-1\) times row 4 from row 1: \(\begin{bmatrix} 0 & -2 & 6 & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}\)
+5. The rank is 3 unless rows 1 and 2 are linearly dependent; set \(h=6\) so row 2 is a multiple of row 1: \(\begin{bmatrix} 0 & -2 & 6 & 0 \\ 0 & -2 & 6 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}\)
+6. Subtract row 1 from row 2: \(\begin{bmatrix} 0 & -2 & 6 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}\)
+7. Final answer: The value of \(h\) that makes the eigenspace for \(\lambda=5\) two-dimensional is \(h=6\).

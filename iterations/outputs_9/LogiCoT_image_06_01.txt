@@ -1,0 +1,7 @@
+1. To find a \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \), we need each column of \( B \) to be in the null space of \( A \), so first solve \( A\mathbf{x} = 0 \).  
+2. Write the system: \( \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \), which gives equations \( 3x_1 - 6x_2 = 0 \) and \( -x_1 + 2x_2 = 0 \).  
+3. Solve the first equation: \( 3x_1 = 6x_2 \implies x_1 = 2x_2 \); verify with the second equation: \( -x_1 + 2x_2 = -2x_2 + 2x_2 = 0 \), so both equations are satisfied.  
+4. The null space consists of all vectors \( \begin{bmatrix} 2t \\ t \end{bmatrix} \) for any scalar \( t \), so choose two different nonzero values for \( t \), say \( t = 1 \) and \( t = -1 \).  
+5. The two linearly independent null vectors are \( \begin{bmatrix} 2 \\ 1 \end{bmatrix} \) and \( \begin{bmatrix} -2 \\ -1 \end{bmatrix} \), so set \( B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} \).  
+6. Verify \( AB = 0 \): \( A \begin{bmatrix} 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 3 \cdot 2 + (-6) \cdot 1 \\ -1 \cdot 2 + 2 \cdot 1 \end{bmatrix} = \begin{bmatrix} 6 - 6 \\ -2 + 2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \), and similarly for the second column.  
+7. Final answer: \( B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

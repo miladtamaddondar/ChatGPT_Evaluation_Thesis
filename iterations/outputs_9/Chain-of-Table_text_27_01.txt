@@ -1,0 +1,6 @@
+1. To find the matrix $A$ of $T$, set up the system: $A\mathbf{e}_1 = \mathbf{y}_1$, $A\mathbf{e}_2 = \mathbf{y}_2$. $A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}$, so $A\mathbf{e}_1 = \begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix} = \begin{bmatrix} 2 \\ 5 \end{bmatrix}$ and $A\mathbf{e}_2 = \begin{bmatrix} a_{12} \\ a_{22} \end{bmatrix} = \begin{bmatrix} -1 \\ 6 \end{bmatrix}$.
+2. Write $A$ using columns: $A = \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix}$.
+3. To find $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right)$, compute $\begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix} \begin{bmatrix} 5 \\ -3 \end{bmatrix}$.
+4. Row operation: $2 \cdot 5 + (-1) \cdot (-3) = 10 + 3 = 13$ for the first entry; $5 \cdot 5 + 6 \cdot (-3) = 25 - 18 = 7$ for the second entry. So $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$.
+5. To find $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right)$, compute $\begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$.
+6. Row operation: $2x_1 - x_2$ for the first entry; $5x_1 + 6x_2$ for the second entry. So $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.

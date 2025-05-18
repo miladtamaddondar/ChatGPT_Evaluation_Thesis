@@ -1,0 +1,6 @@
+1. Write the equation $T(\mathbf{x}) = (-1, 4, 9)$ as a system: $T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9)$.  
+2. Set up the corresponding system of linear equations: $x_1 - 2x_2 = -1$, $-x_1 + 3x_2 = 4$, $3x_1 - 2x_2 = 9$.  
+3. Verify that the system is consistent by checking if the equations are compatible (no contradictions): Add the first and second equations: $(x_1 - 2x_2) + (-x_1 + 3x_2) = -1 + 4 \implies x_2 = 3$, which is consistent.  
+4. Substitute $x_2 = 3$ into the first equation: $x_1 - 2(3) = -1 \implies x_1 - 6 = -1 \implies x_1 = 5$.  
+5. Verify $x_1 = 5$, $x_2 = 3$ in the third equation: $3(5) - 2(3) = 15 - 6 = 9$, which matches the right-hand side, confirming correctness.  
+6. Final answer: The solution is $\mathbf{x} = (5, 3)$.

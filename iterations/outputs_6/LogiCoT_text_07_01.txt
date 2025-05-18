@@ -1,0 +1,4 @@
+1. Observe that \( Q r_1, Q r_2, \dots, Q r_p \) are the images of \( r_1, \dots, r_p \) under the linear transformation represented by \( Q \), so stacking them as columns gives \( [ Q r_1 \; Q r_2 \; \dots \; Q r_p ] \).  
+2. Note that \( [ Q r_1 \; Q r_2 \; \dots \; Q r_p ] = Q [ r_1 \; r_2 \; \dots \; r_p ] \) by the property of matrix multiplication distributing over columns.  
+3. Verify: For any \( n \times p \) matrix \( R = [ r_1 \; r_2 \; \dots \; r_p ] \), multiplying by \( Q \) on the left gives an \( m \times p \) matrix whose \( j \)-th column is \( Q r_j \), which matches the left-hand side.  
+4. Therefore, the matrix can be written as \( [ Q r_1 \; Q r_2 \; \dots \; Q r_p ] = Q [ r_1 \; r_2 \; \dots \; r_p ] \), which is the product of the \( m \times n \) matrix \( Q \) and the \( n \times p \) matrix \( [ r_1 \; r_2 \; \dots \; r_p ] \), neither of which is an identity matrix.

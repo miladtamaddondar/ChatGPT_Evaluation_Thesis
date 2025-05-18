@@ -1,0 +1,5 @@
+1. Recognize that $T(\mathbf{x}) = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$ is a linear transformation represented by a matrix whose columns are $\mathbf{v}_1$ and $\mathbf{v}_2$, so $A = [\mathbf{v}_1\ \mathbf{v}_2]$.  
+2. Write $\mathbf{v}_1$ and $\mathbf{v}_2$ as columns: $\mathbf{v}_1 = \begin{bmatrix} -2 \\ 5 \end{bmatrix}$ and $\mathbf{v}_2 = \begin{bmatrix} 7 \\ -3 \end{bmatrix}$.  
+3. Form the matrix $A$ by placing $\mathbf{v}_1$ and $\mathbf{v}_2$ as columns: $A = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}$.  
+4. Verify by computing $A\mathbf{x} = \begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = x_1\begin{bmatrix} -2 \\ 5 \end{bmatrix} + x_2\begin{bmatrix} 7 \\ -3 \end{bmatrix} = x_1\mathbf{v}_1 + x_2\mathbf{v}_2$, confirming correctness.  
+5. Final answer: The matrix $A$ is $\boxed{\begin{bmatrix} -2 & 7 \\ 5 & -3 \end{bmatrix}}$.

@@ -1,0 +1,6 @@
+1. Subtract $5I$ from $A$ to form $A - 5I$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+2. Add row 4 to row 3 to eliminate the 4 in row 3, column 4: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4 \end{bmatrix}$.
+3. Swap row 3 and row 4 to bring the nonzero row up: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & -4 \\ 0 & 0 & 0 & 0 \end{bmatrix}$.
+4. Multiply row 3 by $-1/4$ to make the leading coefficient 1: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}$.
+5. Add row 3 to row 1 to eliminate the $-1$ in row 1, column 4: $\begin{bmatrix}0 & -2 & 6 & 0 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 0 & 0 \end{bmatrix}$.
+6. The system now has two leading variables ($x_2$ and $x_4$) and two free variables ($x_1$ and $x_3$) if $h=6$ (since row 2 becomes $0\ -2\ 6\ 0$ and is linearly dependent on row 1), thus for the eigenspace to be two-dimensional, set $h=6$. Final answer: $h=6$.

@@ -1,0 +1,9 @@
+1. Write the equation $T(\mathbf{x}) = (3, 8)$ in terms of components: $T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8)$.  
+2. Set up the system of linear equations: $x_1 + x_2 = 3$ and $4x_1 + 5x_2 = 8$.  
+3. Solve the first equation for $x_1$: $x_1 = 3 - x_2$.  
+4. Substitute $x_1 = 3 - x_2$ into the second equation: $4(3 - x_2) + 5x_2 = 8$.  
+5. Expand and simplify: $12 - 4x_2 + 5x_2 = 8 \implies 12 + x_2 = 8$.  
+6. Solve for $x_2$: $x_2 = 8 - 12 = -4$.  
+7. Substitute $x_2 = -4$ back into $x_1 = 3 - x_2$: $x_1 = 3 - (-4) = 7$.  
+8. The solution is $\mathbf{x} = (7, -4)$.  
+9. Verification: $T(7, -4) = (7 + (-4), 4 \cdot 7 + 5 \cdot (-4)) = (3, 28 - 20) = (3, 8)$, confirming correctness.

@@ -1,0 +1,10 @@
+1. Write the basis $\mathcal{B}$ as $\{1,\, 2t,\, -2+4t^2,\, -12t+8t^3\}$.
+2. Express $p(t)$ as a linear combination: $p(t) = a\cdot 1 + b\cdot 2t + c\cdot(-2+4t^2) + d\cdot(-12t+8t^3)$.
+3. Expand the right side: $a + 2b t - 2c + 4c t^2 -12d t + 8d t^3$.
+4. Collect like terms: $(a-2c) + (2b-12d)t + 4c t^2 + 8d t^3$.
+5. Match coefficients with $p(t) = 7 - 12t - 8t^2 + 12t^3$ to get the system: $a-2c=7$, $2b-12d=-12$, $4c=-8$, $8d=12$.
+6. Solve $4c = -8$ to get $c = -2$.
+7. Solve $8d = 12$ to get $d = \frac{3}{2}$.
+8. Substitute $c=-2$ into $a-2c=7$ to get $a-2(-2)=7 \implies a+4=7 \implies a=3$.
+9. Substitute $d=\frac{3}{2}$ into $2b-12d=-12$ to get $2b-12\cdot\frac{3}{2}=-12 \implies 2b-18=-12 \implies 2b=6 \implies b=3$.
+10. The coordinate vector of $p$ relative to $\mathcal{B}$ is $\begin{bmatrix}3\\3\\-2\\\frac{3}{2}\end{bmatrix}$.

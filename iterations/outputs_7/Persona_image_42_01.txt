@@ -1,0 +1,11 @@
+1. To write $\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$, we find the orthogonal projection of $\mathbf{y}$ onto $W$ spanned by $\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3$ using $\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp$.
+2. Set $\mathbf{y}_W = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3$ and solve for $c_1, c_2, c_3$ so that $\mathbf{y} - \mathbf{y}_W$ is orthogonal to each $\mathbf{u}_i$.
+3. Set up the equations: $\mathbf{u}_i^T(\mathbf{y} - \mathbf{y}_W) = 0$ for $i=1,2,3$, which gives $\mathbf{u}_i^T\mathbf{y} = c_1\mathbf{u}_i^T\mathbf{u}_1 + c_2\mathbf{u}_i^T\mathbf{u}_2 + c_3\mathbf{u}_i^T\mathbf{u}_3$.
+4. Compute dot products: $\mathbf{u}_1^T\mathbf{y} = 4+3+0+(-1)=6$, $\mathbf{u}_2^T\mathbf{y} = -4+9+3+2=10$, $\mathbf{u}_3^T\mathbf{y} = -4+0+3+(-1)= -2$.
+5. Compute Gram matrix $G$ where $G_{ij} = \mathbf{u}_i^T\mathbf{u}_j$: $G_{11}=3$, $G_{12}=0$, $G_{13}=2$, $G_{22}=15$, $G_{23}=-4$, $G_{33}=3$.
+6. Write the system: $\begin{bmatrix} 3 & 0 & 2 \\ 0 & 15 & -4 \\ 2 & -4 & 3 \end{bmatrix} \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix} = \begin{bmatrix} 6 \\ 10 \\ -2 \end{bmatrix}$.
+7. Solve the system for $c_1, c_2, c_3$ (by substitution, elimination, or matrix inversion).
+8. The solution is $c_1 = 2$, $c_2 = 1$, $c_3 = -1$ (you can verify by plugging back into the equations).
+9. Thus, $\mathbf{y}_W = 2\mathbf{u}_1 + 1\mathbf{u}_2 - 1\mathbf{u}_3 = 2\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + \begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} - \begin{bmatrix}-1\\0\\1\\1\end{bmatrix} = \begin{bmatrix}2\\2\\0\\2\end{bmatrix} + \begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} + \begin{bmatrix}1\\0\\-1\\-1\end{bmatrix} = \begin{bmatrix}2\\5\\0\\-1\end{bmatrix}$.
+10. The orthogonal component is $\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}2\\5\\0\\-1\end{bmatrix} = \begin{bmatrix}2\\-2\\3\\0\end{bmatrix}$.
+11. Final answer: $\mathbf{y} = \begin{bmatrix}2\\5\\0\\-1\end{bmatrix} + \begin{bmatrix}2\\-2\\3\\0\end{bmatrix}$, where the first vector is in $W$ and the second is orthogonal to $W$.

@@ -1,0 +1,5 @@
+1. The matrix \( A \) is a \( 4 \times 6 \) matrix, so it has 4 rows and 6 columns.  
+2. The number of pivot columns (leading 1's in reduced row echelon form) is 3, as seen in columns 1, 3, and 4.  
+3. By the rank theorem, the rank of \( A \) (dimension of Col \( A \)) is 3.  
+4. The dimension of Nul \( A \) is the number of columns minus the rank: \( 6 - 3 = 3 \).  
+5. Final answer: The dimension of Col \( A \) is 3 and the dimension of Nul \( A \) is 3.

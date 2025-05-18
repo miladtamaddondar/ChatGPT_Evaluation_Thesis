@@ -1,0 +1,36 @@
+1. To find $h$ such that the eigenspace for $\lambda=5$ is two-dimensional, we first compute $A - 5I$:\[A - 5I = \begin{bmatrix}0 & -2 & 6 & -1 \\0 & -2 & h & 0 \\0 & 0 & 0 & 4 \\0 & 0 & 0 & -4 \end{bmatrix}\].
+2. The eigenspace dimension is the nullity of $A-5I$, so we need $\operatorname{nullity}(A-5I)=2$; by the rank-nullity theorem, this means $\operatorname{rank}(A-5I)=2$.
+3. To find the rank, note that the last two rows are $[0\ 0\ 0\ 4]$ and $[0\ 0\ 0\ -4]$, which are linearly dependent, so together they contribute rank 1.
+4. The first two rows are $[0\ -2\ 6\ -1]$ and $[0\ -2\ h\ 0]$; subtract the second row from the first to get $[0\ 0\ 6-h\ -1]$.
+5. If $h=6$, the difference is $[0\ 0\ 0\ -1]$, so the two rows become $[0\ -2\ 6\ -1]$ and $[0\ -2\ 6\ 0]$; subtracting gives $[0\ 0\ 0\ -1]$.
+6. Thus, for $h=6$, the first two rows are linearly independent (since their difference is nonzero and not a multiple of either), so they contribute rank 2.
+7. Including the rank 1 from the last two rows, total rank would be $2+1=3$, but this would make the nullity $4-3=1$, which is not what we want.
+8. To reduce the rank to 2, the first two rows must be linearly dependent; set $[0\ -2\ 6\ -1] = k[0\ -2\ h\ 0]$ for some scalar $k$.
+9. Comparing the second entry: $-2 = k(-2) \implies k=1$.
+10. Comparing the third entry: $6 = 1\cdot h \implies h=6$.
+11. Comparing the fourth entry: $-1 = 1\cdot 0 \implies -1=0$, which is a contradiction, so the first two rows are never linearly dependent for any $h$.
+12. Therefore, to reduce the rank, the last two rows must be linearly dependent and also be linear combinations of the first two rows.
+13. The last two rows are $[0\ 0\ 0\ 4]$ and $[0\ 0\ 0\ -4]$, which are already linearly dependent, so for rank 2, one must be a linear combination of the first two rows.
+14. Since the first two rows have zeros in the first entry, and the last two rows have zeros except in the last entry, for the last row $[0\ 0\ 0\ -4]$ to be a combination of the first two, the only way is if all entries in the fourth column of the first two rows are zero.
+15. The fourth column of the first two rows is $[-1,\ 0]$; for both to be zero, $-1=0$ and $0=0$, which is not possible.
+16. Therefore, the only way to reduce the rank is if the third row $[0\ 0\ 0\ 4]$ is a linear combination of the first two rows.
+17. The third row has only one nonzero entry in the fourth column, which cannot be obtained from the first two rows unless both have zeros in the fourth column, which again is not possible.
+18. Thus, let's check the nullity directly by row reducing $A-5I$ for general $h$.
+19. The matrix is upper triangular except for the $h$ in position (2,3); the pivots are in positions (1,2), (2,2), (3,4), (4,4).
+20. The only way to lose a pivot is if the second row becomes zero, i.e., $-2=0$, which is never true.
+21. Therefore, the only way for the rank to drop to 2 is if the third and fourth rows are zero, i.e., $4=0$ and $-4=0$, which is impossible.
+22. Thus, there is an error in the above logic; let's instead compute the algebraic and geometric multiplicity of $\lambda=5$.
+23. The characteristic polynomial is $\det(A-\lambda I) = (5-\lambda)\begin{vmatrix}3-\lambda & h & 0 \\0 & 5-\lambda & 4 \\0 & 0 & 1-\lambda\end{vmatrix}$.
+24. Expanding the $3\times3$ determinant: $(3-\lambda)\begin{vmatrix}5-\lambda & 4\\0 & 1-\lambda\end{vmatrix} - h\begin{vmatrix}0 & 4\\0 & 1-\lambda\end{vmatrix}$.
+25. The second minor is zero because its first column is zero, so we have $(3-\lambda)(5-\lambda)(1-\lambda)$.
+26. Therefore, the characteristic polynomial is $(5-\lambda)(3-\lambda)(5-\lambda)(1-\lambda)$.
+27. So, the algebraic multiplicity of $\lambda=5$ is 2.
+28. For the geometric multiplicity to be 2, the nullity of $A-5I$ must be 2.
+29. $A-5I$ is $\begin{bmatrix}0 & -2 & 6 & -1 \\0 & -2 & h & 0 \\0 & 0 & 0 & 4 \\0 & 0 & 0 & -4\end{bmatrix}$.
+30. The last two rows can be combined: add row 4 to row 3 to get $[0\ 0\ 0\ 0]$ in row 3 and $[0\ 0\ 0\ 4]$ in row 4.
+31. Now, the system reduces to the first two rows and one nonzero row at the bottom, so rank at least 3 unless the first two rows are linearly dependent.
+32. The first two rows are $[0\ -2\ 6\ -1]$ and $[0\ -2\ h\ 0]$; subtract the second from the first: $[0\ 0\ 6-h\ -1]$.
+33. For these to be linearly dependent, $6-h=0$ and $-1=0$, which is impossible.
+34. Therefore, the only way for the rank to be 2 is if the third and fourth rows are zero, i.e., $4=0$ and $-4=0$, which is impossible.
+35. Therefore, there is no value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional.
+36. Final answer: There is no value of $h$ such that the eigenspace for $\lambda=5$ is two-dimensional.

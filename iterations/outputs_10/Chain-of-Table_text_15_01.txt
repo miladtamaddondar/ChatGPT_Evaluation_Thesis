@@ -1,0 +1,10 @@
+1. Find the eigenvalues of $A$: $\det\begin{pmatrix}1-\lambda & -2 \\ 1 & 3-\lambda\end{pmatrix} = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5 = 0 \implies \lambda = 2 \pm i$.
+2. For $\lambda = 2+i$, solve $(A - (2+i)I)\vec{v} = 0$: $A-(2+i)I = \begin{pmatrix}-1-i & -2 \\ 1 & 1-i\end{pmatrix}$.
+3. Row operation: $R_2 \to R_2 + (1+i)R_1$ gives $\begin{pmatrix}-1-i & -2 \\ 0 & 0\end{pmatrix}$.
+4. Solve $(-1-i)x_1 - 2x_2 = 0 \implies x_1 = \frac{-2}{-1-i}x_2 = \frac{2}{1+i}x_2$.
+5. Rationalize denominator: $\frac{2}{1+i} = \frac{2(1-i)}{(1+i)(1-i)} = \frac{2(1-i)}{2} = 1-i$.
+6. So, eigenvector for $2+i$ is $\begin{pmatrix}1-i \\ 1\end{pmatrix}$.
+7. Similarly, for $\lambda = 2-i$, eigenvector is $\begin{pmatrix}1+i \\ 1\end{pmatrix}$.
+8. Let $P = \begin{pmatrix}1-i & 1+i \\ 1 & 1\end{pmatrix}$.
+9. $C = \begin{pmatrix}2 & 1 \\ -1 & 2\end{pmatrix}$ since $C$ has form $\begin{pmatrix}a & b \\ -b & a\end{pmatrix}$ with $a=2, b=1$.
+10. Final answer: $A = P C P^{-1}$ where $P = \begin{pmatrix}1-i & 1+i \\ 1 & 1\end{pmatrix}$ and $C = \begin{pmatrix}2 & 1 \\ -1 & 2\end{pmatrix}$.

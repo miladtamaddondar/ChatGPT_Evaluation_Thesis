@@ -1,0 +1,25 @@
+1. To write \(\mathbf{y}\) as the sum of a vector in \(W\) and a vector orthogonal to \(W\), we first express \(\mathbf{y}\) as \(\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp\), where \(\mathbf{y}_W\) is the projection of \(\mathbf{y}\) onto \(W\) and \(\mathbf{y}_\perp\) is orthogonal to \(W\).
+2. Let \(\mathbf{y}_W = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3\), and set up the equation \(\mathbf{y} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 + \mathbf{y}_\perp\).
+3. Since \(\mathbf{y}_\perp\) is orthogonal to \(W\), it must be orthogonal to each \(\mathbf{u}_i\), so \((\mathbf{y} - \mathbf{y}_W) \cdot \mathbf{u}_i = 0\) for \(i = 1,2,3\).
+4. This gives the system: \((\mathbf{y} - (c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3)) \cdot \mathbf{u}_i = 0\) for \(i=1,2,3\).
+5. Compute the dot products: \(\mathbf{u}_1 \cdot \mathbf{u}_1 = 3\), \(\mathbf{u}_1 \cdot \mathbf{u}_2 = 0\), \(\mathbf{u}_1 \cdot \mathbf{u}_3 = 0\), \(\mathbf{u}_2 \cdot \mathbf{u}_2 = 21\), \(\mathbf{u}_2 \cdot \mathbf{u}_3 = -8\), \(\mathbf{u}_3 \cdot \mathbf{u}_3 = 4\).
+6. Compute \(\mathbf{y} \cdot \mathbf{u}_1 = 6\), \(\mathbf{y} \cdot \mathbf{u}_2 = -2\), \(\mathbf{y} \cdot \mathbf{u}_3 = 2\).
+7. Set up the equations: \(3c_1 = 6\), \(21c_2 - 8c_3 = -2\), \(-8c_2 + 4c_3 = 2\).
+8. Solve \(3c_1 = 6\) to get \(c_1 = 2\).
+9. Solve the system for \(c_2\) and \(c_3\): From the third equation, \(-8c_2 + 4c_3 = 2 \implies -4c_2 + 2c_3 = 1\).
+10. Multiply the new equation by 2: \(-8c_2 + 4c_3 = 2\), which matches the third equation, so use the second equation: \(21c_2 - 8c_3 = -2\).
+11. Solve the two equations: \(21c_2 - 8c_3 = -2\) and \(-8c_2 + 4c_3 = 2\).
+12. Multiply the second equation by 2: \(-16c_2 + 8c_3 = 4\).
+13. Add to the first equation: \(21c_2 - 8c_3 + (-16c_2 + 8c_3) = -2 + 4\).
+14. This gives \(5c_2 = 2\), so \(c_2 = \frac{2}{5}\).
+15. Substitute \(c_2\) into \(-8c_2 + 4c_3 = 2\): \(-8(\frac{2}{5}) + 4c_3 = 2\).
+16. Compute: \(-\frac{16}{5} + 4c_3 = 2 \implies 4c_3 = 2 + \frac{16}{5} = \frac{26}{5}\).
+17. Thus, \(c_3 = \frac{26}{20} = \frac{13}{10}\).
+18. Therefore, \(\mathbf{y}_W = 2\mathbf{u}_1 + \frac{2}{5}\mathbf{u}_2 + \frac{13}{10}\mathbf{u}_3\).
+19. Compute \(\mathbf{y}_W = 2\begin{bmatrix}1\\1\\0\\1\end{bmatrix} + \frac{2}{5}\begin{bmatrix}-1\\3\\1\\-2\end{bmatrix} + \frac{13}{10}\begin{bmatrix}-1\\0\\1\\1\end{bmatrix}\).
+20. Calculate each term: \(2\mathbf{u}_1 = \begin{bmatrix}2\\2\\0\\2\end{bmatrix}\), \(\frac{2}{5}\mathbf{u}_2 = \begin{bmatrix}-\frac{2}{5}\\\frac{6}{5}\\\frac{2}{5}\\-\frac{4}{5}\end{bmatrix}\), \(\frac{13}{10}\mathbf{u}_3 = \begin{bmatrix}-\frac{13}{10}\\0\\\frac{13}{10}\\\frac{13}{10}\end{bmatrix}\).
+21. Add the vectors: \(\mathbf{y}_W = \begin{bmatrix}2 - \frac{2}{5} - \frac{13}{10}\\2 + \frac{6}{5} + 0\\0 + \frac{2}{5} + \frac{13}{10}\\2 - \frac{4}{5} + \frac{13}{10}\end{bmatrix}\).
+22. Simplify each entry: \(2 - \frac{2}{5} - \frac{13}{10} = \frac{20}{10} - \frac{4}{10} - \frac{13}{10} = \frac{3}{10}\), \(2 + \frac{6}{5} = \frac{10}{5} + \frac{6}{5} = \frac{16}{5}\), \(0 + \frac{2}{5} + \frac{13}{10} = \frac{4}{10} + \frac{13}{10} = \frac{17}{10}\), \(2 - \frac{4}{5} + \frac{13}{10} = \frac{20}{10} - \frac{8}{10} + \frac{13}{10} = \frac{25}{10} = \frac{5}{2}\).
+23. Thus, \(\mathbf{y}_W = \begin{bmatrix}\frac{3}{10}\\\frac{16}{5}\\\frac{17}{10}\\\frac{5}{2}\end{bmatrix}\).
+24. Compute \(\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix}4\\3\\3\\-1\end{bmatrix} - \begin{bmatrix}\frac{3}{10}\\\frac{16}{5}\\\frac{17}{10}\\\frac{5}{2}\end{bmatrix} = \begin{bmatrix}\frac{37}{10}\\-\frac{1}{5}\\\frac{13}{10}\\-\frac{7}{2}\end{bmatrix}\).
+25. The final answer is: \(\mathbf{y} = \begin{bmatrix}\frac{3}{10}\\\frac{16}{5}\\\frac{17}{10}\\\frac{5}{2}\end{bmatrix} + \begin{bmatrix}\frac{37}{10}\\-\frac{1}{5}\\\frac{13}{10}\\-\frac{7}{2}\end{bmatrix}\), where the first vector is in \(W\) and the second is orthogonal to \(W\).

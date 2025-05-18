@@ -1,0 +1,3 @@
+1. Notice that \([Qr_1 \ Qr_2 \ \ldots \ Qr_p]\) is a matrix whose \(j\)-th column is \(Q r_j\), so it can be written as \(Q\) times the matrix whose columns are \(r_1, \ldots, r_p\).
+2. Let \(R = [r_1 \ r_2 \ \ldots \ r_p]\), then \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q [r_1 \ r_2 \ \ldots \ r_p] = Q R\).
+3. The answer is: \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q R\), where neither \(Q\) nor \(R\) is an identity matrix.

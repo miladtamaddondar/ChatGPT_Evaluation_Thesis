@@ -1,0 +1,6 @@
+1. Start with a \( 4 \times 3 \) zero matrix, which has rank 0: \( \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).
+2. Replace the first row with nonzero entries, e.g., \( [1, 2, 3] \): \( \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).
+3. Add to the second row a scalar multiple of the first row, e.g., \( 4 \times \) (first row): \( \begin{bmatrix} 1 & 2 & 3 \\ 4 & 8 & 12 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix} \).
+4. Add to the third row a different scalar multiple of the first row, e.g., \( -2 \times \) (first row): \( \begin{bmatrix} 1 & 2 & 3 \\ 4 & 8 & 12 \\ -2 & -4 & -6 \\ 0 & 0 & 0 \end{bmatrix} \).
+5. Add to the fourth row another scalar multiple of the first row, e.g., \( 7 \times \) (first row): \( \begin{bmatrix} 1 & 2 & 3 \\ 4 & 8 & 12 \\ -2 & -4 & -6 \\ 7 & 14 & 21 \end{bmatrix} \).
+6. Final answer: A \( 4 \times 3 \) matrix of rank 1 is \( \begin{bmatrix} 1 & 2 & 3 \\ 4 & 8 & 12 \\ -2 & -4 & -6 \\ 7 & 14 & 21 \end{bmatrix} \).

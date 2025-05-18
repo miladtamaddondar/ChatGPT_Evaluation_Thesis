@@ -1,0 +1,4 @@
+1. Subtract $5I$ from $A$ to get $A - 5I$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+2. Add row 4 to row 3 to eliminate the 4 in row 3, column 4: $R_3 \leftarrow R_3 + R_4$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & -4\end{bmatrix}$.
+3. Multiply row 4 by $-1/4$ to make the leading entry 1: $R_4 \leftarrow -\frac{1}{4}R_4$: $\begin{bmatrix}0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix}$.
+4. The system $(A-5I)\vec{x} = 0$ has two nonzero rows above the all-zero row, so for the nullity to be 2, the second and first rows must be linearly dependent. Set $h = 6$ so that row 2 is a multiple of row 1: Final answer: $h = 6$.

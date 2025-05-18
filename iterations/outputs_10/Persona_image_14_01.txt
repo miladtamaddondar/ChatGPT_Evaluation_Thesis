@@ -1,0 +1,7 @@
+1. To find \( h \) such that the eigenspace for \( \lambda = 5 \) is two-dimensional, we first compute \( A - 5I \): \( A - 5I = \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \).
+2. The eigenspace dimension is the nullity of \( A - 5I \), so we set up the homogeneous system \( (A - 5I)\vec{x} = 0 \): \( \begin{bmatrix} 0 & -2 & 6 & -1 \\ 0 & -2 & h & 0 \\ 0 & 0 & 0 & 4 \\ 0 & 0 & 0 & -4 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \end{bmatrix} \).
+3. The last two rows give \( 4x_4 = 0 \) and \( -4x_4 = 0 \), so \( x_4 = 0 \).
+4. The second row becomes \( -2x_2 + h x_3 = 0 \), so \( x_2 = \frac{h}{2}x_3 \).
+5. The first row becomes \( -2x_2 + 6x_3 = 0 \) (since \( x_4 = 0 \)), so \( -2x_2 + 6x_3 = 0 \implies x_2 = 3x_3 \).
+6. For the system to have two free variables (so the eigenspace is two-dimensional), the equations for \( x_2 \) must be consistent for all \( x_3 \), so \( \frac{h}{2} = 3 \implies h = 6 \).
+7. Therefore, the value of \( h \) that makes the eigenspace for \( \lambda = 5 \) two-dimensional is \( \boxed{6} \).

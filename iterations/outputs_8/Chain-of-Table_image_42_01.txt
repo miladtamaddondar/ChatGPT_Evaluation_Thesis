@@ -1,0 +1,18 @@
+1. Let \(\mathbf{y} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix}\), \(\mathbf{u}_1 = \begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \end{bmatrix}\), \(\mathbf{u}_2 = \begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \end{bmatrix}\), \(\mathbf{u}_3 = \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \end{bmatrix}\). We want to write \(\mathbf{y}\) as \(\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp\), where \(\mathbf{y}_W\) is in the subspace \(W = \text{span}\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\}\) and \(\mathbf{y}_\perp\) is orthogonal to \(W\).
+2. Express \(\mathbf{y}_W = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3\), so we solve for \(c_1, c_2, c_3\) in \(\mathbf{y} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 + \mathbf{y}_\perp\), with \(\mathbf{y}_\perp\) orthogonal to all \(\mathbf{u}_i\).
+3. Set up the system: \(\mathbf{y} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3\), or \(\begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix} \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix} = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix}\).
+4. Write the augmented matrix: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 1 & 3 & 0 & 3 \\ 0 & 1 & 1 & 3 \\ 1 & -2 & 1 & -1 \end{array}\right]\).
+5. Row 2 minus Row 1: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 1 & 1 & 3 \\ 1 & -2 & 1 & -1 \end{array}\right]\).
+6. Row 4 minus Row 1: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 1 & 1 & 3 \\ 0 & -1 & 2 & -5 \end{array}\right]\).
+7. Row 3 unchanged, Row 2 unchanged.
+8. Row 3 minus (1/4)Row 2: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 0 & 0.75 & 3.25 \\ 0 & -1 & 2 & -5 \end{array}\right]\).
+9. Row 4 plus (1/4)Row 2: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 0 & 0.75 & 3.25 \\ 0 & 0 & 2.25 & -5.25 \end{array}\right]\).
+10. Row 4 minus 3 times Row 3: \(\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 0 & 0.75 & 3.25 \\ 0 & 0 & 0 & -15 \end{array}\right]\).
+11. Back-substitute: From Row 4, \(0c_1 + 0c_2 + 0c_3 = -15\), which is inconsistent, so the system has no exact solution; instead, we find the least-squares solution (projection).
+12. Compute the projection: \(\mathbf{y}_W = \mathbf{U}(\mathbf{U}^T\mathbf{U})^{-1}\mathbf{U}^T\mathbf{y}\), where \(\mathbf{U} = [\mathbf{u}_1 \ \mathbf{u}_2 \ \mathbf{u}_3]\).
+13. Compute \(\mathbf{U}^T\mathbf{U} = \begin{bmatrix} 3 & -2 & 0 \\ -2 & 15 & -4 \\ 0 & -4 & 3 \end{bmatrix}\), \(\mathbf{U}^T\mathbf{y} = \begin{bmatrix} 6 \\ 2 \\ 1 \end{bmatrix}\).
+14. Solve \(\begin{bmatrix} 3 & -2 & 0 \\ -2 & 15 & -4 \\ 0 & -4 & 3 \end{bmatrix} \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix} = \begin{bmatrix} 6 \\ 2 \\ 1 \end{bmatrix}\) for \(c_1, c_2, c_3\).
+15. The solution is \(c_1 = 2\), \(c_2 = 0\), \(c_3 = 1\).
+16. Therefore, \(\mathbf{y}_W = 2\mathbf{u}_1 + 0\mathbf{u}_2 + 1\mathbf{u}_3 = 2\begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \end{bmatrix} + 0\begin{bmatrix} -1 \\ 3 \\ 1 \\ -2 \end{bmatrix} + 1\begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 2 \\ 2 \\ 0 \\ 2 \end{bmatrix} + \begin{bmatrix} -1 \\ 0 \\ 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 1 \\ 2 \\ 1 \\ 3 \end{bmatrix}\).
+17. The orthogonal component is \(\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} - \begin{bmatrix} 1 \\ 2 \\ 1 \\ 3 \end{bmatrix} = \begin{bmatrix} 3 \\ 1 \\ 2 \\ -4 \end{bmatrix}\).
+18. Final answer: \(\mathbf{y} = \begin{bmatrix} 1 \\ 2 \\ 1 \\ 3 \end{bmatrix} + \begin{bmatrix} 3 \\ 1 \\ 2 \\ -4 \end{bmatrix}\), where the first vector is in \(W\) and the second is orthogonal to \(W\).

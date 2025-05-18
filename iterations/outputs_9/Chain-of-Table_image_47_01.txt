@@ -1,0 +1,11 @@
+1. Write the normal equations for the least-squares solution: \(A^T A x = A^T b\), where \(A = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix}\), \(b = \begin{bmatrix} 4 \\ -2 \\ -3 \end{bmatrix}\).
+2. Compute \(A^T A\): \(\begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} = \begin{bmatrix} 14 & -1 \\ -1 & 42 \end{bmatrix}\).
+3. Compute \(A^T b\): \(\begin{bmatrix} 1 & 3 & -2 \\ 5 & 1 & 4 \end{bmatrix} \begin{bmatrix} 4 \\ -2 \\ -3 \end{bmatrix} = \begin{bmatrix} 16 \\ 6 \end{bmatrix}\).
+4. Set up the augmented matrix for the system \(\begin{bmatrix} 14 & -1 & 16 \\ -1 & 42 & 6 \end{bmatrix}\).
+5. Multiply the first row by \(\frac{1}{14}\): \(\begin{bmatrix} 1 & -\frac{1}{14} & \frac{8}{7} \\ -1 & 42 & 6 \end{bmatrix}\).
+6. Add the first row to the second row: \(\begin{bmatrix} 1 & -\frac{1}{14} & \frac{8}{7} \\ 0 & \frac{587}{14} & \frac{86}{7} \end{bmatrix}\).
+7. Multiply the second row by \(\frac{14}{587}\): \(\begin{bmatrix} 1 & -\frac{1}{14} & \frac{8}{7} \\ 0 & 1 & \frac{172}{587} \end{bmatrix}\).
+8. Add \(\frac{1}{14}\) times the second row to the first row: \(\begin{bmatrix} 1 & 0 & \frac{8}{7} + \frac{1}{14} \cdot \frac{172}{587} \\ 0 & 1 & \frac{172}{587} \end{bmatrix}\).
+9. Simplify the first row’s third entry: \(\frac{8}{7} + \frac{172}{14 \cdot 587} = \frac{8}{7} + \frac{86}{587}\).
+10. The least-squares solution is \(x = \begin{bmatrix} \frac{8}{7} + \frac{86}{587} \\ \frac{172}{587} \end{bmatrix}\).
+11. The orthogonal projection of \(b\) onto \(\operatorname{Col} A\) is \(p = A x = \begin{bmatrix} 1 & 5 \\ 3 & 1 \\ -2 & 4 \end{bmatrix} \begin{bmatrix} \frac{8}{7} + \frac{86}{587} \\ \frac{172}{587} \end{bmatrix}\).

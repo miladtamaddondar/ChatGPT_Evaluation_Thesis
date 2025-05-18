@@ -1,0 +1,5 @@
+1. The vector \(\mathbf{x}\) in the standard basis is obtained by multiplying the basis matrix by the coordinate vector: \(\mathbf{x} = [\mathbf{b}_1 \ \mathbf{b}_2] [\mathbf{x}]_B\), where \(\mathbf{b}_1 = \begin{bmatrix} 1 \\ 1 \\ 3 \end{bmatrix}\), \(\mathbf{b}_2 = \begin{bmatrix} 2 \\ -1 \\ 2 \end{bmatrix}\), and \([\mathbf{x}]_B = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\).  
+2. Form the basis matrix: \([\mathbf{b}_1 \ \mathbf{b}_2] = \begin{bmatrix} 1 & 2 \\ 1 & -1 \\ 3 & 2 \end{bmatrix}\).  
+3. Multiply the basis matrix by the coordinate vector: \(\mathbf{x} = \begin{bmatrix} 1 & 2 \\ 1 & -1 \\ 3 & 2 \end{bmatrix} \begin{bmatrix} 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 1 \cdot 2 + 2 \cdot 1 \\ 1 \cdot 2 + (-1) \cdot 1 \\ 3 \cdot 2 + 2 \cdot 1 \end{bmatrix} = \begin{bmatrix} 2 + 2 \\ 2 - 1 \\ 6 + 2 \end{bmatrix}\).  
+4. Simplify the result: \(\mathbf{x} = \begin{bmatrix} 4 \\ 1 \\ 8 \end{bmatrix}\).  
+5. Final answer: The vector \(\mathbf{x}\) is \(\begin{bmatrix} 4 \\ 1 \\ 8 \end{bmatrix}\).

@@ -1,0 +1,5 @@
+1. The matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) has as columns the vectors \(Q r_i\) for \(i = 1, \dots, p\).
+2. Each \(Q r_i\) is the result of multiplying \(Q\) by the vector \(r_i\), so the \(i\)-th column is \(Q r_i\).
+3. The matrix with columns \(r_1, \dots, r_p\) is \(\left[ r_1 \; r_2 \; \dots \; r_p \right]\), which is an \(n \times p\) matrix.
+4. Multiplying \(Q\) (of size \(m \times n\)) by \(\left[ r_1 \; r_2 \; \dots \; r_p \right]\) (of size \(n \times p\)) gives an \(m \times p\) matrix whose \(i\)-th column is \(Q r_i\).
+5. Therefore, \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\).

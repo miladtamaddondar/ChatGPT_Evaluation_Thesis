@@ -1,0 +1,3 @@
+1. The matrix \([Q r_1 \ Q r_2 \ \ldots \ Q r_p]\) consists of the vectors \(Q r_1, Q r_2, \ldots, Q r_p\) as columns.  
+2. We can express this as \(Q\) times the matrix whose columns are \(r_1, r_2, \ldots, r_p\), i.e., \(Q [r_1 \ r_2 \ \ldots \ r_p]\).  
+3. Therefore, \([Q r_1 \ Q r_2 \ \ldots \ Q r_p] = Q [r_1 \ r_2 \ \ldots \ r_p]\).

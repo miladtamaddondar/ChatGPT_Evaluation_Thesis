@@ -1,0 +1,10 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we seek $\mathbf{v}$ such that $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$.
+2. Let $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, so $\mathbf{u}_1 \cdot \mathbf{v} = 1x + 1y + (-2)z = 0$.
+3. Similarly, $\mathbf{u}_2 \cdot \mathbf{v} = 5x + (-1)y + 2z = 0$.
+4. We now have the system: $x + y - 2z = 0$ and $5x - y + 2z = 0$.
+5. Add the two equations: $(x + y - 2z) + (5x - y + 2z) = 0 \implies 6x = 0 \implies x = 0$.
+6. Substitute $x = 0$ into the first equation: $0 + y - 2z = 0 \implies y = 2z$.
+7. Substitute $x = 0$ and $y = 2z$ into the second equation: $5(0) - (2z) + 2z = 0 \implies 0 = 0$ (always true).
+8. Thus, any vector of the form $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix}$ is orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$.
+9. Choosing $z = 1$ gives a nonzero vector: $\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$.
+10. Final answer: A nonzero vector orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$.

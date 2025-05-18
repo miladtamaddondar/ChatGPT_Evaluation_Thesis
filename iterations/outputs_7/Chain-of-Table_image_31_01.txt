@@ -1,0 +1,8 @@
+1. The set \( W \) is defined as all vectors of the form \( \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} \) where \( a, b \in \mathbb{R} \).  
+2. To check if \( W \) is a vector space, test closure under addition and scalar multiplication.  
+3. Consider two arbitrary vectors in \( W \): \( \vec{u} = \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} \), \( \vec{v} = \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} \).  
+4. Their sum is \( \vec{u} + \vec{v} = \begin{bmatrix} (3a_1 + b_1) + (3a_2 + b_2) \\ 4 + 4 \\ (a_1 - 5b_1) + (a_2 - 5b_2) \end{bmatrix} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix} \).  
+5. The second entry is 8, not 4, so \( \vec{u} + \vec{v} \notin W \) (since the second entry must always be 4 for vectors in \( W \)).  
+6. Therefore, \( W \) is not closed under addition and is not a vector space.  
+7. Example: \( \begin{bmatrix} 3 \cdot 0 + 0 \\ 4 \\ 0 - 5 \cdot 0 \end{bmatrix} + \begin{bmatrix} 3 \cdot 0 + 0 \\ 4 \\ 0 - 5 \cdot 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 8 \\ 0 \end{bmatrix} \notin W \).  
+8. Final answer: \( W \) is not a vector space because it is not closed under addition.

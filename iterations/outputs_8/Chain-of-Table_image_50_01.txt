@@ -1,0 +1,13 @@
+1. Write the inner product: For polynomials \(f, g \in \mathbb{P}_3\), \(\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)\).
+2. Compute values: \(p_0(t) = 1\) so \(p_0(-3) = p_0(-1) = p_0(1) = p_0(3) = 1\); \(p_1(t) = t\) so \(p_1(-3) = -3, p_1(-1) = -1, p_1(1) = 1, p_1(3) = 3\); \(p_2(t) = t^2\) so \(p_2(-3) = 9, p_2(-1) = 1, p_2(1) = 1, p_2(3) = 9\).
+3. Compute inner products: \(\langle p_0, p_0 \rangle = 1+1+1+1=4\), \(\langle p_0, p_1 \rangle = 1 \cdot (-3) + 1 \cdot (-1) + 1 \cdot 1 + 1 \cdot 3 = 0\), \(\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9+1+1+9=20\), \(\langle p_2, p_0 \rangle = 9+1+1+9=20\), \(\langle p_2, p_1 \rangle = 9 \cdot (-3) + 1 \cdot (-1) + 1 \cdot 1 + 9 \cdot 3 = -27-1+1+27=0\).
+4. Orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(\frac{\langle p_2, p_0 \rangle}{\langle p_0, p_0 \rangle}p_0 + \frac{\langle p_2, p_1 \rangle}{\langle p_1, p_1 \rangle}p_1 = \frac{20}{4}p_0 + \frac{0}{20}p_1 = 5p_0\).
+5. The orthogonal projection is \(5\).
+6. To find \(q\), let \(q(t) = a p_0(t) + b p_1(t) + c p_2(t)\) and require \(\langle q, p_0 \rangle = 0\), \(\langle q, p_1 \rangle = 0\).
+7. Compute: \(\langle q, p_0 \rangle = a \langle p_0, p_0 \rangle + b \langle p_1, p_0 \rangle + c \langle p_2, p_0 \rangle = 4a + 0 + 20c = 0\), so \(a = -5c\).
+8. Compute: \(\langle q, p_1 \rangle = a \langle p_0, p_1 \rangle + b \langle p_1, p_1 \rangle + c \langle p_2, p_1 \rangle = 0 + 20b + 0 = 0\), so \(b = 0\).
+9. So \(q(t) = -5c \cdot 1 + 0 \cdot t + c t^2 = c(t^2 - 5)\).
+10. The values of \(q\) at \(-3, -1, 1, 3\) are \(c(9-5)=4c\), \(c(1-5)=-4c\), \(c(1-5)=-4c\), \(c(9-5)=4c\).
+11. Set \((4c, -4c, -4c, 4c) = (1, -1, -1, 1)\), so \(4c=1 \implies c=\frac{1}{4}\).
+12. The desired polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\).
+13. Final answer: The orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(5\), and the orthogonal polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\) with values \((1, -1, -1, 1)\) at \((-3, -1, 1, 3)\).

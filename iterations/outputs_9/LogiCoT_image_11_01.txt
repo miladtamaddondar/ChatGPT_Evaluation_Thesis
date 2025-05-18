@@ -1,0 +1,8 @@
+1. To find the eigenvalues, set up the characteristic equation \(\det(A - \lambda I) = 0\) where \(A = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 2 & 5 \\ 0 & 0 & 1 \end{bmatrix}\) and \(I\) is the \(3 \times 3\) identity matrix.  
+2. Compute \(A - \lambda I = \begin{bmatrix} 0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda \end{bmatrix}\).  
+3. The determinant is \(\det(A - \lambda I) = (0-\lambda)\det\begin{bmatrix} 2-\lambda & 5 \\ 0 & 1-\lambda \end{bmatrix}\) since the first row has only one nonzero entry.  
+4. Compute the \(2 \times 2\) determinant: \(\det\begin{bmatrix} 2-\lambda & 5 \\ 0 & 1-\lambda \end{bmatrix} = (2-\lambda)(1-\lambda) - 0 = (2-\lambda)(1-\lambda)\).  
+5. Therefore, \(\det(A - \lambda I) = -\lambda (2-\lambda)(1-\lambda)\).  
+6. Set the characteristic equation: \(-\lambda (2-\lambda)(1-\lambda) = 0\).  
+7. The solutions are \(\lambda = 0\), \(\lambda = 1\), and \(\lambda = 2\).  
+8. Final answer: The eigenvalues of the matrix are \(\boxed{0, 1, 2}\).

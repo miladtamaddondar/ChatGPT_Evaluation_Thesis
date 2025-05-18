@@ -1,0 +1,8 @@
+1. Write the equation $T(\mathbf{x}) = (-1, 4, 9)$ in terms of components: $T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) = (-1, 4, 9)$.
+2. Set up the system of linear equations by equating components: $x_1 - 2x_2 = -1$, $-x_1 + 3x_2 = 4$, $3x_1 - 2x_2 = 9$.
+3. Verify that the system is consistent by checking if the third equation is a linear combination of the first two: Multiply the first equation by 3 to get $3x_1 - 6x_2 = -3$; add the second equation to this result: $3x_1 - 6x_2 + (-x_1 + 3x_2) = -3 + 4 \implies (2x_1 - 3x_2) = 1$, which does not match the third equation $3x_1 - 2x_2 = 9$; thus, check for consistency by solving the first two equations.
+4. Solve the first two equations as a $2 \times 2$ system: $x_1 - 2x_2 = -1$ and $-x_1 + 3x_2 = 4$.
+5. Add the two equations to eliminate $x_1$: $(x_1 - 2x_2) + (-x_1 + 3x_2) = -1 + 4 \implies x_2 = 3$.
+6. Substitute $x_2 = 3$ into the first equation: $x_1 - 2(3) = -1 \implies x_1 - 6 = -1 \implies x_1 = 5$.
+7. Verify the solution in the third equation: $3x_1 - 2x_2 = 3(5) - 2(3) = 15 - 6 = 9$, which matches the right side, confirming consistency.
+8. Final answer: $\mathbf{x} = (5, 3)$.

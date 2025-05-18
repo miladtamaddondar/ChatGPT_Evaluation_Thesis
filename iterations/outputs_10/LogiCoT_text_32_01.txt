@@ -1,0 +1,5 @@
+1. To determine if $\mathbf{w}$ is in $\text{Nul }A$, we must check if $A\mathbf{w} = \mathbf{0}$ by computing the matrix-vector product $A\mathbf{w}$.
+2. Compute the first entry: $3(1) + (-5)(3) + (-3)(-4) = 3 - 15 + 12 = 0$; since $0$ is obtained, the first entry is correct.
+3. Compute the second entry: $6(1) + (-2)(3) + 0(-4) = 6 - 6 + 0 = 0$; since $0$ is obtained, the second entry is correct.
+4. Compute the third entry: $-8(1) + 4(3) + 1(-4) = -8 + 12 - 4 = 0$; since $0$ is obtained, the third entry is correct.
+5. Since all entries of $A\mathbf{w}$ are $0$, $\mathbf{w}$ is in $\text{Nul }A$.

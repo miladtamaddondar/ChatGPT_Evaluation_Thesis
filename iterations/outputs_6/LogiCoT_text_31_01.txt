@@ -1,0 +1,5 @@
+1. Let $W = \left\{ \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} : a, b \in \mathbb{R} \right\}$ and observe that the second entry is always $4$ regardless of $a$ or $b$.
+2. To check if $W$ is a vector space, verify if the zero vector $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$ is in $W$ by solving $3a + b = 0$, $4 = 0$, $a - 5b = 0$.
+3. The equation $4 = 0$ has no solution, so the zero vector is not in $W$.
+4. Since $W$ does not contain the zero vector, $W$ is not a vector space by the definition of a vector space.
+5. Final answer: $W$ is not a vector space because it does not contain the zero vector.

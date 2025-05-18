@@ -1,0 +1,8 @@
+1. To find \( B \) such that \( AB = 0 \), we seek nonzero vectors \( \mathbf{b}_1 \) and \( \mathbf{b}_2 \) in the null space of \( A \). Set up the augmented matrix: \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 1 & 2 & 0\end{array}\right]\).
+2. Row 2 \(-\) \(\frac{1}{3}\) Row 1 \(\rightarrow\) Row 2: \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 0 & 4 & 0\end{array}\right]\).
+3. Row 2 \(\div 4\): \(\left[\begin{array}{cc|c}3 & -6 & 0 \\ 0 & 1 & 0\end{array}\right]\).
+4. Row 1 \(-\) (\(-6\)) Row 2 \(\rightarrow\) Row 1: \(\left[\begin{array}{cc|c}3 & 0 & 0 \\ 0 & 1 & 0\end{array}\right]\).
+5. Row 1 \(\div 3\): \(\left[\begin{array}{cc|c}1 & 0 & 0 \\ 0 & 1 & 0\end{array}\right]\).
+6. The only solution is the zero vector, but since the original system is homogeneous and the matrix \( A \) is rank 1 (since rows are linearly dependent), let's check the null space directly: \(3x - 6y = 0\) and \(x + 2y = 0\).
+7. Solve \(x + 2y = 0 \implies x = -2y\), substitute into the first equation: \(3(-2y) - 6y = -6y - 6y = -12y = 0 \implies y = 0\), so \(x = 0\). Thus, the only solution is the zero vector, so \( B \) must be the zero matrix.
+8. Therefore, the only \( 2 \times 2 \) matrix \( B \) such that \( AB = 0 \) is \( B = \begin{bmatrix}0 & 0 \\ 0 & 0\end{bmatrix} \).

@@ -1,0 +1,8 @@
+1. Write the transformation equations: \( T(x_1, x_2) = (x_1 - 2x_2, -x_1 + 3x_2, 3x_1 - 2x_2) \) and set equal to \((-1, 4, 9)\).  
+2. Set up the system: \( x_1 - 2x_2 = -1 \), \( -x_1 + 3x_2 = 4 \), \( 3x_1 - 2x_2 = 9 \).  
+3. Solve the first equation for \( x_1 \): \( x_1 = -1 + 2x_2 \).  
+4. Substitute \( x_1 \) into the second equation: \( -(-1 + 2x_2) + 3x_2 = 4 \implies 1 - 2x_2 + 3x_2 = 4 \implies 1 + x_2 = 4 \).  
+5. Solve for \( x_2 \): \( x_2 = 3 \).  
+6. Substitute \( x_2 = 3 \) into \( x_1 = -1 + 2x_2 \): \( x_1 = -1 + 2 \times 3 = 5 \).  
+7. Verify in the third equation: \( 3x_1 - 2x_2 = 3 \times 5 - 2 \times 3 = 15 - 6 = 9 \), which matches the given value.  
+8. Final answer: The solution is \( x = (5, 3) \).

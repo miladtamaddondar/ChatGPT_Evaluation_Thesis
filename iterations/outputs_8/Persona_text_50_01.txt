@@ -1,0 +1,18 @@
+1. The inner product is defined as $\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)$.
+2. The subspace $W$ is spanned by $p_0(t) = 1$ and $p_1(t) = t$.
+3. The orthogonal projection of $p_2$ onto $W$ is $\mathrm{proj}_W(p_2) = a_0 p_0 + a_1 p_1$, where $a_0$ and $a_1$ are to be determined.
+4. To find $a_0$ and $a_1$, set $\langle p_2 - (a_0 p_0 + a_1 p_1), p_0 \rangle = 0$ and $\langle p_2 - (a_0 p_0 + a_1 p_1), p_1 \rangle = 0$.
+5. Compute $\langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4$.
+6. Compute $\langle p_1, p_0 \rangle = (-3)(1) + (-1)(1) + (1)(1) + (3)(1) = -3 - 1 + 1 + 3 = 0$.
+7. Compute $\langle p_2, p_0 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20$.
+8. Compute $\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + (1)^2 + (3)^2 = 9 + 1 + 1 + 9 = 20$.
+9. Compute $\langle p_2, p_1 \rangle = (-3)^2(-3) + (-1)^2(-1) + (1)^2(1) + (3)^2(3) = 9(-3) + 1(-1) + 1(1) + 9(3) = -27 - 1 + 1 + 27 = 0$.
+10. The equations for $a_0$ and $a_1$ are $20 - 4a_0 = 0$ and $0 - 20a_1 = 0$.
+11. Solving, $a_0 = 5$ and $a_1 = 0$.
+12. Therefore, the orthogonal projection is $\mathrm{proj}_W(p_2) = 5 \cdot p_0 + 0 \cdot p_1 = 5$.
+13. To find $q$, set $q = p_2 - \mathrm{proj}_W(p_2) = t^2 - 5$.
+14. Check orthogonality: $\langle q, p_0 \rangle = \langle t^2 - 5, 1 \rangle = 20 - 20 = 0$ and $\langle q, p_1 \rangle = \langle t^2 - 5, t \rangle = 0 - 0 = 0$.
+15. Evaluate $q$ at $-3, -1, 1, 3$: $q(-3) = 9 - 5 = 4$, $q(-1) = 1 - 5 = -4$, $q(1) = 1 - 5 = -4$, $q(3) = 9 - 5 = 4$.
+16. The vector of values is $(4, -4, -4, 4)$, so scale $q$ by $\frac{1}{4}$ to get $q(t) = \frac{1}{4}(t^2 - 5)$.
+17. The scaled vector is $(1, -1, -1, 1)$, as required.
+18. Final answers: (a) The orthogonal projection is $5$, (b) The orthogonal basis is $\{1, t, \frac{1}{4}(t^2 - 5)\}$.

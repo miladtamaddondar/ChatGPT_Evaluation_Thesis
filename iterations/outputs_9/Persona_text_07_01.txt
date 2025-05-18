@@ -1,0 +1,5 @@
+1. Observe that the matrix \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right]\) has as columns the products \(Q r_j\) for \(j = 1, \dots, p\).
+2. Recall that multiplying \(Q\) by a matrix whose columns are \(r_1, \dots, r_p\) gives a matrix whose columns are \(Q r_1, \dots, Q r_p\).
+3. Let \(R = \left[ r_1 \; r_2 \; \dots \; r_p \right]\) be the \(n \times p\) matrix whose columns are the \(r_j\).
+4. Therefore, \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q R\).
+5. The final answer is: \(\left[ Q r_1 \; Q r_2 \; \dots \; Q r_p \right] = Q \left[ r_1 \; r_2 \; \dots \; r_p \right]\).

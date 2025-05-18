@@ -1,0 +1,4 @@
+1. Write the general form of vectors in \( W \): Any vector in \( W \) is of the form \(\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix}\), where \(a, b \in \mathbb{R}\).
+2. Express as a linear combination: \(\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} = a\begin{bmatrix} 3 \\ 0 \\ 1 \end{bmatrix} + b\begin{bmatrix} 1 \\ 0 \\ -5 \end{bmatrix} + 4\begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix}\).
+3. Check if \( W \) is a vector space: The second entry is always 4, so \( W \) does not contain the zero vector \(\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}\), since the middle entry cannot be zero.
+4. Example to show \( W \) is not a vector space: The zero vector is not in \( W \), so \( W \) is not a vector space.

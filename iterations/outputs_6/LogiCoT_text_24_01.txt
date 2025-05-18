@@ -1,0 +1,14 @@
+1. The problem asks for all $\mathbf{x} \in \mathbb{R}^4$ such that $A\mathbf{x} = \mathbf{0}$, i.e., to find the null space (kernel) of $A$; this is equivalent to solving the homogeneous system $A\mathbf{x} = \mathbf{0}$.
+2. Write the augmented matrix for the system: $\begin{bmatrix} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 2 & -6 & 6 & -4 & 0 \end{bmatrix}$.
+3. Eliminate the $2$ in the first column of the third row by replacing row 3 with row 3 minus $2$ times row 1: $[2, -6, 6, -4] - 2 \times [1, -4, 7, -5] = [2-2, -6-(-8), 6-14, -4-(-10)] = [0, 2, -8, 6]$.
+4. The matrix is now $\begin{bmatrix} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 2 & -8 & 6 & 0 \end{bmatrix}$, which is correct as the first column below the leading 1 is zero.
+5. Eliminate the $2$ in the second column of the third row by replacing row 3 with row 3 minus $2$ times row 2: $[0,2,-8,6] - 2 \times [0,1,-4,3] = [0,2-2,-8-(-8),6-6] = [0,0,0,0]$.
+6. The matrix is now $\begin{bmatrix} 1 & -4 & 7 & -5 & 0 \\ 0 & 1 & -4 & 3 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}$, which is in row-echelon form and correctly shows a dependent system.
+7. Write the system of equations from the row-reduced matrix: $x_1 - 4x_2 + 7x_3 - 5x_4 = 0$ and $x_2 - 4x_3 + 3x_4 = 0$.
+8. Express leading variables in terms of free variables: from the second equation, $x_2 = 4x_3 - 3x_4$.
+9. Substitute $x_2$ into the first equation: $x_1 - 4(4x_3 - 3x_4) + 7x_3 - 5x_4 = 0$.
+10. Simplify: $x_1 - 16x_3 + 12x_4 + 7x_3 - 5x_4 = 0 \implies x_1 - 9x_3 + 7x_4 = 0$.
+11. Solve for $x_1$: $x_1 = 9x_3 - 7x_4$.
+12. Thus, the general solution is $\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 9x_3 - 7x_4 \\ 4x_3 - 3x_4 \\ x_3 \\ x_4 \end{bmatrix}$.
+13. Write the solution as a linear combination: $\mathbf{x} = x_3 \begin{bmatrix} 9 \\ 4 \\ 1 \\ 0 \end{bmatrix} + x_4 \begin{bmatrix} -7 \\ -3 \\ 0 \\ 1 \end{bmatrix}$, where $x_3, x_4 \in \mathbb{R}$.
+14. Final answer: All $\mathbf{x} \in \mathbb{R}^4$ mapped to zero by $A$ are $\mathbf{x} = x_3 \begin{bmatrix} 9 \\ 4 \\ 1 \\ 0 \end{bmatrix} + x_4 \begin{bmatrix} -7 \\ -3 \\ 0 \\ 1 \end{bmatrix}$ for $x_3, x_4 \in \mathbb{R}$.

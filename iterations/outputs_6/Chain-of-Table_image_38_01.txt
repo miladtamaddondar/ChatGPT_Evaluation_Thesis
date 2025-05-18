@@ -1,0 +1,11 @@
+1. Write the basis and the target polynomial: The basis is \( \mathcal{B} = \{1,\, 2t,\, -2 + 4t^2,\, -12t + 8t^3\} \), and \( p(t) = 7 - 12t - 8t^2 + 12t^3 \).
+2. Set up the equation: Find scalars \( c_1, c_2, c_3, c_4 \) such that \( c_1(1) + c_2(2t) + c_3(-2 + 4t^2) + c_4(-12t + 8t^3) = 7 - 12t - 8t^2 + 12t^3 \).
+3. Expand and collect like terms: \( c_1 + 2c_2 t + (-2c_3 + 4c_3 t^2) + (-12c_4 t + 8c_4 t^3) = 7 - 12t - 8t^2 + 12t^3 \).
+4. Group coefficients: Constant: \( c_1 - 2c_3 = 7 \), \( t \): \( 2c_2 - 12c_4 = -12 \), \( t^2 \): \( 4c_3 = -8 \), \( t^3 \): \( 8c_4 = 12 \).
+5. Write the augmented matrix: \( \left[\begin{array}{cccc|c} 1 & 0 & -2 & 0 & 7 \\ 0 & 2 & 0 & -12 & -12 \\ 0 & 0 & 4 & 0 & -8 \\ 0 & 0 & 0 & 8 & 12 \end{array}\right] \).
+6. Row 3: Divide by 4 to solve for \( c_3 \): \( \left[\begin{array}{cccc|c} 1 & 0 & -2 & 0 & 7 \\ 0 & 2 & 0 & -12 & -12 \\ 0 & 0 & 1 & 0 & -2 \\ 0 & 0 & 0 & 8 & 12 \end{array}\right] \).
+7. Row 4: Divide by 8 to solve for \( c_4 \): \( \left[\begin{array}{cccc|c} 1 & 0 & -2 & 0 & 7 \\ 0 & 2 & 0 & -12 & -12 \\ 0 & 0 & 1 & 0 & -2 \\ 0 & 0 & 0 & 1 & 1.5 \end{array}\right] \).
+8. Row 2: Replace with Row 2 + 12 × Row 4 to eliminate \( c_4 \): \( \left[\begin{array}{cccc|c} 1 & 0 & -2 & 0 & 7 \\ 0 & 2 & 0 & 0 & 6 \\ 0 & 0 & 1 & 0 & -2 \\ 0 & 0 & 0 & 1 & 1.5 \end{array}\right] \).
+9. Row 2: Divide by 2 to solve for \( c_2 \): \( \left[\begin{array}{cccc|c} 1 & 0 & -2 & 0 & 7 \\ 0 & 1 & 0 & 0 & 3 \\ 0 & 0 & 1 & 0 & -2 \\ 0 & 0 & 0 & 1 & 1.5 \end{array}\right] \).
+10. Row 1: Replace with Row 1 + 2 × Row 3 to eliminate \( c_3 \): \( \left[\begin{array}{cccc|c} 1 & 0 & 0 & 0 & 3 \\ 0 & 1 & 0 & 0 & 3 \\ 0 & 0 & 1 & 0 & -2 \\ 0 & 0 & 0 & 1 & 1.5 \end{array}\right] \).
+11. Final answer: The coordinate vector is \( \boxed{\begin{pmatrix} 3 \\ 3 \\ -2 \\ 1.5 \end{pmatrix}_{\mathcal{B}}} \).

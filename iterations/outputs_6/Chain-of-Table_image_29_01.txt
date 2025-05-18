@@ -1,0 +1,4 @@
+1. Write the system as an augmented matrix: \(\begin{bmatrix} 1 & 1 & | & 3 \\ 4 & 5 & | & 8 \end{bmatrix}\).
+2. Row 2 - 4*Row 1 → Row 2: \(\begin{bmatrix} 1 & 1 & | & 3 \\ 0 & 1 & | & -4 \end{bmatrix}\).
+3. Row 1 - Row 2 → Row 1: \(\begin{bmatrix} 1 & 0 & | & 7 \\ 0 & 1 & | & -4 \end{bmatrix}\).
+4. Final answer: \(\mathbf{x} = \begin{bmatrix} 7 \\ -4 \end{bmatrix}\).

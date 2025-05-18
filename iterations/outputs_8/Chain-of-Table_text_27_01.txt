@@ -1,0 +1,6 @@
+1. To find the matrix $A$ representing $T$, set up the system: $A\mathbf{e}_1 = \mathbf{y}_1$ and $A\mathbf{e}_2 = \mathbf{y}_2$. Let $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$, so $A\mathbf{e}_1 = \begin{bmatrix} a \\ c \end{bmatrix} = \begin{bmatrix} 2 \\ 5 \end{bmatrix}$ and $A\mathbf{e}_2 = \begin{bmatrix} b \\ d \end{bmatrix} = \begin{bmatrix} -1 \\ 6 \end{bmatrix}$.
+2. Therefore, $a=2$, $c=5$, $b=-1$, $d=6$, so $A = \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix}$.
+3. To find the image of $\begin{bmatrix} 5 \\ -3 \end{bmatrix}$, compute $A\begin{bmatrix} 5 \\ -3 \end{bmatrix} = \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix}\begin{bmatrix} 5 \\ -3 \end{bmatrix}$.
+4. Multiply: First row: $2 \cdot 5 + (-1) \cdot (-3) = 10 + 3 = 13$, second row: $5 \cdot 5 + 6 \cdot (-3) = 25 - 18 = 7$. So, $A\begin{bmatrix} 5 \\ -3 \end{bmatrix} = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$
+5. For a general vector $\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, $A\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.
+6. Final answer: The images are $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$ and $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.

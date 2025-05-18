@@ -1,0 +1,8 @@
+1. We want to find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), where \(A = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix}\). Let \(B = \begin{bmatrix} b_1 & b_2 \end{bmatrix}\), where \(b_1\) and \(b_2\) are column vectors in \(\mathbb{R}^2\). Each column must satisfy \(A b = 0\).
+2. Set up the homogeneous system for a generic column \(b = \begin{bmatrix} x \\ y \end{bmatrix}\): \(A b = 0 \implies \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\).
+3. Write the system: \(3x - 6y = 0\), \(-x + 2y = 0\).
+4. Solve \(-x + 2y = 0 \implies x = 2y\).
+5. Substitute into the first equation: \(3(2y) - 6y = 0 \implies 6y - 6y = 0\), which is always true.
+6. The general solution is \(x = 2y\), so any vector of the form \(\begin{bmatrix} 2y \\ y \end{bmatrix}\) is a solution with \(y \neq 0\).
+7. Choose two different nonzero values for \(y\), say \(y = 1\) and \(y = -1\), to get two different columns: \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) and \(\begin{bmatrix} -2 \\ -1 \end{bmatrix}\).
+8. Therefore, one possible matrix \(B\) is \(B = \begin{bmatrix} 2 & -2 \\ 1 & -1 \end{bmatrix}\).

@@ -1,0 +1,10 @@
+1. To find all least-squares solutions, solve the normal equations \(A^T A \mathbf{x} = A^T \mathbf{b}\).
+2. Compute \(A^T A = \begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix}\) by multiplying \(A^T\) and \(A\).
+3. Compute \(A^T \mathbf{b} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\) by multiplying \(A^T\) and \(\mathbf{b}\).
+4. Set up the normal equations: \(\begin{bmatrix} 4 & 2 & 2 \\ 2 & 2 & 0 \\ 2 & 0 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} 14 \\ 4 \\ 10 \end{bmatrix}\).
+5. Write the system: \(4x_1 + 2x_2 + 2x_3 = 14\), \(2x_1 + 2x_2 = 4\), \(2x_1 + 2x_3 = 10\).
+6. Solve the second equation for \(x_2\): \(2x_1 + 2x_2 = 4 \implies x_2 = 2 - x_1\).
+7. Solve the third equation for \(x_3\): \(2x_1 + 2x_3 = 10 \implies x_3 = 5 - x_1\).
+8. Substitute \(x_2\) and \(x_3\) into the first equation: \(4x_1 + 2(2 - x_1) + 2(5 - x_1) = 14\).
+9. Simplify: \(4x_1 + 4 - 2x_1 + 10 - 2x_1 = 14\) gives \(0x_1 + 14 = 14\), which is always true.
+10. Therefore, all least-squares solutions are \(\mathbf{x} = \begin{bmatrix} x_1 \\ 2 - x_1 \\ 5 - x_1 \end{bmatrix}\) for any real \(x_1\).

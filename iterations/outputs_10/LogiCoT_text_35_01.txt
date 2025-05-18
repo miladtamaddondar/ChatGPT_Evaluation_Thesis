@@ -1,0 +1,10 @@
+1. To find the coordinate vector $[p(t)]_{\mathcal{B}}$, we need to express $p(t) = 1 + 4t + 7t^2$ as a linear combination of the basis vectors: $p(t) = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2)$.  
+2. Expand the right side: $a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) = a + a t^2 + b t + b t^2 + c + 2c t + c t^2$.  
+3. Combine like terms: $(a + c) + (b + 2c)t + (a + b + c)t^2$.  
+4. Set the coefficients equal to those in $p(t)$: $a + c = 1$, $b + 2c = 4$, $a + b + c = 7$.  
+5. Write the system as a matrix equation: $\begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \\ 1 & 1 & 1 \end{bmatrix} \begin{bmatrix} a \\ b \\ c \end{bmatrix} = \begin{bmatrix} 1 \\ 4 \\ 7 \end{bmatrix}$.  
+6. To solve, subtract the first equation from the third: $(a + b + c) - (a + c) = 7 - 1 \implies b = 6$.  
+7. Substitute $b = 6$ into the second equation: $6 + 2c = 4 \implies 2c = -2 \implies c = -1$.  
+8. Substitute $c = -1$ into the first equation: $a + (-1) = 1 \implies a = 2$.  
+9. Verify by plugging $a = 2$, $b = 6$, $c = -1$ into the third equation: $2 + 6 + (-1) = 7$, which matches the original equation.  
+10. Therefore, the coordinate vector is $[p(t)]_{\mathcal{B}} = \begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix}$.

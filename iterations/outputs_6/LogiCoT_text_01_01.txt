@@ -1,0 +1,5 @@
+1. To find the inverse of a 2x2 matrix \(\begin{bmatrix}a & b \\ c & d\end{bmatrix}\), use the formula \(\frac{1}{ad-bc}\begin{bmatrix}d & -b \\ -c & a\end{bmatrix}\); let's identify \(a=8\), \(b=6\), \(c=5\), \(d=4\).
+2. Compute the determinant: \(ad-bc = (8)(4) - (6)(5) = 32 - 30 = 2\); since the determinant is nonzero, the matrix is invertible.
+3. Apply the inverse formula: \(\frac{1}{2}\begin{bmatrix}4 & -6 \\ -5 & 8\end{bmatrix}\).
+4. Multiply each entry by \(\frac{1}{2}\): \(\begin{bmatrix}2 & -3 \\ -2.5 & 4\end{bmatrix}\).
+5. Final answer: The inverse is \(\boxed{\begin{bmatrix}2 & -3 \\ -2.5 & 4\end{bmatrix}}\).

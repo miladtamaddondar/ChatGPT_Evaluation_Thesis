@@ -1,0 +1,7 @@
+1. The standard matrix $A$ of $T$ has columns $\mathbf{y}_1$ and $\mathbf{y}_2$, so $A = \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix}$; this follows from the definition of the matrix of a linear transformation with respect to the standard basis.
+2. To find $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right)$, compute $A \begin{bmatrix} 5 \\ -3 \end{bmatrix} = \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix} \begin{bmatrix} 5 \\ -3 \end{bmatrix}$; this uses the rule for matrix-vector multiplication.
+3. Calculate the first entry: $2 \times 5 + (-1) \times (-3) = 10 + 3 = 13$; this is correct by the definition of matrix multiplication.
+4. Calculate the second entry: $5 \times 5 + 6 \times (-3) = 25 - 18 = 7$; this is correct by the definition of matrix multiplication.
+5. Therefore, $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$; this follows from the previous calculations.
+6. For a general vector $\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$, $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = A \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$; this uses the linearity of $T$ and matrix multiplication.
+7. Final answer: $T\left(\begin{bmatrix} 5 \\ -3 \end{bmatrix}\right) = \begin{bmatrix} 13 \\ 7 \end{bmatrix}$ and $T\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} 2x_1 - x_2 \\ 5x_1 + 6x_2 \end{bmatrix}$.

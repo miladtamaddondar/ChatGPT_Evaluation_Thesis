@@ -1,0 +1,13 @@
+1. Write the equation $T(\mathbf{x}) = (3, 8)$ explicitly: $T(x_1, x_2) = (x_1 + x_2, 4x_1 + 5x_2) = (3, 8)$.  
+2. Set up the system of linear equations: $x_1 + x_2 = 3$ and $4x_1 + 5x_2 = 8$.  
+3. Express the system in matrix form: $\begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix} \begin{pmatrix} x_1 \\ x_2 \end{pmatrix} = \begin{pmatrix} 3 \\ 8 \end{pmatrix}$.  
+4. Verify that the coefficient matrix is invertible by computing its determinant: $\det\begin{pmatrix} 1 & 1 \\ 4 & 5 \end{pmatrix} = 1 \cdot 5 - 1 \cdot 4 = 1$.  
+5. Since the determinant is nonzero, the system has a unique solution by the invertibility criterion.  
+6. Solve the first equation for $x_1$: $x_1 = 3 - x_2$.  
+7. Substitute $x_1$ into the second equation: $4(3 - x_2) + 5x_2 = 8$.  
+8. Simplify: $12 - 4x_2 + 5x_2 = 8 \implies 12 + x_2 = 8$.  
+9. Solve for $x_2$: $x_2 = 8 - 12 = -4$.  
+10. Substitute $x_2 = -4$ into $x_1 = 3 - x_2$: $x_1 = 3 - (-4) = 7$.  
+11. Therefore, the solution is $\mathbf{x} = (7, -4)$.  
+12. Verify by plugging back: $T(7, -4) = (7 + (-4), 4 \cdot 7 + 5 \cdot (-4)) = (3, 28 - 20) = (3, 8)$, confirming correctness.  
+13. Final answer: $\boxed{\mathbf{x} = (7, -4)}$.

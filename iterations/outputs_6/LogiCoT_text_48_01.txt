@@ -1,0 +1,7 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we seek $\mathbf{v}$ such that $\mathbf{u}_1 \cdot \mathbf{v} = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 0$; this is equivalent to solving the homogeneous system $A\mathbf{v} = \mathbf{0}$ where $A = \begin{bmatrix} 1 & 1 & -2 \\ 5 & -1 & 2 \end{bmatrix}$.
+2. Let $\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$, then the system is $x + y - 2z = 0$ and $5x - y + 2z = 0$; these are two equations in three unknowns, so the solution space is at least one-dimensional.
+3. Solve the first equation for $y$: $y = 2z - x$; substitute into the second equation to get $5x - (2z - x) + 2z = 0$.
+4. Simplify: $5x - 2z + x + 2z = 0 \implies 6x = 0 \implies x = 0$; thus, $y = 2z$.
+5. Therefore, the general solution is $\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix} = z\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}$, where $z \neq 0$ gives a nonzero vector.
+6. Verification: $\mathbf{u}_1 \cdot \mathbf{v} = 1 \cdot 0 + 1 \cdot 2z + (-2) \cdot z = 2z - 2z = 0$ and $\mathbf{u}_2 \cdot \mathbf{v} = 5 \cdot 0 + (-1) \cdot 2z + 2 \cdot z = -2z + 2z = 0$, so $\mathbf{v}$ is indeed orthogonal to both.
+7. Final answer: A nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\boxed{\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}$.

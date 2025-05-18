@@ -1,0 +1,7 @@
+1. To find the eigenvalues, set up the characteristic equation $\det(A - \lambda I) = 0$ for $A = \begin{bmatrix}0 & 0 & 0 \\ 0 & 2 & 5 \\ 0 & 0 & 1\end{bmatrix}$.
+2. Compute $A - \lambda I = \begin{bmatrix}0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix}$.
+3. The determinant is $\det(A - \lambda I) = (0-\lambda)\begin{vmatrix}2-\lambda & 5 \\ 0 & 1-\lambda\end{vmatrix}$.
+4. Compute the $2 \times 2$ determinant: $(2-\lambda)(1-\lambda) - 0 \cdot 5 = (2-\lambda)(1-\lambda)$.
+5. Thus, $\det(A - \lambda I) = -\lambda (2-\lambda)(1-\lambda)$.
+6. Set the determinant to zero: $-\lambda (2-\lambda)(1-\lambda) = 0$.
+7. The eigenvalues are the solutions: $\lambda_1 = 0$, $\lambda_2 = 1$, $\lambda_3 = 2$.

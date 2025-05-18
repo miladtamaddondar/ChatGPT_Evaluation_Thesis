@@ -1,0 +1,10 @@
+1. First, find the eigenvalues of \(A\) by solving \(\det(A - \lambda I) = 0\): \(\det\begin{pmatrix} 1-\lambda & -2 \\ 1 & 3-\lambda \end{pmatrix} = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5 = 0\).
+2. Solve the quadratic equation \(\lambda^2 - 4\lambda + 5 = 0\) to get \(\lambda = 2 \pm i\).
+3. The canonical form \(C\) for a complex eigenvalue \(a+bi\) is \(C = \begin{pmatrix} a & -b \\ b & a \end{pmatrix}\), so here \(a=2, b=1\), thus \(C = \begin{pmatrix} 2 & -1 \\ 1 & 2 \end{pmatrix}\).
+4. Find an eigenvector for \(\lambda = 2+i\) by solving \((A - (2+i)I)\vec{v} = 0\): \(A - (2+i)I = \begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix}\).
+5. Let \(v_1 = \begin{pmatrix} x \\ y \end{pmatrix}\), so \((-1-i)x - 2y = 0\) and \(x + (1-i)y = 0\).
+6. From the first equation, \(x = \frac{-2}{1+i}y = (-1+i)y\) (rationalize denominator).
+7. Take \(y=1\), so \(v_1 = \begin{pmatrix} -1+i \\ 1 \end{pmatrix}\).
+8. The real and imaginary parts of \(v_1\) are \(\vec{v}_r = \begin{pmatrix} -1 \\ 1 \end{pmatrix}\), \(\vec{v}_i = \begin{pmatrix} 1 \\ 0 \end{pmatrix}\).
+9. Form \(P\) with these as columns: \(P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}\).
+10. The invertible matrix \(P = \begin{pmatrix} -1 & 1 \\ 1 & 0 \end{pmatrix}\) and \(C = \begin{pmatrix} 2 & -1 \\ 1 & 2 \end{pmatrix}\) satisfy \(A = P C P^{-1}\).

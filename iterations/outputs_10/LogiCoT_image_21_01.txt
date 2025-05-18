@@ -1,0 +1,14 @@
+1. We are given \( A = \begin{bmatrix} 1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \) and \( \mathbf{b} = \begin{bmatrix} -1 \\ 7 \\ -3 \end{bmatrix} \), and need to solve \( A\mathbf{x} = \mathbf{b} \).  
+2. To determine if the solution is unique, we check if \( A \) is invertible by computing its determinant:   \[ \det(A) = 1 \begin{vmatrix} 1 & 6 \\ -2 & -5 \end{vmatrix} - 0 \begin{vmatrix} -2 & 6 \\ 3 & -5 \end{vmatrix} + (-2) \begin{vmatrix} -2 & 1 \\ 3 & -2 \end{vmatrix} \]
+3. Calculate the minors: \( \begin{vmatrix} 1 & 6 \\ -2 & -5 \end{vmatrix} = (1)(-5) - (6)(-2) = -5 + 12 = 7 \), and \( \begin{vmatrix} -2 & 1 \\ 3 & -2 \end{vmatrix} = (-2)(-2) - (1)(3) = 4 - 3 = 1 \).  
+4. Substitute the minors into the determinant formula: \( \det(A) = 1 \cdot 7 + 0 \cdot (\cdots) + (-2) \cdot 1 = 7 - 2 = 5 \).  
+5. Since \( \det(A) = 5 \neq 0 \), \( A \) is invertible and the solution is unique by the Invertible Matrix Theorem.  
+6. The unique solution is \( \mathbf{x} = A^{-1}\mathbf{b} \); to find \( \mathbf{x} \), we can use row reduction or Cramer's Rule.  
+7. Let's solve \( A\mathbf{x} = \mathbf{b} \) using the augmented matrix:   \[ \left[\begin{array}{ccc|c} 1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3 \end{array}\right] \]
+8. Add 2 times row 1 to row 2: row 2 becomes \( [0, 1, 2, 5] \).  
+9. Subtract 3 times row 1 from row 3: row 3 becomes \( [0, -2, 1, 0] \).  
+10. Add 2 times row 2 to row 3: row 3 becomes \( [0, 0, 5, 10] \).  
+11. Divide row 3 by 5: row 3 becomes \( [0, 0, 1, 2] \).  
+12. Subtract 2 times row 3 from row 2: row 2 becomes \( [0, 1, 0, 1] \).  
+13. Add 2 times row 3 to row 1: row 1 becomes \( [1, 0, 0, 3] \).  
+14. The solution is \( \mathbf{x} = \begin{bmatrix} 3 \\ 1 \\ 2 \end{bmatrix} \), and it is unique since \( A \) is invertible.

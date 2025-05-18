@@ -1,0 +1,12 @@
+1. The inner product is defined as \(\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)\). The polynomials are \(p_0(t) = 1\), \(p_1(t) = t\), \(p_2(t) = t^2\).
+2. To compute the orthogonal projection of \(p_2\) onto the subspace spanned by \(p_0\) and \(p_1\), we need to find \(\text{proj}_{V}(p_2)\) where \(V = \text{span}\{p_0, p_1\}\). The projection is \(\text{proj}_V(p_2) = a_0 p_0 + a_1 p_1\) where \(\langle p_2 - (a_0 p_0 + a_1 p_1), p_0 \rangle = 0\) and \(\langle p_2 - (a_0 p_0 + a_1 p_1), p_1 \rangle = 0\).
+3. Compute the inner products: \(\langle p_0, p_0 \rangle = 4\), \(\langle p_0, p_1 \rangle = 0\), \(\langle p_0, p_2 \rangle = 20\), \(\langle p_1, p_1 \rangle = 20\), \(\langle p_1, p_2 \rangle = 0\), \(\langle p_2, p_2 \rangle = 100\).
+4. Set up the equations: \(20 - 4a_0 = 0\) and \(0 - 20a_1 = 0\), so \(a_0 = 5\), \(a_1 = 0\).
+5. The orthogonal projection of \(p_2\) onto the subspace is \(\boxed{5p_0}\).
+6. To find \(q\) orthogonal to \(p_0\) and \(p_1\), let \(q(t) = at^2 + bt + c\) and require \(\langle q, p_0 \rangle = 0\), \(\langle q, p_1 \rangle = 0\).
+7. Compute \(\langle q, p_0 \rangle = a(9+1+1+9) + b(-3-1+1+3) + c(1+1+1+1) = 20a + 0b + 4c = 0\).
+8. Compute \(\langle q, p_1 \rangle = a(-27-1+1+27) + b(9+1+1+9) + c(-3-1+1+3) = 0a + 20b + 0c = 0\).
+9. Thus, \(b = 0\), \(5a + c = 0\), so \(q(t) = at^2 - 5a\).
+10. To scale \(q\) so that its values at \((-3, -1, 1, 3)\) are \((1, -1, -1, 1)\), compute \(q(-3) = a(9) - 5a = 4a\), \(q(-1) = a(1) - 5a = -4a\), \(q(1) = a(1) - 5a = -4a\), \(q(3) = a(9) - 5a = 4a\).
+11. Set \(4a = 1\), so \(a = \frac{1}{4}\), thus \(q(t) = \frac{1}{4}(t^2 - 5)\).
+12. Final answer: The orthogonal projection is \(5p_0\), and the orthogonal polynomial is \(q(t) = \frac{1}{4}(t^2 - 5)\) whose values at \((-3, -1, 1, 3)\) are \((1, -1, -1, 1)\).

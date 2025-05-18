@@ -1,0 +1,10 @@
+1. To construct a nonzero vector \(\mathbf{v}\) in \(\mathbb{R}^3\) that is orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\), we seek \(\mathbf{v}\) such that \(\mathbf{u}_1 \cdot \mathbf{v} = 0\) and \(\mathbf{u}_2 \cdot \mathbf{v} = 0\).  
+2. Let \(\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}\); then the orthogonality conditions become: \(\begin{bmatrix} 1 \\ 1 \\ -2 \end{bmatrix} \cdot \begin{bmatrix} x \\ y \\ z \end{bmatrix} = 0\) and \(\begin{bmatrix} 5 \\ -1 \\ 2 \end{bmatrix} \cdot \begin{bmatrix} x \\ y \\ z \end{bmatrix} = 0\).  
+3. Writing out the dot products gives two equations: \(x + y - 2z = 0\) and \(5x - y + 2z = 0\).  
+4. Solve the first equation for \(y\): \(y = 2z - x\).  
+5. Substitute \(y = 2z - x\) into the second equation: \(5x - (2z - x) + 2z = 0\).  
+6. Simplify: \(5x - 2z + x + 2z = 0 \implies 6x = 0\).  
+7. Thus, \(x = 0\).  
+8. Substitute \(x = 0\) back into \(y = 2z - x\): \(y = 2z\).  
+9. Therefore, the general solution is \(\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix} = z \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}\), where \(z \neq 0\) for a nonzero vector.  
+10. Thus, a nonzero vector \(\mathbf{v}\) orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\) is \(\boxed{\begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}}\).

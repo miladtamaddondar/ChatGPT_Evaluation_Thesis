@@ -1,0 +1,9 @@
+1. Write the vectors as columns of a matrix \(A = \begin{bmatrix} 1 & 0 & -3 & 1 & 2 \\ 0 & 1 & -4 & -3 & 1 \\ -3 & 2 & 1 & -8 & -6 \\ 2 & -3 & 6 & 7 & 9 \end{bmatrix}\).
+2. Use row reduction to find the pivot columns, starting with the first column as the first pivot since it has a leading 1.
+3. Subtract appropriate multiples of the first column from the other columns to zero out the first entry in columns 2–5: column 3 becomes \( \begin{bmatrix} 0 \\ -4 \\ -8 \\ 12 \end{bmatrix} \), column 4 becomes \( \begin{bmatrix} 0 \\ -3 \\ -5 \\ 5 \end{bmatrix} \), column 5 becomes \( \begin{bmatrix} 0 \\ 1 \\ 0 \\ 5 \end{bmatrix} \).
+4. Move to the second row and use the second column as the next pivot since it has a leading 1 in row 2.
+5. Subtract appropriate multiples of the second column from columns 3–5 to zero out the second entry: column 3 becomes \( \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \end{bmatrix} \), column 4 becomes \( \begin{bmatrix} 0 \\ 0 \\ 1 \\ -4 \end{bmatrix} \), column 5 becomes \( \begin{bmatrix} 0 \\ 0 \\ -4 \\ 2 \end{bmatrix} \).
+6. Move to the third row and use the fourth column as the next pivot since it now has a leading 1 in row 3.
+7. Subtract appropriate multiples of the fourth column from the fifth column to zero out the third entry: column 5 becomes \( \begin{bmatrix} 0 \\ 0 \\ 0 \\ -14 \end{bmatrix} \).
+8. The pivot columns are columns 1, 2, and 4, so the corresponding vectors form a basis.
+9. The basis for the space spanned by the vectors is \( \left\{ \begin{bmatrix} 1 \\ 0 \\ -3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 1 \\ 2 \\ -3 \end{bmatrix}, \begin{bmatrix} 1 \\ -3 \\ -8 \\ 7 \end{bmatrix} \right\} \).

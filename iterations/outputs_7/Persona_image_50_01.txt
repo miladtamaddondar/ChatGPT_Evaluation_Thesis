@@ -1,0 +1,18 @@
+1. The inner product is defined as \(\langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3)\).
+2. Compute \(p_0(t) = 1\), so \(p_0(-3) = p_0(-1) = p_0(1) = p_0(3) = 1\).
+3. Compute \(p_1(t) = t\), so \(p_1(-3) = -3\), \(p_1(-1) = -1\), \(p_1(1) = 1\), \(p_1(3) = 3\).
+4. Compute \(p_2(t) = t^2\), so \(p_2(-3) = 9\), \(p_2(-1) = 1\), \(p_2(1) = 1\), \(p_2(3) = 9\).
+5. Compute \(\langle p_2, p_0 \rangle = 9 \cdot 1 + 1 \cdot 1 + 1 \cdot 1 + 9 \cdot 1 = 20\).
+6. Compute \(\langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4\).
+7. Compute \(\langle p_2, p_1 \rangle = 9 \cdot (-3) + 1 \cdot (-1) + 1 \cdot 1 + 9 \cdot 3 = -27 - 1 + 1 + 27 = 0\).
+8. Compute \(\langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20\).
+9. The orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(\frac{\langle p_2, p_0 \rangle}{\langle p_0, p_0 \rangle}p_0 + \frac{\langle p_2, p_1 \rangle}{\langle p_1, p_1 \rangle}p_1\).
+10. Substitute values: \(\frac{20}{4}p_0 + \frac{0}{20}p_1 = 5p_0\).
+11. The orthogonal projection of \(p_2\) onto \(\text{span}\{p_0, p_1\}\) is \(5\).
+12. To find \(q\), set \(q = p_2 - \text{proj}_{\text{span}\{p_0, p_1\}}(p_2) = p_2 - 5p_0 = t^2 - 5\).
+13. Check orthogonality: \(\langle q, p_0 \rangle = \langle t^2 - 5, 1 \rangle = \langle t^2, 1 \rangle - 5\langle 1, 1 \rangle = 20 - 20 = 0\).
+14. Check orthogonality: \(\langle q, p_1 \rangle = \langle t^2 - 5, t \rangle = \langle t^2, t \rangle - 5\langle 1, t \rangle = 0 - 0 = 0\).
+15. The orthogonal basis is \(\{p_0, p_1, q\}\) where \(q = t^2 - 5\).
+16. Evaluate \(q\) at \(-3, -1, 1, 3\): \(q(-3) = 9 - 5 = 4\), \(q(-1) = 1 - 5 = -4\), \(q(1) = 1 - 5 = -4\), \(q(3) = 9 - 5 = 4\).
+17. To scale \(q\) so its values are \((1, -1, -1, 1)\), set \(q_s = \frac{1}{4}(t^2 - 5)\).
+18. The required polynomial is \(q_s(t) = \frac{1}{4}(t^2 - 5)\), which at \(-3, -1, 1, 3\) gives \((1, -1, -1, 1)\).

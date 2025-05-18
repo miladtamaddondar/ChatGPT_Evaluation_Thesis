@@ -1,0 +1,8 @@
+1. Find the eigenvalues of \( A = \begin{pmatrix} 1 & -2 \\ 1 & 3 \end{pmatrix} \) by solving \( \det(A - \lambda I) = 0 \): \(\det\begin{pmatrix} 1-\lambda & -2 \\ 1 & 3-\lambda \end{pmatrix} = (1-\lambda)(3-\lambda) + 2 = \lambda^2 - 4\lambda + 5 = 0\).
+2. Solve the characteristic equation: \( \lambda^2 - 4\lambda + 5 = 0 \implies \lambda = 2 \pm i \).
+3. Find an eigenvector for \( \lambda = 2+i \): Solve \( (A - (2+i)I)\vec{v} = 0 \), i.e., \( \begin{pmatrix} -1-i & -2 \\ 1 & 1-i \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = 0 \).
+4. From the first row: \( (-1-i)x - 2y = 0 \implies x = \frac{-2}{-1-i}y = \frac{2}{1+i}y \). Multiply numerator and denominator by \( 1-i \): \( x = \frac{2(1-i)}{(1+i)(1-i)}y = \frac{2(1-i)}{2}y = (1-i)y \).
+5. Take \( y = 1 \), so eigenvector is \( \vec{v} = \begin{pmatrix} 1-i \\ 1 \end{pmatrix} \).
+6. The real and imaginary parts of this eigenvector are \( \begin{pmatrix} 1 \\ 1 \end{pmatrix} \) and \( \begin{pmatrix} -1 \\ 0 \end{pmatrix} \). Use these as columns of \( P \): \( P = \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix} \).
+7. The corresponding \( C \) matrix is \( \begin{pmatrix} a & b \\ -b & a \end{pmatrix} \) with \( a = 2 \), \( b = 1 \), so \( C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix} \).
+8. Final answer: \( P = \begin{pmatrix} 1 & -1 \\ 1 & 0 \end{pmatrix} \), \( C = \begin{pmatrix} 2 & 1 \\ -1 & 2 \end{pmatrix} \), and \( A = P C P^{-1} \).

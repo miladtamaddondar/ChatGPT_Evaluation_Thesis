@@ -1,0 +1,6 @@
+1. Let \(\mathbf{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}\) be a vector orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\). Set up the system: \(\mathbf{u}_1 \cdot \mathbf{v} = 0\) and \(\mathbf{u}_2 \cdot \mathbf{v} = 0\), which gives the equations: \(x + y - 2z = 0\) and \(5x - y + 2z = 0\).
+2. Write the augmented matrix for the system: \(\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 5 & -1 & 2 & 0 \end{array}\right]\).
+3. Row 2 \(\to\) Row 2 - 5*Row 1: \(\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 0 & -6 & 12 & 0 \end{array}\right]\).
+4. Row 2 \(\to\) Row 2 / (-6): \(\left[\begin{array}{ccc|c} 1 & 1 & -2 & 0 \\ 0 & 1 & -2 & 0 \end{array}\right]\).
+5. Row 1 \(\to\) Row 1 - Row 2: \(\left[\begin{array}{ccc|c} 1 & 0 & 0 & 0 \\ 0 & 1 & -2 & 0 \end{array}\right]\).
+6. The solution is \(x = 0\), \(y = 2z\), so \(\mathbf{v} = \begin{bmatrix} 0 \\ 2z \\ z \end{bmatrix}\). Let \(z = 1\), so \(\mathbf{v} = \begin{bmatrix} 0 \\ 2 \\ 1 \end{bmatrix}\) is a nonzero vector orthogonal to both \(\mathbf{u}_1\) and \(\mathbf{u}_2\).

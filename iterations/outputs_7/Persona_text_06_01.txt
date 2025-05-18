@@ -1,0 +1,7 @@
+1. To find \( B \) such that \( AB = 0 \), each column \( \mathbf{b}_i \) of \( B \) must satisfy \( A\mathbf{b}_i = \mathbf{0} \).
+2. Set \( \mathbf{b}_1 = \begin{bmatrix}x_1 \\ y_1\end{bmatrix} \) and solve \( A\mathbf{b}_1 = \mathbf{0} \), i.e., \( \begin{bmatrix}3 & -6 \\ 1 & -2\end{bmatrix} \begin{bmatrix}x_1 \\ y_1\end{bmatrix} = \begin{bmatrix}0 \\ 0\end{bmatrix} \).
+3. This gives the system: \( 3x_1 - 6y_1 = 0 \) and \( x_1 - 2y_1 = 0 \).
+4. Solving \( x_1 - 2y_1 = 0 \) gives \( x_1 = 2y_1 \).
+5. Let \( y_1 = 1 \), then \( x_1 = 2 \), so \( \mathbf{b}_1 = \begin{bmatrix}2 \\ 1\end{bmatrix} \).
+6. For a different nonzero column, let \( y_2 = 2 \), then \( x_2 = 2 \times 2 = 4 \), so \( \mathbf{b}_2 = \begin{bmatrix}4 \\ 2\end{bmatrix} \).
+7. Thus, \( B = \begin{bmatrix}2 & 4 \\ 1 & 2\end{bmatrix} \) is a \( 2 \times 2 \) matrix with two different nonzero columns such that \( AB = 0 \).

@@ -1,0 +1,8 @@
+1. Write each vector in $\mathcal{B}$ in terms of the standard basis and form the matrix $P$: $\mathcal{B} = \{1 - 3t^2, 2 + t - 5t^2, 1 + 2t\}$, so $P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$.
+2. To write $t^2$ as a linear combination, set up the equation: $a(1 - 3t^2) + b(2 + t - 5t^2) + c(1 + 2t) = t^2$, which gives the augmented matrix: $\left[\begin{array}{ccc|c} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ -3 & -5 & 0 & 1 \end{array}\right]$.
+3. $R_3 \leftarrow R_3 + 3R_1$: $\left[\begin{array}{ccc|c} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 1 & 3 & 1 \end{array}\right]$.
+4. $R_3 \leftarrow R_3 - R_2$: $\left[\begin{array}{ccc|c} 1 & 2 & 1 & 0 \\ 0 & 1 & 2 & 0 \\ 0 & 0 & 1 & 1 \end{array}\right]$.
+5. $R_2 \leftarrow R_2 - 2R_3$: $\left[\begin{array}{ccc|c} 1 & 2 & 1 & 0 \\ 0 & 1 & 0 & -2 \\ 0 & 0 & 1 & 1 \end{array}\right]$.
+6. $R_1 \leftarrow R_1 - R_3$: $\left[\begin{array}{ccc|c} 1 & 2 & 0 & -1 \\ 0 & 1 & 0 & -2 \\ 0 & 0 & 1 & 1 \end{array}\right]$.
+7. $R_1 \leftarrow R_1 - 2R_2$: $\left[\begin{array}{ccc|c} 1 & 0 & 0 & 3 \\ 0 & 1 & 0 & -2 \\ 0 & 0 & 1 & 1 \end{array}\right]$.
+8. Final answer: The change-of-coordinates matrix from $\mathcal{B}$ to the standard basis is $P = \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 2 \\ -3 & -5 & 0 \end{bmatrix}$, and $t^2 = 3(1 - 3t^2) - 2(2 + t - 5t^2) + 1(1 + 2t)$ in terms of $\mathcal{B}$.

@@ -1,0 +1,5 @@
+1. Write the vectors as columns of a matrix: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix}\)
+2. R2 = R2 + 3R1, R3 = R3 - 2R1, R4 = R4 + 4R1: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 10 & -9 \end{bmatrix}\)
+3. R4 = R4 - 2R2: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 5 \end{bmatrix}\)
+4. R4 = R4 - R3: \(\begin{bmatrix} 1 & -3 & 2 & -4 \\ 0 & 0 & 5 & -7 \\ 0 & 0 & 0 & 5 \\ 0 & 0 & 0 & 0 \end{bmatrix}\)
+5. The nonzero columns corresponding to the leading entries are columns 1, 3, and 4, so a basis is \(\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}\) and the dimension is 3.

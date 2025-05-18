@@ -1,0 +1,6 @@
+1. To find a \(2 \times 2\) matrix \(B\) such that \(AB = 0\), each column of \(B\) must be in the null space of \(A\), i.e., \(A\mathbf{x} = 0\).  
+2. Let \(\mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\), so \(A\mathbf{x} = \begin{bmatrix} 3 & -6 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 3x_1 - 6x_2 \\ -x_1 + 2x_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}\).  
+3. Solve \(3x_1 - 6x_2 = 0\) and \(-x_1 + 2x_2 = 0\); both equations are equivalent, so \(x_1 = 2x_2\).  
+4. The general solution is \(\mathbf{x} = x_2 \begin{bmatrix} 2 \\ 1 \end{bmatrix}\), so any scalar multiple of \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) is in the null space.  
+5. To construct \(B\) with two different nonzero columns, choose two different nonzero scalars, e.g., 1 and 2, to get columns \(\begin{bmatrix} 2 \\ 1 \end{bmatrix}\) and \(\begin{bmatrix} 4 \\ 2 \end{bmatrix}\).  
+6. Thus, \(B = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}\) is a \(2 \times 2\) matrix with two different nonzero columns in the null space of \(A\).

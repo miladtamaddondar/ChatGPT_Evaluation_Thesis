@@ -1,0 +1,6 @@
+1. The pivot columns in the echelon form are columns 1, 3, and 4, so the basis for Col $A$ is the set of columns 1, 3, and 4 of $A$: $\left\{ \begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix}, \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix}, \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \right\}$.
+2. The dimension of Col $A$ is the number of pivot columns, which is $3$.
+3. To find a basis for Nul $A$, write the solution to $A\mathbf{x} = \mathbf{0}$ using the free variable $x_2$ (since columns 2 is not a pivot column).
+4. From the echelon form, express $x_1$, $x_3$, and $x_4$ in terms of $x_2$: $x_3 = 0$, $x_4 = 0$, $x_1 - 3x_2 = 0 \implies x_1 = 3x_2$.
+5. The general solution is $\mathbf{x} = x_2 \begin{bmatrix} 3 \\ 1 \\ 0 \\ 0 \end{bmatrix}$, so a basis for Nul $A$ is $\left\{ \begin{bmatrix} 3 \\ 1 \\ 0 \\ 0 \end{bmatrix} \right\}$.
+6. The dimension of Nul $A$ is the number of free variables, which is $1$.

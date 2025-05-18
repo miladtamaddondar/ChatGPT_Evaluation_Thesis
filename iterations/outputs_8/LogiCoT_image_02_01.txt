@@ -1,0 +1,5 @@
+1. The vector \(\mathbf{x}\) in the standard basis is found by multiplying the basis matrix by the coordinate vector: \(\mathbf{x} = P_B [\mathbf{x}]_B\), where \(P_B = \begin{bmatrix}1 & 2 \\ 1 & -1 \\ 3 & 2\end{bmatrix}\) and \([\mathbf{x}]_B = \begin{bmatrix}1 \\ 2\end{bmatrix}\).  
+2. Substitute the given values: \(\mathbf{x} = \begin{bmatrix}1 & 2 \\ 1 & -1 \\ 3 & 2\end{bmatrix} \begin{bmatrix}1 \\ 2\end{bmatrix}\).  
+3. Perform the matrix multiplication: \(\mathbf{x} = \begin{bmatrix}1 \cdot 1 + 2 \cdot 2 \\ 1 \cdot 1 + (-1) \cdot 2 \\ 3 \cdot 1 + 2 \cdot 2\end{bmatrix} = \begin{bmatrix}1 + 4 \\ 1 - 2 \\ 3 + 4\end{bmatrix}\).  
+4. Simplify the results: \(\mathbf{x} = \begin{bmatrix}5 \\ -1 \\ 7\end{bmatrix}\).  
+5. The vector \(\mathbf{x}\) in the standard basis is \(\boxed{\begin{bmatrix}5 \\ -1 \\ 7\end{bmatrix}}\).

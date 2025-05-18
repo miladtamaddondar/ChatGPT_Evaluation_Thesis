@@ -1,0 +1,4 @@
+1. The standard matrix for a rotation by angle \(\theta\) counterclockwise in \(\mathbb{R}^2\) is \(\begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}\); this follows from the definition of rotation in linear algebra.  
+2. For \(\theta = \frac{3\pi}{2}\), compute \(\cos\left(\frac{3\pi}{2}\right) = 0\) and \(\sin\left(\frac{3\pi}{2}\right) = -1\); this is verified by evaluating the unit circle at that angle.  
+3. Substitute these values into the rotation matrix to get \(\begin{bmatrix} 0 & -(-1) \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}\); this uses arithmetic and properties of sine and cosine.  
+4. The standard matrix of \(T\) is \(\boxed{\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}}\); this is the correct matrix for a counterclockwise rotation by \(\frac{3\pi}{2}\) radians.

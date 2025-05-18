@@ -1,0 +1,5 @@
+1. To show \( T \) is a linear transformation, we need to find a matrix \( A \) such that \( T(\mathbf{x}) = A\mathbf{x} \) for \( \mathbf{x} = (x_1, x_2, x_3, x_4)^T \).  
+2. Write the output as a column vector: \( T(\mathbf{x}) = \begin{pmatrix} 0 \\ x_1 + x_2 \\ x_2 + x_3 \\ x_3 + x_4 \end{pmatrix} \).  
+3. Express each component as a linear combination of \( x_1, x_2, x_3, x_4 \): \( 0 = 0x_1 + 0x_2 + 0x_3 + 0x_4 \), \( x_1 + x_2 = 1x_1 + 1x_2 + 0x_3 + 0x_4 \), \( x_2 + x_3 = 0x_1 + 1x_2 + 1x_3 + 0x_4 \), \( x_3 + x_4 = 0x_1 + 0x_2 + 1x_3 + 1x_4 \).  
+4. Write the matrix \( A \) whose rows are the coefficients above: \( A = \begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix} \).  
+5. The matrix \( A \) implements \( T \), so \( T \) is a linear transformation and the matrix is \( \boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}} \).

@@ -1,0 +1,4 @@
+1. The matrix \([Qr_1\ Qr_2\ \ldots\ Qr_p]\) consists of the vectors \(Qr_1, Qr_2, \ldots, Qr_p\) as its columns, where each \(r_i\) is in \(\mathbb{R}^n\) and \(Q\) is an \(m \times n\) matrix.  
+2. Note that multiplying \(Q\) by a matrix whose columns are \(r_1, r_2, \ldots, r_p\) gives exactly this matrix, i.e., \(Q[r_1\ r_2\ \ldots\ r_p] = [Qr_1\ Qr_2\ \ldots\ Qr_p]\).  
+3. Both \(Q\) and \([r_1\ r_2\ \ldots\ r_p]\) are not identity matrices by the problem's construction, so this factorization is valid.  
+4. Therefore, the answer is: \([Qr_1\ Qr_2\ \ldots\ Qr_p] = Q [r_1\ r_2\ \ldots\ r_p]\).

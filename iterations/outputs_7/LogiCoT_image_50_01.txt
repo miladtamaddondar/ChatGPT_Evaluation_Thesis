@@ -1,0 +1,18 @@
+1. The inner product for polynomials \( f, g \) is \( \langle f, g \rangle = f(-3)g(-3) + f(-1)g(-1) + f(1)g(1) + f(3)g(3) \).  
+2. Compute \( \langle p_0, p_0 \rangle = 1^2 + 1^2 + 1^2 + 1^2 = 4 \).  
+3. Compute \( \langle p_0, p_1 \rangle = 1 \cdot (-3) + 1 \cdot (-1) + 1 \cdot 1 + 1 \cdot 3 = 0 \).  
+4. Compute \( \langle p_0, p_2 \rangle = 1 \cdot 9 + 1 \cdot 1 + 1 \cdot 1 + 1 \cdot 9 = 20 \).  
+5. Compute \( \langle p_1, p_1 \rangle = (-3)^2 + (-1)^2 + 1^2 + 3^2 = 9 + 1 + 1 + 9 = 20 \).  
+6. Compute \( \langle p_1, p_2 \rangle = (-3) \cdot 9 + (-1) \cdot 1 + 1 \cdot 1 + 3 \cdot 9 = -27 - 1 + 1 + 27 = 0 \).  
+7. Compute \( \langle p_2, p_2 \rangle = 9^2 + 1^2 + 1^2 + 9^2 = 81 + 1 + 1 + 81 = 164 \).  
+8. The orthogonal projection of \( p_2 \) onto \( \operatorname{Span}\{p_0, p_1\} \) is \( \mathrm{proj}_{p_0}(p_2) + \mathrm{proj}_{p_1}(p_2) \).  
+9. \( \mathrm{proj}_{p_0}(p_2) = \frac{\langle p_2, p_0 \rangle}{\langle p_0, p_0 \rangle} p_0 = \frac{20}{4} \cdot 1 = 5 \).  
+10. \( \mathrm{proj}_{p_1}(p_2) = \frac{\langle p_2, p_1 \rangle}{\langle p_1, p_1 \rangle} p_1 = \frac{0}{20} \cdot t = 0 \).  
+11. Thus, the orthogonal projection is \( 5 \).  
+12. To find \( q \), subtract the projection from \( p_2 \): \( q = p_2 - 5 = t^2 - 5 \).  
+13. Verify \( q \) is orthogonal to \( p_0 \): \( \langle q, p_0 \rangle = \langle t^2 - 5, 1 \rangle = \langle t^2, 1 \rangle - 5 \langle 1, 1 \rangle = 20 - 5 \cdot 4 = 0 \).  
+14. Verify \( q \) is orthogonal to \( p_1 \): \( \langle q, p_1 \rangle = \langle t^2, t \rangle - 5 \langle 1, t \rangle = 0 - 5 \cdot 0 = 0 \).  
+15. Evaluate \( q \) at \( -3, -1, 1, 3 \): \( q(-3) = 9 - 5 = 4 \), \( q(-1) = 1 - 5 = -4 \), \( q(1) = 1 - 5 = -4 \), \( q(3) = 9 - 5 = 4 \).  
+16. To scale \( q \) so its values are \( (1, -1, -1, 1) \), set \( c q(t) \) so \( c \cdot 4 = 1 \implies c = \frac{1}{4} \).  
+17. Thus, the required polynomial is \( \frac{1}{4}(t^2 - 5) \).  
+18. Final answer: The orthogonal projection of \( p_2 \) onto \( \operatorname{Span}\{p_0, p_1\} \) is \( 5 \), and the required orthogonal polynomial is \( q(t) = \frac{1}{4}(t^2 - 5) \).

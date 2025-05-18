@@ -1,0 +1,5 @@
+1. Let \( W = \left\{ \begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} : a, b \in \mathbb{R} \right\} \) and note that the second entry is always 4, not arbitrary.  
+2. To check if \( W \) is a vector space, test closure under addition: let \( \mathbf{u} = \begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} \) and \( \mathbf{v} = \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} \).  
+3. Compute \( \mathbf{u} + \mathbf{v} = \begin{bmatrix} (3a_1 + b_1) + (3a_2 + b_2) \\ 4 + 4 \\ (a_1 - 5b_1) + (a_2 - 5b_2) \end{bmatrix} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix} \).  
+4. The second entry of \( \mathbf{u} + \mathbf{v} \) is 8, not 4, so \( \mathbf{u} + \mathbf{v} \notin W \), showing \( W \) is not closed under addition.  
+5. Therefore, \( W \) is not a vector space because it is not closed under addition.

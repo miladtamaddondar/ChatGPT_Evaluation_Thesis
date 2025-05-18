@@ -1,0 +1,4 @@
+1. Write the transformation in terms of a matrix acting on the vector \((x_1, x_2, x_3, x_4)^T\): \(T(x_1, x_2, x_3, x_4) = (0, x_1 + x_2, x_2 + x_3, x_3 + x_4)\).
+2. Express each output coordinate as a linear combination of the inputs: - First coordinate: \(0 = 0x_1 + 0x_2 + 0x_3 + 0x_4\) - Second coordinate: \(x_1 + x_2 = 1x_1 + 1x_2 + 0x_3 + 0x_4\) - Third coordinate: \(x_2 + x_3 = 0x_1 + 1x_2 + 1x_3 + 0x_4\) - Fourth coordinate: \(x_3 + x_4 = 0x_1 + 0x_2 + 1x_3 + 1x_4\)
+3. Write the matrix that implements this mapping: \(\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}\).
+4. Final answer: The matrix that implements the mapping is \(\boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}}\).

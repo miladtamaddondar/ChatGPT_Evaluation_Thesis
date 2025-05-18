@@ -1,0 +1,12 @@
+1. To find $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{b}$, set up the equation: $\begin{bmatrix}1 & 0 & -2 \\ -2 & 1 & 6 \\ 3 & -2 & -5 \end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix} = \begin{bmatrix}-1 \\ 7 \\ -3\end{bmatrix}$.
+2. Write the system of equations: $1x_1 + 0x_2 - 2x_3 = -1$, $-2x_1 + 1x_2 + 6x_3 = 7$, $3x_1 - 2x_2 - 5x_3 = -3$.
+3. From the first equation, solve for $x_1$: $x_1 - 2x_3 = -1 \implies x_1 = -1 + 2x_3$.
+4. Substitute $x_1$ into the second equation: $-2(-1 + 2x_3) + x_2 + 6x_3 = 7 \implies 2 - 4x_3 + x_2 + 6x_3 = 7$.
+5. Simplify and solve for $x_2$: $2 + x_2 + 2x_3 = 7 \implies x_2 + 2x_3 = 5 \implies x_2 = 5 - 2x_3$.
+6. Substitute $x_1$ and $x_2$ into the third equation: $3(-1 + 2x_3) - 2(5 - 2x_3) - 5x_3 = -3$.
+7. Expand: $-3 + 6x_3 - 10 + 4x_3 - 5x_3 = -3$.
+8. Combine like terms: $(-3 - 10) + (6x_3 + 4x_3 - 5x_3) = -3 \implies -13 + 5x_3 = -3$.
+9. Solve for $x_3$: $5x_3 = 10 \implies x_3 = 2$.
+10. Substitute $x_3 = 2$ into previous expressions: $x_1 = -1 + 2(2) = 3$, $x_2 = 5 - 2(2) = 1$.
+11. The solution is $\mathbf{x} = \begin{bmatrix}3 \\ 1 \\ 2\end{bmatrix}$.
+12. Since each variable was uniquely determined, the solution is unique.

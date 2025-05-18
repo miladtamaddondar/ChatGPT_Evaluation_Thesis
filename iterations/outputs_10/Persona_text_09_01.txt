@@ -1,0 +1,12 @@
+1. Form a matrix with the given vectors as columns: \( A = \begin{bmatrix} 1 & -3 & 2 & -4 \\ -3 & 9 & -1 & 5 \\ 2 & -6 & 4 & -3 \\ -4 & 12 & 2 & 7 \end{bmatrix} \).
+2. Apply row operations to row reduce \( A \) to echelon form to identify linearly independent columns.
+3. The first column is a pivot column, so \(\mathbf{v}_1\) is in the basis.
+4. The second column is \(-3\) times the first column, so it is linearly dependent on \(\mathbf{v}_1\).
+5. Subtract \(2\) times the first column from the third column: \( \mathbf{v}_3 - 2\mathbf{v}_1 = \begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix} - 2\begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix} = \begin{bmatrix} 0 \\ 5 \\ 0 \\ 10 \end{bmatrix} \), which is not the zero vector, so \(\mathbf{v}_3\) is linearly independent from \(\mathbf{v}_1\).
+6. Subtract \(-4\) times the first column from the fourth column: \( \mathbf{v}_4 - (-4)\mathbf{v}_1 = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} + 4\begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix} = \begin{bmatrix} 0 \\ -7 \\ 5 \\ -9 \end{bmatrix} \).
+7. Check if the result from step 6 is a linear combination of the results from step 5 and previous pivots: solve \( a\begin{bmatrix} 1 \\ -3 \\ 2 \\ -4 \end{bmatrix} + b\begin{bmatrix} 2 \\ -1 \\ 4 \\ 2 \end{bmatrix} = \begin{bmatrix} -4 \\ 5 \\ -3 \\ 7 \end{bmatrix} \).
+8. Set up the system: \( a + 2b = -4 \), \( -3a - b = 5 \), \( 2a + 4b = -3 \), \( -4a + 2b = 7 \).
+9. Solve for \(a\) and \(b\): from the first equation, \( a = -4 - 2b \); substitute into the second: \( -3(-4 - 2b) - b = 5 \implies 12 + 6b - b = 5 \implies 5b = -7 \implies b = -\frac{7}{5} \), \( a = -4 - 2(-\frac{7}{5}) = -4 + \frac{14}{5} = -\frac{6}{5} \).
+10. Substitute \(a\) and \(b\) into the third equation: \( 2(-\frac{6}{5}) + 4(-\frac{7}{5}) = -\frac{12}{5} - \frac{28}{5} = -\frac{40}{5} = -8 \), but the third equation is \(2a + 4b = -3\), so \(-8 \neq -3\), so the system is inconsistent, meaning \(\mathbf{v}_4\) is linearly independent from \(\mathbf{v}_1\) and \(\mathbf{v}_3\).
+11. Therefore, a basis for the subspace is \(\left\{ \mathbf{v}_1, \mathbf{v}_3, \mathbf{v}_4 \right\}\).
+12. The dimension of the subspace is \(3\).

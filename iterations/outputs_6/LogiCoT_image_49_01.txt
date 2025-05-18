@@ -1,0 +1,9 @@
+1. We are given \( A = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} \) and \( Q = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \end{bmatrix} \), and need to find an upper triangular \( R \) such that \( A = QR \).  
+2. Since \( Q \) is orthonormal (from Gram-Schmidt), \( Q^T Q = I \), so we can solve for \( R \) by multiplying both sides by \( Q^T \): \( Q^T A = Q^T Q R = R \).  
+3. Compute \( Q^T \): \( Q^T = \begin{bmatrix} 5/6 & 1/6 & -3/6 & 1/6 \\ -1/6 & 5/6 & 1/6 & 3/6 \end{bmatrix} \).  
+4. Compute \( R = Q^T A \):  \[ R = \begin{bmatrix} 5/6 & 1/6 & -3/6 & 1/6 \\ -1/6 & 5/6 & 1/6 & 3/6 \end{bmatrix} \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} \]
+5. Compute the first row of \( R \): \( (5/6) \times 5 + (1/6) \times 1 + (-3/6) \times (-3) + (1/6) \times 1 = (25/6) + (1/6) + (9/6) + (1/6) = (36/6) = 6 \); \( (5/6) \times 9 + (1/6) \times 7 + (-3/6) \times (-5) + (1/6) \times 5 = (45/6) + (7/6) + (15/6) + (5/6) = (72/6) = 12 \).  
+6. Compute the second row of \( R \): \( (-1/6) \times 5 + (5/6) \times 1 + (1/6) \times (-3) + (3/6) \times 1 = (-5/6) + (5/6) + (-3/6) + (3/6) = 0 \); \( (-1/6) \times 9 + (5/6) \times 7 + (1/6) \times (-5) + (3/6) \times 5 = (-9/6) + (35/6) + (-5/6) + (15/6) = (36/6) = 6 \).  
+7. Thus, \( R = \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} \), which is upper triangular as required.  
+8. Verify \( QR = A \): \( Q \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} = \begin{bmatrix} 5/6 & -1/6 \\ 1/6 & 5/6 \\ -3/6 & 1/6 \\ 1/6 & 3/6 \end{bmatrix} \begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix} = \begin{bmatrix} 5 & 9 \\ 1 & 7 \\ -3 & -5 \\ 1 & 5 \end{bmatrix} = A \), confirming correctness.  
+9. Final answer: The upper triangular matrix \( R \) such that \( A = QR \) is \( \boxed{\begin{bmatrix} 6 & 12 \\ 0 & 6 \end{bmatrix}} \).

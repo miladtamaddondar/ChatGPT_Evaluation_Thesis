@@ -1,0 +1,8 @@
+1. To show $T$ is a linear transformation, we seek a $4 \times 4$ matrix $A$ such that $T(\mathbf{x}) = A\mathbf{x}$ for all $\mathbf{x} = (x_1, x_2, x_3, x_4)^T$.  
+2. The first component of $T(\mathbf{x})$ is $0$, which can be written as $0x_1 + 0x_2 + 0x_3 + 0x_4$, so the first row of $A$ is $(0, 0, 0, 0)$.  
+3. The second component is $x_1 + x_2$, so the second row of $A$ is $(1, 1, 0, 0)$.  
+4. The third component is $x_2 + x_3$, so the third row of $A$ is $(0, 1, 1, 0)$.  
+5. The fourth component is $x_3 + x_4$, so the fourth row of $A$ is $(0, 0, 1, 1)$.  
+6. Therefore, the matrix $A$ is $\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}$.  
+7. Verification: Multiplying $A$ by $\mathbf{x}$ yields $(0, x_1 + x_2, x_2 + x_3, x_3 + x_4)^T$, which matches $T(\mathbf{x})$, confirming correctness.  
+8. Final answer: The matrix implementing $T$ is $\boxed{\begin{pmatrix} 0 & 0 & 0 & 0 \\ 1 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 1 & 1 \end{pmatrix}}$.

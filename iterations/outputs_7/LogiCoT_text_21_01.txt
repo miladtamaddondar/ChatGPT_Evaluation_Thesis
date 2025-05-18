@@ -1,0 +1,9 @@
+1. To find $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{b}$, we write the augmented matrix: $\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ -2 & 1 & 6 & 7 \\ 3 & -2 & -5 & -3\end{array}\right]$.
+2. To solve, use row operations; first, add $2$ times row 1 to row 2: row 2 becomes $(-2+2\cdot1, 1+2\cdot0, 6+2\cdot(-2), 7+2\cdot(-1)) = (0, 1, 2, 5)$, so new matrix is $\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 3 & -2 & -5 & -3\end{array}\right]$.
+3. Next, subtract $3$ times row 1 from row 3: row 3 becomes $(3-3\cdot1, -2-3\cdot0, -5-3\cdot(-2), -3-3\cdot(-1)) = (0, -2, 1, 0)$, so new matrix is $\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & -2 & 1 & 0\end{array}\right]$.
+4. Add $2$ times row 2 to row 3: row 3 becomes $(0+2\cdot0, -2+2\cdot1, 1+2\cdot2, 0+2\cdot5) = (0, 0, 5, 10)$, so new matrix is $\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 5 & 10\end{array}\right]$.
+5. Divide row 3 by $5$ to get a leading $1$: row 3 becomes $(0, 0, 1, 2)$, so the matrix is $\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 2 & 5 \\ 0 & 0 & 1 & 2\end{array}\right]$.
+6. Eliminate $2$ from row 2, column 3 by subtracting $2$ times row 3 from row 2: row 2 becomes $(0, 1, 0, 5-2\cdot2) = (0, 1, 0, 1)$, so matrix is $\left[\begin{array}{ccc|c}1 & 0 & -2 & -1 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 2\end{array}\right]$.
+7. Eliminate $-2$ from row 1, column 3 by adding $2$ times row 3 to row 1: row 1 becomes $(1, 0, 0, -1+2\cdot2) = (1, 0, 0, 3)$, so matrix is $\left[\begin{array}{ccc|c}1 & 0 & 0 & 3 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 2\end{array}\right]$.
+8. The solution is $\mathbf{x} = \begin{bmatrix}3 \\ 1 \\ 2\end{bmatrix}$; since the matrix reduced to the identity, the solution is unique because $A$ is invertible (full rank).
+9. Final answer: $\boxed{\mathbf{x} = \begin{bmatrix}3 \\ 1 \\ 2\end{bmatrix}}$ is the unique solution since $A$ is invertible (rank $3$).

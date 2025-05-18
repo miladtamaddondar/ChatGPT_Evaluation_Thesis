@@ -1,0 +1,19 @@
+1. To write $\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$, we first find the orthogonal projection of $\mathbf{y}$ onto $W$ (call it $\mathbf{y}_W$) and then compute $\mathbf{y} - \mathbf{y}_W$ for the orthogonal component.
+2. Form the matrix $U = [\mathbf{u}_1\ \mathbf{u}_2\ \mathbf{u}_3] = \begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix}$.
+3. The projection formula is $\mathbf{y}_W = U(U^T U)^{-1} U^T \mathbf{y}$.
+4. Compute $U^T U = \begin{bmatrix} 1 & 1 & 0 & 1 \\ -1 & 3 & 1 & -2 \\ -1 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 1 & -1 & -1 \\ 1 & 3 & 0 \\ 0 & 1 & 1 \\ 1 & -2 & 1 \end{bmatrix} = \begin{bmatrix} 3 & 0 & 0 \\ 0 & 15 & 5 \\ 0 & 5 & 4 \end{bmatrix}$.
+5. Compute $U^T \mathbf{y} = \begin{bmatrix} 1 & 1 & 0 & 1 \\ -1 & 3 & 1 & -2 \\ -1 & 0 & 1 & 1 \end{bmatrix} \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} = \begin{bmatrix} 6 \\ 4 \\ 0 \end{bmatrix}$.
+6. Solve $(U^T U) \mathbf{c} = U^T \mathbf{y}$ for $\mathbf{c}$: $\begin{bmatrix} 3 & 0 & 0 \\ 0 & 15 & 5 \\ 0 & 5 & 4 \end{bmatrix} \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix} = \begin{bmatrix} 6 \\ 4 \\ 0 \end{bmatrix}$.
+7. From the first row: $3c_1 = 6 \implies c_1 = 2$.
+8. From the second and third rows: $15c_2 + 5c_3 = 4$ and $5c_2 + 4c_3 = 0$.
+9. Solve $5c_2 + 4c_3 = 0 \implies c_2 = -\frac{4}{5}c_3$.
+10. Substitute into $15c_2 + 5c_3 = 4$: $15(-\frac{4}{5}c_3) + 5c_3 = 4 \implies -12c_3 + 5c_3 = 4 \implies -7c_3 = 4 \implies c_3 = -\frac{4}{7}$.
+11. Then $c_2 = -\frac{4}{5}(-\frac{4}{7}) = \frac{16}{35}$.
+12. Thus, $\mathbf{c} = \begin{bmatrix} 2 \\ \frac{16}{35} \\ -\frac{4}{7} \end{bmatrix}$.
+13. Compute $\mathbf{y}_W = U\mathbf{c} = 2\mathbf{u}_1 + \frac{16}{35}\mathbf{u}_2 - \frac{4}{7}\mathbf{u}_3$.
+14. Calculate $2\mathbf{u}_1 = \begin{bmatrix} 2 \\ 2 \\ 0 \\ 2 \end{bmatrix}$, $\frac{16}{35}\mathbf{u}_2 = \begin{bmatrix} -\frac{16}{35} \\ \frac{48}{35} \\ \frac{16}{35} \\ -\frac{32}{35} \end{bmatrix}$, $-\frac{4}{7}\mathbf{u}_3 = \begin{bmatrix} \frac{4}{7} \\ 0 \\ -\frac{4}{7} \\ -\frac{4}{7} \end{bmatrix}$.
+15. Add the vectors: $\mathbf{y}_W = \begin{bmatrix} 2 - \frac{16}{35} + \frac{4}{7} \\ 2 + \frac{48}{35} + 0 \\ 0 + \frac{16}{35} - \frac{4}{7} \\ 2 - \frac{32}{35} - \frac{4}{7} \end{bmatrix}$.
+16. Simplify each entry: $2 - \frac{16}{35} + \frac{20}{35} = 2 + \frac{4}{35} = \frac{74}{35}$; $2 + \frac{48}{35} = \frac{118}{35}$; $0 + \frac{16}{35} - \frac{20}{35} = -\frac{4}{35}$; $2 - \frac{32}{35} - \frac{20}{35} = 2 - \frac{52}{35} = \frac{18}{35}$.
+17. Thus, $\mathbf{y}_W = \begin{bmatrix} \frac{74}{35} \\ \frac{118}{35} \\ -\frac{4}{35} \\ \frac{18}{35} \end{bmatrix}$.
+18. The orthogonal component is $\mathbf{y} - \mathbf{y}_W = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} - \begin{bmatrix} \frac{74}{35} \\ \frac{118}{35} \\ -\frac{4}{35} \\ \frac{18}{35} \end{bmatrix} = \begin{bmatrix} \frac{66}{35} \\ -\frac{13}{35} \\ \frac{109}{35} \\ -\frac{53}{35} \end{bmatrix}$.
+19. The final answer: $\mathbf{y} = \underbrace{\begin{bmatrix} \frac{74}{35} \\ \frac{118}{35} \\ -\frac{4}{35} \\ \frac{18}{35} \end{bmatrix}}_{\text{in } W} + \underbrace{\begin{bmatrix} \frac{66}{35} \\ -\frac{13}{35} \\ \frac{109}{35} \\ -\frac{53}{35} \end{bmatrix}}_{\text{orthogonal to } W}$.

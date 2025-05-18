@@ -1,0 +1,4 @@
+1. Write the characteristic equation by subtracting λ along the diagonal: \(\det\left(\begin{bmatrix}0-\lambda & 0 & 0 \\ 0 & 2-\lambda & 5 \\ 0 & 0 & 1-\lambda\end{bmatrix}\right) = 0\).
+2. Expand the determinant (upper triangular matrix, so product of diagonal entries): \((0-\lambda)(2-\lambda)(1-\lambda) = 0\).
+3. Set each factor to zero and solve: \(\lambda_1 = 0\), \(\lambda_2 = 2\), \(\lambda_3 = 1\).
+4. Final answer: The eigenvalues are \(\boxed{0,\, 2,\, 1}\).

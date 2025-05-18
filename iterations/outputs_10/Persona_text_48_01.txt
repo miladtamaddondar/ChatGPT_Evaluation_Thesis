@@ -1,0 +1,4 @@
+1. To find a nonzero vector $\mathbf{v}$ orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$, we can use the cross product: $\mathbf{v} = \mathbf{u}_1 \times \mathbf{u}_2$.
+2. Compute the cross product: $\mathbf{v} = \begin{bmatrix} 1 \\ 1 \\ -2 \end{bmatrix} \times \begin{bmatrix} 5 \\ -1 \\ 2 \end{bmatrix}$.
+3. Use the formula for the cross product: $\mathbf{v} = \begin{bmatrix} (1)(2) - (-2)(-1) \\ (-2)(5) - (1)(2) \\ (1)(-1) - (1)(5) \end{bmatrix} = \begin{bmatrix} 2 - 2 \\ -10 - 2 \\ -1 - 5 \end{bmatrix} = \begin{bmatrix} 0 \\ -12 \\ -6 \end{bmatrix}$.
+4. Therefore, a nonzero vector orthogonal to both $\mathbf{u}_1$ and $\mathbf{u}_2$ is $\mathbf{v} = \begin{bmatrix} 0 \\ -12 \\ -6 \end{bmatrix}$.

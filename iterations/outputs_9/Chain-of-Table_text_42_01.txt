@@ -1,0 +1,16 @@
+1. Set up the equation $\mathbf{y} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 + \mathbf{z}$, where $\mathbf{z}$ is orthogonal to $W$. To find the projection, solve $c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3 = \mathbf{y}$, or as an augmented matrix: $\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 1 & 3 & 0 & 3 \\ 0 & 1 & 1 & 3 \\ 1 & -2 & 1 & -1 \end{array}\right]$.
+2. $R_2 \leftarrow R_2 - R_1$: $\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 1 & 1 & 3 \\ 1 & -2 & 1 & -1 \end{array}\right]$.
+3. $R_4 \leftarrow R_4 - R_1$: $\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 1 & 1 & 3 \\ 0 & -1 & 2 & -5 \end{array}\right]$.
+4. $R_3 \leftarrow R_3 - \frac{1}{4}R_2$: $\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 0 & \frac{3}{4} & \frac{13}{4} \\ 0 & -1 & 2 & -5 \end{array}\right]$.
+5. $R_4 \leftarrow R_4 + \frac{1}{4}R_2$: $\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 0 & \frac{3}{4} & \frac{13}{4} \\ 0 & 0 & \frac{9}{4} & -\frac{21}{4} \end{array}\right]$.
+6. $R_4 \leftarrow R_4 - 3R_3$: $\left[\begin{array}{ccc|c} 1 & -1 & -1 & 4 \\ 0 & 4 & 1 & -1 \\ 0 & 0 & \frac{3}{4} & \frac{13}{4} \\ 0 & 0 & 0 & -10 \end{array}\right]$.
+7. Back-substitute: From $R_4$, $0 = -10$ shows the system is inconsistent, so $\mathbf{y}$ is not in $W$. To find the orthogonal decomposition, set up the normal equations $A^TA\vec{c} = A^T\mathbf{y}$, where $A = [\mathbf{u}_1\ \mathbf{u}_2\ \mathbf{u}_3]$.
+8. Compute $A^TA = \begin{bmatrix} 3 & -4 & 1 \\ -4 & 15 & 5 \\ 1 & 5 & 3 \end{bmatrix}$ and $A^T\mathbf{y} = \begin{bmatrix} 6 \\ 2 \\ 2 \end{bmatrix}$.
+9. Form the augmented matrix for the normal equations: $\left[\begin{array}{ccc|c} 3 & -4 & 1 & 6 \\ -4 & 15 & 5 & 2 \\ 1 & 5 & 3 & 2 \end{array}\right]$.
+10. $R_2 \leftarrow R_2 + \frac{4}{3}R_1$: $\left[\begin{array}{ccc|c} 3 & -4 & 1 & 6 \\ 0 & \frac{37}{3} & \frac{19}{3} & 10 \\ 1 & 5 & 3 & 2 \end{array}\right]$.
+11. $R_3 \leftarrow R_3 - \frac{1}{3}R_1$: $\left[\begin{array}{ccc|c} 3 & -4 & 1 & 6 \\ 0 & \frac{37}{3} & \frac{19}{3} & 10 \\ 0 & \frac{17}{3} & \frac{8}{3} & 0 \end{array}\right]$.
+12. $R_3 \leftarrow R_3 - \frac{17}{37}R_2$: $\left[\begin{array}{ccc|c} 3 & -4 & 1 & 6 \\ 0 & \frac{37}{3} & \frac{19}{3} & 10 \\ 0 & 0 & -\frac{21}{37} & -\frac{170}{37} \end{array}\right]$.
+13. Solve for $c_3$: $-\frac{21}{37}c_3 = -\frac{170}{37} \implies c_3 = \frac{170}{21}$.
+14. Back-substitute for $c_2$: $\frac{37}{3}c_2 + \frac{19}{3}c_3 = 10 \implies c_2 = \frac{10 - \frac{19}{3} \cdot \frac{170}{21}}{\frac{37}{3}} = \frac{10 - \frac{3230}{63}}{\frac{37}{3}} = \frac{\frac{630 - 3230}{63}}{\frac{37}{3}} = \frac{-2600/63}{37/3} = \frac{-2600}{63} \cdot \frac{3}{37} = -\frac{7800}{2331}$.
+15. Back-substitute for $c_1$: $3c_1 - 4c_2 + c_3 = 6 \implies c_1 = \frac{6 + 4c_2 - c_3}{3} = \frac{6 + 4(-\frac{7800}{2331}) - \frac{170}{21}}{3}$.
+16. The projection is $\mathbf{p} = c_1\mathbf{u}_1 + c_2\mathbf{u}_2 + c_3\mathbf{u}_3$, and $\mathbf{y} = \mathbf{p} + \mathbf{z}$, where $\mathbf{z}$ is orthogonal to $W$.

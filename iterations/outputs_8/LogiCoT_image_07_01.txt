@@ -1,0 +1,6 @@
+1. The matrix \([Qr_1 \ Qr_2 \ \ldots \ Qr_p]\) consists of the vectors \(Qr_1, Qr_2, \ldots, Qr_p\) as its columns, where each \(r_j\) is in \(\mathbb{R}^n\) and \(Q\) is an \(m \times n\) matrix.  
+2. By the definition of matrix multiplication, multiplying \(Q\) by a matrix whose columns are \(r_1, r_2, \ldots, r_p\) gives a matrix whose columns are \(Qr_1, Qr_2, \ldots, Qr_p\).  
+3. Let \(R = [r_1 \ r_2 \ \ldots \ r_p]\), which is an \(n \times p\) matrix whose columns are the vectors \(r_1, \ldots, r_p\).  
+4. The product \(Q R\) is an \(m \times p\) matrix, and its \(j\)-th column is \(Q r_j\) by the properties of matrix multiplication.  
+5. Therefore, \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q [r_1 \ r_2 \ \ldots \ r_p] = Q R\).  
+6. Final answer: \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q R\), where \(Q\) is \(m \times n\) and \(R\) is \(n \times p\), and neither is an identity matrix.

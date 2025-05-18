@@ -1,0 +1,11 @@
+1. To find another eigenvector, first find the eigenvalues by solving $\det(A - \lambda I) = 0$ which gives $\det\left(\begin{bmatrix}0.6-\lambda & 0.3\\0.4 & 0.7-\lambda\end{bmatrix}\right) = 0$.
+2. Compute the determinant: $(0.6-\lambda)(0.7-\lambda) - (0.4)(0.3) = 0$.
+3. Expand: $0.42 - 0.6\lambda - 0.7\lambda + \lambda^2 - 0.12 = 0$.
+4. Simplify: $\lambda^2 - 1.3\lambda + 0.3 = 0$.
+5. Solve the quadratic: $\lambda = \frac{1.3 \pm \sqrt{1.69 - 1.2}}{2} = \frac{1.3 \pm 0.7}{2}$.
+6. The eigenvalues are $\lambda_1 = 1$ and $\lambda_2 = 0.3$.
+7. We are given $\mathbf{v}_1 = \begin{bmatrix}\frac{3}{7}\\\frac{4}{7}\end{bmatrix}$ for $\lambda_1 = 1$.
+8. For $\lambda_2 = 0.3$, solve $(A - 0.3I)\mathbf{v}_2 = 0$, so $A - 0.3I = \begin{bmatrix}0.3 & 0.3\\0.4 & 0.4\end{bmatrix}$.
+9. Write the system: $0.3x + 0.3y = 0$, $0.4x + 0.4y = 0$.
+10. Both equations reduce to $x + y = 0$, so $\mathbf{v}_2 = \begin{bmatrix}1\\-1\end{bmatrix}$ (up to scaling).
+11. The basis for $\mathbb{R}^2$ consisting of eigenvectors is $\left\{\begin{bmatrix}\frac{3}{7}\\\frac{4}{7}\end{bmatrix}, \begin{bmatrix}1\\-1\end{bmatrix}\right\}$.

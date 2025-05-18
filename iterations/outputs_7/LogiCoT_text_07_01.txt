@@ -1,0 +1,4 @@
+1. Recognize that \( Q r_i \) is the matrix-vector product of \( Q \) with each \( r_i \), so the matrix \( [ Q r_1 \; Q r_2 \; \dots \; Q r_p ] \) has as columns the images of \( r_1, \dots, r_p \) under \( Q \).
+2. Note that \( [ Q r_1 \; Q r_2 \; \dots \; Q r_p ] = Q [ r_1 \; r_2 \; \dots \; r_p ] \) by the linearity of matrix multiplication, since multiplying \( Q \) by the matrix whose columns are \( r_1, \dots, r_p \) gives the matrix whose columns are \( Q r_1, \dots, Q r_p \).
+3. Verify correctness: For any \( i \), the \( i \)-th column of \( Q [ r_1 \; r_2 \; \dots \; r_p ] \) is \( Q r_i \), matching the original matrix.
+4. Therefore, the answer is: \( [ Q r_1 \; Q r_2 \; \dots \; Q r_p ] = Q [ r_1 \; r_2 \; \dots \; r_p ] \), which is a product of two matrices, neither of which is an identity matrix.

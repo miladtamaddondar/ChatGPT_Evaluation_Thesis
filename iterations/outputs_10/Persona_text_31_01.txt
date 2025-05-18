@@ -1,0 +1,6 @@
+1. First, write a general vector in $W$ as $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix}$ where $a, b \in \mathbb{R}$.
+2. Express this vector as a linear combination: $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix} = a\begin{bmatrix} 3 \\ 0 \\ 1 \end{bmatrix} + b\begin{bmatrix} 1 \\ 0 \\ -5 \end{bmatrix} + \begin{bmatrix} 0 \\ 4 \\ 0 \end{bmatrix}$.
+3. Note that for any $a, b$, the second component is always $4$, so $W$ consists of all vectors in $\mathbb{R}^3$ whose second entry is $4$.
+4. Check if $W$ is a vector space by testing closure under addition: let $\mathbf{u} = \begin{bmatrix} x_1 \\ 4 \\ z_1 \end{bmatrix}$ and $\mathbf{v} = \begin{bmatrix} x_2 \\ 4 \\ z_2 \end{bmatrix}$, then $\mathbf{u} + \mathbf{v} = \begin{bmatrix} x_1 + x_2 \\ 8 \\ z_1 + z_2 \end{bmatrix}$.
+5. Since the sum's second entry is $8 \neq 4$, $W$ is not closed under addition and therefore is not a vector space.
+6. Final answer: $W$ is not a vector space because it is not closed under addition (e.g., $\begin{bmatrix} 0 \\ 4 \\ 0 \end{bmatrix} + \begin{bmatrix} 0 \\ 4 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 8 \\ 0 \end{bmatrix} \notin W$).

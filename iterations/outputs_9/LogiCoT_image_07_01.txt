@@ -1,0 +1,5 @@
+1. Notice that \( Qr_1, Qr_2, \ldots, Qr_p \) are each the result of multiplying \( Q \) (an \( m \times n \) matrix) by each \( r_i \) (an \( n \times 1 \) vector), so the matrix \([Qr_1 \ Qr_2 \ \ldots \ Qr_p]\) is \( m \times p \).  
+2. Let \( R = [r_1 \ r_2 \ \ldots \ r_p] \), which is an \( n \times p \) matrix whose columns are the vectors \( r_1, \ldots, r_p \).  
+3. The product \( Q R \) is an \( m \times p \) matrix, and its \( i \)-th column is \( Q r_i \), matching the columns of \([Qr_1 \ Qr_2 \ \ldots \ Qr_p]\).  
+4. Therefore, \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q R\), where neither \( Q \) nor \( R \) is an identity matrix.  
+5. Final answer: \([Qr_1 \ Qr_2 \ \ldots \ Qr_p] = Q [r_1 \ r_2 \ \ldots \ r_p]\).

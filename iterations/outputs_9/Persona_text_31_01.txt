@@ -1,0 +1,5 @@
+1. First, write a general vector in $W$ as $\begin{bmatrix} 3a + b \\ 4 \\ a - 5b \end{bmatrix}$ for arbitrary $a, b \in \mathbb{R}$.
+2. Check if $W$ is closed under addition by adding two arbitrary elements: $\begin{bmatrix} 3a_1 + b_1 \\ 4 \\ a_1 - 5b_1 \end{bmatrix} + \begin{bmatrix} 3a_2 + b_2 \\ 4 \\ a_2 - 5b_2 \end{bmatrix} = \begin{bmatrix} 3(a_1 + a_2) + (b_1 + b_2) \\ 8 \\ (a_1 + a_2) - 5(b_1 + b_2) \end{bmatrix}$.
+3. Notice that the second component of the sum is $8$, not $4$, so the sum is not in $W$ (since all vectors in $W$ have $4$ as the second component).
+4. Therefore, $W$ is not closed under addition and is not a vector space.
+5. Final answer: $W$ is not a vector space because it is not closed under addition, as shown in step 2.

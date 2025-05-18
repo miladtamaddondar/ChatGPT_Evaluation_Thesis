@@ -1,0 +1,10 @@
+1. First, find the eigenvalues of $A$ by solving $\det(A - \lambda I) = 0$: $\det\left(\begin{bmatrix}0.6-\lambda & 0.3 \\ 0.4 & 0.7-\lambda\end{bmatrix}\right) = (0.6-\lambda)(0.7-\lambda) - (0.3)(0.4) = 0$.
+2. Expand and simplify: $(0.6-\lambda)(0.7-\lambda) - 0.12 = 0 \implies 0.42 - 0.6\lambda - 0.7\lambda + \lambda^2 - 0.12 = 0$.
+3. Combine like terms: $0.42 - 1.3\lambda + \lambda^2 - 0.12 = 0 \implies \lambda^2 - 1.3\lambda + 0.3 = 0$.
+4. Solve the quadratic equation: $\lambda = \frac{1.3 \pm \sqrt{1.69 - 1.2}}{2} = \frac{1.3 \pm \sqrt{0.49}}{2} = \frac{1.3 \pm 0.7}{2}$.
+5. Thus, the eigenvalues are $\lambda_1 = 1$ and $\lambda_2 = 0.3$.
+6. Since $\mathbf{v}_1 = \begin{bmatrix}3/7 \\ 4/7\end{bmatrix}$ is given, check that it is an eigenvector for $\lambda_1 = 1$: $A\mathbf{v}_1 = \begin{bmatrix}0.6 & 0.3 \\ 0.4 & 0.7\end{bmatrix}\begin{bmatrix}3/7 \\ 4/7\end{bmatrix} = \begin{bmatrix}0.6 \cdot 3/7 + 0.3 \cdot 4/7 \\ 0.4 \cdot 3/7 + 0.7 \cdot 4/7\end{bmatrix} = \begin{bmatrix}(1.8+1.2)/7 \\ (1.2+2.8)/7\end{bmatrix} = \begin{bmatrix}3/7 \\ 4/7\end{bmatrix}$.
+7. Now, find an eigenvector $\mathbf{v}_2$ for $\lambda_2 = 0.3$ by solving $(A - 0.3I)\mathbf{v}_2 = 0$: $A - 0.3I = \begin{bmatrix}0.3 & 0.3 \\ 0.4 & 0.4\end{bmatrix}$.
+8. Set up the system: $0.3x + 0.3y = 0$, $0.4x + 0.4y = 0$; both reduce to $x + y = 0$.
+9. Thus, any vector of the form $\begin{bmatrix}1 \\ -1\end{bmatrix}$ is an eigenvector for $\lambda_2 = 0.3$.
+10. Therefore, a basis for $\mathbb{R}^2$ consisting of eigenvectors of $A$ is $\left\{\begin{bmatrix}3/7 \\ 4/7\end{bmatrix}, \begin{bmatrix}1 \\ -1\end{bmatrix}\right\}$.

@@ -1,0 +1,1 @@
+1. A 4 × 3 matrix with rank 1 can be constructed by making all rows scalar multiples of a single nonzero row, for example: \(\begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ -1 & -2 & -3 \\ 5 & 10 & 15 \end{pmatrix}\).

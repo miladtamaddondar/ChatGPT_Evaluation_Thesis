@@ -1,0 +1,9 @@
+1. Write \( p(t) = 1 + 4t + 7t^2 \) as a linear combination of the basis vectors: \( p(t) = a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) \).
+2. Expand the right side: \( a(1 + t^2) + b(t + t^2) + c(1 + 2t + t^2) = a + at^2 + bt + bt^2 + c + 2ct + ct^2 \).
+3. Combine like terms: \( (a + c) + (b + 2c)t + (a + b + c)t^2 \).
+4. Set up the system by equating coefficients with \( 1 + 4t + 7t^2 \): \( a + c = 1 \), \( b + 2c = 4 \), \( a + b + c = 7 \).
+5. Solve for \( a \) from the first equation: \( a = 1 - c \).
+6. Substitute \( a = 1 - c \) into the third equation: \( (1 - c) + b + c = 7 \implies 1 + b = 7 \implies b = 6 \).
+7. Substitute \( b = 6 \) into the second equation: \( 6 + 2c = 4 \implies 2c = -2 \implies c = -1 \).
+8. Substitute \( c = -1 \) into \( a = 1 - c \): \( a = 1 - (-1) = 2 \).
+9. The coordinate vector of \( p(t) \) relative to \( \mathcal{B} \) is \( \begin{bmatrix} 2 \\ 6 \\ -1 \end{bmatrix} \).

@@ -1,0 +1,18 @@
+1. To write $\mathbf{y}$ as the sum of a vector in $W$ and a vector orthogonal to $W$, we seek $\mathbf{y} = \mathbf{y}_W + \mathbf{y}_\perp$ where $\mathbf{y}_W \in W$ and $\mathbf{y}_\perp \perp W$.
+2. Since $W$ is spanned by $\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3$, any $\mathbf{y}_W \in W$ can be written as $\mathbf{y}_W = a_1\mathbf{u}_1 + a_2\mathbf{u}_2 + a_3\mathbf{u}_3$ for scalars $a_1, a_2, a_3$.
+3. The orthogonal projection of $\mathbf{y}$ onto $W$ is given by $\mathbf{y}_W = U(U^TU)^{-1}U^T\mathbf{y}$, where $U = [\mathbf{u}_1\ \mathbf{u}_2\ \mathbf{u}_3]$ is a $4 \times 3$ matrix.
+4. Compute $U^TU$; first, $U^T$ is a $3 \times 4$ matrix whose rows are $\mathbf{u}_1^T, \mathbf{u}_2^T, \mathbf{u}_3^T$, so $U^TU$ is a $3 \times 3$ matrix with $(i,j)$ entry equal to $\mathbf{u}_i^T\mathbf{u}_j$.
+5. Calculate the entries: $\mathbf{u}_1^T\mathbf{u}_1 = 1^2 + 1^2 + 0^2 + 1^2 = 3$, $\mathbf{u}_1^T\mathbf{u}_2 = 1(-1) + 1(3) + 0(1) + 1(-2) = -1 + 3 + 0 - 2 = 0$, $\mathbf{u}_1^T\mathbf{u}_3 = 1(-1) + 1(0) + 0(1) + 1(1) = -1 + 0 + 0 + 1 = 0$.
+6. Next, $\mathbf{u}_2^T\mathbf{u}_2 = (-1)^2 + 3^2 + 1^2 + (-2)^2 = 1 + 9 + 1 + 4 = 15$, $\mathbf{u}_2^T\mathbf{u}_3 = (-1)(-1) + 3(0) + 1(1) + (-2)(1) = 1 + 0 + 1 - 2 = 0$.
+7. Finally, $\mathbf{u}_3^T\mathbf{u}_3 = (-1)^2 + 0^2 + 1^2 + 1^2 = 1 + 0 + 1 + 1 = 3$.
+8. Thus, $U^TU = \begin{bmatrix} 3 & 0 & 0 \\ 0 & 15 & 0 \\ 0 & 0 & 3 \end{bmatrix}$, which is diagonal, so its inverse is $\begin{bmatrix} 1/3 & 0 & 0 \\ 0 & 1/15 & 0 \\ 0 & 0 & 1/3 \end{bmatrix}$.
+9. Compute $U^T\mathbf{y}$: $\mathbf{u}_1^T\mathbf{y} = 1(4) + 1(3) + 0(3) + 1(-1) = 4 + 3 + 0 - 1 = 6$, $\mathbf{u}_2^T\mathbf{y} = (-1)(4) + 3(3) + 1(3) + (-2)(-1) = -4 + 9 + 3 + 2 = 10$, $\mathbf{u}_3^T\mathbf{y} = (-1)(4) + 0(3) + 1(3) + 1(-1) = -4 + 0 + 3 - 1 = -2$.
+10. So $U^T\mathbf{y} = \begin{bmatrix} 6 \\ 10 \\ -2 \end{bmatrix}$.
+11. Now, $(U^TU)^{-1}U^T\mathbf{y} = \begin{bmatrix} 1/3 & 0 & 0 \\ 0 & 1/15 & 0 \\ 0 & 0 & 1/3 \end{bmatrix} \begin{bmatrix} 6 \\ 10 \\ -2 \end{bmatrix} = \begin{bmatrix} 2 \\ 2/3 \\ -2/3 \end{bmatrix}$.
+12. Therefore, the coefficients are $a_1 = 2$, $a_2 = 2/3$, $a_3 = -2/3$.
+13. Compute $\mathbf{y}_W = 2\mathbf{u}_1 + \frac{2}{3}\mathbf{u}_2 - \frac{2}{3}\mathbf{u}_3$.
+14. Calculate $2\mathbf{u}_1 = \begin{bmatrix} 2 \\ 2 \\ 0 \\ 2 \end{bmatrix}$, $\frac{2}{3}\mathbf{u}_2 = \begin{bmatrix} -2/3 \\ 2 \\ 2/3 \\ -4/3 \end{bmatrix}$, $-\frac{2}{3}\mathbf{u}_3 = \begin{bmatrix} 2/3 \\ 0 \\ -2/3 \\ -2/3 \end{bmatrix}$.
+15. Add these: first entry: $2 + (-2/3) + 2/3 = 2$, second: $2 + 2 + 0 = 4$, third: $0 + 2/3 + (-2/3) = 0$, fourth: $2 + (-4/3) + (-2/3) = 2 - 2 = 0$.
+16. So $\mathbf{y}_W = \begin{bmatrix} 2 \\ 4 \\ 0 \\ 0 \end{bmatrix}$.
+17. The orthogonal component is $\mathbf{y}_\perp = \mathbf{y} - \mathbf{y}_W = \begin{bmatrix} 4 \\ 3 \\ 3 \\ -1 \end{bmatrix} - \begin{bmatrix} 2 \\ 4 \\ 0 \\ 0 \end{bmatrix} = \begin{bmatrix} 2 \\ -1 \\ 3 \\ -1 \end{bmatrix}$.
+18. Final answer: $\boxed{\mathbf{y} = \begin{bmatrix} 2 \\ 4 \\ 0 \\ 0 \end{bmatrix} + \begin{bmatrix} 2 \\ -1 \\ 3 \\ -1 \end{bmatrix}}$, where the first vector is in $W$ and the second is orthogonal to $W$.

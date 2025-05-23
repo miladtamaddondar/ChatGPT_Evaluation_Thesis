@@ -3,7 +3,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 1,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9012699909508228,
     "solution_level_redundancy_score": 0.059622425585985184,
     "step_level_validity_scores": [
@@ -27,7 +27,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 2,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8228539600968361,
     "solution_level_redundancy_score": 0.09170517325401306,
     "step_level_validity_scores": [
@@ -47,7 +47,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 3,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8791904021054506,
     "solution_level_redundancy_score": 0.1941550225019455,
     "step_level_validity_scores": [
@@ -75,7 +75,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 4,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5415304079651833,
     "solution_level_redundancy_score": 0.09125219285488129,
     "step_level_validity_scores": [
@@ -97,7 +97,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 5,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6443813145160675,
     "solution_level_redundancy_score": 0.17614096403121948,
     "step_level_validity_scores": [
@@ -127,7 +127,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 6,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.660531610250473,
     "solution_level_redundancy_score": 0.08291106671094894,
     "step_level_validity_scores": [
@@ -153,7 +153,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 7,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5208102464675903,
     "solution_level_redundancy_score": 0.16986364126205444,
     "step_level_validity_scores": [
@@ -171,7 +171,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 8,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6941561512649059,
     "solution_level_redundancy_score": 0.10604401677846909,
     "step_level_validity_scores": [
@@ -193,7 +193,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 9,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.32346322387456894,
     "solution_level_redundancy_score": 0.1492449939250946,
     "step_level_validity_scores": [
@@ -225,7 +225,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 10,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6926620230078697,
     "solution_level_redundancy_score": 0.22626246511936188,
     "step_level_validity_scores": [
@@ -255,7 +255,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 1,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9331714902073145,
     "solution_level_redundancy_score": 0.0933598130941391,
     "step_level_validity_scores": [
@@ -279,7 +279,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 2,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.22996513172984123,
     "solution_level_redundancy_score": 0.09763889014720917,
     "step_level_validity_scores": [
@@ -295,13 +295,14 @@
       0.01398935355246067,
       0.005313431844115257,
       0.044334106147289276
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 3,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7931368052959442,
     "solution_level_redundancy_score": 0.11393293738365173,
     "step_level_validity_scores": [
@@ -329,7 +330,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 4,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6071751415729523,
     "solution_level_redundancy_score": 0.12956228852272034,
     "step_level_validity_scores": [
@@ -347,7 +348,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 5,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7326057180762291,
     "solution_level_redundancy_score": 0.10931762307882309,
     "step_level_validity_scores": [
@@ -379,7 +380,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 6,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5854564569890499,
     "solution_level_redundancy_score": 0.11651284992694855,
     "step_level_validity_scores": [
@@ -409,7 +410,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 7,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.37408581376075745,
     "solution_level_redundancy_score": 0.1610686331987381,
     "step_level_validity_scores": [
@@ -433,7 +434,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 8,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2046622894704342,
     "solution_level_redundancy_score": 0.11324923485517502,
     "step_level_validity_scores": [
@@ -453,7 +454,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 9,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7121549770236015,
     "solution_level_redundancy_score": 0.4056800305843353,
     "step_level_validity_scores": [
@@ -485,7 +486,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 10,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.23087617754936218,
     "solution_level_redundancy_score": 0.1854773759841919,
     "step_level_validity_scores": [
@@ -517,7 +518,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 1,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9637810923159122,
     "solution_level_redundancy_score": 0.027935419231653214,
     "step_level_validity_scores": [
@@ -539,7 +540,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 2,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6215236373245716,
     "solution_level_redundancy_score": 0.038788098841905594,
     "step_level_validity_scores": [
@@ -559,7 +560,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 3,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6860040612518787,
     "solution_level_redundancy_score": 0.0771997720003128,
     "step_level_validity_scores": [
@@ -583,7 +584,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 4,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5288043543696404,
     "solution_level_redundancy_score": 0.09318282455205917,
     "step_level_validity_scores": [
@@ -601,7 +602,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 5,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5458079949021339,
     "solution_level_redundancy_score": 0.09579508751630783,
     "step_level_validity_scores": [
@@ -629,7 +630,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 6,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6293809451162815,
     "solution_level_redundancy_score": 0.06580488383769989,
     "step_level_validity_scores": [
@@ -659,7 +660,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 7,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4648799002170563,
     "solution_level_redundancy_score": 0.17305605113506317,
     "step_level_validity_scores": [
@@ -677,7 +678,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 8,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5385272577404976,
     "solution_level_redundancy_score": 0.07935169339179993,
     "step_level_validity_scores": [
@@ -701,7 +702,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 9,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.17643962614238262,
     "solution_level_redundancy_score": 0.16906581819057465,
     "step_level_validity_scores": [
@@ -731,13 +732,14 @@
       0.04524184763431549,
       0.011589831672608852,
       0.052368391305208206
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 10,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.24610024318099022,
     "solution_level_redundancy_score": 0.3129139244556427,
     "step_level_validity_scores": [
@@ -757,13 +759,14 @@
       0.03444553539156914,
       0.022387322038412094,
       0.03507086634635925
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 1,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9437205828726292,
     "solution_level_redundancy_score": 0.05485369265079498,
     "step_level_validity_scores": [
@@ -787,7 +790,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 2,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3272705748677254,
     "solution_level_redundancy_score": 0.0522904172539711,
     "step_level_validity_scores": [
@@ -803,13 +806,14 @@
       0.02391989342868328,
       0.006166371516883373,
       0.028432240709662437
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 3,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8593180319294333,
     "solution_level_redundancy_score": 0.11284419149160385,
     "step_level_validity_scores": [
@@ -831,7 +835,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 4,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4993724822998047,
     "solution_level_redundancy_score": 0.10915293544530869,
     "step_level_validity_scores": [
@@ -849,7 +853,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 5,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6631667092442513,
     "solution_level_redundancy_score": 0.167841836810112,
     "step_level_validity_scores": [
@@ -875,7 +879,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 6,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5663570202887058,
     "solution_level_redundancy_score": 0.07768713682889938,
     "step_level_validity_scores": [
@@ -901,7 +905,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 7,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.482358917593956,
     "solution_level_redundancy_score": 0.22949658334255219,
     "step_level_validity_scores": [
@@ -917,7 +921,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 8,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3179871439933777,
     "solution_level_redundancy_score": 0.12642261385917664,
     "step_level_validity_scores": [
@@ -935,7 +939,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 9,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3659908063709736,
     "solution_level_redundancy_score": 0.1476694643497467,
     "step_level_validity_scores": [
@@ -967,7 +971,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 10,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.08886014670133591,
     "solution_level_redundancy_score": 0.17305457592010498,
     "step_level_validity_scores": [
@@ -1001,7 +1005,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 1,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.32864025700837374,
     "solution_level_redundancy_score": 0.10850489884614944,
     "step_level_validity_scores": [
@@ -1025,7 +1029,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 2,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6629786901175976,
     "solution_level_redundancy_score": 0.04027537629008293,
     "step_level_validity_scores": [
@@ -1045,7 +1049,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 3,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5333910416811705,
     "solution_level_redundancy_score": 0.18082763254642487,
     "step_level_validity_scores": [
@@ -1067,7 +1071,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 4,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3496883101761341,
     "solution_level_redundancy_score": 0.03411687910556793,
     "step_level_validity_scores": [
@@ -1083,7 +1087,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 5,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6829910557717085,
     "solution_level_redundancy_score": 0.02911139465868473,
     "step_level_validity_scores": [
@@ -1109,7 +1113,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 6,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6679000612348318,
     "solution_level_redundancy_score": 0.12068334966897964,
     "step_level_validity_scores": [
@@ -1137,7 +1141,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 7,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8330546319484711,
     "solution_level_redundancy_score": 0.14071127772331238,
     "step_level_validity_scores": [
@@ -1151,7 +1155,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 8,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.16287098079919815,
     "solution_level_redundancy_score": 0.1425548940896988,
     "step_level_validity_scores": [
@@ -1175,7 +1179,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 9,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2989360950887203,
     "solution_level_redundancy_score": 0.17045265436172485,
     "step_level_validity_scores": [
@@ -1201,7 +1205,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 10,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.24672733061015606,
     "solution_level_redundancy_score": 0.3183884024620056,
     "step_level_validity_scores": [
@@ -1227,13 +1231,14 @@
       0.019167838618159294,
       0.014338419772684574,
       0.011235891841351986
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 1,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.1984059363603592,
     "solution_level_redundancy_score": 0.12028771638870239,
     "step_level_validity_scores": [
@@ -1257,7 +1262,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 2,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2525561451911926,
     "solution_level_redundancy_score": 0.06737780570983887,
     "step_level_validity_scores": [
@@ -1271,13 +1276,14 @@
       0.02154008112847805,
       0.01658286526799202,
       0.04123176261782646
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 3,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2949933297932148,
     "solution_level_redundancy_score": 0.19592371582984924,
     "step_level_validity_scores": [
@@ -1299,7 +1305,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 4,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2696920558810234,
     "solution_level_redundancy_score": 0.07477506250143051,
     "step_level_validity_scores": [
@@ -1315,7 +1321,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 5,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7756197340786457,
     "solution_level_redundancy_score": 0.1427466869354248,
     "step_level_validity_scores": [
@@ -1341,7 +1347,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 6,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3969285637140274,
     "solution_level_redundancy_score": 0.08004868775606155,
     "step_level_validity_scores": [
@@ -1367,7 +1373,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 7,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6609505265951157,
     "solution_level_redundancy_score": 0.17003484070301056,
     "step_level_validity_scores": [
@@ -1381,7 +1387,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 8,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4459487944841385,
     "solution_level_redundancy_score": 0.139145627617836,
     "step_level_validity_scores": [
@@ -1395,7 +1401,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 9,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.14104675594717264,
     "solution_level_redundancy_score": 0.13898833096027374,
     "step_level_validity_scores": [
@@ -1425,7 +1431,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 10,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.097165547311306,
     "solution_level_redundancy_score": 0.17388270795345306,
     "step_level_validity_scores": [
@@ -1447,7 +1453,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 11,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4939783178269863,
     "solution_level_redundancy_score": 0.06415469944477081,
     "step_level_validity_scores": [
@@ -1467,7 +1473,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 12,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6924670338630676,
     "solution_level_redundancy_score": 0.11900395154953003,
     "step_level_validity_scores": [
@@ -1495,7 +1501,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 13,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5915085040032864,
     "solution_level_redundancy_score": 0.10366259515285492,
     "step_level_validity_scores": [
@@ -1527,7 +1533,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 14,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.21540092676877975,
     "solution_level_redundancy_score": 0.1501973420381546,
     "step_level_validity_scores": [
@@ -1579,7 +1585,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 15,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3367147482931614,
     "solution_level_redundancy_score": 0.11049854010343552,
     "step_level_validity_scores": [
@@ -1609,13 +1615,14 @@
       0.06835637986660004,
       0.0886370837688446,
       0.09261239320039749
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 16,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7592941373586655,
     "solution_level_redundancy_score": 0.06769983470439911,
     "step_level_validity_scores": [
@@ -1643,7 +1650,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 17,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.72012491337955,
     "solution_level_redundancy_score": 0.08008129149675369,
     "step_level_validity_scores": [
@@ -1671,7 +1678,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 18,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4026391729712486,
     "solution_level_redundancy_score": 0.07979034632444382,
     "step_level_validity_scores": [
@@ -1699,7 +1706,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 19,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6900841146707535,
     "solution_level_redundancy_score": 0.09209437668323517,
     "step_level_validity_scores": [
@@ -1727,7 +1734,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 20,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6060832384973764,
     "solution_level_redundancy_score": 0.06781454384326935,
     "step_level_validity_scores": [
@@ -1755,7 +1762,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 11,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5112838558852673,
     "solution_level_redundancy_score": 0.08031588792800903,
     "step_level_validity_scores": [
@@ -1783,7 +1790,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 12,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6748258210718632,
     "solution_level_redundancy_score": 0.11288999021053314,
     "step_level_validity_scores": [
@@ -1811,7 +1818,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 13,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.28894201666116714,
     "solution_level_redundancy_score": 0.08435165882110596,
     "step_level_validity_scores": [
@@ -1841,7 +1848,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 14,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.20885326340794563,
     "solution_level_redundancy_score": 0.3724290132522583,
     "step_level_validity_scores": [
@@ -1889,13 +1896,14 @@
       0.05284810811281204,
       0.038574203848838806,
       0.06511468440294266
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 15,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5049342699348927,
     "solution_level_redundancy_score": 0.1507517546415329,
     "step_level_validity_scores": [
@@ -1931,13 +1939,14 @@
       0.07852094620466232,
       0.11111054569482803,
       0.1507517546415329
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 16,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.31948113441467285,
     "solution_level_redundancy_score": 0.0691925585269928,
     "step_level_validity_scores": [
@@ -1967,7 +1976,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 17,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6690464466810226,
     "solution_level_redundancy_score": 0.1603492796421051,
     "step_level_validity_scores": [
@@ -1993,7 +2002,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 18,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3294802103191614,
     "solution_level_redundancy_score": 0.159561887383461,
     "step_level_validity_scores": [
@@ -2021,7 +2030,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 19,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3544950634241104,
     "solution_level_redundancy_score": 0.11011920869350433,
     "step_level_validity_scores": [
@@ -2061,7 +2070,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 20,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6287171635776758,
     "solution_level_redundancy_score": 0.08597536385059357,
     "step_level_validity_scores": [
@@ -2093,7 +2102,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 11,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5660191383212805,
     "solution_level_redundancy_score": 0.07870375365018845,
     "step_level_validity_scores": [
@@ -2115,7 +2124,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 12,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7751939427107573,
     "solution_level_redundancy_score": 0.060484737157821655,
     "step_level_validity_scores": [
@@ -2145,7 +2154,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 13,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7100369799882174,
     "solution_level_redundancy_score": 0.06203553453087807,
     "step_level_validity_scores": [
@@ -2179,7 +2188,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 14,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4243670403957367,
     "solution_level_redundancy_score": 0.09922502189874649,
     "step_level_validity_scores": [
@@ -2207,7 +2216,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 15,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.38788022473454475,
     "solution_level_redundancy_score": 0.09390116482973099,
     "step_level_validity_scores": [
@@ -2233,13 +2242,14 @@
       0.09390116482973099,
       0.03665865957736969,
       0.04913878068327904
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 16,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6653401292860508,
     "solution_level_redundancy_score": 0.07782453298568726,
     "step_level_validity_scores": [
@@ -2267,7 +2277,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 17,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2742198780179024,
     "solution_level_redundancy_score": 0.04300675168633461,
     "step_level_validity_scores": [
@@ -2289,7 +2299,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 18,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4970490597188473,
     "solution_level_redundancy_score": 0.053503166884183884,
     "step_level_validity_scores": [
@@ -2317,7 +2327,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 19,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3683515153825283,
     "solution_level_redundancy_score": 0.08988950401544571,
     "step_level_validity_scores": [
@@ -2349,7 +2359,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 20,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8107595071196556,
     "solution_level_redundancy_score": 0.06607677787542343,
     "step_level_validity_scores": [
@@ -2383,7 +2393,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 11,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5901182219386101,
     "solution_level_redundancy_score": 0.07506703585386276,
     "step_level_validity_scores": [
@@ -2407,7 +2417,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 12,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6864928789436817,
     "solution_level_redundancy_score": 0.12369183450937271,
     "step_level_validity_scores": [
@@ -2437,7 +2447,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 13,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2889419421553612,
     "solution_level_redundancy_score": 0.06736186146736145,
     "step_level_validity_scores": [
@@ -2471,7 +2481,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 14,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.35311830788850784,
     "solution_level_redundancy_score": 0.0847582295536995,
     "step_level_validity_scores": [
@@ -2495,13 +2505,14 @@
       0.05878979340195656,
       0.03518645092844963,
       0.031792156398296356
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 15,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.42112595587968826,
     "solution_level_redundancy_score": 0.14553505182266235,
     "step_level_validity_scores": [
@@ -2543,7 +2554,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 16,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.37083688750863075,
     "solution_level_redundancy_score": 0.057377491146326065,
     "step_level_validity_scores": [
@@ -2571,7 +2582,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 17,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.46850578486919403,
     "solution_level_redundancy_score": 0.07792290300130844,
     "step_level_validity_scores": [
@@ -2591,7 +2602,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 18,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3287938740104437,
     "solution_level_redundancy_score": 0.07164079695940018,
     "step_level_validity_scores": [
@@ -2613,7 +2624,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 19,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.36522071063518524,
     "solution_level_redundancy_score": 0.08016212284564972,
     "step_level_validity_scores": [
@@ -2649,7 +2660,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 20,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7161052897572517,
     "solution_level_redundancy_score": 0.062435634434223175,
     "step_level_validity_scores": [
@@ -2683,7 +2694,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 11,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5956647880375385,
     "solution_level_redundancy_score": 0.09367404133081436,
     "step_level_validity_scores": [
@@ -2707,7 +2718,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 12,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7012427616864443,
     "solution_level_redundancy_score": 0.06721415370702744,
     "step_level_validity_scores": [
@@ -2733,7 +2744,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 13,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2922002300620079,
     "solution_level_redundancy_score": 0.11410849541425705,
     "step_level_validity_scores": [
@@ -2761,7 +2772,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 14,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.38562338799238205,
     "solution_level_redundancy_score": 0.12643839418888092,
     "step_level_validity_scores": [
@@ -2785,7 +2796,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 15,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.26244665309786797,
     "solution_level_redundancy_score": 0.07404686510562897,
     "step_level_validity_scores": [
@@ -2803,13 +2814,14 @@
       0.06234362721443176,
       0.02392510697245598,
       0.07404686510562897
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 16,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6563862264156342,
     "solution_level_redundancy_score": 0.05726519227027893,
     "step_level_validity_scores": [
@@ -2829,7 +2841,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 17,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.11214193236082792,
     "solution_level_redundancy_score": 0.017977161332964897,
     "step_level_validity_scores": [
@@ -2845,7 +2857,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 18,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5274621974676847,
     "solution_level_redundancy_score": 0.041741449385881424,
     "step_level_validity_scores": [
@@ -2871,7 +2883,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 19,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3654354140162468,
     "solution_level_redundancy_score": 0.10709121078252792,
     "step_level_validity_scores": [
@@ -2899,13 +2911,14 @@
       0.027122247964143753,
       0.05243301764130592,
       0.03396545723080635
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 20,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6737813651561737,
     "solution_level_redundancy_score": 0.1304422914981842,
     "step_level_validity_scores": [
@@ -2935,7 +2948,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 11,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5811375454068184,
     "solution_level_redundancy_score": 0.1062069907784462,
     "step_level_validity_scores": [
@@ -2961,7 +2974,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 12,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8000268749892712,
     "solution_level_redundancy_score": 0.12328048795461655,
     "step_level_validity_scores": [
@@ -2987,7 +3000,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 13,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.29415082186460495,
     "solution_level_redundancy_score": 0.10683497786521912,
     "step_level_validity_scores": [
@@ -3019,7 +3032,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 14,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.26562896370887756,
     "solution_level_redundancy_score": 0.09040973335504532,
     "step_level_validity_scores": [
@@ -3041,7 +3054,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 15,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.412306047976017,
     "solution_level_redundancy_score": 0.1359785795211792,
     "step_level_validity_scores": [
@@ -3065,13 +3078,14 @@
       0.04846370965242386,
       0.09641260653734207,
       0.1359785795211792
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 16,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2502908557653427,
     "solution_level_redundancy_score": 0.05060529708862305,
     "step_level_validity_scores": [
@@ -3091,7 +3105,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 17,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.36037627607584,
     "solution_level_redundancy_score": 0.03923914581537247,
     "step_level_validity_scores": [
@@ -3107,7 +3121,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 18,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4839122071862221,
     "solution_level_redundancy_score": 0.07621919363737106,
     "step_level_validity_scores": [
@@ -3127,7 +3141,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 19,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.35632459074258804,
     "solution_level_redundancy_score": 0.08298394829034805,
     "step_level_validity_scores": [
@@ -3161,7 +3175,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 20,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.521497868001461,
     "solution_level_redundancy_score": 0.07708007097244263,
     "step_level_validity_scores": [
@@ -3187,7 +3201,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 21,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.30467907153069973,
     "solution_level_redundancy_score": 0.08579196035861969,
     "step_level_validity_scores": [
@@ -3219,7 +3233,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 22,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.465566610917449,
     "solution_level_redundancy_score": 0.10328558832406998,
     "step_level_validity_scores": [
@@ -3239,7 +3253,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 23,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7613377198576927,
     "solution_level_redundancy_score": 0.06549038738012314,
     "step_level_validity_scores": [
@@ -3259,7 +3273,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 24,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.33775250893086195,
     "solution_level_redundancy_score": 0.23045507073402405,
     "step_level_validity_scores": [
@@ -3301,7 +3315,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 25,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6656801179051399,
     "solution_level_redundancy_score": 0.151533842086792,
     "step_level_validity_scores": [
@@ -3325,7 +3339,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 26,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6135841533541679,
     "solution_level_redundancy_score": 0.11084426194429398,
     "step_level_validity_scores": [
@@ -3351,7 +3365,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 27,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.786023311316967,
     "solution_level_redundancy_score": 0.09050070494413376,
     "step_level_validity_scores": [
@@ -3383,7 +3397,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 28,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8346520885825157,
     "solution_level_redundancy_score": 0.11475173383951187,
     "step_level_validity_scores": [
@@ -3403,7 +3417,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 29,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8764114966616035,
     "solution_level_redundancy_score": 0.20119857788085938,
     "step_level_validity_scores": [
@@ -3435,7 +3449,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 30,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.589992105960846,
     "solution_level_redundancy_score": 0.21711738407611847,
     "step_level_validity_scores": [
@@ -3459,7 +3473,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 21,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.32378847897052765,
     "solution_level_redundancy_score": 0.2928263247013092,
     "step_level_validity_scores": [
@@ -3499,7 +3513,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 22,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6987340450286865,
     "solution_level_redundancy_score": 0.12463241070508957,
     "step_level_validity_scores": [
@@ -3519,7 +3533,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 23,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.783485971391201,
     "solution_level_redundancy_score": 0.1226571798324585,
     "step_level_validity_scores": [
@@ -3543,7 +3557,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 24,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7267583087086678,
     "solution_level_redundancy_score": 0.08967629075050354,
     "step_level_validity_scores": [
@@ -3575,7 +3589,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 25,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5253328904509544,
     "solution_level_redundancy_score": 0.09452473372220993,
     "step_level_validity_scores": [
@@ -3599,7 +3613,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 26,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7942962273955345,
     "solution_level_redundancy_score": 0.1832907795906067,
     "step_level_validity_scores": [
@@ -3621,7 +3635,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 27,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.36631467193365097,
     "solution_level_redundancy_score": 0.15482228994369507,
     "step_level_validity_scores": [
@@ -3647,7 +3661,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 28,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.684172734618187,
     "solution_level_redundancy_score": 0.10142652690410614,
     "step_level_validity_scores": [
@@ -3671,7 +3685,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 29,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4627761207520962,
     "solution_level_redundancy_score": 0.15147709846496582,
     "step_level_validity_scores": [
@@ -3701,7 +3715,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 30,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4869686961174011,
     "solution_level_redundancy_score": 0.08095679432153702,
     "step_level_validity_scores": [
@@ -3725,7 +3739,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 21,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4621614720672369,
     "solution_level_redundancy_score": 0.0833568274974823,
     "step_level_validity_scores": [
@@ -3753,7 +3767,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 22,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7397027621045709,
     "solution_level_redundancy_score": 0.07015414535999298,
     "step_level_validity_scores": [
@@ -3775,7 +3789,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 23,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7925947355106473,
     "solution_level_redundancy_score": 0.014780217781662941,
     "step_level_validity_scores": [
@@ -3793,7 +3807,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 24,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6752968654036522,
     "solution_level_redundancy_score": 0.12211533635854721,
     "step_level_validity_scores": [
@@ -3829,7 +3843,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 25,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4800638845190406,
     "solution_level_redundancy_score": 0.22923992574214935,
     "step_level_validity_scores": [
@@ -3859,7 +3873,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 26,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6617567762732506,
     "solution_level_redundancy_score": 0.08291632682085037,
     "step_level_validity_scores": [
@@ -3883,7 +3897,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 27,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6494835056364536,
     "solution_level_redundancy_score": 0.19376210868358612,
     "step_level_validity_scores": [
@@ -3909,7 +3923,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 28,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8017672598361969,
     "solution_level_redundancy_score": 0.08482745289802551,
     "step_level_validity_scores": [
@@ -3929,7 +3943,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 29,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.766343233641237,
     "solution_level_redundancy_score": 0.07477294653654099,
     "step_level_validity_scores": [
@@ -3959,7 +3973,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 30,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6416423097252846,
     "solution_level_redundancy_score": 0.08668950200080872,
     "step_level_validity_scores": [
@@ -3991,7 +4005,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 21,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.38519099820405245,
     "solution_level_redundancy_score": 0.12588685750961304,
     "step_level_validity_scores": [
@@ -4025,7 +4039,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 22,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6022302769124508,
     "solution_level_redundancy_score": 0.08454618602991104,
     "step_level_validity_scores": [
@@ -4045,7 +4059,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 23,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7356987670063972,
     "solution_level_redundancy_score": 0.11167297512292862,
     "step_level_validity_scores": [
@@ -4065,7 +4079,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 24,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5766983553767204,
     "solution_level_redundancy_score": 0.18882885575294495,
     "step_level_validity_scores": [
@@ -4101,7 +4115,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 25,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5332337394356728,
     "solution_level_redundancy_score": 0.10664213448762894,
     "step_level_validity_scores": [
@@ -4123,7 +4137,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 26,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7459267824888229,
     "solution_level_redundancy_score": 0.11768697947263718,
     "step_level_validity_scores": [
@@ -4151,7 +4165,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 27,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4069020114839077,
     "solution_level_redundancy_score": 0.14230257272720337,
     "step_level_validity_scores": [
@@ -4179,7 +4193,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 28,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6018185093998909,
     "solution_level_redundancy_score": 0.13957619667053223,
     "step_level_validity_scores": [
@@ -4199,7 +4213,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 29,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.39198680222034454,
     "solution_level_redundancy_score": 0.036299481987953186,
     "step_level_validity_scores": [
@@ -4225,7 +4239,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 30,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.47951122373342514,
     "solution_level_redundancy_score": 0.07006644457578659,
     "step_level_validity_scores": [
@@ -4253,7 +4267,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 21,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6690552867949009,
     "solution_level_redundancy_score": 0.1290372908115387,
     "step_level_validity_scores": [
@@ -4281,7 +4295,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 22,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6066619921475649,
     "solution_level_redundancy_score": 0.057393599301576614,
     "step_level_validity_scores": [
@@ -4299,7 +4313,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 23,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7916467599570751,
     "solution_level_redundancy_score": 0.018116971477866173,
     "step_level_validity_scores": [
@@ -4317,7 +4331,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 24,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.28977820184081793,
     "solution_level_redundancy_score": 0.1330316960811615,
     "step_level_validity_scores": [
@@ -4343,7 +4357,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 25,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5275188144296408,
     "solution_level_redundancy_score": 0.26603877544403076,
     "step_level_validity_scores": [
@@ -4365,7 +4379,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 26,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3494921177625656,
     "solution_level_redundancy_score": 0.10859981179237366,
     "step_level_validity_scores": [
@@ -4383,7 +4397,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 27,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8207364697009325,
     "solution_level_redundancy_score": 0.05017794668674469,
     "step_level_validity_scores": [
@@ -4407,7 +4421,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 28,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.900935485959053,
     "solution_level_redundancy_score": 0.08107997477054596,
     "step_level_validity_scores": [
@@ -4425,7 +4439,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 29,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.32001833338290453,
     "solution_level_redundancy_score": 0.0730285495519638,
     "step_level_validity_scores": [
@@ -4445,7 +4459,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 30,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.1709467531181872,
     "solution_level_redundancy_score": 0.07485544681549072,
     "step_level_validity_scores": [
@@ -4469,7 +4483,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 21,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5508170872926712,
     "solution_level_redundancy_score": 0.10859493911266327,
     "step_level_validity_scores": [
@@ -4497,7 +4511,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 22,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7837844118475914,
     "solution_level_redundancy_score": 0.09608324617147446,
     "step_level_validity_scores": [
@@ -4515,7 +4529,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 23,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7669877298176289,
     "solution_level_redundancy_score": 0.10551374405622482,
     "step_level_validity_scores": [
@@ -4533,7 +4547,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 24,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4266330972313881,
     "solution_level_redundancy_score": 0.13176243007183075,
     "step_level_validity_scores": [
@@ -4565,7 +4579,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 25,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3995585907250643,
     "solution_level_redundancy_score": 0.08928757160902023,
     "step_level_validity_scores": [
@@ -4585,7 +4599,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 26,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6073557958006859,
     "solution_level_redundancy_score": 0.2562563419342041,
     "step_level_validity_scores": [
@@ -4605,7 +4619,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 27,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.25799667835235596,
     "solution_level_redundancy_score": 0.12489321082830429,
     "step_level_validity_scores": [
@@ -4625,7 +4639,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 28,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6225165873765945,
     "solution_level_redundancy_score": 0.127239391207695,
     "step_level_validity_scores": [
@@ -4643,7 +4657,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 29,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.38931928016245365,
     "solution_level_redundancy_score": 0.08583912998437881,
     "step_level_validity_scores": [
@@ -4663,7 +4677,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 30,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.21491464599967003,
     "solution_level_redundancy_score": 0.08229350298643112,
     "step_level_validity_scores": [
@@ -4687,7 +4701,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 31,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.33480561152100563,
     "solution_level_redundancy_score": 0.07841072231531143,
     "step_level_validity_scores": [
@@ -4707,7 +4721,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 32,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9279994405806065,
     "solution_level_redundancy_score": 0.03254837170243263,
     "step_level_validity_scores": [
@@ -4729,7 +4743,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 33,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7346291784197092,
     "solution_level_redundancy_score": 0.19783411920070648,
     "step_level_validity_scores": [
@@ -4749,7 +4763,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 34,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4403459019958973,
     "solution_level_redundancy_score": 0.19810529053211212,
     "step_level_validity_scores": [
@@ -4775,7 +4789,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 35,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7166503015905619,
     "solution_level_redundancy_score": 0.1648409366607666,
     "step_level_validity_scores": [
@@ -4807,7 +4821,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 36,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6652051294222474,
     "solution_level_redundancy_score": 0.14060626924037933,
     "step_level_validity_scores": [
@@ -4829,7 +4843,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 37,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8005223199725151,
     "solution_level_redundancy_score": 0.06679611653089523,
     "step_level_validity_scores": [
@@ -4855,7 +4869,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 38,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7816388290375471,
     "solution_level_redundancy_score": 0.10847625136375427,
     "step_level_validity_scores": [
@@ -4883,7 +4897,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 39,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.36701249424368143,
     "solution_level_redundancy_score": 0.10350095480680466,
     "step_level_validity_scores": [
@@ -4907,7 +4921,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 40,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3560914760455489,
     "solution_level_redundancy_score": 0.07349047064781189,
     "step_level_validity_scores": [
@@ -4941,7 +4955,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 31,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2566171018406749,
     "solution_level_redundancy_score": 0.09933281689882278,
     "step_level_validity_scores": [
@@ -4965,7 +4979,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 32,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8287737742066383,
     "solution_level_redundancy_score": 0.13898953795433044,
     "step_level_validity_scores": [
@@ -4991,7 +5005,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 33,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5134772509336472,
     "solution_level_redundancy_score": 0.142250195145607,
     "step_level_validity_scores": [
@@ -5011,7 +5025,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 34,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2844487950205803,
     "solution_level_redundancy_score": 0.1368969976902008,
     "step_level_validity_scores": [
@@ -5049,7 +5063,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 35,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.43541402369737625,
     "solution_level_redundancy_score": 0.10486070066690445,
     "step_level_validity_scores": [
@@ -5079,7 +5093,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 36,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4475717693567276,
     "solution_level_redundancy_score": 0.2550490200519562,
     "step_level_validity_scores": [
@@ -5101,7 +5115,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 37,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3840896300971508,
     "solution_level_redundancy_score": 0.09085303544998169,
     "step_level_validity_scores": [
@@ -5129,7 +5143,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 38,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.19244423881173134,
     "solution_level_redundancy_score": 0.07985827326774597,
     "step_level_validity_scores": [
@@ -5161,7 +5175,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 39,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4874160438776016,
     "solution_level_redundancy_score": 0.10794878005981445,
     "step_level_validity_scores": [
@@ -5183,7 +5197,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 40,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2741664182394743,
     "solution_level_redundancy_score": 0.08853059262037277,
     "step_level_validity_scores": [
@@ -5211,7 +5225,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 31,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.19389765430241823,
     "solution_level_redundancy_score": 0.22911418974399567,
     "step_level_validity_scores": [
@@ -5231,7 +5245,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 32,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9510492421686649,
     "solution_level_redundancy_score": 0.04643627628684044,
     "step_level_validity_scores": [
@@ -5255,7 +5269,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 33,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7535445671528578,
     "solution_level_redundancy_score": 0.20155061781406403,
     "step_level_validity_scores": [
@@ -5275,7 +5289,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 34,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2649301588535309,
     "solution_level_redundancy_score": 0.19045618176460266,
     "step_level_validity_scores": [
@@ -5305,7 +5319,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 35,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4311459669843316,
     "solution_level_redundancy_score": 0.048159558326005936,
     "step_level_validity_scores": [
@@ -5335,7 +5349,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 36,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5229431549087167,
     "solution_level_redundancy_score": 0.09552742540836334,
     "step_level_validity_scores": [
@@ -5355,7 +5369,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 37,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7743858247995377,
     "solution_level_redundancy_score": 0.060808006674051285,
     "step_level_validity_scores": [
@@ -5377,7 +5391,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 38,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8053949810564518,
     "solution_level_redundancy_score": 0.1043129488825798,
     "step_level_validity_scores": [
@@ -5407,7 +5421,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 39,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3980726106092334,
     "solution_level_redundancy_score": 0.12570907175540924,
     "step_level_validity_scores": [
@@ -5429,7 +5443,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 40,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5726671516895294,
     "solution_level_redundancy_score": 0.11462780833244324,
     "step_level_validity_scores": [
@@ -5471,7 +5485,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 31,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5353392213582993,
     "solution_level_redundancy_score": 0.15257127583026886,
     "step_level_validity_scores": [
@@ -5493,7 +5507,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 32,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7505986392498016,
     "solution_level_redundancy_score": 0.09561631828546524,
     "step_level_validity_scores": [
@@ -5517,7 +5531,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 33,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5326814725995064,
     "solution_level_redundancy_score": 0.1701745241880417,
     "step_level_validity_scores": [
@@ -5537,7 +5551,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 34,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.31549404561519623,
     "solution_level_redundancy_score": 0.13689681887626648,
     "step_level_validity_scores": [
@@ -5571,7 +5585,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 35,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.20575525984168053,
     "solution_level_redundancy_score": 0.056614767760038376,
     "step_level_validity_scores": [
@@ -5601,7 +5615,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 36,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.43753956258296967,
     "solution_level_redundancy_score": 0.2241082489490509,
     "step_level_validity_scores": [
@@ -5623,7 +5637,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 37,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.39306447468698025,
     "solution_level_redundancy_score": 0.09174153953790665,
     "step_level_validity_scores": [
@@ -5647,7 +5661,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 38,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3465598076581955,
     "solution_level_redundancy_score": 0.09108585864305496,
     "step_level_validity_scores": [
@@ -5677,7 +5691,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 39,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5280962288379669,
     "solution_level_redundancy_score": 0.1187889352440834,
     "step_level_validity_scores": [
@@ -5705,7 +5719,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 40,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3103243038058281,
     "solution_level_redundancy_score": 0.13296173512935638,
     "step_level_validity_scores": [
@@ -5745,7 +5759,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 31,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.17557832598686218,
     "solution_level_redundancy_score": 0.13102015852928162,
     "step_level_validity_scores": [
@@ -5765,7 +5779,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 32,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7949156723916531,
     "solution_level_redundancy_score": 0.052215274423360825,
     "step_level_validity_scores": [
@@ -5781,7 +5795,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 33,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5329715684056282,
     "solution_level_redundancy_score": 0.05471018701791763,
     "step_level_validity_scores": [
@@ -5795,7 +5809,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 34,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.26823411509394646,
     "solution_level_redundancy_score": 0.19972175359725952,
     "step_level_validity_scores": [
@@ -5821,7 +5835,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 35,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7272943379357457,
     "solution_level_redundancy_score": 0.07020781934261322,
     "step_level_validity_scores": [
@@ -5847,7 +5861,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 36,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2951263887807727,
     "solution_level_redundancy_score": 0.1993936449289322,
     "step_level_validity_scores": [
@@ -5865,7 +5879,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 37,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7224690429866314,
     "solution_level_redundancy_score": 0.08859369903802872,
     "step_level_validity_scores": [
@@ -5891,7 +5905,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 38,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.04935153387486935,
     "solution_level_redundancy_score": 0.0889701321721077,
     "step_level_validity_scores": [
@@ -5917,7 +5931,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 39,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.34245259314775467,
     "solution_level_redundancy_score": 0.11575791984796524,
     "step_level_validity_scores": [
@@ -5937,7 +5951,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 40,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3022420331835747,
     "solution_level_redundancy_score": 0.07952620089054108,
     "step_level_validity_scores": [
@@ -5965,7 +5979,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 31,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.45516419410705566,
     "solution_level_redundancy_score": 0.14709186553955078,
     "step_level_validity_scores": [
@@ -5985,7 +5999,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 32,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.642238587141037,
     "solution_level_redundancy_score": 0.1022900640964508,
     "step_level_validity_scores": [
@@ -6007,7 +6021,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 33,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6187632381916046,
     "solution_level_redundancy_score": 0.17578640580177307,
     "step_level_validity_scores": [
@@ -6027,7 +6041,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 34,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.18147690407931805,
     "solution_level_redundancy_score": 0.1312153935432434,
     "step_level_validity_scores": [
@@ -6049,7 +6063,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 35,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.46818326227366924,
     "solution_level_redundancy_score": 0.09259253740310669,
     "step_level_validity_scores": [
@@ -6081,7 +6095,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 36,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.34737323224544525,
     "solution_level_redundancy_score": 0.12959152460098267,
     "step_level_validity_scores": [
@@ -6103,7 +6117,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 37,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.25298587419092655,
     "solution_level_redundancy_score": 0.08054324984550476,
     "step_level_validity_scores": [
@@ -6127,7 +6141,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 38,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3876406755298376,
     "solution_level_redundancy_score": 0.0872836709022522,
     "step_level_validity_scores": [
@@ -6159,7 +6173,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 39,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3943028934299946,
     "solution_level_redundancy_score": 0.13650165498256683,
     "step_level_validity_scores": [
@@ -6181,7 +6195,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 40,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2300574267283082,
     "solution_level_redundancy_score": 0.0715295672416687,
     "step_level_validity_scores": [
@@ -6213,7 +6227,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 41,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8707094341516495,
     "solution_level_redundancy_score": 0.16043557226657867,
     "step_level_validity_scores": [
@@ -6243,7 +6257,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 42,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5913141518831253,
     "solution_level_redundancy_score": 0.13118189573287964,
     "step_level_validity_scores": [
@@ -6291,7 +6305,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 43,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3209141083061695,
     "solution_level_redundancy_score": 0.1418066769838333,
     "step_level_validity_scores": [
@@ -6325,7 +6339,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 44,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4905029721558094,
     "solution_level_redundancy_score": 0.1082473024725914,
     "step_level_validity_scores": [
@@ -6355,7 +6369,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 45,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7450520545244217,
     "solution_level_redundancy_score": 0.1470251828432083,
     "step_level_validity_scores": [
@@ -6379,7 +6393,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 46,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.501163188368082,
     "solution_level_redundancy_score": 0.09921877831220627,
     "step_level_validity_scores": [
@@ -6405,13 +6419,14 @@
       0.04578476399183273,
       0.03629300370812416,
       0.05814499408006668
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 47,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6178373917937279,
     "solution_level_redundancy_score": 0.2664685547351837,
     "step_level_validity_scores": [
@@ -6443,7 +6458,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 48,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5315018147230148,
     "solution_level_redundancy_score": 0.10532432049512863,
     "step_level_validity_scores": [
@@ -6475,7 +6490,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 49,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.7194049172103405,
     "solution_level_redundancy_score": 0.3205070495605469,
     "step_level_validity_scores": [
@@ -6507,7 +6522,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "text",
     "problem_number": 50,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.16852754913270473,
     "solution_level_redundancy_score": 0.11720473319292068,
     "step_level_validity_scores": [
@@ -6545,7 +6560,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 41,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3961924687027931,
     "solution_level_redundancy_score": 0.14285138249397278,
     "step_level_validity_scores": [
@@ -6575,7 +6590,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 42,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6275548487901688,
     "solution_level_redundancy_score": 0.15441511571407318,
     "step_level_validity_scores": [
@@ -6619,7 +6634,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 43,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.41607334837317467,
     "solution_level_redundancy_score": 0.18327341973781586,
     "step_level_validity_scores": [
@@ -6657,7 +6672,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 44,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5717245321720839,
     "solution_level_redundancy_score": 0.10487692803144455,
     "step_level_validity_scores": [
@@ -6695,7 +6710,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 45,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.32715946808457375,
     "solution_level_redundancy_score": 0.18460172414779663,
     "step_level_validity_scores": [
@@ -6719,7 +6734,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 46,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6376391276717186,
     "solution_level_redundancy_score": 0.11134342104196548,
     "step_level_validity_scores": [
@@ -6749,13 +6764,14 @@
       0.01855536736547947,
       0.039097677916288376,
       0.11134342104196548
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 47,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6684761270880699,
     "solution_level_redundancy_score": 0.33346474170684814,
     "step_level_validity_scores": [
@@ -6787,7 +6803,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 48,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6269408613443375,
     "solution_level_redundancy_score": 0.07291468977928162,
     "step_level_validity_scores": [
@@ -6817,7 +6833,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 49,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.1607687808573246,
     "solution_level_redundancy_score": 0.14010383188724518,
     "step_level_validity_scores": [
@@ -6849,7 +6865,7 @@
     "type": "LogiCoT",
     "prompt_input_type": "image",
     "problem_number": 50,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5081151574850082,
     "solution_level_redundancy_score": 0.20849519968032837,
     "step_level_validity_scores": [
@@ -6893,7 +6909,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 41,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9645129013806581,
     "solution_level_redundancy_score": 0.037274062633514404,
     "step_level_validity_scores": [
@@ -6923,7 +6939,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 42,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.19089807104319334,
     "solution_level_redundancy_score": 0.10954688489437103,
     "step_level_validity_scores": [
@@ -6967,13 +6983,14 @@
       0.037353210151195526,
       0.011408254504203796,
       0.10954688489437103
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 43,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3885913249105215,
     "solution_level_redundancy_score": 0.07422962039709091,
     "step_level_validity_scores": [
@@ -7033,7 +7050,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 44,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.531318474560976,
     "solution_level_redundancy_score": 0.10690249502658844,
     "step_level_validity_scores": [
@@ -7073,7 +7090,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 45,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8939648512750864,
     "solution_level_redundancy_score": 0.07448381185531616,
     "step_level_validity_scores": [
@@ -7097,7 +7114,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 46,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8447692971676588,
     "solution_level_redundancy_score": 0.07263678312301636,
     "step_level_validity_scores": [
@@ -7129,13 +7146,14 @@
       0.02832990698516369,
       0.032125432044267654,
       0.01997455395758152
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 47,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3206604216247797,
     "solution_level_redundancy_score": 0.07917086035013199,
     "step_level_validity_scores": [
@@ -7169,13 +7187,14 @@
       0.05856294184923172,
       0.05374753102660179,
       0.07917086035013199
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 48,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6086259400472045,
     "solution_level_redundancy_score": 0.18525129556655884,
     "step_level_validity_scores": [
@@ -7201,7 +7220,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 49,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8425287287682295,
     "solution_level_redundancy_score": 0.0863177478313446,
     "step_level_validity_scores": [
@@ -7233,7 +7252,7 @@
     "type": "Persona",
     "prompt_input_type": "text",
     "problem_number": 50,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3877089489251375,
     "solution_level_redundancy_score": 0.09284806251525879,
     "step_level_validity_scores": [
@@ -7281,7 +7300,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 41,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.407167162746191,
     "solution_level_redundancy_score": 0.07180895656347275,
     "step_level_validity_scores": [
@@ -7313,7 +7332,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 42,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.195588119328022,
     "solution_level_redundancy_score": 0.24803781509399414,
     "step_level_validity_scores": [
@@ -7397,13 +7416,14 @@
       0.08075833320617676,
       0.09952884167432785,
       0.24803781509399414
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 43,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.361407857388258,
     "solution_level_redundancy_score": 0.18547110259532928,
     "step_level_validity_scores": [
@@ -7429,7 +7449,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 44,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5166254639625549,
     "solution_level_redundancy_score": 0.11847125738859177,
     "step_level_validity_scores": [
@@ -7461,7 +7481,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 45,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.38749707862734795,
     "solution_level_redundancy_score": 0.2250710129737854,
     "step_level_validity_scores": [
@@ -7485,7 +7505,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 46,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6376385614275932,
     "solution_level_redundancy_score": 0.10189027339220047,
     "step_level_validity_scores": [
@@ -7515,13 +7535,14 @@
       0.018341127783060074,
       0.041171520948410034,
       0.10189027339220047
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 47,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.6888973489403725,
     "solution_level_redundancy_score": 0.09356411546468735,
     "step_level_validity_scores": [
@@ -7543,13 +7564,14 @@
       0.0468977615237236,
       0.09356411546468735,
       0.07852442562580109
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 48,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3553465222939849,
     "solution_level_redundancy_score": 0.06575576215982437,
     "step_level_validity_scores": [
@@ -7575,7 +7597,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 49,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.16425869800150394,
     "solution_level_redundancy_score": 0.10443560034036636,
     "step_level_validity_scores": [
@@ -7607,7 +7629,7 @@
     "type": "Persona",
     "prompt_input_type": "image",
     "problem_number": 50,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.41622865200042725,
     "solution_level_redundancy_score": 0.13188259303569794,
     "step_level_validity_scores": [
@@ -7663,7 +7685,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 41,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.9681641571223736,
     "solution_level_redundancy_score": 0.042064618319272995,
     "step_level_validity_scores": [
@@ -7693,7 +7715,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 42,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5235511511564255,
     "solution_level_redundancy_score": 0.08972760289907455,
     "step_level_validity_scores": [
@@ -7723,13 +7745,14 @@
       0.05791735276579857,
       0.07799335569143295,
       0.06934738904237747
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 43,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.28997819125652313,
     "solution_level_redundancy_score": 0.05082543566823006,
     "step_level_validity_scores": [
@@ -7751,7 +7774,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 44,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5625450350344181,
     "solution_level_redundancy_score": 0.07171734422445297,
     "step_level_validity_scores": [
@@ -7771,13 +7794,14 @@
       0.026475781574845314,
       0.05118659511208534,
       0.05001527816057205
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 45,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8836921006441116,
     "solution_level_redundancy_score": 0.07898839563131332,
     "step_level_validity_scores": [
@@ -7799,7 +7823,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 46,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5029405914247036,
     "solution_level_redundancy_score": 0.0809062123298645,
     "step_level_validity_scores": [
@@ -7823,7 +7847,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 47,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.29803087934851646,
     "solution_level_redundancy_score": 0.08041825890541077,
     "step_level_validity_scores": [
@@ -7849,13 +7873,14 @@
       0.03317957744002342,
       0.08041825890541077,
       0.062737837433815
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 48,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.40869492292404175,
     "solution_level_redundancy_score": 0.04649557173252106,
     "step_level_validity_scores": [
@@ -7877,7 +7902,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 49,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.8559400159865618,
     "solution_level_redundancy_score": 0.14301738142967224,
     "step_level_validity_scores": [
@@ -7901,7 +7926,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "text",
     "problem_number": 50,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.594628669321537,
     "solution_level_redundancy_score": 0.11550363898277283,
     "step_level_validity_scores": [
@@ -7935,7 +7960,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 41,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3593263663351536,
     "solution_level_redundancy_score": 0.08203547447919846,
     "step_level_validity_scores": [
@@ -7963,7 +7988,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 42,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.2965605165809393,
     "solution_level_redundancy_score": 0.18990980088710785,
     "step_level_validity_scores": [
@@ -8005,13 +8030,14 @@
       0.034198082983493805,
       0.038164060562849045,
       0.18990980088710785
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 43,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.3764473721385002,
     "solution_level_redundancy_score": 0.09577176719903946,
     "step_level_validity_scores": [
@@ -8027,13 +8053,14 @@
       0.04066985100507736,
       0.05510742589831352,
       0.07986611127853394
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 44,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.37096124794334173,
     "solution_level_redundancy_score": 0.095119409263134,
     "step_level_validity_scores": [
@@ -8055,7 +8082,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 45,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.38555461168289185,
     "solution_level_redundancy_score": 0.20832109451293945,
     "step_level_validity_scores": [
@@ -8079,7 +8106,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 46,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.5708636976778507,
     "solution_level_redundancy_score": 0.06577559560537338,
     "step_level_validity_scores": [
@@ -8105,7 +8132,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 47,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.15494005102664232,
     "solution_level_redundancy_score": 0.1648462861776352,
     "step_level_validity_scores": [
@@ -8137,13 +8164,14 @@
       0.12456756830215454,
       0.06753325462341309,
       0.1648462861776352
-    ]
+    ],
+    "tag": "incorrect"
   },
   {
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 48,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4437963627278805,
     "solution_level_redundancy_score": 0.04541853442788124,
     "step_level_validity_scores": [
@@ -8167,7 +8195,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 49,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.12461054511368275,
     "solution_level_redundancy_score": 0.09639235585927963,
     "step_level_validity_scores": [
@@ -8189,7 +8217,7 @@
     "type": "Chain-of-Table",
     "prompt_input_type": "image",
     "problem_number": 50,
-    "iteration": 1,
+    "iteration": 8,
     "solution_level_validity_score": 0.4304008949548006,
     "solution_level_redundancy_score": 0.11501059681177139,
     "step_level_validity_scores": [
